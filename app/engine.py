@@ -29,6 +29,9 @@ class Engine:
     fields=['title','question','inputs','method','stop','refute','use_at'];assert all(str(d.get(k,'')).strip() for k in fields),'方法字段必须完整'
     assert any(m['id']==d['material_id'] for m in u['materials']),'来源材料不存在'
     old=next((m for m in u['methods'] if m['id']==d.get('id')),None)
+    if a=='revise' and not old:
+     builtin=next((x for x in load(self.root/'shared/knowledge.json',{'cards':[]})['cards'] if x['id']==d.get('id')),None)
+     if builtin:old={**builtin,'status':'installed','origin':'builtin snapshot'};u['methods'].append(old)
     if a=='revise':assert old and d.get('reason'),'修订必须关联旧方法并说明理由'
     v=1 if not old else old['version']+1;mid=d.get('id') if old else 'U'+uuid.uuid4().hex[:12]
     item={k:d[k] for k in fields};item.update(id=mid,version=v,material_id=d['material_id'],status='extracted',reason=d.get('reason','首次提炼'),scope=d.get('scope','shared'),at=now(),user_review=None)
