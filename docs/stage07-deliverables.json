@@ -1,0 +1,105 @@
+{
+  "at": "2026-11-10T08:05:21.876310+00:00",
+  "companies": [
+    {
+      "company": "002507_涪陵榨菜",
+      "report_files": [
+        {
+          "path": "outputs/research-report/v5-O12487e83a4d7/basis.json",
+          "format": "json",
+          "sha256": "bc24f7869a0e00a36f40057bf7f247cee94c6ef1ef46be5ec97b555e5b996fa1",
+          "bytes": 64936
+        },
+        {
+          "path": "outputs/research-report/v5-O12487e83a4d7/report.html",
+          "format": "html",
+          "sha256": "f1bc8e639d55499ffce79ea330fb99922edaa92438709a57a63e8c8b774963a2",
+          "bytes": 18609
+        },
+        {
+          "path": "outputs/research-report/v5-O12487e83a4d7/report.md",
+          "format": "md",
+          "sha256": "1509a1e16f32b46818059b6b14698f4872a1636edaedf4725944ab4f8a197e67",
+          "bytes": 18196
+        }
+      ],
+      "review": "companies/002507_涪陵榨菜/work/review-batches/README.md",
+      "research_start": "companies/002507_涪陵榨菜/work/research07/研究起点.md"
+    },
+    {
+      "company": "09992_泡泡玛特",
+      "report_files": [
+        {
+          "path": "outputs/research-report/v4-O7eb82dbf49d8/basis.json",
+          "format": "json",
+          "sha256": "82ebcbfdb37fdc3408226c805c85eb05dbe15aaf4250c4cea34ed7c135d04cd6",
+          "bytes": 68987
+        },
+        {
+          "path": "outputs/research-report/v4-O7eb82dbf49d8/report.html",
+          "format": "html",
+          "sha256": "c5cb4bcfbb500b921414b59f9838d887543ef3cd9cf5d0c17044dd84f3442cc0",
+          "bytes": 21424
+        },
+        {
+          "path": "outputs/research-report/v4-O7eb82dbf49d8/report.md",
+          "format": "md",
+          "sha256": "f8efc714d8b3ba4fde011244692a2d0cde1273d35c162cafe715be11c1a9df70",
+          "bytes": 21011
+        }
+      ],
+      "review": "companies/09992_泡泡玛特/work/review-batches/README.md",
+      "research_start": "companies/09992_泡泡玛特/work/research07/研究起点.md"
+    },
+    {
+      "company": "600298_安琪酵母",
+      "report_files": [
+        {
+          "path": "outputs/research-report/v5-Obe8917c15b3b/basis.json",
+          "format": "json",
+          "sha256": "8af66268b61aeb616208604f71983af294d2a0ef0dec449b8da2f1dc6cf293ff",
+          "bytes": 66881
+        },
+        {
+          "path": "outputs/research-report/v5-Obe8917c15b3b/report.html",
+          "format": "html",
+          "sha256": "10c4ade860cf1f2eba9e1a8a2d7fae6816c56c529492074d8535aa4f6c417c22",
+          "bytes": 20049
+        },
+        {
+          "path": "outputs/research-report/v5-Obe8917c15b3b/report.md",
+          "format": "md",
+          "sha256": "a084bf521c1807239cc36c5b78a3a26e1c0845625b5b9b6f8a0fd3762e7896d2",
+          "bytes": 19636
+        }
+      ],
+      "review": "companies/600298_安琪酵母/work/review-batches/README.md",
+      "research_start": "companies/600298_安琪酵母/work/research07/研究起点.md"
+    },
+    {
+      "company": "688188_柏楚电子",
+      "report_files": [
+        {
+          "path": "outputs/research-report/v5-O30cbdf470785/basis.json",
+          "format": "json",
+          "sha256": "350a6b8a71af7f333b77b4b3b9e99ccbe3475e1dc1a157fc51c01da1ba2708aa",
+          "bytes": 65869
+        },
+        {
+          "path": "outputs/research-report/v5-O30cbdf470785/report.html",
+          "format": "html",
+          "sha256": "875a083929f790381782c1d1576af4bf16e8aefeb08d9bf35bf8a2ed5ef5c336",
+          "bytes": 19877
+        },
+        {
+          "path": "outputs/research-report/v5-O30cbdf470785/report.md",
+          "format": "md",
+          "sha256": "5df7aefc29f197fad253686dc3caf66ff47fb6248e4648292112ee1800f7cfe1",
+          "bytes": 19464
+        }
+      ],
+      "review": "companies/688188_柏楚电子/work/review-batches/README.md",
+      "research_start": "companies/688188_柏楚电子/work/research07/研究起点.md"
+    }
+  ]
+}

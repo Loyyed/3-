@@ -1,6 +1,286 @@
 {
   "schema_version": 1,
-  "records": {},
+  "records": {
+    "B07-A01": {
+      "id": "B07-A01",
+      "kind": "disclosure",
+      "claim": "收入2025",
+      "scope": {
+        "period": "2025年度",
+        "entity": "泡泡玛特",
+        "basis": "集团合并年度财务摘要",
+        "definition": "收入2025；按原表列定位，不把归母/合并净利润混同",
+        "unit": "人民币千元",
+        "currency": "CNY"
+      },
+      "sources": [
+        {
+          "source_id": "S47095a39c6425b11",
+          "location": "PDF物理第7页，财务摘要/经营更新，行“收入2025”"
+        }
+      ],
+      "support_boundary": "机器提取候选，尚无人审核准；不单独证明机制或投资价值。",
+      "value": "37120052",
+      "state": "Unknown"
+    },
+    "B07-A02": {
+      "id": "B07-A02",
+      "kind": "disclosure",
+      "claim": "收入2024",
+      "scope": {
+        "period": "2024年度",
+        "entity": "泡泡玛特",
+        "basis": "集团合并年度财务摘要",
+        "definition": "收入2024；按原表列定位，不把归母/合并净利润混同",
+        "unit": "人民币千元",
+        "currency": "CNY"
+      },
+      "sources": [
+        {
+          "source_id": "S47095a39c6425b11",
+          "location": "PDF物理第7页，财务摘要/经营更新，行“收入2024”"
+        }
+      ],
+      "support_boundary": "机器提取候选，尚无人审核准；不单独证明机制或投资价值。",
+      "value": "13037749",
+      "state": "Unknown"
+    },
+    "B07-A03": {
+      "id": "B07-A03",
+      "kind": "disclosure",
+      "claim": "毛利2025",
+      "scope": {
+        "period": "2025年度",
+        "entity": "泡泡玛特",
+        "basis": "集团合并年度财务摘要",
+        "definition": "毛利2025；按原表列定位，不把归母/合并净利润混同",
+        "unit": "人民币千元",
+        "currency": "CNY"
+      },
+      "sources": [
+        {
+          "source_id": "S47095a39c6425b11",
+          "location": "PDF物理第7页，财务摘要/经营更新，行“毛利2025”"
+        }
+      ],
+      "support_boundary": "机器提取候选，尚无人审核准；不单独证明机制或投资价值。",
+      "value": "26764916",
+      "state": "Unknown"
+    },
+    "B07-A04": {
+      "id": "B07-A04",
+      "kind": "disclosure",
+      "claim": "毛利2024",
+      "scope": {
+        "period": "2024年度",
+        "entity": "泡泡玛特",
+        "basis": "集团合并年度财务摘要",
+        "definition": "毛利2024；按原表列定位，不把归母/合并净利润混同",
+        "unit": "人民币千元",
+        "currency": "CNY"
+      },
+      "sources": [
+        {
+          "source_id": "S47095a39c6425b11",
+          "location": "PDF物理第7页，财务摘要/经营更新，行“毛利2024”"
+        }
+      ],
+      "support_boundary": "机器提取候选，尚无人审核准；不单独证明机制或投资价值。",
+      "value": "8707765",
+      "state": "Unknown"
+    },
+    "B07-A05": {
+      "id": "B07-A05",
+      "kind": "disclosure",
+      "claim": "年内溢利2025（含非控股）",
+      "scope": {
+        "period": "2025年度",
+        "entity": "泡泡玛特",
+        "basis": "集团合并年度财务摘要",
+        "definition": "年内溢利2025（含非控股）；按原表列定位，不把归母/合并净利润混同",
+        "unit": "人民币千元",
+        "currency": "CNY"
+      },
+      "sources": [
+        {
+          "source_id": "S47095a39c6425b11",
+          "location": "PDF物理第7页，财务摘要/经营更新，行“年内溢利2025（含非控股）”"
+        }
+      ],
+      "support_boundary": "机器提取候选，尚无人审核准；不单独证明机制或投资价值。",
+      "value": "13012042",
+      "state": "Unknown"
+    },
+    "B07-A06": {
+      "id": "B07-A06",
+      "kind": "disclosure",
+      "claim": "年内溢利2024（含非控股）",
+      "scope": {
+        "period": "2024年度",
+        "entity": "泡泡玛特",
+        "basis": "集团合并年度财务摘要",
+        "definition": "年内溢利2024（含非控股）；按原表列定位，不把归母/合并净利润混同",
+        "unit": "人民币千元",
+        "currency": "CNY"
+      },
+      "sources": [
+        {
+          "source_id": "S47095a39c6425b11",
+          "location": "PDF物理第7页，财务摘要/经营更新，行“年内溢利2024（含非控股）”"
+        }
+      ],
+      "support_boundary": "机器提取候选，尚无人审核准；不单独证明机制或投资价值。",
+      "value": "3308345",
+      "state": "Unknown"
+    },
+    "B07-Q01": {
+      "id": "B07-Q01",
+      "kind": "disclosure",
+      "claim": "集团收入同比",
+      "scope": {
+        "period": "2026Q3相对2025Q3",
+        "entity": "泡泡玛特",
+        "basis": "集团合并；季度数据未经审计",
+        "definition": "集团收入同比；按原表列定位，不把归母/合并净利润混同",
+        "unit": "%",
+        "currency": "CNY"
+      },
+      "sources": [
+        {
+          "source_id": "S92234424087f455a",
+          "location": "PDF物理第1页，财务摘要/经营更新，行“集团收入同比”"
+        }
+      ],
+      "support_boundary": "机器提取候选，尚无人审核准；不单独证明机制或投资价值。",
+      "state": "Unknown"
+    },
+    "B07-Q02": {
+      "id": "B07-Q02",
+      "kind": "disclosure",
+      "claim": "中国收入同比",
+      "scope": {
+        "period": "2026Q3相对2025Q3",
+        "entity": "泡泡玛特",
+        "basis": "集团合并；季度数据未经审计",
+        "definition": "中国收入同比；按原表列定位，不把归母/合并净利润混同",
+        "unit": "%",
+        "currency": "CNY"
+      },
+      "sources": [
+        {
+          "source_id": "S92234424087f455a",
+          "location": "PDF物理第1页，财务摘要/经营更新，行“中国收入同比”"
+        }
+      ],
+      "support_boundary": "机器提取候选，尚无人审核准；不单独证明机制或投资价值。",
+      "state": "Unknown"
+    },
+    "B07-Q03": {
+      "id": "B07-Q03",
+      "kind": "disclosure",
+      "claim": "亚太收入同比",
+      "scope": {
+        "period": "2026Q3相对2025Q3",
+        "entity": "泡泡玛特",
+        "basis": "集团合并；季度数据未经审计",
+        "definition": "亚太收入同比；按原表列定位，不把归母/合并净利润混同",
+        "unit": "%",
+        "currency": "CNY"
+      },
+      "sources": [
+        {
+          "source_id": "S92234424087f455a",
+          "location": "PDF物理第1页，财务摘要/经营更新，行“亚太收入同比”"
+        }
+      ],
+      "support_boundary": "机器提取候选，尚无人审核准；不单独证明机制或投资价值。",
+      "state": "Unknown"
+    },
+    "B07-Q04": {
+      "id": "B07-Q04",
+      "kind": "disclosure",
+      "claim": "美洲收入同比",
+      "scope": {
+        "period": "2026Q3相对2025Q3",
+        "entity": "泡泡玛特",
+        "basis": "集团合并；季度数据未经审计",
+        "definition": "美洲收入同比；按原表列定位，不把归母/合并净利润混同",
+        "unit": "%",
+        "currency": "CNY"
+      },
+      "sources": [
+        {
+          "source_id": "S92234424087f455a",
+          "location": "PDF物理第1页，财务摘要/经营更新，行“美洲收入同比”"
+        }
+      ],
+      "support_boundary": "机器提取候选，尚无人审核准；不单独证明机制或投资价值。",
+      "state": "Unknown"
+    },
+    "B07-Q05": {
+      "id": "B07-Q05",
+      "kind": "disclosure",
+      "claim": "欧洲及其他收入同比",
+      "scope": {
+        "period": "2026Q3相对2025Q3",
+        "entity": "泡泡玛特",
+        "basis": "集团合并；季度数据未经审计",
+        "definition": "欧洲及其他收入同比；按原表列定位，不把归母/合并净利润混同",
+        "unit": "%",
+        "currency": "CNY"
+      },
+      "sources": [
+        {
+          "source_id": "S92234424087f455a",
+          "location": "PDF物理第1页，财务摘要/经营更新，行“欧洲及其他收入同比”"
+        }
+      ],
+      "support_boundary": "机器提取候选，尚无人审核准；不单独证明机制或投资价值。",
+      "state": "Unknown"
+    },
+    "B07-Q06": {
+      "id": "B07-Q06",
+      "kind": "disclosure",
+      "claim": "中国线下收入同比",
+      "scope": {
+        "period": "2026Q3相对2025Q3",
+        "entity": "泡泡玛特",
+        "basis": "集团合并；季度数据未经审计",
+        "definition": "中国线下收入同比；按原表列定位，不把归母/合并净利润混同",
+        "unit": "%",
+        "currency": "CNY"
+      },
+      "sources": [
+        {
+          "source_id": "S92234424087f455a",
+          "location": "PDF物理第1页，财务摘要/经营更新，行“中国线下收入同比”"
+        }
+      ],
+      "support_boundary": "机器提取候选，尚无人审核准；不单独证明机制或投资价值。",
+      "state": "Unknown"
+    },
+    "B07-Q07": {
+      "id": "B07-Q07",
+      "kind": "disclosure",
+      "claim": "中国线上收入同比",
+      "scope": {
+        "period": "2026Q3相对2025Q3",
+        "entity": "泡泡玛特",
+        "basis": "集团合并；季度数据未经审计",
+        "definition": "中国线上收入同比；按原表列定位，不把归母/合并净利润混同",
+        "unit": "%",
+        "currency": "CNY"
+      },
+      "sources": [
+        {
+          "source_id": "S92234424087f455a",
+          "location": "PDF物理第1页，财务摘要/经营更新，行“中国线上收入同比”"
+        }
+      ],
+      "support_boundary": "机器提取候选，尚无人审核准；不单独证明机制或投资价值。",
+      "state": "Unknown"
+    }
+  },
   "events": [
     {
       "id": "E000001",
@@ -65,6 +345,468 @@
       },
       "previous_hash": null,
       "hash": "6a46afc2d903709853f9e0f4f85437759eb0bc8042acd62e9c931da1da60bed5"
+    },
+    {
+      "id": "E000002",
+      "time": "2026-11-10T15:50:10+08:00",
+      "action": "candidate-created",
+      "data": {
+        "record": {
+          "id": "B07-A01",
+          "kind": "disclosure",
+          "claim": "收入2025",
+          "scope": {
+            "period": "2025年度",
+            "entity": "泡泡玛特",
+            "basis": "集团合并年度财务摘要",
+            "definition": "收入2025；按原表列定位，不把归母/合并净利润混同",
+            "unit": "人民币千元",
+            "currency": "CNY"
+          },
+          "sources": [
+            {
+              "source_id": "S47095a39c6425b11",
+              "location": "PDF物理第7页，财务摘要/经营更新，行“收入2025”"
+            }
+          ],
+          "support_boundary": "机器提取候选，尚无人审核准；不单独证明机制或投资价值。",
+          "value": "37120052",
+          "state": "Unknown"
+        },
+        "previous": null
+      },
+      "previous_hash": "6a46afc2d903709853f9e0f4f85437759eb0bc8042acd62e9c931da1da60bed5",
+      "hash": "55f2d7311415390d570627ea28abf9f59e24b5863dda1df699aba49394b47793"
+    },
+    {
+      "id": "E000003",
+      "time": "2026-11-10T15:52:08+08:00",
+      "action": "candidate-revised",
+      "data": {
+        "record": {
+          "id": "B07-A01",
+          "kind": "disclosure",
+          "claim": "收入2025",
+          "scope": {
+            "period": "2025年度",
+            "entity": "泡泡玛特",
+            "basis": "集团合并年度财务摘要",
+            "definition": "收入2025；按原表列定位，不把归母/合并净利润混同",
+            "unit": "人民币千元",
+            "currency": "CNY"
+          },
+          "sources": [
+            {
+              "source_id": "S47095a39c6425b11",
+              "location": "PDF物理第7页，财务摘要/经营更新，行“收入2025”"
+            }
+          ],
+          "support_boundary": "机器提取候选，尚无人审核准；不单独证明机制或投资价值。",
+          "value": "37120052",
+          "state": "Unknown"
+        },
+        "previous": {
+          "id": "B07-A01",
+          "kind": "disclosure",
+          "claim": "收入2025",
+          "scope": {
+            "period": "2025年度",
+            "entity": "泡泡玛特",
+            "basis": "集团合并年度财务摘要",
+            "definition": "收入2025；按原表列定位，不把归母/合并净利润混同",
+            "unit": "人民币千元",
+            "currency": "CNY"
+          },
+          "sources": [
+            {
+              "source_id": "S47095a39c6425b11",
+              "location": "PDF物理第7页，财务摘要/经营更新，行“收入2025”"
+            }
+          ],
+          "support_boundary": "机器提取候选，尚无人审核准；不单独证明机制或投资价值。",
+          "value": "37120052",
+          "state": "Unknown"
+        }
+      },
+      "previous_hash": "55f2d7311415390d570627ea28abf9f59e24b5863dda1df699aba49394b47793",
+      "hash": "4ad565c0923229a3fa76e4729e3afa23c10c89ea67720b1a5ab904bdfb8681dc"
+    },
+    {
+      "id": "E000004",
+      "time": "2026-11-10T15:52:08+08:00",
+      "action": "candidate-created",
+      "data": {
+        "record": {
+          "id": "B07-A02",
+          "kind": "disclosure",
+          "claim": "收入2024",
+          "scope": {
+            "period": "2024年度",
+            "entity": "泡泡玛特",
+            "basis": "集团合并年度财务摘要",
+            "definition": "收入2024；按原表列定位，不把归母/合并净利润混同",
+            "unit": "人民币千元",
+            "currency": "CNY"
+          },
+          "sources": [
+            {
+              "source_id": "S47095a39c6425b11",
+              "location": "PDF物理第7页，财务摘要/经营更新，行“收入2024”"
+            }
+          ],
+          "support_boundary": "机器提取候选，尚无人审核准；不单独证明机制或投资价值。",
+          "value": "13037749",
+          "state": "Unknown"
+        },
+        "previous": null
+      },
+      "previous_hash": "4ad565c0923229a3fa76e4729e3afa23c10c89ea67720b1a5ab904bdfb8681dc",
+      "hash": "a1585062f023bdfc01e3267558143c47b802deb4b85fa6234b16a8cf4162e4d0"
+    },
+    {
+      "id": "E000005",
+      "time": "2026-11-10T15:52:08+08:00",
+      "action": "candidate-created",
+      "data": {
+        "record": {
+          "id": "B07-A03",
+          "kind": "disclosure",
+          "claim": "毛利2025",
+          "scope": {
+            "period": "2025年度",
+            "entity": "泡泡玛特",
+            "basis": "集团合并年度财务摘要",
+            "definition": "毛利2025；按原表列定位，不把归母/合并净利润混同",
+            "unit": "人民币千元",
+            "currency": "CNY"
+          },
+          "sources": [
+            {
+              "source_id": "S47095a39c6425b11",
+              "location": "PDF物理第7页，财务摘要/经营更新，行“毛利2025”"
+            }
+          ],
+          "support_boundary": "机器提取候选，尚无人审核准；不单独证明机制或投资价值。",
+          "value": "26764916",
+          "state": "Unknown"
+        },
+        "previous": null
+      },
+      "previous_hash": "a1585062f023bdfc01e3267558143c47b802deb4b85fa6234b16a8cf4162e4d0",
+      "hash": "3080e19780ba201db654d4eee1d7c15a6e80ffdd4b2e50665c0de725edef6660"
+    },
+    {
+      "id": "E000006",
+      "time": "2026-11-10T15:52:08+08:00",
+      "action": "candidate-created",
+      "data": {
+        "record": {
+          "id": "B07-A04",
+          "kind": "disclosure",
+          "claim": "毛利2024",
+          "scope": {
+            "period": "2024年度",
+            "entity": "泡泡玛特",
+            "basis": "集团合并年度财务摘要",
+            "definition": "毛利2024；按原表列定位，不把归母/合并净利润混同",
+            "unit": "人民币千元",
+            "currency": "CNY"
+          },
+          "sources": [
+            {
+              "source_id": "S47095a39c6425b11",
+              "location": "PDF物理第7页，财务摘要/经营更新，行“毛利2024”"
+            }
+          ],
+          "support_boundary": "机器提取候选，尚无人审核准；不单独证明机制或投资价值。",
+          "value": "8707765",
+          "state": "Unknown"
+        },
+        "previous": null
+      },
+      "previous_hash": "3080e19780ba201db654d4eee1d7c15a6e80ffdd4b2e50665c0de725edef6660",
+      "hash": "1201fe0047861de6473c4f20c981379e890ca1bf04b73f0b46a93264afd51929"
+    },
+    {
+      "id": "E000007",
+      "time": "2026-11-10T15:52:08+08:00",
+      "action": "candidate-created",
+      "data": {
+        "record": {
+          "id": "B07-A05",
+          "kind": "disclosure",
+          "claim": "年内溢利2025（含非控股）",
+          "scope": {
+            "period": "2025年度",
+            "entity": "泡泡玛特",
+            "basis": "集团合并年度财务摘要",
+            "definition": "年内溢利2025（含非控股）；按原表列定位，不把归母/合并净利润混同",
+            "unit": "人民币千元",
+            "currency": "CNY"
+          },
+          "sources": [
+            {
+              "source_id": "S47095a39c6425b11",
+              "location": "PDF物理第7页，财务摘要/经营更新，行“年内溢利2025（含非控股）”"
+            }
+          ],
+          "support_boundary": "机器提取候选，尚无人审核准；不单独证明机制或投资价值。",
+          "value": "13012042",
+          "state": "Unknown"
+        },
+        "previous": null
+      },
+      "previous_hash": "1201fe0047861de6473c4f20c981379e890ca1bf04b73f0b46a93264afd51929",
+      "hash": "a6102a74c28fd349ae79f30c8d6102608a0dbd03b3c3eecf8b199bdb57f178c6"
+    },
+    {
+      "id": "E000008",
+      "time": "2026-11-10T15:52:08+08:00",
+      "action": "candidate-created",
+      "data": {
+        "record": {
+          "id": "B07-A06",
+          "kind": "disclosure",
+          "claim": "年内溢利2024（含非控股）",
+          "scope": {
+            "period": "2024年度",
+            "entity": "泡泡玛特",
+            "basis": "集团合并年度财务摘要",
+            "definition": "年内溢利2024（含非控股）；按原表列定位，不把归母/合并净利润混同",
+            "unit": "人民币千元",
+            "currency": "CNY"
+          },
+          "sources": [
+            {
+              "source_id": "S47095a39c6425b11",
+              "location": "PDF物理第7页，财务摘要/经营更新，行“年内溢利2024（含非控股）”"
+            }
+          ],
+          "support_boundary": "机器提取候选，尚无人审核准；不单独证明机制或投资价值。",
+          "value": "3308345",
+          "state": "Unknown"
+        },
+        "previous": null
+      },
+      "previous_hash": "a6102a74c28fd349ae79f30c8d6102608a0dbd03b3c3eecf8b199bdb57f178c6",
+      "hash": "12640b1f5fb4dae5c5abc77a0133803de4bbf33f6121373df2e4ae4d4fc25b71"
+    },
+    {
+      "id": "E000009",
+      "time": "2026-11-10T15:52:08+08:00",
+      "action": "candidate-created",
+      "data": {
+        "record": {
+          "id": "B07-Q01",
+          "kind": "disclosure",
+          "claim": "集团收入同比",
+          "scope": {
+            "period": "2026Q3相对2025Q3",
+            "entity": "泡泡玛特",
+            "basis": "集团合并；季度数据未经审计",
+            "definition": "集团收入同比；按原表列定位，不把归母/合并净利润混同",
+            "unit": "%",
+            "currency": "CNY"
+          },
+          "sources": [
+            {
+              "source_id": "S92234424087f455a",
+              "location": "PDF物理第1页，财务摘要/经营更新，行“集团收入同比”"
+            }
+          ],
+          "support_boundary": "机器提取候选，尚无人审核准；不单独证明机制或投资价值。",
+          "state": "Unknown"
+        },
+        "previous": null
+      },
+      "previous_hash": "12640b1f5fb4dae5c5abc77a0133803de4bbf33f6121373df2e4ae4d4fc25b71",
+      "hash": "78c5c17694f08679e37e9644be84f09db2ab5bf65a8c8be99f13a2646b90916f"
+    },
+    {
+      "id": "E000010",
+      "time": "2026-11-10T15:52:08+08:00",
+      "action": "candidate-created",
+      "data": {
+        "record": {
+          "id": "B07-Q02",
+          "kind": "disclosure",
+          "claim": "中国收入同比",
+          "scope": {
+            "period": "2026Q3相对2025Q3",
+            "entity": "泡泡玛特",
+            "basis": "集团合并；季度数据未经审计",
+            "definition": "中国收入同比；按原表列定位，不把归母/合并净利润混同",
+            "unit": "%",
+            "currency": "CNY"
+          },
+          "sources": [
+            {
+              "source_id": "S92234424087f455a",
+              "location": "PDF物理第1页，财务摘要/经营更新，行“中国收入同比”"
+            }
+          ],
+          "support_boundary": "机器提取候选，尚无人审核准；不单独证明机制或投资价值。",
+          "state": "Unknown"
+        },
+        "previous": null
+      },
+      "previous_hash": "78c5c17694f08679e37e9644be84f09db2ab5bf65a8c8be99f13a2646b90916f",
+      "hash": "9e0635fb54adc4484aca6bfbd148f4c4203ec660018caa51e2d39464429cbc13"
+    },
+    {
+      "id": "E000011",
+      "time": "2026-11-10T15:52:08+08:00",
+      "action": "candidate-created",
+      "data": {
+        "record": {
+          "id": "B07-Q03",
+          "kind": "disclosure",
+          "claim": "亚太收入同比",
+          "scope": {
+            "period": "2026Q3相对2025Q3",
+            "entity": "泡泡玛特",
+            "basis": "集团合并；季度数据未经审计",
+            "definition": "亚太收入同比；按原表列定位，不把归母/合并净利润混同",
+            "unit": "%",
+            "currency": "CNY"
+          },
+          "sources": [
+            {
+              "source_id": "S92234424087f455a",
+              "location": "PDF物理第1页，财务摘要/经营更新，行“亚太收入同比”"
+            }
+          ],
+          "support_boundary": "机器提取候选，尚无人审核准；不单独证明机制或投资价值。",
+          "state": "Unknown"
+        },
+        "previous": null
+      },
+      "previous_hash": "9e0635fb54adc4484aca6bfbd148f4c4203ec660018caa51e2d39464429cbc13",
+      "hash": "ff9b3c163f6be12c86ba6614a1f86cc09e09033a98b50dad4082a371cb355f04"
+    },
+    {
+      "id": "E000012",
+      "time": "2026-11-10T15:52:08+08:00",
+      "action": "candidate-created",
+      "data": {
+        "record": {
+          "id": "B07-Q04",
+          "kind": "disclosure",
+          "claim": "美洲收入同比",
+          "scope": {
+            "period": "2026Q3相对2025Q3",
+            "entity": "泡泡玛特",
+            "basis": "集团合并；季度数据未经审计",
+            "definition": "美洲收入同比；按原表列定位，不把归母/合并净利润混同",
+            "unit": "%",
+            "currency": "CNY"
+          },
+          "sources": [
+            {
+              "source_id": "S92234424087f455a",
+              "location": "PDF物理第1页，财务摘要/经营更新，行“美洲收入同比”"
+            }
+          ],
+          "support_boundary": "机器提取候选，尚无人审核准；不单独证明机制或投资价值。",
+          "state": "Unknown"
+        },
+        "previous": null
+      },
+      "previous_hash": "ff9b3c163f6be12c86ba6614a1f86cc09e09033a98b50dad4082a371cb355f04",
+      "hash": "cda20f93deae1de10af9e174cb9e2df7ed81016585a7ee7dede054149016018d"
+    },
+    {
+      "id": "E000013",
+      "time": "2026-11-10T15:52:08+08:00",
+      "action": "candidate-created",
+      "data": {
+        "record": {
+          "id": "B07-Q05",
+          "kind": "disclosure",
+          "claim": "欧洲及其他收入同比",
+          "scope": {
+            "period": "2026Q3相对2025Q3",
+            "entity": "泡泡玛特",
+            "basis": "集团合并；季度数据未经审计",
+            "definition": "欧洲及其他收入同比；按原表列定位，不把归母/合并净利润混同",
+            "unit": "%",
+            "currency": "CNY"
+          },
+          "sources": [
+            {
+              "source_id": "S92234424087f455a",
+              "location": "PDF物理第1页，财务摘要/经营更新，行“欧洲及其他收入同比”"
+            }
+          ],
+          "support_boundary": "机器提取候选，尚无人审核准；不单独证明机制或投资价值。",
+          "state": "Unknown"
+        },
+        "previous": null
+      },
+      "previous_hash": "cda20f93deae1de10af9e174cb9e2df7ed81016585a7ee7dede054149016018d",
+      "hash": "a5054d1d8009e3e4f64350444121191e2ebbd2b83f886bc19e764fa1113ed10c"
+    },
+    {
+      "id": "E000014",
+      "time": "2026-11-10T15:52:08+08:00",
+      "action": "candidate-created",
+      "data": {
+        "record": {
+          "id": "B07-Q06",
+          "kind": "disclosure",
+          "claim": "中国线下收入同比",
+          "scope": {
+            "period": "2026Q3相对2025Q3",
+            "entity": "泡泡玛特",
+            "basis": "集团合并；季度数据未经审计",
+            "definition": "中国线下收入同比；按原表列定位，不把归母/合并净利润混同",
+            "unit": "%",
+            "currency": "CNY"
+          },
+          "sources": [
+            {
+              "source_id": "S92234424087f455a",
+              "location": "PDF物理第1页，财务摘要/经营更新，行“中国线下收入同比”"
+            }
+          ],
+          "support_boundary": "机器提取候选，尚无人审核准；不单独证明机制或投资价值。",
+          "state": "Unknown"
+        },
+        "previous": null
+      },
+      "previous_hash": "a5054d1d8009e3e4f64350444121191e2ebbd2b83f886bc19e764fa1113ed10c",
+      "hash": "b2647c4d5dd60230193c6195729e0a163c95df90e21268a966c805e4209a63cd"
+    },
+    {
+      "id": "E000015",
+      "time": "2026-11-10T15:52:08+08:00",
+      "action": "candidate-created",
+      "data": {
+        "record": {
+          "id": "B07-Q07",
+          "kind": "disclosure",
+          "claim": "中国线上收入同比",
+          "scope": {
+            "period": "2026Q3相对2025Q3",
+            "entity": "泡泡玛特",
+            "basis": "集团合并；季度数据未经审计",
+            "definition": "中国线上收入同比；按原表列定位，不把归母/合并净利润混同",
+            "unit": "%",
+            "currency": "CNY"
+          },
+          "sources": [
+            {
+              "source_id": "S92234424087f455a",
+              "location": "PDF物理第1页，财务摘要/经营更新，行“中国线上收入同比”"
+            }
+          ],
+          "support_boundary": "机器提取候选，尚无人审核准；不单独证明机制或投资价值。",
+          "state": "Unknown"
+        },
+        "previous": null
+      },
+      "previous_hash": "b2647c4d5dd60230193c6195729e0a163c95df90e21268a966c805e4209a63cd",
+      "hash": "d86e28475840a0c743ab2dce2bd1dc3bfdd06458ddeb530bb990a767b50548f3"
     }
   ],
   "delegations": [],

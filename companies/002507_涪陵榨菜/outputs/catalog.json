@@ -9,7 +9,7 @@
       "at": "2026-11-10T06:46:47.684527+00:00",
       "actor": "Agent/test-or-api",
       "actual_user_review": null,
-      "historical": false,
+      "historical": true,
       "bindings": {
         "cards": {},
         "methods": [],
@@ -40,6 +40,424 @@
           "format": "md",
           "sha256": "8e441b9de3bf060a6ad25de8cf1801f246c50f9b4bb4d861d0a4847ce0b22ccb",
           "bytes": 1223
+        }
+      ],
+      "needs_review": true,
+      "imported": false,
+      "impact_reasons": [
+        "研究卡集合变化：新增/删除内容未纳入本版"
+      ],
+      "file_integrity": true
+    },
+    {
+      "id": "O81839048e912",
+      "group": "research-report",
+      "title": "涪陵榨菜研究起点｜候选证据与竞争解释",
+      "kind": "报告草稿",
+      "version": 2,
+      "at": "2026-11-10T07:50:09.824496+00:00",
+      "actor": "Agent/test-or-api",
+      "actual_user_review": null,
+      "historical": true,
+      "bindings": {
+        "selection_ids": [
+          "R09e06cc7c1a8",
+          "R0b427d7dd7fe",
+          "R1572b24923fd",
+          "R3a8ec12bc38f",
+          "R48ccbb2a4ad6",
+          "R69074d027896",
+          "R8bff8d9f729a",
+          "R8c5f7065f343"
+        ],
+        "selection_scope": "all-eight-lanes",
+        "cards": {
+          "R3a8ec12bc38f": "02fdaf9ded440551351afd523e74cbfce82efdea5f477fa684a885cc64266cd2",
+          "R09e06cc7c1a8": "feb2c0995621a641c28551dd92311aa76e150383401a47d5974f785d4a60b327",
+          "R0b427d7dd7fe": "6c391b54b2d8a077b4a0a423656cd4d14991058bf0c8132b22c4f718dba09163",
+          "R69074d027896": "99eb617b82a75aa6212ea666163a44ecdc2d523fd854d747060de38ca025ee1d",
+          "R48ccbb2a4ad6": "2260184b6cc46073a7f80a964043ec5512cf0515fb3436de8f3329209e534f07",
+          "R1572b24923fd": "e6978e2390df6f224f72fd8ffdb12c08d0ba419ae2bfc3f8fcc773721f008d48",
+          "R8bff8d9f729a": "93424d03dda007eaa11d97802e8b240e1dcca2d4f957ece9022e3c5adba5082d",
+          "R8c5f7065f343": "56e5702deb11ff8c6b76e1e373ab27252093c57c5e72e9334e640563f9c6d0c1"
+        },
+        "methods": [
+          {
+            "id": "K02",
+            "version": 1
+          },
+          {
+            "id": "E05",
+            "version": 1
+          },
+          {
+            "id": "E06",
+            "version": 1
+          },
+          {
+            "id": "E08",
+            "version": 1
+          }
+        ],
+        "inputs": {
+          "work/review-batches/B07-annual.json": "7be86cd1b5d2dbde356678f7ef48f803b29a5de004469fdae4127fffe3661193",
+          "work/review-batches/B07-Q3.json": "68bcb37ad35719166fe685f711ac0c0d6248fe2a2fe91f0e8f06abec4104dc49",
+          "work/research07/source-field-map.json": "75e4fce5579de9c7db9ff6e6284de3f53966bf589568200fa38dabd174e196a5"
+        },
+        "sources": [
+          {
+            "id": "002507-d45bfdfdec6d4379",
+            "path": "sources/raw/02_定期报告与经营数据/2026-10-28_2026年三季度报告_1225628280.pdf",
+            "sha256": "18eee5ef5d7b63db544c0c855a1ade7c311e914a397245a11873679fc6955b07"
+          },
+          {
+            "id": "002507-6cd117ea1ac8beee",
+            "path": "sources/raw/01_年报/2026-03-28_2025年年度报告_1225042838.pdf",
+            "sha256": "db3af94635933a99c37cccb2b3809267b5e21072563ef12c2a8de93eb721f9b5"
+          }
+        ]
+      },
+      "files": [
+        {
+          "path": "outputs/research-report/v2-O81839048e912/basis.json",
+          "format": "json",
+          "sha256": "4c1d05b97f2fbc3fafdf7950ec0e45be791cc85141a8edb0931dc8f18cbf2ad3",
+          "bytes": 49553
+        },
+        {
+          "path": "outputs/research-report/v2-O81839048e912/report.html",
+          "format": "html",
+          "sha256": "3a29b5c3b16b329971d5a43a08df1e51abe1e9b6366a05e95343e45eccb832a6",
+          "bytes": 18775
+        },
+        {
+          "path": "outputs/research-report/v2-O81839048e912/report.md",
+          "format": "md",
+          "sha256": "2e51967cb073791fd0af1f7b8138c2a73764b5f8bd64f677084200fba7196670",
+          "bytes": 18382
+        }
+      ],
+      "needs_review": true,
+      "imported": false,
+      "impact_reasons": [
+        "研究卡变化:R3a8ec12bc38f",
+        "研究卡变化:R09e06cc7c1a8",
+        "研究卡变化:R0b427d7dd7fe",
+        "研究卡变化:R69074d027896",
+        "研究卡变化:R48ccbb2a4ad6",
+        "研究卡变化:R1572b24923fd",
+        "研究卡变化:R8bff8d9f729a",
+        "研究卡变化:R8c5f7065f343",
+        "输入文件变化:work/review-batches/B07-annual.json",
+        "输入文件变化:work/review-batches/B07-Q3.json",
+        "输入文件变化:work/research07/source-field-map.json"
+      ],
+      "file_integrity": true
+    },
+    {
+      "id": "Odd75092e3c43",
+      "group": "research-report",
+      "title": "涪陵榨菜研究起点｜候选证据与竞争解释",
+      "kind": "报告草稿",
+      "version": 3,
+      "at": "2026-11-10T07:52:07.687965+00:00",
+      "actor": "Agent/test-or-api",
+      "actual_user_review": null,
+      "historical": true,
+      "bindings": {
+        "selection_ids": [
+          "R09e06cc7c1a8",
+          "R0b427d7dd7fe",
+          "R1572b24923fd",
+          "R3a8ec12bc38f",
+          "R48ccbb2a4ad6",
+          "R69074d027896",
+          "R8bff8d9f729a",
+          "R8c5f7065f343"
+        ],
+        "selection_scope": "all-eight-lanes",
+        "cards": {
+          "R3a8ec12bc38f": "228946ec35fa9fd6d809aed5e4dcd352450541a8df77e9eb15699e5c99e519fe",
+          "R09e06cc7c1a8": "14b31f38dde58019c3f64888ad78f4b20c2a1871b2661d6b2be13637c6bfb97c",
+          "R0b427d7dd7fe": "1ab7f550750dbee81073255ef1e788ac7f4aed20f0ff3d0ec10c48819e9b7456",
+          "R69074d027896": "06d2558f5d9963955dd6d11ffe4aa315848a20742f817f5f409c298bc9481441",
+          "R48ccbb2a4ad6": "7ef45fe83cd4ec06f0847845a12ba88e3c944abd48389f4837259522476e411e",
+          "R1572b24923fd": "d6af5d955aec0e0c726ee76e615beeea62ec18b8e53696bce431976a115a01e6",
+          "R8bff8d9f729a": "4a4643260395133c69f4faad6194a15191de8cf80427e6558f83369c39be9c0d",
+          "R8c5f7065f343": "34e3ebd3c092d4ee104461528f864b8f6abbe81ce4e114eeec9f38759622becc"
+        },
+        "methods": [
+          {
+            "id": "K02",
+            "version": 1
+          },
+          {
+            "id": "E05",
+            "version": 1
+          },
+          {
+            "id": "E06",
+            "version": 1
+          },
+          {
+            "id": "E08",
+            "version": 1
+          }
+        ],
+        "inputs": {
+          "work/review-batches/B07-annual.json": "e848af5ac28e8a332e7c5855723a2c45ec482604eece28ec04d53ba1ed16152b",
+          "work/review-batches/B07-Q3.json": "e3e84398709d0dffaf75a7fef836cd334282a76229b282ee18b2d47748d7b2b6",
+          "work/research07/source-field-map.json": "75e4fce5579de9c7db9ff6e6284de3f53966bf589568200fa38dabd174e196a5"
+        },
+        "sources": [
+          {
+            "id": "002507-d45bfdfdec6d4379",
+            "path": "sources/raw/02_定期报告与经营数据/2026-10-28_2026年三季度报告_1225628280.pdf",
+            "sha256": "18eee5ef5d7b63db544c0c855a1ade7c311e914a397245a11873679fc6955b07"
+          },
+          {
+            "id": "002507-6cd117ea1ac8beee",
+            "path": "sources/raw/01_年报/2026-03-28_2025年年度报告_1225042838.pdf",
+            "sha256": "db3af94635933a99c37cccb2b3809267b5e21072563ef12c2a8de93eb721f9b5"
+          }
+        ]
+      },
+      "files": [
+        {
+          "path": "outputs/research-report/v3-Odd75092e3c43/basis.json",
+          "format": "json",
+          "sha256": "b2b6b56ea09c699ccf8beb25168da030d6e3a124728d65639ce808ccb59d76c1",
+          "bytes": 49553
+        },
+        {
+          "path": "outputs/research-report/v3-Odd75092e3c43/report.html",
+          "format": "html",
+          "sha256": "d4c7b357f65511760087bbf636a154ed0c63fc440f607b91575bd85853e4b65d",
+          "bytes": 18775
+        },
+        {
+          "path": "outputs/research-report/v3-Odd75092e3c43/report.md",
+          "format": "md",
+          "sha256": "c2713fc3a2b2c265ded1e1e62ea25fa060d97f63cee2d7c68160c106344bc39b",
+          "bytes": 18382
+        }
+      ],
+      "needs_review": true,
+      "imported": false,
+      "impact_reasons": [
+        "研究卡变化:R3a8ec12bc38f",
+        "研究卡变化:R09e06cc7c1a8",
+        "研究卡变化:R0b427d7dd7fe",
+        "研究卡变化:R69074d027896",
+        "研究卡变化:R48ccbb2a4ad6",
+        "研究卡变化:R1572b24923fd",
+        "研究卡变化:R8bff8d9f729a",
+        "研究卡变化:R8c5f7065f343",
+        "输入文件变化:work/research07/source-field-map.json"
+      ],
+      "file_integrity": true
+    },
+    {
+      "id": "Of3635882febc",
+      "group": "research-report",
+      "title": "涪陵榨菜研究起点｜年度—中报—最新季度证据",
+      "kind": "报告草稿",
+      "version": 4,
+      "at": "2026-11-10T07:54:17.760659+00:00",
+      "actor": "Agent/test-or-api",
+      "actual_user_review": null,
+      "historical": true,
+      "bindings": {
+        "selection_ids": [
+          "R09e06cc7c1a8",
+          "R0b427d7dd7fe",
+          "R1572b24923fd",
+          "R3a8ec12bc38f",
+          "R48ccbb2a4ad6",
+          "R69074d027896",
+          "R8bff8d9f729a",
+          "R8c5f7065f343"
+        ],
+        "selection_scope": "all-eight-lanes",
+        "cards": {
+          "R3a8ec12bc38f": "228946ec35fa9fd6d809aed5e4dcd352450541a8df77e9eb15699e5c99e519fe",
+          "R09e06cc7c1a8": "14b31f38dde58019c3f64888ad78f4b20c2a1871b2661d6b2be13637c6bfb97c",
+          "R0b427d7dd7fe": "1ab7f550750dbee81073255ef1e788ac7f4aed20f0ff3d0ec10c48819e9b7456",
+          "R48ccbb2a4ad6": "7ef45fe83cd4ec06f0847845a12ba88e3c944abd48389f4837259522476e411e",
+          "R1572b24923fd": "d6af5d955aec0e0c726ee76e615beeea62ec18b8e53696bce431976a115a01e6",
+          "R8bff8d9f729a": "4a4643260395133c69f4faad6194a15191de8cf80427e6558f83369c39be9c0d",
+          "R8c5f7065f343": "34e3ebd3c092d4ee104461528f864b8f6abbe81ce4e114eeec9f38759622becc",
+          "R69074d027896": "fd0d3cae38d6f7ae41813602b10b2360fa6986dee01ba19ec56f97acc52878e8"
+        },
+        "methods": [
+          {
+            "id": "K02",
+            "version": 1
+          },
+          {
+            "id": "E05",
+            "version": 1
+          },
+          {
+            "id": "E06",
+            "version": 1
+          },
+          {
+            "id": "E08",
+            "version": 1
+          }
+        ],
+        "inputs": {
+          "work/review-batches/B07-annual.json": "e848af5ac28e8a332e7c5855723a2c45ec482604eece28ec04d53ba1ed16152b",
+          "work/review-batches/B07-Q3.json": "e3e84398709d0dffaf75a7fef836cd334282a76229b282ee18b2d47748d7b2b6",
+          "work/research07/source-field-map.json": "b7dcdc58fdaab9f983573745d0f940e6a0764c65659ddf62a40e654dea7419c6",
+          "work/research07/candidate-calculations.json": "43e1d14f1960a725ba2fda79ce6578ecb62fa5f45191876a3f9d48d65038367e"
+        },
+        "sources": [
+          {
+            "id": "002507-b901d0b919e32cba",
+            "path": "sources/raw/01_年报/2026-08-28_2026年半年度报告_1225517908.pdf",
+            "sha256": "e85ee9eaacaa3eac2ec2e3940e147cc7941f992f5fd6efb072a88e0438e2bd11"
+          },
+          {
+            "id": "002507-d45bfdfdec6d4379",
+            "path": "sources/raw/02_定期报告与经营数据/2026-10-28_2026年三季度报告_1225628280.pdf",
+            "sha256": "18eee5ef5d7b63db544c0c855a1ade7c311e914a397245a11873679fc6955b07"
+          },
+          {
+            "id": "002507-6cd117ea1ac8beee",
+            "path": "sources/raw/01_年报/2026-03-28_2025年年度报告_1225042838.pdf",
+            "sha256": "db3af94635933a99c37cccb2b3809267b5e21072563ef12c2a8de93eb721f9b5"
+          }
+        ]
+      },
+      "files": [
+        {
+          "path": "outputs/research-report/v4-Of3635882febc/basis.json",
+          "format": "json",
+          "sha256": "3f9fa104652b093742d7b5ce0321cc8bc4776aa962d316156495596b342b8e0e",
+          "bytes": 52491
+        },
+        {
+          "path": "outputs/research-report/v4-Of3635882febc/report.html",
+          "format": "html",
+          "sha256": "314c7ddeab7ee0d128ae03171f59593418bec982ecb9336736608bc5c07da013",
+          "bytes": 19105
+        },
+        {
+          "path": "outputs/research-report/v4-Of3635882febc/report.md",
+          "format": "md",
+          "sha256": "76f4c33107cc03fd0fded5ddaeca55a79e139a1797fecb36215c4763e24bd328",
+          "bytes": 18692
+        }
+      ],
+      "needs_review": true,
+      "imported": false,
+      "impact_reasons": [
+        "研究卡变化:R3a8ec12bc38f",
+        "研究卡变化:R09e06cc7c1a8",
+        "研究卡变化:R0b427d7dd7fe",
+        "研究卡变化:R48ccbb2a4ad6",
+        "研究卡变化:R1572b24923fd",
+        "研究卡变化:R8bff8d9f729a",
+        "研究卡变化:R8c5f7065f343",
+        "研究卡变化:R69074d027896",
+        "输入文件变化:work/research07/source-field-map.json"
+      ],
+      "file_integrity": true
+    },
+    {
+      "id": "O12487e83a4d7",
+      "group": "research-report",
+      "title": "涪陵榨菜研究起点｜业务、竞争解释与首批原数",
+      "kind": "报告草稿",
+      "version": 5,
+      "at": "2026-11-10T08:01:28.092907+00:00",
+      "actor": "Agent/test-or-api",
+      "actual_user_review": null,
+      "historical": false,
+      "bindings": {
+        "selection_ids": [
+          "R09e06cc7c1a8",
+          "R0b427d7dd7fe",
+          "R1572b24923fd",
+          "R3a8ec12bc38f",
+          "R48ccbb2a4ad6",
+          "R69074d027896",
+          "R8bff8d9f729a",
+          "R8c5f7065f343"
+        ],
+        "selection_scope": "all-eight-lanes",
+        "cards": {
+          "R3a8ec12bc38f": "756889a10d5782d6cdaeb3971babac50a102431a49ed91b7ca11e28c4df3b7f0",
+          "R09e06cc7c1a8": "d50d6520a939e1efdb4a344da74f5c4f14a05abf2724ae6c9eb4d1c136e67bf6",
+          "R0b427d7dd7fe": "5f8e03eb32e7bdaffa97fa268567f436148b3651f6f386ed64ddfae04ad6cd1a",
+          "R48ccbb2a4ad6": "d0943728671cec1cd7b8ac12e2c62d555fa0b6dac018420a72dae98a53c32c4f",
+          "R1572b24923fd": "29d0436ab41393b690d523c2a76521e5e6ad33e5d0ca9c716842ab495298612a",
+          "R8bff8d9f729a": "95e34247e1dcff93a48a02325656eb18d5562288f7f63c15a91919591a22bb98",
+          "R8c5f7065f343": "8aa90e70c56a4b57f013cab0d9c94369b970ab424079ac67a728a492481cad9e",
+          "R69074d027896": "c17789bffd0e802d6bcaf96211a6468b863f1f3fdc833311140d97b31dccbd94"
+        },
+        "methods": [
+          {
+            "id": "K02",
+            "version": 1
+          },
+          {
+            "id": "E05",
+            "version": 1
+          },
+          {
+            "id": "E06",
+            "version": 1
+          },
+          {
+            "id": "E08",
+            "version": 1
+          }
+        ],
+        "inputs": {
+          "work/review-batches/B07-annual.json": "e848af5ac28e8a332e7c5855723a2c45ec482604eece28ec04d53ba1ed16152b",
+          "work/review-batches/B07-Q3.json": "e3e84398709d0dffaf75a7fef836cd334282a76229b282ee18b2d47748d7b2b6",
+          "work/research07/source-field-map.json": "e6cf65a2d041fc7c74cc95b6da672ab9cfdea12deacd5b056634b417b4191ac8",
+          "work/research07/candidate-calculations.json": "43e1d14f1960a725ba2fda79ce6578ecb62fa5f45191876a3f9d48d65038367e"
+        },
+        "sources": [
+          {
+            "id": "002507-b901d0b919e32cba",
+            "path": "sources/raw/01_年报/2026-08-28_2026年半年度报告_1225517908.pdf",
+            "sha256": "e85ee9eaacaa3eac2ec2e3940e147cc7941f992f5fd6efb072a88e0438e2bd11"
+          },
+          {
+            "id": "002507-d45bfdfdec6d4379",
+            "path": "sources/raw/02_定期报告与经营数据/2026-10-28_2026年三季度报告_1225628280.pdf",
+            "sha256": "18eee5ef5d7b63db544c0c855a1ade7c311e914a397245a11873679fc6955b07"
+          },
+          {
+            "id": "002507-6cd117ea1ac8beee",
+            "path": "sources/raw/01_年报/2026-03-28_2025年年度报告_1225042838.pdf",
+            "sha256": "db3af94635933a99c37cccb2b3809267b5e21072563ef12c2a8de93eb721f9b5"
+          }
+        ]
+      },
+      "files": [
+        {
+          "path": "outputs/research-report/v5-O12487e83a4d7/basis.json",
+          "format": "json",
+          "sha256": "bc24f7869a0e00a36f40057bf7f247cee94c6ef1ef46be5ec97b555e5b996fa1",
+          "bytes": 64936
+        },
+        {
+          "path": "outputs/research-report/v5-O12487e83a4d7/report.html",
+          "format": "html",
+          "sha256": "f1bc8e639d55499ffce79ea330fb99922edaa92438709a57a63e8c8b774963a2",
+          "bytes": 18609
+        },
+        {
+          "path": "outputs/research-report/v5-O12487e83a4d7/report.md",
+          "format": "md",
+          "sha256": "1509a1e16f32b46818059b6b14698f4872a1636edaedf4725944ab4f8a197e67",
+          "bytes": 18196
         }
       ],
       "needs_review": false,

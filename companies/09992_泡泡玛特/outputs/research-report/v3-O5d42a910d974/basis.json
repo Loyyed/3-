@@ -1,0 +1,373 @@
+{
+  "company": "09992_泡泡玛特",
+  "cards": [
+    {
+      "lane": "研究起点",
+      "title": "IP接续与全球渠道能否支持持续需求，2026Q3下滑如何改变原增长叙事？",
+      "claim": "解释/假设：2025爆发不能直接外推永续，2026Q3官方未审经营更新的区域和渠道下降，要求从爆款集中、复购和库存重新检验增长质量。",
+      "evidence": "2025年报 S47095a39c6425b11 PDF物理7页；2026最新更新 S92234424087f455a PDF物理1页。B07-annual与B07-Q3均为机器候选，Fact=0。2025收入371.20052亿元、毛利率72.1%属年报候选；2026Q3经营更新称总收入同比下降45%—50%，美洲下降70%—75%、亚太下降65%—70%。这是收入区间更新，不是完整季度损益或现金流；不能据此推造利润降幅。",
+      "mechanism": "通过艺术家IP孵化、运营和产品设计，把IP表达为手办、搪胶毛绒等产品，再通过全球零售及线上渠道触达消费者。2025年报11—12物理页把IP及新品运营列为增长驱动，这是管理层自述，不是壁垒确认。IP权利安排、生产备货、店铺租赁与人力、库存折价及销售回款共同影响资本和现金。",
+      "opposition": "2025收入371.20052亿元、毛利率72.1%属年报候选；2026Q3经营更新称总收入同比下降45%—50%，美洲下降70%—75%、亚太下降65%—70%。这是收入区间更新，不是完整季度损益或现金流；不能据此推造利润降幅。",
+      "alternative": "竞争性解释一：2025高基数与新品节奏引发短期回落，IP组合和区域渠道仍可维持长期变现。\n竞争性解释二：爆款需求和稀缺性消退、海外渠道铺货透支，库存与固定租赁费用使利润现金对收入下降更敏感。",
+      "variables": "IP/新品推出→生产备货→门店线上销售→回款与库存折价；地区门店成熟爬坡、IP授权期限和续约成本。季度区间不替代完整财报。",
+      "invalidate": "若新增同口径数据否定销量、净价、成本或现金解释，则收窄/撤回命题；缺IP级终端销量与复购、渠道库存/折扣、地区同店店效、租赁固定支出、IP权利期限及Q3完整利润现金；HKD股价不能与RMB财务直接相除。",
+      "gap": "缺IP级终端销量与复购、渠道库存/折扣、地区同店店效、租赁固定支出、IP权利期限及Q3完整利润现金；HKD股价不能与RMB财务直接相除。",
+      "action_needed": "交叉核2026中报IP/地区/渠道和存货租赁附注，跟踪Q3收入区间原文，补门店成熟度与折扣库存；等待或取得有范围的完整损益现金披露后再预测。",
+      "methods": [
+        {
+          "id": "K03",
+          "version": 1
+        },
+        {
+          "id": "K09",
+          "version": 1
+        },
+        {
+          "id": "E04",
+          "version": 1
+        },
+        {
+          "id": "E08",
+          "version": 1
+        }
+      ],
+      "id": "R7d8112e87a58",
+      "needs_review": false,
+      "impacts": [],
+      "updated_at": "2026-11-10T07:52:09.024052+00:00",
+      "actor": "Agent/test-or-api",
+      "status": "Interpretation draft"
+    },
+    {
+      "lane": "生意与价值创造",
+      "title": "谁付钱，什么投入形成利润与现金？",
+      "claim": "通过艺术家IP孵化、运营和产品设计，把IP表达为手办、搪胶毛绒等产品，再通过全球零售及线上渠道触达消费者。2025年报11—12物理页把IP及新品运营列为增长驱动，这是管理层自述，不是壁垒确认。IP权利安排、生产备货、店铺租赁与人力、库存折价及销售回款共同影响资本和现金。",
+      "evidence": "2025年报 S47095a39c6425b11 PDF物理7页；2026最新更新 S92234424087f455a PDF物理1页。B07-annual与B07-Q3均为机器候选，Fact=0。2025收入371.20052亿元、毛利率72.1%属年报候选；2026Q3经营更新称总收入同比下降45%—50%，美洲下降70%—75%、亚太下降65%—70%。这是收入区间更新，不是完整季度损益或现金流；不能据此推造利润降幅。",
+      "mechanism": "通过艺术家IP孵化、运营和产品设计，把IP表达为手办、搪胶毛绒等产品，再通过全球零售及线上渠道触达消费者。2025年报11—12物理页把IP及新品运营列为增长驱动，这是管理层自述，不是壁垒确认。IP权利安排、生产备货、店铺租赁与人力、库存折价及销售回款共同影响资本和现金。",
+      "opposition": "2025收入371.20052亿元、毛利率72.1%属年报候选；2026Q3经营更新称总收入同比下降45%—50%，美洲下降70%—75%、亚太下降65%—70%。这是收入区间更新，不是完整季度损益或现金流；不能据此推造利润降幅。",
+      "alternative": "竞争性解释一：2025高基数与新品节奏引发短期回落，IP组合和区域渠道仍可维持长期变现。\n竞争性解释二：爆款需求和稀缺性消退、海外渠道铺货透支，库存与固定租赁费用使利润现金对收入下降更敏感。",
+      "variables": "IP/新品推出→生产备货→门店线上销售→回款与库存折价；地区门店成熟爬坡、IP授权期限和续约成本。季度区间不替代完整财报。",
+      "invalidate": "若新增同口径数据否定销量、净价、成本或现金解释，则收窄/撤回命题；缺IP级终端销量与复购、渠道库存/折扣、地区同店店效、租赁固定支出、IP权利期限及Q3完整利润现金；HKD股价不能与RMB财务直接相除。",
+      "gap": "缺IP级终端销量与复购、渠道库存/折扣、地区同店店效、租赁固定支出、IP权利期限及Q3完整利润现金；HKD股价不能与RMB财务直接相除。",
+      "action_needed": "交叉核2026中报IP/地区/渠道和存货租赁附注，跟踪Q3收入区间原文，补门店成熟度与折扣库存；等待或取得有范围的完整损益现金披露后再预测。",
+      "methods": [
+        {
+          "id": "K03",
+          "version": 1
+        },
+        {
+          "id": "K09",
+          "version": 1
+        },
+        {
+          "id": "E04",
+          "version": 1
+        },
+        {
+          "id": "E08",
+          "version": 1
+        }
+      ],
+      "id": "R7bfc89d395aa",
+      "needs_review": false,
+      "impacts": [],
+      "updated_at": "2026-11-10T07:52:09.029035+00:00",
+      "actor": "Agent/test-or-api",
+      "status": "Interpretation draft"
+    },
+    {
+      "lane": "行业变化与竞争优势",
+      "title": "优势是否超出行业景气或产品组合？",
+      "claim": "研究假设，尚未确认护城河。2025高基数与新品节奏引发短期回落，IP组合和区域渠道仍可维持长期变现。",
+      "evidence": "2025年报 S47095a39c6425b11 PDF物理7页；2026最新更新 S92234424087f455a PDF物理1页。B07-annual与B07-Q3均为机器候选，Fact=0。2025收入371.20052亿元、毛利率72.1%属年报候选；2026Q3经营更新称总收入同比下降45%—50%，美洲下降70%—75%、亚太下降65%—70%。这是收入区间更新，不是完整季度损益或现金流；不能据此推造利润降幅。",
+      "mechanism": "通过艺术家IP孵化、运营和产品设计，把IP表达为手办、搪胶毛绒等产品，再通过全球零售及线上渠道触达消费者。2025年报11—12物理页把IP及新品运营列为增长驱动，这是管理层自述，不是壁垒确认。IP权利安排、生产备货、店铺租赁与人力、库存折价及销售回款共同影响资本和现金。",
+      "opposition": "2025收入371.20052亿元、毛利率72.1%属年报候选；2026Q3经营更新称总收入同比下降45%—50%，美洲下降70%—75%、亚太下降65%—70%。这是收入区间更新，不是完整季度损益或现金流；不能据此推造利润降幅。",
+      "alternative": "竞争性解释一：2025高基数与新品节奏引发短期回落，IP组合和区域渠道仍可维持长期变现。\n竞争性解释二：爆款需求和稀缺性消退、海外渠道铺货透支，库存与固定租赁费用使利润现金对收入下降更敏感。",
+      "variables": "IP/新品推出→生产备货→门店线上销售→回款与库存折价；地区门店成熟爬坡、IP授权期限和续约成本。季度区间不替代完整财报。",
+      "invalidate": "若新增同口径数据否定销量、净价、成本或现金解释，则收窄/撤回命题；缺IP级终端销量与复购、渠道库存/折扣、地区同店店效、租赁固定支出、IP权利期限及Q3完整利润现金；HKD股价不能与RMB财务直接相除。",
+      "gap": "缺IP级终端销量与复购、渠道库存/折扣、地区同店店效、租赁固定支出、IP权利期限及Q3完整利润现金；HKD股价不能与RMB财务直接相除。",
+      "action_needed": "交叉核2026中报IP/地区/渠道和存货租赁附注，跟踪Q3收入区间原文，补门店成熟度与折扣库存；等待或取得有范围的完整损益现金披露后再预测。",
+      "methods": [
+        {
+          "id": "K03",
+          "version": 1
+        },
+        {
+          "id": "K09",
+          "version": 1
+        },
+        {
+          "id": "E04",
+          "version": 1
+        },
+        {
+          "id": "E08",
+          "version": 1
+        }
+      ],
+      "id": "R58b870a4ee64",
+      "needs_review": false,
+      "impacts": [],
+      "updated_at": "2026-11-10T07:52:09.034019+00:00",
+      "actor": "Agent/test-or-api",
+      "status": "Interpretation draft"
+    },
+    {
+      "lane": "未来预测",
+      "title": "哪些经营驱动能进入条件预测？",
+      "claim": "IP/新品推出→生产备货→门店线上销售→回款与库存折价；地区门店成熟爬坡、IP授权期限和续约成本。季度区间不替代完整财报。",
+      "evidence": "2025年报 S47095a39c6425b11 PDF物理7页；2026最新更新 S92234424087f455a PDF物理1页。B07-annual与B07-Q3均为机器候选，Fact=0。2025收入371.20052亿元、毛利率72.1%属年报候选；2026Q3经营更新称总收入同比下降45%—50%，美洲下降70%—75%、亚太下降65%—70%。这是收入区间更新，不是完整季度损益或现金流；不能据此推造利润降幅。",
+      "mechanism": "通过艺术家IP孵化、运营和产品设计，把IP表达为手办、搪胶毛绒等产品，再通过全球零售及线上渠道触达消费者。2025年报11—12物理页把IP及新品运营列为增长驱动，这是管理层自述，不是壁垒确认。IP权利安排、生产备货、店铺租赁与人力、库存折价及销售回款共同影响资本和现金。",
+      "opposition": "2025收入371.20052亿元、毛利率72.1%属年报候选；2026Q3经营更新称总收入同比下降45%—50%，美洲下降70%—75%、亚太下降65%—70%。这是收入区间更新，不是完整季度损益或现金流；不能据此推造利润降幅。",
+      "alternative": "竞争性解释一：2025高基数与新品节奏引发短期回落，IP组合和区域渠道仍可维持长期变现。\n竞争性解释二：爆款需求和稀缺性消退、海外渠道铺货透支，库存与固定租赁费用使利润现金对收入下降更敏感。",
+      "variables": "IP/新品推出→生产备货→门店线上销售→回款与库存折价；地区门店成熟爬坡、IP授权期限和续约成本。季度区间不替代完整财报。",
+      "invalidate": "若新增同口径数据否定销量、净价、成本或现金解释，则收窄/撤回命题；缺IP级终端销量与复购、渠道库存/折扣、地区同店店效、租赁固定支出、IP权利期限及Q3完整利润现金；HKD股价不能与RMB财务直接相除。",
+      "gap": "缺IP级终端销量与复购、渠道库存/折扣、地区同店店效、租赁固定支出、IP权利期限及Q3完整利润现金；HKD股价不能与RMB财务直接相除。",
+      "action_needed": "交叉核2026中报IP/地区/渠道和存货租赁附注，跟踪Q3收入区间原文，补门店成熟度与折扣库存；等待或取得有范围的完整损益现金披露后再预测。",
+      "methods": [
+        {
+          "id": "K03",
+          "version": 1
+        },
+        {
+          "id": "K09",
+          "version": 1
+        },
+        {
+          "id": "E04",
+          "version": 1
+        },
+        {
+          "id": "E08",
+          "version": 1
+        }
+      ],
+      "id": "R8c387d2da2f6",
+      "needs_review": false,
+      "impacts": [],
+      "updated_at": "2026-11-10T07:52:09.042988+00:00",
+      "actor": "Agent/test-or-api",
+      "status": "Interpretation draft"
+    },
+    {
+      "lane": "估值与投资判断",
+      "title": "当前能否计算有依据的价值？",
+      "claim": "不能给正式估值：尚缺经核对历史桥、经营资本范围、再投资、现金流索取权和同日风险/价格输入。",
+      "evidence": "2025年报 S47095a39c6425b11 PDF物理7页；2026最新更新 S92234424087f455a PDF物理1页。B07-annual与B07-Q3均为机器候选，Fact=0。2025收入371.20052亿元、毛利率72.1%属年报候选；2026Q3经营更新称总收入同比下降45%—50%，美洲下降70%—75%、亚太下降65%—70%。这是收入区间更新，不是完整季度损益或现金流；不能据此推造利润降幅。",
+      "mechanism": "通过艺术家IP孵化、运营和产品设计，把IP表达为手办、搪胶毛绒等产品，再通过全球零售及线上渠道触达消费者。2025年报11—12物理页把IP及新品运营列为增长驱动，这是管理层自述，不是壁垒确认。IP权利安排、生产备货、店铺租赁与人力、库存折价及销售回款共同影响资本和现金。",
+      "opposition": "2025收入371.20052亿元、毛利率72.1%属年报候选；2026Q3经营更新称总收入同比下降45%—50%，美洲下降70%—75%、亚太下降65%—70%。这是收入区间更新，不是完整季度损益或现金流；不能据此推造利润降幅。",
+      "alternative": "竞争性解释一：2025高基数与新品节奏引发短期回落，IP组合和区域渠道仍可维持长期变现。\n竞争性解释二：爆款需求和稀缺性消退、海外渠道铺货透支，库存与固定租赁费用使利润现金对收入下降更敏感。",
+      "variables": "IP/新品推出→生产备货→门店线上销售→回款与库存折价；地区门店成熟爬坡、IP授权期限和续约成本。季度区间不替代完整财报。",
+      "invalidate": "若新增同口径数据否定销量、净价、成本或现金解释，则收窄/撤回命题；缺IP级终端销量与复购、渠道库存/折扣、地区同店店效、租赁固定支出、IP权利期限及Q3完整利润现金；HKD股价不能与RMB财务直接相除。",
+      "gap": "缺IP级终端销量与复购、渠道库存/折扣、地区同店店效、租赁固定支出、IP权利期限及Q3完整利润现金；HKD股价不能与RMB财务直接相除。",
+      "action_needed": "交叉核2026中报IP/地区/渠道和存货租赁附注，跟踪Q3收入区间原文，补门店成熟度与折扣库存；等待或取得有范围的完整损益现金披露后再预测。",
+      "methods": [
+        {
+          "id": "K03",
+          "version": 1
+        },
+        {
+          "id": "K09",
+          "version": 1
+        },
+        {
+          "id": "E04",
+          "version": 1
+        },
+        {
+          "id": "E08",
+          "version": 1
+        }
+      ],
+      "id": "R14c10b3a792a",
+      "needs_review": false,
+      "impacts": [],
+      "updated_at": "2026-11-10T07:52:09.046975+00:00",
+      "actor": "Agent/test-or-api",
+      "status": "Interpretation draft"
+    },
+    {
+      "lane": "风险与反方",
+      "title": "什么证据会推翻当前解释？",
+      "claim": "爆款需求和稀缺性消退、海外渠道铺货透支，库存与固定租赁费用使利润现金对收入下降更敏感。",
+      "evidence": "2025年报 S47095a39c6425b11 PDF物理7页；2026最新更新 S92234424087f455a PDF物理1页。B07-annual与B07-Q3均为机器候选，Fact=0。2025收入371.20052亿元、毛利率72.1%属年报候选；2026Q3经营更新称总收入同比下降45%—50%，美洲下降70%—75%、亚太下降65%—70%。这是收入区间更新，不是完整季度损益或现金流；不能据此推造利润降幅。",
+      "mechanism": "通过艺术家IP孵化、运营和产品设计，把IP表达为手办、搪胶毛绒等产品，再通过全球零售及线上渠道触达消费者。2025年报11—12物理页把IP及新品运营列为增长驱动，这是管理层自述，不是壁垒确认。IP权利安排、生产备货、店铺租赁与人力、库存折价及销售回款共同影响资本和现金。",
+      "opposition": "2025收入371.20052亿元、毛利率72.1%属年报候选；2026Q3经营更新称总收入同比下降45%—50%，美洲下降70%—75%、亚太下降65%—70%。这是收入区间更新，不是完整季度损益或现金流；不能据此推造利润降幅。",
+      "alternative": "竞争性解释一：2025高基数与新品节奏引发短期回落，IP组合和区域渠道仍可维持长期变现。\n竞争性解释二：爆款需求和稀缺性消退、海外渠道铺货透支，库存与固定租赁费用使利润现金对收入下降更敏感。",
+      "variables": "IP/新品推出→生产备货→门店线上销售→回款与库存折价；地区门店成熟爬坡、IP授权期限和续约成本。季度区间不替代完整财报。",
+      "invalidate": "若新增同口径数据否定销量、净价、成本或现金解释，则收窄/撤回命题；缺IP级终端销量与复购、渠道库存/折扣、地区同店店效、租赁固定支出、IP权利期限及Q3完整利润现金；HKD股价不能与RMB财务直接相除。",
+      "gap": "缺IP级终端销量与复购、渠道库存/折扣、地区同店店效、租赁固定支出、IP权利期限及Q3完整利润现金；HKD股价不能与RMB财务直接相除。",
+      "action_needed": "交叉核2026中报IP/地区/渠道和存货租赁附注，跟踪Q3收入区间原文，补门店成熟度与折扣库存；等待或取得有范围的完整损益现金披露后再预测。",
+      "methods": [
+        {
+          "id": "K03",
+          "version": 1
+        },
+        {
+          "id": "K09",
+          "version": 1
+        },
+        {
+          "id": "E04",
+          "version": 1
+        },
+        {
+          "id": "E08",
+          "version": 1
+        }
+      ],
+      "id": "Rbd733d44d823",
+      "needs_review": false,
+      "impacts": [],
+      "updated_at": "2026-11-10T07:52:09.050963+00:00",
+      "actor": "Agent/test-or-api",
+      "status": "Interpretation draft"
+    },
+    {
+      "lane": "研究交付",
+      "title": "当前研究支持到哪一层？",
+      "claim": "仅为候选证据支持的研究起点，不是完整投资报告、目标价或买卖建议。",
+      "evidence": "2025年报 S47095a39c6425b11 PDF物理7页；2026最新更新 S92234424087f455a PDF物理1页。B07-annual与B07-Q3均为机器候选，Fact=0。2025收入371.20052亿元、毛利率72.1%属年报候选；2026Q3经营更新称总收入同比下降45%—50%，美洲下降70%—75%、亚太下降65%—70%。这是收入区间更新，不是完整季度损益或现金流；不能据此推造利润降幅。",
+      "mechanism": "通过艺术家IP孵化、运营和产品设计，把IP表达为手办、搪胶毛绒等产品，再通过全球零售及线上渠道触达消费者。2025年报11—12物理页把IP及新品运营列为增长驱动，这是管理层自述，不是壁垒确认。IP权利安排、生产备货、店铺租赁与人力、库存折价及销售回款共同影响资本和现金。",
+      "opposition": "2025收入371.20052亿元、毛利率72.1%属年报候选；2026Q3经营更新称总收入同比下降45%—50%，美洲下降70%—75%、亚太下降65%—70%。这是收入区间更新，不是完整季度损益或现金流；不能据此推造利润降幅。",
+      "alternative": "竞争性解释一：2025高基数与新品节奏引发短期回落，IP组合和区域渠道仍可维持长期变现。\n竞争性解释二：爆款需求和稀缺性消退、海外渠道铺货透支，库存与固定租赁费用使利润现金对收入下降更敏感。",
+      "variables": "IP/新品推出→生产备货→门店线上销售→回款与库存折价；地区门店成熟爬坡、IP授权期限和续约成本。季度区间不替代完整财报。",
+      "invalidate": "若新增同口径数据否定销量、净价、成本或现金解释，则收窄/撤回命题；缺IP级终端销量与复购、渠道库存/折扣、地区同店店效、租赁固定支出、IP权利期限及Q3完整利润现金；HKD股价不能与RMB财务直接相除。",
+      "gap": "缺IP级终端销量与复购、渠道库存/折扣、地区同店店效、租赁固定支出、IP权利期限及Q3完整利润现金；HKD股价不能与RMB财务直接相除。",
+      "action_needed": "交叉核2026中报IP/地区/渠道和存货租赁附注，跟踪Q3收入区间原文，补门店成熟度与折扣库存；等待或取得有范围的完整损益现金披露后再预测。",
+      "methods": [
+        {
+          "id": "K03",
+          "version": 1
+        },
+        {
+          "id": "K09",
+          "version": 1
+        },
+        {
+          "id": "E04",
+          "version": 1
+        },
+        {
+          "id": "E08",
+          "version": 1
+        }
+      ],
+      "id": "Ra42a6324bb1c",
+      "needs_review": false,
+      "impacts": [],
+      "updated_at": "2026-11-10T07:52:09.056942+00:00",
+      "actor": "Agent/test-or-api",
+      "status": "Interpretation draft"
+    },
+    {
+      "lane": "历史经营解释",
+      "title": "收入、利润与现金为什么不同步？",
+      "claim": "2025收入371.20052亿元、毛利率72.1%属年报候选；2026Q3经营更新称总收入同比下降45%—50%，美洲下降70%—75%、亚太下降65%—70%。这是收入区间更新，不是完整季度损益或现金流；不能据此推造利润降幅。",
+      "evidence": "2025年报 S47095a39c6425b11 PDF物理7页；2026最新更新 S92234424087f455a PDF物理1页。B07-annual与B07-Q3均为机器候选，Fact=0。2025收入371.20052亿元、毛利率72.1%属年报候选；2026Q3经营更新称总收入同比下降45%—50%，美洲下降70%—75%、亚太下降65%—70%。这是收入区间更新，不是完整季度损益或现金流；不能据此推造利润降幅。\n2026中报 S01b68f6b1c14e53d PDF物理6页：2026H1收入+23.8%、经营溢利+11.3%、归母+10.1%，毛利率69.7%低于同期70.3%；Q3收入下降区间使高增长外推需要重估。以上均为未人审候选摘录。",
+      "mechanism": "通过艺术家IP孵化、运营和产品设计，把IP表达为手办、搪胶毛绒等产品，再通过全球零售及线上渠道触达消费者。2025年报11—12物理页把IP及新品运营列为增长驱动，这是管理层自述，不是壁垒确认。IP权利安排、生产备货、店铺租赁与人力、库存折价及销售回款共同影响资本和现金。",
+      "opposition": "2025收入371.20052亿元、毛利率72.1%属年报候选；2026Q3经营更新称总收入同比下降45%—50%，美洲下降70%—75%、亚太下降65%—70%。这是收入区间更新，不是完整季度损益或现金流；不能据此推造利润降幅。",
+      "alternative": "竞争性解释一：2025高基数与新品节奏引发短期回落，IP组合和区域渠道仍可维持长期变现。\n竞争性解释二：爆款需求和稀缺性消退、海外渠道铺货透支，库存与固定租赁费用使利润现金对收入下降更敏感。",
+      "variables": "IP/新品推出→生产备货→门店线上销售→回款与库存折价；地区门店成熟爬坡、IP授权期限和续约成本。季度区间不替代完整财报。",
+      "invalidate": "若新增同口径数据否定销量、净价、成本或现金解释，则收窄/撤回命题；缺IP级终端销量与复购、渠道库存/折扣、地区同店店效、租赁固定支出、IP权利期限及Q3完整利润现金；HKD股价不能与RMB财务直接相除。",
+      "gap": "缺IP级终端销量与复购、渠道库存/折扣、地区同店店效、租赁固定支出、IP权利期限及Q3完整利润现金；HKD股价不能与RMB财务直接相除。",
+      "action_needed": "交叉核2026中报IP/地区/渠道和存货租赁附注，跟踪Q3收入区间原文，补门店成熟度与折扣库存；等待或取得有范围的完整损益现金披露后再预测。",
+      "methods": [
+        {
+          "id": "K03",
+          "version": 1
+        },
+        {
+          "id": "K09",
+          "version": 1
+        },
+        {
+          "id": "E04",
+          "version": 1
+        },
+        {
+          "id": "E08",
+          "version": 1
+        }
+      ],
+      "id": "Rad6660d577af",
+      "needs_review": false,
+      "impacts": [],
+      "updated_at": "2026-11-10T07:54:18.086072+00:00",
+      "actor": "Agent/test-or-api",
+      "status": "Interpretation draft"
+    }
+  ],
+  "bindings": {
+    "selection_ids": [
+      "R14c10b3a792a",
+      "R58b870a4ee64",
+      "R7bfc89d395aa",
+      "R7d8112e87a58",
+      "R8c387d2da2f6",
+      "Ra42a6324bb1c",
+      "Rad6660d577af",
+      "Rbd733d44d823"
+    ],
+    "selection_scope": "all-eight-lanes",
+    "cards": {
+      "R7d8112e87a58": "e1e6e2c1f6ea38c10782cfc16b2295f336cac59d6f08a6856af606e4df79bf82",
+      "R7bfc89d395aa": "cf47ca105c611f677fbc30a4354a8dba685d25b4d80fabd617a5179a189d2452",
+      "R58b870a4ee64": "c726ea019565485116d5f99a0270400d6ca3222170a7e31f9b5139b4d3a2e568",
+      "R8c387d2da2f6": "141414b512518394eb48ea03ba5fda8f0412e367e640f3261486c38d94db2fbc",
+      "R14c10b3a792a": "2afaebd349f418b17fbedef8b1f9fe70fb5c04fc9a49439f0bb3648677944c83",
+      "Rbd733d44d823": "60ac1fa21f522641ef77bf6a9916d02d771993018c1e04834e61d135d3157d2d",
+      "Ra42a6324bb1c": "d974bfccf0bc9140d366d2cb8f7a93c080883eb7a0fa6f471d4c66da2c21c961",
+      "Rad6660d577af": "c7f7e433ca3b3e2d233f063979e0047e4ff7534af1863313f7c3b773d1a38bdc"
+    },
+    "methods": [
+      {
+        "id": "K03",
+        "version": 1
+      },
+      {
+        "id": "K09",
+        "version": 1
+      },
+      {
+        "id": "E04",
+        "version": 1
+      },
+      {
+        "id": "E08",
+        "version": 1
+      }
+    ],
+    "inputs": {
+      "work/review-batches/B07-annual.json": "c480b981202701b67630537882833ddc5e7b120af396d1b66e95a82e7ac54312",
+      "work/review-batches/B07-Q3.json": "4afced6ff36347acebdfe71b38fd0678f11c037f88f15586c5da39cb84b60290",
+      "work/research07/source-field-map.json": "a8e2f9ebaca376124324e3b0f28bcad967b06790cc86822e6283d697ab8837d8",
+      "work/research07/candidate-calculations.json": "162f55116a9f3dfe5587338a86ef537eb6b7ecc4cb9e9b13d6b4809b3d2863d1"
+    },
+    "sources": [
+      {
+        "id": "S92234424087f455a",
+        "path": "sources/raw/S92234424087f455a_2026-10-27_LATEST BUSINESS UPDATE FOR THE THIRD QUARTER OF 2026__2026_c437e22e46.pdf",
+        "sha256": "92234424087f455a786558f9a9c6c900573392160a63f4720371b07ee3197490"
+      },
+      {
+        "id": "S47095a39c6425b11",
+        "path": "sources/raw/S47095a39c6425b11_2026-04-21_ANNUAL REPORT 2025__2025_bd4e173872.pdf",
+        "sha256": "47095a39c6425b11e5aaa091f456e178498d20a77d4ff6a969e351e4f5dfaaf7"
+      },
+      {
+        "id": "S01b68f6b1c14e53d",
+        "path": "sources/raw/S01b68f6b1c14e53d_2026-09-24_2026 INTERIM REPORT_EPORT_3ca5b69bf8.pdf",
+        "sha256": "01b68f6b1c14e53d235bf8cb476d87db1345f00eeeabc10533c820ae00894d44"
+      }
+    ]
+  },
+  "actual_user_review": null,
+  "unresolved_impacts": [],
+  "input_values": {
+    "work/review-batches/B07-annual.json": "{\n  \"batch_id\": \"B07-annual\",\n  \"company\": \"09992_泡泡玛特\",\n  \"source_id\": \"S47095a39c6425b11\",\n  \"source_sha256\": \"47095a39c6425b11e5aaa091f456e178498d20a77d4ff6a969e351e4f5dfaaf7\",\n  \"physical_page\": 7,\n  \"records\": [\n    {\n      \"id\": \"B07-A01\",\n      \"kind\": \"disclosure\",\n      \"claim\": \"收入2025\",\n      \"scope\": {\n        \"period\": \"2025年度\",\n        \"entity\": \"泡泡玛特\",\n        \"basis\": \"集团合并年度财务摘要\",\n        \"definition\": \"收入2025；按原表列定位，不把归母/合并净利润混同\",\n        \"unit\": \"人民币千元\",\n        \"currency\": \"CNY\"\n      },\n      \"sources\": [\n        {\n          \"source_id\": \"S47095a39c6425b11\",\n          \"location\": \"PDF物理第7页，财务摘要/经营更新，行“收入2025”\"\n        }\n      ],\n      \"support_boundary\": \"机器提取候选，尚无人审核准；不单独证明机制或投资价值。\",\n      \"value\": \"37120052\",\n      \"extracted_value\": \"37120052\",\n      \"file_sha256\": \"47095a39c6425b11e5aaa091f456e178498d20a77d4ff6a969e351e4f5dfaaf7\",\n      \"source_path\": \"sources/raw/S47095a39c6425b11_2026-04-21_ANNUAL REPORT 2025__2025_bd4e173872.pdf\",\n      \"physical_page\": 7,\n      \"table_position\": \"收入2025\",\n      \"excerpt\": \"\\nRMB’000 RMB’000 RMB’000 RMB’000 RMB’000\\n人民幣千元 人民幣千元 人民幣千元 人民幣千元 人民幣千元\\n       \\nRevenue 收入 37,120,052 13,037,749 6,301,002 4,617,324 4,490,651\\nGross profit 毛利 26,764,916 8,707,765 3,864,071 2,654,543 2,758,624\\nOperating profit 經營\",\n      \"state\": \"Unknown / 未人审\",\n      \"extractor\": \"Codex Agent\",\n      \"extracted_at\": \"2026-11-10T07:52:07.303266+00:00\",\n      \"disclosure_date\": \"2026-04-21\"\n    },\n    {\n      \"id\": \"B07-A02\",\n      \"kind\": \"disclosure\",\n      \"claim\": \"收入2024\",\n      \"scope\": {\n        \"period\": \"2024年度\",\n        \"entity\": \"泡泡玛特\",\n        \"basis\": \"集团合并年度财务摘要\",\n        \"definition\": \"收入2024；按原表列定位，不把归母/合并净利润混同\",\n        \"unit\": \"人民币千元\",\n        \"currency\": \"CNY\"\n      },\n      \"sources\": [\n        {\n          \"source_id\": \"S47095a39c6425b11\",\n          \"location\": \"PDF物理第7页，财务摘要/经营更新，行“收入2024”\"\n        }\n      ],\n      \"support_boundary\": \"机器提取候选，尚无人审核准；不单独证明机制或投资价值。\",\n      \"value\": \"13037749\",\n      \"extracted_value\": \"13037749\",\n      \"file_sha256\": \"47095a39c6425b11e5aaa091f456e178498d20a77d4ff6a969e351e4f5dfaaf7\",\n      \"source_path\": \"sources/raw/S47095a39c6425b11_2026-04-21_ANNUAL REPORT 2025__2025_bd4e173872.pdf\",\n      \"physical_page\": 7,\n      \"table_position\": \"收入2024\",\n      \"excerpt\": \"RMB’000 RMB’000 RMB’000 RMB’000\\n人民幣千元 人民幣千元 人民幣千元 人民幣千元 人民幣千元\\n       \\nRevenue 收入 37,120,052 13,037,749 6,301,002 4,617,324 4,490,651\\nGross profit 毛利 26,764,916 8,707,765 3,864,071 2,654,543 2,758,624\\nOperating profit 經營溢利 16,890\",\n      \"state\": \"Unknown / 未人审\",\n      \"extractor\": \"Codex Agent\",\n      \"extracted_at\": \"2026-11-10T07:52:07.303266+00:00\",\n      \"disclosure_date\": \"2026-04-21\"\n    },\n    {\n      \"id\": \"B07-A03\",\n      \"kind\": \"disclosure\",\n      \"claim\": \"毛利2025\",\n      \"scope\": {\n        \"period\": \"2025年度\",\n        \"entity\": \"泡泡玛特\",\n        \"basis\": \"集团合并年度财务摘要\",\n        \"definition\": \"毛利2025；按原表列定位，不把归母/合并净利润混同\",\n        \"unit\": \"人民币千元\",\n        \"currency\": \"CNY\"\n      },\n      \"sources\": [\n        {\n          \"source_id\": \"S47095a39c6425b11\",\n          \"location\": \"PDF物理第7页，财务摘要/经营更新，行“毛利2025”\"\n        }\n      ],\n      \"support_boundary\": \"机器提取候选，尚无人审核准；不单独证明机制或投资价值。\",\n      \"value\": \"26764916\",\n      \"extracted_value\": \"26764916\",\n      \"file_sha256\": \"47095a39c6425b11e5aaa091f456e178498d20a77d4ff6a969e351e4f5dfaaf7\",\n      \"source_path\": \"sources/raw/S47095a39c6425b11_2026-04-21_ANNUAL REPORT 2025__2025_bd4e173872.pdf\",\n      \"physical_page\": 7,\n      \"table_position\": \"毛利2025\",\n      \"excerpt\": \" 人民幣千元 人民幣千元\\n       \\nRevenue 收入 37,120,052 13,037,749 6,301,002 4,617,324 4,490,651\\nGross profit 毛利 26,764,916 8,707,765 3,864,071 2,654,543 2,758,624\\nOperating profit 經營溢利 16,890,474 4,154,272 1,230,646 583,380 1,149,812\\nProfit\",\n      \"state\": \"Unknown / 未人审\",\n      \"extractor\": \"Codex Agent\",\n      \"extracted_at\": \"2026-11-10T07:52:07.303266+00:00\",\n      \"disclosure_date\": \"2026-04-21\"\n    },\n    {\n      \"id\": \"B07-A04\",\n      \"kind\": \"disclosure\",\n      \"claim\": \"毛利2024\",\n      \"scope\": {\n        \"period\": \"2024年度\",\n        \"entity\": \"泡泡玛特\",\n        \"basis\": \"集团合并年度财务摘要\",\n        \"definition\": \"毛利2024；按原表列定位，不把归母/合并净利润混同\",\n        \"unit\": \"人民币千元\",\n        \"currency\": \"CNY\"\n      },\n      \"sources\": [\n        {\n          \"source_id\": \"S47095a39c6425b11\",\n          \"location\": \"PDF物理第7页，财务摘要/经营更新，行“毛利2024”\"\n        }\n      ],\n      \"support_boundary\": \"机器提取候选，尚无人审核准；不单独证明机制或投资价值。\",\n      \"value\": \"8707765\",\n      \"extracted_value\": \"8707765\",\n      \"file_sha256\": \"47095a39c6425b11e5aaa091f456e178498d20a77d4ff6a969e351e4f5dfaaf7\",\n      \"source_path\": \"sources/raw/S47095a39c6425b11_2026-04-21_ANNUAL REPORT 2025__2025_bd4e173872.pdf\",\n      \"physical_page\": 7,\n      \"table_position\": \"毛利2024\",\n      \"excerpt\": \"幣千元\\n       \\nRevenue 收入 37,120,052 13,037,749 6,301,002 4,617,324 4,490,651\\nGross profit 毛利 26,764,916 8,707,765 3,864,071 2,654,543 2,758,624\\nOperating profit 經營溢利 16,890,474 4,154,272 1,230,646 583,380 1,149,812\\nProfit before \",\n      \"state\": \"Unknown / 未人审\",\n      \"extractor\": \"Codex Agent\",\n      \"extracted_at\": \"2026-11-10T07:52:07.303266+00:00\",\n      \"disclosure_date\": \"2026-04-21\"\n    },\n    {\n      \"id\": \"B07-A05\",\n      \"kind\": \"disclosure\",\n      \"claim\": \"年内溢利2025（含非控股）\",\n      \"scope\": {\n        \"period\": \"2025年度\",\n        \"entity\": \"泡泡玛特\",\n        \"basis\": \"集团合并年度财务摘要\",\n        \"definition\": \"年内溢利2025（含非控股）；按原表列定位，不把归母/合并净利润混同\",\n        \"unit\": \"人民币千元\",\n        \"currency\": \"CNY\"\n      },\n      \"sources\": [\n        {\n          \"source_id\": \"S47095a39c6425b11\",\n          \"location\": \"PDF物理第7页，财务摘要/经营更新，行“年内溢利2025（含非控股）”\"\n        }\n      ],\n      \"support_boundary\": \"机器提取候选，尚无人审核准；不单独证明机制或投资价值。\",\n      \"value\": \"13012042\",\n      \"extracted_value\": \"13012042\",\n      \"file_sha256\": \"47095a39c6425b11e5aaa091f456e178498d20a77d4ff6a969e351e4f5dfaaf7\",\n      \"source_path\": \"sources/raw/S47095a39c6425b11_2026-04-21_ANNUAL REPORT 2025__2025_bd4e173872.pdf\",\n      \"physical_page\": 7,\n      \"table_position\": \"年内溢利2025（含非控股）\",\n      \"excerpt\": \"46 583,380 1,149,812\\nProfit before income tax 除所得稅前溢利 17,036,622 4,365,812 1,415,755 639,529 1,171,191\\nProfit for the year 年內溢利 13,012,042 3,308,345 1,088,771 475,801 854,567\\nProfit attributable to \\n owners of the Company\\n本公司擁有人\",\n      \"state\": \"Unknown / 未人审\",\n      \"extractor\": \"Codex Agent\",\n      \"extracted_at\": \"2026-11-10T07:52:07.303266+00:00\",\n      \"disclosure_date\": \"2026-04-21\"\n    },\n    {\n      \"id\": \"B07-A06\",\n      \"kind\": \"disclosure\",\n      \"claim\": \"年内溢利2024（含非控股）\",\n      \"scope\": {\n        \"period\": \"2024年度\",\n        \"entity\": \"泡泡玛特\",\n        \"basis\": \"集团合并年度财务摘要\",\n        \"definition\": \"年内溢利2024（含非控股）；按原表列定位，不把归母/合并净利润混同\",\n        \"unit\": \"人民币千元\",\n        \"currency\": \"CNY\"\n      },\n      \"sources\": [\n        {\n          \"source_id\": \"S47095a39c6425b11\",\n          \"location\": \"PDF物理第7页，财务摘要/经营更新，行“年内溢利2024（含非控股）”\"\n        }\n      ],\n      \"support_boundary\": \"机器提取候选，尚无人审核准；不单独证明机制或投资价值。\",\n      \"value\": \"3308345\",\n      \"extracted_value\": \"3308345\",\n      \"file_sha256\": \"47095a39c6425b11e5aaa091f456e178498d20a77d4ff6a969e351e4f5dfaaf7\",\n      \"source_path\": \"sources/raw/S47095a39c6425b11_2026-04-21_ANNUAL REPORT 2025__2025_bd4e173872.pdf\",\n      \"physical_page\": 7,\n      \"table_position\": \"年内溢利2024（含非控股）\",\n      \"excerpt\": \"0 1,149,812\\nProfit before income tax 除所得稅前溢利 17,036,622 4,365,812 1,415,755 639,529 1,171,191\\nProfit for the year 年內溢利 13,012,042 3,308,345 1,088,771 475,801 854,567\\nProfit attributable to \\n owners of the Company\\n本公司擁有人\\n 應佔溢利 1\",\n      \"state\": \"Unknown / 未人审\",\n      \"extractor\": \"Codex Agent\",\n      \"extracted_at\": \"2026-11-10T07:52:07.303266+00:00\",\n      \"disclosure_date\": \"2026-04-21\"\n    }\n  ],\n  \"actual_human_confirmation\": null\n}\n",
+    "work/review-batches/B07-Q3.json": "{\n  \"batch_id\": \"B07-Q3\",\n  \"company\": \"09992_泡泡玛特\",\n  \"source_id\": \"S92234424087f455a\",\n  \"source_sha256\": \"92234424087f455a786558f9a9c6c900573392160a63f4720371b07ee3197490\",\n  \"physical_page\": 1,\n  \"records\": [\n    {\n      \"id\": \"B07-Q01\",\n      \"kind\": \"disclosure\",\n      \"claim\": \"集团收入同比\",\n      \"scope\": {\n        \"period\": \"2026Q3相对2025Q3\",\n        \"entity\": \"泡泡玛特\",\n        \"basis\": \"集团合并；季度数据未经审计\",\n        \"definition\": \"集团收入同比；按原表列定位，不把归母/合并净利润混同\",\n        \"unit\": \"%\",\n        \"currency\": \"CNY\"\n      },\n      \"sources\": [\n        {\n          \"source_id\": \"S92234424087f455a\",\n          \"location\": \"PDF物理第1页，财务摘要/经营更新，行“集团收入同比”\"\n        }\n      ],\n      \"support_boundary\": \"机器提取候选，尚无人审核准；不单独证明机制或投资价值。\",\n      \"extracted_value\": \"-50% 至 -45%\",\n      \"file_sha256\": \"92234424087f455a786558f9a9c6c900573392160a63f4720371b07ee3197490\",\n      \"source_path\": \"sources/raw/S92234424087f455a_2026-10-27_LATEST BUSINESS UPDATE FOR THE THIRD QUARTER OF 2026__2026_c437e22e46.pdf\",\n      \"physical_page\": 1,\n      \"table_position\": \"集团收入同比\",\n      \"excerpt\": \"1\\nHong Kong Exchanges and Clearing Limited and The Stock Exchange of Hong Kong Limited take no responsibility \\nfor the contents of this announcement, make no representation as to its accuracy or completeness and expressly \\ndisclaim any liab\",\n      \"state\": \"Unknown / 未人审\",\n      \"extractor\": \"Codex Agent\",\n      \"extracted_at\": \"2026-11-10T07:52:07.303266+00:00\",\n      \"disclosure_date\": \"2026-10-27\"\n    },\n    {\n      \"id\": \"B07-Q02\",\n      \"kind\": \"disclosure\",\n      \"claim\": \"中国收入同比\",\n      \"scope\": {\n        \"period\": \"2026Q3相对2025Q3\",\n        \"entity\": \"泡泡玛特\",\n        \"basis\": \"集团合并；季度数据未经审计\",\n        \"definition\": \"中国收入同比；按原表列定位，不把归母/合并净利润混同\",\n        \"unit\": \"%\",\n        \"currency\": \"CNY\"\n      },\n      \"sources\": [\n        {\n          \"source_id\": \"S92234424087f455a\",\n          \"location\": \"PDF物理第1页，财务摘要/经营更新，行“中国收入同比”\"\n        }\n      ],\n      \"support_boundary\": \"机器提取候选，尚无人审核准；不单独证明机制或投资价值。\",\n      \"extracted_value\": \"-30% 至 -25%\",\n      \"file_sha256\": \"92234424087f455a786558f9a9c6c900573392160a63f4720371b07ee3197490\",\n      \"source_path\": \"sources/raw/S92234424087f455a_2026-10-27_LATEST BUSINESS UPDATE FOR THE THIRD QUARTER OF 2026__2026_c437e22e46.pdf\",\n      \"physical_page\": 1,\n      \"table_position\": \"中国收入同比\",\n      \"excerpt\": \"1\\nHong Kong Exchanges and Clearing Limited and The Stock Exchange of Hong Kong Limited take no responsibility \\nfor the contents of this announcement, make no representation as to its accuracy or completeness and expressly \\ndisclaim any liab\",\n      \"state\": \"Unknown / 未人审\",\n      \"extractor\": \"Codex Agent\",\n      \"extracted_at\": \"2026-11-10T07:52:07.303266+00:00\",\n      \"disclosure_date\": \"2026-10-27\"\n    },\n    {\n      \"id\": \"B07-Q03\",\n      \"kind\": \"disclosure\",\n      \"claim\": \"亚太收入同比\",\n      \"scope\": {\n        \"period\": \"2026Q3相对2025Q3\",\n        \"entity\": \"泡泡玛特\",\n        \"basis\": \"集团合并；季度数据未经审计\",\n        \"definition\": \"亚太收入同比；按原表列定位，不把归母/合并净利润混同\",\n        \"unit\": \"%\",\n        \"currency\": \"CNY\"\n      },\n      \"sources\": [\n        {\n          \"source_id\": \"S92234424087f455a\",\n          \"location\": \"PDF物理第1页，财务摘要/经营更新，行“亚太收入同比”\"\n        }\n      ],\n      \"support_boundary\": \"机器提取候选，尚无人审核准；不单独证明机制或投资价值。\",\n      \"extracted_value\": \"-70% 至 -65%\",\n      \"file_sha256\": \"92234424087f455a786558f9a9c6c900573392160a63f4720371b07ee3197490\",\n      \"source_path\": \"sources/raw/S92234424087f455a_2026-10-27_LATEST BUSINESS UPDATE FOR THE THIRD QUARTER OF 2026__2026_c437e22e46.pdf\",\n      \"physical_page\": 1,\n      \"table_position\": \"亚太收入同比\",\n      \"excerpt\": \"1\\nHong Kong Exchanges and Clearing Limited and The Stock Exchange of Hong Kong Limited take no responsibility \\nfor the contents of this announcement, make no representation as to its accuracy or completeness and expressly \\ndisclaim any liab\",\n      \"state\": \"Unknown / 未人审\",\n      \"extractor\": \"Codex Agent\",\n      \"extracted_at\": \"2026-11-10T07:52:07.303266+00:00\",\n      \"disclosure_date\": \"2026-10-27\"\n    },\n    {\n      \"id\": \"B07-Q04\",\n      \"kind\": \"disclosure\",\n      \"claim\": \"美洲收入同比\",\n      \"scope\": {\n        \"period\": \"2026Q3相对2025Q3\",\n        \"entity\": \"泡泡玛特\",\n        \"basis\": \"集团合并；季度数据未经审计\",\n        \"definition\": \"美洲收入同比；按原表列定位，不把归母/合并净利润混同\",\n        \"unit\": \"%\",\n        \"currency\": \"CNY\"\n      },\n      \"sources\": [\n        {\n          \"source_id\": \"S92234424087f455a\",\n          \"location\": \"PDF物理第1页，财务摘要/经营更新，行“美洲收入同比”\"\n        }\n      ],\n      \"support_boundary\": \"机器提取候选，尚无人审核准；不单独证明机制或投资价值。\",\n      \"extracted_value\": \"-75% 至 -70%\",\n      \"file_sha256\": \"92234424087f455a786558f9a9c6c900573392160a63f4720371b07ee3197490\",\n      \"source_path\": \"sources/raw/S92234424087f455a_2026-10-27_LATEST BUSINESS UPDATE FOR THE THIRD QUARTER OF 2026__2026_c437e22e46.pdf\",\n      \"physical_page\": 1,\n      \"table_position\": \"美洲收入同比\",\n      \"excerpt\": \"1\\nHong Kong Exchanges and Clearing Limited and The Stock Exchange of Hong Kong Limited take no responsibility \\nfor the contents of this announcement, make no representation as to its accuracy or completeness and expressly \\ndisclaim any liab\",\n      \"state\": \"Unknown / 未人审\",\n      \"extractor\": \"Codex Agent\",\n      \"extracted_at\": \"2026-11-10T07:52:07.303266+00:00\",\n      \"disclosure_date\": \"2026-10-27\"\n    },\n    {\n      \"id\": \"B07-Q05\",\n      \"kind\": \"disclosure\",\n      \"claim\": \"欧洲及其他收入同比\",\n      \"scope\": {\n        \"period\": \"2026Q3相对2025Q3\",\n        \"entity\": \"泡泡玛特\",\n        \"basis\": \"集团合并；季度数据未经审计\",\n        \"definition\": \"欧洲及其他收入同比；按原表列定位，不把归母/合并净利润混同\",\n        \"unit\": \"%\",\n        \"currency\": \"CNY\"\n      },\n      \"sources\": [\n        {\n          \"source_id\": \"S92234424087f455a\",\n          \"location\": \"PDF物理第1页，财务摘要/经营更新，行“欧洲及其他收入同比”\"\n        }\n      ],\n      \"support_boundary\": \"机器提取候选，尚无人审核准；不单独证明机制或投资价值。\",\n      \"extracted_value\": \"-55% 至 -50%\",\n      \"file_sha256\": \"92234424087f455a786558f9a9c6c900573392160a63f4720371b07ee3197490\",\n      \"source_path\": \"sources/raw/S92234424087f455a_2026-10-27_LATEST BUSINESS UPDATE FOR THE THIRD QUARTER OF 2026__2026_c437e22e46.pdf\",\n      \"physical_page\": 1,\n      \"table_position\": \"欧洲及其他收入同比\",\n      \"excerpt\": \"1\\nHong Kong Exchanges and Clearing Limited and The Stock Exchange of Hong Kong Limited take no responsibility \\nfor the contents of this announcement, make no representation as to its accuracy or completeness and expressly \\ndisclaim any liab\",\n      \"state\": \"Unknown / 未人审\",\n      \"extractor\": \"Codex Agent\",\n      \"extracted_at\": \"2026-11-10T07:52:07.303266+00:00\",\n      \"disclosure_date\": \"2026-10-27\"\n    },\n    {\n      \"id\": \"B07-Q06\",\n      \"kind\": \"disclosure\",\n      \"claim\": \"中国线下收入同比\",\n      \"scope\": {\n        \"period\": \"2026Q3相对2025Q3\",\n        \"entity\": \"泡泡玛特\",\n        \"basis\": \"集团合并；季度数据未经审计\",\n        \"definition\": \"中国线下收入同比；按原表列定位，不把归母/合并净利润混同\",\n        \"unit\": \"%\",\n        \"currency\": \"CNY\"\n      },\n      \"sources\": [\n        {\n          \"source_id\": \"S92234424087f455a\",\n          \"location\": \"PDF物理第1页，财务摘要/经营更新，行“中国线下收入同比”\"\n        }\n      ],\n      \"support_boundary\": \"机器提取候选，尚无人审核准；不单独证明机制或投资价值。\",\n      \"extracted_value\": \"-10% 至 -5%\",\n      \"file_sha256\": \"92234424087f455a786558f9a9c6c900573392160a63f4720371b07ee3197490\",\n      \"source_path\": \"sources/raw/S92234424087f455a_2026-10-27_LATEST BUSINESS UPDATE FOR THE THIRD QUARTER OF 2026__2026_c437e22e46.pdf\",\n      \"physical_page\": 1,\n      \"table_position\": \"中国线下收入同比\",\n      \"excerpt\": \"1\\nHong Kong Exchanges and Clearing Limited and The Stock Exchange of Hong Kong Limited take no responsibility \\nfor the contents of this announcement, make no representation as to its accuracy or completeness and expressly \\ndisclaim any liab\",\n      \"state\": \"Unknown / 未人审\",\n      \"extractor\": \"Codex Agent\",\n      \"extracted_at\": \"2026-11-10T07:52:07.303266+00:00\",\n      \"disclosure_date\": \"2026-10-27\"\n    },\n    {\n      \"id\": \"B07-Q07\",\n      \"kind\": \"disclosure\",\n      \"claim\": \"中国线上收入同比\",\n      \"scope\": {\n        \"period\": \"2026Q3相对2025Q3\",\n        \"entity\": \"泡泡玛特\",\n        \"basis\": \"集团合并；季度数据未经审计\",\n        \"definition\": \"中国线上收入同比；按原表列定位，不把归母/合并净利润混同\",\n        \"unit\": \"%\",\n        \"currency\": \"CNY\"\n      },\n      \"sources\": [\n        {\n          \"source_id\": \"S92234424087f455a\",\n          \"location\": \"PDF物理第1页，财务摘要/经营更新，行“中国线上收入同比”\"\n        }\n      ],\n      \"support_boundary\": \"机器提取候选，尚无人审核准；不单独证明机制或投资价值。\",\n      \"extracted_value\": \"-50% 至 -45%\",\n      \"file_sha256\": \"92234424087f455a786558f9a9c6c900573392160a63f4720371b07ee3197490\",\n      \"source_path\": \"sources/raw/S92234424087f455a_2026-10-27_LATEST BUSINESS UPDATE FOR THE THIRD QUARTER OF 2026__2026_c437e22e46.pdf\",\n      \"physical_page\": 1,\n      \"table_position\": \"中国线上收入同比\",\n      \"excerpt\": \"1\\nHong Kong Exchanges and Clearing Limited and The Stock Exchange of Hong Kong Limited take no responsibility \\nfor the contents of this announcement, make no representation as to its accuracy or completeness and expressly \\ndisclaim any liab\",\n      \"state\": \"Unknown / 未人审\",\n      \"extractor\": \"Codex Agent\",\n      \"extracted_at\": \"2026-11-10T07:52:07.303266+00:00\",\n      \"disclosure_date\": \"2026-10-27\"\n    }\n  ],\n  \"actual_human_confirmation\": null\n}\n",
+    "work/research07/source-field-map.json": "{\n  \"cutoff\": \"2026-11-10\",\n  \"company\": \"09992_泡泡玛特\",\n  \"management_statement\": {\n    \"source_id\": \"S47095a39c6425b11\",\n    \"page\": 11,\n    \"identity\": \"管理层自述，非机制事实\",\n    \"summary\": \"通过艺术家IP孵化、运营和产品设计，把IP表达为手办、搪胶毛绒等产品，再通过全球零售及线上渠道触达消费者。2025年报11—12物理页把IP及新品运营列为增长驱动，这是管理层自述，不是壁垒确认。IP权利安排、生产备货、店铺租赁与人力、库存折价及销售回款共同影响资本和现金。\"\n  },\n  \"batches\": [\n    \"B07-annual\",\n    \"B07-Q3\"\n  ],\n  \"sources\": [\n    {\n      \"company\": \"09992_泡泡玛特\",\n      \"kind\": \"annual\",\n      \"id\": \"S47095a39c6425b11\",\n      \"path\": \"sources/raw/S47095a39c6425b11_2026-04-21_ANNUAL REPORT 2025__2025_bd4e173872.pdf\",\n      \"title\": \"ANNUAL REPORT 2025\",\n      \"sha256\": \"47095a39c6425b11e5aaa091f456e178498d20a77d4ff6a969e351e4f5dfaaf7\",\n      \"pages_total\": 370\n    },\n    {\n      \"company\": \"09992_泡泡玛特\",\n      \"kind\": \"Q3\",\n      \"id\": \"S92234424087f455a\",\n      \"path\": \"sources/raw/S92234424087f455a_2026-10-27_LATEST BUSINESS UPDATE FOR THE THIRD QUARTER OF 2026__2026_c437e22e46.pdf\",\n      \"title\": \"LATEST BUSINESS UPDATE FOR THE THIRD QUARTER OF 2026\",\n      \"sha256\": \"92234424087f455a786558f9a9c6c900573392160a63f4720371b07ee3197490\",\n      \"pages_total\": 2\n    },\n    {\n      \"company\": \"09992_泡泡玛特\",\n      \"kind\": \"H1\",\n      \"id\": \"S01b68f6b1c14e53d\",\n      \"path\": \"sources/raw/S01b68f6b1c14e53d_2026-09-24_2026 INTERIM REPORT_EPORT_3ca5b69bf8.pdf\",\n      \"title\": \"2026 INTERIM REPORT\",\n      \"sha256\": \"01b68f6b1c14e53d235bf8cb476d87db1345f00eeeabc10533c820ae00894d44\",\n      \"pages_total\": 130\n    }\n  ],\n  \"knowledge_application\": [\n    {\n      \"id\": \"K03\",\n      \"use\": \"用于区分量价/结构、经营回报、现金与反证，具体研究位置见研究卡\"\n    },\n    {\n      \"id\": \"K09\",\n      \"use\": \"用于区分量价/结构、经营回报、现金与反证，具体研究位置见研究卡\"\n    },\n    {\n      \"id\": \"E04\",\n      \"use\": \"用于区分量价/结构、经营回报、现金与反证，具体研究位置见研究卡\"\n    },\n    {\n      \"id\": \"E08\",\n      \"use\": \"用于区分量价/结构、经营回报、现金与反证，具体研究位置见研究卡\"\n    }\n  ],\n  \"contract_mapping\": \"共享contract-research-map：原文取证/口径/财务四环/行业优势与反证；本轮不宣称条款验收或签署\",\n  \"gaps\": \"缺IP级终端销量与复购、渠道库存/折扣、地区同店店效、租赁固定支出、IP权利期限及Q3完整利润现金；HKD股价不能与RMB财务直接相除。\",\n  \"actions\": \"交叉核2026中报IP/地区/渠道和存货租赁附注，跟踪Q3收入区间原文，补门店成熟度与折扣库存；等待或取得有范围的完整损益现金披露后再预测。\",\n  \"restatement_note\": \"年报摘要使用报告内可比列；柏楚往年每股收益随权益分派调整，本批不选EPS；泡泡IFRS与调整利润不混用\",\n  \"H1_candidate_reading_note\": {\n    \"physical_pages\": \"6\",\n    \"note\": \"2026H1收入+23.8%、经营溢利+11.3%、归母+10.1%，毛利率69.7%低于同期70.3%；Q3收入下降区间使高增长外推需要重估。以上均为未人审候选摘录。\",\n    \"status\": \"未人审，不认定Fact\"\n  }\n}\n",
+    "work/research07/candidate-calculations.json": "{\n  \"calculations\": [\n    {\n      \"label\": \"收入同比\",\n      \"value_unrounded\": \"184.7121232353836540341434706\",\n      \"unit\": \"%\",\n      \"formula\": \"(current/prior-1)*100\",\n      \"inputs\": [\n        \"B07-A01\",\n        \"B07-A02\"\n      ],\n      \"source_sha256\": \"47095a39c6425b11e5aaa091f456e178498d20a77d4ff6a969e351e4f5dfaaf7\",\n      \"status\": \"候选输入上的Agent独立算术，非Fact\",\n      \"scope_warning\": \"不同利润归属及现金口径不相除，不把增长分解当因果\"\n    },\n    {\n      \"label\": \"毛利同比\",\n      \"value_unrounded\": \"207.3683775343041526729304247\",\n      \"unit\": \"%\",\n      \"formula\": \"(current/prior-1)*100\",\n      \"inputs\": [\n        \"B07-A03\",\n        \"B07-A04\"\n      ],\n      \"source_sha256\": \"47095a39c6425b11e5aaa091f456e178498d20a77d4ff6a969e351e4f5dfaaf7\",\n      \"status\": \"候选输入上的Agent独立算术，非Fact\",\n      \"scope_warning\": \"不同利润归属及现金口径不相除，不把增长分解当因果\"\n    },\n    {\n      \"label\": \"合并年内溢利同比\",\n      \"value_unrounded\": \"293.3097062126229277780884400\",\n      \"unit\": \"%\",\n      \"formula\": \"(current/prior-1)*100\",\n      \"inputs\": [\n        \"B07-A05\",\n        \"B07-A06\"\n      ],\n      \"source_sha256\": \"47095a39c6425b11e5aaa091f456e178498d20a77d4ff6a969e351e4f5dfaaf7\",\n      \"status\": \"候选输入上的Agent独立算术，非Fact\",\n      \"scope_warning\": \"不同利润归属及现金口径不相除，不把增长分解当因果\"\n    }\n  ],\n  \"human_confirmation\": null\n}\n"
+  }
+}

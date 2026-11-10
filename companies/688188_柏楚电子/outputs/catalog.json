@@ -9,7 +9,7 @@
       "at": "2026-11-10T06:46:48.370952+00:00",
       "actor": "Agent/test-or-api",
       "actual_user_review": null,
-      "historical": false,
+      "historical": true,
       "bindings": {
         "cards": {},
         "methods": [],
@@ -40,6 +40,424 @@
           "format": "md",
           "sha256": "2319e61fe100a99ec077915dd7589ce1997524bbc2950135e80e30f6f1a12040",
           "bytes": 1223
+        }
+      ],
+      "needs_review": true,
+      "imported": false,
+      "impact_reasons": [
+        "研究卡集合变化：新增/删除内容未纳入本版"
+      ],
+      "file_integrity": true
+    },
+    {
+      "id": "Oc81a91bd8932",
+      "group": "research-report",
+      "title": "柏楚电子研究起点｜候选证据与竞争解释",
+      "kind": "报告草稿",
+      "version": 2,
+      "at": "2026-11-10T07:50:10.618685+00:00",
+      "actor": "Agent/test-or-api",
+      "actual_user_review": null,
+      "historical": true,
+      "bindings": {
+        "selection_ids": [
+          "R1622b2e65098",
+          "R42383f58e180",
+          "R6ef717bb11b9",
+          "R9b91e4658392",
+          "Rc91d3bad8c35",
+          "Rd192d88d9be7",
+          "Rd3892afbfc24",
+          "Re652de68ca00"
+        ],
+        "selection_scope": "all-eight-lanes",
+        "cards": {
+          "Rc91d3bad8c35": "ff6490b2e9350679f1af99ab46cf56467b55c83208a301f64f03b690f210dd26",
+          "R42383f58e180": "5fb4f0c66e5a4fde5b4908efc3ae13794e262a7cefcf0fc855988922021efa5f",
+          "Re652de68ca00": "78908eeeffdc0d02438460242cdd2f5640f9788dacf089c830f9d92256f3fb89",
+          "R1622b2e65098": "f43bb426614dba0acc881b9206e4103480943c65a5b2fa98a5b5fc7df290610d",
+          "R9b91e4658392": "13a9a52dd27c45ecfbe25b3a56b80ff95ed0103fd2b069fab73841fdf94e3830",
+          "Rd192d88d9be7": "ad20f38fb34fd4d7b4dcb276fb3eb95ca9fff412538c01aa8fa52eb6b3f51d76",
+          "R6ef717bb11b9": "db87d2b1cb7890b6f7daade6e1980b97105059eb56158f1fb95e77ec0253c0c9",
+          "Rd3892afbfc24": "67f56abedb4d22cd7ae0f187b87670c4dbc5671e256a3d3e67ff617fd12b1d5d"
+        },
+        "methods": [
+          {
+            "id": "K02",
+            "version": 1
+          },
+          {
+            "id": "E02",
+            "version": 1
+          },
+          {
+            "id": "E03",
+            "version": 1
+          },
+          {
+            "id": "E07",
+            "version": 1
+          }
+        ],
+        "inputs": {
+          "work/review-batches/B07-annual.json": "3d39531f36b846fae4a4828f8d43afd15092a044d824c2c74d631d235f9b4261",
+          "work/review-batches/B07-Q3.json": "30fdb5754291950a7f26c0fa5d9832e180c05422511fd4b8aeec8d099c556f99",
+          "work/research07/source-field-map.json": "0af49e28e28907e96f4d3cf8cb94d2ab3852f478f0e830b4631680760740500a"
+        },
+        "sources": [
+          {
+            "id": "688188-fed67b607fa475a7",
+            "path": "sources/raw/02_定期报告与经营数据/2026-10-27_2026年第三季度报告_1225622322.pdf",
+            "sha256": "33f3c5e4de011f9858e98a1034e672104e0435fda3bdeec651a04c83fd6887ef"
+          },
+          {
+            "id": "688188-a343f0dc3c27d114",
+            "path": "sources/raw/01_年报/2026-04-10_2025年年度报告_1225091045.pdf",
+            "sha256": "e12688b3c2e80e63fae0008983426c644a0ca5bc0da6bed30f9b45f635ecfed2"
+          }
+        ]
+      },
+      "files": [
+        {
+          "path": "outputs/research-report/v2-Oc81a91bd8932/basis.json",
+          "format": "json",
+          "sha256": "f9195f92237414a7de18384e5554baae87e3f1aba3e6651c3b81e17e87f77bda",
+          "bytes": 50640
+        },
+        {
+          "path": "outputs/research-report/v2-Oc81a91bd8932/report.html",
+          "format": "html",
+          "sha256": "dfb1ac1bc41f26679b9f2bfc68cb737ca3e94d909095ea49ada515c3810841fd",
+          "bytes": 20247
+        },
+        {
+          "path": "outputs/research-report/v2-Oc81a91bd8932/report.md",
+          "format": "md",
+          "sha256": "b94fd474dcc7cbf24dd6bef39569385a1c02ddb8b283a411d305b1d8403a0470",
+          "bytes": 19854
+        }
+      ],
+      "needs_review": true,
+      "imported": false,
+      "impact_reasons": [
+        "研究卡变化:Rc91d3bad8c35",
+        "研究卡变化:R42383f58e180",
+        "研究卡变化:Re652de68ca00",
+        "研究卡变化:R1622b2e65098",
+        "研究卡变化:R9b91e4658392",
+        "研究卡变化:Rd192d88d9be7",
+        "研究卡变化:R6ef717bb11b9",
+        "研究卡变化:Rd3892afbfc24",
+        "输入文件变化:work/review-batches/B07-annual.json",
+        "输入文件变化:work/review-batches/B07-Q3.json",
+        "输入文件变化:work/research07/source-field-map.json"
+      ],
+      "file_integrity": true
+    },
+    {
+      "id": "O4f6714d35f07",
+      "group": "research-report",
+      "title": "柏楚电子研究起点｜候选证据与竞争解释",
+      "kind": "报告草稿",
+      "version": 3,
+      "at": "2026-11-10T07:52:08.617214+00:00",
+      "actor": "Agent/test-or-api",
+      "actual_user_review": null,
+      "historical": true,
+      "bindings": {
+        "selection_ids": [
+          "R1622b2e65098",
+          "R42383f58e180",
+          "R6ef717bb11b9",
+          "R9b91e4658392",
+          "Rc91d3bad8c35",
+          "Rd192d88d9be7",
+          "Rd3892afbfc24",
+          "Re652de68ca00"
+        ],
+        "selection_scope": "all-eight-lanes",
+        "cards": {
+          "Rc91d3bad8c35": "55f95b72fa6c78f9e0c6ac5c1173ec7809a197285e5488575d5e09c8fa74cac2",
+          "R42383f58e180": "657fa0c5ad8a25b608d70a4ee341cbf19a2fc595a870cb9005731b355a04951e",
+          "Re652de68ca00": "a40e8f1f799366fb980efa1403a2487e540cbdd22dcfeee547f53c967ae152bd",
+          "R1622b2e65098": "9aa60e6bbe0ce45439197a1ea7d65518a9b4bdb2dfed2e9ac32dc6f9c1caa959",
+          "R9b91e4658392": "3b835b496a574452efefce473cd1f1d5b87183fea895ffb371ef8e7106e659b9",
+          "Rd192d88d9be7": "a58849d439332075beccde9fd5c7c1a7993a9fb094f5cbeea7572e2803cc0d36",
+          "R6ef717bb11b9": "c362277cb979feb9652631d4a79d7f70432be8c38cbe8fcf5cf2fb1da49a402c",
+          "Rd3892afbfc24": "99ed9fcda0554999941e06c243875ef074d875e2241fb36299a95b450025a398"
+        },
+        "methods": [
+          {
+            "id": "K02",
+            "version": 1
+          },
+          {
+            "id": "E02",
+            "version": 1
+          },
+          {
+            "id": "E03",
+            "version": 1
+          },
+          {
+            "id": "E07",
+            "version": 1
+          }
+        ],
+        "inputs": {
+          "work/review-batches/B07-annual.json": "9312fe54e785810b640befbaa558638ad62cfcccd675258ba520874e7c30e2b9",
+          "work/review-batches/B07-Q3.json": "74434fc0a274ce4f6b11ba734b54e7f8a90de277a429164136a2f08c3cc3f531",
+          "work/research07/source-field-map.json": "0af49e28e28907e96f4d3cf8cb94d2ab3852f478f0e830b4631680760740500a"
+        },
+        "sources": [
+          {
+            "id": "688188-fed67b607fa475a7",
+            "path": "sources/raw/02_定期报告与经营数据/2026-10-27_2026年第三季度报告_1225622322.pdf",
+            "sha256": "33f3c5e4de011f9858e98a1034e672104e0435fda3bdeec651a04c83fd6887ef"
+          },
+          {
+            "id": "688188-a343f0dc3c27d114",
+            "path": "sources/raw/01_年报/2026-04-10_2025年年度报告_1225091045.pdf",
+            "sha256": "e12688b3c2e80e63fae0008983426c644a0ca5bc0da6bed30f9b45f635ecfed2"
+          }
+        ]
+      },
+      "files": [
+        {
+          "path": "outputs/research-report/v3-O4f6714d35f07/basis.json",
+          "format": "json",
+          "sha256": "70b2a52d08e0108c2f6576834ae05d4dac5c93d8ed367c8b2e8eb32fc5eaf528",
+          "bytes": 50640
+        },
+        {
+          "path": "outputs/research-report/v3-O4f6714d35f07/report.html",
+          "format": "html",
+          "sha256": "d86f7f47781253795b41a9db6b34e7c67e536c3605af8039359f862adceec9d8",
+          "bytes": 20247
+        },
+        {
+          "path": "outputs/research-report/v3-O4f6714d35f07/report.md",
+          "format": "md",
+          "sha256": "e9ad86e4c315e49ff8c8dcf97fe21721792723553956b3af88200e611350d5da",
+          "bytes": 19854
+        }
+      ],
+      "needs_review": true,
+      "imported": false,
+      "impact_reasons": [
+        "研究卡变化:Rc91d3bad8c35",
+        "研究卡变化:R42383f58e180",
+        "研究卡变化:Re652de68ca00",
+        "研究卡变化:R1622b2e65098",
+        "研究卡变化:R9b91e4658392",
+        "研究卡变化:Rd192d88d9be7",
+        "研究卡变化:R6ef717bb11b9",
+        "研究卡变化:Rd3892afbfc24",
+        "输入文件变化:work/research07/source-field-map.json"
+      ],
+      "file_integrity": true
+    },
+    {
+      "id": "O141f6991ec6f",
+      "group": "research-report",
+      "title": "柏楚电子研究起点｜年度—中报—最新季度证据",
+      "kind": "报告草稿",
+      "version": 4,
+      "at": "2026-11-10T07:54:17.981740+00:00",
+      "actor": "Agent/test-or-api",
+      "actual_user_review": null,
+      "historical": true,
+      "bindings": {
+        "selection_ids": [
+          "R1622b2e65098",
+          "R42383f58e180",
+          "R6ef717bb11b9",
+          "R9b91e4658392",
+          "Rc91d3bad8c35",
+          "Rd192d88d9be7",
+          "Rd3892afbfc24",
+          "Re652de68ca00"
+        ],
+        "selection_scope": "all-eight-lanes",
+        "cards": {
+          "Rc91d3bad8c35": "55f95b72fa6c78f9e0c6ac5c1173ec7809a197285e5488575d5e09c8fa74cac2",
+          "R42383f58e180": "657fa0c5ad8a25b608d70a4ee341cbf19a2fc595a870cb9005731b355a04951e",
+          "Re652de68ca00": "a40e8f1f799366fb980efa1403a2487e540cbdd22dcfeee547f53c967ae152bd",
+          "R9b91e4658392": "3b835b496a574452efefce473cd1f1d5b87183fea895ffb371ef8e7106e659b9",
+          "Rd192d88d9be7": "a58849d439332075beccde9fd5c7c1a7993a9fb094f5cbeea7572e2803cc0d36",
+          "R6ef717bb11b9": "c362277cb979feb9652631d4a79d7f70432be8c38cbe8fcf5cf2fb1da49a402c",
+          "Rd3892afbfc24": "99ed9fcda0554999941e06c243875ef074d875e2241fb36299a95b450025a398",
+          "R1622b2e65098": "5b0e8d9e1e196d992c333124fa4a2f327757b1c946ff07e333504c7ae0739e41"
+        },
+        "methods": [
+          {
+            "id": "K02",
+            "version": 1
+          },
+          {
+            "id": "E02",
+            "version": 1
+          },
+          {
+            "id": "E03",
+            "version": 1
+          },
+          {
+            "id": "E07",
+            "version": 1
+          }
+        ],
+        "inputs": {
+          "work/review-batches/B07-annual.json": "9312fe54e785810b640befbaa558638ad62cfcccd675258ba520874e7c30e2b9",
+          "work/review-batches/B07-Q3.json": "74434fc0a274ce4f6b11ba734b54e7f8a90de277a429164136a2f08c3cc3f531",
+          "work/research07/source-field-map.json": "e535b9e97fe92ea20d749ee0e23fa96c4972c748b71624fadc12c403f7a15dcd",
+          "work/research07/candidate-calculations.json": "c6072b4b191e19ee44ccd8791606ae3eea44ad6c8df6209e9729e70c4ce0eb08"
+        },
+        "sources": [
+          {
+            "id": "688188-fed67b607fa475a7",
+            "path": "sources/raw/02_定期报告与经营数据/2026-10-27_2026年第三季度报告_1225622322.pdf",
+            "sha256": "33f3c5e4de011f9858e98a1034e672104e0435fda3bdeec651a04c83fd6887ef"
+          },
+          {
+            "id": "688188-a343f0dc3c27d114",
+            "path": "sources/raw/01_年报/2026-04-10_2025年年度报告_1225091045.pdf",
+            "sha256": "e12688b3c2e80e63fae0008983426c644a0ca5bc0da6bed30f9b45f635ecfed2"
+          },
+          {
+            "id": "688188-20b73bb3528dbdbe",
+            "path": "sources/raw/02_定期报告与经营数据/2026-08-18_2026年半年度报告_1225477071.pdf",
+            "sha256": "caa94577eda863f238933d192305884ec05c01cf6aad7a2ba89fe96ef8259eb1"
+          }
+        ]
+      },
+      "files": [
+        {
+          "path": "outputs/research-report/v4-O141f6991ec6f/basis.json",
+          "format": "json",
+          "sha256": "12cfff277cceaa3568d564bbfb58765c639cfc76900afc394353f21a93e6de7e",
+          "bytes": 53610
+        },
+        {
+          "path": "outputs/research-report/v4-O141f6991ec6f/report.html",
+          "format": "html",
+          "sha256": "623a8684a43631656e69dfdbec91c4ccbf67190c0efbc5fdab575fc1e7689e17",
+          "bytes": 20573
+        },
+        {
+          "path": "outputs/research-report/v4-O141f6991ec6f/report.md",
+          "format": "md",
+          "sha256": "336c00680a5e8642955c03be0ef898f57e2dfb1da73bf6001cc7a01ddd9361ed",
+          "bytes": 20160
+        }
+      ],
+      "needs_review": true,
+      "imported": false,
+      "impact_reasons": [
+        "研究卡变化:Rc91d3bad8c35",
+        "研究卡变化:R42383f58e180",
+        "研究卡变化:Re652de68ca00",
+        "研究卡变化:R9b91e4658392",
+        "研究卡变化:Rd192d88d9be7",
+        "研究卡变化:R6ef717bb11b9",
+        "研究卡变化:Rd3892afbfc24",
+        "研究卡变化:R1622b2e65098",
+        "输入文件变化:work/research07/source-field-map.json"
+      ],
+      "file_integrity": true
+    },
+    {
+      "id": "O30cbdf470785",
+      "group": "research-report",
+      "title": "柏楚电子研究起点｜业务、竞争解释与首批原数",
+      "kind": "报告草稿",
+      "version": 5,
+      "at": "2026-11-10T08:01:28.640795+00:00",
+      "actor": "Agent/test-or-api",
+      "actual_user_review": null,
+      "historical": false,
+      "bindings": {
+        "selection_ids": [
+          "R1622b2e65098",
+          "R42383f58e180",
+          "R6ef717bb11b9",
+          "R9b91e4658392",
+          "Rc91d3bad8c35",
+          "Rd192d88d9be7",
+          "Rd3892afbfc24",
+          "Re652de68ca00"
+        ],
+        "selection_scope": "all-eight-lanes",
+        "cards": {
+          "Rc91d3bad8c35": "7be3c127ead3128beedf261afaaa23bc0a1274e33c80bb17991e28ce06407e44",
+          "R42383f58e180": "4dd4d5fdcfdc3c94d7325339e21231e15468bb4e4faad67fa2cc5a76fe229b83",
+          "Re652de68ca00": "67f31495d049caaece188e749433270d31807ce2d6407da25b66c64a7a626df3",
+          "R9b91e4658392": "3623c8993e5225e1f8ae36ef448c5861eebde2283b675c666dc643f5fb606613",
+          "Rd192d88d9be7": "bcc70f1bc096bf62d08315f6e296e2e63f9a4a978571bfbb215e2cde61091998",
+          "R6ef717bb11b9": "d530b4fe67ee52a2681834cbc1cdf98129393d4cd1d1a768d82be89a175c52c0",
+          "Rd3892afbfc24": "df0ade3a3eaafed8f049e6e0430bdb1f5ba8e6049b9e92434163912312915f86",
+          "R1622b2e65098": "776f18f86c0265244de1e860a58c8d2067cdfe97cee98f0b889376d78fef75af"
+        },
+        "methods": [
+          {
+            "id": "K02",
+            "version": 1
+          },
+          {
+            "id": "E02",
+            "version": 1
+          },
+          {
+            "id": "E03",
+            "version": 1
+          },
+          {
+            "id": "E07",
+            "version": 1
+          }
+        ],
+        "inputs": {
+          "work/review-batches/B07-annual.json": "9312fe54e785810b640befbaa558638ad62cfcccd675258ba520874e7c30e2b9",
+          "work/review-batches/B07-Q3.json": "74434fc0a274ce4f6b11ba734b54e7f8a90de277a429164136a2f08c3cc3f531",
+          "work/research07/source-field-map.json": "8df86766e01695fd8c97beb13cee442e3309746d26adb759bc65346f2d8cbd40",
+          "work/research07/candidate-calculations.json": "c6072b4b191e19ee44ccd8791606ae3eea44ad6c8df6209e9729e70c4ce0eb08"
+        },
+        "sources": [
+          {
+            "id": "688188-20b73bb3528dbdbe",
+            "path": "sources/raw/02_定期报告与经营数据/2026-08-18_2026年半年度报告_1225477071.pdf",
+            "sha256": "caa94577eda863f238933d192305884ec05c01cf6aad7a2ba89fe96ef8259eb1"
+          },
+          {
+            "id": "688188-fed67b607fa475a7",
+            "path": "sources/raw/02_定期报告与经营数据/2026-10-27_2026年第三季度报告_1225622322.pdf",
+            "sha256": "33f3c5e4de011f9858e98a1034e672104e0435fda3bdeec651a04c83fd6887ef"
+          },
+          {
+            "id": "688188-a343f0dc3c27d114",
+            "path": "sources/raw/01_年报/2026-04-10_2025年年度报告_1225091045.pdf",
+            "sha256": "e12688b3c2e80e63fae0008983426c644a0ca5bc0da6bed30f9b45f635ecfed2"
+          }
+        ]
+      },
+      "files": [
+        {
+          "path": "outputs/research-report/v5-O30cbdf470785/basis.json",
+          "format": "json",
+          "sha256": "350a6b8a71af7f333b77b4b3b9e99ccbe3475e1dc1a157fc51c01da1ba2708aa",
+          "bytes": 65869
+        },
+        {
+          "path": "outputs/research-report/v5-O30cbdf470785/report.html",
+          "format": "html",
+          "sha256": "875a083929f790381782c1d1576af4bf16e8aefeb08d9bf35bf8a2ed5ef5c336",
+          "bytes": 19877
+        },
+        {
+          "path": "outputs/research-report/v5-O30cbdf470785/report.md",
+          "format": "md",
+          "sha256": "5df7aefc29f197fad253686dc3caf66ff47fb6248e4648292112ee1800f7cfe1",
+          "bytes": 19464
         }
       ],
       "needs_review": false,

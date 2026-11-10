@@ -1,0 +1,34 @@
+[
+  {
+    "company": "002507_涪陵榨菜",
+    "originals": 444,
+    "hash_mismatches": [],
+    "old_events_preserved": true,
+    "facts": 0,
+    "candidates": 12
+  },
+  {
+    "company": "09992_泡泡玛特",
+    "originals": 54,
+    "hash_mismatches": [],
+    "old_events_preserved": true,
+    "facts": 0,
+    "candidates": 13
+  },
+  {
+    "company": "600298_安琪酵母",
+    "originals": 554,
+    "hash_mismatches": [],
+    "old_events_preserved": true,
+    "facts": 0,
+    "candidates": 12
+  },
+  {
+    "company": "688188_柏楚电子",
+    "originals": 416,
+    "hash_mismatches": [],
+    "old_events_preserved": true,
+    "facts": 0,
+    "candidates": 12
+  }
+]

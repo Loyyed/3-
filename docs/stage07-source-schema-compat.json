@@ -1,0 +1,16 @@
+{
+  "changes": [
+    {
+      "company": "09992_泡泡玛特",
+      "added_fields": [
+        {
+          "id": "S4e0201d1dcdf4d78",
+          "field": "original_name",
+          "value": "S4e0201d1dcdf4d78_2023-09-15_INTERIM_REPORT_2023.pdf"
+        }
+      ]
+    }
+  ],
+  "ids_paths_and_hashes_unchanged": true,
+  "purpose": "补齐原版sync必需元数据，不迁移原件/账本"
+}

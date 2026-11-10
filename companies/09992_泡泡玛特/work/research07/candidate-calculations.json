@@ -1,0 +1,44 @@
+{
+  "calculations": [
+    {
+      "label": "收入同比",
+      "value_unrounded": "184.7121232353836540341434706",
+      "unit": "%",
+      "formula": "(current/prior-1)*100",
+      "inputs": [
+        "B07-A01",
+        "B07-A02"
+      ],
+      "source_sha256": "47095a39c6425b11e5aaa091f456e178498d20a77d4ff6a969e351e4f5dfaaf7",
+      "status": "候选输入上的Agent独立算术，非Fact",
+      "scope_warning": "不同利润归属及现金口径不相除，不把增长分解当因果"
+    },
+    {
+      "label": "毛利同比",
+      "value_unrounded": "207.3683775343041526729304247",
+      "unit": "%",
+      "formula": "(current/prior-1)*100",
+      "inputs": [
+        "B07-A03",
+        "B07-A04"
+      ],
+      "source_sha256": "47095a39c6425b11e5aaa091f456e178498d20a77d4ff6a969e351e4f5dfaaf7",
+      "status": "候选输入上的Agent独立算术，非Fact",
+      "scope_warning": "不同利润归属及现金口径不相除，不把增长分解当因果"
+    },
+    {
+      "label": "合并年内溢利同比",
+      "value_unrounded": "293.3097062126229277780884400",
+      "unit": "%",
+      "formula": "(current/prior-1)*100",
+      "inputs": [
+        "B07-A05",
+        "B07-A06"
+      ],
+      "source_sha256": "47095a39c6425b11e5aaa091f456e178498d20a77d4ff6a969e351e4f5dfaaf7",
+      "status": "候选输入上的Agent独立算术，非Fact",
+      "scope_warning": "不同利润归属及现金口径不相除，不把增长分解当因果"
+    }
+  ],
+  "human_confirmation": null
+}

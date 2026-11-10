@@ -1,2 +1,5 @@
 
 outputs/** -text
+
+work/review-batches/** -text
+work/research07/** -text

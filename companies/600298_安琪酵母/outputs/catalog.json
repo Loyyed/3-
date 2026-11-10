@@ -9,7 +9,7 @@
       "at": "2026-11-10T06:46:48.147069+00:00",
       "actor": "Agent/test-or-api",
       "actual_user_review": null,
-      "historical": false,
+      "historical": true,
       "bindings": {
         "cards": {},
         "methods": [],
@@ -40,6 +40,424 @@
           "format": "md",
           "sha256": "86f3324484877655163cfd904296949f7d070774bdebdf57e6e4bce84fb46a03",
           "bytes": 1223
+        }
+      ],
+      "needs_review": true,
+      "imported": false,
+      "impact_reasons": [
+        "研究卡集合变化：新增/删除内容未纳入本版"
+      ],
+      "file_integrity": true
+    },
+    {
+      "id": "O87f2204b4367",
+      "group": "research-report",
+      "title": "安琪酵母研究起点｜候选证据与竞争解释",
+      "kind": "报告草稿",
+      "version": 2,
+      "at": "2026-11-10T07:50:10.222274+00:00",
+      "actor": "Agent/test-or-api",
+      "actual_user_review": null,
+      "historical": true,
+      "bindings": {
+        "selection_ids": [
+          "R21f6d6590f9f",
+          "R2660b3bfa732",
+          "R29373d7bc0f1",
+          "R6911ffac3797",
+          "Ra9f2c23c0275",
+          "Rc307bcec6202",
+          "Rd60b7456dc65",
+          "Re0aacfad8631"
+        ],
+        "selection_scope": "all-eight-lanes",
+        "cards": {
+          "R6911ffac3797": "7946603accfbc7f677796286ff4827d518d9b4bd0c3676b23e3857525e194bb0",
+          "Re0aacfad8631": "1e8a3cf82033736d5031134e506f342b8b7626d2fbaebb8c2fd94be6ba3a9021",
+          "Ra9f2c23c0275": "39fff962674b8110067d717637a36d759ebcc6ef9d4a7d541ccf0ed248514efa",
+          "Rc307bcec6202": "504818655aa8b33bf66121eef5b5cc4301c52db734ebf0696bc42d03cc090f3d",
+          "R29373d7bc0f1": "12f11d8d99c9da7ad74f69dfb84a5867723dcdbe661476d1a20eb19d8d937c58",
+          "R2660b3bfa732": "56a6b81e4f1f6c44ff7003d5b5aa8998c4c25f26701a292864c91d06dfe61570",
+          "R21f6d6590f9f": "472e5206d5f958a0a6ed467d71e82794fde51699b8dd1fbdaf8d3db0b9cd4481",
+          "Rd60b7456dc65": "554590d7a14d37eb02ac7b977cc752e8a6b65f531404c4281025f7e0928f91ca"
+        },
+        "methods": [
+          {
+            "id": "K03",
+            "version": 1
+          },
+          {
+            "id": "K11",
+            "version": 1
+          },
+          {
+            "id": "E03",
+            "version": 1
+          },
+          {
+            "id": "E06",
+            "version": 1
+          }
+        ],
+        "inputs": {
+          "work/review-batches/B07-annual.json": "5ce3ff65617d47db1c7853f7dbcbbe14bd63124c2171829530d3fd7b5067b4e0",
+          "work/review-batches/B07-Q3.json": "feec328a275fa39bd350e4b8fcc699aea559a817561f1e667caa91aa5c66d622",
+          "work/research07/source-field-map.json": "ebc648f83cdcb096f9414da0807b018da256148ab9bbe9b3708ddb2a0d58fb6d"
+        },
+        "sources": [
+          {
+            "id": "600298-5c763f656754f15e",
+            "path": "sources/raw/02_定期报告与经营数据/2026-10-30_安琪酵母股份有限公司2026年第三季度报告_1225641080.pdf",
+            "sha256": "f4739d889d29da1a9744f1fb9428f75f6e6331572031b3de1daec550113f59d1"
+          },
+          {
+            "id": "600298-a14b53fefcfc0356",
+            "path": "sources/raw/01_年报/2026-03-31_安琪酵母股份有限公司2025年年度报告_1225056953.pdf",
+            "sha256": "7bee6f0f30a5da24746dd431f1947f15c8189fa9fbf5db75df4d3ba3c512c800"
+          }
+        ]
+      },
+      "files": [
+        {
+          "path": "outputs/research-report/v2-O87f2204b4367/basis.json",
+          "format": "json",
+          "sha256": "270eebd4971cb4223c621cd31dbd3de7d3828aaf9524aa6a8620e3c7999f4e20",
+          "bytes": 51061
+        },
+        {
+          "path": "outputs/research-report/v2-O87f2204b4367/report.html",
+          "format": "html",
+          "sha256": "a24dafd330146dfe4efd0fc27cbf2b30e2216bcc84ec60212f2962c71ccba5c8",
+          "bytes": 20059
+        },
+        {
+          "path": "outputs/research-report/v2-O87f2204b4367/report.md",
+          "format": "md",
+          "sha256": "e396eef19f7804287e68baea039ee55ce6d97f49d62df1c052ca46982ce8d66d",
+          "bytes": 19666
+        }
+      ],
+      "needs_review": true,
+      "imported": false,
+      "impact_reasons": [
+        "研究卡变化:R6911ffac3797",
+        "研究卡变化:Re0aacfad8631",
+        "研究卡变化:Ra9f2c23c0275",
+        "研究卡变化:Rc307bcec6202",
+        "研究卡变化:R29373d7bc0f1",
+        "研究卡变化:R2660b3bfa732",
+        "研究卡变化:R21f6d6590f9f",
+        "研究卡变化:Rd60b7456dc65",
+        "输入文件变化:work/review-batches/B07-annual.json",
+        "输入文件变化:work/review-batches/B07-Q3.json",
+        "输入文件变化:work/research07/source-field-map.json"
+      ],
+      "file_integrity": true
+    },
+    {
+      "id": "O3a3a0fac2521",
+      "group": "research-report",
+      "title": "安琪酵母研究起点｜候选证据与竞争解释",
+      "kind": "报告草稿",
+      "version": 3,
+      "at": "2026-11-10T07:52:08.159965+00:00",
+      "actor": "Agent/test-or-api",
+      "actual_user_review": null,
+      "historical": true,
+      "bindings": {
+        "selection_ids": [
+          "R21f6d6590f9f",
+          "R2660b3bfa732",
+          "R29373d7bc0f1",
+          "R6911ffac3797",
+          "Ra9f2c23c0275",
+          "Rc307bcec6202",
+          "Rd60b7456dc65",
+          "Re0aacfad8631"
+        ],
+        "selection_scope": "all-eight-lanes",
+        "cards": {
+          "R6911ffac3797": "e329693ee904ae7f1caf0f431503fb633218809038328f8f43355de7d24a4972",
+          "Re0aacfad8631": "ad7bdecfc1c6a5ea30d96b85d0a5acbbe9ac75413345ed4d3cb79421f7e8f6d3",
+          "Ra9f2c23c0275": "23bf2abe0c6dc379830480e2de12a40811da09d9d5df85921249e4acec57f96a",
+          "Rc307bcec6202": "cd8b8615e306e31e9ed59aa1bd7a1205cbeb640ad36b0727e28ab11a900a2f02",
+          "R29373d7bc0f1": "8c783741b3899e04eed6cd323c8c128329476ec392e94992959ea7ea545616b8",
+          "R2660b3bfa732": "2e353316bc607713259018fdc5037d714c9c17d8cd0c43754cff78b36f742419",
+          "R21f6d6590f9f": "1615098e10e9aa135505b4bc735bba49612556593e282ead9d38c45d954eb1c5",
+          "Rd60b7456dc65": "30253033fd7ba026780705c14818e37e36eed8d48f4291e65200329b086ee089"
+        },
+        "methods": [
+          {
+            "id": "K03",
+            "version": 1
+          },
+          {
+            "id": "K11",
+            "version": 1
+          },
+          {
+            "id": "E03",
+            "version": 1
+          },
+          {
+            "id": "E06",
+            "version": 1
+          }
+        ],
+        "inputs": {
+          "work/review-batches/B07-annual.json": "8edb4f5a50f231edb37ab62fd577988ae7ebc9fe00e0fb8e4d8ef2ac18049b40",
+          "work/review-batches/B07-Q3.json": "71ec2bd3bc0dd99278dc2297c8f1e13d69dc926a4c1680fda3747c139172a2f5",
+          "work/research07/source-field-map.json": "ebc648f83cdcb096f9414da0807b018da256148ab9bbe9b3708ddb2a0d58fb6d"
+        },
+        "sources": [
+          {
+            "id": "600298-5c763f656754f15e",
+            "path": "sources/raw/02_定期报告与经营数据/2026-10-30_安琪酵母股份有限公司2026年第三季度报告_1225641080.pdf",
+            "sha256": "f4739d889d29da1a9744f1fb9428f75f6e6331572031b3de1daec550113f59d1"
+          },
+          {
+            "id": "600298-a14b53fefcfc0356",
+            "path": "sources/raw/01_年报/2026-03-31_安琪酵母股份有限公司2025年年度报告_1225056953.pdf",
+            "sha256": "7bee6f0f30a5da24746dd431f1947f15c8189fa9fbf5db75df4d3ba3c512c800"
+          }
+        ]
+      },
+      "files": [
+        {
+          "path": "outputs/research-report/v3-O3a3a0fac2521/basis.json",
+          "format": "json",
+          "sha256": "9a3a61afa57b901e0cfce6ad3e6a1001cdb8f303915b46b036d952355e5ac916",
+          "bytes": 51061
+        },
+        {
+          "path": "outputs/research-report/v3-O3a3a0fac2521/report.html",
+          "format": "html",
+          "sha256": "2360acc9f0eb0f68e326df5c6b755ab0134277176d8152692172d812e9655a87",
+          "bytes": 20059
+        },
+        {
+          "path": "outputs/research-report/v3-O3a3a0fac2521/report.md",
+          "format": "md",
+          "sha256": "543c073acb61ab031d6a51ca0fbb8ecc074b2575ecd49d66ffdb9d5e2d8d5f57",
+          "bytes": 19666
+        }
+      ],
+      "needs_review": true,
+      "imported": false,
+      "impact_reasons": [
+        "研究卡变化:R6911ffac3797",
+        "研究卡变化:Re0aacfad8631",
+        "研究卡变化:Ra9f2c23c0275",
+        "研究卡变化:Rc307bcec6202",
+        "研究卡变化:R29373d7bc0f1",
+        "研究卡变化:R2660b3bfa732",
+        "研究卡变化:R21f6d6590f9f",
+        "研究卡变化:Rd60b7456dc65",
+        "输入文件变化:work/research07/source-field-map.json"
+      ],
+      "file_integrity": true
+    },
+    {
+      "id": "Obe80c3331a03",
+      "group": "research-report",
+      "title": "安琪酵母研究起点｜年度—中报—最新季度证据",
+      "kind": "报告草稿",
+      "version": 4,
+      "at": "2026-11-10T07:54:17.867472+00:00",
+      "actor": "Agent/test-or-api",
+      "actual_user_review": null,
+      "historical": true,
+      "bindings": {
+        "selection_ids": [
+          "R21f6d6590f9f",
+          "R2660b3bfa732",
+          "R29373d7bc0f1",
+          "R6911ffac3797",
+          "Ra9f2c23c0275",
+          "Rc307bcec6202",
+          "Rd60b7456dc65",
+          "Re0aacfad8631"
+        ],
+        "selection_scope": "all-eight-lanes",
+        "cards": {
+          "R6911ffac3797": "e329693ee904ae7f1caf0f431503fb633218809038328f8f43355de7d24a4972",
+          "Re0aacfad8631": "ad7bdecfc1c6a5ea30d96b85d0a5acbbe9ac75413345ed4d3cb79421f7e8f6d3",
+          "Ra9f2c23c0275": "23bf2abe0c6dc379830480e2de12a40811da09d9d5df85921249e4acec57f96a",
+          "R29373d7bc0f1": "8c783741b3899e04eed6cd323c8c128329476ec392e94992959ea7ea545616b8",
+          "R2660b3bfa732": "2e353316bc607713259018fdc5037d714c9c17d8cd0c43754cff78b36f742419",
+          "R21f6d6590f9f": "1615098e10e9aa135505b4bc735bba49612556593e282ead9d38c45d954eb1c5",
+          "Rd60b7456dc65": "30253033fd7ba026780705c14818e37e36eed8d48f4291e65200329b086ee089",
+          "Rc307bcec6202": "21c1ebc8f2b18f1669cdb699f0254ad54bfebfa1bd6a7cdef286dc5c4cf874ec"
+        },
+        "methods": [
+          {
+            "id": "K03",
+            "version": 1
+          },
+          {
+            "id": "K11",
+            "version": 1
+          },
+          {
+            "id": "E03",
+            "version": 1
+          },
+          {
+            "id": "E06",
+            "version": 1
+          }
+        ],
+        "inputs": {
+          "work/review-batches/B07-annual.json": "8edb4f5a50f231edb37ab62fd577988ae7ebc9fe00e0fb8e4d8ef2ac18049b40",
+          "work/review-batches/B07-Q3.json": "71ec2bd3bc0dd99278dc2297c8f1e13d69dc926a4c1680fda3747c139172a2f5",
+          "work/research07/source-field-map.json": "4dd1a44a6f82567956f6960526d849e9b0e2bbadef39ad16a5cbd1c5b3984317",
+          "work/research07/candidate-calculations.json": "f1e684f29d0fcac06d478c771a4500561e33d45c0b1f98c78bf12160c488cca2"
+        },
+        "sources": [
+          {
+            "id": "600298-48dbfbb4962cfdb9",
+            "path": "sources/raw/01_年报/2026-08-15_安琪酵母股份有限公司2026年半年度报告_1225474683.pdf",
+            "sha256": "5a4940bc351e4d8c4c222857f896065044c944d7d9d149c1ccf598fb44bc968b"
+          },
+          {
+            "id": "600298-a14b53fefcfc0356",
+            "path": "sources/raw/01_年报/2026-03-31_安琪酵母股份有限公司2025年年度报告_1225056953.pdf",
+            "sha256": "7bee6f0f30a5da24746dd431f1947f15c8189fa9fbf5db75df4d3ba3c512c800"
+          },
+          {
+            "id": "600298-5c763f656754f15e",
+            "path": "sources/raw/02_定期报告与经营数据/2026-10-30_安琪酵母股份有限公司2026年第三季度报告_1225641080.pdf",
+            "sha256": "f4739d889d29da1a9744f1fb9428f75f6e6331572031b3de1daec550113f59d1"
+          }
+        ]
+      },
+      "files": [
+        {
+          "path": "outputs/research-report/v4-Obe80c3331a03/basis.json",
+          "format": "json",
+          "sha256": "f0a98310119047419bc01bc13079f9aad6a8552046e60e8b2437c0a1b9503e85",
+          "bytes": 54079
+        },
+        {
+          "path": "outputs/research-report/v4-Obe80c3331a03/report.html",
+          "format": "html",
+          "sha256": "410fcfc97422793ff552947cba0a0fd70915e24db503799aeea954a07c10a372",
+          "bytes": 20385
+        },
+        {
+          "path": "outputs/research-report/v4-Obe80c3331a03/report.md",
+          "format": "md",
+          "sha256": "2d22bdd60eef7cd4cf3f815c07adaa6cd7a89800299941052d1af8ef0c4cafd0",
+          "bytes": 19972
+        }
+      ],
+      "needs_review": true,
+      "imported": false,
+      "impact_reasons": [
+        "研究卡变化:R6911ffac3797",
+        "研究卡变化:Re0aacfad8631",
+        "研究卡变化:Ra9f2c23c0275",
+        "研究卡变化:R29373d7bc0f1",
+        "研究卡变化:R2660b3bfa732",
+        "研究卡变化:R21f6d6590f9f",
+        "研究卡变化:Rd60b7456dc65",
+        "研究卡变化:Rc307bcec6202",
+        "输入文件变化:work/research07/source-field-map.json"
+      ],
+      "file_integrity": true
+    },
+    {
+      "id": "Obe8917c15b3b",
+      "group": "research-report",
+      "title": "安琪酵母研究起点｜业务、竞争解释与首批原数",
+      "kind": "报告草稿",
+      "version": 5,
+      "at": "2026-11-10T08:01:28.450894+00:00",
+      "actor": "Agent/test-or-api",
+      "actual_user_review": null,
+      "historical": false,
+      "bindings": {
+        "selection_ids": [
+          "R21f6d6590f9f",
+          "R2660b3bfa732",
+          "R29373d7bc0f1",
+          "R6911ffac3797",
+          "Ra9f2c23c0275",
+          "Rc307bcec6202",
+          "Rd60b7456dc65",
+          "Re0aacfad8631"
+        ],
+        "selection_scope": "all-eight-lanes",
+        "cards": {
+          "R6911ffac3797": "7b81d235070e30242010a91c2817d2cddd35a566d118cdaa0883e5c65514e70c",
+          "Re0aacfad8631": "65c319453efc59fb7a1930a6396e531196f1adf55679e3e3901ecf61227df520",
+          "Ra9f2c23c0275": "135e3ae69f4842e67e282a0f161c1c4218a2eae1d1e4be5b3f446f6c5e580632",
+          "R29373d7bc0f1": "0274068f61971f09c7b39e4f71fed365e5a84e63f66f2ed9f7becfaecfe73f0c",
+          "R2660b3bfa732": "d652efa7ab7a5618cff99975b720d08ced6fae59fc017b82b1bf1c4ed9c1c2c6",
+          "R21f6d6590f9f": "834ddf738c18eae8e2759b554d3d0bbe6a062ea845f4cd0afdc9d64e084f6e9e",
+          "Rd60b7456dc65": "d9919e39c0fa1f77baa574b798552f2a076c1ce54dec311ecf21c9c82bb5e04e",
+          "Rc307bcec6202": "654a1e4aac4a789aaa1587d47ee92455f145be54617a8215b2c1f737a6f80c79"
+        },
+        "methods": [
+          {
+            "id": "K03",
+            "version": 1
+          },
+          {
+            "id": "K11",
+            "version": 1
+          },
+          {
+            "id": "E03",
+            "version": 1
+          },
+          {
+            "id": "E06",
+            "version": 1
+          }
+        ],
+        "inputs": {
+          "work/review-batches/B07-annual.json": "8edb4f5a50f231edb37ab62fd577988ae7ebc9fe00e0fb8e4d8ef2ac18049b40",
+          "work/review-batches/B07-Q3.json": "71ec2bd3bc0dd99278dc2297c8f1e13d69dc926a4c1680fda3747c139172a2f5",
+          "work/research07/source-field-map.json": "014674ca79ef6b2fdab2de541060518b35e84048b8acd578c872a8d46592f6c1",
+          "work/research07/candidate-calculations.json": "f1e684f29d0fcac06d478c771a4500561e33d45c0b1f98c78bf12160c488cca2"
+        },
+        "sources": [
+          {
+            "id": "600298-a14b53fefcfc0356",
+            "path": "sources/raw/01_年报/2026-03-31_安琪酵母股份有限公司2025年年度报告_1225056953.pdf",
+            "sha256": "7bee6f0f30a5da24746dd431f1947f15c8189fa9fbf5db75df4d3ba3c512c800"
+          },
+          {
+            "id": "600298-5c763f656754f15e",
+            "path": "sources/raw/02_定期报告与经营数据/2026-10-30_安琪酵母股份有限公司2026年第三季度报告_1225641080.pdf",
+            "sha256": "f4739d889d29da1a9744f1fb9428f75f6e6331572031b3de1daec550113f59d1"
+          },
+          {
+            "id": "600298-48dbfbb4962cfdb9",
+            "path": "sources/raw/01_年报/2026-08-15_安琪酵母股份有限公司2026年半年度报告_1225474683.pdf",
+            "sha256": "5a4940bc351e4d8c4c222857f896065044c944d7d9d149c1ccf598fb44bc968b"
+          }
+        ]
+      },
+      "files": [
+        {
+          "path": "outputs/research-report/v5-Obe8917c15b3b/basis.json",
+          "format": "json",
+          "sha256": "8af66268b61aeb616208604f71983af294d2a0ef0dec449b8da2f1dc6cf293ff",
+          "bytes": 66881
+        },
+        {
+          "path": "outputs/research-report/v5-Obe8917c15b3b/report.html",
+          "format": "html",
+          "sha256": "10c4ade860cf1f2eba9e1a8a2d7fae6816c56c529492074d8535aa4f6c417c22",
+          "bytes": 20049
+        },
+        {
+          "path": "outputs/research-report/v5-Obe8917c15b3b/report.md",
+          "format": "md",
+          "sha256": "a084bf521c1807239cc36c5b78a3a26e1c0845625b5b9b6f8a0fd3762e7896d2",
+          "bytes": 19636
         }
       ],
       "needs_review": false,

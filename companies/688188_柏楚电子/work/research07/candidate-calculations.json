@@ -1,0 +1,44 @@
+{
+  "calculations": [
+    {
+      "label": "收入同比",
+      "value_unrounded": "26.51622908752925911896722070",
+      "unit": "%",
+      "formula": "(current/prior-1)*100",
+      "inputs": [
+        "B07-A01",
+        "B07-A02"
+      ],
+      "source_sha256": "e12688b3c2e80e63fae0008983426c644a0ca5bc0da6bed30f9b45f635ecfed2",
+      "status": "候选输入上的Agent独立算术，非Fact",
+      "scope_warning": "不同利润归属及现金口径不相除，不把增长分解当因果"
+    },
+    {
+      "label": "归母净利润同比",
+      "value_unrounded": "26.03769460628588805498907780",
+      "unit": "%",
+      "formula": "(current/prior-1)*100",
+      "inputs": [
+        "B07-A03",
+        "B07-A04"
+      ],
+      "source_sha256": "e12688b3c2e80e63fae0008983426c644a0ca5bc0da6bed30f9b45f635ecfed2",
+      "status": "候选输入上的Agent独立算术，非Fact",
+      "scope_warning": "不同利润归属及现金口径不相除，不把增长分解当因果"
+    },
+    {
+      "label": "CFO同比",
+      "value_unrounded": "15.94612703056719441682728930",
+      "unit": "%",
+      "formula": "(current/prior-1)*100",
+      "inputs": [
+        "B07-A05",
+        "B07-A06"
+      ],
+      "source_sha256": "e12688b3c2e80e63fae0008983426c644a0ca5bc0da6bed30f9b45f635ecfed2",
+      "status": "候选输入上的Agent独立算术，非Fact",
+      "scope_warning": "不同利润归属及现金口径不相除，不把增长分解当因果"
+    }
+  ],
+  "human_confirmation": null
+}

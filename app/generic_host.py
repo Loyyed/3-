@@ -9,7 +9,9 @@ def start(root,kit,port):
   p=kit/name
   if not p.is_file() or hashlib.sha256(p.read_bytes()).hexdigest()!=h:raise RuntimeError('通用依赖版本不匹配：'+name+'；停止启动，请先审阅并重新验证依赖')
  sys.path.insert(0,str(kit));sys.path.insert(0,str(root/'app'))
- from companybench import portal
+ from companybench import portal,core
+ from source_compat import enable
+ enable(core,root)
  from companybench.workspace import link_project,inventory
  from engine import Engine
  engine=Engine(root);mapping={}

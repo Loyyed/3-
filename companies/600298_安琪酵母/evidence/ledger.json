@@ -1,7 +1,1293 @@
 {
   "schema_version": 1,
-  "records": {},
-  "events": [],
+  "records": {
+    "B07-A01": {
+      "id": "B07-A01",
+      "kind": "disclosure",
+      "claim": "营业收入2025",
+      "scope": {
+        "period": "2025年度",
+        "entity": "安琪酵母",
+        "basis": "集团合并年度财务摘要",
+        "definition": "营业收入2025；按原表列定位，不把归母/合并净利润混同",
+        "unit": "元",
+        "currency": "CNY"
+      },
+      "sources": [
+        {
+          "source_id": "600298-a14b53fefcfc0356",
+          "location": "PDF物理第6页，财务摘要/经营更新，行“营业收入2025”"
+        }
+      ],
+      "support_boundary": "机器提取候选，尚无人审核准；不单独证明机制或投资价值。",
+      "value": "16728842770.37",
+      "state": "Unknown"
+    },
+    "B07-A02": {
+      "id": "B07-A02",
+      "kind": "disclosure",
+      "claim": "营业收入2024",
+      "scope": {
+        "period": "2024年度",
+        "entity": "安琪酵母",
+        "basis": "集团合并年度财务摘要",
+        "definition": "营业收入2024；按原表列定位，不把归母/合并净利润混同",
+        "unit": "元",
+        "currency": "CNY"
+      },
+      "sources": [
+        {
+          "source_id": "600298-a14b53fefcfc0356",
+          "location": "PDF物理第6页，财务摘要/经营更新，行“营业收入2024”"
+        }
+      ],
+      "support_boundary": "机器提取候选，尚无人审核准；不单独证明机制或投资价值。",
+      "value": "15196913197.79",
+      "state": "Unknown"
+    },
+    "B07-A03": {
+      "id": "B07-A03",
+      "kind": "disclosure",
+      "claim": "归母净利润2025",
+      "scope": {
+        "period": "2025年度",
+        "entity": "安琪酵母",
+        "basis": "集团合并年度财务摘要",
+        "definition": "归母净利润2025；按原表列定位，不把归母/合并净利润混同",
+        "unit": "元",
+        "currency": "CNY"
+      },
+      "sources": [
+        {
+          "source_id": "600298-a14b53fefcfc0356",
+          "location": "PDF物理第6页，财务摘要/经营更新，行“归母净利润2025”"
+        }
+      ],
+      "support_boundary": "机器提取候选，尚无人审核准；不单独证明机制或投资价值。",
+      "value": "1544409068.94",
+      "state": "Unknown"
+    },
+    "B07-A04": {
+      "id": "B07-A04",
+      "kind": "disclosure",
+      "claim": "归母净利润2024",
+      "scope": {
+        "period": "2024年度",
+        "entity": "安琪酵母",
+        "basis": "集团合并年度财务摘要",
+        "definition": "归母净利润2024；按原表列定位，不把归母/合并净利润混同",
+        "unit": "元",
+        "currency": "CNY"
+      },
+      "sources": [
+        {
+          "source_id": "600298-a14b53fefcfc0356",
+          "location": "PDF物理第6页，财务摘要/经营更新，行“归母净利润2024”"
+        }
+      ],
+      "support_boundary": "机器提取候选，尚无人审核准；不单独证明机制或投资价值。",
+      "value": "1324569136.28",
+      "state": "Unknown"
+    },
+    "B07-A05": {
+      "id": "B07-A05",
+      "kind": "disclosure",
+      "claim": "CFO2025",
+      "scope": {
+        "period": "2025年度",
+        "entity": "安琪酵母",
+        "basis": "集团合并年度财务摘要",
+        "definition": "CFO2025；按原表列定位，不把归母/合并净利润混同",
+        "unit": "元",
+        "currency": "CNY"
+      },
+      "sources": [
+        {
+          "source_id": "600298-a14b53fefcfc0356",
+          "location": "PDF物理第6页，财务摘要/经营更新，行“CFO2025”"
+        }
+      ],
+      "support_boundary": "机器提取候选，尚无人审核准；不单独证明机制或投资价值。",
+      "value": "2477959556.34",
+      "state": "Unknown"
+    },
+    "B07-A06": {
+      "id": "B07-A06",
+      "kind": "disclosure",
+      "claim": "CFO2024",
+      "scope": {
+        "period": "2024年度",
+        "entity": "安琪酵母",
+        "basis": "集团合并年度财务摘要",
+        "definition": "CFO2024；按原表列定位，不把归母/合并净利润混同",
+        "unit": "元",
+        "currency": "CNY"
+      },
+      "sources": [
+        {
+          "source_id": "600298-a14b53fefcfc0356",
+          "location": "PDF物理第6页，财务摘要/经营更新，行“CFO2024”"
+        }
+      ],
+      "support_boundary": "机器提取候选，尚无人审核准；不单独证明机制或投资价值。",
+      "value": "1649856927.18",
+      "state": "Unknown"
+    },
+    "B07-Q01": {
+      "id": "B07-Q01",
+      "kind": "disclosure",
+      "claim": "本季度营业收入",
+      "scope": {
+        "period": "2026Q3单季",
+        "entity": "安琪酵母",
+        "basis": "集团合并；季度数据未经审计",
+        "definition": "本季度营业收入；按原表列定位，不把归母/合并净利润混同",
+        "unit": "元",
+        "currency": "CNY"
+      },
+      "sources": [
+        {
+          "source_id": "600298-5c763f656754f15e",
+          "location": "PDF物理第1页，财务摘要/经营更新，行“本季度营业收入”"
+        }
+      ],
+      "support_boundary": "机器提取候选，尚无人审核准；不单独证明机制或投资价值。",
+      "value": "4421028057.96",
+      "state": "Unknown"
+    },
+    "B07-Q02": {
+      "id": "B07-Q02",
+      "kind": "disclosure",
+      "claim": "前九个月营业收入",
+      "scope": {
+        "period": "2026年1—9月",
+        "entity": "安琪酵母",
+        "basis": "集团合并；季度数据未经审计",
+        "definition": "前九个月营业收入；按原表列定位，不把归母/合并净利润混同",
+        "unit": "元",
+        "currency": "CNY"
+      },
+      "sources": [
+        {
+          "source_id": "600298-5c763f656754f15e",
+          "location": "PDF物理第1页，财务摘要/经营更新，行“前九个月营业收入”"
+        }
+      ],
+      "support_boundary": "机器提取候选，尚无人审核准；不单独证明机制或投资价值。",
+      "value": "13607950841.86",
+      "state": "Unknown"
+    },
+    "B07-Q03": {
+      "id": "B07-Q03",
+      "kind": "disclosure",
+      "claim": "本季度归母净利润",
+      "scope": {
+        "period": "2026Q3单季",
+        "entity": "安琪酵母",
+        "basis": "集团合并；季度数据未经审计",
+        "definition": "本季度归母净利润；按原表列定位，不把归母/合并净利润混同",
+        "unit": "元",
+        "currency": "CNY"
+      },
+      "sources": [
+        {
+          "source_id": "600298-5c763f656754f15e",
+          "location": "PDF物理第1页，财务摘要/经营更新，行“本季度归母净利润”"
+        }
+      ],
+      "support_boundary": "机器提取候选，尚无人审核准；不单独证明机制或投资价值。",
+      "value": "290235886.30",
+      "state": "Unknown"
+    },
+    "B07-Q04": {
+      "id": "B07-Q04",
+      "kind": "disclosure",
+      "claim": "前九个月归母净利润",
+      "scope": {
+        "period": "2026年1—9月",
+        "entity": "安琪酵母",
+        "basis": "集团合并；季度数据未经审计",
+        "definition": "前九个月归母净利润；按原表列定位，不把归母/合并净利润混同",
+        "unit": "元",
+        "currency": "CNY"
+      },
+      "sources": [
+        {
+          "source_id": "600298-5c763f656754f15e",
+          "location": "PDF物理第1页，财务摘要/经营更新，行“前九个月归母净利润”"
+        }
+      ],
+      "support_boundary": "机器提取候选，尚无人审核准；不单独证明机制或投资价值。",
+      "value": "1171183084.93",
+      "state": "Unknown"
+    },
+    "B07-Q05": {
+      "id": "B07-Q05",
+      "kind": "disclosure",
+      "claim": "前九个月CFO",
+      "scope": {
+        "period": "2026年1—9月",
+        "entity": "安琪酵母",
+        "basis": "集团合并；季度数据未经审计",
+        "definition": "前九个月CFO；按原表列定位，不把归母/合并净利润混同",
+        "unit": "元",
+        "currency": "CNY"
+      },
+      "sources": [
+        {
+          "source_id": "600298-5c763f656754f15e",
+          "location": "PDF物理第1页，财务摘要/经营更新，行“前九个月CFO”"
+        }
+      ],
+      "support_boundary": "机器提取候选，尚无人审核准；不单独证明机制或投资价值。",
+      "value": "1712444648.30",
+      "state": "Unknown"
+    },
+    "B07-Q06": {
+      "id": "B07-Q06",
+      "kind": "disclosure",
+      "claim": "前九个月营业收入同比",
+      "scope": {
+        "period": "2026年1—9月",
+        "entity": "安琪酵母",
+        "basis": "集团合并；季度数据未经审计",
+        "definition": "前九个月营业收入同比；按原表列定位，不把归母/合并净利润混同",
+        "unit": "%",
+        "currency": "CNY"
+      },
+      "sources": [
+        {
+          "source_id": "600298-5c763f656754f15e",
+          "location": "PDF物理第1页，财务摘要/经营更新，行“前九个月营业收入同比”"
+        }
+      ],
+      "support_boundary": "机器提取候选，尚无人审核准；不单独证明机制或投资价值。",
+      "value": "15.45",
+      "state": "Unknown"
+    }
+  },
+  "events": [
+    {
+      "id": "E000001",
+      "time": "2026-11-10T15:50:09+08:00",
+      "action": "candidate-created",
+      "data": {
+        "record": {
+          "id": "B07-A01",
+          "kind": "disclosure",
+          "claim": "营业收入2025",
+          "scope": {
+            "period": "2025年度",
+            "entity": "安琪酵母",
+            "basis": "集团合并年度财务摘要",
+            "definition": "营业收入2025；按原表列定位，不把归母/合并净利润混同",
+            "unit": "元",
+            "currency": "CNY"
+          },
+          "sources": [
+            {
+              "source_id": "600298-a14b53fefcfc0356",
+              "location": "PDF物理第6页，财务摘要/经营更新，行“营业收入2025”"
+            }
+          ],
+          "support_boundary": "机器提取候选，尚无人审核准；不单独证明机制或投资价值。",
+          "value": "16728842770.37",
+          "state": "Unknown"
+        },
+        "previous": null
+      },
+      "previous_hash": null,
+      "hash": "221e37bff58048054c94d48a9a3f58a29fc7e8b0458580125ab64ec3227af460"
+    },
+    {
+      "id": "E000002",
+      "time": "2026-11-10T15:50:09+08:00",
+      "action": "candidate-created",
+      "data": {
+        "record": {
+          "id": "B07-A02",
+          "kind": "disclosure",
+          "claim": "营业收入2024",
+          "scope": {
+            "period": "2024年度",
+            "entity": "安琪酵母",
+            "basis": "集团合并年度财务摘要",
+            "definition": "营业收入2024；按原表列定位，不把归母/合并净利润混同",
+            "unit": "元",
+            "currency": "CNY"
+          },
+          "sources": [
+            {
+              "source_id": "600298-a14b53fefcfc0356",
+              "location": "PDF物理第6页，财务摘要/经营更新，行“营业收入2024”"
+            }
+          ],
+          "support_boundary": "机器提取候选，尚无人审核准；不单独证明机制或投资价值。",
+          "value": "15196913197.79",
+          "state": "Unknown"
+        },
+        "previous": null
+      },
+      "previous_hash": "221e37bff58048054c94d48a9a3f58a29fc7e8b0458580125ab64ec3227af460",
+      "hash": "edf3a1c0be8ba378adc529e689a61224ffbbe58ef2a18c7ca2b607ce41dfaa46"
+    },
+    {
+      "id": "E000003",
+      "time": "2026-11-10T15:50:09+08:00",
+      "action": "candidate-created",
+      "data": {
+        "record": {
+          "id": "B07-A03",
+          "kind": "disclosure",
+          "claim": "归母净利润2025",
+          "scope": {
+            "period": "2025年度",
+            "entity": "安琪酵母",
+            "basis": "集团合并年度财务摘要",
+            "definition": "归母净利润2025；按原表列定位，不把归母/合并净利润混同",
+            "unit": "元",
+            "currency": "CNY"
+          },
+          "sources": [
+            {
+              "source_id": "600298-a14b53fefcfc0356",
+              "location": "PDF物理第6页，财务摘要/经营更新，行“归母净利润2025”"
+            }
+          ],
+          "support_boundary": "机器提取候选，尚无人审核准；不单独证明机制或投资价值。",
+          "value": "1544409068.94",
+          "state": "Unknown"
+        },
+        "previous": null
+      },
+      "previous_hash": "edf3a1c0be8ba378adc529e689a61224ffbbe58ef2a18c7ca2b607ce41dfaa46",
+      "hash": "d16bd9f024f6b1e55a340ff59760d9ea002401e7efc05bd63fcdf2a632b65d2f"
+    },
+    {
+      "id": "E000004",
+      "time": "2026-11-10T15:50:09+08:00",
+      "action": "candidate-created",
+      "data": {
+        "record": {
+          "id": "B07-A04",
+          "kind": "disclosure",
+          "claim": "归母净利润2024",
+          "scope": {
+            "period": "2024年度",
+            "entity": "安琪酵母",
+            "basis": "集团合并年度财务摘要",
+            "definition": "归母净利润2024；按原表列定位，不把归母/合并净利润混同",
+            "unit": "元",
+            "currency": "CNY"
+          },
+          "sources": [
+            {
+              "source_id": "600298-a14b53fefcfc0356",
+              "location": "PDF物理第6页，财务摘要/经营更新，行“归母净利润2024”"
+            }
+          ],
+          "support_boundary": "机器提取候选，尚无人审核准；不单独证明机制或投资价值。",
+          "value": "1324569136.28",
+          "state": "Unknown"
+        },
+        "previous": null
+      },
+      "previous_hash": "d16bd9f024f6b1e55a340ff59760d9ea002401e7efc05bd63fcdf2a632b65d2f",
+      "hash": "8bfd4f92514b131933e4e3f72884c64b3f3642e8e66f2f01a47e104ffb3406be"
+    },
+    {
+      "id": "E000005",
+      "time": "2026-11-10T15:50:09+08:00",
+      "action": "candidate-created",
+      "data": {
+        "record": {
+          "id": "B07-A05",
+          "kind": "disclosure",
+          "claim": "CFO2025",
+          "scope": {
+            "period": "2025年度",
+            "entity": "安琪酵母",
+            "basis": "集团合并年度财务摘要",
+            "definition": "CFO2025；按原表列定位，不把归母/合并净利润混同",
+            "unit": "元",
+            "currency": "CNY"
+          },
+          "sources": [
+            {
+              "source_id": "600298-a14b53fefcfc0356",
+              "location": "PDF物理第6页，财务摘要/经营更新，行“CFO2025”"
+            }
+          ],
+          "support_boundary": "机器提取候选，尚无人审核准；不单独证明机制或投资价值。",
+          "value": "2477959556.34",
+          "state": "Unknown"
+        },
+        "previous": null
+      },
+      "previous_hash": "8bfd4f92514b131933e4e3f72884c64b3f3642e8e66f2f01a47e104ffb3406be",
+      "hash": "f3bca832af896ebdc010aacbfe4e80aabb3a903dff3fcbe2a3e4fe8bdf2126c7"
+    },
+    {
+      "id": "E000006",
+      "time": "2026-11-10T15:50:09+08:00",
+      "action": "candidate-created",
+      "data": {
+        "record": {
+          "id": "B07-A06",
+          "kind": "disclosure",
+          "claim": "CFO2024",
+          "scope": {
+            "period": "2024年度",
+            "entity": "安琪酵母",
+            "basis": "集团合并年度财务摘要",
+            "definition": "CFO2024；按原表列定位，不把归母/合并净利润混同",
+            "unit": "元",
+            "currency": "CNY"
+          },
+          "sources": [
+            {
+              "source_id": "600298-a14b53fefcfc0356",
+              "location": "PDF物理第6页，财务摘要/经营更新，行“CFO2024”"
+            }
+          ],
+          "support_boundary": "机器提取候选，尚无人审核准；不单独证明机制或投资价值。",
+          "value": "1649856927.18",
+          "state": "Unknown"
+        },
+        "previous": null
+      },
+      "previous_hash": "f3bca832af896ebdc010aacbfe4e80aabb3a903dff3fcbe2a3e4fe8bdf2126c7",
+      "hash": "85c94f3094db57c562165777631f27a7fa8603e9cf93de7e23747c61d5bae3f3"
+    },
+    {
+      "id": "E000007",
+      "time": "2026-11-10T15:50:10+08:00",
+      "action": "candidate-created",
+      "data": {
+        "record": {
+          "id": "B07-Q01",
+          "kind": "disclosure",
+          "claim": "本季度营业收入",
+          "scope": {
+            "period": "2026Q3单季",
+            "entity": "安琪酵母",
+            "basis": "集团合并；季度数据未经审计",
+            "definition": "本季度营业收入；按原表列定位，不把归母/合并净利润混同",
+            "unit": "元",
+            "currency": "CNY"
+          },
+          "sources": [
+            {
+              "source_id": "600298-5c763f656754f15e",
+              "location": "PDF物理第1页，财务摘要/经营更新，行“本季度营业收入”"
+            }
+          ],
+          "support_boundary": "机器提取候选，尚无人审核准；不单独证明机制或投资价值。",
+          "value": "4421028057.96",
+          "state": "Unknown"
+        },
+        "previous": null
+      },
+      "previous_hash": "85c94f3094db57c562165777631f27a7fa8603e9cf93de7e23747c61d5bae3f3",
+      "hash": "b7b4cb9e70dfe846cbaacf01663f17b68df9cc3ca9eee97e87ab63513e7c23d5"
+    },
+    {
+      "id": "E000008",
+      "time": "2026-11-10T15:50:10+08:00",
+      "action": "candidate-created",
+      "data": {
+        "record": {
+          "id": "B07-Q02",
+          "kind": "disclosure",
+          "claim": "前九个月营业收入",
+          "scope": {
+            "period": "2026年1—9月",
+            "entity": "安琪酵母",
+            "basis": "集团合并；季度数据未经审计",
+            "definition": "前九个月营业收入；按原表列定位，不把归母/合并净利润混同",
+            "unit": "元",
+            "currency": "CNY"
+          },
+          "sources": [
+            {
+              "source_id": "600298-5c763f656754f15e",
+              "location": "PDF物理第1页，财务摘要/经营更新，行“前九个月营业收入”"
+            }
+          ],
+          "support_boundary": "机器提取候选，尚无人审核准；不单独证明机制或投资价值。",
+          "value": "13607950841.86",
+          "state": "Unknown"
+        },
+        "previous": null
+      },
+      "previous_hash": "b7b4cb9e70dfe846cbaacf01663f17b68df9cc3ca9eee97e87ab63513e7c23d5",
+      "hash": "94830553b61f7087d44121a2d01ac9d908a26d9c9f829f32812d279c52131084"
+    },
+    {
+      "id": "E000009",
+      "time": "2026-11-10T15:50:10+08:00",
+      "action": "candidate-created",
+      "data": {
+        "record": {
+          "id": "B07-Q03",
+          "kind": "disclosure",
+          "claim": "本季度归母净利润",
+          "scope": {
+            "period": "2026Q3单季",
+            "entity": "安琪酵母",
+            "basis": "集团合并；季度数据未经审计",
+            "definition": "本季度归母净利润；按原表列定位，不把归母/合并净利润混同",
+            "unit": "元",
+            "currency": "CNY"
+          },
+          "sources": [
+            {
+              "source_id": "600298-5c763f656754f15e",
+              "location": "PDF物理第1页，财务摘要/经营更新，行“本季度归母净利润”"
+            }
+          ],
+          "support_boundary": "机器提取候选，尚无人审核准；不单独证明机制或投资价值。",
+          "value": "290235886.30",
+          "state": "Unknown"
+        },
+        "previous": null
+      },
+      "previous_hash": "94830553b61f7087d44121a2d01ac9d908a26d9c9f829f32812d279c52131084",
+      "hash": "62dd5e2b56fc53efd8a4a1ee6e7d178780fa06e84d98e193cf3830de8f62ec3d"
+    },
+    {
+      "id": "E000010",
+      "time": "2026-11-10T15:50:10+08:00",
+      "action": "candidate-created",
+      "data": {
+        "record": {
+          "id": "B07-Q04",
+          "kind": "disclosure",
+          "claim": "前九个月归母净利润",
+          "scope": {
+            "period": "2026年1—9月",
+            "entity": "安琪酵母",
+            "basis": "集团合并；季度数据未经审计",
+            "definition": "前九个月归母净利润；按原表列定位，不把归母/合并净利润混同",
+            "unit": "元",
+            "currency": "CNY"
+          },
+          "sources": [
+            {
+              "source_id": "600298-5c763f656754f15e",
+              "location": "PDF物理第1页，财务摘要/经营更新，行“前九个月归母净利润”"
+            }
+          ],
+          "support_boundary": "机器提取候选，尚无人审核准；不单独证明机制或投资价值。",
+          "value": "1171183084.93",
+          "state": "Unknown"
+        },
+        "previous": null
+      },
+      "previous_hash": "62dd5e2b56fc53efd8a4a1ee6e7d178780fa06e84d98e193cf3830de8f62ec3d",
+      "hash": "e9bf54135620d1e87d2fda56c920dfbac75065b4cd8ec67c95a7b963a6fe0dfe"
+    },
+    {
+      "id": "E000011",
+      "time": "2026-11-10T15:50:10+08:00",
+      "action": "candidate-created",
+      "data": {
+        "record": {
+          "id": "B07-Q05",
+          "kind": "disclosure",
+          "claim": "前九个月CFO",
+          "scope": {
+            "period": "2026年1—9月",
+            "entity": "安琪酵母",
+            "basis": "集团合并；季度数据未经审计",
+            "definition": "前九个月CFO；按原表列定位，不把归母/合并净利润混同",
+            "unit": "元",
+            "currency": "CNY"
+          },
+          "sources": [
+            {
+              "source_id": "600298-5c763f656754f15e",
+              "location": "PDF物理第1页，财务摘要/经营更新，行“前九个月CFO”"
+            }
+          ],
+          "support_boundary": "机器提取候选，尚无人审核准；不单独证明机制或投资价值。",
+          "value": "1712444648.30",
+          "state": "Unknown"
+        },
+        "previous": null
+      },
+      "previous_hash": "e9bf54135620d1e87d2fda56c920dfbac75065b4cd8ec67c95a7b963a6fe0dfe",
+      "hash": "6d0f12a959569b3a7f6553852aabee74e0074aef0ca997a7f010437f3de46900"
+    },
+    {
+      "id": "E000012",
+      "time": "2026-11-10T15:50:10+08:00",
+      "action": "candidate-created",
+      "data": {
+        "record": {
+          "id": "B07-Q06",
+          "kind": "disclosure",
+          "claim": "前九个月营业收入同比",
+          "scope": {
+            "period": "2026年1—9月",
+            "entity": "安琪酵母",
+            "basis": "集团合并；季度数据未经审计",
+            "definition": "前九个月营业收入同比；按原表列定位，不把归母/合并净利润混同",
+            "unit": "%",
+            "currency": "CNY"
+          },
+          "sources": [
+            {
+              "source_id": "600298-5c763f656754f15e",
+              "location": "PDF物理第1页，财务摘要/经营更新，行“前九个月营业收入同比”"
+            }
+          ],
+          "support_boundary": "机器提取候选，尚无人审核准；不单独证明机制或投资价值。",
+          "value": "15.45",
+          "state": "Unknown"
+        },
+        "previous": null
+      },
+      "previous_hash": "6d0f12a959569b3a7f6553852aabee74e0074aef0ca997a7f010437f3de46900",
+      "hash": "9beb436a0847153b4af22e8eabab74d8e2292f9f0bd39de42cdd6efed5c98dc4"
+    },
+    {
+      "id": "E000013",
+      "time": "2026-11-10T15:52:07+08:00",
+      "action": "candidate-revised",
+      "data": {
+        "record": {
+          "id": "B07-A01",
+          "kind": "disclosure",
+          "claim": "营业收入2025",
+          "scope": {
+            "period": "2025年度",
+            "entity": "安琪酵母",
+            "basis": "集团合并年度财务摘要",
+            "definition": "营业收入2025；按原表列定位，不把归母/合并净利润混同",
+            "unit": "元",
+            "currency": "CNY"
+          },
+          "sources": [
+            {
+              "source_id": "600298-a14b53fefcfc0356",
+              "location": "PDF物理第6页，财务摘要/经营更新，行“营业收入2025”"
+            }
+          ],
+          "support_boundary": "机器提取候选，尚无人审核准；不单独证明机制或投资价值。",
+          "value": "16728842770.37",
+          "state": "Unknown"
+        },
+        "previous": {
+          "id": "B07-A01",
+          "kind": "disclosure",
+          "claim": "营业收入2025",
+          "scope": {
+            "period": "2025年度",
+            "entity": "安琪酵母",
+            "basis": "集团合并年度财务摘要",
+            "definition": "营业收入2025；按原表列定位，不把归母/合并净利润混同",
+            "unit": "元",
+            "currency": "CNY"
+          },
+          "sources": [
+            {
+              "source_id": "600298-a14b53fefcfc0356",
+              "location": "PDF物理第6页，财务摘要/经营更新，行“营业收入2025”"
+            }
+          ],
+          "support_boundary": "机器提取候选，尚无人审核准；不单独证明机制或投资价值。",
+          "value": "16728842770.37",
+          "state": "Unknown"
+        }
+      },
+      "previous_hash": "9beb436a0847153b4af22e8eabab74d8e2292f9f0bd39de42cdd6efed5c98dc4",
+      "hash": "9e1203d4d99b1a937add7bf05b2d2a52524c5aa81ccdc45fba66005346415cc8"
+    },
+    {
+      "id": "E000014",
+      "time": "2026-11-10T15:52:07+08:00",
+      "action": "candidate-revised",
+      "data": {
+        "record": {
+          "id": "B07-A02",
+          "kind": "disclosure",
+          "claim": "营业收入2024",
+          "scope": {
+            "period": "2024年度",
+            "entity": "安琪酵母",
+            "basis": "集团合并年度财务摘要",
+            "definition": "营业收入2024；按原表列定位，不把归母/合并净利润混同",
+            "unit": "元",
+            "currency": "CNY"
+          },
+          "sources": [
+            {
+              "source_id": "600298-a14b53fefcfc0356",
+              "location": "PDF物理第6页，财务摘要/经营更新，行“营业收入2024”"
+            }
+          ],
+          "support_boundary": "机器提取候选，尚无人审核准；不单独证明机制或投资价值。",
+          "value": "15196913197.79",
+          "state": "Unknown"
+        },
+        "previous": {
+          "id": "B07-A02",
+          "kind": "disclosure",
+          "claim": "营业收入2024",
+          "scope": {
+            "period": "2024年度",
+            "entity": "安琪酵母",
+            "basis": "集团合并年度财务摘要",
+            "definition": "营业收入2024；按原表列定位，不把归母/合并净利润混同",
+            "unit": "元",
+            "currency": "CNY"
+          },
+          "sources": [
+            {
+              "source_id": "600298-a14b53fefcfc0356",
+              "location": "PDF物理第6页，财务摘要/经营更新，行“营业收入2024”"
+            }
+          ],
+          "support_boundary": "机器提取候选，尚无人审核准；不单独证明机制或投资价值。",
+          "value": "15196913197.79",
+          "state": "Unknown"
+        }
+      },
+      "previous_hash": "9e1203d4d99b1a937add7bf05b2d2a52524c5aa81ccdc45fba66005346415cc8",
+      "hash": "1d96a3c93509a9c22c4d6c6a034f62bc1a6f866cda350f8f99ce671a80f26f1b"
+    },
+    {
+      "id": "E000015",
+      "time": "2026-11-10T15:52:07+08:00",
+      "action": "candidate-revised",
+      "data": {
+        "record": {
+          "id": "B07-A03",
+          "kind": "disclosure",
+          "claim": "归母净利润2025",
+          "scope": {
+            "period": "2025年度",
+            "entity": "安琪酵母",
+            "basis": "集团合并年度财务摘要",
+            "definition": "归母净利润2025；按原表列定位，不把归母/合并净利润混同",
+            "unit": "元",
+            "currency": "CNY"
+          },
+          "sources": [
+            {
+              "source_id": "600298-a14b53fefcfc0356",
+              "location": "PDF物理第6页，财务摘要/经营更新，行“归母净利润2025”"
+            }
+          ],
+          "support_boundary": "机器提取候选，尚无人审核准；不单独证明机制或投资价值。",
+          "value": "1544409068.94",
+          "state": "Unknown"
+        },
+        "previous": {
+          "id": "B07-A03",
+          "kind": "disclosure",
+          "claim": "归母净利润2025",
+          "scope": {
+            "period": "2025年度",
+            "entity": "安琪酵母",
+            "basis": "集团合并年度财务摘要",
+            "definition": "归母净利润2025；按原表列定位，不把归母/合并净利润混同",
+            "unit": "元",
+            "currency": "CNY"
+          },
+          "sources": [
+            {
+              "source_id": "600298-a14b53fefcfc0356",
+              "location": "PDF物理第6页，财务摘要/经营更新，行“归母净利润2025”"
+            }
+          ],
+          "support_boundary": "机器提取候选，尚无人审核准；不单独证明机制或投资价值。",
+          "value": "1544409068.94",
+          "state": "Unknown"
+        }
+      },
+      "previous_hash": "1d96a3c93509a9c22c4d6c6a034f62bc1a6f866cda350f8f99ce671a80f26f1b",
+      "hash": "175b10b69954d9a19fbe4354fa784265f829c69a75a6d7d3bc7a0e8ab5f8ea75"
+    },
+    {
+      "id": "E000016",
+      "time": "2026-11-10T15:52:07+08:00",
+      "action": "candidate-revised",
+      "data": {
+        "record": {
+          "id": "B07-A04",
+          "kind": "disclosure",
+          "claim": "归母净利润2024",
+          "scope": {
+            "period": "2024年度",
+            "entity": "安琪酵母",
+            "basis": "集团合并年度财务摘要",
+            "definition": "归母净利润2024；按原表列定位，不把归母/合并净利润混同",
+            "unit": "元",
+            "currency": "CNY"
+          },
+          "sources": [
+            {
+              "source_id": "600298-a14b53fefcfc0356",
+              "location": "PDF物理第6页，财务摘要/经营更新，行“归母净利润2024”"
+            }
+          ],
+          "support_boundary": "机器提取候选，尚无人审核准；不单独证明机制或投资价值。",
+          "value": "1324569136.28",
+          "state": "Unknown"
+        },
+        "previous": {
+          "id": "B07-A04",
+          "kind": "disclosure",
+          "claim": "归母净利润2024",
+          "scope": {
+            "period": "2024年度",
+            "entity": "安琪酵母",
+            "basis": "集团合并年度财务摘要",
+            "definition": "归母净利润2024；按原表列定位，不把归母/合并净利润混同",
+            "unit": "元",
+            "currency": "CNY"
+          },
+          "sources": [
+            {
+              "source_id": "600298-a14b53fefcfc0356",
+              "location": "PDF物理第6页，财务摘要/经营更新，行“归母净利润2024”"
+            }
+          ],
+          "support_boundary": "机器提取候选，尚无人审核准；不单独证明机制或投资价值。",
+          "value": "1324569136.28",
+          "state": "Unknown"
+        }
+      },
+      "previous_hash": "175b10b69954d9a19fbe4354fa784265f829c69a75a6d7d3bc7a0e8ab5f8ea75",
+      "hash": "e8a60b8ecffc0510d7be5b8997d61adf3d15b641f4981a334eb134d3f9b5a07d"
+    },
+    {
+      "id": "E000017",
+      "time": "2026-11-10T15:52:07+08:00",
+      "action": "candidate-revised",
+      "data": {
+        "record": {
+          "id": "B07-A05",
+          "kind": "disclosure",
+          "claim": "CFO2025",
+          "scope": {
+            "period": "2025年度",
+            "entity": "安琪酵母",
+            "basis": "集团合并年度财务摘要",
+            "definition": "CFO2025；按原表列定位，不把归母/合并净利润混同",
+            "unit": "元",
+            "currency": "CNY"
+          },
+          "sources": [
+            {
+              "source_id": "600298-a14b53fefcfc0356",
+              "location": "PDF物理第6页，财务摘要/经营更新，行“CFO2025”"
+            }
+          ],
+          "support_boundary": "机器提取候选，尚无人审核准；不单独证明机制或投资价值。",
+          "value": "2477959556.34",
+          "state": "Unknown"
+        },
+        "previous": {
+          "id": "B07-A05",
+          "kind": "disclosure",
+          "claim": "CFO2025",
+          "scope": {
+            "period": "2025年度",
+            "entity": "安琪酵母",
+            "basis": "集团合并年度财务摘要",
+            "definition": "CFO2025；按原表列定位，不把归母/合并净利润混同",
+            "unit": "元",
+            "currency": "CNY"
+          },
+          "sources": [
+            {
+              "source_id": "600298-a14b53fefcfc0356",
+              "location": "PDF物理第6页，财务摘要/经营更新，行“CFO2025”"
+            }
+          ],
+          "support_boundary": "机器提取候选，尚无人审核准；不单独证明机制或投资价值。",
+          "value": "2477959556.34",
+          "state": "Unknown"
+        }
+      },
+      "previous_hash": "e8a60b8ecffc0510d7be5b8997d61adf3d15b641f4981a334eb134d3f9b5a07d",
+      "hash": "d9cb4cf5fba1f578f440840483702c4a7e0bbf5476c22896efcd16bed930b785"
+    },
+    {
+      "id": "E000018",
+      "time": "2026-11-10T15:52:07+08:00",
+      "action": "candidate-revised",
+      "data": {
+        "record": {
+          "id": "B07-A06",
+          "kind": "disclosure",
+          "claim": "CFO2024",
+          "scope": {
+            "period": "2024年度",
+            "entity": "安琪酵母",
+            "basis": "集团合并年度财务摘要",
+            "definition": "CFO2024；按原表列定位，不把归母/合并净利润混同",
+            "unit": "元",
+            "currency": "CNY"
+          },
+          "sources": [
+            {
+              "source_id": "600298-a14b53fefcfc0356",
+              "location": "PDF物理第6页，财务摘要/经营更新，行“CFO2024”"
+            }
+          ],
+          "support_boundary": "机器提取候选，尚无人审核准；不单独证明机制或投资价值。",
+          "value": "1649856927.18",
+          "state": "Unknown"
+        },
+        "previous": {
+          "id": "B07-A06",
+          "kind": "disclosure",
+          "claim": "CFO2024",
+          "scope": {
+            "period": "2024年度",
+            "entity": "安琪酵母",
+            "basis": "集团合并年度财务摘要",
+            "definition": "CFO2024；按原表列定位，不把归母/合并净利润混同",
+            "unit": "元",
+            "currency": "CNY"
+          },
+          "sources": [
+            {
+              "source_id": "600298-a14b53fefcfc0356",
+              "location": "PDF物理第6页，财务摘要/经营更新，行“CFO2024”"
+            }
+          ],
+          "support_boundary": "机器提取候选，尚无人审核准；不单独证明机制或投资价值。",
+          "value": "1649856927.18",
+          "state": "Unknown"
+        }
+      },
+      "previous_hash": "d9cb4cf5fba1f578f440840483702c4a7e0bbf5476c22896efcd16bed930b785",
+      "hash": "4392385887916e81a55f1313611a29a58ebcb37d7fc89f84f155eb412973cc36"
+    },
+    {
+      "id": "E000019",
+      "time": "2026-11-10T15:52:07+08:00",
+      "action": "candidate-revised",
+      "data": {
+        "record": {
+          "id": "B07-Q01",
+          "kind": "disclosure",
+          "claim": "本季度营业收入",
+          "scope": {
+            "period": "2026Q3单季",
+            "entity": "安琪酵母",
+            "basis": "集团合并；季度数据未经审计",
+            "definition": "本季度营业收入；按原表列定位，不把归母/合并净利润混同",
+            "unit": "元",
+            "currency": "CNY"
+          },
+          "sources": [
+            {
+              "source_id": "600298-5c763f656754f15e",
+              "location": "PDF物理第1页，财务摘要/经营更新，行“本季度营业收入”"
+            }
+          ],
+          "support_boundary": "机器提取候选，尚无人审核准；不单独证明机制或投资价值。",
+          "value": "4421028057.96",
+          "state": "Unknown"
+        },
+        "previous": {
+          "id": "B07-Q01",
+          "kind": "disclosure",
+          "claim": "本季度营业收入",
+          "scope": {
+            "period": "2026Q3单季",
+            "entity": "安琪酵母",
+            "basis": "集团合并；季度数据未经审计",
+            "definition": "本季度营业收入；按原表列定位，不把归母/合并净利润混同",
+            "unit": "元",
+            "currency": "CNY"
+          },
+          "sources": [
+            {
+              "source_id": "600298-5c763f656754f15e",
+              "location": "PDF物理第1页，财务摘要/经营更新，行“本季度营业收入”"
+            }
+          ],
+          "support_boundary": "机器提取候选，尚无人审核准；不单独证明机制或投资价值。",
+          "value": "4421028057.96",
+          "state": "Unknown"
+        }
+      },
+      "previous_hash": "4392385887916e81a55f1313611a29a58ebcb37d7fc89f84f155eb412973cc36",
+      "hash": "a24cd92eb37c8c9faba62e50be1d09e15e36ad59bf629e21ba05061f990f7cbf"
+    },
+    {
+      "id": "E000020",
+      "time": "2026-11-10T15:52:07+08:00",
+      "action": "candidate-revised",
+      "data": {
+        "record": {
+          "id": "B07-Q02",
+          "kind": "disclosure",
+          "claim": "前九个月营业收入",
+          "scope": {
+            "period": "2026年1—9月",
+            "entity": "安琪酵母",
+            "basis": "集团合并；季度数据未经审计",
+            "definition": "前九个月营业收入；按原表列定位，不把归母/合并净利润混同",
+            "unit": "元",
+            "currency": "CNY"
+          },
+          "sources": [
+            {
+              "source_id": "600298-5c763f656754f15e",
+              "location": "PDF物理第1页，财务摘要/经营更新，行“前九个月营业收入”"
+            }
+          ],
+          "support_boundary": "机器提取候选，尚无人审核准；不单独证明机制或投资价值。",
+          "value": "13607950841.86",
+          "state": "Unknown"
+        },
+        "previous": {
+          "id": "B07-Q02",
+          "kind": "disclosure",
+          "claim": "前九个月营业收入",
+          "scope": {
+            "period": "2026年1—9月",
+            "entity": "安琪酵母",
+            "basis": "集团合并；季度数据未经审计",
+            "definition": "前九个月营业收入；按原表列定位，不把归母/合并净利润混同",
+            "unit": "元",
+            "currency": "CNY"
+          },
+          "sources": [
+            {
+              "source_id": "600298-5c763f656754f15e",
+              "location": "PDF物理第1页，财务摘要/经营更新，行“前九个月营业收入”"
+            }
+          ],
+          "support_boundary": "机器提取候选，尚无人审核准；不单独证明机制或投资价值。",
+          "value": "13607950841.86",
+          "state": "Unknown"
+        }
+      },
+      "previous_hash": "a24cd92eb37c8c9faba62e50be1d09e15e36ad59bf629e21ba05061f990f7cbf",
+      "hash": "2d3c77459ad379a1951c8096fc881b378117abba60acb90ec8289550b133069f"
+    },
+    {
+      "id": "E000021",
+      "time": "2026-11-10T15:52:07+08:00",
+      "action": "candidate-revised",
+      "data": {
+        "record": {
+          "id": "B07-Q03",
+          "kind": "disclosure",
+          "claim": "本季度归母净利润",
+          "scope": {
+            "period": "2026Q3单季",
+            "entity": "安琪酵母",
+            "basis": "集团合并；季度数据未经审计",
+            "definition": "本季度归母净利润；按原表列定位，不把归母/合并净利润混同",
+            "unit": "元",
+            "currency": "CNY"
+          },
+          "sources": [
+            {
+              "source_id": "600298-5c763f656754f15e",
+              "location": "PDF物理第1页，财务摘要/经营更新，行“本季度归母净利润”"
+            }
+          ],
+          "support_boundary": "机器提取候选，尚无人审核准；不单独证明机制或投资价值。",
+          "value": "290235886.30",
+          "state": "Unknown"
+        },
+        "previous": {
+          "id": "B07-Q03",
+          "kind": "disclosure",
+          "claim": "本季度归母净利润",
+          "scope": {
+            "period": "2026Q3单季",
+            "entity": "安琪酵母",
+            "basis": "集团合并；季度数据未经审计",
+            "definition": "本季度归母净利润；按原表列定位，不把归母/合并净利润混同",
+            "unit": "元",
+            "currency": "CNY"
+          },
+          "sources": [
+            {
+              "source_id": "600298-5c763f656754f15e",
+              "location": "PDF物理第1页，财务摘要/经营更新，行“本季度归母净利润”"
+            }
+          ],
+          "support_boundary": "机器提取候选，尚无人审核准；不单独证明机制或投资价值。",
+          "value": "290235886.30",
+          "state": "Unknown"
+        }
+      },
+      "previous_hash": "2d3c77459ad379a1951c8096fc881b378117abba60acb90ec8289550b133069f",
+      "hash": "e378ab27d60cc5351ffdfda3742f9360922d0f8e7bb843d26a74a28695438f51"
+    },
+    {
+      "id": "E000022",
+      "time": "2026-11-10T15:52:08+08:00",
+      "action": "candidate-revised",
+      "data": {
+        "record": {
+          "id": "B07-Q04",
+          "kind": "disclosure",
+          "claim": "前九个月归母净利润",
+          "scope": {
+            "period": "2026年1—9月",
+            "entity": "安琪酵母",
+            "basis": "集团合并；季度数据未经审计",
+            "definition": "前九个月归母净利润；按原表列定位，不把归母/合并净利润混同",
+            "unit": "元",
+            "currency": "CNY"
+          },
+          "sources": [
+            {
+              "source_id": "600298-5c763f656754f15e",
+              "location": "PDF物理第1页，财务摘要/经营更新，行“前九个月归母净利润”"
+            }
+          ],
+          "support_boundary": "机器提取候选，尚无人审核准；不单独证明机制或投资价值。",
+          "value": "1171183084.93",
+          "state": "Unknown"
+        },
+        "previous": {
+          "id": "B07-Q04",
+          "kind": "disclosure",
+          "claim": "前九个月归母净利润",
+          "scope": {
+            "period": "2026年1—9月",
+            "entity": "安琪酵母",
+            "basis": "集团合并；季度数据未经审计",
+            "definition": "前九个月归母净利润；按原表列定位，不把归母/合并净利润混同",
+            "unit": "元",
+            "currency": "CNY"
+          },
+          "sources": [
+            {
+              "source_id": "600298-5c763f656754f15e",
+              "location": "PDF物理第1页，财务摘要/经营更新，行“前九个月归母净利润”"
+            }
+          ],
+          "support_boundary": "机器提取候选，尚无人审核准；不单独证明机制或投资价值。",
+          "value": "1171183084.93",
+          "state": "Unknown"
+        }
+      },
+      "previous_hash": "e378ab27d60cc5351ffdfda3742f9360922d0f8e7bb843d26a74a28695438f51",
+      "hash": "18d525e59f596407972726ed5cad4b5ee4c80afc064153287e0f79fa8414c558"
+    },
+    {
+      "id": "E000023",
+      "time": "2026-11-10T15:52:08+08:00",
+      "action": "candidate-revised",
+      "data": {
+        "record": {
+          "id": "B07-Q05",
+          "kind": "disclosure",
+          "claim": "前九个月CFO",
+          "scope": {
+            "period": "2026年1—9月",
+            "entity": "安琪酵母",
+            "basis": "集团合并；季度数据未经审计",
+            "definition": "前九个月CFO；按原表列定位，不把归母/合并净利润混同",
+            "unit": "元",
+            "currency": "CNY"
+          },
+          "sources": [
+            {
+              "source_id": "600298-5c763f656754f15e",
+              "location": "PDF物理第1页，财务摘要/经营更新，行“前九个月CFO”"
+            }
+          ],
+          "support_boundary": "机器提取候选，尚无人审核准；不单独证明机制或投资价值。",
+          "value": "1712444648.30",
+          "state": "Unknown"
+        },
+        "previous": {
+          "id": "B07-Q05",
+          "kind": "disclosure",
+          "claim": "前九个月CFO",
+          "scope": {
+            "period": "2026年1—9月",
+            "entity": "安琪酵母",
+            "basis": "集团合并；季度数据未经审计",
+            "definition": "前九个月CFO；按原表列定位，不把归母/合并净利润混同",
+            "unit": "元",
+            "currency": "CNY"
+          },
+          "sources": [
+            {
+              "source_id": "600298-5c763f656754f15e",
+              "location": "PDF物理第1页，财务摘要/经营更新，行“前九个月CFO”"
+            }
+          ],
+          "support_boundary": "机器提取候选，尚无人审核准；不单独证明机制或投资价值。",
+          "value": "1712444648.30",
+          "state": "Unknown"
+        }
+      },
+      "previous_hash": "18d525e59f596407972726ed5cad4b5ee4c80afc064153287e0f79fa8414c558",
+      "hash": "059d5009a01c88455a39aecace2e59f02fc543992c3d01bab0fa8698cf4bc5c6"
+    },
+    {
+      "id": "E000024",
+      "time": "2026-11-10T15:52:08+08:00",
+      "action": "candidate-revised",
+      "data": {
+        "record": {
+          "id": "B07-Q06",
+          "kind": "disclosure",
+          "claim": "前九个月营业收入同比",
+          "scope": {
+            "period": "2026年1—9月",
+            "entity": "安琪酵母",
+            "basis": "集团合并；季度数据未经审计",
+            "definition": "前九个月营业收入同比；按原表列定位，不把归母/合并净利润混同",
+            "unit": "%",
+            "currency": "CNY"
+          },
+          "sources": [
+            {
+              "source_id": "600298-5c763f656754f15e",
+              "location": "PDF物理第1页，财务摘要/经营更新，行“前九个月营业收入同比”"
+            }
+          ],
+          "support_boundary": "机器提取候选，尚无人审核准；不单独证明机制或投资价值。",
+          "value": "15.45",
+          "state": "Unknown"
+        },
+        "previous": {
+          "id": "B07-Q06",
+          "kind": "disclosure",
+          "claim": "前九个月营业收入同比",
+          "scope": {
+            "period": "2026年1—9月",
+            "entity": "安琪酵母",
+            "basis": "集团合并；季度数据未经审计",
+            "definition": "前九个月营业收入同比；按原表列定位，不把归母/合并净利润混同",
+            "unit": "%",
+            "currency": "CNY"
+          },
+          "sources": [
+            {
+              "source_id": "600298-5c763f656754f15e",
+              "location": "PDF物理第1页，财务摘要/经营更新，行“前九个月营业收入同比”"
+            }
+          ],
+          "support_boundary": "机器提取候选，尚无人审核准；不单独证明机制或投资价值。",
+          "value": "15.45",
+          "state": "Unknown"
+        }
+      },
+      "previous_hash": "059d5009a01c88455a39aecace2e59f02fc543992c3d01bab0fa8698cf4bc5c6",
+      "hash": "af3a47160234ad14b8b54f58c1b8ef196e1da271381c3281ffa99d291f634482"
+    }
+  ],
   "delegations": [],
   "approvals": []
 }

@@ -1,0 +1,397 @@
+{
+  "at": "2026-11-10T07:52:07.303266+00:00",
+  "companies": [
+    {
+      "company": "002507_涪陵榨菜",
+      "candidates": 12,
+      "facts": 0,
+      "report": {
+        "id": "Odd75092e3c43",
+        "group": "research-report",
+        "title": "涪陵榨菜研究起点｜候选证据与竞争解释",
+        "kind": "报告草稿",
+        "version": 3,
+        "at": "2026-11-10T07:52:07.687965+00:00",
+        "actor": "Agent/test-or-api",
+        "actual_user_review": null,
+        "historical": false,
+        "bindings": {
+          "selection_ids": [
+            "R09e06cc7c1a8",
+            "R0b427d7dd7fe",
+            "R1572b24923fd",
+            "R3a8ec12bc38f",
+            "R48ccbb2a4ad6",
+            "R69074d027896",
+            "R8bff8d9f729a",
+            "R8c5f7065f343"
+          ],
+          "selection_scope": "all-eight-lanes",
+          "cards": {
+            "R3a8ec12bc38f": "228946ec35fa9fd6d809aed5e4dcd352450541a8df77e9eb15699e5c99e519fe",
+            "R09e06cc7c1a8": "14b31f38dde58019c3f64888ad78f4b20c2a1871b2661d6b2be13637c6bfb97c",
+            "R0b427d7dd7fe": "1ab7f550750dbee81073255ef1e788ac7f4aed20f0ff3d0ec10c48819e9b7456",
+            "R69074d027896": "06d2558f5d9963955dd6d11ffe4aa315848a20742f817f5f409c298bc9481441",
+            "R48ccbb2a4ad6": "7ef45fe83cd4ec06f0847845a12ba88e3c944abd48389f4837259522476e411e",
+            "R1572b24923fd": "d6af5d955aec0e0c726ee76e615beeea62ec18b8e53696bce431976a115a01e6",
+            "R8bff8d9f729a": "4a4643260395133c69f4faad6194a15191de8cf80427e6558f83369c39be9c0d",
+            "R8c5f7065f343": "34e3ebd3c092d4ee104461528f864b8f6abbe81ce4e114eeec9f38759622becc"
+          },
+          "methods": [
+            {
+              "id": "K02",
+              "version": 1
+            },
+            {
+              "id": "E05",
+              "version": 1
+            },
+            {
+              "id": "E06",
+              "version": 1
+            },
+            {
+              "id": "E08",
+              "version": 1
+            }
+          ],
+          "inputs": {
+            "work/review-batches/B07-annual.json": "e848af5ac28e8a332e7c5855723a2c45ec482604eece28ec04d53ba1ed16152b",
+            "work/review-batches/B07-Q3.json": "e3e84398709d0dffaf75a7fef836cd334282a76229b282ee18b2d47748d7b2b6",
+            "work/research07/source-field-map.json": "75e4fce5579de9c7db9ff6e6284de3f53966bf589568200fa38dabd174e196a5"
+          },
+          "sources": [
+            {
+              "id": "002507-d45bfdfdec6d4379",
+              "path": "sources/raw/02_定期报告与经营数据/2026-10-28_2026年三季度报告_1225628280.pdf",
+              "sha256": "18eee5ef5d7b63db544c0c855a1ade7c311e914a397245a11873679fc6955b07"
+            },
+            {
+              "id": "002507-6cd117ea1ac8beee",
+              "path": "sources/raw/01_年报/2026-03-28_2025年年度报告_1225042838.pdf",
+              "sha256": "db3af94635933a99c37cccb2b3809267b5e21072563ef12c2a8de93eb721f9b5"
+            }
+          ]
+        },
+        "files": [
+          {
+            "path": "outputs/research-report/v3-Odd75092e3c43/basis.json",
+            "format": "json",
+            "sha256": "b2b6b56ea09c699ccf8beb25168da030d6e3a124728d65639ce808ccb59d76c1",
+            "bytes": 49553
+          },
+          {
+            "path": "outputs/research-report/v3-Odd75092e3c43/report.html",
+            "format": "html",
+            "sha256": "d4c7b357f65511760087bbf636a154ed0c63fc440f607b91575bd85853e4b65d",
+            "bytes": 18775
+          },
+          {
+            "path": "outputs/research-report/v3-Odd75092e3c43/report.md",
+            "format": "md",
+            "sha256": "c2713fc3a2b2c265ded1e1e62ea25fa060d97f63cee2d7c68160c106344bc39b",
+            "bytes": 18382
+          }
+        ],
+        "needs_review": false,
+        "imported": false
+      },
+      "major_question": "成熟榨菜品类的销量与渠道改善，能否覆盖新增费用和产能投入？",
+      "gap": "缺同SKU净价、终端动销/经销库存、渠道增量费用及新基地投产爬坡回报；无法确认涨价权或新增资本回报。"
+    },
+    {
+      "company": "600298_安琪酵母",
+      "candidates": 12,
+      "facts": 0,
+      "report": {
+        "id": "O3a3a0fac2521",
+        "group": "research-report",
+        "title": "安琪酵母研究起点｜候选证据与竞争解释",
+        "kind": "报告草稿",
+        "version": 3,
+        "at": "2026-11-10T07:52:08.159965+00:00",
+        "actor": "Agent/test-or-api",
+        "actual_user_review": null,
+        "historical": false,
+        "bindings": {
+          "selection_ids": [
+            "R21f6d6590f9f",
+            "R2660b3bfa732",
+            "R29373d7bc0f1",
+            "R6911ffac3797",
+            "Ra9f2c23c0275",
+            "Rc307bcec6202",
+            "Rd60b7456dc65",
+            "Re0aacfad8631"
+          ],
+          "selection_scope": "all-eight-lanes",
+          "cards": {
+            "R6911ffac3797": "e329693ee904ae7f1caf0f431503fb633218809038328f8f43355de7d24a4972",
+            "Re0aacfad8631": "ad7bdecfc1c6a5ea30d96b85d0a5acbbe9ac75413345ed4d3cb79421f7e8f6d3",
+            "Ra9f2c23c0275": "23bf2abe0c6dc379830480e2de12a40811da09d9d5df85921249e4acec57f96a",
+            "Rc307bcec6202": "cd8b8615e306e31e9ed59aa1bd7a1205cbeb640ad36b0727e28ab11a900a2f02",
+            "R29373d7bc0f1": "8c783741b3899e04eed6cd323c8c128329476ec392e94992959ea7ea545616b8",
+            "R2660b3bfa732": "2e353316bc607713259018fdc5037d714c9c17d8cd0c43754cff78b36f742419",
+            "R21f6d6590f9f": "1615098e10e9aa135505b4bc735bba49612556593e282ead9d38c45d954eb1c5",
+            "Rd60b7456dc65": "30253033fd7ba026780705c14818e37e36eed8d48f4291e65200329b086ee089"
+          },
+          "methods": [
+            {
+              "id": "K03",
+              "version": 1
+            },
+            {
+              "id": "K11",
+              "version": 1
+            },
+            {
+              "id": "E03",
+              "version": 1
+            },
+            {
+              "id": "E06",
+              "version": 1
+            }
+          ],
+          "inputs": {
+            "work/review-batches/B07-annual.json": "8edb4f5a50f231edb37ab62fd577988ae7ebc9fe00e0fb8e4d8ef2ac18049b40",
+            "work/review-batches/B07-Q3.json": "71ec2bd3bc0dd99278dc2297c8f1e13d69dc926a4c1680fda3747c139172a2f5",
+            "work/research07/source-field-map.json": "ebc648f83cdcb096f9414da0807b018da256148ab9bbe9b3708ddb2a0d58fb6d"
+          },
+          "sources": [
+            {
+              "id": "600298-5c763f656754f15e",
+              "path": "sources/raw/02_定期报告与经营数据/2026-10-30_安琪酵母股份有限公司2026年第三季度报告_1225641080.pdf",
+              "sha256": "f4739d889d29da1a9744f1fb9428f75f6e6331572031b3de1daec550113f59d1"
+            },
+            {
+              "id": "600298-a14b53fefcfc0356",
+              "path": "sources/raw/01_年报/2026-03-31_安琪酵母股份有限公司2025年年度报告_1225056953.pdf",
+              "sha256": "7bee6f0f30a5da24746dd431f1947f15c8189fa9fbf5db75df4d3ba3c512c800"
+            }
+          ]
+        },
+        "files": [
+          {
+            "path": "outputs/research-report/v3-O3a3a0fac2521/basis.json",
+            "format": "json",
+            "sha256": "9a3a61afa57b901e0cfce6ad3e6a1001cdb8f303915b46b036d952355e5ac916",
+            "bytes": 51061
+          },
+          {
+            "path": "outputs/research-report/v3-O3a3a0fac2521/report.html",
+            "format": "html",
+            "sha256": "2360acc9f0eb0f68e326df5c6b755ab0134277176d8152692172d812e9655a87",
+            "bytes": 20059
+          },
+          {
+            "path": "outputs/research-report/v3-O3a3a0fac2521/report.md",
+            "format": "md",
+            "sha256": "543c073acb61ab031d6a51ca0fbb8ecc074b2575ecd49d66ffdb9d5e2d8d5f57",
+            "bytes": 19666
+          }
+        ],
+        "needs_review": false,
+        "imported": false
+      },
+      "major_question": "应用拓展和海外产能扩张是否提高可持续利润及新增资本回报？",
+      "gap": "缺新产线投产日/爬坡、按应用和地域的销量净价成本、糖蜜能源变动、实体/融资租赁现金范围和同批投入回报。"
+    },
+    {
+      "company": "688188_柏楚电子",
+      "candidates": 12,
+      "facts": 0,
+      "report": {
+        "id": "O4f6714d35f07",
+        "group": "research-report",
+        "title": "柏楚电子研究起点｜候选证据与竞争解释",
+        "kind": "报告草稿",
+        "version": 3,
+        "at": "2026-11-10T07:52:08.617214+00:00",
+        "actor": "Agent/test-or-api",
+        "actual_user_review": null,
+        "historical": false,
+        "bindings": {
+          "selection_ids": [
+            "R1622b2e65098",
+            "R42383f58e180",
+            "R6ef717bb11b9",
+            "R9b91e4658392",
+            "Rc91d3bad8c35",
+            "Rd192d88d9be7",
+            "Rd3892afbfc24",
+            "Re652de68ca00"
+          ],
+          "selection_scope": "all-eight-lanes",
+          "cards": {
+            "Rc91d3bad8c35": "55f95b72fa6c78f9e0c6ac5c1173ec7809a197285e5488575d5e09c8fa74cac2",
+            "R42383f58e180": "657fa0c5ad8a25b608d70a4ee341cbf19a2fc595a870cb9005731b355a04951e",
+            "Re652de68ca00": "a40e8f1f799366fb980efa1403a2487e540cbdd22dcfeee547f53c967ae152bd",
+            "R1622b2e65098": "9aa60e6bbe0ce45439197a1ea7d65518a9b4bdb2dfed2e9ac32dc6f9c1caa959",
+            "R9b91e4658392": "3b835b496a574452efefce473cd1f1d5b87183fea895ffb371ef8e7106e659b9",
+            "Rd192d88d9be7": "a58849d439332075beccde9fd5c7c1a7993a9fb094f5cbeea7572e2803cc0d36",
+            "R6ef717bb11b9": "c362277cb979feb9652631d4a79d7f70432be8c38cbe8fcf5cf2fb1da49a402c",
+            "Rd3892afbfc24": "99ed9fcda0554999941e06c243875ef074d875e2241fb36299a95b450025a398"
+          },
+          "methods": [
+            {
+              "id": "K02",
+              "version": 1
+            },
+            {
+              "id": "E02",
+              "version": 1
+            },
+            {
+              "id": "E03",
+              "version": 1
+            },
+            {
+              "id": "E07",
+              "version": 1
+            }
+          ],
+          "inputs": {
+            "work/review-batches/B07-annual.json": "9312fe54e785810b640befbaa558638ad62cfcccd675258ba520874e7c30e2b9",
+            "work/review-batches/B07-Q3.json": "74434fc0a274ce4f6b11ba734b54e7f8a90de277a429164136a2f08c3cc3f531",
+            "work/research07/source-field-map.json": "0af49e28e28907e96f4d3cf8cb94d2ab3852f478f0e830b4631680760740500a"
+          },
+          "sources": [
+            {
+              "id": "688188-fed67b607fa475a7",
+              "path": "sources/raw/02_定期报告与经营数据/2026-10-27_2026年第三季度报告_1225622322.pdf",
+              "sha256": "33f3c5e4de011f9858e98a1034e672104e0435fda3bdeec651a04c83fd6887ef"
+            },
+            {
+              "id": "688188-a343f0dc3c27d114",
+              "path": "sources/raw/01_年报/2026-04-10_2025年年度报告_1225091045.pdf",
+              "sha256": "e12688b3c2e80e63fae0008983426c644a0ca5bc0da6bed30f9b45f635ecfed2"
+            }
+          ]
+        },
+        "files": [
+          {
+            "path": "outputs/research-report/v3-O4f6714d35f07/basis.json",
+            "format": "json",
+            "sha256": "70b2a52d08e0108c2f6576834ae05d4dac5c93d8ed367c8b2e8eb32fc5eaf528",
+            "bytes": 50640
+          },
+          {
+            "path": "outputs/research-report/v3-O4f6714d35f07/report.html",
+            "format": "html",
+            "sha256": "d86f7f47781253795b41a9db6b34e7c67e536c3605af8039359f862adceec9d8",
+            "bytes": 20247
+          },
+          {
+            "path": "outputs/research-report/v3-O4f6714d35f07/report.md",
+            "format": "md",
+            "sha256": "e9ad86e4c315e49ff8c8dcf97fe21721792723553956b3af88200e611350d5da",
+            "bytes": 19854
+          }
+        ],
+        "needs_review": false,
+        "imported": false
+      },
+      "major_question": "控制系统、切割头及新应用如何贡献增长，优势能否支持利润与现金？",
+      "gap": "缺控制系统/切割头各自销量净价、装机客户留存、同类替换成本、研发资本化/费用化一致口径及新应用商业化时序。"
+    },
+    {
+      "company": "09992_泡泡玛特",
+      "candidates": 13,
+      "facts": 0,
+      "report": {
+        "id": "Oac8fd1f38e7d",
+        "group": "research-report",
+        "title": "泡泡玛特研究起点｜候选证据与竞争解释",
+        "kind": "报告草稿",
+        "version": 2,
+        "at": "2026-11-10T07:52:09.071892+00:00",
+        "actor": "Agent/test-or-api",
+        "actual_user_review": null,
+        "historical": false,
+        "bindings": {
+          "selection_ids": [
+            "R14c10b3a792a",
+            "R58b870a4ee64",
+            "R7bfc89d395aa",
+            "R7d8112e87a58",
+            "R8c387d2da2f6",
+            "Ra42a6324bb1c",
+            "Rad6660d577af",
+            "Rbd733d44d823"
+          ],
+          "selection_scope": "all-eight-lanes",
+          "cards": {
+            "R7d8112e87a58": "e1e6e2c1f6ea38c10782cfc16b2295f336cac59d6f08a6856af606e4df79bf82",
+            "R7bfc89d395aa": "cf47ca105c611f677fbc30a4354a8dba685d25b4d80fabd617a5179a189d2452",
+            "R58b870a4ee64": "c726ea019565485116d5f99a0270400d6ca3222170a7e31f9b5139b4d3a2e568",
+            "Rad6660d577af": "0b7e0dd9d8ed2dae199699b58c2e26066760f9c9faaa67b81badd36d3ea2b938",
+            "R8c387d2da2f6": "141414b512518394eb48ea03ba5fda8f0412e367e640f3261486c38d94db2fbc",
+            "R14c10b3a792a": "2afaebd349f418b17fbedef8b1f9fe70fb5c04fc9a49439f0bb3648677944c83",
+            "Rbd733d44d823": "60ac1fa21f522641ef77bf6a9916d02d771993018c1e04834e61d135d3157d2d",
+            "Ra42a6324bb1c": "d974bfccf0bc9140d366d2cb8f7a93c080883eb7a0fa6f471d4c66da2c21c961"
+          },
+          "methods": [
+            {
+              "id": "K03",
+              "version": 1
+            },
+            {
+              "id": "K09",
+              "version": 1
+            },
+            {
+              "id": "E04",
+              "version": 1
+            },
+            {
+              "id": "E08",
+              "version": 1
+            }
+          ],
+          "inputs": {
+            "work/review-batches/B07-annual.json": "c480b981202701b67630537882833ddc5e7b120af396d1b66e95a82e7ac54312",
+            "work/review-batches/B07-Q3.json": "4afced6ff36347acebdfe71b38fd0678f11c037f88f15586c5da39cb84b60290",
+            "work/research07/source-field-map.json": "6c8ee2116b535c003a65df9ca8d8c2fedd0456653a3e39517c8c4dbb1a030e3e"
+          },
+          "sources": [
+            {
+              "id": "S92234424087f455a",
+              "path": "sources/raw/S92234424087f455a_2026-10-27_LATEST BUSINESS UPDATE FOR THE THIRD QUARTER OF 2026__2026_c437e22e46.pdf",
+              "sha256": "92234424087f455a786558f9a9c6c900573392160a63f4720371b07ee3197490"
+            },
+            {
+              "id": "S47095a39c6425b11",
+              "path": "sources/raw/S47095a39c6425b11_2026-04-21_ANNUAL REPORT 2025__2025_bd4e173872.pdf",
+              "sha256": "47095a39c6425b11e5aaa091f456e178498d20a77d4ff6a969e351e4f5dfaaf7"
+            }
+          ]
+        },
+        "files": [
+          {
+            "path": "outputs/research-report/v2-Oac8fd1f38e7d/basis.json",
+            "format": "json",
+            "sha256": "d4f134d71c1afef8b7a3ed3e77c0ff775beb2b289588aa6c8abae494e8f09fd5",
+            "bytes": 52630
+          },
+          {
+            "path": "outputs/research-report/v2-Oac8fd1f38e7d/report.html",
+            "format": "html",
+            "sha256": "7ed642df60cc19ac251e31c03d9660eefa834e01ba4158673d175ef0dc8098b2",
+            "bytes": 21814
+          },
+          {
+            "path": "outputs/research-report/v2-Oac8fd1f38e7d/report.md",
+            "format": "md",
+            "sha256": "9bb8b45d8e16d682223908783ca76d083c5f9d0cc2b37e428abb8ec90058f1b3",
+            "bytes": 21421
+          }
+        ],
+        "needs_review": false,
+        "imported": false
+      },
+      "major_question": "IP接续与全球渠道能否支持持续需求，2026Q3下滑如何改变原增长叙事？",
+      "gap": "缺IP级终端销量与复购、渠道库存/折扣、地区同店店效、租赁固定支出、IP权利期限及Q3完整利润现金；HKD股价不能与RMB财务直接相除。"
+    }
+  ]
+}
