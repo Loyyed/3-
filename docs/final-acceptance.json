@@ -1,0 +1,19 @@
+{
+  "checked_at": "2026-11-10T03:07:38.638665+00:00",
+  "companies": 3,
+  "intake_files": 1414,
+  "all_source_and_copy_hashes_match": true,
+  "pdf_parsing": {
+    "passed": 1414,
+    "failed": 0
+  },
+  "body_samples_visual_checked": 6,
+  "new_facts": 0,
+  "entry_links": "passed; expected missing original routes to failure record",
+  "browser_check": "docs/browser-validation.json",
+  "recovery_check": "docs/recovery-test.json",
+  "tracked_file_count": 348,
+  "forbidden_files": [],
+  "prior_published_commit": "99d04e983ab9f1a94c4e7960aa387d5319d14097",
+  "unresolved": "docs/已知问题.md"
+}

@@ -2,7 +2,9 @@ import os,sys,json,hashlib,shutil,re,datetime,subprocess,html,logging
 from pathlib import Path
 from pypdf import PdfReader
 logging.getLogger('pypdf').setLevel(logging.ERROR)
-ROOT=Path('D:/投资学/三家公司证券投资分析'); KIT=Path('D:/投资学/投资学公司分析通用工作台'); MATERIAL=Path('D:/投资学/课件与任务文件')
+import argparse
+ap=argparse.ArgumentParser();ap.add_argument('--root',type=Path,required=True);ap.add_argument('--kit',type=Path,required=True);ap.add_argument('--materials',type=Path,required=True);ap.add_argument('--library',type=Path,required=True);a=ap.parse_args()
+ROOT=a.root;KIT=a.kit;MATERIAL=a.materials
 NOW=datetime.datetime.now(datetime.timezone.utc).isoformat()
 def write(p,t):
  p=Path(p);p.parent.mkdir(parents=True,exist_ok=True);p.write_text(t,encoding='utf-8')
@@ -29,7 +31,7 @@ js(ROOT/'docs/contract-register.json',contracts);js(ROOT/'docs/missing-reference
 write(ROOT/'docs/合同承接清单.md','# 实际材料与合同版本\n\n原稿指纹和适用条款见contract-register.json；这里只承接方法，原茅台作业不冒充三家公司已签合同。\n\n'+'\n'.join('- '+x['path']+'；'+x['sha256']+'；'+x['role'] for x in contracts))
 summary=[]
 for code,name,profile in [('002507.SZ','涪陵榨菜','consumer'),('600298.SH','安琪酵母','industrial'),('688188.SH','柏楚电子','industrial')]:
- slug=code[:6]+'_'+name; dest=ROOT/'companies'/slug;lib=Path('D:/投资学/上市公司资料库')/name
+ slug=code[:6]+'_'+name; dest=ROOT/'companies'/slug;lib=a.library/name
  if not dest.exists():create_project(name,code,profile,dest,KIT);build_start(dest)
  for d in ['data/extraction','research/business','research/industry','financials','forecast','valuation','reports','review']:(dest/d).mkdir(parents=True,exist_ok=True)
  raw=json.loads((lib/'下载清单.json').read_text(encoding='utf-8-sig'));ann=json.loads((lib/'公告目录_巨潮原始.json').read_text(encoding='utf-8-sig')); byurl={a.get('adjunctUrl'):a for a in ann}
