@@ -1,0 +1,10 @@
+{
+  "at": "2026-11-10T08:07:16.775759+00:00",
+  "directory": "C:\\Users\\Administrator\\AppData\\Local\\Temp\\stage07-restored-6z9egf2m",
+  "verified_commit": "829c5ddab412f10969c9e17ef85265800ab5dc05",
+  "both_output_regressions_passed": true,
+  "report_artifacts_sha_passed": 57,
+  "latest_bound_inputs_sha_passed": true,
+  "toolkit_explicitly_configured": true,
+  "test_stdout": "C:\\Users\\Administrator\\AppData\\Local\\Temp\\generic-direct-stage07-ztp5d_mw\n"
+}

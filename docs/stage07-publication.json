@@ -1,0 +1,37 @@
+{
+  "at": "2026-11-10T08:07:16.775759+00:00",
+  "verified_commit": "829c5ddab412f10969c9e17ef85265800ab5dc05",
+  "remote_matched": true,
+  "commands": [
+    {
+      "command": [
+        "C:/Program Files/Git/cmd/git.exe",
+        "-c",
+        "core.quotepath=false",
+        "-c",
+        "core.sshCommand=\"C:/Program Files/Git/usr/bin/ssh.exe\" -i C:/Users/Administrator/.ssh/id_ed25519_investment_github -o IdentitiesOnly=yes -o UserKnownHostsFile=D:/投资学/三家公司证券投资分析/.local/known_hosts -o StrictHostKeyChecking=yes -o BatchMode=yes",
+        "rev-parse",
+        "HEAD"
+      ],
+      "exit": 0,
+      "stdout": "829c5ddab412f10969c9e17ef85265800ab5dc05\n",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "C:/Program Files/Git/cmd/git.exe",
+        "-c",
+        "core.quotepath=false",
+        "-c",
+        "core.sshCommand=\"C:/Program Files/Git/usr/bin/ssh.exe\" -i C:/Users/Administrator/.ssh/id_ed25519_investment_github -o IdentitiesOnly=yes -o UserKnownHostsFile=D:/投资学/三家公司证券投资分析/.local/known_hosts -o StrictHostKeyChecking=yes -o BatchMode=yes",
+        "clone",
+        "--no-hardlinks",
+        "D:\\投资学\\三家公司证券投资分析",
+        "C:\\Users\\Administrator\\AppData\\Local\\Temp\\stage07-restored-6z9egf2m"
+      ],
+      "exit": 0,
+      "stdout": "",
+      "stderr": "Cloning into 'C:\\Users\\Administrator\\AppData\\Local\\Temp\\stage07-restored-6z9egf2m'...\ndone.\n"
+    }
+  ]
+}
