@@ -10,3 +10,5 @@ sources/raw/** -text -diff
 sources/unpacked/** -text -diff
 *.png binary
 *.pdf binary
+
+outputs/** -text

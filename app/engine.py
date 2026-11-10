@@ -73,6 +73,7 @@ class Engine:
      m=available.get(ref['id']);assert m and m.get('scope','shared') in ['shared',d['company']],'方法不可用于当前公司'
      if m['version']!=ref['version']:
       known=load(self.root/'shared/knowledge.json',{'cards':[]})['cards']+u['methods'];assert any(x['id']==ref['id'] and x.get('version',1)==ref['version'] for x in known),'历史版本不存在'
+      known=load(self.root/'shared/knowledge.json',{'cards':[]})['cards']+u['methods'];assert any(x['id']==ref['id'] and x.get('version',1)==ref['version'] for x in known),'历史版本不存在'
       retained=ref in previous.get('methods',[])
       assert retained or d.get('historical_reason'),'新增引用必须使用当前版本；旧版须显式说明理由'
       card.setdefault('historical_method_uses',[]).append({'reference':ref,'reason':d.get('historical_reason','编辑保留既有历史绑定'),'actor':actor,'at':now()})
