@@ -1,0 +1,18 @@
+{
+  "company": "002507_涪陵榨菜",
+  "cards": [],
+  "bindings": {
+    "cards": {},
+    "methods": [],
+    "inputs": {},
+    "sources": [
+      {
+        "id": "002507-d45bfdfdec6d4379",
+        "path": "sources/raw/02_定期报告与经营数据/2026-10-28_2026年三季度报告_1225628280.pdf",
+        "sha256": "18eee5ef5d7b63db544c0c855a1ade7c311e914a397245a11873679fc6955b07"
+      }
+    ]
+  },
+  "actual_user_review": null,
+  "input_values": {}
+}

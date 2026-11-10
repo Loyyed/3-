@@ -1,0 +1,196 @@
+{
+  "items": [
+    {
+      "id": "Oc127b8ad930c",
+      "group": "research-report",
+      "title": "研究起步草稿（无公司结论）",
+      "kind": "报告草稿",
+      "version": 1,
+      "at": "2026-11-10T06:46:47.684527+00:00",
+      "actor": "Agent/test-or-api",
+      "actual_user_review": null,
+      "historical": false,
+      "bindings": {
+        "cards": {},
+        "methods": [],
+        "inputs": {},
+        "sources": [
+          {
+            "id": "002507-d45bfdfdec6d4379",
+            "path": "sources/raw/02_定期报告与经营数据/2026-10-28_2026年三季度报告_1225628280.pdf",
+            "sha256": "18eee5ef5d7b63db544c0c855a1ade7c311e914a397245a11873679fc6955b07"
+          }
+        ]
+      },
+      "files": [
+        {
+          "path": "outputs/research-report/v1-Oc127b8ad930c/basis.json",
+          "format": "json",
+          "sha256": "1871a618424745e13d9c2d82ee3fed96a3431f6615dc92f4522612c6cc5742f6",
+          "bytes": 475
+        },
+        {
+          "path": "outputs/research-report/v1-Oc127b8ad930c/report.html",
+          "format": "html",
+          "sha256": "5202003ab08cbe2cbc80628827844545d46f2ef70024e71a6d070914543be1a6",
+          "bytes": 1436
+        },
+        {
+          "path": "outputs/research-report/v1-Oc127b8ad930c/report.md",
+          "format": "md",
+          "sha256": "8e441b9de3bf060a6ad25de8cf1801f246c50f9b4bb4d861d0a4847ce0b22ccb",
+          "bytes": 1223
+        }
+      ],
+      "needs_review": false,
+      "imported": false,
+      "impact_reasons": [],
+      "file_integrity": true,
+      "company": "002507_涪陵榨菜"
+    },
+    {
+      "id": "Oee06330bac3e",
+      "group": "research-report",
+      "title": "研究起步草稿（无公司结论）",
+      "kind": "报告草稿",
+      "version": 1,
+      "at": "2026-11-10T06:46:47.931193+00:00",
+      "actor": "Agent/test-or-api",
+      "actual_user_review": null,
+      "historical": false,
+      "bindings": {
+        "cards": {},
+        "methods": [],
+        "inputs": {},
+        "sources": [
+          {
+            "id": "S363e6ba37cb28262",
+            "path": "sources/raw/S363e6ba37cb28262_2020-12-01_Formal Notice of Global Offering_ering_918cbd6d1a.pdf",
+            "sha256": "363e6ba37cb2826212582f4c4321acccf82f073943b13ba2205cbf35349f15c6"
+          }
+        ]
+      },
+      "files": [
+        {
+          "path": "outputs/research-report/v1-Oee06330bac3e/basis.json",
+          "format": "json",
+          "sha256": "6d2ee646323b3e476cb4ed0c8d48f0bad5b9302ba0d8d93d2bbf33f46ebc4030",
+          "bytes": 471
+        },
+        {
+          "path": "outputs/research-report/v1-Oee06330bac3e/report.html",
+          "format": "html",
+          "sha256": "2ad96c9dbd41c3707649ac28476390457b18df00a1026267e9f1324e973e3e3d",
+          "bytes": 1436
+        },
+        {
+          "path": "outputs/research-report/v1-Oee06330bac3e/report.md",
+          "format": "md",
+          "sha256": "46e50685cb4b9341d8fd10657a229c1896252e56899fd8f3d9b4838283ce4b3b",
+          "bytes": 1223
+        }
+      ],
+      "needs_review": false,
+      "imported": false,
+      "impact_reasons": [],
+      "file_integrity": true,
+      "company": "09992_泡泡玛特"
+    },
+    {
+      "id": "O047c274e885b",
+      "group": "research-report",
+      "title": "研究起步草稿（无公司结论）",
+      "kind": "报告草稿",
+      "version": 1,
+      "at": "2026-11-10T06:46:48.147069+00:00",
+      "actor": "Agent/test-or-api",
+      "actual_user_review": null,
+      "historical": false,
+      "bindings": {
+        "cards": {},
+        "methods": [],
+        "inputs": {},
+        "sources": [
+          {
+            "id": "600298-5c763f656754f15e",
+            "path": "sources/raw/02_定期报告与经营数据/2026-10-30_安琪酵母股份有限公司2026年第三季度报告_1225641080.pdf",
+            "sha256": "f4739d889d29da1a9744f1fb9428f75f6e6331572031b3de1daec550113f59d1"
+          }
+        ]
+      },
+      "files": [
+        {
+          "path": "outputs/research-report/v1-O047c274e885b/basis.json",
+          "format": "json",
+          "sha256": "47d60378721fa82370c32dc79eb1e4a7fd2a405a15b53729da74d8cdb72b2305",
+          "bytes": 508
+        },
+        {
+          "path": "outputs/research-report/v1-O047c274e885b/report.html",
+          "format": "html",
+          "sha256": "52d485302ca9893cc45192fb280e28511f1712399254126dd6a80299b2ca7bb9",
+          "bytes": 1436
+        },
+        {
+          "path": "outputs/research-report/v1-O047c274e885b/report.md",
+          "format": "md",
+          "sha256": "86f3324484877655163cfd904296949f7d070774bdebdf57e6e4bce84fb46a03",
+          "bytes": 1223
+        }
+      ],
+      "needs_review": false,
+      "imported": false,
+      "impact_reasons": [],
+      "file_integrity": true,
+      "company": "600298_安琪酵母"
+    },
+    {
+      "id": "Ocbcb29f6f361",
+      "group": "research-report",
+      "title": "研究起步草稿（无公司结论）",
+      "kind": "报告草稿",
+      "version": 1,
+      "at": "2026-11-10T06:46:48.370952+00:00",
+      "actor": "Agent/test-or-api",
+      "actual_user_review": null,
+      "historical": false,
+      "bindings": {
+        "cards": {},
+        "methods": [],
+        "inputs": {},
+        "sources": [
+          {
+            "id": "688188-63c702dcc0d35898",
+            "path": "sources/raw/07_治理分红及其他/2019-12-27_关于公司2019年限制性股票激励计划内幕信息知情人及激励对象买卖公司股票情况的自查报告_1207199453.pdf",
+            "sha256": "09ae92e2dd0adb28f4b408181d1cf616d7f431c5aa44eb7bd0c9b0f95efb313d"
+          }
+        ]
+      },
+      "files": [
+        {
+          "path": "outputs/research-report/v1-Ocbcb29f6f361/basis.json",
+          "format": "json",
+          "sha256": "b4a2b39190e0668981c2e958234e8dcb8055dc6faa16558cc03f50ecf2b947d4",
+          "bytes": 568
+        },
+        {
+          "path": "outputs/research-report/v1-Ocbcb29f6f361/report.html",
+          "format": "html",
+          "sha256": "84a3ba9a5c760dca71419c0a6b027adeb90448f55af015a012bb57e966e66dff",
+          "bytes": 1436
+        },
+        {
+          "path": "outputs/research-report/v1-Ocbcb29f6f361/report.md",
+          "format": "md",
+          "sha256": "2319e61fe100a99ec077915dd7589ce1997524bbc2950135e80e30f6f1a12040",
+          "bytes": 1223
+        }
+      ],
+      "needs_review": false,
+      "imported": false,
+      "impact_reasons": [],
+      "file_integrity": true,
+      "company": "688188_柏楚电子"
+    }
+  ]
+}

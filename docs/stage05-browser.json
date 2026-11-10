@@ -1,0 +1,53 @@
+{
+  "at": "2026-11-10T06:46:47.626Z",
+  "fixture": {
+    "preview": true,
+    "download": "report.md",
+    "versionReload": true,
+    "type": "假设",
+    "multipleDependenciesRestored": true
+  },
+  "companies": [
+    {
+      "id": "002507_涪陵榨菜",
+      "toolPort": 8781,
+      "toolHTTP": 200,
+      "sourceId": "002507-d45bfdfdec6d4379",
+      "sourceHTTP": 200,
+      "knowledgeMatches": 3,
+      "reportPreviewHTTP": 200,
+      "reportId": "Oc127b8ad930c"
+    },
+    {
+      "id": "09992_泡泡玛特",
+      "toolPort": 8784,
+      "toolHTTP": 200,
+      "sourceId": "S363e6ba37cb28262",
+      "sourceHTTP": 200,
+      "knowledgeMatches": 3,
+      "reportPreviewHTTP": 200,
+      "reportId": "Oee06330bac3e"
+    },
+    {
+      "id": "600298_安琪酵母",
+      "toolPort": 8782,
+      "toolHTTP": 200,
+      "sourceId": "600298-5c763f656754f15e",
+      "sourceHTTP": 200,
+      "knowledgeMatches": 3,
+      "reportPreviewHTTP": 200,
+      "reportId": "O047c274e885b"
+    },
+    {
+      "id": "688188_柏楚电子",
+      "toolPort": 8783,
+      "toolHTTP": 200,
+      "sourceId": "688188-63c702dcc0d35898",
+      "sourceHTTP": 200,
+      "knowledgeMatches": 3,
+      "reportPreviewHTTP": 200,
+      "reportId": "Ocbcb29f6f361"
+    }
+  ],
+  "errors": []
+}

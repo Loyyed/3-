@@ -1,0 +1,51 @@
+{
+  "items": [
+    {
+      "id": "Oee06330bac3e",
+      "group": "research-report",
+      "title": "研究起步草稿（无公司结论）",
+      "kind": "报告草稿",
+      "version": 1,
+      "at": "2026-11-10T06:46:47.931193+00:00",
+      "actor": "Agent/test-or-api",
+      "actual_user_review": null,
+      "historical": false,
+      "bindings": {
+        "cards": {},
+        "methods": [],
+        "inputs": {},
+        "sources": [
+          {
+            "id": "S363e6ba37cb28262",
+            "path": "sources/raw/S363e6ba37cb28262_2020-12-01_Formal Notice of Global Offering_ering_918cbd6d1a.pdf",
+            "sha256": "363e6ba37cb2826212582f4c4321acccf82f073943b13ba2205cbf35349f15c6"
+          }
+        ]
+      },
+      "files": [
+        {
+          "path": "outputs/research-report/v1-Oee06330bac3e/basis.json",
+          "format": "json",
+          "sha256": "6d2ee646323b3e476cb4ed0c8d48f0bad5b9302ba0d8d93d2bbf33f46ebc4030",
+          "bytes": 471
+        },
+        {
+          "path": "outputs/research-report/v1-Oee06330bac3e/report.html",
+          "format": "html",
+          "sha256": "2ad96c9dbd41c3707649ac28476390457b18df00a1026267e9f1324e973e3e3d",
+          "bytes": 1436
+        },
+        {
+          "path": "outputs/research-report/v1-Oee06330bac3e/report.md",
+          "format": "md",
+          "sha256": "46e50685cb4b9341d8fd10657a229c1896252e56899fd8f3d9b4838283ce4b3b",
+          "bytes": 1223
+        }
+      ],
+      "needs_review": false,
+      "imported": false,
+      "impact_reasons": [],
+      "file_integrity": true
+    }
+  ]
+}

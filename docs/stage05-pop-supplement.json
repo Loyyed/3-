@@ -1,0 +1,38 @@
+{
+  "at": "2026-11-10T06:44:51.216538+00:00",
+  "results": [
+    {
+      "period": "2023-H1",
+      "url": "https://static.cninfo.com.cn/finalpage/2023-09-15/1217870094.PDF",
+      "checked_at": "2026-11-10T06:44:51.216538+00:00",
+      "sha256": "4e0201d1dcdf4d78977b30fec21a648ec0f69ce57d406f8900dfe58d1c4a0504",
+      "pages": 110,
+      "identity_excerpt": "二零二三年中報  INTERIM REPORT 2023\n1\n2 Corporate Information\n ʮ̡༟ࣘ\n6 Financial Summary\n ৌਕ฿ࠅ\n7 Management Discussion and Analysis\n ၍ଣᄴীሞၾʱؓ\n34 Other Information\n Չ˼༟ࣘ",
+      "result": "补齐完整中报原件，未改已有原件"
+    },
+    {
+      "period": "2022-FY",
+      "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2023/0421/2023042100897.pdf",
+      "checked_at": "2026-11-10T06:44:51.216538+00:00",
+      "sha256": "113a569cdaac64d528ccd5d78b5da00d7d4d2aeeff3eb95cb8bb926f26b099ce",
+      "pages": 310,
+      "identity_excerpt": "二零二二年年報  ANNUAL REPORT 2022\n1\n2 Corporate Information\n ʮ̡༟ࣘ\n6 Financial Summary\n ৌਕ฿ࠅ\n8 Chairman ’s Statement\n ໨ԫߧڗᗘ\n10 Management Discussion and Analysis\n ၍ଣᄴী",
+      "matches_existing_bytes": true,
+      "old_disclosure_date": null,
+      "result": "同字节官方发布路径核对日期"
+    },
+    {
+      "period": "2023-FY",
+      "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2024/0425/2024042500730.pdf",
+      "checked_at": "2026-11-10T06:44:51.216538+00:00",
+      "sha256": "1312bd4fec38932f30608c7cec35ec19cc31a6cbaccb36aba9efe2b6dc8d6afa",
+      "pages": 322,
+      "identity_excerpt": "ANNUAL REPORT\n二零二三年年報  ANNUAL REPORT 2023\n1\n2 Corporate Information\n 公司資料\n6 Financial Summary\n 財務概要\n8 Chairman ’s Statement\n 董事長致辭\n10 Management Discussion and ",
+      "matches_existing_bytes": true,
+      "old_disclosure_date": null,
+      "result": "同字节官方发布路径核对日期"
+    }
+  ],
+  "catalog_count": 54,
+  "originals_untouched": true
+}

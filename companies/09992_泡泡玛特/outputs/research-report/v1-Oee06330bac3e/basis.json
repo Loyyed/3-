@@ -1,0 +1,18 @@
+{
+  "company": "09992_泡泡玛特",
+  "cards": [],
+  "bindings": {
+    "cards": {},
+    "methods": [],
+    "inputs": {},
+    "sources": [
+      {
+        "id": "S363e6ba37cb28262",
+        "path": "sources/raw/S363e6ba37cb28262_2020-12-01_Formal Notice of Global Offering_ering_918cbd6d1a.pdf",
+        "sha256": "363e6ba37cb2826212582f4c4321acccf82f073943b13ba2205cbf35349f15c6"
+      }
+    ]
+  },
+  "actual_user_review": null,
+  "input_values": {}
+}

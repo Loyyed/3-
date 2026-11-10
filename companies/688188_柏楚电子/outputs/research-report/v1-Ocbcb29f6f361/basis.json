@@ -1,0 +1,18 @@
+{
+  "company": "688188_柏楚电子",
+  "cards": [],
+  "bindings": {
+    "cards": {},
+    "methods": [],
+    "inputs": {},
+    "sources": [
+      {
+        "id": "688188-63c702dcc0d35898",
+        "path": "sources/raw/07_治理分红及其他/2019-12-27_关于公司2019年限制性股票激励计划内幕信息知情人及激励对象买卖公司股票情况的自查报告_1207199453.pdf",
+        "sha256": "09ae92e2dd0adb28f4b408181d1cf616d7f431c5aa44eb7bd0c9b0f95efb313d"
+      }
+    ]
+  },
+  "actual_user_review": null,
+  "input_values": {}
+}

@@ -1,0 +1,51 @@
+{
+  "items": [
+    {
+      "id": "Oc127b8ad930c",
+      "group": "research-report",
+      "title": "研究起步草稿（无公司结论）",
+      "kind": "报告草稿",
+      "version": 1,
+      "at": "2026-11-10T06:46:47.684527+00:00",
+      "actor": "Agent/test-or-api",
+      "actual_user_review": null,
+      "historical": false,
+      "bindings": {
+        "cards": {},
+        "methods": [],
+        "inputs": {},
+        "sources": [
+          {
+            "id": "002507-d45bfdfdec6d4379",
+            "path": "sources/raw/02_定期报告与经营数据/2026-10-28_2026年三季度报告_1225628280.pdf",
+            "sha256": "18eee5ef5d7b63db544c0c855a1ade7c311e914a397245a11873679fc6955b07"
+          }
+        ]
+      },
+      "files": [
+        {
+          "path": "outputs/research-report/v1-Oc127b8ad930c/basis.json",
+          "format": "json",
+          "sha256": "1871a618424745e13d9c2d82ee3fed96a3431f6615dc92f4522612c6cc5742f6",
+          "bytes": 475
+        },
+        {
+          "path": "outputs/research-report/v1-Oc127b8ad930c/report.html",
+          "format": "html",
+          "sha256": "5202003ab08cbe2cbc80628827844545d46f2ef70024e71a6d070914543be1a6",
+          "bytes": 1436
+        },
+        {
+          "path": "outputs/research-report/v1-Oc127b8ad930c/report.md",
+          "format": "md",
+          "sha256": "8e441b9de3bf060a6ad25de8cf1801f246c50f9b4bb4d861d0a4847ce0b22ccb",
+          "bytes": 1223
+        }
+      ],
+      "needs_review": false,
+      "imported": false,
+      "impact_reasons": [],
+      "file_integrity": true
+    }
+  ]
+}

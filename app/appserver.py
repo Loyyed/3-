@@ -33,8 +33,9 @@ def serve(root,port,legacy=True):
  server=ThreadingHTTPServer(('127.0.0.1',port),H)
  if legacy:
   sys.path.insert(0,str(root/'shared/runtime'));from companybench.portal import make_server
-  for i,p in enumerate(sorted(engine.companies().values())):
-   old=make_server(p,port+1+i);threading.Thread(target=old.serve_forever,daemon=True).start()
+  mapping=json.loads((root/'shared/tool-ports.json').read_text(encoding='utf-8'))
+  for key,p in sorted(engine.companies().items()):
+   old=make_server(p,mapping[key]);threading.Thread(target=old.serve_forever,daemon=True).start()
  print('研究工作台 http://127.0.0.1:'+str(port),flush=True);server.serve_forever()
 if __name__=='__main__':
  p=argparse.ArgumentParser();p.add_argument('--root',type=Path,default=ROOT);p.add_argument('--port',type=int,default=8780);p.add_argument('--no-legacy',action='store_true');a=p.parse_args();serve(a.root,a.port,not a.no_legacy)

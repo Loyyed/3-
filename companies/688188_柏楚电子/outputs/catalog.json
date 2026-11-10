@@ -1,0 +1,51 @@
+{
+  "items": [
+    {
+      "id": "Ocbcb29f6f361",
+      "group": "research-report",
+      "title": "研究起步草稿（无公司结论）",
+      "kind": "报告草稿",
+      "version": 1,
+      "at": "2026-11-10T06:46:48.370952+00:00",
+      "actor": "Agent/test-or-api",
+      "actual_user_review": null,
+      "historical": false,
+      "bindings": {
+        "cards": {},
+        "methods": [],
+        "inputs": {},
+        "sources": [
+          {
+            "id": "688188-63c702dcc0d35898",
+            "path": "sources/raw/07_治理分红及其他/2019-12-27_关于公司2019年限制性股票激励计划内幕信息知情人及激励对象买卖公司股票情况的自查报告_1207199453.pdf",
+            "sha256": "09ae92e2dd0adb28f4b408181d1cf616d7f431c5aa44eb7bd0c9b0f95efb313d"
+          }
+        ]
+      },
+      "files": [
+        {
+          "path": "outputs/research-report/v1-Ocbcb29f6f361/basis.json",
+          "format": "json",
+          "sha256": "b4a2b39190e0668981c2e958234e8dcb8055dc6faa16558cc03f50ecf2b947d4",
+          "bytes": 568
+        },
+        {
+          "path": "outputs/research-report/v1-Ocbcb29f6f361/report.html",
+          "format": "html",
+          "sha256": "84a3ba9a5c760dca71419c0a6b027adeb90448f55af015a012bb57e966e66dff",
+          "bytes": 1436
+        },
+        {
+          "path": "outputs/research-report/v1-Ocbcb29f6f361/report.md",
+          "format": "md",
+          "sha256": "2319e61fe100a99ec077915dd7589ce1997524bbc2950135e80e30f6f1a12040",
+          "bytes": 1223
+        }
+      ],
+      "needs_review": false,
+      "imported": false,
+      "impact_reasons": [],
+      "file_integrity": true
+    }
+  ]
+}

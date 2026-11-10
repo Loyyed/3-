@@ -881,9 +881,14 @@
       "archive_id": null,
       "archive_member": null,
       "url": "https://prod-out-res.popmart.com/cms/ANNUAL_REPORT_2022_e5c3886181.pdf",
-      "disclosure_date": null,
+      "disclosure_date": "2023-04-21",
       "title": "ANNUAL REPORT 2022",
-      "retrieved_at": "2026-11-10T06:26:57.240Z"
+      "retrieved_at": "2026-11-10T06:26:57.240Z",
+      "disclosure_date_evidence": {
+        "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2023/0421/2023042100897.pdf",
+        "same_sha256": true,
+        "checked_at": "2026-11-10T06:44:51.216538+00:00"
+      }
     },
     {
       "id": "S1312bd4fec38932f",
@@ -898,9 +903,31 @@
       "archive_id": null,
       "archive_member": null,
       "url": "https://prod-out-res.popmart.com/cms/ANNUAL_REPORT_2023_c2e4bab1ae.pdf",
-      "disclosure_date": null,
+      "disclosure_date": "2024-04-25",
       "title": "ANNUAL REPORT 2023",
-      "retrieved_at": "2026-11-10T06:26:39.996Z"
+      "retrieved_at": "2026-11-10T06:26:39.996Z",
+      "disclosure_date_evidence": {
+        "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2024/0425/2024042500730.pdf",
+        "same_sha256": true,
+        "checked_at": "2026-11-10T06:44:51.216538+00:00"
+      }
+    },
+    {
+      "id": "S4e0201d1dcdf4d78",
+      "path": "sources/raw/S4e0201d1dcdf4d78_2023-09-15_INTERIM_REPORT_2023.pdf",
+      "sha256": "4e0201d1dcdf4d78977b30fec21a648ec0f69ce57d406f8900dfe58d1c4a0504",
+      "bytes": 1634967,
+      "format": ".pdf",
+      "role": "Interim Report",
+      "purpose": "原始资料；不是Fact",
+      "title": "INTERIM REPORT 2023",
+      "url": "https://static.cninfo.com.cn/finalpage/2023-09-15/1217870094.PDF",
+      "disclosure_date": "2023-09-15",
+      "report_period": "2023-H1",
+      "retrieved_at": "2026-11-10T06:44:51.216538+00:00",
+      "parse_status": "readable",
+      "pages": 110,
+      "body_identity_status": "Agent核对PDF1—6页；完整中报，与中期业绩公告分开"
     }
   ]
 }

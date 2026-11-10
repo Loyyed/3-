@@ -1,0 +1,16 @@
+{
+  "fixture": "C:\\Users\\Administrator\\AppData\\Local\\Temp\\four-company-stage05-b6mj8ao9",
+  "passed": [
+    "scope_rejection",
+    "current_version_old_version_rejection",
+    "edit_preserves_type_multi_methods_impacts",
+    "cross_company_edit_rejection",
+    "real_md_html_basis_generation",
+    "real_calculation_model_file_dependencies",
+    "export_input_path_rejection",
+    "historic_files_preserved",
+    "explicit_resolution_history",
+    "new_process_restart"
+  ],
+  "failed": []
+}

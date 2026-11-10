@@ -1,0 +1,30 @@
+[
+  {
+    "command": [
+      "status",
+      "--short"
+    ],
+    "exit": 0,
+    "stdout": "",
+    "stderr": ""
+  },
+  {
+    "command": [
+      "log",
+      "-4",
+      "--oneline"
+    ],
+    "exit": 0,
+    "stdout": "1bcfc0b 接入泡泡玛特备选公司与官方资料来源\n7fcab13 支持内置方法版本修订与显式成果依赖类型\nb731bef 记录独立Git恢复与更新机制验收\n2811a4e 共享研究程序并接入49项方法与持久增补修订机制\n",
+    "stderr": ""
+  },
+  {
+    "command": [
+      "ls-remote",
+      "origin"
+    ],
+    "exit": 0,
+    "stdout": "7fcab13fc79eaa8a2378547cfea99a0f602d5cf3\tHEAD\n7fcab13fc79eaa8a2378547cfea99a0f602d5cf3\trefs/heads/codex/three-company-foundation\n",
+    "stderr": ""
+  }
+]

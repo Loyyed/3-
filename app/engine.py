@@ -13,12 +13,19 @@ class Engine:
   with self.lock:
    knowledge=load(self.root/'shared/knowledge.json',{'cards':[]});updates=load(self.root/'shared/updates.json',{'materials':[],'methods':[],'events':[]})
    companies=[]
-   for key,p in self.companies().items():
+   for key,p in sorted(self.companies().items()):
     s=load(p/'work/research-workspace.json',{'cards':[],'events':[]});companies.append({'id':key,'name':load(p/'project.json',{})['company'],'cards':s['cards'],'events':s['events'][-10:]})
-   return {'lanes':LANES,'companies':companies,'knowledge':knowledge,'updates':updates}
+   from outputs import current,registry
+   return {'current_methods':list(current(self).values()),'outputs':registry(self),'tool_ports':load(self.root/'shared/tool-ports.json',{}),'lanes':LANES,'companies':companies,'knowledge':knowledge,'updates':updates}
  def action(self,d):
   with self.lock:
    u=load(self.root/'shared/updates.json',{'materials':[],'methods':[],'events':[]});a=d['action'];actor='local-user-ui' if d.get('actor')=='local-user-ui' else 'Agent/test-or-api';event={'at':now(),'action':a,'actor':actor};result={}
+   if a in ['export-report','register-output','resolve-impact']:
+    from outputs import perform
+    return perform(self,d,actor)
+   if a=='generalize':
+    source=next(x for x in u['materials'] if x['id']==d['material_id']);assert d.get('conversion_reason') and d.get('text'),'必须提供去公司化文本及转换理由'
+    result=self.action({**d,'action':'import','title':d.get('title',source['title']+'通用副本'),'source':source['id'],'version':d.get('version','1'),'scope':'shared'});result['generalized_from']=source['id'];result['conversion_reason']=d['conversion_reason'];fresh=load(self.root/'shared/updates.json',{});fresh['materials'][-1].update(result);save(self.root/'shared/updates.json',fresh);return result
    if a=='import':
     text=d['text'];assert len(text)<2000000,'材料过大';h=hashlib.sha256(text.encode()).hexdigest();same=next((x for x in u['materials'] if x['sha256']==h),None)
     if same:return {'duplicate':same,'saved':False}
@@ -28,32 +35,47 @@ class Engine:
    elif a in ['extract','revise']:
     fields=['title','question','inputs','method','stop','refute','use_at'];assert all(str(d.get(k,'')).strip() for k in fields),'方法字段必须完整'
     assert any(m['id']==d['material_id'] for m in u['materials']),'来源材料不存在'
-    old=next((m for m in u['methods'] if m['id']==d.get('id')),None)
+    material=next(m for m in u['materials'] if m['id']==d['material_id']);assert d.get('scope',material.get('scope','shared'))==material.get('scope','shared'),'禁止直接跨材料作用域提炼'
+    d={**d,'scope':material.get('scope','shared')}
+    old=max((m for m in u['methods'] if m['id']==d.get('id')),key=lambda m:m['version'],default=None)
     if a=='revise' and not old:
      builtin=next((x for x in load(self.root/'shared/knowledge.json',{'cards':[]})['cards'] if x['id']==d.get('id')),None)
      if builtin:old={**builtin,'status':'installed','origin':'builtin snapshot'};u['methods'].append(old)
-    if a=='revise':assert old and d.get('reason'),'修订必须关联旧方法并说明理由'
+    if a=='revise':
+     assert old and d.get('reason'),'修订必须关联旧方法并说明理由'
+     assert old.get('scope','shared')==d['scope'],'方法修订不得改变作用域'
     v=1 if not old else old['version']+1;mid=d.get('id') if old else 'U'+uuid.uuid4().hex[:12]
     item={k:d[k] for k in fields};item.update(id=mid,version=v,material_id=d['material_id'],status='extracted',reason=d.get('reason','首次提炼'),scope=d.get('scope','shared'),at=now(),user_review=None)
-    if old:old['status']='superseded'
+    # old installed version remains current until adoption
     item['conflicts']=[m['id'] for m in u['methods'] if m['title']==item['title'] and m['id']!=mid and m['status']!='superseded'];item['duplicate_installed_titles']=[m['id'] for m in load(self.root/'shared/knowledge.json',{'cards':[]})['cards'] if m['title']==item['title']]
     u['methods'].append(item);result=item
     if old:
      impacts=[]
-     for key,p in self.companies().items():
+     for key,p in sorted(self.companies().items()):
       s=load(p/'work/research-workspace.json',{'cards':[],'events':[]})
       for card in s['cards']:
        if any(x['id']==mid for x in card.get('methods',[])):card['needs_review']=True;card.setdefault('impacts',[]).append({'method':mid,'old_version':old['version'],'new_version':v,'reason':item['reason']});impacts.append({'company':key,'id':card['id'],'type':card.get('type','研究卡')})
       s['events'].append({**event,'method':mid,'new_version':v,'impact_count':len(impacts)});save(p/'work/research-workspace.json',s)
      result['affected']=impacts
    elif a=='adopt':
-    m=next(x for x in reversed(u['methods']) if x['id']==d['id'] and x['status']!='superseded');assert not (m['conflicts'] or m['duplicate_installed_titles']) or d.get('resolution'),'须处理重复或冲突后纳入';m['status']='installed';m['resolution']=d.get('resolution','无同名冲突');result=m
+    m=next(x for x in reversed(u['methods']) if x['id']==d['id'] and x['status']!='superseded');assert not (m['conflicts'] or m['duplicate_installed_titles']) or d.get('resolution'),'须处理重复或冲突后纳入';
+    for prior in u['methods']:
+     if prior['id']==m['id'] and prior['version']<m['version']:prior['status']='superseded'
+    m['status']='installed';m['resolution']=d.get('resolution','无同名冲突');result=m
    elif a=='research':
     assert d['company'] in self.companies(),'未知公司';assert d['lane'] in LANES,'未知研究主线';p=self.companies()[d['company']];s=load(p/'work/research-workspace.json',{'cards':[],'events':[]})
     allowed=['id','lane','title','claim','evidence','mechanism','opposition','alternative','variables','invalidate','gap','action_needed','type','methods','depends_on_methods']
-    card={k:d[k] for k in allowed if k in d};card.setdefault('id','R'+uuid.uuid4().hex[:12]);card.setdefault('methods',[])
-    available=load(self.root/'shared/knowledge.json',{'cards':[]})['cards']+[x for x in u['methods'] if x['status']=='installed']
-    for ref in card['methods']:assert any(x['id']==ref['id'] and x.get('version',1)==ref['version'] and x.get('scope','shared') in ['shared',d['company']] for x in available),'方法不可用于当前公司'
-    card.update(updated_at=now(),actor=actor,status='Interpretation draft',needs_review=False);s['cards']=[x for x in s['cards'] if x['id']!=card['id']]+[card];s['events'].append(event);save(p/'work/research-workspace.json',s);result=card
+    previous=next((c for c in s['cards'] if c['id']==d.get('id')),{});assert not d.get('id') or previous,'编辑ID不属于当前公司'
+    card={**previous,**{k:d[k] for k in allowed if k in d}};card.setdefault('id','R'+uuid.uuid4().hex[:12]);card.setdefault('methods',[])
+    from outputs import current
+    available=current(self)
+    for ref in card['methods']:
+     m=available.get(ref['id']);assert m and m.get('scope','shared') in ['shared',d['company']],'方法不可用于当前公司'
+     if m['version']!=ref['version']:
+      known=load(self.root/'shared/knowledge.json',{'cards':[]})['cards']+u['methods'];assert any(x['id']==ref['id'] and x.get('version',1)==ref['version'] for x in known),'历史版本不存在'
+      retained=ref in previous.get('methods',[])
+      assert retained or d.get('historical_reason'),'新增引用必须使用当前版本；旧版须显式说明理由'
+      card.setdefault('historical_method_uses',[]).append({'reference':ref,'reason':d.get('historical_reason','编辑保留既有历史绑定'),'actor':actor,'at':now()})
+    card.setdefault('needs_review',False);card.setdefault('impacts',[]);card.update(updated_at=now(),actor=actor,status='Interpretation draft');s['cards']=[x for x in s['cards'] if x['id']!=card['id']]+[card];s['events'].append(event);save(p/'work/research-workspace.json',s);result=card
    else:raise ValueError('未知操作')
    event['result_id']=result.get('id');u['events'].append(event);save(self.root/'shared/updates.json',u);return result

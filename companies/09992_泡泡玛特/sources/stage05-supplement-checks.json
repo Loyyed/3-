@@ -1,0 +1,22 @@
+{
+  "new_file": {
+    "id": "S4e0201d1dcdf4d78",
+    "path": "sources/raw/S4e0201d1dcdf4d78_2023-09-15_INTERIM_REPORT_2023.pdf",
+    "sha256": "4e0201d1dcdf4d78977b30fec21a648ec0f69ce57d406f8900dfe58d1c4a0504",
+    "bytes": 1634967,
+    "format": ".pdf",
+    "role": "Interim Report",
+    "purpose": "原始资料；不是Fact",
+    "title": "INTERIM REPORT 2023",
+    "url": "https://static.cninfo.com.cn/finalpage/2023-09-15/1217870094.PDF",
+    "disclosure_date": "2023-09-15",
+    "report_period": "2023-H1",
+    "retrieved_at": "2026-11-10T06:44:51.216538+00:00",
+    "parse_status": "readable",
+    "pages": 110,
+    "body_identity_status": "Agent核对PDF1—6页；完整中报，与中期业绩公告分开"
+  },
+  "parse_status": "readable",
+  "bytes_sha256_verified": true,
+  "warning": "pypdf CFF字体部分中文解码警告；英文标题/公司/期间可识别；不据提取文本登记财务Fact"
+}

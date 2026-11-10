@@ -1,6 +1,6 @@
-# 当前交接
-2026-11-10T05:37:51.526873+00:00
-当前入口：启动研究工作台.cmd → http://127.0.0.1:8780。三公司共用shared/runtime；旧公司程序快照保存在.local/pre-shared-snapshots，正式活动方法shared/skills。知识49项（原安装40+本轮提炼9），16笔记候选未安装；来源shared/knowledge-provenance.json。
-八主线研究卡：companies/<公司>/work/research-workspace.json；增补版本shared/updates.json，材料原文.local/imports，Fact仍在各公司原ReviewStore。
-安琪2020年报153页已存在，修正别名分类漏报；docs/2020-annual-correction.json保留历史。
-验收docs/research-upgrade-tests.json、browser-upgrade.json及保护/恢复回执。下一步围绕三公司问题建立首批原数与机制卡；缺公司输入时不计算正式估值。
+# 四公司成果闭环 · 当前交接
+2026-11-10T06:49:04.533214+00:00
+先读docs/stage05-操作与边界.md。主入口启动研究工作台.cmd / 8780；四公司固定端口shared/tool-ports.json。本轮当前访问正常，未暂存删除；已在1bcfc0b后接续，不重复初始化泡泡玛特。
+成果中心outputs/index.html及四公司outputs/catalog.json；八主线卡同源生成MD/HTML/依据JSON，历史不覆盖，绑定方法、源文件、模型/计算依赖。实际人审null，空内容不造结论。
+方法当前版本、作用域、编辑影响和多依赖修复证据docs/stage05-functional-tests.json；实际浏览器docs/stage05-browser.json；保护与补件stage05-protection.json、stage05-pop-supplement.json。泡泡玛特54份原件，2023完整中报110页已补；2022/2023年报日期经官方同字节核对。
+下一阶段分别研究四公司原数与机制；原PDF/OCR/凭据留本地。最终HEAD/远端回执.local/final-publication-receipt.json。

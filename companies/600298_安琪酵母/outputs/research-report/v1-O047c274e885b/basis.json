@@ -1,0 +1,18 @@
+{
+  "company": "600298_安琪酵母",
+  "cards": [],
+  "bindings": {
+    "cards": {},
+    "methods": [],
+    "inputs": {},
+    "sources": [
+      {
+        "id": "600298-5c763f656754f15e",
+        "path": "sources/raw/02_定期报告与经营数据/2026-10-30_安琪酵母股份有限公司2026年第三季度报告_1225641080.pdf",
+        "sha256": "f4739d889d29da1a9744f1fb9428f75f6e6331572031b3de1daec550113f59d1"
+      }
+    ]
+  },
+  "actual_user_review": null,
+  "input_values": {}
+}
