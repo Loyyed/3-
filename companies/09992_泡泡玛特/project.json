@@ -1,0 +1,20 @@
+{
+  "schema_version": 1,
+  "company": "泡泡玛特",
+  "code": "09992.HK",
+  "profile": "consumer",
+  "created_at": "2026-11-10T06:29:11.709233+00:00",
+  "information_cutoff": "2026-11-10",
+  "research_purpose": "备选公司：IP组合、全球渠道、库存及现金转换",
+  "review_mode": "human-first",
+  "reviewer": "",
+  "executor": "",
+  "signature_status": "pending",
+  "source_scope": "用户明确授权自主补证；官方披露",
+  "network_policy": "允许可信公开来源，记录出处",
+  "required_dimensions": [
+    "商业模式",
+    "行业竞争",
+    "竞争优势"
+  ]
+}
