@@ -1,6 +1,6 @@
 {
-  "at": "2026-11-10T05:36:50.662312+00:00",
-  "fixture_only": "C:\\Users\\Administrator\\AppData\\Local\\Temp\\research-upgrade-fixture-o0hjn5aa",
+  "at": "2026-11-10T05:37:59.560341+00:00",
+  "fixture_only": "C:\\Users\\Administrator\\AppData\\Local\\Temp\\research-upgrade-fixture-aseize6m",
   "passed": [
     "deduplicate_import",
     "extract_adopt_link",

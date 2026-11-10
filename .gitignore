@@ -1,7 +1,7 @@
 **/sources/raw/
 **/sources/text/
 **/sources/unpacked/
-**/runtime/
+companies/*/runtime/
 **/__pycache__/
 *.py[cod]
 *.pdf
