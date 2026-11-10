@@ -1,0 +1,113 @@
+{
+  "at": "2026-11-10T05:38:14.732577+00:00",
+  "published_commit": "2811a4e4aa041b7827deb16f8e75668ce8dd3334",
+  "remote_matched": true,
+  "branch": "codex/three-company-foundation",
+  "commands": [
+    {
+      "args": [
+        "remote",
+        "get-url",
+        "origin"
+      ],
+      "exit": 0,
+      "out": "git@github.com:Loyyed/3-.git\n",
+      "error": ""
+    },
+    {
+      "args": [
+        "rev-parse",
+        "HEAD"
+      ],
+      "exit": 0,
+      "out": "5e53a11a7abe4fa30db042b30c5b5fbc471c24b5\n",
+      "error": ""
+    },
+    {
+      "args": [
+        "ls-remote",
+        "origin",
+        "refs/heads/codex/three-company-foundation"
+      ],
+      "exit": 0,
+      "out": "5e53a11a7abe4fa30db042b30c5b5fbc471c24b5\trefs/heads/codex/three-company-foundation\n",
+      "error": ""
+    },
+    {
+      "args": [
+        "add",
+        "--all"
+      ],
+      "exit": 0,
+      "out": "",
+      "error": "warning: in the working copy of 'companies/002507_涪陵榨菜/会话交接/CURRENT.md', CRLF will be replaced by LF the next time Git touches it\nwarning: in the working copy of 'companies/600298_安琪酵母/会话交接/CURRENT.md', CRLF will be replaced by LF the next time Git touches it\nwarning: in the working copy of 'companies/688188_柏楚电子/会话交接/CURRENT.md', CRLF will be replaced by LF the next time Git touches it\n"
+    },
+    {
+      "args": [
+        "diff",
+        "--cached",
+        "--name-only"
+      ],
+      "exit": 0,
+      "out": ".gitignore\ncompanies/002507_涪陵榨菜/会话交接/CURRENT.md\ncompanies/600298_安琪酵母/会话交接/CURRENT.md\ncompanies/688188_柏楚电子/会话交接/CURRENT.md\ndocs/protection-check.json\ndocs/research-upgrade-tests.json\ndocs/恢复测试修正.md\nshared/runtime/companybench/__init__.py\nshared/runtime/companybench/attribution.py\nshared/runtime/companybench/cli.py\nshared/runtime/companybench/core.py\nshared/runtime/companybench/delivery.py\nshared/runtime/companybench/insight.css\nshared/runtime/companybench/insight.js\nshared/runtime/companybench/insight.py\nshared/runtime/companybench/knowledge.json\nshared/runtime/companybench/legacy_reader.py\nshared/runtime/companybench/materials.py\nshared/runtime/companybench/methods.py\nshared/runtime/companybench/portal.py\nshared/runtime/companybench/research.py\nshared/runtime/companybench/research_depth.py\nshared/runtime/companybench/review_status.py\nshared/runtime/companybench/series.py\nshared/runtime/companybench/ui.css\nshared/runtime/companybench/ui.html\nshared/runtime/companybench/ui.js\nshared/runtime/companybench/visual_charts.py\nshared/runtime/companybench/workflow.py\nshared/runtime/companybench/workspace.py\n会话交接/CURRENT.md\n",
+      "error": ""
+    },
+    {
+      "args": [
+        "add",
+        "docs/research-staged-audit.json"
+      ],
+      "exit": 0,
+      "out": "",
+      "error": ""
+    },
+    {
+      "args": [
+        "commit",
+        "-m",
+        "共享研究程序并接入49项方法与持久增补修订机制"
+      ],
+      "exit": 0,
+      "out": "[codex/three-company-foundation 2811a4e] 共享研究程序并接入49项方法与持久增补修订机制\n 32 files changed, 3580 insertions(+), 138 deletions(-)\n create mode 100644 docs/恢复测试修正.md\n create mode 100644 shared/runtime/companybench/__init__.py\n create mode 100644 shared/runtime/companybench/attribution.py\n create mode 100644 shared/runtime/companybench/cli.py\n create mode 100644 shared/runtime/companybench/core.py\n create mode 100644 shared/runtime/companybench/delivery.py\n create mode 100644 shared/runtime/companybench/insight.css\n create mode 100644 shared/runtime/companybench/insight.js\n create mode 100644 shared/runtime/companybench/insight.py\n create mode 100644 shared/runtime/companybench/knowledge.json\n create mode 100644 shared/runtime/companybench/legacy_reader.py\n create mode 100644 shared/runtime/companybench/materials.py\n create mode 100644 shared/runtime/companybench/methods.py\n create mode 100644 shared/runtime/companybench/portal.py\n create mode 100644 shared/runtime/companybench/research.py\n create mode 100644 shared/runtime/companybench/research_depth.py\n create mode 100644 shared/runtime/companybench/review_status.py\n create mode 100644 shared/runtime/companybench/series.py\n create mode 100644 shared/runtime/companybench/ui.css\n create mode 100644 shared/runtime/companybench/ui.html\n create mode 100644 shared/runtime/companybench/ui.js\n create mode 100644 shared/runtime/companybench/visual_charts.py\n create mode 100644 shared/runtime/companybench/workflow.py\n create mode 100644 shared/runtime/companybench/workspace.py\n",
+      "error": ""
+    },
+    {
+      "args": [
+        "push"
+      ],
+      "exit": 0,
+      "out": "",
+      "error": "To github.com:Loyyed/3-.git\n   5e53a11..2811a4e  codex/three-company-foundation -> codex/three-company-foundation\n"
+    },
+    {
+      "args": [
+        "rev-parse",
+        "HEAD"
+      ],
+      "exit": 0,
+      "out": "2811a4e4aa041b7827deb16f8e75668ce8dd3334\n",
+      "error": ""
+    },
+    {
+      "args": [
+        "ls-remote",
+        "origin",
+        "refs/heads/codex/three-company-foundation"
+      ],
+      "exit": 0,
+      "out": "2811a4e4aa041b7827deb16f8e75668ce8dd3334\trefs/heads/codex/three-company-foundation\n",
+      "error": ""
+    },
+    {
+      "args": [
+        "clone",
+        "--no-hardlinks",
+        "D:\\投资学\\三家公司证券投资分析",
+        "C:\\Users\\Administrator\\AppData\\Local\\Temp\\research-git-restore-8jnsnvf3"
+      ],
+      "exit": 0,
+      "out": "",
+      "error": "Cloning into 'C:\\Users\\Administrator\\AppData\\Local\\Temp\\research-git-restore-8jnsnvf3'...\ndone.\n"
+    }
+  ]
+}

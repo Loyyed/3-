@@ -1,0 +1,10 @@
+{
+  "at": "2026-11-10T05:38:14.732577+00:00",
+  "directory": "C:\\Users\\Administrator\\AppData\\Local\\Temp\\research-git-restore-8jnsnvf3",
+  "commit": "2811a4e4aa041b7827deb16f8e75668ce8dd3334",
+  "program_restored": true,
+  "knowledge_cards": 49,
+  "update_restart_isolation_workflow_passed": true,
+  "test_output": "{\"at\": \"2026-11-10T05:38:14.722678+00:00\", \"fixture_only\": \"C:\\\\Users\\\\Administrator\\\\AppData\\\\Local\\\\Temp\\\\research-upgrade-fixture-qjlfm631\", \"passed\": [\"deduplicate_import\", \"extract_adopt_link\", \"revision_affects_research_calculation_assumption_report\", \"immutable_prior_version\", \"three_company_isolation\", \"new_process_restart\", \"existing_ReviewStore_no_new_facts\"], \"failed\": []}\n",
+  "error": ""
+}
