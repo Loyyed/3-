@@ -1,0 +1,39 @@
+{
+  "at": "2026-11-10T03:03:48.600881+00:00",
+  "independent_directory": "C:\\Users\\Administrator\\AppData\\Local\\Temp\\three-company-recovery-q6gjo1bn",
+  "restored_from_git_head": "1c4157398db7931e9d400253d3cdd49934ce09be",
+  "tracked_files": 340,
+  "no_raw_or_OCR_in_git": true,
+  "samples": [
+    {
+      "company": "002507_涪陵榨菜",
+      "source_id": "002507-ea6fbccab6a0ab29",
+      "url": "https://static.cninfo.com.cn/finalpage/2025-10-25/1224735807.PDF",
+      "expected_sha256": "eabc75132b159a579398f60a46929d8441364fb460aef5c7afd6e51269f3dce9",
+      "at": "2026-11-10T03:04:18.267794+00:00",
+      "actual_sha256": "eabc75132b159a579398f60a46929d8441364fb460aef5c7afd6e51269f3dce9",
+      "matched": true,
+      "bytes": 73542
+    },
+    {
+      "company": "600298_安琪酵母",
+      "source_id": "600298-ec3783ca3f5e6520",
+      "url": "https://static.cninfo.com.cn/finalpage/2023-03-31/1216282940.PDF",
+      "expected_sha256": "17ae285c87b96cd83d390a997522218f90a1a321744e8813386d36c39e2cd150",
+      "at": "2026-11-10T03:04:18.541647+00:00",
+      "actual_sha256": "17ae285c87b96cd83d390a997522218f90a1a321744e8813386d36c39e2cd150",
+      "matched": true,
+      "bytes": 357944
+    },
+    {
+      "company": "688188_柏楚电子",
+      "source_id": "688188-bba873f6f65eba39",
+      "url": "https://static.cninfo.com.cn/finalpage/2021-12-11/1211874194.PDF",
+      "expected_sha256": "e09967239e7560f0e817e0ef86822ad2f63c4f7535108da86d13a9257a50f8b5",
+      "at": "2026-11-10T03:04:18.683933+00:00",
+      "actual_sha256": "e09967239e7560f0e817e0ef86822ad2f63c4f7535108da86d13a9257a50f8b5",
+      "matched": true,
+      "bytes": 268195
+    }
+  ]
+}
