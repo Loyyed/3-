@@ -1,0 +1,22 @@
+{
+  "at": "2026-11-10T06:50:52.753107+00:00",
+  "clone": "C:\\Users\\Administrator\\AppData\\Local\\Temp\\stage05-git-restore-7plji7o1",
+  "commit": "5e50190d67e7a2ccacd4d1e6bba3568961daeefd",
+  "functional_workflow_passed": true,
+  "output_files_restored": [
+    "companies\\002507_涪陵榨菜\\outputs\\research-report\\v1-Oc127b8ad930c\\basis.json",
+    "companies\\002507_涪陵榨菜\\outputs\\research-report\\v1-Oc127b8ad930c\\report.html",
+    "companies\\002507_涪陵榨菜\\outputs\\research-report\\v1-Oc127b8ad930c\\report.md",
+    "companies\\09992_泡泡玛特\\outputs\\research-report\\v1-Oee06330bac3e\\basis.json",
+    "companies\\09992_泡泡玛特\\outputs\\research-report\\v1-Oee06330bac3e\\report.html",
+    "companies\\09992_泡泡玛特\\outputs\\research-report\\v1-Oee06330bac3e\\report.md",
+    "companies\\600298_安琪酵母\\outputs\\research-report\\v1-O047c274e885b\\basis.json",
+    "companies\\600298_安琪酵母\\outputs\\research-report\\v1-O047c274e885b\\report.html",
+    "companies\\600298_安琪酵母\\outputs\\research-report\\v1-O047c274e885b\\report.md",
+    "companies\\688188_柏楚电子\\outputs\\research-report\\v1-Ocbcb29f6f361\\basis.json",
+    "companies\\688188_柏楚电子\\outputs\\research-report\\v1-Ocbcb29f6f361\\report.html",
+    "companies\\688188_柏楚电子\\outputs\\research-report\\v1-Ocbcb29f6f361\\report.md"
+  ],
+  "stdout": "{\"fixture\": \"C:\\\\Users\\\\Administrator\\\\AppData\\\\Local\\\\Temp\\\\four-company-stage05-3yae96zu\", \"passed\": [\"scope_rejection\", \"current_version_old_version_rejection\", \"edit_preserves_type_multi_methods_impacts\", \"cross_company_edit_rejection\", \"real_md_html_basis_generation\", \"real_calculation_model_file_dependencies\", \"export_input_path_rejection\", \"historic_files_preserved\", \"explicit_resolution_history\", \"new_process_restart\"], \"failed\": []}\n",
+  "stderr": ""
+}

@@ -1,0 +1,184 @@
+{
+  "at": "2026-11-10T06:50:52.753107+00:00",
+  "verified_commit": "5e50190d67e7a2ccacd4d1e6bba3568961daeefd",
+  "remote_matched": true,
+  "commands": [
+    {
+      "command": [
+        "C:/Program Files/Git/cmd/git.exe",
+        "-c",
+        "core.quotepath=false",
+        "-c",
+        "core.sshCommand=\"C:/Program Files/Git/usr/bin/ssh.exe\" -i C:/Users/Administrator/.ssh/id_ed25519_investment_github -o IdentitiesOnly=yes -o UserKnownHostsFile=D:/投资学/三家公司证券投资分析/.local/known_hosts -o StrictHostKeyChecking=yes -o BatchMode=yes",
+        "remote",
+        "get-url",
+        "origin"
+      ],
+      "exit_code": 0,
+      "stdout": "git@github.com:Loyyed/3-.git\n",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "C:/Program Files/Git/cmd/git.exe",
+        "-c",
+        "core.quotepath=false",
+        "-c",
+        "core.sshCommand=\"C:/Program Files/Git/usr/bin/ssh.exe\" -i C:/Users/Administrator/.ssh/id_ed25519_investment_github -o IdentitiesOnly=yes -o UserKnownHostsFile=D:/投资学/三家公司证券投资分析/.local/known_hosts -o StrictHostKeyChecking=yes -o BatchMode=yes",
+        "fetch",
+        "origin"
+      ],
+      "exit_code": 0,
+      "stdout": "",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "C:/Program Files/Git/cmd/git.exe",
+        "-c",
+        "core.quotepath=false",
+        "-c",
+        "core.sshCommand=\"C:/Program Files/Git/usr/bin/ssh.exe\" -i C:/Users/Administrator/.ssh/id_ed25519_investment_github -o IdentitiesOnly=yes -o UserKnownHostsFile=D:/投资学/三家公司证券投资分析/.local/known_hosts -o StrictHostKeyChecking=yes -o BatchMode=yes",
+        "merge-base",
+        "--is-ancestor",
+        "origin/codex/three-company-foundation",
+        "HEAD"
+      ],
+      "exit_code": 0,
+      "stdout": "",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "C:/Program Files/Git/cmd/git.exe",
+        "-c",
+        "core.quotepath=false",
+        "-c",
+        "core.sshCommand=\"C:/Program Files/Git/usr/bin/ssh.exe\" -i C:/Users/Administrator/.ssh/id_ed25519_investment_github -o IdentitiesOnly=yes -o UserKnownHostsFile=D:/投资学/三家公司证券投资分析/.local/known_hosts -o StrictHostKeyChecking=yes -o BatchMode=yes",
+        "add",
+        "--all"
+      ],
+      "exit_code": 0,
+      "stdout": "",
+      "stderr": "warning: in the working copy of 'companies/002507_涪陵榨菜/会话交接/CURRENT.md', CRLF will be replaced by LF the next time Git touches it\nwarning: in the working copy of 'companies/600298_安琪酵母/会话交接/CURRENT.md', CRLF will be replaced by LF the next time Git touches it\nwarning: in the working copy of 'companies/688188_柏楚电子/会话交接/CURRENT.md', CRLF will be replaced by LF the next time Git touches it\n"
+    },
+    {
+      "command": [
+        "C:/Program Files/Git/cmd/git.exe",
+        "-c",
+        "core.quotepath=false",
+        "-c",
+        "core.sshCommand=\"C:/Program Files/Git/usr/bin/ssh.exe\" -i C:/Users/Administrator/.ssh/id_ed25519_investment_github -o IdentitiesOnly=yes -o UserKnownHostsFile=D:/投资学/三家公司证券投资分析/.local/known_hosts -o StrictHostKeyChecking=yes -o BatchMode=yes",
+        "diff",
+        "--cached",
+        "--name-only"
+      ],
+      "exit_code": 0,
+      "stdout": ".gitattributes\napp/engine.py\napp/style.css\ncompanies/002507_涪陵榨菜/.gitattributes\ncompanies/002507_涪陵榨菜/outputs/catalog.json\ncompanies/002507_涪陵榨菜/outputs/research-report/v1-Oc127b8ad930c/basis.json\ncompanies/002507_涪陵榨菜/outputs/research-report/v1-Oc127b8ad930c/report.html\ncompanies/002507_涪陵榨菜/outputs/research-report/v1-Oc127b8ad930c/report.md\ncompanies/002507_涪陵榨菜/会话交接/CURRENT.md\ncompanies/09992_泡泡玛特/.gitattributes\ncompanies/09992_泡泡玛特/sources-index.html\ncompanies/09992_泡泡玛特/会话交接/CURRENT.md\ncompanies/600298_安琪酵母/.gitattributes\ncompanies/600298_安琪酵母/outputs/catalog.json\ncompanies/600298_安琪酵母/outputs/research-report/v1-O047c274e885b/basis.json\ncompanies/600298_安琪酵母/outputs/research-report/v1-O047c274e885b/report.html\ncompanies/600298_安琪酵母/outputs/research-report/v1-O047c274e885b/report.md\ncompanies/600298_安琪酵母/会话交接/CURRENT.md\ncompanies/688188_柏楚电子/.gitattributes\ncompanies/688188_柏楚电子/outputs/catalog.json\ncompanies/688188_柏楚电子/outputs/research-report/v1-Ocbcb29f6f361/basis.json\ncompanies/688188_柏楚电子/outputs/research-report/v1-Ocbcb29f6f361/report.html\ncompanies/688188_柏楚电子/outputs/research-report/v1-Ocbcb29f6f361/report.md\ncompanies/688188_柏楚电子/会话交接/CURRENT.md\ndocs/stage05-functional-tests.json\ndocs/stage05-protection.json\ndocs/stage05-recovery-correction.md\n会话交接/CURRENT.md\n",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "C:/Program Files/Git/cmd/git.exe",
+        "-c",
+        "core.quotepath=false",
+        "-c",
+        "core.sshCommand=\"C:/Program Files/Git/usr/bin/ssh.exe\" -i C:/Users/Administrator/.ssh/id_ed25519_investment_github -o IdentitiesOnly=yes -o UserKnownHostsFile=D:/投资学/三家公司证券投资分析/.local/known_hosts -o StrictHostKeyChecking=yes -o BatchMode=yes",
+        "diff",
+        "--cached",
+        "--name-only",
+        "--diff-filter=D"
+      ],
+      "exit_code": 0,
+      "stdout": "",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "C:/Program Files/Git/cmd/git.exe",
+        "-c",
+        "core.quotepath=false",
+        "-c",
+        "core.sshCommand=\"C:/Program Files/Git/usr/bin/ssh.exe\" -i C:/Users/Administrator/.ssh/id_ed25519_investment_github -o IdentitiesOnly=yes -o UserKnownHostsFile=D:/投资学/三家公司证券投资分析/.local/known_hosts -o StrictHostKeyChecking=yes -o BatchMode=yes",
+        "add",
+        "docs/stage05-staged.json"
+      ],
+      "exit_code": 0,
+      "stdout": "",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "C:/Program Files/Git/cmd/git.exe",
+        "-c",
+        "core.quotepath=false",
+        "-c",
+        "core.sshCommand=\"C:/Program Files/Git/usr/bin/ssh.exe\" -i C:/Users/Administrator/.ssh/id_ed25519_investment_github -o IdentitiesOnly=yes -o UserKnownHostsFile=D:/投资学/三家公司证券投资分析/.local/known_hosts -o StrictHostKeyChecking=yes -o BatchMode=yes",
+        "commit",
+        "-m",
+        "修复四公司方法依赖并贯通版本化成果中心"
+      ],
+      "exit_code": 0,
+      "stdout": "[codex/three-company-foundation 5e50190] 修复四公司方法依赖并贯通版本化成果中心\n 29 files changed, 609 insertions(+), 609 deletions(-)\n create mode 100644 .gitattributes\n create mode 100644 companies/09992_泡泡玛特/.gitattributes\n create mode 100644 docs/stage05-recovery-correction.md\n",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "C:/Program Files/Git/cmd/git.exe",
+        "-c",
+        "core.quotepath=false",
+        "-c",
+        "core.sshCommand=\"C:/Program Files/Git/usr/bin/ssh.exe\" -i C:/Users/Administrator/.ssh/id_ed25519_investment_github -o IdentitiesOnly=yes -o UserKnownHostsFile=D:/投资学/三家公司证券投资分析/.local/known_hosts -o StrictHostKeyChecking=yes -o BatchMode=yes",
+        "push"
+      ],
+      "exit_code": 0,
+      "stdout": "",
+      "stderr": "To github.com:Loyyed/3-.git\n   a01978d..5e50190  codex/three-company-foundation -> codex/three-company-foundation\n"
+    },
+    {
+      "command": [
+        "C:/Program Files/Git/cmd/git.exe",
+        "-c",
+        "core.quotepath=false",
+        "-c",
+        "core.sshCommand=\"C:/Program Files/Git/usr/bin/ssh.exe\" -i C:/Users/Administrator/.ssh/id_ed25519_investment_github -o IdentitiesOnly=yes -o UserKnownHostsFile=D:/投资学/三家公司证券投资分析/.local/known_hosts -o StrictHostKeyChecking=yes -o BatchMode=yes",
+        "rev-parse",
+        "HEAD"
+      ],
+      "exit_code": 0,
+      "stdout": "5e50190d67e7a2ccacd4d1e6bba3568961daeefd\n",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "C:/Program Files/Git/cmd/git.exe",
+        "-c",
+        "core.quotepath=false",
+        "-c",
+        "core.sshCommand=\"C:/Program Files/Git/usr/bin/ssh.exe\" -i C:/Users/Administrator/.ssh/id_ed25519_investment_github -o IdentitiesOnly=yes -o UserKnownHostsFile=D:/投资学/三家公司证券投资分析/.local/known_hosts -o StrictHostKeyChecking=yes -o BatchMode=yes",
+        "ls-remote",
+        "origin",
+        "refs/heads/codex/three-company-foundation"
+      ],
+      "exit_code": 0,
+      "stdout": "5e50190d67e7a2ccacd4d1e6bba3568961daeefd\trefs/heads/codex/three-company-foundation\n",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "C:/Program Files/Git/cmd/git.exe",
+        "-c",
+        "core.quotepath=false",
+        "-c",
+        "core.sshCommand=\"C:/Program Files/Git/usr/bin/ssh.exe\" -i C:/Users/Administrator/.ssh/id_ed25519_investment_github -o IdentitiesOnly=yes -o UserKnownHostsFile=D:/投资学/三家公司证券投资分析/.local/known_hosts -o StrictHostKeyChecking=yes -o BatchMode=yes",
+        "clone",
+        "--no-hardlinks",
+        "D:\\投资学\\三家公司证券投资分析",
+        "C:\\Users\\Administrator\\AppData\\Local\\Temp\\stage05-git-restore-7plji7o1"
+      ],
+      "exit_code": 0,
+      "stdout": "",
+      "stderr": "Cloning into 'C:\\Users\\Administrator\\AppData\\Local\\Temp\\stage05-git-restore-7plji7o1'...\ndone.\n"
+    }
+  ]
+}
