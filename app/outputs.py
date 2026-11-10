@@ -19,6 +19,10 @@ def registry(e):
   index=load(p/'outputs/catalog.json',{'items':[]});cards=load(p/'work/research-workspace.json',{'cards':[]})['cards'];byid={c['id']:c for c in cards}
   for item in index['items']:
    reasons=[]
+   bound=item['bindings'];expected=bound.get('selection_ids',sorted(bound.get('cards',{})));actual=sorted(byid)
+   if expected!=actual:reasons.append('研究卡集合变化：新增/删除内容未纳入本版')
+   for card in cards:
+    if card.get('needs_review'):reasons.append('研究卡未解决影响：'+card['id']+' '+str(card.get('impacts',[])))
    for cid,h in item['bindings'].get('cards',{}).items():
     if cid not in byid or digest(byid[cid])!=h:reasons.append('研究卡变化:'+cid)
    for ref in item['bindings'].get('methods',[]):
@@ -42,7 +46,7 @@ def perform(e,d,actor):
   s=load(p/'work/research-workspace.json',{'cards':[],'events':[]});card=next(c for c in s['cards'] if c['id']==d['id']);assert d.get('basis') and d.get('versions'),'须注明解决依据和核对版本';card.setdefault('resolutions',[]).append({'at':now(),'basis':d['basis'],'versions':d['versions'],'actor':actor,'impact_count':len(card.get('impacts',[]))});card['needs_review']=False;save(p/'work/research-workspace.json',s);return card
  assert a in ['export-report','register-output'],'未知成果动作'
  cards=load(p/'work/research-workspace.json',{'cards':[]})['cards'];catalog=load(p/'outputs/catalog.json',{'items':[]});kind=d.get('kind','报告草稿');group=d.get('group','research-report' if a=='export-report' else d.get('title','imported'));prior=[x for x in catalog['items'] if x['group']==group];v=max([x['version'] for x in prior],default=0)+1;oid='O'+uuid.uuid4().hex[:12];folder=p/'outputs'/group/('v'+str(v)+'-'+oid);assert folder.resolve().is_relative_to((p/'outputs').resolve()),'非法成果组';folder.mkdir(parents=True)
- bindings={'cards':{c['id']:digest(c) for c in cards},'methods':list({(r['id'],r['version']):r for c in cards for r in c.get('methods',[])}.values()),'inputs':{},'sources':[]}
+ bindings={'selection_ids':sorted(c['id'] for c in cards),'selection_scope':'all-eight-lanes','cards':{c['id']:digest(c) for c in cards},'methods':list({(r['id'],r['version']):r for c in cards for r in c.get('methods',[])}.values()),'inputs':{},'sources':[]}
  for rel in d.get('input_paths',[]):
   q=contained(p,rel);assert not rel.startswith(('sources/raw/','evidence/')),'输入应为公司模型或计算文件';assert q.is_file(),'输入不存在';bindings['inputs'][rel]=sha(q)
  sources=load(p/'sources/manifest.json',{'sources':[]})['sources'];wanted=set(d.get('source_ids',[])+[i for c in cards for i in c.get('source_ids',[])])
@@ -59,7 +63,7 @@ def perform(e,d,actor):
     for k,label in [('claim','主张及范围'),('evidence','来源数据与计算'),('mechanism','机制'),('opposition','反方'),('alternative','替代解释'),('variables','预测变量'),('invalidate','失效条件'),('gap','证据缺口'),('action_needed','补证动作')]:
      if c.get(k):lines+=[label+'：'+str(c[k])]
   lines+=['','## 依据与复算','方法：'+json.dumps(bindings['methods'],ensure_ascii=False),'模型/计算文件：'+json.dumps(bindings['inputs'],ensure_ascii=False),'合同覆盖：只承接方法，不因本次生成宣称合同验收。']
-  text='\n\n'.join(lines);(folder/'report.md').write_text(text,encoding='utf-8');(folder/'report.html').write_text('<!doctype html><meta charset="utf-8"><title>研究草稿</title><style>body{max-width:900px;margin:30px auto;font:17px/1.8 system-ui;padding:15px}pre{white-space:pre-wrap;overflow-wrap:anywhere}</style><pre>'+html.escape(text)+'</pre>',encoding='utf-8');save(folder/'basis.json',{'company':company,'cards':cards,'bindings':bindings,'actual_user_review':None,'input_values':{rel:contained(p,rel).read_text(encoding='utf-8')[:200000] for rel in bindings['inputs']}})
+  unresolved=[{'id':c['id'],'impacts':c.get('impacts',[])} for c in cards if c.get('needs_review')];lines+=['','## 未解决影响（重导出不会消除）',json.dumps(unresolved,ensure_ascii=False) if unresolved else '本次未发现未解决研究卡影响；不等于数据已核准。'];text='\n\n'.join(lines);(folder/'report.md').write_text(text,encoding='utf-8');(folder/'report.html').write_text('<!doctype html><meta charset="utf-8"><title>研究草稿</title><style>body{max-width:900px;margin:30px auto;font:17px/1.8 system-ui;padding:15px}pre{white-space:pre-wrap;overflow-wrap:anywhere}</style><pre>'+html.escape(text)+'</pre>',encoding='utf-8');save(folder/'basis.json',{'company':company,'cards':cards,'bindings':bindings,'actual_user_review':None,'unresolved_impacts':unresolved,'input_values':{rel:contained(p,rel).read_text(encoding='utf-8')[:200000] for rel in bindings['inputs']}})
  else:
   ext=d['format'];assert ext in ['md','html','json','csv','txt','svg'],'不支持该导入格式';(folder/('registered.'+ext)).write_text(d['text'],encoding='utf-8')
  for f in folder.iterdir():files.append({'path':f.relative_to(p).as_posix(),'format':f.suffix[1:],'sha256':sha(f),'bytes':f.stat().st_size})

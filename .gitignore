@@ -11,3 +11,5 @@ companies/*/runtime/
 *.key
 .local/
 .cache/
+
+/runtime/

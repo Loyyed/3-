@@ -1,0 +1,23 @@
+{
+  "at": "2026-11-10T07:42:46.129Z",
+  "originalTitle": "研投 · 证券分析工作台",
+  "native": {
+    "fixtureOnly": true,
+    "confirmation": "automated UI simulation on synthetic fixture; no production Fact",
+    "facts": 2,
+    "calculation": "20.00",
+    "models": 1,
+    "errors": []
+  },
+  "knowledgeImportedAndInstalled": true,
+  "newMethodSaved": [
+    {
+      "id": "Ub74dc311baf1",
+      "version": 1
+    }
+  ],
+  "reportPreviewHTTP": 200,
+  "downloadActual": true,
+  "reloadPersisted": true,
+  "errors": []
+}

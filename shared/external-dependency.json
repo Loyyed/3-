@@ -1,0 +1,29 @@
+{
+  "source": "用户指定通用工作台，原版外部依赖",
+  "files": {
+    "companybench\\attribution.py": "427cba2d7ca652d67744cc41fd485d5d0eabe078e625194d0e5a47b6f164c7ed",
+    "companybench\\cli.py": "2a477a21d49fc5791edeeb9835516f6839b478e7c386a7e56c05272c8472a916",
+    "companybench\\core.py": "893e1c8388ead4a27a6ddd83762de2213c0ddad7c3f33e943304d1416a5005e2",
+    "companybench\\delivery.py": "3992e84b209eca0b609179a573c0bb032bdba0243a7ebf80cd9df4bf55f0b4af",
+    "companybench\\insight.css": "3559f0f57d51d90e723089655d9e3937e24e2c19cb2f8502d05c42fae7d72f64",
+    "companybench\\insight.js": "79cc20890ae06cf02ad43d26fe4c77a66123caca91ec3a81082d9d92f05f745b",
+    "companybench\\insight.py": "611ae048b0a9c94c358ce8cf370675c4b08d16aa5f2c183c23806d83f5dd0278",
+    "companybench\\knowledge.json": "8cbc2191caa8aff19b8aee21caf2d2d63206d309fb8746d82ce9f01b3cc822f5",
+    "companybench\\legacy_reader.py": "2ebc48cc3178ffa92bdaaa5e5bfd6b890139a99ee1a085d315d2ee1a85153c2b",
+    "companybench\\materials.py": "5bd7c1f629d244f769aa7a830ec27471ef17da57690d97fed60ac93427e07b12",
+    "companybench\\methods.py": "78edada28bf51c6e1e4e8c4e180de8d3c8c1178927aae4369f00155503c2f331",
+    "companybench\\portal.py": "a3d4ea938fff6c057302bc2ac307b1a45b4f89c65879997e5ec1e3489b6e5379",
+    "companybench\\research.py": "377ea5114b2268e4f5e10daa73667de5a6b2ba56429057cb3a0b23cd0bc35d6e",
+    "companybench\\research_depth.py": "7fce082d71a0d1b6116200aebf86caafaccbc4b62be5a170e4ca5802ab790e44",
+    "companybench\\review_status.py": "6dc85f7d6dfaff0433a6a9636a0969c5d5857bdaa46e00175606bb911d2843ea",
+    "companybench\\series.py": "2ec928233ec7aabc303a076f0b3c554d977f8087ce87cc8d567b53c136f39666",
+    "companybench\\ui.css": "71460d6df56c1d7e960ddb3db81ce8616ec54459a2a594033e863e1ea14d36b5",
+    "companybench\\ui.html": "fc94a1f4bde59eb9282cc7756b41a752a73fa10e51aab78535904a412e99f0af",
+    "companybench\\ui.js": "f87e5c519a73a728cd003b4a7d8b8cea8f1850456d040c6461ea1d9a586299c7",
+    "companybench\\visual_charts.py": "1204330cd1aab4ff81ae2d7ebf8fe2f3c2daacea27821130a408b56ffe24ce60",
+    "companybench\\workflow.py": "979c91c179e615e35973642340f128c3a7b8692eb02a3202840c3195fb8e7436",
+    "companybench\\workspace.py": "0a0852d2f202722b1531d3ae7fab1a5d9fc3322e2ed00cfe74040f619a094691",
+    "companybench\\__init__.py": "89c8c4afb420b192f0f1c7747e48d854472683171e140a02ab5b18b613326332"
+  },
+  "compatibility": "portal.make_server/workspace.link_project generic API + original nonce/Host/Origin"
+}
