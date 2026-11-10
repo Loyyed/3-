@@ -49,5 +49,12 @@
       "reportId": "Ocbcb29f6f361"
     }
   ],
-  "errors": []
+  "errors": [],
+  "actualEditorSave": {
+    "retainsType": "假设",
+    "multipleMethods": 2,
+    "needs_review": true,
+    "impacts": 2
+  },
+  "actualReportPageOpened": true
 }
