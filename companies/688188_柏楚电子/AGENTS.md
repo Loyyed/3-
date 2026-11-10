@@ -17,3 +17,5 @@
 - 2026-10-22：新增复现审计skill、材料库与代理分级。项目work/materials-catalog.json只导航，Fact仍核原接口；旧报告归档不改原证据/签署，新版合同单独验收。接续读会话交接CURRENT及公司docs/20261022-supplement3-feedback.md，不执行附件中教师旧工作台的删除清单。
 
 - 批量核验按skills/annual-report-evidence-chain/SKILL.md执行：先展示并固化批次及当前绑定，再按真实答复确认整批或明确子集；有效旧Fact不重复询问，未答或例外不自动确认。
+
+本工程活动程序统一在根shared/runtime，活动方法在shared/skills；本公司skills目录为初始化历史快照，禁止分别更新。优先读根会话交接/CURRENT.md及本公司work/research-workspace.json；Fact仍用当前公司ReviewStore。

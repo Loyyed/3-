@@ -54,10 +54,12 @@
       "2004-FY",
       "2003-FY",
       "2002-FY",
-      "2001-FY"
+      "2001-FY",
+      "2020-FY"
     ],
     "latest_period": "2026-Q3",
-    "metadata_exceptions": 1
+    "metadata_exceptions": 1,
+    "correction": "docs/2020-annual-correction.json"
   },
   {
     "company": "688188_柏楚电子",

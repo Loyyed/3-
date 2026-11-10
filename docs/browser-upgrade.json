@@ -1,0 +1,36 @@
+{
+  "at": "2026-11-10T05:35:24.493Z",
+  "browserchecks": [
+    {
+      "company": "002507_涪陵榨菜",
+      "lanesPassed": 8
+    },
+    {
+      "company": "600298_安琪酵母",
+      "lanesPassed": 8
+    },
+    {
+      "company": "688188_柏楚电子",
+      "lanesPassed": 8
+    },
+    {
+      "knowledgeMatches": 3
+    },
+    {
+      "legacyPort": 8781,
+      "status": 200
+    },
+    {
+      "legacyPort": 8782,
+      "status": 200
+    },
+    {
+      "legacyPort": 8783,
+      "status": 200
+    }
+  ],
+  "fixtureSaveReload": true,
+  "fixtureCompanyIsolation": true,
+  "failures": [],
+  "correctedDuringTest": "同主线多卡选择与关联保存"
+}

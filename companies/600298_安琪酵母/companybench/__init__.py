@@ -1,2 +1,2 @@
-"""Portable company-analysis workbench. No third-party runtime dependency."""
-VERSION = '1.0.0'
+from pathlib import Path
+__path__=[str(Path(__file__).resolve().parents[3]/'shared/runtime/companybench')]

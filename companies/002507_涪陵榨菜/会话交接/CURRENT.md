@@ -1,6 +1,4 @@
-# 涪陵榨菜 当前交接
-2026-11-10T02:57:10.642185+00:00
-来源目录sources/catalog.json；逐文件校验sources/pdf-checks.json；正文抽核review/body-sample-checks.json；合同tasks/contract-adoption.md。
-本轮无Fact、人工确认或签署，下一步按data/extraction/README.md建立首批同口径原数。
-
-2026-11-10T03:07:38.638665+00:00：本轮已push并核对远端一致，当前分支codex/three-company-foundation；最终发布回执在根.local/final-publication-receipt.json。独立临时Git克隆与每公司一次公开URL下载指纹检查通过。正文抽核已实际查看六份首页图；本地浏览器检索已通过。
+# 当前交接
+2026-11-10T05:36:42.534865+00:00
+根启动研究工作台.cmd → 选择本公司 → 八条研究主线保存。来源sources/catalog.json；当前Fact须调用本公司ReviewStore；已有核验事件与原件未改。共享程序shared/runtime，知识shared/knowledge.json。新增材料在增补页登记→提炼→纳入→关联；修订影响保留旧版并标记needs_review。
+本轮仅结构和知识机制；不继承旧案例数据/机制/授权，不自动生成报告。下一步先明确研究问题，再从2025年报、2026Q3提取同口径收入利润资本现金原数。

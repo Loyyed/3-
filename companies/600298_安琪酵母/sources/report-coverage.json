@@ -1160,6 +1160,18 @@
     ]
   },
   {
+    "period": "2020-FY",
+    "versions": [
+      {
+        "id": "600298-f3d954bf94ae5ae6",
+        "title": "安琪酵母2020年年报全文",
+        "path": "sources/raw/08_补充资料/2021-03-26_安琪酵母2020年年报全文_1209450963.pdf",
+        "summary": false,
+        "revision_hint": false
+      }
+    ]
+  },
+  {
     "period": "2020-H1",
     "versions": [
       {

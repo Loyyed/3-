@@ -1,0 +1,14 @@
+{
+  "at": "2026-11-10T05:36:50.662312+00:00",
+  "fixture_only": "C:\\Users\\Administrator\\AppData\\Local\\Temp\\research-upgrade-fixture-o0hjn5aa",
+  "passed": [
+    "deduplicate_import",
+    "extract_adopt_link",
+    "revision_affects_research_calculation_assumption_report",
+    "immutable_prior_version",
+    "three_company_isolation",
+    "new_process_restart",
+    "existing_ReviewStore_no_new_facts"
+  ],
+  "failed": []
+}

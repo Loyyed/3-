@@ -1,0 +1,37 @@
+[
+  {
+    "path": "D:\\投资学\\投资学公司分析通用工作台\\companybench\\knowledge.json",
+    "sha256": "8cbc2191caa8aff19b8aee21caf2d2d63206d309fb8746d82ce9f01b3cc822f5",
+    "actual_read_chars": 20556,
+    "role": "方法与导航；非公司数据",
+    "version": "2026-11-10T05:32:06.417662+00:00"
+  },
+  {
+    "path": "D:\\投资学\\会话交接\\11_投资学知识总纲与AI交接.md",
+    "sha256": "ca1cbd822b07ace3a4fbab4cb3813dce219881abf6570780a4ee13c6f0891d3f",
+    "actual_read_chars": 8482,
+    "role": "方法与导航；非公司数据",
+    "version": "2026-11-10T05:32:06.417662+00:00"
+  },
+  {
+    "path": "D:\\投资学\\投资学工作空间\\work\\deep-study-20261029\\ai-knowledge-handoff.json",
+    "sha256": "eb92c98637ae3eba51e803eafa84c55cfb896fc05d0bef464bfc4ad5fceb5760",
+    "actual_read_chars": 18515,
+    "role": "方法与导航；非公司数据",
+    "version": "2026-11-10T05:32:06.417662+00:00"
+  },
+  {
+    "path": "D:\\投资学\\投资学公司分析通用工作台\\skills\\investment-company-analysis\\references\\experience-and-failure-modes.md",
+    "sha256": "d635dbc611cfa0e909dc574e3c31839e0ee6776df95bbc7b2d3ebd60c911827f",
+    "actual_read_chars": 1581,
+    "role": "方法与导航；非公司数据",
+    "version": "2026-11-10T05:32:06.417662+00:00"
+  },
+  {
+    "path": "D:\\投资学\\投资学公司分析通用工作台\\skills\\investment-company-analysis\\references\\analysis-framework.md",
+    "sha256": "f6487a1c916c56227c9188abf653c5c446bbe178e127bda0b04d7e338a7a2914",
+    "actual_read_chars": 1698,
+    "role": "方法与导航；非公司数据",
+    "version": "2026-11-10T05:32:06.417662+00:00"
+  }
+]
