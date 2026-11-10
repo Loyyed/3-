@@ -1,0 +1,140 @@
+[
+  {
+    "source_id": "002507-6cd117ea1ac8beee",
+    "path": "sources/raw/01_年报/2026-03-28_2025年年度报告_1225042838.pdf",
+    "title": "2025年年度报告",
+    "company": "涪陵榨菜",
+    "code": "002507.SZ",
+    "period": "2025-FY",
+    "checked_at": "2026-11-10T02:59:22.754219+00:00",
+    "actor": "Codex Agent",
+    "PDF_pages": [
+      1,
+      2,
+      3
+    ],
+    "excerpt": "重庆市涪陵榨菜集团股份有限公司 2025年年度报告全文\n重庆市涪陵榨菜集团股份有限公司\n2025 年年度报告\n2026-007\n2026 年 3 月",
+    "name_present": true,
+    "year_present": true,
+    "status": "Agent原文抽核，非人工确认",
+    "render": "Codex Agent已实际查看PDF第1页渲染图，公司名称与2025年度/2026第三季度标题匹配",
+    "render_exit": 0,
+    "render_error": "pdftoppm: security risk: running with elevated privileges\r\n\r\n\r\nMiKTeX requires Windows 10 (or greater): https://miktex.org/announcement/legacy-windows-deprecation\r\n",
+    "visual_checked_at": "2026-11-10T03:03:48.600881+00:00"
+  },
+  {
+    "source_id": "002507-d45bfdfdec6d4379",
+    "path": "sources/raw/02_定期报告与经营数据/2026-10-28_2026年三季度报告_1225628280.pdf",
+    "title": "2026年三季度报告",
+    "company": "涪陵榨菜",
+    "code": "002507.SZ",
+    "period": "2026-Q3",
+    "checked_at": "2026-11-10T02:59:22.754219+00:00",
+    "actor": "Codex Agent",
+    "PDF_pages": [
+      1,
+      2,
+      3
+    ],
+    "excerpt": "重庆市涪陵榨菜集团股份有限公司 2026 年第三季度报告\n1\n重庆市涪陵榨菜集团股份有限公司\n2026 年第三季度报告\n公告编号：2026-035\n2026 年 10 月",
+    "name_present": true,
+    "year_present": true,
+    "status": "Agent原文抽核，非人工确认",
+    "render": "Codex Agent已实际查看PDF第1页渲染图，公司名称与2025年度/2026第三季度标题匹配",
+    "render_exit": 0,
+    "render_error": "pdftoppm: security risk: running with elevated privileges\r\n\r\n\r\nMiKTeX requires Windows 10 (or greater): https://miktex.org/announcement/legacy-windows-deprecation\r\n",
+    "visual_checked_at": "2026-11-10T03:03:48.600881+00:00"
+  },
+  {
+    "source_id": "600298-a14b53fefcfc0356",
+    "path": "sources/raw/01_年报/2026-03-31_安琪酵母股份有限公司2025年年度报告_1225056953.pdf",
+    "title": "安琪酵母股份有限公司2025年年度报告",
+    "company": "安琪酵母",
+    "code": "600298.SH",
+    "period": "2025-FY",
+    "checked_at": "2026-11-10T02:59:22.754219+00:00",
+    "actor": "Codex Agent",
+    "PDF_pages": [
+      1,
+      2,
+      3
+    ],
+    "excerpt": "安琪酵母股份有限公司2025年年度报告\n1 / 218\n公司代码：600298 公司简称：安琪酵母\n安琪酵母股份有限公司\n2025 年年度报告",
+    "name_present": true,
+    "year_present": true,
+    "status": "Agent原文抽核，非人工确认",
+    "render": "Codex Agent已实际查看PDF第1页渲染图，公司名称与2025年度/2026第三季度标题匹配",
+    "render_exit": 0,
+    "render_error": "pdftoppm: security risk: running with elevated privileges\r\n\r\n\r\nMiKTeX requires Windows 10 (or greater): https://miktex.org/announcement/legacy-windows-deprecation\r\n",
+    "visual_checked_at": "2026-11-10T03:03:48.600881+00:00"
+  },
+  {
+    "source_id": "600298-5c763f656754f15e",
+    "path": "sources/raw/02_定期报告与经营数据/2026-10-30_安琪酵母股份有限公司2026年第三季度报告_1225641080.pdf",
+    "title": "安琪酵母股份有限公司2026年第三季度报告",
+    "company": "安琪酵母",
+    "code": "600298.SH",
+    "period": "2026-Q3",
+    "checked_at": "2026-11-10T02:59:22.754219+00:00",
+    "actor": "Codex Agent",
+    "PDF_pages": [
+      1,
+      2,
+      3
+    ],
+    "excerpt": "安琪酵母股份有限公司 2026 年第三季度报告\n1 / 19\n证券代码：600298 证券简称：安琪酵母\n安琪酵母股份有限公司\n2026 年第三季度报告\n本公司董事会及全体董事保证本公告内容不存在任何虚假记载、误导性陈述或者重\n大遗漏，并对其内容的真实性、准确性和完整性承担法律责任。\n重要内容提示：\n公司董事会及董事、高级管理人员保证季度报告内容的真实、准确、完整，不存在虚假记载、误导性陈\n述或重大遗漏，并承担个别和连带的法律责任。\n公",
+    "name_present": true,
+    "year_present": true,
+    "status": "Agent原文抽核，非人工确认",
+    "render": "Codex Agent已实际查看PDF第1页渲染图，公司名称与2025年度/2026第三季度标题匹配",
+    "render_exit": 0,
+    "render_error": "pdftoppm: security risk: running with elevated privileges\r\n\r\n\r\nMiKTeX requires Windows 10 (or greater): https://miktex.org/announcement/legacy-windows-deprecation\r\n",
+    "visual_checked_at": "2026-11-10T03:03:48.600881+00:00"
+  },
+  {
+    "source_id": "688188-a343f0dc3c27d114",
+    "path": "sources/raw/01_年报/2026-04-10_2025年年度报告_1225091045.pdf",
+    "title": "2025年年度报告",
+    "company": "柏楚电子",
+    "code": "688188.SH",
+    "period": "2025-FY",
+    "checked_at": "2026-11-10T02:59:22.754219+00:00",
+    "actor": "Codex Agent",
+    "PDF_pages": [
+      1,
+      2,
+      3
+    ],
+    "excerpt": "上海柏楚电子科技股份有限公司2025年年度报告\n1 / 266\n公司代码：688188 公司简称：柏楚电子\n上海柏楚电子科技股份有限公司\n2025 年年度报告",
+    "name_present": true,
+    "year_present": true,
+    "status": "Agent原文抽核，非人工确认",
+    "render": "Codex Agent已实际查看PDF第1页渲染图，公司名称与2025年度/2026第三季度标题匹配",
+    "render_exit": 0,
+    "render_error": "pdftoppm: security risk: running with elevated privileges\r\n\r\n\r\nMiKTeX requires Windows 10 (or greater): https://miktex.org/announcement/legacy-windows-deprecation\r\n",
+    "visual_checked_at": "2026-11-10T03:03:48.600881+00:00"
+  },
+  {
+    "source_id": "688188-fed67b607fa475a7",
+    "path": "sources/raw/02_定期报告与经营数据/2026-10-27_2026年第三季度报告_1225622322.pdf",
+    "title": "2026年第三季度报告",
+    "company": "柏楚电子",
+    "code": "688188.SH",
+    "period": "2026-Q3",
+    "checked_at": "2026-11-10T02:59:22.754219+00:00",
+    "actor": "Codex Agent",
+    "PDF_pages": [
+      1,
+      2,
+      3
+    ],
+    "excerpt": "上海柏楚电子科技股份有限公司 2026 年第三季度报告\n1 / 12\n证券代码：688188 证券简称：柏楚电子\n上海柏楚电子科技股份有限公司\n2026 年第三季度报告\n本公司董事会及全体董事保证本公告内容不存在任何虚假记载、误导性陈述或者重\n大遗漏，并对其内容的真实性、准确性和完整性依法承担法律责任。\n重要内容提示：\n公司董事会及董事、高级管理人员保证季度报告内容的真实、准确、完整，不存在虚假记载、误导性\n陈述或重大遗漏，并承担个别和",
+    "name_present": true,
+    "year_present": true,
+    "status": "Agent原文抽核，非人工确认",
+    "render": "Codex Agent已实际查看PDF第1页渲染图，公司名称与2025年度/2026第三季度标题匹配",
+    "render_exit": 0,
+    "render_error": "pdftoppm: security risk: running with elevated privileges\r\n\r\n\r\nMiKTeX requires Windows 10 (or greater): https://miktex.org/announcement/legacy-windows-deprecation\r\n",
+    "visual_checked_at": "2026-11-10T03:03:48.600881+00:00"
+  }
+]

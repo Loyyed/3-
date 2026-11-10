@@ -1,0 +1,62 @@
+{
+  "official_url": "https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/githubs-ssh-key-fingerprints",
+  "fingerprint": "SHA256:+DiY3wvvV6TuJJhbpZisF/zLDA0zPMSvHdkr4UvCOqU",
+  "checks": [
+    {
+      "at": "2026-11-10T03:00:42.602894+00:00",
+      "command": [
+        "C:/Program Files/Git/cmd/git.exe",
+        "--version"
+      ],
+      "exit_code": 0,
+      "stdout": "git version 2.56.0.windows.1\n",
+      "stderr": ""
+    },
+    {
+      "at": "2026-11-10T03:00:42.631761+00:00",
+      "command": [
+        "C:/Program Files/Git/usr/bin/ssh.exe",
+        "-V"
+      ],
+      "exit_code": 0,
+      "stdout": "",
+      "stderr": "OpenSSH_10.5p1, OpenSSL 3.5.8 25 Aug 2026\n"
+    },
+    {
+      "at": "2026-11-10T03:00:48.006551+00:00",
+      "command": [
+        "C:/Program Files/Git/usr/bin/ssh.exe",
+        "-i",
+        "C:/Users/Administrator/.ssh/id_ed25519_investment_github",
+        "-o",
+        "IdentitiesOnly=yes",
+        "-o",
+        "UserKnownHostsFile=D:/投资学/三家公司证券投资分析/.local/known_hosts",
+        "-o",
+        "StrictHostKeyChecking=yes",
+        "-o",
+        "BatchMode=yes",
+        "-o",
+        "ConnectTimeout=10",
+        "-T",
+        "git@github.com"
+      ],
+      "exit_code": 1,
+      "stdout": "",
+      "stderr": "Hi Loyyed! You've successfully authenticated, but GitHub does not provide shell access.\n"
+    },
+    {
+      "at": "2026-11-10T03:00:54.713406+00:00",
+      "command": [
+        "C:/Program Files/Git/cmd/git.exe",
+        "-c",
+        "core.sshCommand=\"C:/Program Files/Git/usr/bin/ssh.exe\" -i C:/Users/Administrator/.ssh/id_ed25519_investment_github -o IdentitiesOnly=yes -o UserKnownHostsFile=D:/投资学/三家公司证券投资分析/.local/known_hosts -o StrictHostKeyChecking=yes -o BatchMode=yes -o ConnectTimeout=10",
+        "ls-remote",
+        "git@github.com:Loyyed/3-.git"
+      ],
+      "exit_code": 0,
+      "stdout": "",
+      "stderr": ""
+    }
+  ]
+}

@@ -1,0 +1,79 @@
+[
+  {
+    "company": "002507_涪陵榨菜",
+    "listed": 445,
+    "copied": 444,
+    "parsed": 444,
+    "annual_periods": [
+      "2025-FY",
+      "2024-FY",
+      "2023-FY",
+      "2022-FY",
+      "2021-FY",
+      "2020-FY",
+      "2019-FY",
+      "2018-FY",
+      "2017-FY",
+      "2016-FY",
+      "2015-FY",
+      "2014-FY",
+      "2013-FY",
+      "2012-FY",
+      "2011-FY",
+      "2010-FY"
+    ],
+    "latest_period": "2026-Q3",
+    "metadata_exceptions": 1
+  },
+  {
+    "company": "600298_安琪酵母",
+    "listed": 554,
+    "copied": 554,
+    "parsed": 554,
+    "annual_periods": [
+      "2025-FY",
+      "2024-FY",
+      "2023-FY",
+      "2022-FY",
+      "2021-FY",
+      "2019-FY",
+      "2018-FY",
+      "2017-FY",
+      "2016-FY",
+      "2015-FY",
+      "2014-FY",
+      "2013-FY",
+      "2012-FY",
+      "2011-FY",
+      "2010-FY",
+      "2009-FY",
+      "2008-FY",
+      "2007-FY",
+      "2006-FY",
+      "2005-FY",
+      "2004-FY",
+      "2003-FY",
+      "2002-FY",
+      "2001-FY"
+    ],
+    "latest_period": "2026-Q3",
+    "metadata_exceptions": 1
+  },
+  {
+    "company": "688188_柏楚电子",
+    "listed": 416,
+    "copied": 416,
+    "parsed": 416,
+    "annual_periods": [
+      "2019-FY",
+      "2020-FY",
+      "2021-FY",
+      "2022-FY",
+      "2023-FY",
+      "2024-FY",
+      "2025-FY"
+    ],
+    "latest_period": "2026-Q3",
+    "metadata_exceptions": 0
+  }
+]

@@ -1,0 +1,48 @@
+[
+  {
+    "source_id": "688188-a343f0dc3c27d114",
+    "path": "sources/raw/01_年报/2026-04-10_2025年年度报告_1225091045.pdf",
+    "title": "2025年年度报告",
+    "company": "柏楚电子",
+    "code": "688188.SH",
+    "period": "2025-FY",
+    "checked_at": "2026-11-10T02:59:22.754219+00:00",
+    "actor": "Codex Agent",
+    "PDF_pages": [
+      1,
+      2,
+      3
+    ],
+    "excerpt": "上海柏楚电子科技股份有限公司2025年年度报告\n1 / 266\n公司代码：688188 公司简称：柏楚电子\n上海柏楚电子科技股份有限公司\n2025 年年度报告",
+    "name_present": true,
+    "year_present": true,
+    "status": "Agent原文抽核，非人工确认",
+    "render": "Codex Agent已实际查看PDF第1页渲染图，公司名称与2025年度/2026第三季度标题匹配",
+    "render_exit": 0,
+    "render_error": "pdftoppm: security risk: running with elevated privileges\r\n\r\n\r\nMiKTeX requires Windows 10 (or greater): https://miktex.org/announcement/legacy-windows-deprecation\r\n",
+    "visual_checked_at": "2026-11-10T03:03:48.600881+00:00"
+  },
+  {
+    "source_id": "688188-fed67b607fa475a7",
+    "path": "sources/raw/02_定期报告与经营数据/2026-10-27_2026年第三季度报告_1225622322.pdf",
+    "title": "2026年第三季度报告",
+    "company": "柏楚电子",
+    "code": "688188.SH",
+    "period": "2026-Q3",
+    "checked_at": "2026-11-10T02:59:22.754219+00:00",
+    "actor": "Codex Agent",
+    "PDF_pages": [
+      1,
+      2,
+      3
+    ],
+    "excerpt": "上海柏楚电子科技股份有限公司 2026 年第三季度报告\n1 / 12\n证券代码：688188 证券简称：柏楚电子\n上海柏楚电子科技股份有限公司\n2026 年第三季度报告\n本公司董事会及全体董事保证本公告内容不存在任何虚假记载、误导性陈述或者重\n大遗漏，并对其内容的真实性、准确性和完整性依法承担法律责任。\n重要内容提示：\n公司董事会及董事、高级管理人员保证季度报告内容的真实、准确、完整，不存在虚假记载、误导性\n陈述或重大遗漏，并承担个别和",
+    "name_present": true,
+    "year_present": true,
+    "status": "Agent原文抽核，非人工确认",
+    "render": "Codex Agent已实际查看PDF第1页渲染图，公司名称与2025年度/2026第三季度标题匹配",
+    "render_exit": 0,
+    "render_error": "pdftoppm: security risk: running with elevated privileges\r\n\r\n\r\nMiKTeX requires Windows 10 (or greater): https://miktex.org/announcement/legacy-windows-deprecation\r\n",
+    "visual_checked_at": "2026-11-10T03:03:48.600881+00:00"
+  }
+]

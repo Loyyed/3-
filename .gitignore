@@ -1,0 +1,13 @@
+**/sources/raw/
+**/sources/text/
+**/sources/unpacked/
+**/runtime/
+**/__pycache__/
+*.py[cod]
+*.pdf
+*.PDF
+.env
+*.pem
+*.key
+.local/
+.cache/

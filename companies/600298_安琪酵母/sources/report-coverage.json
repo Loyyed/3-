@@ -1,0 +1,1579 @@
+[
+  {
+    "period": "2001-FY",
+    "versions": [
+      {
+        "id": "600298-96150fea2112f5ad",
+        "title": "安琪酵母2001年年度报告",
+        "path": "sources/raw/01_年报/2002-03-14_安琪酵母2001年年度报告_552574.pdf",
+        "summary": false,
+        "revision_hint": false
+      }
+    ]
+  },
+  {
+    "period": "2002-FY",
+    "versions": [
+      {
+        "id": "600298-a043101a93d9abeb",
+        "title": "安琪酵母2002年年度报告",
+        "path": "sources/raw/01_年报/2003-03-28_安琪酵母2002年年度报告_10385549.pdf",
+        "summary": false,
+        "revision_hint": false
+      }
+    ]
+  },
+  {
+    "period": "2002-Q1",
+    "versions": [
+      {
+        "id": "600298-5bdeded8802ac6b8",
+        "title": "安琪酵母2002年第一季度报告",
+        "path": "sources/raw/02_定期报告与经营数据/2002-04-22_安琪酵母2002年第一季度报告_576963.pdf",
+        "summary": false,
+        "revision_hint": false
+      }
+    ]
+  },
+  {
+    "period": "2002-Q3",
+    "versions": [
+      {
+        "id": "600298-8c9f6f89b153bdad",
+        "title": "安琪酵母2002年第三季度报告",
+        "path": "sources/raw/02_定期报告与经营数据/2002-10-26_安琪酵母2002年第三季度报告_10040851.pdf",
+        "summary": false,
+        "revision_hint": false
+      }
+    ]
+  },
+  {
+    "period": "2003-FY",
+    "versions": [
+      {
+        "id": "600298-e571e83c385479b8",
+        "title": "安琪酵母2003年年度报告",
+        "path": "sources/raw/01_年报/2004-02-28_安琪酵母2003年年度报告_13741495.pdf",
+        "summary": false,
+        "revision_hint": false
+      }
+    ]
+  },
+  {
+    "period": "2003-H1",
+    "versions": [
+      {
+        "id": "600298-71d15dc13e2c7c20",
+        "title": "安琪酵母2003年半年度报告",
+        "path": "sources/raw/01_年报/2003-07-25_安琪酵母2003年半年度报告_10809393.pdf",
+        "summary": false,
+        "revision_hint": false
+      }
+    ]
+  },
+  {
+    "period": "2003-Q1",
+    "versions": [
+      {
+        "id": "600298-4f1239647e0a43b1",
+        "title": "安琪酵母2003年第一季度报告",
+        "path": "sources/raw/02_定期报告与经营数据/2003-04-30_安琪酵母2003年第一季度报告_10688181.pdf",
+        "summary": false,
+        "revision_hint": false
+      }
+    ]
+  },
+  {
+    "period": "2003-Q3",
+    "versions": [
+      {
+        "id": "600298-f76ae63e4fb57854",
+        "title": "安琪酵母2003年第三季度报告",
+        "path": "sources/raw/02_定期报告与经营数据/2003-10-30_安琪酵母2003年第三季度报告_13031741.pdf",
+        "summary": false,
+        "revision_hint": false
+      }
+    ]
+  },
+  {
+    "period": "2004-FY",
+    "versions": [
+      {
+        "id": "600298-3dde487dd016b9a4",
+        "title": "安琪酵母2004年年度报告",
+        "path": "sources/raw/01_年报/2005-03-03_安琪酵母2004年年度报告_15057784.pdf",
+        "summary": false,
+        "revision_hint": false
+      },
+      {
+        "id": "600298-828ef558d46b6195",
+        "title": "安琪酵母2004年年度报告摘要",
+        "path": "sources/raw/01_年报/2005-03-03_安琪酵母2004年年度报告摘要_15057785.pdf",
+        "summary": true,
+        "revision_hint": false
+      }
+    ]
+  },
+  {
+    "period": "2004-H1",
+    "versions": [
+      {
+        "id": "600298-21059bb5e6ca5472",
+        "title": "安琪酵母2004年半年度报告",
+        "path": "sources/raw/01_年报/2004-07-28_安琪酵母2004年半年度报告_14372240.pdf",
+        "summary": false,
+        "revision_hint": false
+      },
+      {
+        "id": "600298-cc57fd2169c753cd",
+        "title": "安琪酵母2004年半年度报告摘要",
+        "path": "sources/raw/01_年报/2004-07-28_安琪酵母2004年半年度报告摘要_14372242.pdf",
+        "summary": true,
+        "revision_hint": false
+      }
+    ]
+  },
+  {
+    "period": "2004-Q1",
+    "versions": [
+      {
+        "id": "600298-b8641933321bd23d",
+        "title": "安琪酵母2004年第一季度报告",
+        "path": "sources/raw/02_定期报告与经营数据/2004-04-24_安琪酵母2004年第一季度报告_13980409.pdf",
+        "summary": false,
+        "revision_hint": false
+      }
+    ]
+  },
+  {
+    "period": "2004-Q3",
+    "versions": [
+      {
+        "id": "600298-19c90c20c965a365",
+        "title": "安琪酵母2004年第三季度报告",
+        "path": "sources/raw/02_定期报告与经营数据/2004-10-20_安琪酵母2004年第三季度报告_14690290.pdf",
+        "summary": false,
+        "revision_hint": false
+      }
+    ]
+  },
+  {
+    "period": "2005-FY",
+    "versions": [
+      {
+        "id": "600298-6e760efa72c47824",
+        "title": "2005年年度报告更正公告",
+        "path": "sources/raw/01_年报/2006-04-08_2005年年度报告更正公告_16869529.pdf",
+        "summary": false,
+        "revision_hint": true
+      },
+      {
+        "id": "600298-15f76fea162e70a3",
+        "title": "安琪酵母2005年年度报告",
+        "path": "sources/raw/01_年报/2006-03-23_安琪酵母2005年年度报告_16601073.pdf",
+        "summary": false,
+        "revision_hint": false
+      },
+      {
+        "id": "600298-eda92f4bc9b51fa1",
+        "title": "安琪酵母2005年年度报告摘要",
+        "path": "sources/raw/01_年报/2006-03-23_安琪酵母2005年年度报告摘要_16601071.pdf",
+        "summary": true,
+        "revision_hint": false
+      }
+    ]
+  },
+  {
+    "period": "2005-H1",
+    "versions": [
+      {
+        "id": "600298-1b5abbbffbe34e5f",
+        "title": "安琪酵母2005年半年度报告",
+        "path": "sources/raw/01_年报/2005-08-12_安琪酵母2005年半年度报告_15760639.pdf",
+        "summary": false,
+        "revision_hint": false
+      },
+      {
+        "id": "600298-2d6e9e45626a25d4",
+        "title": "安琪酵母2005年半年度报告摘要",
+        "path": "sources/raw/01_年报/2005-08-12_安琪酵母2005年半年度报告摘要_15760647.pdf",
+        "summary": true,
+        "revision_hint": false
+      }
+    ]
+  },
+  {
+    "period": "2005-Q1",
+    "versions": [
+      {
+        "id": "600298-f48dd6430a5ff571",
+        "title": "安琪酵母2005年第一季度报告",
+        "path": "sources/raw/02_定期报告与经营数据/2005-04-25_安琪酵母2005年第一季度报告_15283079.pdf",
+        "summary": false,
+        "revision_hint": false
+      }
+    ]
+  },
+  {
+    "period": "2005-Q3",
+    "versions": [
+      {
+        "id": "600298-18d78bfd56fc90b0",
+        "title": "安琪酵母2005年第三季度报告更正公告",
+        "path": "sources/raw/02_定期报告与经营数据/2005-10-27_安琪酵母2005年第三季度报告更正公告_16107423.pdf",
+        "summary": false,
+        "revision_hint": true
+      },
+      {
+        "id": "600298-289dab0f4147b17f",
+        "title": "安琪酵母2005年第三季度报告",
+        "path": "sources/raw/02_定期报告与经营数据/2005-10-22_安琪酵母2005年第三季度报告_16066375.pdf",
+        "summary": false,
+        "revision_hint": false
+      }
+    ]
+  },
+  {
+    "period": "2006-FY",
+    "versions": [
+      {
+        "id": "600298-e0d8c6a337061706",
+        "title": "2006年年度报告",
+        "path": "sources/raw/01_年报/2007-02-10_2006年年度报告_20859239.pdf",
+        "summary": false,
+        "revision_hint": false
+      },
+      {
+        "id": "600298-9c5ac9378727c075",
+        "title": "2006年年度报告摘要",
+        "path": "sources/raw/01_年报/2007-02-10_2006年年度报告摘要_20859241.pdf",
+        "summary": true,
+        "revision_hint": false
+      }
+    ]
+  },
+  {
+    "period": "2006-Q1",
+    "versions": [
+      {
+        "id": "600298-4478ff247df7e06a",
+        "title": "安琪酵母2006年第一季度报告",
+        "path": "sources/raw/02_定期报告与经营数据/2006-04-22_安琪酵母2006年第一季度报告_16955309.pdf",
+        "summary": false,
+        "revision_hint": false
+      }
+    ]
+  },
+  {
+    "period": "2006-Q3",
+    "versions": [
+      {
+        "id": "600298-eeb30219c048d7fe",
+        "title": "安琪酵母2006年第三季度报告 ",
+        "path": "sources/raw/02_定期报告与经营数据/2006-10-19_安琪酵母2006年第三季度报告 _18469406.pdf",
+        "summary": false,
+        "revision_hint": false
+      }
+    ]
+  },
+  {
+    "period": "2007-FY",
+    "versions": [
+      {
+        "id": "600298-898ea925e2ab4d2d",
+        "title": "2007年年度报告（修订版）",
+        "path": "sources/raw/01_年报/2008-04-01_2007年年度报告（修订版）_38436838.pdf",
+        "summary": false,
+        "revision_hint": true
+      },
+      {
+        "id": "600298-c620cfb5f9b51760",
+        "title": "2007年年度报告摘要（修订版）",
+        "path": "sources/raw/01_年报/2008-04-01_2007年年度报告摘要（修订版）_38436848.pdf",
+        "summary": true,
+        "revision_hint": true
+      },
+      {
+        "id": "600298-abb2dd2077d73f46",
+        "title": "2007年年度报告",
+        "path": "sources/raw/01_年报/2008-03-05_2007年年度报告_37747571.pdf",
+        "summary": false,
+        "revision_hint": false
+      },
+      {
+        "id": "600298-4e8be823da1748ca",
+        "title": "2007年年度报告摘要",
+        "path": "sources/raw/01_年报/2008-03-05_2007年年度报告摘要_37747591.pdf",
+        "summary": true,
+        "revision_hint": false
+      }
+    ]
+  },
+  {
+    "period": "2007-H1",
+    "versions": [
+      {
+        "id": "600298-a2904dcb90cf3500",
+        "title": "2007年半年度报告",
+        "path": "sources/raw/01_年报/2007-07-18_2007年半年度报告_29973565.pdf",
+        "summary": false,
+        "revision_hint": false
+      },
+      {
+        "id": "600298-9f0b6004200f463b",
+        "title": "2007年半年度报告摘要",
+        "path": "sources/raw/01_年报/2007-07-18_2007年半年度报告摘要_29973579.pdf",
+        "summary": true,
+        "revision_hint": false
+      }
+    ]
+  },
+  {
+    "period": "2007-Q1",
+    "versions": [
+      {
+        "id": "600298-9b1de80c560398f8",
+        "title": "2007年第一季度报告",
+        "path": "sources/raw/02_定期报告与经营数据/2007-04-17_2007年第一季度报告_22779162.pdf",
+        "summary": false,
+        "revision_hint": false
+      }
+    ]
+  },
+  {
+    "period": "2007-Q3",
+    "versions": [
+      {
+        "id": "600298-0cb0867e5cf81d33",
+        "title": "2007年第三季度报告",
+        "path": "sources/raw/02_定期报告与经营数据/2007-10-25_2007年第三季度报告_34780690.pdf",
+        "summary": false,
+        "revision_hint": false
+      }
+    ]
+  },
+  {
+    "period": "2008-FY",
+    "versions": [
+      {
+        "id": "600298-4a7c50d0fac7bff9",
+        "title": "2008年年度报告",
+        "path": "sources/raw/01_年报/2009-03-27_2008年年度报告_50630325.pdf",
+        "summary": false,
+        "revision_hint": false
+      },
+      {
+        "id": "600298-b0b15b43797a279a",
+        "title": "2008年年度报告摘要",
+        "path": "sources/raw/01_年报/2009-03-27_2008年年度报告摘要_50630326.pdf",
+        "summary": true,
+        "revision_hint": false
+      }
+    ]
+  },
+  {
+    "period": "2008-H1",
+    "versions": [
+      {
+        "id": "600298-1eb313836b23b154",
+        "title": "2008年半年度报告",
+        "path": "sources/raw/01_年报/2008-07-26_2008年半年度报告_41598426.pdf",
+        "summary": false,
+        "revision_hint": false
+      },
+      {
+        "id": "600298-4c825fe629a31e67",
+        "title": "2008年半年度报告摘要",
+        "path": "sources/raw/01_年报/2008-07-26_2008年半年度报告摘要_41598427.pdf",
+        "summary": true,
+        "revision_hint": false
+      }
+    ]
+  },
+  {
+    "period": "2008-Q1",
+    "versions": [
+      {
+        "id": "600298-abaefd1cdf72f253",
+        "title": "2008年第一季度报告",
+        "path": "sources/raw/02_定期报告与经营数据/2008-04-15_2008年第一季度报告_38778554.pdf",
+        "summary": false,
+        "revision_hint": false
+      }
+    ]
+  },
+  {
+    "period": "2008-Q3",
+    "versions": [
+      {
+        "id": "600298-85b3d37c0ceea41e",
+        "title": "2008年第三季度报告",
+        "path": "sources/raw/02_定期报告与经营数据/2008-10-25_2008年第三季度报告_45631212.pdf",
+        "summary": false,
+        "revision_hint": false
+      }
+    ]
+  },
+  {
+    "period": "2009-FY",
+    "versions": [
+      {
+        "id": "600298-293ffcf2018a3abe",
+        "title": "2009年年度报告",
+        "path": "sources/raw/01_年报/2010-02-05_2009年年度报告_57581457.pdf",
+        "summary": false,
+        "revision_hint": false
+      },
+      {
+        "id": "600298-49f16e2b7a31555d",
+        "title": "2009年年度报告摘要",
+        "path": "sources/raw/01_年报/2010-02-05_2009年年度报告摘要_57581458.pdf",
+        "summary": true,
+        "revision_hint": false
+      }
+    ]
+  },
+  {
+    "period": "2009-H1",
+    "versions": [
+      {
+        "id": "600298-e919282d58acf73e",
+        "title": "2009年半年度报告",
+        "path": "sources/raw/01_年报/2009-08-20_2009年半年度报告_56147308.pdf",
+        "summary": false,
+        "revision_hint": false
+      },
+      {
+        "id": "600298-1b4e42dcb5acfa69",
+        "title": "2009年半年度报告摘要",
+        "path": "sources/raw/01_年报/2009-08-20_2009年半年度报告摘要_56147309.pdf",
+        "summary": true,
+        "revision_hint": false
+      }
+    ]
+  },
+  {
+    "period": "2009-Q1",
+    "versions": [
+      {
+        "id": "600298-11976f0d905129b2",
+        "title": "2009年第一季度报告",
+        "path": "sources/raw/02_定期报告与经营数据/2009-04-22_2009年第一季度报告_51607267.pdf",
+        "summary": false,
+        "revision_hint": false
+      }
+    ]
+  },
+  {
+    "period": "2009-Q3",
+    "versions": [
+      {
+        "id": "600298-bcd853e5bac5004c",
+        "title": "2009年第三季度报告",
+        "path": "sources/raw/02_定期报告与经营数据/2009-10-23_2009年第三季度报告_57187851.pdf",
+        "summary": false,
+        "revision_hint": false
+      }
+    ]
+  },
+  {
+    "period": "2010-FY",
+    "versions": [
+      {
+        "id": "600298-10032c742adcefb2",
+        "title": "2010年年度报告",
+        "path": "sources/raw/01_年报/2011-01-22_2010年年度报告_58934195.pdf",
+        "summary": false,
+        "revision_hint": false
+      },
+      {
+        "id": "600298-feadb8bb20cf60c5",
+        "title": "2010年年度报告摘要",
+        "path": "sources/raw/01_年报/2011-01-22_2010年年度报告摘要_58934196.pdf",
+        "summary": true,
+        "revision_hint": false
+      }
+    ]
+  },
+  {
+    "period": "2010-H1",
+    "versions": [
+      {
+        "id": "600298-c32771374f7b60e8",
+        "title": "2010年半年度报告",
+        "path": "sources/raw/01_年报/2010-07-24_2010年半年度报告_58213430.pdf",
+        "summary": false,
+        "revision_hint": false
+      },
+      {
+        "id": "600298-82b3f9fbcd018c1f",
+        "title": "2010年半年度报告摘要",
+        "path": "sources/raw/01_年报/2010-07-24_2010年半年度报告摘要_58213431.pdf",
+        "summary": true,
+        "revision_hint": false
+      }
+    ]
+  },
+  {
+    "period": "2010-Q1",
+    "versions": [
+      {
+        "id": "600298-a621c87a91b63875",
+        "title": "2010年第一季度报告",
+        "path": "sources/raw/02_定期报告与经营数据/2010-04-23_2010年第一季度报告_57857367.pdf",
+        "summary": false,
+        "revision_hint": false
+      }
+    ]
+  },
+  {
+    "period": "2010-Q3",
+    "versions": [
+      {
+        "id": "600298-0ed6e19264f7c9a8",
+        "title": "2010年第三季度报告",
+        "path": "sources/raw/02_定期报告与经营数据/2010-10-29_2010年第三季度报告_58594777.pdf",
+        "summary": false,
+        "revision_hint": false
+      }
+    ]
+  },
+  {
+    "period": "2011-FY",
+    "versions": [
+      {
+        "id": "600298-78d0d577faa25d57",
+        "title": "2011年年度报告",
+        "path": "sources/raw/01_年报/2012-03-10_2011年年度报告_60651072.pdf",
+        "summary": false,
+        "revision_hint": false
+      },
+      {
+        "id": "600298-d5e1dad758231ad7",
+        "title": "2011年年度报告摘要",
+        "path": "sources/raw/01_年报/2012-03-10_2011年年度报告摘要_60651073.pdf",
+        "summary": true,
+        "revision_hint": false
+      }
+    ]
+  },
+  {
+    "period": "2011-H1",
+    "versions": [
+      {
+        "id": "600298-8246fee85d61e780",
+        "title": "2011年半年度报告",
+        "path": "sources/raw/01_年报/2011-07-16_2011年半年度报告_59683917.pdf",
+        "summary": false,
+        "revision_hint": false
+      },
+      {
+        "id": "600298-603705a2b47c4fd7",
+        "title": "2011年半年度报告摘要",
+        "path": "sources/raw/01_年报/2011-07-16_2011年半年度报告摘要_59683918.pdf",
+        "summary": true,
+        "revision_hint": false
+      }
+    ]
+  },
+  {
+    "period": "2011-Q1",
+    "versions": [
+      {
+        "id": "600298-7779a9df3bcc0888",
+        "title": "2011年第一季度报告",
+        "path": "sources/raw/02_定期报告与经营数据/2011-04-26_2011年第一季度报告_59337808.pdf",
+        "summary": false,
+        "revision_hint": false
+      }
+    ]
+  },
+  {
+    "period": "2011-Q3",
+    "versions": [
+      {
+        "id": "600298-1a9d350fae50aa4b",
+        "title": "2011年第三季度报告",
+        "path": "sources/raw/02_定期报告与经营数据/2011-10-15_2011年第三季度报告_60060339.pdf",
+        "summary": false,
+        "revision_hint": false
+      }
+    ]
+  },
+  {
+    "period": "2012-FY",
+    "versions": [
+      {
+        "id": "600298-f366a1d24904a6f0",
+        "title": "2012年年度报告（修订版）",
+        "path": "sources/raw/01_年报/2013-05-31_2012年年度报告（修订版）_62538881.pdf",
+        "summary": false,
+        "revision_hint": true
+      },
+      {
+        "id": "600298-926f56ec5ac26557",
+        "title": "2012年年度报告摘要（修订版）",
+        "path": "sources/raw/01_年报/2013-05-31_2012年年度报告摘要（修订版）_62538882.pdf",
+        "summary": true,
+        "revision_hint": true
+      },
+      {
+        "id": "600298-92da2094997c234e",
+        "title": "关于2012年年度报告补充披露及更正公告",
+        "path": "sources/raw/01_年报/2013-05-31_关于2012年年度报告补充披露及更正公告_62538891.pdf",
+        "summary": false,
+        "revision_hint": true
+      },
+      {
+        "id": "600298-681cf673b7976552",
+        "title": "2012年年度报告",
+        "path": "sources/raw/01_年报/2013-03-21_2012年年度报告_62237007.pdf",
+        "summary": false,
+        "revision_hint": false
+      },
+      {
+        "id": "600298-a132407fdafa9cd3",
+        "title": "2012年年度报告摘要",
+        "path": "sources/raw/01_年报/2013-03-21_2012年年度报告摘要_62237008.pdf",
+        "summary": true,
+        "revision_hint": false
+      }
+    ]
+  },
+  {
+    "period": "2012-H1",
+    "versions": [
+      {
+        "id": "600298-eb588a04c9e0441c",
+        "title": "2012年半年度报告",
+        "path": "sources/raw/01_年报/2012-08-15_2012年半年度报告_61422402.pdf",
+        "summary": false,
+        "revision_hint": false
+      },
+      {
+        "id": "600298-272eb80efa11ddd7",
+        "title": "2012年半年度报告摘要",
+        "path": "sources/raw/01_年报/2012-08-15_2012年半年度报告摘要_61422403.pdf",
+        "summary": true,
+        "revision_hint": false
+      }
+    ]
+  },
+  {
+    "period": "2012-Q1",
+    "versions": [
+      {
+        "id": "600298-0d6c1ac8ff13ccf1",
+        "title": "2012年第一季度报告",
+        "path": "sources/raw/02_定期报告与经营数据/2012-04-23_2012年第一季度报告_60880327.pdf",
+        "summary": false,
+        "revision_hint": false
+      }
+    ]
+  },
+  {
+    "period": "2012-Q3",
+    "versions": [
+      {
+        "id": "600298-f3f53540e766654f",
+        "title": "2012年第三季度报告",
+        "path": "sources/raw/02_定期报告与经营数据/2012-10-26_2012年第三季度报告_61710966.pdf",
+        "summary": false,
+        "revision_hint": false
+      }
+    ]
+  },
+  {
+    "period": "2013-FY",
+    "versions": [
+      {
+        "id": "600298-7d81b69bcffb8e2d",
+        "title": "关于2013年年度报告的补充公告",
+        "path": "sources/raw/01_年报/2014-05-09_关于2013年年度报告的补充公告_64001640.pdf",
+        "summary": false,
+        "revision_hint": false
+      },
+      {
+        "id": "600298-99597759863c7b23",
+        "title": "2013年年度报告",
+        "path": "sources/raw/01_年报/2014-03-15_2013年年度报告_63679177.pdf",
+        "summary": false,
+        "revision_hint": false
+      },
+      {
+        "id": "600298-415b99f1b37b97cc",
+        "title": "2013年年度报告摘要",
+        "path": "sources/raw/01_年报/2014-03-15_2013年年度报告摘要_63679168.pdf",
+        "summary": true,
+        "revision_hint": false
+      }
+    ]
+  },
+  {
+    "period": "2013-H1",
+    "versions": [
+      {
+        "id": "600298-b8f3c575ebe6ce5f",
+        "title": "2013年半年度报告（修订版）",
+        "path": "sources/raw/01_年报/2013-08-10_2013年半年度报告（修订版）_62924462.pdf",
+        "summary": false,
+        "revision_hint": true
+      },
+      {
+        "id": "600298-491753bb31472864",
+        "title": "2013年半年度报告更正公告",
+        "path": "sources/raw/01_年报/2013-08-10_2013年半年度报告更正公告_62924452.pdf",
+        "summary": false,
+        "revision_hint": true
+      },
+      {
+        "id": "600298-0df5287c04db3540",
+        "title": "2013年半年度报告摘要（修订版）",
+        "path": "sources/raw/01_年报/2013-08-10_2013年半年度报告摘要（修订版）_62924463.pdf",
+        "summary": true,
+        "revision_hint": true
+      },
+      {
+        "id": "600298-5699bdc594215bdf",
+        "title": "2013年半年度报告",
+        "path": "sources/raw/01_年报/2013-07-18_2013年半年度报告_62844836.pdf",
+        "summary": false,
+        "revision_hint": false
+      },
+      {
+        "id": "600298-9ab82dbdc373a248",
+        "title": "2013年半年度报告摘要",
+        "path": "sources/raw/01_年报/2013-07-18_2013年半年度报告摘要_62844837.pdf",
+        "summary": true,
+        "revision_hint": false
+      }
+    ]
+  },
+  {
+    "period": "2013-Q1",
+    "versions": [
+      {
+        "id": "600298-d5025b62fb1953b8",
+        "title": "2013年第一季度报告",
+        "path": "sources/raw/02_定期报告与经营数据/2013-04-20_2013年第一季度报告_62394753.pdf",
+        "summary": false,
+        "revision_hint": false
+      }
+    ]
+  },
+  {
+    "period": "2013-Q3",
+    "versions": [
+      {
+        "id": "600298-519056bb41904a2a",
+        "title": "2013年第三季度报告",
+        "path": "sources/raw/02_定期报告与经营数据/2013-10-26_2013年第三季度报告_63196520.pdf",
+        "summary": false,
+        "revision_hint": false
+      }
+    ]
+  },
+  {
+    "period": "2014-FY",
+    "versions": [
+      {
+        "id": "600298-016c82cbbef611ef",
+        "title": "2014年年度报告",
+        "path": "sources/raw/01_年报/2015-03-28_2014年年度报告_1200757877.pdf",
+        "summary": false,
+        "revision_hint": false
+      },
+      {
+        "id": "600298-f2a2fbf26cdae7f6",
+        "title": "2014年年度报告摘要",
+        "path": "sources/raw/01_年报/2015-03-28_2014年年度报告摘要_1200757899.pdf",
+        "summary": true,
+        "revision_hint": false
+      }
+    ]
+  },
+  {
+    "period": "2014-H1",
+    "versions": [
+      {
+        "id": "600298-c874ff0ba3a341a8",
+        "title": "2014年半年度报告",
+        "path": "sources/raw/01_年报/2014-07-25_2014年半年度报告_1200076028.pdf",
+        "summary": false,
+        "revision_hint": false
+      },
+      {
+        "id": "600298-3f61ec3f9a97dbad",
+        "title": "2014年半年度报告摘要",
+        "path": "sources/raw/01_年报/2014-07-25_2014年半年度报告摘要_1200076023.pdf",
+        "summary": true,
+        "revision_hint": false
+      }
+    ]
+  },
+  {
+    "period": "2014-Q1",
+    "versions": [
+      {
+        "id": "600298-86e7a867f0c7d194",
+        "title": "2014年第一季度报告",
+        "path": "sources/raw/02_定期报告与经营数据/2014-04-18_2014年第一季度报告_63860032.pdf",
+        "summary": false,
+        "revision_hint": false
+      }
+    ]
+  },
+  {
+    "period": "2014-Q3",
+    "versions": [
+      {
+        "id": "600298-62c755c38b2018ac",
+        "title": "2014年第三季度报告",
+        "path": "sources/raw/02_定期报告与经营数据/2014-10-24_2014年第三季度报告_1200323275.pdf",
+        "summary": false,
+        "revision_hint": false
+      }
+    ]
+  },
+  {
+    "period": "2015-FY",
+    "versions": [
+      {
+        "id": "600298-ceb5415a2684d6ee",
+        "title": "2015年年度报告",
+        "path": "sources/raw/01_年报/2016-03-11_2015年年度报告_1202035638.pdf",
+        "summary": false,
+        "revision_hint": false
+      },
+      {
+        "id": "600298-1ff3974ec81cabbb",
+        "title": "2015年年度报告摘要",
+        "path": "sources/raw/01_年报/2016-03-11_2015年年度报告摘要_1202035632.pdf",
+        "summary": true,
+        "revision_hint": false
+      }
+    ]
+  },
+  {
+    "period": "2015-H1",
+    "versions": [
+      {
+        "id": "600298-9f234f04dc08786d",
+        "title": "2015年半年度报告",
+        "path": "sources/raw/01_年报/2015-08-17_2015年半年度报告_1201444803.pdf",
+        "summary": false,
+        "revision_hint": false
+      },
+      {
+        "id": "600298-eeee3ef0d5de341e",
+        "title": "2015年半年度报告摘要",
+        "path": "sources/raw/01_年报/2015-08-17_2015年半年度报告摘要_1201444804.pdf",
+        "summary": true,
+        "revision_hint": false
+      }
+    ]
+  },
+  {
+    "period": "2015-Q1",
+    "versions": [
+      {
+        "id": "600298-d11e7e2b5fb81963",
+        "title": "2015年第一季度报告",
+        "path": "sources/raw/02_定期报告与经营数据/2015-04-24_2015年第一季度报告_1200896889.pdf",
+        "summary": false,
+        "revision_hint": false
+      }
+    ]
+  },
+  {
+    "period": "2015-Q3",
+    "versions": [
+      {
+        "id": "600298-b003b9e4be401955",
+        "title": "2015年第三季度报告",
+        "path": "sources/raw/02_定期报告与经营数据/2015-10-30_2015年第三季度报告_1201738694.pdf",
+        "summary": false,
+        "revision_hint": false
+      }
+    ]
+  },
+  {
+    "period": "2016-FY",
+    "versions": [
+      {
+        "id": "600298-2c929058f8536e0f",
+        "title": "2016年年度报告",
+        "path": "sources/raw/01_年报/2017-03-16_2016年年度报告_1203163468.pdf",
+        "summary": false,
+        "revision_hint": false
+      },
+      {
+        "id": "600298-41727acca1abc83a",
+        "title": "2016年年度报告摘要",
+        "path": "sources/raw/01_年报/2017-03-16_2016年年度报告摘要_1203163466.pdf",
+        "summary": true,
+        "revision_hint": false
+      }
+    ]
+  },
+  {
+    "period": "2016-H1",
+    "versions": [
+      {
+        "id": "600298-22b87033c3160181",
+        "title": "2016年半年度报告",
+        "path": "sources/raw/01_年报/2016-08-15_2016年半年度报告_1202564071.pdf",
+        "summary": false,
+        "revision_hint": false
+      },
+      {
+        "id": "600298-ee03e60bdc12b62b",
+        "title": "2016年半年度报告摘要",
+        "path": "sources/raw/01_年报/2016-08-15_2016年半年度报告摘要_1202564069.pdf",
+        "summary": true,
+        "revision_hint": false
+      }
+    ]
+  },
+  {
+    "period": "2016-Q1",
+    "versions": [
+      {
+        "id": "600298-1e6d4fbee243156a",
+        "title": "2016年第一季度报告",
+        "path": "sources/raw/02_定期报告与经营数据/2016-04-20_2016年第一季度报告_1202204474.pdf",
+        "summary": false,
+        "revision_hint": false
+      }
+    ]
+  },
+  {
+    "period": "2016-Q3",
+    "versions": [
+      {
+        "id": "600298-412d4f3debee7f00",
+        "title": "2016年第三季度报告",
+        "path": "sources/raw/02_定期报告与经营数据/2016-10-19_2016年第三季度报告_1202767612.pdf",
+        "summary": false,
+        "revision_hint": false
+      }
+    ]
+  },
+  {
+    "period": "2017-FY",
+    "versions": [
+      {
+        "id": "600298-a981ab70d1b425bc",
+        "title": "2017年年度报告（修订版）",
+        "path": "sources/raw/01_年报/2018-05-12_2017年年度报告（修订版）_1204932442.pdf",
+        "summary": false,
+        "revision_hint": true
+      },
+      {
+        "id": "600298-6fc7e3d30c55d665",
+        "title": "关于2017年年度报告环境信息的补充公告",
+        "path": "sources/raw/01_年报/2018-05-12_关于2017年年度报告环境信息的补充公告_1204932441.pdf",
+        "summary": false,
+        "revision_hint": false
+      },
+      {
+        "id": "600298-9d4517e77e155d14",
+        "title": "2017年年度报告",
+        "path": "sources/raw/01_年报/2018-03-16_2017年年度报告_1204478998.pdf",
+        "summary": false,
+        "revision_hint": false
+      },
+      {
+        "id": "600298-a5318b701de24eb6",
+        "title": "2017年年度报告摘要",
+        "path": "sources/raw/01_年报/2018-03-16_2017年年度报告摘要_1204478989.pdf",
+        "summary": true,
+        "revision_hint": false
+      }
+    ]
+  },
+  {
+    "period": "2017-H1",
+    "versions": [
+      {
+        "id": "600298-279ab1896b9b76e3",
+        "title": "2017年半年度报告",
+        "path": "sources/raw/01_年报/2017-07-13_2017年半年度报告_1203700541.pdf",
+        "summary": false,
+        "revision_hint": false
+      },
+      {
+        "id": "600298-2500603d1e033f25",
+        "title": "2017年半年度报告摘要",
+        "path": "sources/raw/01_年报/2017-07-13_2017年半年度报告摘要_1203700540.pdf",
+        "summary": true,
+        "revision_hint": false
+      }
+    ]
+  },
+  {
+    "period": "2017-Q1",
+    "versions": [
+      {
+        "id": "600298-cb293af4754465da",
+        "title": "2017年第一季度报告",
+        "path": "sources/raw/02_定期报告与经营数据/2017-04-19_2017年第一季度报告_1203324124.pdf",
+        "summary": false,
+        "revision_hint": false
+      }
+    ]
+  },
+  {
+    "period": "2017-Q3",
+    "versions": [
+      {
+        "id": "600298-4e57d2d33a2b9755",
+        "title": "2017年第三季度报告",
+        "path": "sources/raw/02_定期报告与经营数据/2017-10-25_2017年第三季度报告_1204065214.pdf",
+        "summary": false,
+        "revision_hint": false
+      }
+    ]
+  },
+  {
+    "period": "2018-FY",
+    "versions": [
+      {
+        "id": "600298-04f27cf27c131885",
+        "title": "2018年年度报告",
+        "path": "sources/raw/01_年报/2019-03-23_2018年年度报告_1205930711.pdf",
+        "summary": false,
+        "revision_hint": false
+      },
+      {
+        "id": "600298-1aa25ac0e494aaf6",
+        "title": "2018年年度报告摘要",
+        "path": "sources/raw/01_年报/2019-03-23_2018年年度报告摘要_1205930687.pdf",
+        "summary": true,
+        "revision_hint": false
+      }
+    ]
+  },
+  {
+    "period": "2018-H1",
+    "versions": [
+      {
+        "id": "600298-57017e7557a7778f",
+        "title": "2018年半年度报告",
+        "path": "sources/raw/01_年报/2018-08-17_2018年半年度报告_1205297639.pdf",
+        "summary": false,
+        "revision_hint": false
+      },
+      {
+        "id": "600298-6fa69823c837a09d",
+        "title": "2018年半年度报告摘要",
+        "path": "sources/raw/01_年报/2018-08-17_2018年半年度报告摘要_1205297634.pdf",
+        "summary": true,
+        "revision_hint": false
+      }
+    ]
+  },
+  {
+    "period": "2018-Q1",
+    "versions": [
+      {
+        "id": "600298-fec9234620d1d2c2",
+        "title": "2018年第一季度报告",
+        "path": "sources/raw/02_定期报告与经营数据/2018-04-20_2018年第一季度报告_1204663161.pdf",
+        "summary": false,
+        "revision_hint": false
+      }
+    ]
+  },
+  {
+    "period": "2018-Q3",
+    "versions": [
+      {
+        "id": "600298-ede692ba92eb406d",
+        "title": "2018年第三季度报告",
+        "path": "sources/raw/02_定期报告与经营数据/2018-10-26_2018年第三季度报告_1205537983.pdf",
+        "summary": false,
+        "revision_hint": false
+      }
+    ]
+  },
+  {
+    "period": "2019-FY",
+    "versions": [
+      {
+        "id": "600298-1cc4438d64bb6b67",
+        "title": "2019年年度报告",
+        "path": "sources/raw/01_年报/2020-03-31_2019年年度报告_1207432062.pdf",
+        "summary": false,
+        "revision_hint": false
+      },
+      {
+        "id": "600298-100300448dd14c3d",
+        "title": "2019年年度报告摘要",
+        "path": "sources/raw/01_年报/2020-03-31_2019年年度报告摘要_1207432073.pdf",
+        "summary": true,
+        "revision_hint": false
+      }
+    ]
+  },
+  {
+    "period": "2019-H1",
+    "versions": [
+      {
+        "id": "600298-3e038baf7a157d23",
+        "title": "2019年半年度报告",
+        "path": "sources/raw/01_年报/2019-08-10_2019年半年度报告_1206510484.pdf",
+        "summary": false,
+        "revision_hint": false
+      },
+      {
+        "id": "600298-8bb3782dcd4592bf",
+        "title": "2019年半年度报告摘要",
+        "path": "sources/raw/01_年报/2019-08-10_2019年半年度报告摘要_1206510485.pdf",
+        "summary": true,
+        "revision_hint": false
+      }
+    ]
+  },
+  {
+    "period": "2019-Q1",
+    "versions": [
+      {
+        "id": "600298-6221704706890c50",
+        "title": "2019年第一季度报告",
+        "path": "sources/raw/02_定期报告与经营数据/2019-04-25_2019年第一季度报告_1206085769.pdf",
+        "summary": false,
+        "revision_hint": false
+      }
+    ]
+  },
+  {
+    "period": "2019-Q3",
+    "versions": [
+      {
+        "id": "600298-cc1f7bec54fe5ca0",
+        "title": "2019年第三季度报告",
+        "path": "sources/raw/02_定期报告与经营数据/2019-10-23_2019年第三季度报告_1207003265.pdf",
+        "summary": false,
+        "revision_hint": false
+      }
+    ]
+  },
+  {
+    "period": "2020-H1",
+    "versions": [
+      {
+        "id": "600298-00afeaca0270bf0f",
+        "title": "2020年半年度报告",
+        "path": "sources/raw/01_年报/2020-08-18_2020年半年度报告_1208186183.pdf",
+        "summary": false,
+        "revision_hint": false
+      },
+      {
+        "id": "600298-bac2cc5357fe764b",
+        "title": "2020年半年度报告摘要",
+        "path": "sources/raw/01_年报/2020-08-18_2020年半年度报告摘要_1208186180.pdf",
+        "summary": true,
+        "revision_hint": false
+      }
+    ]
+  },
+  {
+    "period": "2020-Q1",
+    "versions": [
+      {
+        "id": "600298-2aeabd7d22a71115",
+        "title": "2020年第一季度报告",
+        "path": "sources/raw/02_定期报告与经营数据/2020-04-23_2020年第一季度报告_1207554770.pdf",
+        "summary": false,
+        "revision_hint": false
+      },
+      {
+        "id": "600298-8e434efb9aa9f3ff",
+        "title": "2020年第一季度报告正文",
+        "path": "sources/raw/02_定期报告与经营数据/2020-04-23_2020年第一季度报告正文_1207554769.pdf",
+        "summary": false,
+        "revision_hint": false
+      }
+    ]
+  },
+  {
+    "period": "2020-Q3",
+    "versions": [
+      {
+        "id": "600298-7ff85b30b8cde36f",
+        "title": "2020年第三季度报告",
+        "path": "sources/raw/02_定期报告与经营数据/2020-10-23_2020年第三季度报告_1208601355.pdf",
+        "summary": false,
+        "revision_hint": false
+      },
+      {
+        "id": "600298-cbeb019e0d857a8a",
+        "title": "2020年第三季度报告正文",
+        "path": "sources/raw/02_定期报告与经营数据/2020-10-23_2020年第三季度报告正文_1208601354.pdf",
+        "summary": false,
+        "revision_hint": false
+      }
+    ]
+  },
+  {
+    "period": "2021-FY",
+    "versions": [
+      {
+        "id": "600298-5445efd3d106ef39",
+        "title": "安琪酵母股份有限公司2021年年度报告",
+        "path": "sources/raw/01_年报/2022-03-29_安琪酵母股份有限公司2021年年度报告_1212711931.pdf",
+        "summary": false,
+        "revision_hint": false
+      },
+      {
+        "id": "600298-033c5745cbf5540b",
+        "title": "安琪酵母股份有限公司2021年年度报告摘要",
+        "path": "sources/raw/01_年报/2022-03-29_安琪酵母股份有限公司2021年年度报告摘要_1212711920.pdf",
+        "summary": true,
+        "revision_hint": false
+      }
+    ]
+  },
+  {
+    "period": "2021-H1",
+    "versions": [
+      {
+        "id": "600298-78e7ab608b00fe7f",
+        "title": "安琪酵母股份有限公司2021年半年度报告",
+        "path": "sources/raw/01_年报/2021-07-23_安琪酵母股份有限公司2021年半年度报告_1210551496.pdf",
+        "summary": false,
+        "revision_hint": false
+      },
+      {
+        "id": "600298-bdf67c6c4d84e7fe",
+        "title": "安琪酵母股份有限公司2021年半年度报告摘要",
+        "path": "sources/raw/01_年报/2021-07-23_安琪酵母股份有限公司2021年半年度报告摘要_1210551495.pdf",
+        "summary": true,
+        "revision_hint": false
+      }
+    ]
+  },
+  {
+    "period": "2021-Q1",
+    "versions": [
+      {
+        "id": "600298-d5a6c417138789fb",
+        "title": "安琪酵母2021年第一季度报告全文",
+        "path": "sources/raw/02_定期报告与经营数据/2021-04-15_安琪酵母2021年第一季度报告全文_1209688252.pdf",
+        "summary": false,
+        "revision_hint": false
+      },
+      {
+        "id": "600298-81072016c1ea98e5",
+        "title": "安琪酵母2021年第一季度报告正文",
+        "path": "sources/raw/02_定期报告与经营数据/2021-04-15_安琪酵母2021年第一季度报告正文_1209688251.pdf",
+        "summary": false,
+        "revision_hint": false
+      }
+    ]
+  },
+  {
+    "period": "2021-Q3",
+    "versions": [
+      {
+        "id": "600298-557fe5b41c8a83fb",
+        "title": "安琪酵母股份有限公司2021年第三季度报告",
+        "path": "sources/raw/02_定期报告与经营数据/2021-10-23_安琪酵母股份有限公司2021年第三季度报告_1211363226.pdf",
+        "summary": false,
+        "revision_hint": false
+      }
+    ]
+  },
+  {
+    "period": "2022-FY",
+    "versions": [
+      {
+        "id": "600298-67eeebe5a51dee86",
+        "title": "安琪酵母股份有限公司2022年年度报告",
+        "path": "sources/raw/01_年报/2023-03-31_安琪酵母股份有限公司2022年年度报告_1216282931.pdf",
+        "summary": false,
+        "revision_hint": false
+      },
+      {
+        "id": "600298-89ecd4d036fdbe05",
+        "title": "安琪酵母股份有限公司2022年年度报告摘要",
+        "path": "sources/raw/01_年报/2023-03-31_安琪酵母股份有限公司2022年年度报告摘要_1216282936.pdf",
+        "summary": true,
+        "revision_hint": false
+      }
+    ]
+  },
+  {
+    "period": "2022-H1",
+    "versions": [
+      {
+        "id": "600298-f24dd385deb70979",
+        "title": "安琪酵母股份有限公司2022年半年度报告",
+        "path": "sources/raw/01_年报/2022-08-11_安琪酵母股份有限公司2022年半年度报告_1214268115.pdf",
+        "summary": false,
+        "revision_hint": false
+      },
+      {
+        "id": "600298-609ceff499aae140",
+        "title": "安琪酵母股份有限公司2022年半年度报告摘要",
+        "path": "sources/raw/01_年报/2022-08-11_安琪酵母股份有限公司2022年半年度报告摘要_1214268114.pdf",
+        "summary": true,
+        "revision_hint": false
+      }
+    ]
+  },
+  {
+    "period": "2022-Q1",
+    "versions": [
+      {
+        "id": "600298-049a8544626d7c6a",
+        "title": "安琪酵母股份有限公司2022年第一季度报告",
+        "path": "sources/raw/02_定期报告与经营数据/2022-04-19_安琪酵母股份有限公司2022年第一季度报告_1212965706.pdf",
+        "summary": false,
+        "revision_hint": false
+      }
+    ]
+  },
+  {
+    "period": "2022-Q3",
+    "versions": [
+      {
+        "id": "600298-206e3c21e7926e9f",
+        "title": "安琪酵母股份有限公司2022年第三季度报告",
+        "path": "sources/raw/02_定期报告与经营数据/2022-10-26_安琪酵母股份有限公司2022年第三季度报告_1214902023.pdf",
+        "summary": false,
+        "revision_hint": false
+      }
+    ]
+  },
+  {
+    "period": "2023-FY",
+    "versions": [
+      {
+        "id": "600298-174439da1375f513",
+        "title": "安琪酵母股份有限公司2023年年度报告",
+        "path": "sources/raw/01_年报/2024-03-19_安琪酵母股份有限公司2023年年度报告_1219331681.pdf",
+        "summary": false,
+        "revision_hint": false
+      },
+      {
+        "id": "600298-40b2d64ce1d278fe",
+        "title": "安琪酵母股份有限公司2023年年度报告摘要",
+        "path": "sources/raw/01_年报/2024-03-19_安琪酵母股份有限公司2023年年度报告摘要_1219331640.pdf",
+        "summary": true,
+        "revision_hint": false
+      }
+    ]
+  },
+  {
+    "period": "2023-H1",
+    "versions": [
+      {
+        "id": "600298-250cbdad2b39a6cf",
+        "title": "安琪酵母股份有限公司2023年半年度报告",
+        "path": "sources/raw/01_年报/2023-08-25_安琪酵母股份有限公司2023年半年度报告_1217636647.pdf",
+        "summary": false,
+        "revision_hint": false
+      },
+      {
+        "id": "600298-09115961d7dcf99f",
+        "title": "安琪酵母股份有限公司2023年半年度报告摘要",
+        "path": "sources/raw/01_年报/2023-08-25_安琪酵母股份有限公司2023年半年度报告摘要_1217636649.pdf",
+        "summary": true,
+        "revision_hint": false
+      }
+    ]
+  },
+  {
+    "period": "2023-Q1",
+    "versions": [
+      {
+        "id": "600298-ab44698e8c813244",
+        "title": "安琪酵母股份有限公司2023年第一季度报告",
+        "path": "sources/raw/02_定期报告与经营数据/2023-04-29_安琪酵母股份有限公司2023年第一季度报告_1216689386.pdf",
+        "summary": false,
+        "revision_hint": false
+      }
+    ]
+  },
+  {
+    "period": "2023-Q3",
+    "versions": [
+      {
+        "id": "600298-540a06aa54bc2e54",
+        "title": "安琪酵母股份有限公司2023年第三季度报告",
+        "path": "sources/raw/02_定期报告与经营数据/2023-10-25_安琪酵母股份有限公司2023年第三季度报告_1218136532.pdf",
+        "summary": false,
+        "revision_hint": false
+      }
+    ]
+  },
+  {
+    "period": "2024-FY",
+    "versions": [
+      {
+        "id": "600298-e14665c0175d59df",
+        "title": "安琪酵母股份有限公司2024年年度报告",
+        "path": "sources/raw/01_年报/2025-04-10_安琪酵母股份有限公司2024年年度报告_1223046779.pdf",
+        "summary": false,
+        "revision_hint": false
+      },
+      {
+        "id": "600298-2c4a8903dfbf010b",
+        "title": "安琪酵母股份有限公司2024年年度报告摘要",
+        "path": "sources/raw/01_年报/2025-04-10_安琪酵母股份有限公司2024年年度报告摘要_1223046768.pdf",
+        "summary": true,
+        "revision_hint": false
+      }
+    ]
+  },
+  {
+    "period": "2024-H1",
+    "versions": [
+      {
+        "id": "600298-4d5984c40f8196db",
+        "title": "安琪酵母股份有限公司2024年半年度报告",
+        "path": "sources/raw/01_年报/2024-08-08_安琪酵母股份有限公司2024年半年度报告_1220814765.pdf",
+        "summary": false,
+        "revision_hint": false
+      },
+      {
+        "id": "600298-7b4da76ece3e4f3e",
+        "title": "安琪酵母股份有限公司2024年半年度报告摘要",
+        "path": "sources/raw/01_年报/2024-08-08_安琪酵母股份有限公司2024年半年度报告摘要_1220814764.pdf",
+        "summary": true,
+        "revision_hint": false
+      }
+    ]
+  },
+  {
+    "period": "2024-Q1",
+    "versions": [
+      {
+        "id": "600298-a27bb1ebe8effde8",
+        "title": "安琪酵母股份有限公司2024年第一季度报告",
+        "path": "sources/raw/02_定期报告与经营数据/2024-04-20_安琪酵母股份有限公司2024年第一季度报告_1219693954.pdf",
+        "summary": false,
+        "revision_hint": false
+      }
+    ]
+  },
+  {
+    "period": "2024-Q3",
+    "versions": [
+      {
+        "id": "600298-5cc138c9fc11a2e7",
+        "title": "安琪酵母股份有限公司2024年第三季度报告",
+        "path": "sources/raw/02_定期报告与经营数据/2024-10-31_安琪酵母股份有限公司2024年第三季度报告_1221573353.pdf",
+        "summary": false,
+        "revision_hint": false
+      }
+    ]
+  },
+  {
+    "period": "2025-FY",
+    "versions": [
+      {
+        "id": "600298-a14b53fefcfc0356",
+        "title": "安琪酵母股份有限公司2025年年度报告",
+        "path": "sources/raw/01_年报/2026-03-31_安琪酵母股份有限公司2025年年度报告_1225056953.pdf",
+        "summary": false,
+        "revision_hint": false
+      },
+      {
+        "id": "600298-d80d24d4bf534c70",
+        "title": "安琪酵母股份有限公司2025年年度报告摘要",
+        "path": "sources/raw/01_年报/2026-03-31_安琪酵母股份有限公司2025年年度报告摘要_1225056942.pdf",
+        "summary": true,
+        "revision_hint": false
+      }
+    ]
+  },
+  {
+    "period": "2025-H1",
+    "versions": [
+      {
+        "id": "600298-d5b6bb897b9dc0d3",
+        "title": "安琪酵母股份有限公司2025年半年度报告",
+        "path": "sources/raw/01_年报/2025-08-15_安琪酵母股份有限公司2025年半年度报告_1224486290.pdf",
+        "summary": false,
+        "revision_hint": false
+      },
+      {
+        "id": "600298-4de41c2bad9cba2b",
+        "title": "安琪酵母股份有限公司2025年半年度报告摘要",
+        "path": "sources/raw/01_年报/2025-08-15_安琪酵母股份有限公司2025年半年度报告摘要_1224486289.pdf",
+        "summary": true,
+        "revision_hint": false
+      }
+    ]
+  },
+  {
+    "period": "2025-Q1",
+    "versions": [
+      {
+        "id": "600298-1d02242ef4f93d17",
+        "title": "安琪酵母股份有限公司2025年第一季度报告",
+        "path": "sources/raw/02_定期报告与经营数据/2025-04-26_安琪酵母股份有限公司2025年第一季度报告_1223309271.pdf",
+        "summary": false,
+        "revision_hint": false
+      }
+    ]
+  },
+  {
+    "period": "2025-Q3",
+    "versions": [
+      {
+        "id": "600298-7a9cbdaf728861fa",
+        "title": "安琪酵母股份有限公司2025年第三季度报告",
+        "path": "sources/raw/02_定期报告与经营数据/2025-10-30_安琪酵母股份有限公司2025年第三季度报告_1224759133.pdf",
+        "summary": false,
+        "revision_hint": false
+      }
+    ]
+  },
+  {
+    "period": "2026-H1",
+    "versions": [
+      {
+        "id": "600298-48dbfbb4962cfdb9",
+        "title": "安琪酵母股份有限公司2026年半年度报告",
+        "path": "sources/raw/01_年报/2026-08-15_安琪酵母股份有限公司2026年半年度报告_1225474683.pdf",
+        "summary": false,
+        "revision_hint": false
+      },
+      {
+        "id": "600298-8cde42ee6e204dbb",
+        "title": "安琪酵母股份有限公司2026年半年度报告摘要",
+        "path": "sources/raw/01_年报/2026-08-15_安琪酵母股份有限公司2026年半年度报告摘要_1225474692.pdf",
+        "summary": true,
+        "revision_hint": false
+      }
+    ]
+  },
+  {
+    "period": "2026-Q1",
+    "versions": [
+      {
+        "id": "600298-5460e00aa554cc97",
+        "title": "安琪酵母股份有限公司2026年第一季度报告",
+        "path": "sources/raw/02_定期报告与经营数据/2026-04-28_安琪酵母股份有限公司2026年第一季度报告_1225215546.pdf",
+        "summary": false,
+        "revision_hint": false
+      }
+    ]
+  },
+  {
+    "period": "2026-Q3",
+    "versions": [
+      {
+        "id": "600298-5c763f656754f15e",
+        "title": "安琪酵母股份有限公司2026年第三季度报告",
+        "path": "sources/raw/02_定期报告与经营数据/2026-10-30_安琪酵母股份有限公司2026年第三季度报告_1225641080.pdf",
+        "summary": false,
+        "revision_hint": false
+      }
+    ]
+  }
+]

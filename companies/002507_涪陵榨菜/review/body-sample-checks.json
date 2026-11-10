@@ -1,0 +1,48 @@
+[
+  {
+    "source_id": "002507-6cd117ea1ac8beee",
+    "path": "sources/raw/01_年报/2026-03-28_2025年年度报告_1225042838.pdf",
+    "title": "2025年年度报告",
+    "company": "涪陵榨菜",
+    "code": "002507.SZ",
+    "period": "2025-FY",
+    "checked_at": "2026-11-10T02:59:22.754219+00:00",
+    "actor": "Codex Agent",
+    "PDF_pages": [
+      1,
+      2,
+      3
+    ],
+    "excerpt": "重庆市涪陵榨菜集团股份有限公司 2025年年度报告全文\n重庆市涪陵榨菜集团股份有限公司\n2025 年年度报告\n2026-007\n2026 年 3 月",
+    "name_present": true,
+    "year_present": true,
+    "status": "Agent原文抽核，非人工确认",
+    "render": "Codex Agent已实际查看PDF第1页渲染图，公司名称与2025年度/2026第三季度标题匹配",
+    "render_exit": 0,
+    "render_error": "pdftoppm: security risk: running with elevated privileges\r\n\r\n\r\nMiKTeX requires Windows 10 (or greater): https://miktex.org/announcement/legacy-windows-deprecation\r\n",
+    "visual_checked_at": "2026-11-10T03:03:48.600881+00:00"
+  },
+  {
+    "source_id": "002507-d45bfdfdec6d4379",
+    "path": "sources/raw/02_定期报告与经营数据/2026-10-28_2026年三季度报告_1225628280.pdf",
+    "title": "2026年三季度报告",
+    "company": "涪陵榨菜",
+    "code": "002507.SZ",
+    "period": "2026-Q3",
+    "checked_at": "2026-11-10T02:59:22.754219+00:00",
+    "actor": "Codex Agent",
+    "PDF_pages": [
+      1,
+      2,
+      3
+    ],
+    "excerpt": "重庆市涪陵榨菜集团股份有限公司 2026 年第三季度报告\n1\n重庆市涪陵榨菜集团股份有限公司\n2026 年第三季度报告\n公告编号：2026-035\n2026 年 10 月",
+    "name_present": true,
+    "year_present": true,
+    "status": "Agent原文抽核，非人工确认",
+    "render": "Codex Agent已实际查看PDF第1页渲染图，公司名称与2025年度/2026第三季度标题匹配",
+    "render_exit": 0,
+    "render_error": "pdftoppm: security risk: running with elevated privileges\r\n\r\n\r\nMiKTeX requires Windows 10 (or greater): https://miktex.org/announcement/legacy-windows-deprecation\r\n",
+    "visual_checked_at": "2026-11-10T03:03:48.600881+00:00"
+  }
+]

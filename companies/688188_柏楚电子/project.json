@@ -1,0 +1,20 @@
+{
+  "schema_version": 1,
+  "company": "柏楚电子",
+  "code": "688188.SH",
+  "profile": "industrial",
+  "created_at": "2026-11-10T10:57:32+08:00",
+  "information_cutoff": "",
+  "research_purpose": "公司分析",
+  "source_scope": "用户提供资料；按后续实际任务授权扩展",
+  "network_policy": "按本项目实际用户指令；未授权时不使用外部数据",
+  "review_mode": "human-first",
+  "reviewer": "",
+  "executor": "",
+  "signature_status": "pending",
+  "required_dimensions": [
+    "商业模式",
+    "行业竞争",
+    "竞争优势"
+  ]
+}
