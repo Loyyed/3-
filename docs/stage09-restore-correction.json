@@ -1,0 +1,13 @@
+{
+  "at": "2026-11-12T04:13:16.826Z",
+  "initial_clone": "C:\\Users\\Administrator\\AppData\\Local\\Temp/stage09-clone-eu1rXx",
+  "defect": "公司子目录text=eol覆盖父规则，绑定文件换行转码导致SHA不一致",
+  "fix": "子目录明确work/research09、work/valuation、I09候选和outputs为-text；git add --renormalize只改变新文件入库字节，不改本地历史原件/账本/报告",
+  "verified_clone": "C:\\Users\\Administrator\\AppData\\Local\\Temp/stage09-verified-l6PrkY",
+  "commit": "28d81827420879b2969bfa2f1c85d2027afe2e3d",
+  "public_url_sample": {
+    "exit": 0,
+    "stdout": "002507-ea6fbccab6a0ab29 73542 SHA256 matched\r\nS4e0201d1dcdf4d78 1634967 SHA256 matched\r\n600298-ec3783ca3f5e6520 357944 SHA256 matched\r\n688188-bba873f6f65eba39 268195 SHA256 matched\r\nSedbd7176dea63afe 373900 SHA256 matched\r\n",
+    "error": ""
+  }
+}

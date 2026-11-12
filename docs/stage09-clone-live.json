@@ -1,0 +1,97 @@
+{
+  "at": "2026-11-12T04:11:41.387Z",
+  "unique_methods": 73,
+  "companies": [
+    {
+      "company": "002507_涪陵榨菜",
+      "cards": 8,
+      "runs": 1,
+      "integrity": true,
+      "impact_reasons": [
+        "输入文件变化:work/research09/evidence-map.json",
+        "输入文件变化:work/research09/parameter-register.json",
+        "输入文件变化:work/research09/利润资本现金与估值准备.md",
+        "输入文件变化:work/valuation/index.json",
+        "输入文件变化:work/valuation/v1-V15d4e40ce069.json",
+        "本机缺原件:002507-6cd117ea1ac8beee"
+      ]
+    },
+    {
+      "company": "09992_泡泡玛特",
+      "cards": 8,
+      "runs": 1,
+      "integrity": true,
+      "impact_reasons": [
+        "本机缺原件:S47095a39c6425b11"
+      ]
+    },
+    {
+      "company": "600298_安琪酵母",
+      "cards": 8,
+      "runs": 1,
+      "integrity": true,
+      "impact_reasons": [
+        "输入文件变化:work/research09/evidence-map.json",
+        "输入文件变化:work/research09/parameter-register.json",
+        "输入文件变化:work/research09/利润资本现金与估值准备.md",
+        "输入文件变化:work/valuation/index.json",
+        "输入文件变化:work/valuation/v1-V2cc086959eb0.json",
+        "本机缺原件:600298-a14b53fefcfc0356"
+      ]
+    },
+    {
+      "company": "688188_柏楚电子",
+      "cards": 8,
+      "runs": 1,
+      "integrity": true,
+      "impact_reasons": [
+        "输入文件变化:work/research09/evidence-map.json",
+        "输入文件变化:work/research09/parameter-register.json",
+        "输入文件变化:work/research09/利润资本现金与估值准备.md",
+        "输入文件变化:work/valuation/index.json",
+        "输入文件变化:work/valuation/v1-V8fb3181b10d1.json",
+        "本机缺原件:688188-a343f0dc3c27d114"
+      ]
+    },
+    {
+      "company": "US_ISRG_直觉外科",
+      "cards": 8,
+      "runs": 1,
+      "integrity": false,
+      "impact_reasons": [
+        "输入文件变化:work/research09/evidence-map.json",
+        "输入文件变化:work/research09/parameter-register.json",
+        "输入文件变化:work/research09/pricing-threshold.json",
+        "输入文件变化:work/research09/利润资本现金与估值准备.md",
+        "输入文件变化:work/review-batches/I09-candidates.json",
+        "输入文件变化:work/valuation/index.json",
+        "输入文件变化:work/valuation/v1-Vd4916286e592.json",
+        "本机缺原件:S83c179dfd93521d4",
+        "本机缺原件:Se7f95d2f97642180"
+      ]
+    }
+  ],
+  "sample_restore": [
+    [
+      "002507-ea6fbccab6a0ab29",
+      73542
+    ],
+    [
+      "S4e0201d1dcdf4d78",
+      1634967
+    ],
+    [
+      "600298-ec3783ca3f5e6520",
+      357944
+    ],
+    [
+      "688188-bba873f6f65eba39",
+      268195
+    ],
+    [
+      "Sedbd7176dea63afe",
+      373900
+    ]
+  ],
+  "sample_hashes": "five public URL downloads verified SHA256 by scripts/restore.py --sample; not full raw restoration"
+}

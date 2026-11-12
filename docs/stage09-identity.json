@@ -1,0 +1,23 @@
+{
+  "at": "2026-11-12T04:14:21.098Z",
+  "company": "Intuitive Surgical, Inc.",
+  "code": "ISRG",
+  "cik": "0001035267",
+  "exchange": "Nasdaq",
+  "financial_year_end": "12-31",
+  "accounting": "US GAAP",
+  "currency": "USD",
+  "sources": [
+    "SEC submissions CIK0001035267.json (local ignored original)",
+    "Se7f95d2f97642180 Item1 and consolidated income statement printed90",
+    "S83c179dfd93521d4 cover and consolidated revenue note"
+  ],
+  "checks": "Agent原件对读；US GAAP/USD/财年身份与经营数据核准分开",
+  "Hugo": {
+    "source": "Se0c87c58c13b5968",
+    "original_clearance": "2025-12-03 physical2",
+    "administrative_correction": "2025-12-04 physical1",
+    "pages": 20
+  },
+  "US_frontend_currency_guard": true
+}

@@ -4,7 +4,10 @@ from decimal import Decimal
 R=Path(__file__).resolve().parents[1];sys.path[:0]=[str(R/'shared/runtime'),str(R/'app')]
 from engine import save,load,now
 from companybench.core import ReviewStore
-p=R/'companies/US_ISRG_直觉外科';sources=load(p/'sources/manifest.json',{})['sources'];store=ReviewStore(p);allrows=[]
+p=R/'companies/US_ISRG_直觉外科'
+if (p/'work/review-batches/I09-candidates.json').exists():
+ print('I09批次已冻结；保留原提取与人审历史，新增字段须另建批次');sys.exit(0)
+sources=load(p/'sources/manifest.json',{})['sources'];store=ReviewStore(p);allrows=[]
 def plain(s):return html.unescape(re.sub('<[^>]+>',' ',s)).strip()
 keys=['RevenueFromContractWithCustomerExcludingAssessedTax','OperatingIncomeLoss','NetIncomeLoss','NetIncomeLossAvailableToCommonStockholdersBasic','ResearchAndDevelopmentExpense','NetCashProvidedByUsedInOperatingActivities','PaymentsToAcquirePropertyPlantAndEquipment','DepreciationDepletionAndAmortization','CashCashEquivalentsAndShortTermInvestments','InventoryNet','AccountsReceivableNetCurrent','AccountsPayableCurrent','CommonStockSharesOutstanding','ShareBasedCompensation','IncomeTaxesPaidNet']
 seen=set()

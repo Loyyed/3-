@@ -26,9 +26,18 @@
   },
   "Fact": 0,
   "scope": "知识、机制研究接续与资料/计算设施；不是完整投资分析、人审或签署",
-  "pending_verification": [
-    "独立Git恢复和公开URL抽样恢复",
-    "真实进程重启核对",
-    "最终Git发布回执"
-  ]
+  "pending_verification": [],
+  "completed_verification": [
+    "stage09-clone-verified.json：五家公司输入/成果指纹、73方法和项目测试通过",
+    "stage09-restart.json：新主进程及夹具真实重启保存恢复",
+    "stage09-restore-correction.json：公开URL抽样5份SHA匹配，换行问题已修"
+  ],
+  "unfinished": [
+    "ISRG完整电话会问答/演示、维修独立诉讼裁决和全临床医院经济性样本",
+    "2000—2014年报正文与完整拆股节点",
+    "同范围经营现金税/再投资、市场估值输入未齐，未做完整DCF",
+    "原数候选未人审；机制认可及签署未发生",
+    "克隆仅抽样恢复原件而非全量"
+  ],
+  "updated_at": "2026-11-12T04:14:51.635Z"
 }

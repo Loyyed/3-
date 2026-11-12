@@ -1,13 +1,11 @@
-# 三家公司投资研究工作台
+# 五家公司证券投资研究工作台
 
-双击[启动研究工作台.cmd](启动研究工作台.cmd)，打开 http://127.0.0.1:8780。Python3.10+，主程序标准库，PDF检查使用pypdf。
+工程目录沿用“三家公司证券投资分析”。原版通用前端与五家公司独立原件/ReviewStore相连，73项共享方法，真实增补、条件计算与版本成果。
 
-三公司八主线研究、方法检索与增补持久保存；各公司原Fact账本独立，程序共享。原来源目录保留为companies/<公司>/sources-index.html。
+双击 `启动研究工作台.cmd`，打开 http://127.0.0.1:8780/ 。总体入口：`总体入口/index.html`；当前操作：`docs/09_知识与研究接续.md`；根成果：`outputs/index.html`。
 
-新增合同/讲义/经验：材料与知识增补→标题、来源、版本、用途范围、文本文件或粘贴→登记→填写方法的问题、输入、步骤、停止、反证及成果位置→检查重复/冲突→纳入→方法页关联指定公司并保存研究卡。修订填写旧方法ID及理由，影响记录列受影响研究卡/计算/假设/报告；原文留本地，版本元数据可发布，用户审阅未发生时保持空。
+四家原研究窗口2026-11-10，ISRG截止2026-11-11。已接入资料不代表Fact或完整估值，当前49+55条候选均未人审。实际覆盖、缺件及核验见docs/stage09-*和ISRG sources/coverage.json。
 
-导入元数据、提炼、纳入、关联和实际用户认可分开；关联不证明已按方法完成研究。原件和账本保护见docs/protection-check.json；方法来源shared/knowledge-provenance.json；能力差异docs/能力对照.md。
+独立恢复：`python scripts/restore_generic_dependency.py --destination <新目录>`，以`RESEARCH_TOOLKIT`或`--toolkit`选择该目录；原件按`python scripts/restore.py --sample`公开URL抽样恢复并核SHA。原PDF、HTML/XBRL全文、OCR、运行配置与凭据只留本地。
 
-共享升级：python scripts/check_shared.py --kit <通用工作台路径>，审查差异后备份并更新共享运行时，运行python tests/test_research_workflow.py，再做浏览器复核；禁止分别升级三家公司程序。
-
-恢复：git clone后运行启动器即可恢复程序、知识及已发布更新元数据；原始PDF运行scripts/restore.py下载并核SHA，本地未发布的新增原文需单独备份恢复。.local原文、凭据和缓存不进入Git。
+历史07阶段说明保留于Git与docs/stage07-*。

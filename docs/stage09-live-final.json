@@ -1,0 +1,36 @@
+{
+  "at": "2026-11-12T04:15:48.906Z",
+  "port": 8780,
+  "latest": [
+    {
+      "company": "002507_涪陵榨菜",
+      "current": true,
+      "integrity": true,
+      "output": "outputs/research-report/v6-Oe64dc4afe3e7/report.html"
+    },
+    {
+      "company": "09992_泡泡玛特",
+      "current": true,
+      "integrity": true,
+      "output": "outputs/research-report/v5-O94ad36e8b135/report.html"
+    },
+    {
+      "company": "600298_安琪酵母",
+      "current": true,
+      "integrity": true,
+      "output": "outputs/research-report/v6-Oe5cba07024f0/report.html"
+    },
+    {
+      "company": "688188_柏楚电子",
+      "current": true,
+      "integrity": true,
+      "output": "outputs/research-report/v6-Of40ddaac6ef2/report.html"
+    },
+    {
+      "company": "US_ISRG_直觉外科",
+      "current": true,
+      "integrity": true,
+      "output": "outputs/research-report/v1-O44bdf1e27fe4/report.html"
+    }
+  ]
+}

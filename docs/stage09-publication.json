@@ -1,0 +1,10 @@
+{
+  "at": "2026-11-12T04:15:49.006Z",
+  "branch": "codex/three-company-foundation",
+  "verified_commits": [
+    "28d81827420879b2969bfa2f1c85d2027afe2e3d"
+  ],
+  "remote": "28d81827420879b2969bfa2f1c85d2027afe2e3d\trefs/heads/codex/three-company-foundation",
+  "source_dependency_unchanged": true,
+  "final_receipt": "本文件记录当前已推批次；最终验收提交HEAD与远端核对另存.local/stage09/final-publication.json，最终答复报告实查值"
+}

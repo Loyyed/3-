@@ -1,0 +1,59 @@
+{
+  "at": "2026-11-12T04:13:33.693Z",
+  "root": "C:\\Users\\Administrator\\AppData\\Local\\Temp/stage09-verified-l6PrkY",
+  "commit": "28d81827420879b2969bfa2f1c85d2027afe2e3d",
+  "methods": 73,
+  "companies": [
+    {
+      "company": "002507_涪陵榨菜",
+      "cards": 8,
+      "integrity": true,
+      "reasons": [
+        "本机缺原件:002507-6cd117ea1ac8beee"
+      ],
+      "input_hash_failures": []
+    },
+    {
+      "company": "09992_泡泡玛特",
+      "cards": 8,
+      "integrity": true,
+      "reasons": [
+        "本机缺原件:S47095a39c6425b11"
+      ],
+      "input_hash_failures": []
+    },
+    {
+      "company": "600298_安琪酵母",
+      "cards": 8,
+      "integrity": true,
+      "reasons": [
+        "本机缺原件:600298-a14b53fefcfc0356"
+      ],
+      "input_hash_failures": []
+    },
+    {
+      "company": "688188_柏楚电子",
+      "cards": 8,
+      "integrity": true,
+      "reasons": [
+        "本机缺原件:688188-a343f0dc3c27d114"
+      ],
+      "input_hash_failures": []
+    },
+    {
+      "company": "US_ISRG_直觉外科",
+      "cards": 8,
+      "integrity": true,
+      "reasons": [
+        "本机缺原件:S83c179dfd93521d4",
+        "本机缺原件:Se7f95d2f97642180"
+      ],
+      "input_hash_failures": []
+    }
+  ],
+  "tests": {
+    "exit": 0,
+    "output": ".....\r\n----------------------------------------------------------------------\r\nRan 5 tests in 0.528s\r\n\r\nOK\r\n"
+  },
+  "raw_restoration": "仅抽样5份；报告其他引用原件缺失如实标影响，成果和参数/计算文件应无SHA错误"
+}
