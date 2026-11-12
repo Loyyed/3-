@@ -1,0 +1,8 @@
+runtime/
+sources/text/
+__pycache__/
+*.py[cod]
+.venv/
+.env
+会话交接/logs/
+会话交接/tmp/

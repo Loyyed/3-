@@ -1,0 +1,13 @@
+{
+  "at": "2026-11-12T04:08:13.959Z",
+  "foreign_origin_wrong_token": [
+    {
+      "path": "/api/project-action",
+      "status": 403
+    },
+    {
+      "path": "/api/showcase",
+      "status": 403
+    }
+  ]
+}

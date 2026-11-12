@@ -1,0 +1,29 @@
+{
+  "id": "V15d4e40ce069",
+  "version": 1,
+  "at": "2026-11-12T03:58:30.889946+00:00",
+  "actor": "Agent/test-or-api",
+  "company": "002507_涪陵榨菜",
+  "action": "forecast",
+  "inputs": {},
+  "parameter_metadata": {
+    "register": "work/research09/parameter-register.json",
+    "missing": "同SKU实际净价及促销、终端销量和经销商库存；渠道专属履约/广告与授信；新基地分期投入、投产利用率与同范围现金所得税。"
+  },
+  "result": {
+    "state": "BlockedMissingInputs",
+    "missing_fields": [
+      "base_revenue",
+      "rows"
+    ],
+    "new_fact": false,
+    "impact": "无法执行forecast；按公司参数登记补同范围字段"
+  },
+  "module_sha256": "0155df03fa6ff2dd86a6a4c92f51f277f88e1edd45bfd972d191796276ac23ca",
+  "dependencies": [
+    "shared/runtime/companybench/valuation_chain.py",
+    "shared/runtime/companybench/research_depth.py"
+  ],
+  "recalculate": "python -B scripts/recalculate_valuation.py --company 002507_涪陵榨菜 --record work/valuation/v1-V15d4e40ce069.json",
+  "scope_boundary": "条件算术不是公司Fact；未完成beta业务去再杠杆、税损明细、归母权利桥"
+}

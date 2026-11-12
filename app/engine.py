@@ -14,12 +14,15 @@ class Engine:
    knowledge=load(self.root/'shared/knowledge.json',{'cards':[]});updates=load(self.root/'shared/updates.json',{'materials':[],'methods':[],'events':[]})
    companies=[]
    for key,p in sorted(self.companies().items()):
-    s=load(p/'work/research-workspace.json',{'cards':[],'events':[]});companies.append({'id':key,'name':load(p/'project.json',{})['company'],'cards':s['cards'],'events':s['events'][-10:]})
+    s=load(p/'work/research-workspace.json',{'cards':[],'events':[]});companies.append({'id':key,'name':load(p/'project.json',{})['company'],'cards':s['cards'],'events':s['events'][-10:],'valuation':load(p/'work/valuation/index.json',{'runs':[]})})
    from outputs import current,registry
    return {'current_methods':list(current(self).values()),'outputs':registry(self),'tool_ports':load(self.root/'shared/tool-ports.json',{}),'lanes':LANES,'companies':companies,'knowledge':knowledge,'updates':updates}
  def action(self,d):
   with self.lock:
    u=load(self.root/'shared/updates.json',{'materials':[],'methods':[],'events':[]});a=d['action'];actor='local-user-ui' if d.get('actor')=='local-user-ui' else 'Agent/test-or-api';event={'at':now(),'action':a,'actor':actor};result={}
+   if a=='valuation':
+    from valuation import perform
+    return perform(self,d,actor)
    if a in ['export-report','register-output','resolve-impact']:
     from outputs import perform
     return perform(self,d,actor)
@@ -27,7 +30,7 @@ class Engine:
     source=next(x for x in u['materials'] if x['id']==d['material_id']);assert d.get('conversion_reason') and d.get('text'),'必须提供去公司化文本及转换理由'
     result=self.action({**d,'action':'import','title':d.get('title',source['title']+'通用副本'),'source':source['id'],'version':d.get('version','1'),'scope':'shared'});result['generalized_from']=source['id'];result['conversion_reason']=d['conversion_reason'];fresh=load(self.root/'shared/updates.json',{});fresh['materials'][-1].update(result);save(self.root/'shared/updates.json',fresh);return result
    if a=='import':
-    text=d['text'];assert len(text)<2000000,'材料过大';h=hashlib.sha256(text.encode()).hexdigest();same=next((x for x in u['materials'] if x['sha256']==h),None)
+    text=d['text'];assert len(text)<2000000,'材料过大';h=hashlib.sha256(text.encode()).hexdigest();scope=d.get('scope','shared');assert scope=='shared' or scope in self.companies(),'未知材料作用域';same=next((x for x in u['materials'] if x['sha256']==h and x.get('scope','shared')==scope),None)
     if same:return {'duplicate':same,'saved':False}
     assert d.get('source') and d.get('version') and d.get('title'),'缺来源/版本/标题'
     m={'id':'M'+uuid.uuid4().hex[:12],'title':d['title'],'source':d['source'],'version':d['version'],'sha256':h,'imported_at':now(),'status':'imported','kind':d.get('kind','讲义'),'scope':d.get('scope','shared')}
@@ -45,7 +48,7 @@ class Engine:
      assert old and d.get('reason'),'修订必须关联旧方法并说明理由'
      assert old.get('scope','shared')==d['scope'],'方法修订不得改变作用域'
     v=1 if not old else old['version']+1;mid=d.get('id') if old else 'U'+uuid.uuid4().hex[:12]
-    item={k:d[k] for k in fields};item.update(id=mid,version=v,material_id=d['material_id'],status='extracted',reason=d.get('reason','首次提炼'),scope=d.get('scope','shared'),at=now(),user_review=None)
+    item={**(old or {}),**{k:d[k] for k in fields}};item.update(id=mid,version=v,material_id=d['material_id'],status='extracted',reason=d.get('reason','首次提炼'),scope=d.get('scope','shared'),at=now(),user_review=None)
     # old installed version remains current until adoption
     item['conflicts']=[m['id'] for m in u['methods'] if m['title']==item['title'] and m['id']!=mid and m['status']!='superseded'];item['duplicate_installed_titles']=[m['id'] for m in load(self.root/'shared/knowledge.json',{'cards':[]})['cards'] if m['title']==item['title']]
     u['methods'].append(item);result=item

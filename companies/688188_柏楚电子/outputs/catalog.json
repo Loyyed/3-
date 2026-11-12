@@ -375,7 +375,7 @@
       "at": "2026-11-10T08:01:28.640795+00:00",
       "actor": "Agent/test-or-api",
       "actual_user_review": null,
-      "historical": false,
+      "historical": true,
       "bindings": {
         "selection_ids": [
           "R1622b2e65098",
@@ -458,6 +458,147 @@
           "format": "md",
           "sha256": "5df7aefc29f197fad253686dc3caf66ff47fb6248e4648292112ee1800f7cfe1",
           "bytes": 19464
+        }
+      ],
+      "needs_review": true,
+      "imported": false,
+      "impact_reasons": [
+        "研究卡变化:Rc91d3bad8c35",
+        "研究卡变化:R42383f58e180",
+        "研究卡变化:Re652de68ca00",
+        "研究卡变化:R9b91e4658392",
+        "研究卡变化:Rd192d88d9be7",
+        "研究卡变化:R6ef717bb11b9",
+        "研究卡变化:Rd3892afbfc24",
+        "研究卡变化:R1622b2e65098"
+      ],
+      "file_integrity": true
+    },
+    {
+      "id": "Of40ddaac6ef2",
+      "group": "research-report",
+      "title": "09研究接续：利润资本现金与估值准备",
+      "kind": "报告草稿",
+      "version": 6,
+      "at": "2026-11-12T03:58:31.811500+00:00",
+      "actor": "Agent/test-or-api",
+      "actual_user_review": null,
+      "historical": false,
+      "bindings": {
+        "selection_ids": [
+          "R1622b2e65098",
+          "R42383f58e180",
+          "R6ef717bb11b9",
+          "R9b91e4658392",
+          "Rc91d3bad8c35",
+          "Rd192d88d9be7",
+          "Rd3892afbfc24",
+          "Re652de68ca00"
+        ],
+        "selection_scope": "all-eight-lanes",
+        "cards": {
+          "Rc91d3bad8c35": "ce98f022b6634e1822708031a11897fadc353a5432c5e7fb575ced62a1367391",
+          "R42383f58e180": "703fd3c4f59da609c61fdd455f0c89e565d5ec920cab59ddcd399c6db5343a67",
+          "Re652de68ca00": "be468f6d960e51e897f3c4e75052bc459918d3b94ba590b904c83ad42238eca9",
+          "R9b91e4658392": "5ab8b31b75d709b7e8f2f6434830de910d087161ec824281dc0814153e36762d",
+          "Rd192d88d9be7": "7aa3e4a4d7cf3053e2bd004accdb9808216b15daf775af804848372b4fe2adc9",
+          "R6ef717bb11b9": "76f05d5c4db915f8ea42cb43421915ca9aaa469a00712804fc221db5c80aec6f",
+          "Rd3892afbfc24": "bf39795a5426e3adb61cced52e1d3e0fd1c42d84eb104e586883aa1115e29186",
+          "R1622b2e65098": "332a5dcfac04161ddcffab6919ba9de1884680c92b199ab467125208f2d7d51b"
+        },
+        "methods": [
+          {
+            "id": "K02",
+            "version": 1
+          },
+          {
+            "id": "E02",
+            "version": 1
+          },
+          {
+            "id": "E03",
+            "version": 1
+          },
+          {
+            "id": "E07",
+            "version": 1
+          },
+          {
+            "id": "K46",
+            "version": 1
+          },
+          {
+            "id": "K52",
+            "version": 1
+          },
+          {
+            "id": "K63",
+            "version": 1
+          },
+          {
+            "id": "K48",
+            "version": 1
+          },
+          {
+            "id": "K53",
+            "version": 1
+          },
+          {
+            "id": "K50",
+            "version": 1
+          },
+          {
+            "id": "K57",
+            "version": 1
+          },
+          {
+            "id": "K59",
+            "version": 1
+          },
+          {
+            "id": "K62",
+            "version": 1
+          }
+        ],
+        "inputs": {
+          "work/research09/evidence-map.json": "047de000db6c7dfb892f1032e5a732e5f36c99ba8f8dafc96f89d08e163ca3ea",
+          "work/research09/parameter-register.json": "98c9f43e4173d8e2263b3d1cfa5d9b775ee43e9befd2c40c6487b85cfdc3e91f",
+          "work/research09/利润资本现金与估值准备.md": "5f0cd48ff750658d25b7d3a298b23e13f7c13dcb0f620763f838bf5e2bcb240f",
+          "work/research07/source-field-map.json": "8df86766e01695fd8c97beb13cee442e3309746d26adb759bc65346f2d8cbd40",
+          "work/valuation/index.json": "5becdf6a6504467898eae0deaa648b49a7d092fb7ed0f3b5d34cd48e19eccf0b",
+          "work/valuation/v1-V8fb3181b10d1.json": "e0827fa29a13f73fd0ce57f0e735a1824af4242b8801f31db5fa491ebf4a6498"
+        },
+        "sources": [
+          {
+            "id": "688188-a343f0dc3c27d114",
+            "path": "sources/raw/01_年报/2026-04-10_2025年年度报告_1225091045.pdf",
+            "sha256": "e12688b3c2e80e63fae0008983426c644a0ca5bc0da6bed30f9b45f635ecfed2"
+          }
+        ],
+        "shared_dependencies": {
+          "shared/runtime/companybench/valuation_chain.py": "0155df03fa6ff2dd86a6a4c92f51f277f88e1edd45bfd972d191796276ac23ca",
+          "shared/runtime/companybench/research_depth.py": "bb364cd41336a0d3fe62d0d0663f7e8557570aeff2d201c21517259ae1404a41",
+          "scripts/recalculate_valuation.py": "711a5a9c153a834a2c28d133d24b0aec0cd93153c0baa4f1358a8b22ef4cc727"
+        }
+      },
+      "files": [
+        {
+          "path": "outputs/research-report/v6-Of40ddaac6ef2/basis.json",
+          "format": "json",
+          "sha256": "7ba177c94e639aa4d8f5c666bb616370ea2b83731f941ea629dbb97dc57e991f",
+          "bytes": 74967
+        },
+        {
+          "path": "outputs/research-report/v6-Of40ddaac6ef2/report.html",
+          "format": "html",
+          "sha256": "bb7f8fcf9fbb7dc7bc6a6725008a0475441fc824b6870c624c59b5bf194b571d",
+          "bytes": 20228
+        },
+        {
+          "path": "outputs/research-report/v6-Of40ddaac6ef2/report.md",
+          "format": "md",
+          "sha256": "ed08d87496dc10fd4881ed9ffd0f6cf4ee2a82df025e958f5ec4b84b91646925",
+          "bytes": 19505
         }
       ],
       "needs_review": false,

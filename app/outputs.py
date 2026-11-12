@@ -27,6 +27,9 @@ def registry(e):
     if cid not in byid or digest(byid[cid])!=h:reasons.append('研究卡变化:'+cid)
    for ref in item['bindings'].get('methods',[]):
     if ref['id'] not in methods or methods[ref['id']]['version']!=ref['version']:reasons.append('方法版本变化:'+ref['id'])
+   for rel,h in item['bindings'].get('shared_dependencies',{}).items():
+    q=contained(e.root,rel)
+    if not q.is_file() or sha(q)!=h:reasons.append('共享计算依赖变化:'+rel)
    for rel,h in item['bindings'].get('inputs',{}).items():
     path=contained(p,rel)
     if not path.is_file() or sha(path)!=h:reasons.append('输入文件变化:'+rel)
@@ -38,7 +41,7 @@ def registry(e):
   save(p/'outputs/catalog.json',index)
  save(e.root/'outputs/catalog.json',{'items':allitems})
  links=''.join('<li>'+html.escape(x['company']+' '+x['title']+' v'+str(x['version']))+' '+('受影响' if x['needs_review'] else '草稿')+' '+''.join('<a href="../companies/'+x['company']+'/'+f['path']+'">'+f['format']+'</a> ' for f in x['files'])+'</li>' for x in allitems)
- (e.root/'outputs/index.html').write_text('<meta charset="utf-8"><h1>四公司成果目录</h1><ul>'+links+'</ul>',encoding='utf-8');return allitems
+ (e.root/'outputs/index.html').write_text('<meta charset="utf-8"><h1>多公司成果目录</h1><ul>'+links+'</ul>',encoding='utf-8');return allitems
 
 def perform(e,d,actor):
  a=d['action'];company=d['company'];assert company in e.companies(),'未知公司';p=e.companies()[company]
@@ -47,7 +50,8 @@ def perform(e,d,actor):
  assert a in ['export-report','register-output'],'未知成果动作'
  cards=load(p/'work/research-workspace.json',{'cards':[]})['cards'];catalog=load(p/'outputs/catalog.json',{'items':[]});kind=d.get('kind','报告草稿');group=d.get('group','research-report' if a=='export-report' else d.get('title','imported'));prior=[x for x in catalog['items'] if x['group']==group];v=max([x['version'] for x in prior],default=0)+1;oid='O'+uuid.uuid4().hex[:12];folder=p/'outputs'/group/('v'+str(v)+'-'+oid);assert folder.resolve().is_relative_to((p/'outputs').resolve()),'非法成果组';folder.mkdir(parents=True)
  bindings={'selection_ids':sorted(c['id'] for c in cards),'selection_scope':'all-eight-lanes','cards':{c['id']:digest(c) for c in cards},'methods':list({(r['id'],r['version']):r for c in cards for r in c.get('methods',[])}.values()),'inputs':{},'sources':[]}
- for rel in d.get('input_paths',[]):
+ valuation=load(p/'work/valuation/index.json',{'runs':[]});auto_inputs=['work/valuation/index.json']+[r['path'] for r in valuation['runs']] if valuation['runs'] else [];bindings['shared_dependencies']={rel:sha(contained(e.root,rel)) for rel in ['shared/runtime/companybench/valuation_chain.py','shared/runtime/companybench/research_depth.py','scripts/recalculate_valuation.py'] if auto_inputs}
+ for rel in dict.fromkeys(d.get('input_paths',[])+auto_inputs):
   q=contained(p,rel);assert not rel.startswith(('sources/raw/','evidence/')),'输入应为公司模型或计算文件';assert q.is_file(),'输入不存在';bindings['inputs'][rel]=sha(q)
  sources=load(p/'sources/manifest.json',{'sources':[]})['sources'];wanted=set(d.get('source_ids',[])+[i for c in cards for i in c.get('source_ids',[])])
  for sid in wanted:

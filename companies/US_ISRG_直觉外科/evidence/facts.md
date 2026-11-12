@@ -1,0 +1,61 @@
+# 当前来源绑定的证据视图
+
+本文件为导出；使用事实必须重新调用ReviewStore(project).facts()。来源、口径、公式或输入确认改变后，旧确认不能继续当Fact。
+
+| 编号 | 主张 | 数值 | 状态 | 核准身份 | 支持边界 / 当前问题 |
+| --- | --- | --- | --- | --- | --- |
+| I09-001 | AccountsReceivableNetCurrent 2023-12-31 | 1130200000.0 | Unknown |  | Agent机器提取并按原表定位；未人工核准。归母/集团、时点/加权股数不同，不能混用。 |
+| I09-002 | InventoryNet 2023-12-31 | 1220600000.0 | Unknown |  | Agent机器提取并按原表定位；未人工核准。归母/集团、时点/加权股数不同，不能混用。 |
+| I09-003 | AccountsPayableCurrent 2023-12-31 | 188700000.0 | Unknown |  | Agent机器提取并按原表定位；未人工核准。归母/集团、时点/加权股数不同，不能混用。 |
+| I09-004 | RevenueFromContractWithCustomerExcludingAssessedTax 2023-01-01/2023-12-31 | 7124100000.0 | Unknown |  | Agent机器提取并按原表定位；未人工核准。归母/集团、时点/加权股数不同，不能混用。 |
+| I09-005 | ResearchAndDevelopmentExpense 2023-01-01/2023-12-31 | 998800000.0 | Unknown |  | Agent机器提取并按原表定位；未人工核准。归母/集团、时点/加权股数不同，不能混用。 |
+| I09-006 | OperatingIncomeLoss 2023-01-01/2023-12-31 | 1766800000.0 | Unknown |  | Agent机器提取并按原表定位；未人工核准。归母/集团、时点/加权股数不同，不能混用。 |
+| I09-007 | NetIncomeLoss 2023-01-01/2023-12-31 | 1798000000.0 | Unknown |  | Agent机器提取并按原表定位；未人工核准。归母/集团、时点/加权股数不同，不能混用。 |
+| I09-008 | ShareBasedCompensation 2023-01-01/2023-12-31 | 592800000.0 | Unknown |  | Agent机器提取并按原表定位；未人工核准。归母/集团、时点/加权股数不同，不能混用。 |
+| I09-009 | NetCashProvidedByUsedInOperatingActivities 2023-01-01/2023-12-31 | 1813800000.0 | Unknown |  | Agent机器提取并按原表定位；未人工核准。归母/集团、时点/加权股数不同，不能混用。 |
+| I09-010 | AccountsReceivableNetCurrent 2024-12-31 | 1225400000.0 | Unknown |  | Agent机器提取并按原表定位；未人工核准。归母/集团、时点/加权股数不同，不能混用。 |
+| I09-011 | InventoryNet 2024-12-31 | 1487200000.0 | Unknown |  | Agent机器提取并按原表定位；未人工核准。归母/集团、时点/加权股数不同，不能混用。 |
+| I09-012 | AccountsPayableCurrent 2024-12-31 | 193400000.0 | Unknown |  | Agent机器提取并按原表定位；未人工核准。归母/集团、时点/加权股数不同，不能混用。 |
+| I09-013 | CommonStockSharesOutstanding 2023-12-31 | 352300000.0 | Unknown |  | Agent机器提取并按原表定位；未人工核准。归母/集团、时点/加权股数不同，不能混用。 |
+| I09-014 | RevenueFromContractWithCustomerExcludingAssessedTax 2024-01-01/2024-12-31 | 8352100000.0 | Unknown |  | Agent机器提取并按原表定位；未人工核准。归母/集团、时点/加权股数不同，不能混用。 |
+| I09-015 | ResearchAndDevelopmentExpense 2024-01-01/2024-12-31 | 1145300000.0 | Unknown |  | Agent机器提取并按原表定位；未人工核准。归母/集团、时点/加权股数不同，不能混用。 |
+| I09-016 | OperatingIncomeLoss 2024-01-01/2024-12-31 | 2348900000.0 | Unknown |  | Agent机器提取并按原表定位；未人工核准。归母/集团、时点/加权股数不同，不能混用。 |
+| I09-017 | NetIncomeLoss 2024-01-01/2024-12-31 | 2322600000.0 | Unknown |  | Agent机器提取并按原表定位；未人工核准。归母/集团、时点/加权股数不同，不能混用。 |
+| I09-018 | ShareBasedCompensation 2024-01-01/2024-12-31 | 676800000.0 | Unknown |  | Agent机器提取并按原表定位；未人工核准。归母/集团、时点/加权股数不同，不能混用。 |
+| I09-019 | NetCashProvidedByUsedInOperatingActivities 2024-01-01/2024-12-31 | 2415000000.0 | Unknown |  | Agent机器提取并按原表定位；未人工核准。归母/集团、时点/加权股数不同，不能混用。 |
+| I09-020 | AccountsReceivableNetCurrent 2025-12-31 | 1527300000.0 | Unknown |  | Agent机器提取并按原表定位；未人工核准。归母/集团、时点/加权股数不同，不能混用。 |
+| I09-021 | InventoryNet 2025-12-31 | 1840000000.0 | Unknown |  | Agent机器提取并按原表定位；未人工核准。归母/集团、时点/加权股数不同，不能混用。 |
+| I09-022 | AccountsPayableCurrent 2025-12-31 | 255100000.0 | Unknown |  | Agent机器提取并按原表定位；未人工核准。归母/集团、时点/加权股数不同，不能混用。 |
+| I09-023 | CommonStockSharesOutstanding 2025-12-31 | 355100000.0 | Unknown |  | Agent机器提取并按原表定位；未人工核准。归母/集团、时点/加权股数不同，不能混用。 |
+| I09-024 | CommonStockSharesOutstanding 2024-12-31 | 356600000.0 | Unknown |  | Agent机器提取并按原表定位；未人工核准。归母/集团、时点/加权股数不同，不能混用。 |
+| I09-025 | RevenueFromContractWithCustomerExcludingAssessedTax 2025-01-01/2025-12-31 | 10064700000.0 | Unknown |  | Agent机器提取并按原表定位；未人工核准。归母/集团、时点/加权股数不同，不能混用。 |
+| I09-026 | ResearchAndDevelopmentExpense 2025-01-01/2025-12-31 | 1311800000.0 | Unknown |  | Agent机器提取并按原表定位；未人工核准。归母/集团、时点/加权股数不同，不能混用。 |
+| I09-027 | OperatingIncomeLoss 2025-01-01/2025-12-31 | 2945500000.0 | Unknown |  | Agent机器提取并按原表定位；未人工核准。归母/集团、时点/加权股数不同，不能混用。 |
+| I09-028 | NetIncomeLoss 2025-01-01/2025-12-31 | 2856000000.0 | Unknown |  | Agent机器提取并按原表定位；未人工核准。归母/集团、时点/加权股数不同，不能混用。 |
+| I09-029 | ShareBasedCompensation 2025-01-01/2025-12-31 | 788200000.0 | Unknown |  | Agent机器提取并按原表定位；未人工核准。归母/集团、时点/加权股数不同，不能混用。 |
+| I09-030 | NetCashProvidedByUsedInOperatingActivities 2025-01-01/2025-12-31 | 3030500000.0 | Unknown |  | Agent机器提取并按原表定位；未人工核准。归母/集团、时点/加权股数不同，不能混用。 |
+| I09-031 | IncomeTaxesPaidNet 2025-01-01/2025-12-31 | 537900000.0 | Unknown |  | Agent机器提取并按原表定位；未人工核准。归母/集团、时点/加权股数不同，不能混用。 |
+| I09-032 | AccountsReceivableNetCurrent 2026-09-30 | 1721300000.0 | Unknown |  | Agent机器提取并按原表定位；未人工核准。归母/集团、时点/加权股数不同，不能混用。 |
+| I09-033 | InventoryNet 2026-09-30 | 2128200000.0 | Unknown |  | Agent机器提取并按原表定位；未人工核准。归母/集团、时点/加权股数不同，不能混用。 |
+| I09-034 | AccountsPayableCurrent 2026-09-30 | 279500000.0 | Unknown |  | Agent机器提取并按原表定位；未人工核准。归母/集团、时点/加权股数不同，不能混用。 |
+| I09-035 | CommonStockSharesOutstanding 2026-09-30 | 346600000.0 | Unknown |  | Agent机器提取并按原表定位；未人工核准。归母/集团、时点/加权股数不同，不能混用。 |
+| I09-036 | RevenueFromContractWithCustomerExcludingAssessedTax 2026-07-01/2026-09-30 | 3048700000.0 | Unknown |  | Agent机器提取并按原表定位；未人工核准。归母/集团、时点/加权股数不同，不能混用。 |
+| I09-037 | RevenueFromContractWithCustomerExcludingAssessedTax 2025-07-01/2025-09-30 | 2505100000.0 | Unknown |  | Agent机器提取并按原表定位；未人工核准。归母/集团、时点/加权股数不同，不能混用。 |
+| I09-038 | RevenueFromContractWithCustomerExcludingAssessedTax 2026-01-01/2026-09-30 | 8711800000.0 | Unknown |  | Agent机器提取并按原表定位；未人工核准。归母/集团、时点/加权股数不同，不能混用。 |
+| I09-039 | RevenueFromContractWithCustomerExcludingAssessedTax 2025-01-01/2025-09-30 | 7198500000.0 | Unknown |  | Agent机器提取并按原表定位；未人工核准。归母/集团、时点/加权股数不同，不能混用。 |
+| I09-040 | ResearchAndDevelopmentExpense 2026-07-01/2026-09-30 | 408300000.0 | Unknown |  | Agent机器提取并按原表定位；未人工核准。归母/集团、时点/加权股数不同，不能混用。 |
+| I09-041 | ResearchAndDevelopmentExpense 2025-07-01/2025-09-30 | 329400000.0 | Unknown |  | Agent机器提取并按原表定位；未人工核准。归母/集团、时点/加权股数不同，不能混用。 |
+| I09-042 | ResearchAndDevelopmentExpense 2026-01-01/2026-09-30 | 1140800000.0 | Unknown |  | Agent机器提取并按原表定位；未人工核准。归母/集团、时点/加权股数不同，不能混用。 |
+| I09-043 | ResearchAndDevelopmentExpense 2025-01-01/2025-09-30 | 958900000.0 | Unknown |  | Agent机器提取并按原表定位；未人工核准。归母/集团、时点/加权股数不同，不能混用。 |
+| I09-044 | OperatingIncomeLoss 2026-07-01/2026-09-30 | 592600000.0 | Unknown |  | Agent机器提取并按原表定位；未人工核准。归母/集团、时点/加权股数不同，不能混用。 |
+| I09-045 | OperatingIncomeLoss 2025-07-01/2025-09-30 | 759700000.0 | Unknown |  | Agent机器提取并按原表定位；未人工核准。归母/集团、时点/加权股数不同，不能混用。 |
+| I09-046 | OperatingIncomeLoss 2026-01-01/2026-09-30 | 2419800000.0 | Unknown |  | Agent机器提取并按原表定位；未人工核准。归母/集团、时点/加权股数不同，不能混用。 |
+| I09-047 | OperatingIncomeLoss 2025-01-01/2025-09-30 | 2081200000.0 | Unknown |  | Agent机器提取并按原表定位；未人工核准。归母/集团、时点/加权股数不同，不能混用。 |
+| I09-048 | NetIncomeLoss 2026-07-01/2026-09-30 | 522800000.0 | Unknown |  | Agent机器提取并按原表定位；未人工核准。归母/集团、时点/加权股数不同，不能混用。 |
+| I09-049 | NetIncomeLoss 2025-07-01/2025-09-30 | 704400000.0 | Unknown |  | Agent机器提取并按原表定位；未人工核准。归母/集团、时点/加权股数不同，不能混用。 |
+| I09-050 | NetIncomeLoss 2026-01-01/2026-09-30 | 2162400000.0 | Unknown |  | Agent机器提取并按原表定位；未人工核准。归母/集团、时点/加权股数不同，不能混用。 |
+| I09-051 | NetIncomeLoss 2025-01-01/2025-09-30 | 2061200000.0 | Unknown |  | Agent机器提取并按原表定位；未人工核准。归母/集团、时点/加权股数不同，不能混用。 |
+| I09-052 | ShareBasedCompensation 2026-01-01/2026-09-30 | 632000000.0 | Unknown |  | Agent机器提取并按原表定位；未人工核准。归母/集团、时点/加权股数不同，不能混用。 |
+| I09-053 | ShareBasedCompensation 2025-01-01/2025-09-30 | 584900000.0 | Unknown |  | Agent机器提取并按原表定位；未人工核准。归母/集团、时点/加权股数不同，不能混用。 |
+| I09-054 | NetCashProvidedByUsedInOperatingActivities 2026-01-01/2026-09-30 | 3197000000.0 | Unknown |  | Agent机器提取并按原表定位；未人工核准。归母/集团、时点/加权股数不同，不能混用。 |
+| I09-055 | NetCashProvidedByUsedInOperatingActivities 2025-01-01/2025-09-30 | 2138000000.0 | Unknown |  | Agent机器提取并按原表定位；未人工核准。归母/集团、时点/加权股数不同，不能混用。 |

@@ -1,0 +1,122 @@
+{
+  "items": [
+    {
+      "id": "O44bdf1e27fe4",
+      "group": "research-report",
+      "title": "ISRG装机—手术—耗材服务—现金研究起点",
+      "kind": "报告草稿",
+      "version": 1,
+      "at": "2026-11-12T04:00:35.686361+00:00",
+      "actor": "Agent/test-or-api",
+      "actual_user_review": null,
+      "historical": false,
+      "bindings": {
+        "selection_ids": [
+          "R13e68bc03271",
+          "R143dc49386bb",
+          "R1879b1d90070",
+          "R3fe807f7f8f2",
+          "R4257c7215539",
+          "R93279d7b4123",
+          "Rc4f28a3b6f14",
+          "Re4a5d5334869"
+        ],
+        "selection_scope": "all-eight-lanes",
+        "cards": {
+          "Re4a5d5334869": "3857b19ffcde519a92c1f36f8a9b1d8b2073b9ac9b8a699e0e6691af58868fce",
+          "R4257c7215539": "29a7d0b88561cfa208853a66dddb8fa648e0a9fdf6791ca862b34e6a6fcb2766",
+          "R13e68bc03271": "cb9fc3d9a45e867be313f7fc4ba3c884706310c3f498b4dd585a34a124fb6025",
+          "R143dc49386bb": "7417bc1a0651da0e28f0dd939cf04f3c9137583eccda523d0814161349f8f920",
+          "R3fe807f7f8f2": "a4e74f0d8a5aae898aafe87fe32e153da74a57e53b7c030834a35881cca8f854",
+          "Rc4f28a3b6f14": "674a2534d42cf6c1bda0bb789f4c8786951e6e24b646d11d1d705398c9886e91",
+          "R93279d7b4123": "a9bddff35de6a5ce87c7bda6e0e2123b53d31f8b60012fee7ab49b9eb2aa3041",
+          "R1879b1d90070": "cd7f0e32862b003722a265b2527ffa9cfde5a557aa35105a78a781d6ade89e6d"
+        },
+        "methods": [
+          {
+            "id": "K46",
+            "version": 1
+          },
+          {
+            "id": "K48",
+            "version": 1
+          },
+          {
+            "id": "K50",
+            "version": 1
+          },
+          {
+            "id": "K53",
+            "version": 1
+          },
+          {
+            "id": "K57",
+            "version": 1
+          },
+          {
+            "id": "K58",
+            "version": 1
+          },
+          {
+            "id": "K59",
+            "version": 1
+          },
+          {
+            "id": "K63",
+            "version": 1
+          }
+        ],
+        "inputs": {
+          "work/research09/evidence-map.json": "8dab040661b0470c7082e40ffb469284846d396ae79de13a07bb01d635a43335",
+          "work/research09/parameter-register.json": "7bba79675398065aaacf7a8d2a311c248e1cec0e2cadb18c3199260512ddeb0b",
+          "work/research09/pricing-threshold.json": "aeb20ebd1f87a735c29f034d568b3fce840f02332908eeb1457d806c7024a182",
+          "work/research09/利润资本现金与估值准备.md": "0943c9286962a8f5bd38bdb7784c81084569d84fbb4ac5ecb227c91d20f30eed",
+          "work/review-batches/I09-candidates.json": "ee0c9ee4dd40ccc8bee3147dc51e82deb914cf3c7ce1878c0f47ddf056446fc7",
+          "work/valuation/index.json": "304a5f3d53b4ab02d733fc359a74ab2a19cd25d6e7207c8752caeb737c31b43b",
+          "work/valuation/v1-Vd4916286e592.json": "cf9328453ab77bcab35d531773fab094b988aa908358dd6c39a4ffc951d4e606"
+        },
+        "sources": [
+          {
+            "id": "S83c179dfd93521d4",
+            "path": "sources/raw/S83c179dfd93521d4.html",
+            "sha256": "df5b434e5ae926551c12632ba637d5d182aa1fdf3eab00b5668983bc86c3ac61"
+          },
+          {
+            "id": "Se7f95d2f97642180",
+            "path": "sources/raw/Se7f95d2f97642180.html",
+            "sha256": "bdcd15add5b70b03a8342ffe169b54530d4805c9e4c12796985d3245993ac991"
+          }
+        ],
+        "shared_dependencies": {
+          "shared/runtime/companybench/valuation_chain.py": "0155df03fa6ff2dd86a6a4c92f51f277f88e1edd45bfd972d191796276ac23ca",
+          "shared/runtime/companybench/research_depth.py": "bb364cd41336a0d3fe62d0d0663f7e8557570aeff2d201c21517259ae1404a41",
+          "scripts/recalculate_valuation.py": "711a5a9c153a834a2c28d133d24b0aec0cd93153c0baa4f1358a8b22ef4cc727"
+        }
+      },
+      "files": [
+        {
+          "path": "outputs/research-report/v1-O44bdf1e27fe4/basis.json",
+          "format": "json",
+          "sha256": "555c5012f8abec585d4301f485832ebbb9b4ef1e2bdb81c9004a7a81df0a6c62",
+          "bytes": 162946
+        },
+        {
+          "path": "outputs/research-report/v1-O44bdf1e27fe4/report.html",
+          "format": "html",
+          "sha256": "275d1ce09a35c1851055fb8935f785edca6889e8caa11d2c73f9d92938a2b8f1",
+          "bytes": 21608
+        },
+        {
+          "path": "outputs/research-report/v1-O44bdf1e27fe4/report.md",
+          "format": "md",
+          "sha256": "7f995197b570ce1f4b0c43d063a5af1db72090946fce57874e54c64cdb7c856b",
+          "bytes": 20919
+        }
+      ],
+      "needs_review": false,
+      "imported": false,
+      "impact_reasons": [],
+      "file_integrity": true
+    }
+  ]
+}

@@ -1,6 +1,1433 @@
 {
-  "materials": [],
-  "methods": [],
+  "materials": [
+    {
+      "id": "MK3ad8721c339b1f",
+      "title": "正alpha先核风险暴露",
+      "source": "companybench/knowledge.json#K41",
+      "version": "2026-11-11",
+      "sha256": "3ad8721c339b1f2914a0ce2747df7b778fe1391bbc8a1d60c9c41277658ff313",
+      "scope": "shared",
+      "kind": "已提炼方法来源",
+      "status": "imported",
+      "imported_at": "2026-11-11T12:51:26.459816+00:00"
+    },
+    {
+      "id": "MKd5d7360f72b768",
+      "title": "未看到尾部不等于无尾部",
+      "source": "companybench/knowledge.json#K42",
+      "version": "2026-11-11",
+      "sha256": "d5d7360f72b768470dcbbbffe105786b430c381632eebb55ff525ee00f7dde6e",
+      "scope": "shared",
+      "kind": "已提炼方法来源",
+      "status": "imported",
+      "imported_at": "2026-11-11T12:51:26.462762+00:00"
+    },
+    {
+      "id": "MK033e2817a32f18",
+      "title": "评分不能替代负债路径",
+      "source": "companybench/knowledge.json#K43",
+      "version": "2026-11-11",
+      "sha256": "033e2817a32f1835aef0a0358ce25c7f3cd40f2bb921d83946d0c273b53a041c",
+      "scope": "shared",
+      "kind": "已提炼方法来源",
+      "status": "imported",
+      "imported_at": "2026-11-11T12:51:26.464792+00:00"
+    },
+    {
+      "id": "MK8da45af52a34eb",
+      "title": "期望财富与对数等价分开",
+      "source": "companybench/knowledge.json#K44",
+      "version": "2026-11-11",
+      "sha256": "8da45af52a34eb17e56a1092b5bdd45b050e2dbfbea4108300d3177495f6ca4a",
+      "scope": "shared",
+      "kind": "已提炼方法来源",
+      "status": "imported",
+      "imported_at": "2026-11-11T12:51:26.468843+00:00"
+    },
+    {
+      "id": "MK9383ca3de2d7c3",
+      "title": "资格同类公式解释",
+      "source": "companybench/knowledge.json#K45",
+      "version": "2026-11-11",
+      "sha256": "9383ca3de2d7c3429642459027e4a8aca5be9f49f26ec5353f9ae6cda80fb5b9",
+      "scope": "shared",
+      "kind": "已提炼方法来源",
+      "status": "imported",
+      "imported_at": "2026-11-11T12:51:26.471575+00:00"
+    },
+    {
+      "id": "MKe2809cf67b3a51",
+      "title": "机制故事绑定区分证据",
+      "source": "companybench/knowledge.json#K46",
+      "version": "2026-11-11",
+      "sha256": "e2809cf67b3a515bb2766f8198e8cf8b4d2fb92e708f9daae13fe30245e4321d",
+      "scope": "shared",
+      "kind": "已提炼方法来源",
+      "status": "imported",
+      "imported_at": "2026-11-11T12:51:26.474627+00:00"
+    },
+    {
+      "id": "MK2c60d9aa6c9a2a",
+      "title": "预测校准先定方向尺度",
+      "source": "companybench/knowledge.json#K47",
+      "version": "2026-11-11",
+      "sha256": "2c60d9aa6c9a2a390aaed00e4264fa54642043dc67e259062a2035b2ca070a88",
+      "scope": "shared",
+      "kind": "已提炼方法来源",
+      "status": "imported",
+      "imported_at": "2026-11-11T12:51:26.477490+00:00"
+    },
+    {
+      "id": "MK0c0ce1742c7faf",
+      "title": "新增回报与存量效率分开",
+      "source": "companybench/knowledge.json#K48",
+      "version": "2026-11-11",
+      "sha256": "0c0ce1742c7faf6969594e919633c2e14be6835db9bdfedd57a61ae8d8afd1ac",
+      "scope": "shared",
+      "kind": "已提炼方法来源",
+      "status": "imported",
+      "imported_at": "2026-11-11T12:51:26.480765+00:00"
+    },
+    {
+      "id": "MKfe924edc238e61",
+      "title": "收入桥展示结构与价格",
+      "source": "companybench/knowledge.json#K49",
+      "version": "2026-11-11",
+      "sha256": "fe924edc238e619ff7039b01659af16c26288f9758a6129eff49ea91252e4678",
+      "scope": "shared",
+      "kind": "已提炼方法来源",
+      "status": "imported",
+      "imported_at": "2026-11-11T12:51:26.483904+00:00"
+    },
+    {
+      "id": "MKb35a8777a9c32d",
+      "title": "收入到现金需要资本桥",
+      "source": "companybench/knowledge.json#K50",
+      "version": "2026-11-11",
+      "sha256": "b35a8777a9c32d505bd70c63b832ceb57c2348473eb1b950d686eea0f09d6edb",
+      "scope": "shared",
+      "kind": "已提炼方法来源",
+      "status": "imported",
+      "imported_at": "2026-11-11T12:51:26.486842+00:00"
+    },
+    {
+      "id": "MKa731de99425610",
+      "title": "增长与边际价值",
+      "source": "companybench/knowledge.json#K51",
+      "version": "2026-11-11",
+      "sha256": "a731de994256106354c9a5be59f42b5959d476a350c279eed5cefa3c04d8e0bf",
+      "scope": "shared",
+      "kind": "已提炼方法来源",
+      "status": "imported",
+      "imported_at": "2026-11-11T12:51:26.488833+00:00"
+    },
+    {
+      "id": "MKbdab544f9eb761",
+      "title": "把故事改写成可推翻问题",
+      "source": "companybench/knowledge.json#K52",
+      "version": "2026-11-11",
+      "sha256": "bdab544f9eb761f6365b2a87edd1d8529b226670a88219eccdfae8d4ba9ab509",
+      "scope": "shared",
+      "kind": "已提炼方法来源",
+      "status": "imported",
+      "imported_at": "2026-11-11T12:51:26.491882+00:00"
+    },
+    {
+      "id": "MK839901df0af3c6",
+      "title": "重分类做现金不变检查",
+      "source": "companybench/knowledge.json#K53",
+      "version": "2026-11-11",
+      "sha256": "839901df0af3c6f33d397a16d2129793d1c6896ccf37ab3c585af59a67039efb",
+      "scope": "shared",
+      "kind": "已提炼方法来源",
+      "status": "imported",
+      "imported_at": "2026-11-11T12:51:26.495818+00:00"
+    },
+    {
+      "id": "MKfefe33da149c45",
+      "title": "营运资本按主体资金性质拆分",
+      "source": "companybench/knowledge.json#K54",
+      "version": "2026-11-11",
+      "sha256": "fefe33da149c4512b375ebb942cb4dbbc7d580ec51b47f0db53cdb11cca69e9b",
+      "scope": "shared",
+      "kind": "已提炼方法来源",
+      "status": "imported",
+      "imported_at": "2026-11-11T12:51:26.499815+00:00"
+    },
+    {
+      "id": "MKe2568ccab82b32",
+      "title": "营运资本比例过渡与存量",
+      "source": "companybench/knowledge.json#K55",
+      "version": "2026-11-11",
+      "sha256": "e2568ccab82b32dbd0921ae37a684971b7803c2e7557b178534ff7162c03c845",
+      "scope": "shared",
+      "kind": "已提炼方法来源",
+      "status": "imported",
+      "imported_at": "2026-11-11T12:51:26.502839+00:00"
+    },
+    {
+      "id": "MKaf7a84de846b71",
+      "title": "税损余额与实现时点",
+      "source": "companybench/knowledge.json#K56",
+      "version": "2026-11-11",
+      "sha256": "af7a84de846b71cdb697a2fb2ed0d55ce36539621bfc4f5ed61f848fceff1d4c",
+      "scope": "shared",
+      "kind": "已提炼方法来源",
+      "status": "imported",
+      "imported_at": "2026-11-11T12:51:26.505746+00:00"
+    },
+    {
+      "id": "MK931eafcfae9a74",
+      "title": "FCFE调整项也需归属匹配",
+      "source": "companybench/knowledge.json#K57",
+      "version": "2026-11-11",
+      "sha256": "931eafcfae9a746fcd87800c041dfe3f2b9d695c2025f793ee0f951c903b3511",
+      "scope": "shared",
+      "kind": "已提炼方法来源",
+      "status": "imported",
+      "imported_at": "2026-11-11T12:51:26.508737+00:00"
+    },
+    {
+      "id": "MKf41605b0674985",
+      "title": "现金税与营运税款只调一次",
+      "source": "companybench/knowledge.json#K58",
+      "version": "2026-11-11",
+      "sha256": "f41605b06749852bc7db2dce9e30eff88e57b123fe79a71e988f23f9daf80607",
+      "scope": "shared",
+      "kind": "已提炼方法来源",
+      "status": "imported",
+      "imported_at": "2026-11-11T12:51:26.511727+00:00"
+    },
+    {
+      "id": "MK1d8a1539032c55",
+      "title": "显性末年投入接稳定首年利润",
+      "source": "companybench/knowledge.json#K59",
+      "version": "2026-11-11",
+      "sha256": "1d8a1539032c55f437c3cf25ae2659ad5739497f1ad50c9270127fb1c7a6a2fc",
+      "scope": "shared",
+      "kind": "已提炼方法来源",
+      "status": "imported",
+      "imported_at": "2026-11-11T12:51:26.515715+00:00"
+    },
+    {
+      "id": "MKca17a82ae929cf",
+      "title": "稳定资本成本不折现历史阶段",
+      "source": "companybench/knowledge.json#K60",
+      "version": "2026-11-11",
+      "sha256": "ca17a82ae929cfdd8d701b75ec7816ab161d5b8c366135b92eae26260f0ab6a3",
+      "scope": "shared",
+      "kind": "已提炼方法来源",
+      "status": "imported",
+      "imported_at": "2026-11-11T12:51:26.518712+00:00"
+    },
+    {
+      "id": "MKae153b8615bbbd",
+      "title": "终值占比不是可信度评分",
+      "source": "companybench/knowledge.json#K61",
+      "version": "2026-11-11",
+      "sha256": "ae153b8615bbbdf4cdd94f4ca6cbcc0b2ed827e81eff4a01eabe9e7e1d6a232f",
+      "scope": "shared",
+      "kind": "已提炼方法来源",
+      "status": "imported",
+      "imported_at": "2026-11-11T12:51:26.522727+00:00"
+    },
+    {
+      "id": "MKeb8d6f03ef8b7d",
+      "title": "资本成本输入需要同日依据",
+      "source": "companybench/knowledge.json#K62",
+      "version": "2026-11-11",
+      "sha256": "eb8d6f03ef8b7d8af58ee9504f4216c020092dd6ae1e518d789ca2d9c1239338",
+      "scope": "shared",
+      "kind": "已提炼方法来源",
+      "status": "imported",
+      "imported_at": "2026-11-11T12:51:26.525716+00:00"
+    },
+    {
+      "id": "MKbedf9f193dc06e",
+      "title": "好生意低估催化剂分别检验",
+      "source": "companybench/knowledge.json#K63",
+      "version": "2026-11-11",
+      "sha256": "bedf9f193dc06e6e1f09e7c956ac06398222f76a22653bedabd0ac652cf85b9c",
+      "scope": "shared",
+      "kind": "已提炼方法来源",
+      "status": "imported",
+      "imported_at": "2026-11-11T12:51:26.529667+00:00"
+    },
+    {
+      "id": "MK29528df3a4bae3",
+      "title": "渠道毛利结构桥与净贡献",
+      "source": "companybench/knowledge.json#K64",
+      "version": "2026-11-11",
+      "sha256": "29528df3a4bae3263ad68fc9eef63b30652b93fa4ddb18fec0cd1daf902ea702",
+      "scope": "shared",
+      "kind": "已提炼方法来源",
+      "status": "imported",
+      "imported_at": "2026-11-11T12:51:26.532711+00:00"
+    },
+    {
+      "id": "Mcd0716699539",
+      "title": "lec05_叙事与估值_part2_更新.md",
+      "source": "D:\\投资学\\课件与任务文件\\补充材料6\\lec05_叙事与估值_part2_更新.md",
+      "version": "c41dfa00049bddad",
+      "sha256": "c41dfa00049bddad66be35bc11029d505221dc621e90bdbe7789a1f8a450b5e8",
+      "imported_at": "2026-11-12T04:07:54.490296+00:00",
+      "status": "imported",
+      "kind": "课程方法原稿",
+      "scope": "shared"
+    },
+    {
+      "id": "M84df7480bbf3",
+      "title": "lec05_叙事与估值_part3.md",
+      "source": "D:\\投资学\\课件与任务文件\\补充材料6\\lec05_叙事与估值_part3.md",
+      "version": "74f13d885accdc26",
+      "sha256": "74f13d885accdc26262442cd51cb768b1cbae5bfdd290ac8d7a3e9d2f872efdb",
+      "imported_at": "2026-11-12T04:07:54.495271+00:00",
+      "status": "imported",
+      "kind": "课程方法原稿",
+      "scope": "shared"
+    },
+    {
+      "id": "M14b44e0a5858",
+      "title": "商业模式最小示例_渠道与价值获取.md",
+      "source": "D:\\投资学\\课件与任务文件\\补充材料6\\商业模式最小示例_渠道与价值获取.md",
+      "version": "c6a602d54b8e260f",
+      "sha256": "c6a602d54b8e260fabfdd77715de04c3d626047ee6e2db2bae3aba0702368733",
+      "imported_at": "2026-11-12T04:07:54.499255+00:00",
+      "status": "imported",
+      "kind": "研究写法示例，非事实权威",
+      "scope": "shared"
+    },
+    {
+      "id": "Mfd72a8a93ca5",
+      "title": "lec05_叙事与估值_part4.md",
+      "source": "D:\\投资学\\课件与任务文件\\补充材料7\\lec05_叙事与估值_part4.md",
+      "version": "7b644f7b64213c6e",
+      "sha256": "7b644f7b64213c6e4c934e63ff14ea6024116d5a66efc9781591e3c7469939d8",
+      "imported_at": "2026-11-12T04:07:54.504615+00:00",
+      "status": "imported",
+      "kind": "课程方法原稿",
+      "scope": "shared"
+    },
+    {
+      "id": "M2c53c8183748",
+      "title": "关键.txt",
+      "source": "D:\\投资学\\课件与任务文件\\补充材料7\\关键.txt",
+      "version": "e8024acffbd8e974",
+      "sha256": "e8024acffbd8e974903b7a1a8a499165fa0f137106909a51ef4907b3c7729087",
+      "imported_at": "2026-11-12T04:07:54.509823+00:00",
+      "status": "imported",
+      "kind": "用户研究提纲",
+      "scope": "shared"
+    }
+  ],
+  "methods": [
+    {
+      "id": "K41",
+      "title": "正alpha先核风险暴露",
+      "tags": [
+        "评价",
+        "风险",
+        "alpha"
+      ],
+      "method": "固定斜率alpha可能吸收择时杠杆变化，先以事前暴露解释收益。",
+      "stop": "加入暴露和成本后，样本外超额是否仍稳定？",
+      "source": "既有逐章研读2026-11-07—08的方法候选，经2026-11-11整理接入",
+      "pdf_physical_pages": [],
+      "question": "正alpha先核风险暴露应如何检查？",
+      "required_inputs": [
+        "总收益与rf",
+        "事前持仓和杠杆",
+        "衍生品及成本"
+      ],
+      "example": "四期市场4/6/−2/−4%，杠杆1/1/.5/.5，固定OLS仍可出现正截距。",
+      "refute": "加入暴露和成本后，样本外超额是否仍稳定？",
+      "related_cards": [
+        "K13"
+      ],
+      "source_locator": "原学习笔记对应K41",
+      "version": 1,
+      "inputs": [
+        "总收益与rf",
+        "事前持仓和杠杆",
+        "衍生品及成本"
+      ],
+      "use_at": "八主线：历史经营解释 / 未来预测 / 估值与投资判断 / 风险与反方",
+      "scope": "shared",
+      "material_id": "MK3ad8721c339b1f",
+      "status": "installed",
+      "at": "2026-11-11T12:51:26.460846+00:00",
+      "actor": "Agent",
+      "user_review": null,
+      "source_version": "2026-11-11",
+      "source_sha256": "3ad8721c339b1f2914a0ce2747df7b778fe1391bbc8a1d60c9c41277658ff313",
+      "example_boundary": "明确教学例；不提供任何公司Fact或默认预测参数",
+      "conflicts": [],
+      "duplicate_installed_titles": [],
+      "related_cards_original": [
+        "K13"
+      ]
+    },
+    {
+      "id": "K42",
+      "title": "未看到尾部不等于无尾部",
+      "tags": [
+        "评价",
+        "尾部",
+        "概率"
+      ],
+      "method": "结合合约状态损益评估未实现风险，不能仅看历史无亏损。",
+      "stop": "新增尾部状态、融资约束或估计概率变化。",
+      "source": "既有逐章研读2026-11-07—08的方法候选，经2026-11-11整理接入",
+      "pdf_physical_pages": [],
+      "question": "未看到尾部不等于无尾部应如何检查？",
+      "required_inputs": [
+        "持仓与或有义务",
+        "状态损益",
+        "样本长度"
+      ],
+      "example": "独立月99%赚1%、1%亏80%，36个月无尾部概率约69.64%。",
+      "refute": "新增尾部状态、融资约束或估计概率变化。",
+      "related_cards": [
+        "K15"
+      ],
+      "source_locator": "原学习笔记对应K42",
+      "version": 1,
+      "inputs": [
+        "持仓与或有义务",
+        "状态损益",
+        "样本长度"
+      ],
+      "use_at": "八主线：历史经营解释 / 未来预测 / 估值与投资判断 / 风险与反方",
+      "scope": "shared",
+      "material_id": "MKd5d7360f72b768",
+      "status": "installed",
+      "at": "2026-11-11T12:51:26.463838+00:00",
+      "actor": "Agent",
+      "user_review": null,
+      "source_version": "2026-11-11",
+      "source_sha256": "d5d7360f72b768470dcbbbffe105786b430c381632eebb55ff525ee00f7dde6e",
+      "example_boundary": "明确教学例；不提供任何公司Fact或默认预测参数",
+      "conflicts": [],
+      "duplicate_installed_titles": [],
+      "related_cards_original": [
+        "K15"
+      ]
+    },
+    {
+      "id": "K43",
+      "title": "评分不能替代负债路径",
+      "tags": [
+        "组合",
+        "提款",
+        "现金"
+      ],
+      "method": "相同收益分布在有提款和融资约束时可产生不同终值。",
+      "stop": "无中途支付且目标仅为分布评分时，收窄路径顾虑。",
+      "source": "既有逐章研读2026-11-07—08的方法候选，经2026-11-11整理接入",
+      "pdf_physical_pages": [],
+      "question": "评分不能替代负债路径应如何检查？",
+      "required_inputs": [
+        "收益顺序",
+        "支付日期",
+        "提款额",
+        "融资限制"
+      ],
+      "example": "100起点，两期+50%与−1/3，每期末提20，倒序终值分别66.6667与50。",
+      "refute": "无中途支付且目标仅为分布评分时，收窄路径顾虑。",
+      "related_cards": [
+        "K21"
+      ],
+      "source_locator": "原学习笔记对应K43",
+      "version": 1,
+      "inputs": [
+        "收益顺序",
+        "支付日期",
+        "提款额",
+        "融资限制"
+      ],
+      "use_at": "八主线：历史经营解释 / 未来预测 / 估值与投资判断 / 风险与反方",
+      "scope": "shared",
+      "material_id": "MK033e2817a32f18",
+      "status": "installed",
+      "at": "2026-11-11T12:51:26.466748+00:00",
+      "actor": "Agent",
+      "user_review": null,
+      "source_version": "2026-11-11",
+      "source_sha256": "033e2817a32f1835aef0a0358ce25c7f3cd40f2bb921d83946d0c273b53a041c",
+      "example_boundary": "明确教学例；不提供任何公司Fact或默认预测参数",
+      "conflicts": [],
+      "duplicate_installed_titles": [],
+      "related_cards_original": [
+        "K21"
+      ]
+    },
+    {
+      "id": "K44",
+      "title": "期望财富与对数等价分开",
+      "tags": [
+        "概率",
+        "复利",
+        "对数"
+      ],
+      "method": "估值期望现金与对数增长是不同目标；不要以几何平均代替算术期望。",
+      "stop": "收益相关、分布变化或目标改变时重算。",
+      "source": "既有逐章研读2026-11-07—08的方法候选，经2026-11-11整理接入",
+      "pdf_physical_pages": [],
+      "question": "期望财富与对数等价分开应如何检查？",
+      "required_inputs": [
+        "状态概率",
+        "收益因子",
+        "独立性",
+        "评价目标"
+      ],
+      "example": "三种独立等概率月总收益.96/1.02/1.08，算术均值1.02大于几何因子。",
+      "refute": "收益相关、分布变化或目标改变时重算。",
+      "related_cards": [
+        "K23"
+      ],
+      "source_locator": "原学习笔记对应K44",
+      "version": 1,
+      "inputs": [
+        "状态概率",
+        "收益因子",
+        "独立性",
+        "评价目标"
+      ],
+      "use_at": "八主线：历史经营解释 / 未来预测 / 估值与投资判断 / 风险与反方",
+      "scope": "shared",
+      "material_id": "MK8da45af52a34eb",
+      "status": "installed",
+      "at": "2026-11-11T12:51:26.469813+00:00",
+      "actor": "Agent",
+      "user_review": null,
+      "source_version": "2026-11-11",
+      "source_sha256": "8da45af52a34eb17e56a1092b5bdd45b050e2dbfbea4108300d3177495f6ca4a",
+      "example_boundary": "明确教学例；不提供任何公司Fact或默认预测参数",
+      "conflicts": [],
+      "duplicate_installed_titles": [],
+      "related_cards_original": [
+        "K23"
+      ]
+    },
+    {
+      "id": "K45",
+      "title": "资格同类公式解释",
+      "tags": [
+        "评价",
+        "基金",
+        "数据"
+      ],
+      "method": "先核数据资格和同类，再计算评分，最后解释。",
+      "stop": "发现费率、币种或策略不可比时停止排名。",
+      "source": "既有逐章研读2026-11-07—08的方法候选，经2026-11-11整理接入",
+      "pdf_physical_pages": [],
+      "question": "资格同类公式解释应如何检查？",
+      "required_inputs": [
+        "连续历史",
+        "费用与分红",
+        "币种和基准",
+        "策略断点"
+      ],
+      "example": "重叠三五十年窗口不是三次独立实验。",
+      "refute": "发现费率、币种或策略不可比时停止排名。",
+      "related_cards": [
+        "K37"
+      ],
+      "source_locator": "原学习笔记对应K45",
+      "version": 1,
+      "inputs": [
+        "连续历史",
+        "费用与分红",
+        "币种和基准",
+        "策略断点"
+      ],
+      "use_at": "八主线：历史经营解释 / 未来预测 / 估值与投资判断 / 风险与反方",
+      "scope": "shared",
+      "material_id": "MK9383ca3de2d7c3",
+      "status": "installed",
+      "at": "2026-11-11T12:51:26.473588+00:00",
+      "actor": "Agent",
+      "user_review": null,
+      "source_version": "2026-11-11",
+      "source_sha256": "9383ca3de2d7c3429642459027e4a8aca5be9f49f26ec5353f9ae6cda80fb5b9",
+      "example_boundary": "明确教学例；不提供任何公司Fact或默认预测参数",
+      "conflicts": [],
+      "duplicate_installed_titles": [],
+      "related_cards_original": [
+        "K37"
+      ]
+    },
+    {
+      "id": "K46",
+      "title": "机制故事绑定区分证据",
+      "tags": [
+        "机制",
+        "反证",
+        "叙事"
+      ],
+      "method": "收入桥后追问净价、终端量、库存与净现金，寻找能区分竞争解释的证据。",
+      "stop": "区分观测与原主张相反时修正机制。",
+      "source": "既有逐章研读2026-11-07—08的方法候选，经2026-11-11整理接入",
+      "pdf_physical_pages": [],
+      "question": "机制故事绑定区分证据应如何检查？",
+      "required_inputs": [
+        "收入分解",
+        "责任和成本",
+        "替代解释",
+        "区分观测"
+      ],
+      "example": "渠道迁移可抬ASP而终端需求不变。",
+      "refute": "区分观测与原主张相反时修正机制。",
+      "related_cards": [
+        "K15"
+      ],
+      "source_locator": "原学习笔记对应K46",
+      "version": 1,
+      "inputs": [
+        "收入分解",
+        "责任和成本",
+        "替代解释",
+        "区分观测"
+      ],
+      "use_at": "八主线：历史经营解释 / 未来预测 / 估值与投资判断 / 风险与反方",
+      "scope": "shared",
+      "material_id": "MKe2809cf67b3a51",
+      "status": "installed",
+      "at": "2026-11-11T12:51:26.475580+00:00",
+      "actor": "Agent",
+      "user_review": null,
+      "source_version": "2026-11-11",
+      "source_sha256": "e2809cf67b3a515bb2766f8198e8cf8b4d2fb92e708f9daae13fe30245e4321d",
+      "example_boundary": "明确教学例；不提供任何公司Fact或默认预测参数",
+      "conflicts": [],
+      "duplicate_installed_titles": [],
+      "related_cards_original": [
+        "K15"
+      ]
+    },
+    {
+      "id": "K47",
+      "title": "预测校准先定方向尺度",
+      "tags": [
+        "预测",
+        "校准",
+        "R²"
+      ],
+      "method": "冻结事前信息和目标，再估偏置与尺度，不机械乘R²。",
+      "stop": "样本外偏置/尺度变化触发重估。",
+      "source": "既有逐章研读2026-11-07—08的方法候选，经2026-11-11整理接入",
+      "pdf_physical_pages": [],
+      "question": "预测校准先定方向尺度应如何检查？",
+      "required_inputs": [
+        "事前预测",
+        "配对实现",
+        "基准",
+        "样本外设计"
+      ],
+      "example": "反向与正向回归斜率相乘才为R²；一般斜率不等于R²。",
+      "refute": "样本外偏置/尺度变化触发重估。",
+      "related_cards": [
+        "K28"
+      ],
+      "source_locator": "原学习笔记对应K47",
+      "version": 1,
+      "inputs": [
+        "事前预测",
+        "配对实现",
+        "基准",
+        "样本外设计"
+      ],
+      "use_at": "八主线：历史经营解释 / 未来预测 / 估值与投资判断 / 风险与反方",
+      "scope": "shared",
+      "material_id": "MK2c60d9aa6c9a2a",
+      "status": "installed",
+      "at": "2026-11-11T12:51:26.479660+00:00",
+      "actor": "Agent",
+      "user_review": null,
+      "source_version": "2026-11-11",
+      "source_sha256": "2c60d9aa6c9a2a390aaed00e4264fa54642043dc67e259062a2035b2ca070a88",
+      "example_boundary": "明确教学例；不提供任何公司Fact或默认预测参数",
+      "conflicts": [],
+      "duplicate_installed_titles": [],
+      "related_cards_original": [
+        "K28"
+      ]
+    },
+    {
+      "id": "K48",
+      "title": "新增回报与存量效率分开",
+      "tags": [
+        "增长",
+        "ROIC",
+        "资本"
+      ],
+      "method": "将旧资产效率改善与新投资贡献分别列示，并匹配投产时点。",
+      "stop": "旧资产效率不再改善或项目延迟时下调增长。",
+      "source": "既有逐章研读2026-11-07—08的方法候选，经2026-11-11整理接入",
+      "pdf_physical_pages": [],
+      "question": "新增回报与存量效率分开应如何检查？",
+      "required_inputs": [
+        "旧资本",
+        "旧利润",
+        "新投入时点",
+        "两类回报"
+      ],
+      "example": "旧资本1000回报10%升11%，新增40回报15%，NOPAT100到116。",
+      "refute": "旧资产效率不再改善或项目延迟时下调增长。",
+      "related_cards": [
+        "K04"
+      ],
+      "source_locator": "原学习笔记对应K48",
+      "version": 1,
+      "inputs": [
+        "旧资本",
+        "旧利润",
+        "新投入时点",
+        "两类回报"
+      ],
+      "use_at": "八主线：历史经营解释 / 未来预测 / 估值与投资判断 / 风险与反方",
+      "scope": "shared",
+      "material_id": "MK0c0ce1742c7faf",
+      "status": "installed",
+      "at": "2026-11-11T12:51:26.482823+00:00",
+      "actor": "Agent",
+      "user_review": null,
+      "source_version": "2026-11-11",
+      "source_sha256": "0c0ce1742c7faf6969594e919633c2e14be6835db9bdfedd57a61ae8d8afd1ac",
+      "example_boundary": "明确教学例；不提供任何公司Fact或默认预测参数",
+      "conflicts": [],
+      "duplicate_installed_titles": [],
+      "related_cards_original": [
+        "K4"
+      ]
+    },
+    {
+      "id": "K49",
+      "title": "收入桥展示结构与价格",
+      "tags": [
+        "收入",
+        "结构",
+        "Shapley"
+      ],
+      "method": "分总量、结构、组内净价；说明顺序或Shapley交互分配约定。",
+      "stop": "折扣退货/渠道定义变化需重做桥；算术不识别因果。",
+      "source": "既有逐章研读2026-11-07—08的方法候选，经2026-11-11整理接入",
+      "pdf_physical_pages": [],
+      "question": "收入桥展示结构与价格应如何检查？",
+      "required_inputs": [
+        "同单位销量",
+        "SKU净价",
+        "数量结构",
+        "归因约定"
+      ],
+      "example": "两SKU教学收入1400到1705，Shapley贡献443/3、299/3、173/3，合计305。",
+      "refute": "折扣退货/渠道定义变化需重做桥；算术不识别因果。",
+      "related_cards": [
+        "K03"
+      ],
+      "source_locator": "原学习笔记对应K49",
+      "version": 1,
+      "inputs": [
+        "同单位销量",
+        "SKU净价",
+        "数量结构",
+        "归因约定"
+      ],
+      "use_at": "八主线：历史经营解释 / 未来预测 / 估值与投资判断 / 风险与反方",
+      "scope": "shared",
+      "material_id": "MKfe924edc238e61",
+      "status": "installed",
+      "at": "2026-11-11T12:51:26.484816+00:00",
+      "actor": "Agent",
+      "user_review": null,
+      "source_version": "2026-11-11",
+      "source_sha256": "fe924edc238e619ff7039b01659af16c26288f9758a6129eff49ea91252e4678",
+      "example_boundary": "明确教学例；不提供任何公司Fact或默认预测参数",
+      "conflicts": [],
+      "duplicate_installed_titles": [],
+      "related_cards_original": [
+        "K3"
+      ]
+    },
+    {
+      "id": "K50",
+      "title": "收入到现金需要资本桥",
+      "tags": [
+        "收入",
+        "FCFF",
+        "再投资"
+      ],
+      "method": "收入先接经营利润与现金税，再扣完整净再投资。",
+      "stop": "投资前置或资本效率下降时现金路径改变。",
+      "source": "既有逐章研读2026-11-07—08的方法候选，经2026-11-11整理接入",
+      "pdf_physical_pages": [],
+      "question": "收入到现金需要资本桥应如何检查？",
+      "required_inputs": [
+        "经营利润",
+        "现金税",
+        "净投入",
+        "时序"
+      ],
+      "example": "教学NOPAT230.175减净投入152.5，FCFF77.675；利润增长现金仍可下降。",
+      "refute": "投资前置或资本效率下降时现金路径改变。",
+      "related_cards": [
+        "K11"
+      ],
+      "source_locator": "原学习笔记对应K50",
+      "version": 1,
+      "inputs": [
+        "经营利润",
+        "现金税",
+        "净投入",
+        "时序"
+      ],
+      "use_at": "八主线：历史经营解释 / 未来预测 / 估值与投资判断 / 风险与反方",
+      "scope": "shared",
+      "material_id": "MKb35a8777a9c32d",
+      "status": "installed",
+      "at": "2026-11-11T12:51:26.487806+00:00",
+      "actor": "Agent",
+      "user_review": null,
+      "source_version": "2026-11-11",
+      "source_sha256": "b35a8777a9c32d505bd70c63b832ceb57c2348473eb1b950d686eea0f09d6edb",
+      "example_boundary": "明确教学例；不提供任何公司Fact或默认预测参数",
+      "conflicts": [],
+      "duplicate_installed_titles": [],
+      "related_cards_original": [
+        "K11"
+      ]
+    },
+    {
+      "id": "K51",
+      "title": "增长与边际价值",
+      "tags": [
+        "终值",
+        "增长",
+        "ROIC"
+      ],
+      "method": "固定下一期NOPAT，以g/新增回报联动再投资，比较新增回报与资本成本。",
+      "stop": "新增回报降至资本成本时增长不再创造超额价值。",
+      "source": "既有逐章研读2026-11-07—08的方法候选，经2026-11-11整理接入",
+      "pdf_physical_pages": [],
+      "question": "增长与边际价值应如何检查？",
+      "required_inputs": [
+        "稳态NOPAT",
+        "g",
+        "未来新增回报",
+        "WACC"
+      ],
+      "example": "NOPAT100、WACC10%，新回报8%时g3%升6%使价值892.857降625。",
+      "refute": "新增回报降至资本成本时增长不再创造超额价值。",
+      "related_cards": [
+        "K04"
+      ],
+      "source_locator": "原学习笔记对应K51",
+      "version": 1,
+      "inputs": [
+        "稳态NOPAT",
+        "g",
+        "未来新增回报",
+        "WACC"
+      ],
+      "use_at": "八主线：历史经营解释 / 未来预测 / 估值与投资判断 / 风险与反方",
+      "scope": "shared",
+      "material_id": "MKa731de99425610",
+      "status": "installed",
+      "at": "2026-11-11T12:51:26.490847+00:00",
+      "actor": "Agent",
+      "user_review": null,
+      "source_version": "2026-11-11",
+      "source_sha256": "a731de994256106354c9a5be59f42b5959d476a350c279eed5cefa3c04d8e0bf",
+      "example_boundary": "明确教学例；不提供任何公司Fact或默认预测参数",
+      "conflicts": [],
+      "duplicate_installed_titles": [],
+      "related_cards_original": [
+        "K4"
+      ]
+    },
+    {
+      "id": "K52",
+      "title": "把故事改写成可推翻问题",
+      "tags": [
+        "机制",
+        "叙事",
+        "反证"
+      ],
+      "method": "将品牌、渠道、产能依次接净价、成本、资本、现金和权利。",
+      "stop": "销量或单位净贡献不能维持时收窄叙事。",
+      "source": "既有逐章研读2026-11-07—08的方法候选，经2026-11-11整理接入",
+      "pdf_physical_pages": [],
+      "question": "把故事改写成可推翻问题应如何检查？",
+      "required_inputs": [
+        "具体主张",
+        "传导变量",
+        "时滞",
+        "替代解释"
+      ],
+      "example": "品牌强应检验固定SKU净价和销量，而非另加估值溢价。",
+      "refute": "销量或单位净贡献不能维持时收窄叙事。",
+      "related_cards": [
+        "K15"
+      ],
+      "source_locator": "原学习笔记对应K52",
+      "version": 1,
+      "inputs": [
+        "具体主张",
+        "传导变量",
+        "时滞",
+        "替代解释"
+      ],
+      "use_at": "八主线：历史经营解释 / 未来预测 / 估值与投资判断 / 风险与反方",
+      "scope": "shared",
+      "material_id": "MKbdab544f9eb761",
+      "status": "installed",
+      "at": "2026-11-11T12:51:26.493801+00:00",
+      "actor": "Agent",
+      "user_review": null,
+      "source_version": "2026-11-11",
+      "source_sha256": "bdab544f9eb761f6365b2a87edd1d8529b226670a88219eccdfae8d4ba9ab509",
+      "example_boundary": "明确教学例；不提供任何公司Fact或默认预测参数",
+      "conflicts": [],
+      "duplicate_installed_titles": [],
+      "related_cards_original": [
+        "K15"
+      ]
+    },
+    {
+      "id": "K53",
+      "title": "重分类做现金不变检查",
+      "tags": [
+        "研发",
+        "资本化",
+        "税"
+      ],
+      "method": "研发分析资本化同时调整利润、资本、摊销、税与再投资；重分类不创造现金。",
+      "stop": "若只抬利润或重复扣投入则停止估值。",
+      "source": "既有逐章研读2026-11-07—08的方法候选，经2026-11-11整理接入",
+      "pdf_physical_pages": [],
+      "question": "重分类做现金不变检查应如何检查？",
+      "required_inputs": [
+        "已费用研发",
+        "研发摊销",
+        "资产滚动",
+        "原现金税"
+      ],
+      "example": "EBIT40已扣研发10、税12，研发摊销2，调整后48−12−8仍28。",
+      "refute": "若只抬利润或重复扣投入则停止估值。",
+      "related_cards": [
+        "K12"
+      ],
+      "source_locator": "原学习笔记对应K53",
+      "version": 1,
+      "inputs": [
+        "已费用研发",
+        "研发摊销",
+        "资产滚动",
+        "原现金税"
+      ],
+      "use_at": "八主线：历史经营解释 / 未来预测 / 估值与投资判断 / 风险与反方",
+      "scope": "shared",
+      "material_id": "MK839901df0af3c6",
+      "status": "installed",
+      "at": "2026-11-11T12:51:26.497847+00:00",
+      "actor": "Agent",
+      "user_review": null,
+      "source_version": "2026-11-11",
+      "source_sha256": "839901df0af3c6f33d397a16d2129793d1c6896ccf37ab3c585af59a67039efb",
+      "example_boundary": "明确教学例；不提供任何公司Fact或默认预测参数",
+      "conflicts": [],
+      "duplicate_installed_titles": [],
+      "related_cards_original": [
+        "K12"
+      ]
+    },
+    {
+      "id": "K54",
+      "title": "营运资本按主体资金性质拆分",
+      "tags": [
+        "现金",
+        "金融",
+        "NCWC"
+      ],
+      "method": "剔除现金和融资债务，保留匹配经营项目，金融业务单列。",
+      "stop": "金融无法拆分时工业FCFF保持Unknown。",
+      "source": "既有逐章研读2026-11-07—08的方法候选，经2026-11-11整理接入",
+      "pdf_physical_pages": [],
+      "question": "营运资本按主体资金性质拆分应如何检查？",
+      "required_inputs": [
+        "科目性质",
+        "业务归属",
+        "内部抵销",
+        "经营现金需求"
+      ],
+      "example": "金融贷款不能当工厂客户应收款估周转。",
+      "refute": "金融无法拆分时工业FCFF保持Unknown。",
+      "related_cards": [
+        "K11"
+      ],
+      "source_locator": "原学习笔记对应K54",
+      "version": 1,
+      "inputs": [
+        "科目性质",
+        "业务归属",
+        "内部抵销",
+        "经营现金需求"
+      ],
+      "use_at": "八主线：历史经营解释 / 未来预测 / 估值与投资判断 / 风险与反方",
+      "scope": "shared",
+      "material_id": "MKfefe33da149c45",
+      "status": "installed",
+      "at": "2026-11-11T12:51:26.501760+00:00",
+      "actor": "Agent",
+      "user_review": null,
+      "source_version": "2026-11-11",
+      "source_sha256": "fefe33da149c4512b375ebb942cb4dbbc7d580ec51b47f0db53cdb11cca69e9b",
+      "example_boundary": "明确教学例；不提供任何公司Fact或默认预测参数",
+      "conflicts": [],
+      "duplicate_installed_titles": [],
+      "related_cards_original": [
+        "K11"
+      ]
+    },
+    {
+      "id": "K55",
+      "title": "营运资本比例过渡与存量",
+      "tags": [
+        "NCWC",
+        "现金",
+        "增长"
+      ],
+      "method": "先估各年余额再作差，负营运资本在收缩时可能反向耗现。",
+      "stop": "比例不再改善或客户预付下降时不能永续复制释放。",
+      "source": "既有逐章研读2026-11-07—08的方法候选，经2026-11-11整理接入",
+      "pdf_physical_pages": [],
+      "question": "营运资本比例过渡与存量应如何检查？",
+      "required_inputs": [
+        "期初期末收入",
+        "比例",
+        "条款变化"
+      ],
+      "example": "收入1000到1100、比例10%到9%，余额100到99，释放1。",
+      "refute": "比例不再改善或客户预付下降时不能永续复制释放。",
+      "related_cards": [
+        "K11"
+      ],
+      "source_locator": "原学习笔记对应K55",
+      "version": 1,
+      "inputs": [
+        "期初期末收入",
+        "比例",
+        "条款变化"
+      ],
+      "use_at": "八主线：历史经营解释 / 未来预测 / 估值与投资判断 / 风险与反方",
+      "scope": "shared",
+      "material_id": "MKe2568ccab82b32",
+      "status": "installed",
+      "at": "2026-11-11T12:51:26.504749+00:00",
+      "actor": "Agent",
+      "user_review": null,
+      "source_version": "2026-11-11",
+      "source_sha256": "e2568ccab82b32dbd0921ae37a684971b7803c2e7557b178534ff7162c03c845",
+      "example_boundary": "明确教学例；不提供任何公司Fact或默认预测参数",
+      "conflicts": [],
+      "duplicate_installed_titles": [],
+      "related_cards_original": [
+        "K11"
+      ]
+    },
+    {
+      "id": "K56",
+      "title": "税损余额与实现时点",
+      "tags": [
+        "税损",
+        "现金税",
+        "时间"
+      ],
+      "method": "逐期滚动抵扣余额，核适用主体、限额与到期；已入现金税不再加税损价值。",
+      "stop": "不足盈利或抵扣资格丧失时税盾延迟或消失。",
+      "source": "既有逐章研读2026-11-07—08的方法候选，经2026-11-11整理接入",
+      "pdf_physical_pages": [],
+      "question": "税损余额与实现时点应如何检查？",
+      "required_inputs": [
+        "税损明细",
+        "应税利润",
+        "支付计划",
+        "适用条件"
+      ],
+      "example": "初始税损100，所得−20/50/100，例设税25%且无限额，现金税0/0/7.5。",
+      "refute": "不足盈利或抵扣资格丧失时税盾延迟或消失。",
+      "related_cards": [
+        "K39"
+      ],
+      "source_locator": "原学习笔记对应K56",
+      "version": 1,
+      "inputs": [
+        "税损明细",
+        "应税利润",
+        "支付计划",
+        "适用条件"
+      ],
+      "use_at": "八主线：历史经营解释 / 未来预测 / 估值与投资判断 / 风险与反方",
+      "scope": "shared",
+      "material_id": "MKaf7a84de846b71",
+      "status": "installed",
+      "at": "2026-11-11T12:51:26.507739+00:00",
+      "actor": "Agent",
+      "user_review": null,
+      "source_version": "2026-11-11",
+      "source_sha256": "af7a84de846b71cdb697a2fb2ed0d55ce36539621bfc4f5ed61f848fceff1d4c",
+      "example_boundary": "明确教学例；不提供任何公司Fact或默认预测参数",
+      "conflicts": [],
+      "duplicate_installed_titles": [],
+      "related_cards_original": [
+        "K39"
+      ]
+    },
+    {
+      "id": "K57",
+      "title": "FCFE调整项也需归属匹配",
+      "tags": [
+        "FCFE",
+        "少数权益",
+        "权利"
+      ],
+      "method": "归母净利只能配匹配归属的折旧、投资、营运和融资调整。",
+      "stop": "优先权或分红限制存在时不能只机械乘持股比例。",
+      "source": "补充材料6/7 Lec05 Part2—4及本轮方法推导，2026-11-11",
+      "pdf_physical_pages": [],
+      "question": "FCFE调整项也需归属匹配应如何检查？",
+      "required_inputs": [
+        "各主体持股",
+        "利润和调整项",
+        "内部往来"
+      ],
+      "example": "持股80%，子公司利润100、折旧20、capex40，无债时母公司FCFE64而非60。",
+      "refute": "优先权或分红限制存在时不能只机械乘持股比例。",
+      "related_cards": [],
+      "source_locator": "补充材料6/7对应章节；阅读指纹见公司work/supplement67-20261111/reading-manifest.json",
+      "version": 1,
+      "inputs": [
+        "各主体持股",
+        "利润和调整项",
+        "内部往来"
+      ],
+      "use_at": "八主线：历史经营解释 / 未来预测 / 估值与投资判断 / 风险与反方",
+      "scope": "shared",
+      "material_id": "MK931eafcfae9a74",
+      "status": "installed",
+      "at": "2026-11-11T12:51:26.510731+00:00",
+      "actor": "Agent",
+      "user_review": null,
+      "source_version": "2026-11-11",
+      "source_sha256": "931eafcfae9a746fcd87800c041dfe3f2b9d695c2025f793ee0f951c903b3511",
+      "example_boundary": "明确教学例；不提供任何公司Fact或默认预测参数",
+      "conflicts": [],
+      "duplicate_installed_titles": [],
+      "related_cards_original": []
+    },
+    {
+      "id": "K58",
+      "title": "现金税与营运税款只调一次",
+      "tags": [
+        "现金税",
+        "NCWC",
+        "税盾"
+      ],
+      "method": "独立现金税计划已处理支付差额时，NCWC排除对应所得税余额；利息税盾不再入FCFF。",
+      "stop": "发现同一差额被两表处理则回滚重复项。",
+      "source": "补充材料6/7 Lec05 Part2—4及本轮方法推导，2026-11-11",
+      "pdf_physical_pages": [],
+      "question": "现金税与营运税款只调一次应如何检查？",
+      "required_inputs": [
+        "经营税基",
+        "支付计划",
+        "税款余额",
+        "融资税盾"
+      ],
+      "example": "税款延期已在支付表体现，就不再加应交所得税增量。",
+      "refute": "发现同一差额被两表处理则回滚重复项。",
+      "related_cards": [],
+      "source_locator": "补充材料6/7对应章节；阅读指纹见公司work/supplement67-20261111/reading-manifest.json",
+      "version": 1,
+      "inputs": [
+        "经营税基",
+        "支付计划",
+        "税款余额",
+        "融资税盾"
+      ],
+      "use_at": "八主线：历史经营解释 / 未来预测 / 估值与投资判断 / 风险与反方",
+      "scope": "shared",
+      "material_id": "MKf41605b0674985",
+      "status": "installed",
+      "at": "2026-11-11T12:51:26.513720+00:00",
+      "actor": "Agent",
+      "user_review": null,
+      "source_version": "2026-11-11",
+      "source_sha256": "f41605b06749852bc7db2dce9e30eff88e57b123fe79a71e988f23f9daf80607",
+      "example_boundary": "明确教学例；不提供任何公司Fact或默认预测参数",
+      "conflicts": [],
+      "duplicate_installed_titles": [],
+      "related_cards_original": []
+    },
+    {
+      "id": "K59",
+      "title": "显性末年投入接稳定首年利润",
+      "tags": [
+        "终值",
+        "时序",
+        "再投资"
+      ],
+      "method": "逐笔写投入支持哪年利润；显性末年与稳定首年再投资不可互代。",
+      "stop": "收入投入从当年配对改为次年时须重建过渡。",
+      "source": "补充材料6/7 Lec05 Part2—4及本轮方法推导，2026-11-11",
+      "pdf_physical_pages": [],
+      "question": "显性末年投入接稳定首年利润应如何检查？",
+      "required_inputs": [
+        "最后两年NOPAT",
+        "投资",
+        "投产回报",
+        "存量改善"
+      ],
+      "example": "末年利润100、投入40、新回报15%，下一年106；110仍有4待解释。",
+      "refute": "收入投入从当年配对改为次年时须重建过渡。",
+      "related_cards": [],
+      "source_locator": "补充材料6/7对应章节；阅读指纹见公司work/supplement67-20261111/reading-manifest.json",
+      "version": 1,
+      "inputs": [
+        "最后两年NOPAT",
+        "投资",
+        "投产回报",
+        "存量改善"
+      ],
+      "use_at": "八主线：历史经营解释 / 未来预测 / 估值与投资判断 / 风险与反方",
+      "scope": "shared",
+      "material_id": "MK1d8a1539032c55",
+      "status": "installed",
+      "at": "2026-11-11T12:51:26.516711+00:00",
+      "actor": "Agent",
+      "user_review": null,
+      "source_version": "2026-11-11",
+      "source_sha256": "1d8a1539032c55f437c3cf25ae2659ad5739497f1ad50c9270127fb1c7a6a2fc",
+      "example_boundary": "明确教学例；不提供任何公司Fact或默认预测参数",
+      "conflicts": [],
+      "duplicate_installed_titles": [],
+      "related_cards_original": []
+    },
+    {
+      "id": "K60",
+      "title": "稳定资本成本不折现历史阶段",
+      "tags": [
+        "折现",
+        "WACC",
+        "终值"
+      ],
+      "method": "稳定WACC形成期末TV，再用显性各年WACC连乘折至今天。",
+      "stop": "业务风险或融资改变则逐年重估，不覆盖已过区间。",
+      "source": "补充材料6/7 Lec05 Part2—4及本轮方法推导，2026-11-11",
+      "pdf_physical_pages": [],
+      "question": "稳定资本成本不折现历史阶段应如何检查？",
+      "required_inputs": [
+        "各年WACC",
+        "稳定WACC",
+        "现金时点"
+      ],
+      "example": "TV240由稳定8%形成，前五年均9%时仍除1.09^5。",
+      "refute": "业务风险或融资改变则逐年重估，不覆盖已过区间。",
+      "related_cards": [],
+      "source_locator": "补充材料6/7对应章节；阅读指纹见公司work/supplement67-20261111/reading-manifest.json",
+      "version": 1,
+      "inputs": [
+        "各年WACC",
+        "稳定WACC",
+        "现金时点"
+      ],
+      "use_at": "八主线：历史经营解释 / 未来预测 / 估值与投资判断 / 风险与反方",
+      "scope": "shared",
+      "material_id": "MKca17a82ae929cf",
+      "status": "installed",
+      "at": "2026-11-11T12:51:26.520697+00:00",
+      "actor": "Agent",
+      "user_review": null,
+      "source_version": "2026-11-11",
+      "source_sha256": "ca17a82ae929cfdd8d701b75ec7816ab161d5b8c366135b92eae26260f0ab6a3",
+      "example_boundary": "明确教学例；不提供任何公司Fact或默认预测参数",
+      "conflicts": [],
+      "duplicate_installed_titles": [],
+      "related_cards_original": []
+    },
+    {
+      "id": "K61",
+      "title": "终值占比不是可信度评分",
+      "tags": [
+        "终值",
+        "比例",
+        "敏感性"
+      ],
+      "method": "PV(TV)除以正经营价值；前期现金流负时可超过100%。",
+      "stop": "价值接近零时停止将占比解读为构成比例。",
+      "source": "补充材料6/7 Lec05 Part2—4及本轮方法推导，2026-11-11",
+      "pdf_physical_pages": [],
+      "question": "终值占比不是可信度评分应如何检查？",
+      "required_inputs": [
+        "同一估值时点的现金现值",
+        "终值现值"
+      ],
+      "example": "仅把一个稳态年份移入显性期会降低终值占比，价值未必改变。",
+      "refute": "价值接近零时停止将占比解读为构成比例。",
+      "related_cards": [],
+      "source_locator": "补充材料6/7对应章节；阅读指纹见公司work/supplement67-20261111/reading-manifest.json",
+      "version": 1,
+      "inputs": [
+        "同一估值时点的现金现值",
+        "终值现值"
+      ],
+      "use_at": "八主线：历史经营解释 / 未来预测 / 估值与投资判断 / 风险与反方",
+      "scope": "shared",
+      "material_id": "MKae153b8615bbbd",
+      "status": "installed",
+      "at": "2026-11-11T12:51:26.524685+00:00",
+      "actor": "Agent",
+      "user_review": null,
+      "source_version": "2026-11-11",
+      "source_sha256": "ae153b8615bbbdf4cdd94f4ca6cbcc0b2ed827e81eff4a01eabe9e7e1d6a232f",
+      "example_boundary": "明确教学例；不提供任何公司Fact或默认预测参数",
+      "conflicts": [],
+      "duplicate_installed_titles": [],
+      "related_cards_original": []
+    },
+    {
+      "id": "K62",
+      "title": "资本成本输入需要同日依据",
+      "tags": [
+        "CAPM",
+        "beta",
+        "WACC"
+      ],
+      "method": "Rf币种期限匹配，ERP市场匹配，beta去再杠杆，债务用边际成本和市场权重。",
+      "stop": "困境YTM或税盾无法实现时简化WACC不适用。",
+      "source": "补充材料6/7 Lec05 Part2—4及本轮方法推导，2026-11-11",
+      "pdf_physical_pages": [],
+      "question": "资本成本输入需要同日依据应如何检查？",
+      "required_inputs": [
+        "报价日期",
+        "样本与频率",
+        "可比业务",
+        "市场D/E",
+        "税盾能力"
+      ],
+      "example": "Rf3%、ERP6%、beta1.2得ke10.2%；E80%、kd5%、税盾25%得WACC8.91%。",
+      "refute": "困境YTM或税盾无法实现时简化WACC不适用。",
+      "related_cards": [],
+      "source_locator": "补充材料6/7对应章节；阅读指纹见公司work/supplement67-20261111/reading-manifest.json",
+      "version": 1,
+      "inputs": [
+        "报价日期",
+        "样本与频率",
+        "可比业务",
+        "市场D/E",
+        "税盾能力"
+      ],
+      "use_at": "八主线：历史经营解释 / 未来预测 / 估值与投资判断 / 风险与反方",
+      "scope": "shared",
+      "material_id": "MKeb8d6f03ef8b7d",
+      "status": "installed",
+      "at": "2026-11-11T12:51:26.527711+00:00",
+      "actor": "Agent",
+      "user_review": null,
+      "source_version": "2026-11-11",
+      "source_sha256": "eb8d6f03ef8b7d8af58ee9504f4216c020092dd6ae1e518d789ca2d9c1239338",
+      "example_boundary": "明确教学例；不提供任何公司Fact或默认预测参数",
+      "conflicts": [],
+      "duplicate_installed_titles": [],
+      "related_cards_original": []
+    },
+    {
+      "id": "K63",
+      "title": "好生意低估催化剂分别检验",
+      "tags": [
+        "预期差",
+        "催化剂",
+        "价值"
+      ],
+      "method": "经营优质检验现金与边际回报；低估比较同日价格隐含预期；催化剂写事件路径和反证。",
+      "stop": "事件延期、已计价或损害现金时修正；不把说服共识当创造价值。",
+      "source": "补充材料6/7 Lec05 Part2—4及本轮方法推导，2026-11-11",
+      "pdf_physical_pages": [],
+      "question": "好生意低估催化剂分别检验应如何检查？",
+      "required_inputs": [
+        "经营证据",
+        "估值和同日价格",
+        "市场共识",
+        "事件及期限"
+      ],
+      "example": "渠道改善可能早已计价；没有催化剂不使正NPV消失，有催化剂不保证低估。",
+      "refute": "事件延期、已计价或损害现金时修正；不把说服共识当创造价值。",
+      "related_cards": [],
+      "source_locator": "补充材料6/7对应章节；阅读指纹见公司work/supplement67-20261111/reading-manifest.json",
+      "version": 1,
+      "inputs": [
+        "经营证据",
+        "估值和同日价格",
+        "市场共识",
+        "事件及期限"
+      ],
+      "use_at": "八主线：历史经营解释 / 未来预测 / 估值与投资判断 / 风险与反方",
+      "scope": "shared",
+      "material_id": "MKbedf9f193dc06e",
+      "status": "installed",
+      "at": "2026-11-11T12:51:26.530698+00:00",
+      "actor": "Agent",
+      "user_review": null,
+      "source_version": "2026-11-11",
+      "source_sha256": "bedf9f193dc06e6e1f09e7c956ac06398222f76a22653bedabd0ac652cf85b9c",
+      "example_boundary": "明确教学例；不提供任何公司Fact或默认预测参数",
+      "conflicts": [],
+      "duplicate_installed_titles": [],
+      "related_cards_original": []
+    },
+    {
+      "id": "K64",
+      "title": "渠道毛利结构桥与净贡献",
+      "tags": [
+        "渠道",
+        "毛利",
+        "结构"
+      ],
+      "method": "Δ整体毛利率=ΣΔ权重×旧毛利率+Σ新权重×Δ毛利率；再扣可归属新增费用和资本代价。",
+      "stop": "缺渠道费用/库存时不报渠道净贡献。",
+      "source": "补充材料6/7 Lec05 Part2—4及本轮方法推导，2026-11-11",
+      "pdf_physical_pages": [],
+      "question": "渠道毛利结构桥与净贡献应如何检查？",
+      "required_inputs": [
+        "同口径渠道收入成本",
+        "分类断点",
+        "费用与现金责任"
+      ],
+      "example": "高毛利渠道占比上升仍可能被各渠道毛利率下降抵消。",
+      "refute": "缺渠道费用/库存时不报渠道净贡献。",
+      "related_cards": [],
+      "source_locator": "补充材料6/7对应章节；阅读指纹见公司work/supplement67-20261111/reading-manifest.json",
+      "version": 1,
+      "inputs": [
+        "同口径渠道收入成本",
+        "分类断点",
+        "费用与现金责任"
+      ],
+      "use_at": "八主线：历史经营解释 / 未来预测 / 估值与投资判断 / 风险与反方",
+      "scope": "shared",
+      "material_id": "MK29528df3a4bae3",
+      "status": "installed",
+      "at": "2026-11-11T12:51:26.534650+00:00",
+      "actor": "Agent",
+      "user_review": null,
+      "source_version": "2026-11-11",
+      "source_sha256": "29528df3a4bae3263ad68fc9eef63b30652b93fa4ddb18fec0cd1daf902ea702",
+      "example_boundary": "明确教学例；不提供任何公司Fact或默认预测参数",
+      "conflicts": [],
+      "duplicate_installed_titles": [],
+      "related_cards_original": []
+    }
+  ],
   "events": [
     {
       "at": "2026-11-10T07:50:09.777966+00:00",
@@ -553,6 +1980,828 @@
       "action": "research",
       "actor": "Agent/test-or-api",
       "result_id": "R1622b2e65098"
+    },
+    {
+      "at": "2026-11-11T12:51:26.459816+00:00",
+      "actor": "Agent",
+      "action": "import",
+      "result_id": "MK3ad8721c339b1f",
+      "source_sha256": "3ad8721c339b1f2914a0ce2747df7b778fe1391bbc8a1d60c9c41277658ff313"
+    },
+    {
+      "at": "2026-11-11T12:51:26.460846+00:00",
+      "actor": "Agent",
+      "action": "extract",
+      "result_id": "K41",
+      "version": 1,
+      "material_id": "MK3ad8721c339b1f"
+    },
+    {
+      "at": "2026-11-11T12:51:26.460846+00:00",
+      "actor": "Agent",
+      "action": "adopt",
+      "result_id": "K41",
+      "version": 1,
+      "material_id": "MK3ad8721c339b1f"
+    },
+    {
+      "at": "2026-11-11T12:51:26.462762+00:00",
+      "actor": "Agent",
+      "action": "import",
+      "result_id": "MKd5d7360f72b768",
+      "source_sha256": "d5d7360f72b768470dcbbbffe105786b430c381632eebb55ff525ee00f7dde6e"
+    },
+    {
+      "at": "2026-11-11T12:51:26.463838+00:00",
+      "actor": "Agent",
+      "action": "extract",
+      "result_id": "K42",
+      "version": 1,
+      "material_id": "MKd5d7360f72b768"
+    },
+    {
+      "at": "2026-11-11T12:51:26.463838+00:00",
+      "actor": "Agent",
+      "action": "adopt",
+      "result_id": "K42",
+      "version": 1,
+      "material_id": "MKd5d7360f72b768"
+    },
+    {
+      "at": "2026-11-11T12:51:26.464792+00:00",
+      "actor": "Agent",
+      "action": "import",
+      "result_id": "MK033e2817a32f18",
+      "source_sha256": "033e2817a32f1835aef0a0358ce25c7f3cd40f2bb921d83946d0c273b53a041c"
+    },
+    {
+      "at": "2026-11-11T12:51:26.466748+00:00",
+      "actor": "Agent",
+      "action": "extract",
+      "result_id": "K43",
+      "version": 1,
+      "material_id": "MK033e2817a32f18"
+    },
+    {
+      "at": "2026-11-11T12:51:26.466748+00:00",
+      "actor": "Agent",
+      "action": "adopt",
+      "result_id": "K43",
+      "version": 1,
+      "material_id": "MK033e2817a32f18"
+    },
+    {
+      "at": "2026-11-11T12:51:26.468843+00:00",
+      "actor": "Agent",
+      "action": "import",
+      "result_id": "MK8da45af52a34eb",
+      "source_sha256": "8da45af52a34eb17e56a1092b5bdd45b050e2dbfbea4108300d3177495f6ca4a"
+    },
+    {
+      "at": "2026-11-11T12:51:26.469813+00:00",
+      "actor": "Agent",
+      "action": "extract",
+      "result_id": "K44",
+      "version": 1,
+      "material_id": "MK8da45af52a34eb"
+    },
+    {
+      "at": "2026-11-11T12:51:26.469813+00:00",
+      "actor": "Agent",
+      "action": "adopt",
+      "result_id": "K44",
+      "version": 1,
+      "material_id": "MK8da45af52a34eb"
+    },
+    {
+      "at": "2026-11-11T12:51:26.471575+00:00",
+      "actor": "Agent",
+      "action": "import",
+      "result_id": "MK9383ca3de2d7c3",
+      "source_sha256": "9383ca3de2d7c3429642459027e4a8aca5be9f49f26ec5353f9ae6cda80fb5b9"
+    },
+    {
+      "at": "2026-11-11T12:51:26.473588+00:00",
+      "actor": "Agent",
+      "action": "extract",
+      "result_id": "K45",
+      "version": 1,
+      "material_id": "MK9383ca3de2d7c3"
+    },
+    {
+      "at": "2026-11-11T12:51:26.473588+00:00",
+      "actor": "Agent",
+      "action": "adopt",
+      "result_id": "K45",
+      "version": 1,
+      "material_id": "MK9383ca3de2d7c3"
+    },
+    {
+      "at": "2026-11-11T12:51:26.474627+00:00",
+      "actor": "Agent",
+      "action": "import",
+      "result_id": "MKe2809cf67b3a51",
+      "source_sha256": "e2809cf67b3a515bb2766f8198e8cf8b4d2fb92e708f9daae13fe30245e4321d"
+    },
+    {
+      "at": "2026-11-11T12:51:26.475580+00:00",
+      "actor": "Agent",
+      "action": "extract",
+      "result_id": "K46",
+      "version": 1,
+      "material_id": "MKe2809cf67b3a51"
+    },
+    {
+      "at": "2026-11-11T12:51:26.475580+00:00",
+      "actor": "Agent",
+      "action": "adopt",
+      "result_id": "K46",
+      "version": 1,
+      "material_id": "MKe2809cf67b3a51"
+    },
+    {
+      "at": "2026-11-11T12:51:26.477490+00:00",
+      "actor": "Agent",
+      "action": "import",
+      "result_id": "MK2c60d9aa6c9a2a",
+      "source_sha256": "2c60d9aa6c9a2a390aaed00e4264fa54642043dc67e259062a2035b2ca070a88"
+    },
+    {
+      "at": "2026-11-11T12:51:26.479660+00:00",
+      "actor": "Agent",
+      "action": "extract",
+      "result_id": "K47",
+      "version": 1,
+      "material_id": "MK2c60d9aa6c9a2a"
+    },
+    {
+      "at": "2026-11-11T12:51:26.479660+00:00",
+      "actor": "Agent",
+      "action": "adopt",
+      "result_id": "K47",
+      "version": 1,
+      "material_id": "MK2c60d9aa6c9a2a"
+    },
+    {
+      "at": "2026-11-11T12:51:26.480765+00:00",
+      "actor": "Agent",
+      "action": "import",
+      "result_id": "MK0c0ce1742c7faf",
+      "source_sha256": "0c0ce1742c7faf6969594e919633c2e14be6835db9bdfedd57a61ae8d8afd1ac"
+    },
+    {
+      "at": "2026-11-11T12:51:26.482823+00:00",
+      "actor": "Agent",
+      "action": "extract",
+      "result_id": "K48",
+      "version": 1,
+      "material_id": "MK0c0ce1742c7faf"
+    },
+    {
+      "at": "2026-11-11T12:51:26.482823+00:00",
+      "actor": "Agent",
+      "action": "adopt",
+      "result_id": "K48",
+      "version": 1,
+      "material_id": "MK0c0ce1742c7faf"
+    },
+    {
+      "at": "2026-11-11T12:51:26.483904+00:00",
+      "actor": "Agent",
+      "action": "import",
+      "result_id": "MKfe924edc238e61",
+      "source_sha256": "fe924edc238e619ff7039b01659af16c26288f9758a6129eff49ea91252e4678"
+    },
+    {
+      "at": "2026-11-11T12:51:26.484816+00:00",
+      "actor": "Agent",
+      "action": "extract",
+      "result_id": "K49",
+      "version": 1,
+      "material_id": "MKfe924edc238e61"
+    },
+    {
+      "at": "2026-11-11T12:51:26.484816+00:00",
+      "actor": "Agent",
+      "action": "adopt",
+      "result_id": "K49",
+      "version": 1,
+      "material_id": "MKfe924edc238e61"
+    },
+    {
+      "at": "2026-11-11T12:51:26.486842+00:00",
+      "actor": "Agent",
+      "action": "import",
+      "result_id": "MKb35a8777a9c32d",
+      "source_sha256": "b35a8777a9c32d505bd70c63b832ceb57c2348473eb1b950d686eea0f09d6edb"
+    },
+    {
+      "at": "2026-11-11T12:51:26.487806+00:00",
+      "actor": "Agent",
+      "action": "extract",
+      "result_id": "K50",
+      "version": 1,
+      "material_id": "MKb35a8777a9c32d"
+    },
+    {
+      "at": "2026-11-11T12:51:26.487806+00:00",
+      "actor": "Agent",
+      "action": "adopt",
+      "result_id": "K50",
+      "version": 1,
+      "material_id": "MKb35a8777a9c32d"
+    },
+    {
+      "at": "2026-11-11T12:51:26.488833+00:00",
+      "actor": "Agent",
+      "action": "import",
+      "result_id": "MKa731de99425610",
+      "source_sha256": "a731de994256106354c9a5be59f42b5959d476a350c279eed5cefa3c04d8e0bf"
+    },
+    {
+      "at": "2026-11-11T12:51:26.490847+00:00",
+      "actor": "Agent",
+      "action": "extract",
+      "result_id": "K51",
+      "version": 1,
+      "material_id": "MKa731de99425610"
+    },
+    {
+      "at": "2026-11-11T12:51:26.490847+00:00",
+      "actor": "Agent",
+      "action": "adopt",
+      "result_id": "K51",
+      "version": 1,
+      "material_id": "MKa731de99425610"
+    },
+    {
+      "at": "2026-11-11T12:51:26.491882+00:00",
+      "actor": "Agent",
+      "action": "import",
+      "result_id": "MKbdab544f9eb761",
+      "source_sha256": "bdab544f9eb761f6365b2a87edd1d8529b226670a88219eccdfae8d4ba9ab509"
+    },
+    {
+      "at": "2026-11-11T12:51:26.493801+00:00",
+      "actor": "Agent",
+      "action": "extract",
+      "result_id": "K52",
+      "version": 1,
+      "material_id": "MKbdab544f9eb761"
+    },
+    {
+      "at": "2026-11-11T12:51:26.493801+00:00",
+      "actor": "Agent",
+      "action": "adopt",
+      "result_id": "K52",
+      "version": 1,
+      "material_id": "MKbdab544f9eb761"
+    },
+    {
+      "at": "2026-11-11T12:51:26.495818+00:00",
+      "actor": "Agent",
+      "action": "import",
+      "result_id": "MK839901df0af3c6",
+      "source_sha256": "839901df0af3c6f33d397a16d2129793d1c6896ccf37ab3c585af59a67039efb"
+    },
+    {
+      "at": "2026-11-11T12:51:26.497847+00:00",
+      "actor": "Agent",
+      "action": "extract",
+      "result_id": "K53",
+      "version": 1,
+      "material_id": "MK839901df0af3c6"
+    },
+    {
+      "at": "2026-11-11T12:51:26.497847+00:00",
+      "actor": "Agent",
+      "action": "adopt",
+      "result_id": "K53",
+      "version": 1,
+      "material_id": "MK839901df0af3c6"
+    },
+    {
+      "at": "2026-11-11T12:51:26.499815+00:00",
+      "actor": "Agent",
+      "action": "import",
+      "result_id": "MKfefe33da149c45",
+      "source_sha256": "fefe33da149c4512b375ebb942cb4dbbc7d580ec51b47f0db53cdb11cca69e9b"
+    },
+    {
+      "at": "2026-11-11T12:51:26.501760+00:00",
+      "actor": "Agent",
+      "action": "extract",
+      "result_id": "K54",
+      "version": 1,
+      "material_id": "MKfefe33da149c45"
+    },
+    {
+      "at": "2026-11-11T12:51:26.501760+00:00",
+      "actor": "Agent",
+      "action": "adopt",
+      "result_id": "K54",
+      "version": 1,
+      "material_id": "MKfefe33da149c45"
+    },
+    {
+      "at": "2026-11-11T12:51:26.502839+00:00",
+      "actor": "Agent",
+      "action": "import",
+      "result_id": "MKe2568ccab82b32",
+      "source_sha256": "e2568ccab82b32dbd0921ae37a684971b7803c2e7557b178534ff7162c03c845"
+    },
+    {
+      "at": "2026-11-11T12:51:26.504749+00:00",
+      "actor": "Agent",
+      "action": "extract",
+      "result_id": "K55",
+      "version": 1,
+      "material_id": "MKe2568ccab82b32"
+    },
+    {
+      "at": "2026-11-11T12:51:26.504749+00:00",
+      "actor": "Agent",
+      "action": "adopt",
+      "result_id": "K55",
+      "version": 1,
+      "material_id": "MKe2568ccab82b32"
+    },
+    {
+      "at": "2026-11-11T12:51:26.505746+00:00",
+      "actor": "Agent",
+      "action": "import",
+      "result_id": "MKaf7a84de846b71",
+      "source_sha256": "af7a84de846b71cdb697a2fb2ed0d55ce36539621bfc4f5ed61f848fceff1d4c"
+    },
+    {
+      "at": "2026-11-11T12:51:26.507739+00:00",
+      "actor": "Agent",
+      "action": "extract",
+      "result_id": "K56",
+      "version": 1,
+      "material_id": "MKaf7a84de846b71"
+    },
+    {
+      "at": "2026-11-11T12:51:26.507739+00:00",
+      "actor": "Agent",
+      "action": "adopt",
+      "result_id": "K56",
+      "version": 1,
+      "material_id": "MKaf7a84de846b71"
+    },
+    {
+      "at": "2026-11-11T12:51:26.508737+00:00",
+      "actor": "Agent",
+      "action": "import",
+      "result_id": "MK931eafcfae9a74",
+      "source_sha256": "931eafcfae9a746fcd87800c041dfe3f2b9d695c2025f793ee0f951c903b3511"
+    },
+    {
+      "at": "2026-11-11T12:51:26.510731+00:00",
+      "actor": "Agent",
+      "action": "extract",
+      "result_id": "K57",
+      "version": 1,
+      "material_id": "MK931eafcfae9a74"
+    },
+    {
+      "at": "2026-11-11T12:51:26.510731+00:00",
+      "actor": "Agent",
+      "action": "adopt",
+      "result_id": "K57",
+      "version": 1,
+      "material_id": "MK931eafcfae9a74"
+    },
+    {
+      "at": "2026-11-11T12:51:26.511727+00:00",
+      "actor": "Agent",
+      "action": "import",
+      "result_id": "MKf41605b0674985",
+      "source_sha256": "f41605b06749852bc7db2dce9e30eff88e57b123fe79a71e988f23f9daf80607"
+    },
+    {
+      "at": "2026-11-11T12:51:26.513720+00:00",
+      "actor": "Agent",
+      "action": "extract",
+      "result_id": "K58",
+      "version": 1,
+      "material_id": "MKf41605b0674985"
+    },
+    {
+      "at": "2026-11-11T12:51:26.513720+00:00",
+      "actor": "Agent",
+      "action": "adopt",
+      "result_id": "K58",
+      "version": 1,
+      "material_id": "MKf41605b0674985"
+    },
+    {
+      "at": "2026-11-11T12:51:26.515715+00:00",
+      "actor": "Agent",
+      "action": "import",
+      "result_id": "MK1d8a1539032c55",
+      "source_sha256": "1d8a1539032c55f437c3cf25ae2659ad5739497f1ad50c9270127fb1c7a6a2fc"
+    },
+    {
+      "at": "2026-11-11T12:51:26.516711+00:00",
+      "actor": "Agent",
+      "action": "extract",
+      "result_id": "K59",
+      "version": 1,
+      "material_id": "MK1d8a1539032c55"
+    },
+    {
+      "at": "2026-11-11T12:51:26.516711+00:00",
+      "actor": "Agent",
+      "action": "adopt",
+      "result_id": "K59",
+      "version": 1,
+      "material_id": "MK1d8a1539032c55"
+    },
+    {
+      "at": "2026-11-11T12:51:26.518712+00:00",
+      "actor": "Agent",
+      "action": "import",
+      "result_id": "MKca17a82ae929cf",
+      "source_sha256": "ca17a82ae929cfdd8d701b75ec7816ab161d5b8c366135b92eae26260f0ab6a3"
+    },
+    {
+      "at": "2026-11-11T12:51:26.520697+00:00",
+      "actor": "Agent",
+      "action": "extract",
+      "result_id": "K60",
+      "version": 1,
+      "material_id": "MKca17a82ae929cf"
+    },
+    {
+      "at": "2026-11-11T12:51:26.520697+00:00",
+      "actor": "Agent",
+      "action": "adopt",
+      "result_id": "K60",
+      "version": 1,
+      "material_id": "MKca17a82ae929cf"
+    },
+    {
+      "at": "2026-11-11T12:51:26.522727+00:00",
+      "actor": "Agent",
+      "action": "import",
+      "result_id": "MKae153b8615bbbd",
+      "source_sha256": "ae153b8615bbbdf4cdd94f4ca6cbcc0b2ed827e81eff4a01eabe9e7e1d6a232f"
+    },
+    {
+      "at": "2026-11-11T12:51:26.524685+00:00",
+      "actor": "Agent",
+      "action": "extract",
+      "result_id": "K61",
+      "version": 1,
+      "material_id": "MKae153b8615bbbd"
+    },
+    {
+      "at": "2026-11-11T12:51:26.524685+00:00",
+      "actor": "Agent",
+      "action": "adopt",
+      "result_id": "K61",
+      "version": 1,
+      "material_id": "MKae153b8615bbbd"
+    },
+    {
+      "at": "2026-11-11T12:51:26.525716+00:00",
+      "actor": "Agent",
+      "action": "import",
+      "result_id": "MKeb8d6f03ef8b7d",
+      "source_sha256": "eb8d6f03ef8b7d8af58ee9504f4216c020092dd6ae1e518d789ca2d9c1239338"
+    },
+    {
+      "at": "2026-11-11T12:51:26.527711+00:00",
+      "actor": "Agent",
+      "action": "extract",
+      "result_id": "K62",
+      "version": 1,
+      "material_id": "MKeb8d6f03ef8b7d"
+    },
+    {
+      "at": "2026-11-11T12:51:26.527711+00:00",
+      "actor": "Agent",
+      "action": "adopt",
+      "result_id": "K62",
+      "version": 1,
+      "material_id": "MKeb8d6f03ef8b7d"
+    },
+    {
+      "at": "2026-11-11T12:51:26.529667+00:00",
+      "actor": "Agent",
+      "action": "import",
+      "result_id": "MKbedf9f193dc06e",
+      "source_sha256": "bedf9f193dc06e6e1f09e7c956ac06398222f76a22653bedabd0ac652cf85b9c"
+    },
+    {
+      "at": "2026-11-11T12:51:26.530698+00:00",
+      "actor": "Agent",
+      "action": "extract",
+      "result_id": "K63",
+      "version": 1,
+      "material_id": "MKbedf9f193dc06e"
+    },
+    {
+      "at": "2026-11-11T12:51:26.530698+00:00",
+      "actor": "Agent",
+      "action": "adopt",
+      "result_id": "K63",
+      "version": 1,
+      "material_id": "MKbedf9f193dc06e"
+    },
+    {
+      "at": "2026-11-11T12:51:26.532711+00:00",
+      "actor": "Agent",
+      "action": "import",
+      "result_id": "MK29528df3a4bae3",
+      "source_sha256": "29528df3a4bae3263ad68fc9eef63b30652b93fa4ddb18fec0cd1daf902ea702"
+    },
+    {
+      "at": "2026-11-11T12:51:26.534650+00:00",
+      "actor": "Agent",
+      "action": "extract",
+      "result_id": "K64",
+      "version": 1,
+      "material_id": "MK29528df3a4bae3"
+    },
+    {
+      "at": "2026-11-11T12:51:26.534650+00:00",
+      "actor": "Agent",
+      "action": "adopt",
+      "result_id": "K64",
+      "version": 1,
+      "material_id": "MK29528df3a4bae3"
+    },
+    {
+      "at": "2026-11-12T03:58:30.809705+00:00",
+      "action": "research",
+      "actor": "Agent/test-or-api",
+      "result_id": "R3a8ec12bc38f"
+    },
+    {
+      "at": "2026-11-12T03:58:30.822089+00:00",
+      "action": "research",
+      "actor": "Agent/test-or-api",
+      "result_id": "R09e06cc7c1a8"
+    },
+    {
+      "at": "2026-11-12T03:58:30.829181+00:00",
+      "action": "research",
+      "actor": "Agent/test-or-api",
+      "result_id": "R0b427d7dd7fe"
+    },
+    {
+      "at": "2026-11-12T03:58:30.835218+00:00",
+      "action": "research",
+      "actor": "Agent/test-or-api",
+      "result_id": "R48ccbb2a4ad6"
+    },
+    {
+      "at": "2026-11-12T03:58:30.841701+00:00",
+      "action": "research",
+      "actor": "Agent/test-or-api",
+      "result_id": "R1572b24923fd"
+    },
+    {
+      "at": "2026-11-12T03:58:30.848689+00:00",
+      "action": "research",
+      "actor": "Agent/test-or-api",
+      "result_id": "R8bff8d9f729a"
+    },
+    {
+      "at": "2026-11-12T03:58:30.855984+00:00",
+      "action": "research",
+      "actor": "Agent/test-or-api",
+      "result_id": "R8c5f7065f343"
+    },
+    {
+      "at": "2026-11-12T03:58:30.862956+00:00",
+      "action": "research",
+      "actor": "Agent/test-or-api",
+      "result_id": "R69074d027896"
+    },
+    {
+      "at": "2026-11-12T03:58:31.130608+00:00",
+      "action": "research",
+      "actor": "Agent/test-or-api",
+      "result_id": "R7d8112e87a58"
+    },
+    {
+      "at": "2026-11-12T03:58:31.138580+00:00",
+      "action": "research",
+      "actor": "Agent/test-or-api",
+      "result_id": "R7bfc89d395aa"
+    },
+    {
+      "at": "2026-11-12T03:58:31.144913+00:00",
+      "action": "research",
+      "actor": "Agent/test-or-api",
+      "result_id": "R58b870a4ee64"
+    },
+    {
+      "at": "2026-11-12T03:58:31.151950+00:00",
+      "action": "research",
+      "actor": "Agent/test-or-api",
+      "result_id": "R8c387d2da2f6"
+    },
+    {
+      "at": "2026-11-12T03:58:31.157825+00:00",
+      "action": "research",
+      "actor": "Agent/test-or-api",
+      "result_id": "R14c10b3a792a"
+    },
+    {
+      "at": "2026-11-12T03:58:31.163609+00:00",
+      "action": "research",
+      "actor": "Agent/test-or-api",
+      "result_id": "Rbd733d44d823"
+    },
+    {
+      "at": "2026-11-12T03:58:31.169581+00:00",
+      "action": "research",
+      "actor": "Agent/test-or-api",
+      "result_id": "Ra42a6324bb1c"
+    },
+    {
+      "at": "2026-11-12T03:58:31.175778+00:00",
+      "action": "research",
+      "actor": "Agent/test-or-api",
+      "result_id": "Rad6660d577af"
+    },
+    {
+      "at": "2026-11-12T03:58:31.422583+00:00",
+      "action": "research",
+      "actor": "Agent/test-or-api",
+      "result_id": "R6911ffac3797"
+    },
+    {
+      "at": "2026-11-12T03:58:31.430556+00:00",
+      "action": "research",
+      "actor": "Agent/test-or-api",
+      "result_id": "Re0aacfad8631"
+    },
+    {
+      "at": "2026-11-12T03:58:31.436536+00:00",
+      "action": "research",
+      "actor": "Agent/test-or-api",
+      "result_id": "Ra9f2c23c0275"
+    },
+    {
+      "at": "2026-11-12T03:58:31.443513+00:00",
+      "action": "research",
+      "actor": "Agent/test-or-api",
+      "result_id": "R29373d7bc0f1"
+    },
+    {
+      "at": "2026-11-12T03:58:31.449531+00:00",
+      "action": "research",
+      "actor": "Agent/test-or-api",
+      "result_id": "R2660b3bfa732"
+    },
+    {
+      "at": "2026-11-12T03:58:31.455511+00:00",
+      "action": "research",
+      "actor": "Agent/test-or-api",
+      "result_id": "R21f6d6590f9f"
+    },
+    {
+      "at": "2026-11-12T03:58:31.462488+00:00",
+      "action": "research",
+      "actor": "Agent/test-or-api",
+      "result_id": "Rd60b7456dc65"
+    },
+    {
+      "at": "2026-11-12T03:58:31.468468+00:00",
+      "action": "research",
+      "actor": "Agent/test-or-api",
+      "result_id": "Rc307bcec6202"
+    },
+    {
+      "at": "2026-11-12T03:58:31.727104+00:00",
+      "action": "research",
+      "actor": "Agent/test-or-api",
+      "result_id": "Rc91d3bad8c35"
+    },
+    {
+      "at": "2026-11-12T03:58:31.734178+00:00",
+      "action": "research",
+      "actor": "Agent/test-or-api",
+      "result_id": "R42383f58e180"
+    },
+    {
+      "at": "2026-11-12T03:58:31.741184+00:00",
+      "action": "research",
+      "actor": "Agent/test-or-api",
+      "result_id": "Re652de68ca00"
+    },
+    {
+      "at": "2026-11-12T03:58:31.748057+00:00",
+      "action": "research",
+      "actor": "Agent/test-or-api",
+      "result_id": "R9b91e4658392"
+    },
+    {
+      "at": "2026-11-12T03:58:31.754036+00:00",
+      "action": "research",
+      "actor": "Agent/test-or-api",
+      "result_id": "Rd192d88d9be7"
+    },
+    {
+      "at": "2026-11-12T03:58:31.762017+00:00",
+      "action": "research",
+      "actor": "Agent/test-or-api",
+      "result_id": "R6ef717bb11b9"
+    },
+    {
+      "at": "2026-11-12T03:58:31.768987+00:00",
+      "action": "research",
+      "actor": "Agent/test-or-api",
+      "result_id": "Rd3892afbfc24"
+    },
+    {
+      "at": "2026-11-12T03:58:31.777012+00:00",
+      "action": "research",
+      "actor": "Agent/test-or-api",
+      "result_id": "R1622b2e65098"
+    },
+    {
+      "at": "2026-11-12T04:00:35.586382+00:00",
+      "action": "research",
+      "actor": "Agent/test-or-api",
+      "result_id": "Re4a5d5334869"
+    },
+    {
+      "at": "2026-11-12T04:00:35.595949+00:00",
+      "action": "research",
+      "actor": "Agent/test-or-api",
+      "result_id": "R4257c7215539"
+    },
+    {
+      "at": "2026-11-12T04:00:35.601765+00:00",
+      "action": "research",
+      "actor": "Agent/test-or-api",
+      "result_id": "R13e68bc03271"
+    },
+    {
+      "at": "2026-11-12T04:00:35.608928+00:00",
+      "action": "research",
+      "actor": "Agent/test-or-api",
+      "result_id": "R143dc49386bb"
+    },
+    {
+      "at": "2026-11-12T04:00:35.615928+00:00",
+      "action": "research",
+      "actor": "Agent/test-or-api",
+      "result_id": "R3fe807f7f8f2"
+    },
+    {
+      "at": "2026-11-12T04:00:35.623319+00:00",
+      "action": "research",
+      "actor": "Agent/test-or-api",
+      "result_id": "Rc4f28a3b6f14"
+    },
+    {
+      "at": "2026-11-12T04:00:35.630068+00:00",
+      "action": "research",
+      "actor": "Agent/test-or-api",
+      "result_id": "R93279d7b4123"
+    },
+    {
+      "at": "2026-11-12T04:00:35.636048+00:00",
+      "action": "research",
+      "actor": "Agent/test-or-api",
+      "result_id": "R1879b1d90070"
+    },
+    {
+      "at": "2026-11-12T04:07:54.490296+00:00",
+      "action": "import",
+      "actor": "Agent/test-or-api",
+      "result_id": "Mcd0716699539"
+    },
+    {
+      "at": "2026-11-12T04:07:54.495271+00:00",
+      "action": "import",
+      "actor": "Agent/test-or-api",
+      "result_id": "M84df7480bbf3"
+    },
+    {
+      "at": "2026-11-12T04:07:54.499255+00:00",
+      "action": "import",
+      "actor": "Agent/test-or-api",
+      "result_id": "M14b44e0a5858"
+    },
+    {
+      "at": "2026-11-12T04:07:54.504615+00:00",
+      "action": "import",
+      "actor": "Agent/test-or-api",
+      "result_id": "Mfd72a8a93ca5"
+    },
+    {
+      "at": "2026-11-12T04:07:54.508837+00:00",
+      "action": "import",
+      "actor": "Agent/test-or-api",
+      "result_id": "M2c53c8183748"
     }
   ]
 }

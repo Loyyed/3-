@@ -1,0 +1,17 @@
+{
+  "state": "ConditionalCalculation",
+  "new_fact": false,
+  "formula": "required procedure growth=1/(1-price_decline)-1",
+  "inputs": {
+    "decline_low": "0.03",
+    "decline_high": "0.05",
+    "source": "S83c179dfd93521d4",
+    "location": "MD&A Instruments and Accessories pricing paragraph",
+    "identity": "管理层预测区间，不是已经发生净价"
+  },
+  "results": {
+    ".03": "3.092783505154639175257732000",
+    ".05": "5.263157894736842105263157900"
+  },
+  "boundary": "仅同平台同病例组合恒定时的收入中性算术，不含Ion、区域结构、服务或成本，不是全公司收入预测"
+}

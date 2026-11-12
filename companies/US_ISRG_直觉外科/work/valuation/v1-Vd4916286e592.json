@@ -1,0 +1,29 @@
+{
+  "id": "Vd4916286e592",
+  "version": 1,
+  "at": "2026-11-12T04:00:35.664034+00:00",
+  "actor": "Agent/test-or-api",
+  "company": "US_ISRG_直觉外科",
+  "action": "forecast",
+  "inputs": {},
+  "parameter_metadata": {
+    "missing": "分平台每例收入与有限寿命器械计费、装机净增/退役/置换及租赁队列；第三方再处理/维修份额和当前判决；分术式临床效果及医院全成本、培训利用率；同范围经营现金税、NCWC和租赁设备CapEx/D&A；同日USD Rf/ERP/beta、股价/股数及可追溯共识样本。",
+    "register": "work/research09/parameter-register.json"
+  },
+  "result": {
+    "state": "BlockedMissingInputs",
+    "missing_fields": [
+      "base_revenue",
+      "rows"
+    ],
+    "new_fact": false,
+    "impact": "无法执行forecast；按公司参数登记补同范围字段"
+  },
+  "module_sha256": "0155df03fa6ff2dd86a6a4c92f51f277f88e1edd45bfd972d191796276ac23ca",
+  "dependencies": [
+    "shared/runtime/companybench/valuation_chain.py",
+    "shared/runtime/companybench/research_depth.py"
+  ],
+  "recalculate": "python -B scripts/recalculate_valuation.py --company US_ISRG_直觉外科 --record work/valuation/v1-Vd4916286e592.json",
+  "scope_boundary": "条件算术不是公司Fact；未完成beta业务去再杠杆、税损明细、归母权利桥"
+}

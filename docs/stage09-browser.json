@@ -1,0 +1,41 @@
+{
+  "at": "2026-11-12T04:02:34.759Z",
+  "companies": [
+    {
+      "company": "涪陵榨菜",
+      "id": "linked-8fbb89f126bb",
+      "claim_length": 53,
+      "preview": 200,
+      "download": 200
+    },
+    {
+      "company": "泡泡玛特",
+      "id": "linked-f639851e7712",
+      "claim_length": 66,
+      "preview": 200,
+      "download": 200
+    },
+    {
+      "company": "安琪酵母",
+      "id": "linked-2eb7d20c5bec",
+      "claim_length": 61,
+      "preview": 200,
+      "download": 200
+    },
+    {
+      "company": "柏楚电子",
+      "id": "linked-639eb6a35986",
+      "claim_length": 62,
+      "preview": 200,
+      "download": 200
+    },
+    {
+      "company": "Intuitive Surgical, Inc.（直觉外科）",
+      "id": "linked-0971004884cd",
+      "claim_length": 62,
+      "preview": 200,
+      "download": 200
+    }
+  ],
+  "errors": []
+}

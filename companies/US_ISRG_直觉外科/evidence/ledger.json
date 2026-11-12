@@ -1,0 +1,3199 @@
+{
+  "schema_version": 1,
+  "records": {
+    "I09-001": {
+      "id": "I09-001",
+      "kind": "disclosure",
+      "state": "Unknown",
+      "claim": "AccountsReceivableNetCurrent 2023-12-31",
+      "value": "1130200000.0",
+      "scope": {
+        "period": "2023-12-31",
+        "entity": "Intuitive Surgical, Inc.",
+        "basis": "US GAAP consolidated; dimensionless context",
+        "definition": "AccountsReceivableNetCurrent",
+        "unit": "usd",
+        "currency": "USD"
+      },
+      "sources": [
+        {
+          "source_id": "Sf92ee8eb3f06a597",
+          "location": "官方HTML iXBRL #f-47 contextRef=c-5；context=0001035267    2023-12-31"
+        }
+      ],
+      "support_boundary": "Agent机器提取并按原表定位；未人工核准。归母/集团、时点/加权股数不同，不能混用。",
+      "extraction_actor": "Agent",
+      "extracted_at": "2026-11-12T03:59:06.547658+00:00"
+    },
+    "I09-002": {
+      "id": "I09-002",
+      "kind": "disclosure",
+      "state": "Unknown",
+      "claim": "InventoryNet 2023-12-31",
+      "value": "1220600000.0",
+      "scope": {
+        "period": "2023-12-31",
+        "entity": "Intuitive Surgical, Inc.",
+        "basis": "US GAAP consolidated; dimensionless context",
+        "definition": "InventoryNet",
+        "unit": "usd",
+        "currency": "USD"
+      },
+      "sources": [
+        {
+          "source_id": "Sf92ee8eb3f06a597",
+          "location": "官方HTML iXBRL #f-49 contextRef=c-5；context=0001035267    2023-12-31"
+        }
+      ],
+      "support_boundary": "Agent机器提取并按原表定位；未人工核准。归母/集团、时点/加权股数不同，不能混用。",
+      "extraction_actor": "Agent",
+      "extracted_at": "2026-11-12T03:59:06.574310+00:00"
+    },
+    "I09-003": {
+      "id": "I09-003",
+      "kind": "disclosure",
+      "state": "Unknown",
+      "claim": "AccountsPayableCurrent 2023-12-31",
+      "value": "188700000.0",
+      "scope": {
+        "period": "2023-12-31",
+        "entity": "Intuitive Surgical, Inc.",
+        "basis": "US GAAP consolidated; dimensionless context",
+        "definition": "AccountsPayableCurrent",
+        "unit": "usd",
+        "currency": "USD"
+      },
+      "sources": [
+        {
+          "source_id": "Sf92ee8eb3f06a597",
+          "location": "官方HTML iXBRL #f-68 contextRef=c-5；context=0001035267    2023-12-31"
+        }
+      ],
+      "support_boundary": "Agent机器提取并按原表定位；未人工核准。归母/集团、时点/加权股数不同，不能混用。",
+      "extraction_actor": "Agent",
+      "extracted_at": "2026-11-12T03:59:06.595970+00:00"
+    },
+    "I09-004": {
+      "id": "I09-004",
+      "kind": "disclosure",
+      "state": "Unknown",
+      "claim": "RevenueFromContractWithCustomerExcludingAssessedTax 2023-01-01/2023-12-31",
+      "value": "7124100000.0",
+      "scope": {
+        "period": "2023-01-01/2023-12-31",
+        "entity": "Intuitive Surgical, Inc.",
+        "basis": "US GAAP consolidated; dimensionless context",
+        "definition": "RevenueFromContractWithCustomerExcludingAssessedTax",
+        "unit": "usd",
+        "currency": "USD"
+      },
+      "sources": [
+        {
+          "source_id": "Sf92ee8eb3f06a597",
+          "location": "官方HTML iXBRL #f-124 contextRef=c-1；context=0001035267    2023-01-01  2023-12-31"
+        }
+      ],
+      "support_boundary": "Agent机器提取并按原表定位；未人工核准。归母/集团、时点/加权股数不同，不能混用。",
+      "extraction_actor": "Agent",
+      "extracted_at": "2026-11-12T03:59:06.620036+00:00"
+    },
+    "I09-005": {
+      "id": "I09-005",
+      "kind": "disclosure",
+      "state": "Unknown",
+      "claim": "ResearchAndDevelopmentExpense 2023-01-01/2023-12-31",
+      "value": "998800000.0",
+      "scope": {
+        "period": "2023-01-01/2023-12-31",
+        "entity": "Intuitive Surgical, Inc.",
+        "basis": "US GAAP consolidated; dimensionless context",
+        "definition": "ResearchAndDevelopmentExpense",
+        "unit": "usd",
+        "currency": "USD"
+      },
+      "sources": [
+        {
+          "source_id": "Sf92ee8eb3f06a597",
+          "location": "官方HTML iXBRL #f-142 contextRef=c-1；context=0001035267    2023-01-01  2023-12-31"
+        }
+      ],
+      "support_boundary": "Agent机器提取并按原表定位；未人工核准。归母/集团、时点/加权股数不同，不能混用。",
+      "extraction_actor": "Agent",
+      "extracted_at": "2026-11-12T03:59:06.645612+00:00"
+    },
+    "I09-006": {
+      "id": "I09-006",
+      "kind": "disclosure",
+      "state": "Unknown",
+      "claim": "OperatingIncomeLoss 2023-01-01/2023-12-31",
+      "value": "1766800000.0",
+      "scope": {
+        "period": "2023-01-01/2023-12-31",
+        "entity": "Intuitive Surgical, Inc.",
+        "basis": "US GAAP consolidated; dimensionless context",
+        "definition": "OperatingIncomeLoss",
+        "unit": "usd",
+        "currency": "USD"
+      },
+      "sources": [
+        {
+          "source_id": "Sf92ee8eb3f06a597",
+          "location": "官方HTML iXBRL #f-148 contextRef=c-1；context=0001035267    2023-01-01  2023-12-31"
+        }
+      ],
+      "support_boundary": "Agent机器提取并按原表定位；未人工核准。归母/集团、时点/加权股数不同，不能混用。",
+      "extraction_actor": "Agent",
+      "extracted_at": "2026-11-12T03:59:06.669915+00:00"
+    },
+    "I09-007": {
+      "id": "I09-007",
+      "kind": "disclosure",
+      "state": "Unknown",
+      "claim": "NetIncomeLoss 2023-01-01/2023-12-31",
+      "value": "1798000000.0",
+      "scope": {
+        "period": "2023-01-01/2023-12-31",
+        "entity": "Intuitive Surgical, Inc.",
+        "basis": "US GAAP consolidated; dimensionless context",
+        "definition": "NetIncomeLoss",
+        "unit": "usd",
+        "currency": "USD"
+      },
+      "sources": [
+        {
+          "source_id": "Sf92ee8eb3f06a597",
+          "location": "官方HTML iXBRL #f-166 contextRef=c-1；context=0001035267    2023-01-01  2023-12-31"
+        }
+      ],
+      "support_boundary": "Agent机器提取并按原表定位；未人工核准。归母/集团、时点/加权股数不同，不能混用。",
+      "extraction_actor": "Agent",
+      "extracted_at": "2026-11-12T03:59:06.693927+00:00"
+    },
+    "I09-008": {
+      "id": "I09-008",
+      "kind": "disclosure",
+      "state": "Unknown",
+      "claim": "ShareBasedCompensation 2023-01-01/2023-12-31",
+      "value": "592800000.0",
+      "scope": {
+        "period": "2023-01-01/2023-12-31",
+        "entity": "Intuitive Surgical, Inc.",
+        "basis": "US GAAP consolidated; dimensionless context",
+        "definition": "ShareBasedCompensation",
+        "unit": "usd",
+        "currency": "USD"
+      },
+      "sources": [
+        {
+          "source_id": "Sf92ee8eb3f06a597",
+          "location": "官方HTML iXBRL #f-349 contextRef=c-1；context=0001035267    2023-01-01  2023-12-31"
+        }
+      ],
+      "support_boundary": "Agent机器提取并按原表定位；未人工核准。归母/集团、时点/加权股数不同，不能混用。",
+      "extraction_actor": "Agent",
+      "extracted_at": "2026-11-12T03:59:06.720720+00:00"
+    },
+    "I09-009": {
+      "id": "I09-009",
+      "kind": "disclosure",
+      "state": "Unknown",
+      "claim": "NetCashProvidedByUsedInOperatingActivities 2023-01-01/2023-12-31",
+      "value": "1813800000.0",
+      "scope": {
+        "period": "2023-01-01/2023-12-31",
+        "entity": "Intuitive Surgical, Inc.",
+        "basis": "US GAAP consolidated; dimensionless context",
+        "definition": "NetCashProvidedByUsedInOperatingActivities",
+        "unit": "usd",
+        "currency": "USD"
+      },
+      "sources": [
+        {
+          "source_id": "Sf92ee8eb3f06a597",
+          "location": "官方HTML iXBRL #f-376 contextRef=c-1；context=0001035267    2023-01-01  2023-12-31"
+        }
+      ],
+      "support_boundary": "Agent机器提取并按原表定位；未人工核准。归母/集团、时点/加权股数不同，不能混用。",
+      "extraction_actor": "Agent",
+      "extracted_at": "2026-11-12T03:59:06.745674+00:00"
+    },
+    "I09-010": {
+      "id": "I09-010",
+      "kind": "disclosure",
+      "state": "Unknown",
+      "claim": "AccountsReceivableNetCurrent 2024-12-31",
+      "value": "1225400000.0",
+      "scope": {
+        "period": "2024-12-31",
+        "entity": "Intuitive Surgical, Inc.",
+        "basis": "US GAAP consolidated; dimensionless context",
+        "definition": "AccountsReceivableNetCurrent",
+        "unit": "usd",
+        "currency": "USD"
+      },
+      "sources": [
+        {
+          "source_id": "Se4905bffbdcd3611",
+          "location": "官方HTML iXBRL #f-62 contextRef=c-5；context=0001035267    2024-12-31"
+        }
+      ],
+      "support_boundary": "Agent机器提取并按原表定位；未人工核准。归母/集团、时点/加权股数不同，不能混用。",
+      "extraction_actor": "Agent",
+      "extracted_at": "2026-11-12T03:59:06.784333+00:00"
+    },
+    "I09-011": {
+      "id": "I09-011",
+      "kind": "disclosure",
+      "state": "Unknown",
+      "claim": "InventoryNet 2024-12-31",
+      "value": "1487200000.0",
+      "scope": {
+        "period": "2024-12-31",
+        "entity": "Intuitive Surgical, Inc.",
+        "basis": "US GAAP consolidated; dimensionless context",
+        "definition": "InventoryNet",
+        "unit": "usd",
+        "currency": "USD"
+      },
+      "sources": [
+        {
+          "source_id": "Se4905bffbdcd3611",
+          "location": "官方HTML iXBRL #f-64 contextRef=c-5；context=0001035267    2024-12-31"
+        }
+      ],
+      "support_boundary": "Agent机器提取并按原表定位；未人工核准。归母/集团、时点/加权股数不同，不能混用。",
+      "extraction_actor": "Agent",
+      "extracted_at": "2026-11-12T03:59:06.812972+00:00"
+    },
+    "I09-012": {
+      "id": "I09-012",
+      "kind": "disclosure",
+      "state": "Unknown",
+      "claim": "AccountsPayableCurrent 2024-12-31",
+      "value": "193400000.0",
+      "scope": {
+        "period": "2024-12-31",
+        "entity": "Intuitive Surgical, Inc.",
+        "basis": "US GAAP consolidated; dimensionless context",
+        "definition": "AccountsPayableCurrent",
+        "unit": "usd",
+        "currency": "USD"
+      },
+      "sources": [
+        {
+          "source_id": "Se4905bffbdcd3611",
+          "location": "官方HTML iXBRL #f-83 contextRef=c-5；context=0001035267    2024-12-31"
+        }
+      ],
+      "support_boundary": "Agent机器提取并按原表定位；未人工核准。归母/集团、时点/加权股数不同，不能混用。",
+      "extraction_actor": "Agent",
+      "extracted_at": "2026-11-12T03:59:06.843121+00:00"
+    },
+    "I09-013": {
+      "id": "I09-013",
+      "kind": "disclosure",
+      "state": "Unknown",
+      "claim": "CommonStockSharesOutstanding 2023-12-31",
+      "value": "352300000.0",
+      "scope": {
+        "period": "2023-12-31",
+        "entity": "Intuitive Surgical, Inc.",
+        "basis": "US GAAP consolidated; dimensionless context",
+        "definition": "CommonStockSharesOutstanding",
+        "unit": "shares",
+        "currency": ""
+      },
+      "sources": [
+        {
+          "source_id": "Se4905bffbdcd3611",
+          "location": "官方HTML iXBRL #f-115 contextRef=c-6；context=0001035267    2023-12-31"
+        }
+      ],
+      "support_boundary": "Agent机器提取并按原表定位；未人工核准。归母/集团、时点/加权股数不同，不能混用。",
+      "extraction_actor": "Agent",
+      "extracted_at": "2026-11-12T03:59:06.873012+00:00"
+    },
+    "I09-014": {
+      "id": "I09-014",
+      "kind": "disclosure",
+      "state": "Unknown",
+      "claim": "RevenueFromContractWithCustomerExcludingAssessedTax 2024-01-01/2024-12-31",
+      "value": "8352100000.0",
+      "scope": {
+        "period": "2024-01-01/2024-12-31",
+        "entity": "Intuitive Surgical, Inc.",
+        "basis": "US GAAP consolidated; dimensionless context",
+        "definition": "RevenueFromContractWithCustomerExcludingAssessedTax",
+        "unit": "usd",
+        "currency": "USD"
+      },
+      "sources": [
+        {
+          "source_id": "Se4905bffbdcd3611",
+          "location": "官方HTML iXBRL #f-139 contextRef=c-1；context=0001035267    2024-01-01  2024-12-31"
+        }
+      ],
+      "support_boundary": "Agent机器提取并按原表定位；未人工核准。归母/集团、时点/加权股数不同，不能混用。",
+      "extraction_actor": "Agent",
+      "extracted_at": "2026-11-12T03:59:06.907735+00:00"
+    },
+    "I09-015": {
+      "id": "I09-015",
+      "kind": "disclosure",
+      "state": "Unknown",
+      "claim": "ResearchAndDevelopmentExpense 2024-01-01/2024-12-31",
+      "value": "1145300000.0",
+      "scope": {
+        "period": "2024-01-01/2024-12-31",
+        "entity": "Intuitive Surgical, Inc.",
+        "basis": "US GAAP consolidated; dimensionless context",
+        "definition": "ResearchAndDevelopmentExpense",
+        "unit": "usd",
+        "currency": "USD"
+      },
+      "sources": [
+        {
+          "source_id": "Se4905bffbdcd3611",
+          "location": "官方HTML iXBRL #f-157 contextRef=c-1；context=0001035267    2024-01-01  2024-12-31"
+        }
+      ],
+      "support_boundary": "Agent机器提取并按原表定位；未人工核准。归母/集团、时点/加权股数不同，不能混用。",
+      "extraction_actor": "Agent",
+      "extracted_at": "2026-11-12T03:59:06.939560+00:00"
+    },
+    "I09-016": {
+      "id": "I09-016",
+      "kind": "disclosure",
+      "state": "Unknown",
+      "claim": "OperatingIncomeLoss 2024-01-01/2024-12-31",
+      "value": "2348900000.0",
+      "scope": {
+        "period": "2024-01-01/2024-12-31",
+        "entity": "Intuitive Surgical, Inc.",
+        "basis": "US GAAP consolidated; dimensionless context",
+        "definition": "OperatingIncomeLoss",
+        "unit": "usd",
+        "currency": "USD"
+      },
+      "sources": [
+        {
+          "source_id": "Se4905bffbdcd3611",
+          "location": "官方HTML iXBRL #f-163 contextRef=c-1；context=0001035267    2024-01-01  2024-12-31"
+        }
+      ],
+      "support_boundary": "Agent机器提取并按原表定位；未人工核准。归母/集团、时点/加权股数不同，不能混用。",
+      "extraction_actor": "Agent",
+      "extracted_at": "2026-11-12T03:59:06.970968+00:00"
+    },
+    "I09-017": {
+      "id": "I09-017",
+      "kind": "disclosure",
+      "state": "Unknown",
+      "claim": "NetIncomeLoss 2024-01-01/2024-12-31",
+      "value": "2322600000.0",
+      "scope": {
+        "period": "2024-01-01/2024-12-31",
+        "entity": "Intuitive Surgical, Inc.",
+        "basis": "US GAAP consolidated; dimensionless context",
+        "definition": "NetIncomeLoss",
+        "unit": "usd",
+        "currency": "USD"
+      },
+      "sources": [
+        {
+          "source_id": "Se4905bffbdcd3611",
+          "location": "官方HTML iXBRL #f-181 contextRef=c-1；context=0001035267    2024-01-01  2024-12-31"
+        }
+      ],
+      "support_boundary": "Agent机器提取并按原表定位；未人工核准。归母/集团、时点/加权股数不同，不能混用。",
+      "extraction_actor": "Agent",
+      "extracted_at": "2026-11-12T03:59:07.007094+00:00"
+    },
+    "I09-018": {
+      "id": "I09-018",
+      "kind": "disclosure",
+      "state": "Unknown",
+      "claim": "ShareBasedCompensation 2024-01-01/2024-12-31",
+      "value": "676800000.0",
+      "scope": {
+        "period": "2024-01-01/2024-12-31",
+        "entity": "Intuitive Surgical, Inc.",
+        "basis": "US GAAP consolidated; dimensionless context",
+        "definition": "ShareBasedCompensation",
+        "unit": "usd",
+        "currency": "USD"
+      },
+      "sources": [
+        {
+          "source_id": "Se4905bffbdcd3611",
+          "location": "官方HTML iXBRL #f-366 contextRef=c-1；context=0001035267    2024-01-01  2024-12-31"
+        }
+      ],
+      "support_boundary": "Agent机器提取并按原表定位；未人工核准。归母/集团、时点/加权股数不同，不能混用。",
+      "extraction_actor": "Agent",
+      "extracted_at": "2026-11-12T03:59:07.039715+00:00"
+    },
+    "I09-019": {
+      "id": "I09-019",
+      "kind": "disclosure",
+      "state": "Unknown",
+      "claim": "NetCashProvidedByUsedInOperatingActivities 2024-01-01/2024-12-31",
+      "value": "2415000000.0",
+      "scope": {
+        "period": "2024-01-01/2024-12-31",
+        "entity": "Intuitive Surgical, Inc.",
+        "basis": "US GAAP consolidated; dimensionless context",
+        "definition": "NetCashProvidedByUsedInOperatingActivities",
+        "unit": "usd",
+        "currency": "USD"
+      },
+      "sources": [
+        {
+          "source_id": "Se4905bffbdcd3611",
+          "location": "官方HTML iXBRL #f-393 contextRef=c-1；context=0001035267    2024-01-01  2024-12-31"
+        }
+      ],
+      "support_boundary": "Agent机器提取并按原表定位；未人工核准。归母/集团、时点/加权股数不同，不能混用。",
+      "extraction_actor": "Agent",
+      "extracted_at": "2026-11-12T03:59:07.072747+00:00"
+    },
+    "I09-020": {
+      "id": "I09-020",
+      "kind": "disclosure",
+      "state": "Unknown",
+      "claim": "AccountsReceivableNetCurrent 2025-12-31",
+      "value": "1527300000.0",
+      "scope": {
+        "period": "2025-12-31",
+        "entity": "Intuitive Surgical, Inc.",
+        "basis": "US GAAP consolidated; dimensionless context",
+        "definition": "AccountsReceivableNetCurrent",
+        "unit": "usd",
+        "currency": "USD"
+      },
+      "sources": [
+        {
+          "source_id": "Se7f95d2f97642180",
+          "location": "官方HTML iXBRL #f-62 contextRef=c-5；context=0001035267    2025-12-31"
+        }
+      ],
+      "support_boundary": "Agent机器提取并按原表定位；未人工核准。归母/集团、时点/加权股数不同，不能混用。",
+      "extraction_actor": "Agent",
+      "extracted_at": "2026-11-12T03:59:07.121802+00:00"
+    },
+    "I09-021": {
+      "id": "I09-021",
+      "kind": "disclosure",
+      "state": "Unknown",
+      "claim": "InventoryNet 2025-12-31",
+      "value": "1840000000.0",
+      "scope": {
+        "period": "2025-12-31",
+        "entity": "Intuitive Surgical, Inc.",
+        "basis": "US GAAP consolidated; dimensionless context",
+        "definition": "InventoryNet",
+        "unit": "usd",
+        "currency": "USD"
+      },
+      "sources": [
+        {
+          "source_id": "Se7f95d2f97642180",
+          "location": "官方HTML iXBRL #f-64 contextRef=c-5；context=0001035267    2025-12-31"
+        }
+      ],
+      "support_boundary": "Agent机器提取并按原表定位；未人工核准。归母/集团、时点/加权股数不同，不能混用。",
+      "extraction_actor": "Agent",
+      "extracted_at": "2026-11-12T03:59:07.156856+00:00"
+    },
+    "I09-022": {
+      "id": "I09-022",
+      "kind": "disclosure",
+      "state": "Unknown",
+      "claim": "AccountsPayableCurrent 2025-12-31",
+      "value": "255100000.0",
+      "scope": {
+        "period": "2025-12-31",
+        "entity": "Intuitive Surgical, Inc.",
+        "basis": "US GAAP consolidated; dimensionless context",
+        "definition": "AccountsPayableCurrent",
+        "unit": "usd",
+        "currency": "USD"
+      },
+      "sources": [
+        {
+          "source_id": "Se7f95d2f97642180",
+          "location": "官方HTML iXBRL #f-83 contextRef=c-5；context=0001035267    2025-12-31"
+        }
+      ],
+      "support_boundary": "Agent机器提取并按原表定位；未人工核准。归母/集团、时点/加权股数不同，不能混用。",
+      "extraction_actor": "Agent",
+      "extracted_at": "2026-11-12T03:59:07.193134+00:00"
+    },
+    "I09-023": {
+      "id": "I09-023",
+      "kind": "disclosure",
+      "state": "Unknown",
+      "claim": "CommonStockSharesOutstanding 2025-12-31",
+      "value": "355100000.0",
+      "scope": {
+        "period": "2025-12-31",
+        "entity": "Intuitive Surgical, Inc.",
+        "basis": "US GAAP consolidated; dimensionless context",
+        "definition": "CommonStockSharesOutstanding",
+        "unit": "shares",
+        "currency": ""
+      },
+      "sources": [
+        {
+          "source_id": "Se7f95d2f97642180",
+          "location": "官方HTML iXBRL #f-113 contextRef=c-5；context=0001035267    2025-12-31"
+        }
+      ],
+      "support_boundary": "Agent机器提取并按原表定位；未人工核准。归母/集团、时点/加权股数不同，不能混用。",
+      "extraction_actor": "Agent",
+      "extracted_at": "2026-11-12T03:59:07.232714+00:00"
+    },
+    "I09-024": {
+      "id": "I09-024",
+      "kind": "disclosure",
+      "state": "Unknown",
+      "claim": "CommonStockSharesOutstanding 2024-12-31",
+      "value": "356600000.0",
+      "scope": {
+        "period": "2024-12-31",
+        "entity": "Intuitive Surgical, Inc.",
+        "basis": "US GAAP consolidated; dimensionless context",
+        "definition": "CommonStockSharesOutstanding",
+        "unit": "shares",
+        "currency": ""
+      },
+      "sources": [
+        {
+          "source_id": "Se7f95d2f97642180",
+          "location": "官方HTML iXBRL #f-115 contextRef=c-6；context=0001035267    2024-12-31"
+        }
+      ],
+      "support_boundary": "Agent机器提取并按原表定位；未人工核准。归母/集团、时点/加权股数不同，不能混用。",
+      "extraction_actor": "Agent",
+      "extracted_at": "2026-11-12T03:59:07.271441+00:00"
+    },
+    "I09-025": {
+      "id": "I09-025",
+      "kind": "disclosure",
+      "state": "Unknown",
+      "claim": "RevenueFromContractWithCustomerExcludingAssessedTax 2025-01-01/2025-12-31",
+      "value": "10064700000.0",
+      "scope": {
+        "period": "2025-01-01/2025-12-31",
+        "entity": "Intuitive Surgical, Inc.",
+        "basis": "US GAAP consolidated; dimensionless context",
+        "definition": "RevenueFromContractWithCustomerExcludingAssessedTax",
+        "unit": "usd",
+        "currency": "USD"
+      },
+      "sources": [
+        {
+          "source_id": "Se7f95d2f97642180",
+          "location": "官方HTML iXBRL #f-139 contextRef=c-1；context=0001035267    2025-01-01  2025-12-31"
+        }
+      ],
+      "support_boundary": "Agent机器提取并按原表定位；未人工核准。归母/集团、时点/加权股数不同，不能混用。",
+      "extraction_actor": "Agent",
+      "extracted_at": "2026-11-12T03:59:07.309213+00:00"
+    },
+    "I09-026": {
+      "id": "I09-026",
+      "kind": "disclosure",
+      "state": "Unknown",
+      "claim": "ResearchAndDevelopmentExpense 2025-01-01/2025-12-31",
+      "value": "1311800000.0",
+      "scope": {
+        "period": "2025-01-01/2025-12-31",
+        "entity": "Intuitive Surgical, Inc.",
+        "basis": "US GAAP consolidated; dimensionless context",
+        "definition": "ResearchAndDevelopmentExpense",
+        "unit": "usd",
+        "currency": "USD"
+      },
+      "sources": [
+        {
+          "source_id": "Se7f95d2f97642180",
+          "location": "官方HTML iXBRL #f-157 contextRef=c-1；context=0001035267    2025-01-01  2025-12-31"
+        }
+      ],
+      "support_boundary": "Agent机器提取并按原表定位；未人工核准。归母/集团、时点/加权股数不同，不能混用。",
+      "extraction_actor": "Agent",
+      "extracted_at": "2026-11-12T03:59:07.351390+00:00"
+    },
+    "I09-027": {
+      "id": "I09-027",
+      "kind": "disclosure",
+      "state": "Unknown",
+      "claim": "OperatingIncomeLoss 2025-01-01/2025-12-31",
+      "value": "2945500000.0",
+      "scope": {
+        "period": "2025-01-01/2025-12-31",
+        "entity": "Intuitive Surgical, Inc.",
+        "basis": "US GAAP consolidated; dimensionless context",
+        "definition": "OperatingIncomeLoss",
+        "unit": "usd",
+        "currency": "USD"
+      },
+      "sources": [
+        {
+          "source_id": "Se7f95d2f97642180",
+          "location": "官方HTML iXBRL #f-163 contextRef=c-1；context=0001035267    2025-01-01  2025-12-31"
+        }
+      ],
+      "support_boundary": "Agent机器提取并按原表定位；未人工核准。归母/集团、时点/加权股数不同，不能混用。",
+      "extraction_actor": "Agent",
+      "extracted_at": "2026-11-12T03:59:07.392004+00:00"
+    },
+    "I09-028": {
+      "id": "I09-028",
+      "kind": "disclosure",
+      "state": "Unknown",
+      "claim": "NetIncomeLoss 2025-01-01/2025-12-31",
+      "value": "2856000000.0",
+      "scope": {
+        "period": "2025-01-01/2025-12-31",
+        "entity": "Intuitive Surgical, Inc.",
+        "basis": "US GAAP consolidated; dimensionless context",
+        "definition": "NetIncomeLoss",
+        "unit": "usd",
+        "currency": "USD"
+      },
+      "sources": [
+        {
+          "source_id": "Se7f95d2f97642180",
+          "location": "官方HTML iXBRL #f-181 contextRef=c-1；context=0001035267    2025-01-01  2025-12-31"
+        }
+      ],
+      "support_boundary": "Agent机器提取并按原表定位；未人工核准。归母/集团、时点/加权股数不同，不能混用。",
+      "extraction_actor": "Agent",
+      "extracted_at": "2026-11-12T03:59:07.432869+00:00"
+    },
+    "I09-029": {
+      "id": "I09-029",
+      "kind": "disclosure",
+      "state": "Unknown",
+      "claim": "ShareBasedCompensation 2025-01-01/2025-12-31",
+      "value": "788200000.0",
+      "scope": {
+        "period": "2025-01-01/2025-12-31",
+        "entity": "Intuitive Surgical, Inc.",
+        "basis": "US GAAP consolidated; dimensionless context",
+        "definition": "ShareBasedCompensation",
+        "unit": "usd",
+        "currency": "USD"
+      },
+      "sources": [
+        {
+          "source_id": "Se7f95d2f97642180",
+          "location": "官方HTML iXBRL #f-371 contextRef=c-1；context=0001035267    2025-01-01  2025-12-31"
+        }
+      ],
+      "support_boundary": "Agent机器提取并按原表定位；未人工核准。归母/集团、时点/加权股数不同，不能混用。",
+      "extraction_actor": "Agent",
+      "extracted_at": "2026-11-12T03:59:07.481231+00:00"
+    },
+    "I09-030": {
+      "id": "I09-030",
+      "kind": "disclosure",
+      "state": "Unknown",
+      "claim": "NetCashProvidedByUsedInOperatingActivities 2025-01-01/2025-12-31",
+      "value": "3030500000.0",
+      "scope": {
+        "period": "2025-01-01/2025-12-31",
+        "entity": "Intuitive Surgical, Inc.",
+        "basis": "US GAAP consolidated; dimensionless context",
+        "definition": "NetCashProvidedByUsedInOperatingActivities",
+        "unit": "usd",
+        "currency": "USD"
+      },
+      "sources": [
+        {
+          "source_id": "Se7f95d2f97642180",
+          "location": "官方HTML iXBRL #f-395 contextRef=c-1；context=0001035267    2025-01-01  2025-12-31"
+        }
+      ],
+      "support_boundary": "Agent机器提取并按原表定位；未人工核准。归母/集团、时点/加权股数不同，不能混用。",
+      "extraction_actor": "Agent",
+      "extracted_at": "2026-11-12T03:59:07.526627+00:00"
+    },
+    "I09-031": {
+      "id": "I09-031",
+      "kind": "disclosure",
+      "state": "Unknown",
+      "claim": "IncomeTaxesPaidNet 2025-01-01/2025-12-31",
+      "value": "537900000.0",
+      "scope": {
+        "period": "2025-01-01/2025-12-31",
+        "entity": "Intuitive Surgical, Inc.",
+        "basis": "US GAAP consolidated; dimensionless context",
+        "definition": "IncomeTaxesPaidNet",
+        "unit": "usd",
+        "currency": "USD"
+      },
+      "sources": [
+        {
+          "source_id": "Se7f95d2f97642180",
+          "location": "官方HTML iXBRL #f-1533 contextRef=c-1；context=0001035267    2025-01-01  2025-12-31"
+        }
+      ],
+      "support_boundary": "Agent机器提取并按原表定位；未人工核准。归母/集团、时点/加权股数不同，不能混用。",
+      "extraction_actor": "Agent",
+      "extracted_at": "2026-11-12T03:59:07.574512+00:00"
+    },
+    "I09-032": {
+      "id": "I09-032",
+      "kind": "disclosure",
+      "state": "Unknown",
+      "claim": "AccountsReceivableNetCurrent 2026-09-30",
+      "value": "1721300000.0",
+      "scope": {
+        "period": "2026-09-30",
+        "entity": "Intuitive Surgical, Inc.",
+        "basis": "US GAAP consolidated; dimensionless context",
+        "definition": "AccountsReceivableNetCurrent",
+        "unit": "usd",
+        "currency": "USD"
+      },
+      "sources": [
+        {
+          "source_id": "S83c179dfd93521d4",
+          "location": "官方HTML iXBRL #f-34 contextRef=c-3；context=0001035267    2026-09-30"
+        }
+      ],
+      "support_boundary": "Agent机器提取并按原表定位；未人工核准。归母/集团、时点/加权股数不同，不能混用。",
+      "extraction_actor": "Agent",
+      "extracted_at": "2026-11-12T03:59:07.626331+00:00"
+    },
+    "I09-033": {
+      "id": "I09-033",
+      "kind": "disclosure",
+      "state": "Unknown",
+      "claim": "InventoryNet 2026-09-30",
+      "value": "2128200000.0",
+      "scope": {
+        "period": "2026-09-30",
+        "entity": "Intuitive Surgical, Inc.",
+        "basis": "US GAAP consolidated; dimensionless context",
+        "definition": "InventoryNet",
+        "unit": "usd",
+        "currency": "USD"
+      },
+      "sources": [
+        {
+          "source_id": "S83c179dfd93521d4",
+          "location": "官方HTML iXBRL #f-36 contextRef=c-3；context=0001035267    2026-09-30"
+        }
+      ],
+      "support_boundary": "Agent机器提取并按原表定位；未人工核准。归母/集团、时点/加权股数不同，不能混用。",
+      "extraction_actor": "Agent",
+      "extracted_at": "2026-11-12T03:59:07.676931+00:00"
+    },
+    "I09-034": {
+      "id": "I09-034",
+      "kind": "disclosure",
+      "state": "Unknown",
+      "claim": "AccountsPayableCurrent 2026-09-30",
+      "value": "279500000.0",
+      "scope": {
+        "period": "2026-09-30",
+        "entity": "Intuitive Surgical, Inc.",
+        "basis": "US GAAP consolidated; dimensionless context",
+        "definition": "AccountsPayableCurrent",
+        "unit": "usd",
+        "currency": "USD"
+      },
+      "sources": [
+        {
+          "source_id": "S83c179dfd93521d4",
+          "location": "官方HTML iXBRL #f-54 contextRef=c-3；context=0001035267    2026-09-30"
+        }
+      ],
+      "support_boundary": "Agent机器提取并按原表定位；未人工核准。归母/集团、时点/加权股数不同，不能混用。",
+      "extraction_actor": "Agent",
+      "extracted_at": "2026-11-12T03:59:07.723846+00:00"
+    },
+    "I09-035": {
+      "id": "I09-035",
+      "kind": "disclosure",
+      "state": "Unknown",
+      "claim": "CommonStockSharesOutstanding 2026-09-30",
+      "value": "346600000.0",
+      "scope": {
+        "period": "2026-09-30",
+        "entity": "Intuitive Surgical, Inc.",
+        "basis": "US GAAP consolidated; dimensionless context",
+        "definition": "CommonStockSharesOutstanding",
+        "unit": "shares",
+        "currency": ""
+      },
+      "sources": [
+        {
+          "source_id": "S83c179dfd93521d4",
+          "location": "官方HTML iXBRL #f-84 contextRef=c-3；context=0001035267    2026-09-30"
+        }
+      ],
+      "support_boundary": "Agent机器提取并按原表定位；未人工核准。归母/集团、时点/加权股数不同，不能混用。",
+      "extraction_actor": "Agent",
+      "extracted_at": "2026-11-12T03:59:07.772760+00:00"
+    },
+    "I09-036": {
+      "id": "I09-036",
+      "kind": "disclosure",
+      "state": "Unknown",
+      "claim": "RevenueFromContractWithCustomerExcludingAssessedTax 2026-07-01/2026-09-30",
+      "value": "3048700000.0",
+      "scope": {
+        "period": "2026-07-01/2026-09-30",
+        "entity": "Intuitive Surgical, Inc.",
+        "basis": "US GAAP consolidated; dimensionless context",
+        "definition": "RevenueFromContractWithCustomerExcludingAssessedTax",
+        "unit": "usd",
+        "currency": "USD"
+      },
+      "sources": [
+        {
+          "source_id": "S83c179dfd93521d4",
+          "location": "官方HTML iXBRL #f-112 contextRef=c-13；context=0001035267    2026-07-01  2026-09-30"
+        }
+      ],
+      "support_boundary": "Agent机器提取并按原表定位；未人工核准。归母/集团、时点/加权股数不同，不能混用。",
+      "extraction_actor": "Agent",
+      "extracted_at": "2026-11-12T03:59:07.819908+00:00"
+    },
+    "I09-037": {
+      "id": "I09-037",
+      "kind": "disclosure",
+      "state": "Unknown",
+      "claim": "RevenueFromContractWithCustomerExcludingAssessedTax 2025-07-01/2025-09-30",
+      "value": "2505100000.0",
+      "scope": {
+        "period": "2025-07-01/2025-09-30",
+        "entity": "Intuitive Surgical, Inc.",
+        "basis": "US GAAP consolidated; dimensionless context",
+        "definition": "RevenueFromContractWithCustomerExcludingAssessedTax",
+        "unit": "usd",
+        "currency": "USD"
+      },
+      "sources": [
+        {
+          "source_id": "S83c179dfd93521d4",
+          "location": "官方HTML iXBRL #f-113 contextRef=c-14；context=0001035267    2025-07-01  2025-09-30"
+        }
+      ],
+      "support_boundary": "Agent机器提取并按原表定位；未人工核准。归母/集团、时点/加权股数不同，不能混用。",
+      "extraction_actor": "Agent",
+      "extracted_at": "2026-11-12T03:59:07.866892+00:00"
+    },
+    "I09-038": {
+      "id": "I09-038",
+      "kind": "disclosure",
+      "state": "Unknown",
+      "claim": "RevenueFromContractWithCustomerExcludingAssessedTax 2026-01-01/2026-09-30",
+      "value": "8711800000.0",
+      "scope": {
+        "period": "2026-01-01/2026-09-30",
+        "entity": "Intuitive Surgical, Inc.",
+        "basis": "US GAAP consolidated; dimensionless context",
+        "definition": "RevenueFromContractWithCustomerExcludingAssessedTax",
+        "unit": "usd",
+        "currency": "USD"
+      },
+      "sources": [
+        {
+          "source_id": "S83c179dfd93521d4",
+          "location": "官方HTML iXBRL #f-114 contextRef=c-1；context=0001035267    2026-01-01  2026-09-30"
+        }
+      ],
+      "support_boundary": "Agent机器提取并按原表定位；未人工核准。归母/集团、时点/加权股数不同，不能混用。",
+      "extraction_actor": "Agent",
+      "extracted_at": "2026-11-12T03:59:07.916568+00:00"
+    },
+    "I09-039": {
+      "id": "I09-039",
+      "kind": "disclosure",
+      "state": "Unknown",
+      "claim": "RevenueFromContractWithCustomerExcludingAssessedTax 2025-01-01/2025-09-30",
+      "value": "7198500000.0",
+      "scope": {
+        "period": "2025-01-01/2025-09-30",
+        "entity": "Intuitive Surgical, Inc.",
+        "basis": "US GAAP consolidated; dimensionless context",
+        "definition": "RevenueFromContractWithCustomerExcludingAssessedTax",
+        "unit": "usd",
+        "currency": "USD"
+      },
+      "sources": [
+        {
+          "source_id": "S83c179dfd93521d4",
+          "location": "官方HTML iXBRL #f-115 contextRef=c-15；context=0001035267    2025-01-01  2025-09-30"
+        }
+      ],
+      "support_boundary": "Agent机器提取并按原表定位；未人工核准。归母/集团、时点/加权股数不同，不能混用。",
+      "extraction_actor": "Agent",
+      "extracted_at": "2026-11-12T03:59:07.966613+00:00"
+    },
+    "I09-040": {
+      "id": "I09-040",
+      "kind": "disclosure",
+      "state": "Unknown",
+      "claim": "ResearchAndDevelopmentExpense 2026-07-01/2026-09-30",
+      "value": "408300000.0",
+      "scope": {
+        "period": "2026-07-01/2026-09-30",
+        "entity": "Intuitive Surgical, Inc.",
+        "basis": "US GAAP consolidated; dimensionless context",
+        "definition": "ResearchAndDevelopmentExpense",
+        "unit": "usd",
+        "currency": "USD"
+      },
+      "sources": [
+        {
+          "source_id": "S83c179dfd93521d4",
+          "location": "官方HTML iXBRL #f-140 contextRef=c-13；context=0001035267    2026-07-01  2026-09-30"
+        }
+      ],
+      "support_boundary": "Agent机器提取并按原表定位；未人工核准。归母/集团、时点/加权股数不同，不能混用。",
+      "extraction_actor": "Agent",
+      "extracted_at": "2026-11-12T03:59:08.014517+00:00"
+    },
+    "I09-041": {
+      "id": "I09-041",
+      "kind": "disclosure",
+      "state": "Unknown",
+      "claim": "ResearchAndDevelopmentExpense 2025-07-01/2025-09-30",
+      "value": "329400000.0",
+      "scope": {
+        "period": "2025-07-01/2025-09-30",
+        "entity": "Intuitive Surgical, Inc.",
+        "basis": "US GAAP consolidated; dimensionless context",
+        "definition": "ResearchAndDevelopmentExpense",
+        "unit": "usd",
+        "currency": "USD"
+      },
+      "sources": [
+        {
+          "source_id": "S83c179dfd93521d4",
+          "location": "官方HTML iXBRL #f-141 contextRef=c-14；context=0001035267    2025-07-01  2025-09-30"
+        }
+      ],
+      "support_boundary": "Agent机器提取并按原表定位；未人工核准。归母/集团、时点/加权股数不同，不能混用。",
+      "extraction_actor": "Agent",
+      "extracted_at": "2026-11-12T03:59:08.062300+00:00"
+    },
+    "I09-042": {
+      "id": "I09-042",
+      "kind": "disclosure",
+      "state": "Unknown",
+      "claim": "ResearchAndDevelopmentExpense 2026-01-01/2026-09-30",
+      "value": "1140800000.0",
+      "scope": {
+        "period": "2026-01-01/2026-09-30",
+        "entity": "Intuitive Surgical, Inc.",
+        "basis": "US GAAP consolidated; dimensionless context",
+        "definition": "ResearchAndDevelopmentExpense",
+        "unit": "usd",
+        "currency": "USD"
+      },
+      "sources": [
+        {
+          "source_id": "S83c179dfd93521d4",
+          "location": "官方HTML iXBRL #f-142 contextRef=c-1；context=0001035267    2026-01-01  2026-09-30"
+        }
+      ],
+      "support_boundary": "Agent机器提取并按原表定位；未人工核准。归母/集团、时点/加权股数不同，不能混用。",
+      "extraction_actor": "Agent",
+      "extracted_at": "2026-11-12T03:59:08.113359+00:00"
+    },
+    "I09-043": {
+      "id": "I09-043",
+      "kind": "disclosure",
+      "state": "Unknown",
+      "claim": "ResearchAndDevelopmentExpense 2025-01-01/2025-09-30",
+      "value": "958900000.0",
+      "scope": {
+        "period": "2025-01-01/2025-09-30",
+        "entity": "Intuitive Surgical, Inc.",
+        "basis": "US GAAP consolidated; dimensionless context",
+        "definition": "ResearchAndDevelopmentExpense",
+        "unit": "usd",
+        "currency": "USD"
+      },
+      "sources": [
+        {
+          "source_id": "S83c179dfd93521d4",
+          "location": "官方HTML iXBRL #f-143 contextRef=c-15；context=0001035267    2025-01-01  2025-09-30"
+        }
+      ],
+      "support_boundary": "Agent机器提取并按原表定位；未人工核准。归母/集团、时点/加权股数不同，不能混用。",
+      "extraction_actor": "Agent",
+      "extracted_at": "2026-11-12T03:59:08.165161+00:00"
+    },
+    "I09-044": {
+      "id": "I09-044",
+      "kind": "disclosure",
+      "state": "Unknown",
+      "claim": "OperatingIncomeLoss 2026-07-01/2026-09-30",
+      "value": "592600000.0",
+      "scope": {
+        "period": "2026-07-01/2026-09-30",
+        "entity": "Intuitive Surgical, Inc.",
+        "basis": "US GAAP consolidated; dimensionless context",
+        "definition": "OperatingIncomeLoss",
+        "unit": "usd",
+        "currency": "USD"
+      },
+      "sources": [
+        {
+          "source_id": "S83c179dfd93521d4",
+          "location": "官方HTML iXBRL #f-148 contextRef=c-13；context=0001035267    2026-07-01  2026-09-30"
+        }
+      ],
+      "support_boundary": "Agent机器提取并按原表定位；未人工核准。归母/集团、时点/加权股数不同，不能混用。",
+      "extraction_actor": "Agent",
+      "extracted_at": "2026-11-12T03:59:08.215725+00:00"
+    },
+    "I09-045": {
+      "id": "I09-045",
+      "kind": "disclosure",
+      "state": "Unknown",
+      "claim": "OperatingIncomeLoss 2025-07-01/2025-09-30",
+      "value": "759700000.0",
+      "scope": {
+        "period": "2025-07-01/2025-09-30",
+        "entity": "Intuitive Surgical, Inc.",
+        "basis": "US GAAP consolidated; dimensionless context",
+        "definition": "OperatingIncomeLoss",
+        "unit": "usd",
+        "currency": "USD"
+      },
+      "sources": [
+        {
+          "source_id": "S83c179dfd93521d4",
+          "location": "官方HTML iXBRL #f-149 contextRef=c-14；context=0001035267    2025-07-01  2025-09-30"
+        }
+      ],
+      "support_boundary": "Agent机器提取并按原表定位；未人工核准。归母/集团、时点/加权股数不同，不能混用。",
+      "extraction_actor": "Agent",
+      "extracted_at": "2026-11-12T03:59:08.269228+00:00"
+    },
+    "I09-046": {
+      "id": "I09-046",
+      "kind": "disclosure",
+      "state": "Unknown",
+      "claim": "OperatingIncomeLoss 2026-01-01/2026-09-30",
+      "value": "2419800000.0",
+      "scope": {
+        "period": "2026-01-01/2026-09-30",
+        "entity": "Intuitive Surgical, Inc.",
+        "basis": "US GAAP consolidated; dimensionless context",
+        "definition": "OperatingIncomeLoss",
+        "unit": "usd",
+        "currency": "USD"
+      },
+      "sources": [
+        {
+          "source_id": "S83c179dfd93521d4",
+          "location": "官方HTML iXBRL #f-150 contextRef=c-1；context=0001035267    2026-01-01  2026-09-30"
+        }
+      ],
+      "support_boundary": "Agent机器提取并按原表定位；未人工核准。归母/集团、时点/加权股数不同，不能混用。",
+      "extraction_actor": "Agent",
+      "extracted_at": "2026-11-12T03:59:08.321286+00:00"
+    },
+    "I09-047": {
+      "id": "I09-047",
+      "kind": "disclosure",
+      "state": "Unknown",
+      "claim": "OperatingIncomeLoss 2025-01-01/2025-09-30",
+      "value": "2081200000.0",
+      "scope": {
+        "period": "2025-01-01/2025-09-30",
+        "entity": "Intuitive Surgical, Inc.",
+        "basis": "US GAAP consolidated; dimensionless context",
+        "definition": "OperatingIncomeLoss",
+        "unit": "usd",
+        "currency": "USD"
+      },
+      "sources": [
+        {
+          "source_id": "S83c179dfd93521d4",
+          "location": "官方HTML iXBRL #f-151 contextRef=c-15；context=0001035267    2025-01-01  2025-09-30"
+        }
+      ],
+      "support_boundary": "Agent机器提取并按原表定位；未人工核准。归母/集团、时点/加权股数不同，不能混用。",
+      "extraction_actor": "Agent",
+      "extracted_at": "2026-11-12T03:59:08.373590+00:00"
+    },
+    "I09-048": {
+      "id": "I09-048",
+      "kind": "disclosure",
+      "state": "Unknown",
+      "claim": "NetIncomeLoss 2026-07-01/2026-09-30",
+      "value": "522800000.0",
+      "scope": {
+        "period": "2026-07-01/2026-09-30",
+        "entity": "Intuitive Surgical, Inc.",
+        "basis": "US GAAP consolidated; dimensionless context",
+        "definition": "NetIncomeLoss",
+        "unit": "usd",
+        "currency": "USD"
+      },
+      "sources": [
+        {
+          "source_id": "S83c179dfd93521d4",
+          "location": "官方HTML iXBRL #f-172 contextRef=c-13；context=0001035267    2026-07-01  2026-09-30"
+        }
+      ],
+      "support_boundary": "Agent机器提取并按原表定位；未人工核准。归母/集团、时点/加权股数不同，不能混用。",
+      "extraction_actor": "Agent",
+      "extracted_at": "2026-11-12T03:59:08.425750+00:00"
+    },
+    "I09-049": {
+      "id": "I09-049",
+      "kind": "disclosure",
+      "state": "Unknown",
+      "claim": "NetIncomeLoss 2025-07-01/2025-09-30",
+      "value": "704400000.0",
+      "scope": {
+        "period": "2025-07-01/2025-09-30",
+        "entity": "Intuitive Surgical, Inc.",
+        "basis": "US GAAP consolidated; dimensionless context",
+        "definition": "NetIncomeLoss",
+        "unit": "usd",
+        "currency": "USD"
+      },
+      "sources": [
+        {
+          "source_id": "S83c179dfd93521d4",
+          "location": "官方HTML iXBRL #f-173 contextRef=c-14；context=0001035267    2025-07-01  2025-09-30"
+        }
+      ],
+      "support_boundary": "Agent机器提取并按原表定位；未人工核准。归母/集团、时点/加权股数不同，不能混用。",
+      "extraction_actor": "Agent",
+      "extracted_at": "2026-11-12T03:59:08.480689+00:00"
+    },
+    "I09-050": {
+      "id": "I09-050",
+      "kind": "disclosure",
+      "state": "Unknown",
+      "claim": "NetIncomeLoss 2026-01-01/2026-09-30",
+      "value": "2162400000.0",
+      "scope": {
+        "period": "2026-01-01/2026-09-30",
+        "entity": "Intuitive Surgical, Inc.",
+        "basis": "US GAAP consolidated; dimensionless context",
+        "definition": "NetIncomeLoss",
+        "unit": "usd",
+        "currency": "USD"
+      },
+      "sources": [
+        {
+          "source_id": "S83c179dfd93521d4",
+          "location": "官方HTML iXBRL #f-174 contextRef=c-1；context=0001035267    2026-01-01  2026-09-30"
+        }
+      ],
+      "support_boundary": "Agent机器提取并按原表定位；未人工核准。归母/集团、时点/加权股数不同，不能混用。",
+      "extraction_actor": "Agent",
+      "extracted_at": "2026-11-12T03:59:08.534600+00:00"
+    },
+    "I09-051": {
+      "id": "I09-051",
+      "kind": "disclosure",
+      "state": "Unknown",
+      "claim": "NetIncomeLoss 2025-01-01/2025-09-30",
+      "value": "2061200000.0",
+      "scope": {
+        "period": "2025-01-01/2025-09-30",
+        "entity": "Intuitive Surgical, Inc.",
+        "basis": "US GAAP consolidated; dimensionless context",
+        "definition": "NetIncomeLoss",
+        "unit": "usd",
+        "currency": "USD"
+      },
+      "sources": [
+        {
+          "source_id": "S83c179dfd93521d4",
+          "location": "官方HTML iXBRL #f-175 contextRef=c-15；context=0001035267    2025-01-01  2025-09-30"
+        }
+      ],
+      "support_boundary": "Agent机器提取并按原表定位；未人工核准。归母/集团、时点/加权股数不同，不能混用。",
+      "extraction_actor": "Agent",
+      "extracted_at": "2026-11-12T03:59:08.589430+00:00"
+    },
+    "I09-052": {
+      "id": "I09-052",
+      "kind": "disclosure",
+      "state": "Unknown",
+      "claim": "ShareBasedCompensation 2026-01-01/2026-09-30",
+      "value": "632000000.0",
+      "scope": {
+        "period": "2026-01-01/2026-09-30",
+        "entity": "Intuitive Surgical, Inc.",
+        "basis": "US GAAP consolidated; dimensionless context",
+        "definition": "ShareBasedCompensation",
+        "unit": "usd",
+        "currency": "USD"
+      },
+      "sources": [
+        {
+          "source_id": "S83c179dfd93521d4",
+          "location": "官方HTML iXBRL #f-236 contextRef=c-1；context=0001035267    2026-01-01  2026-09-30"
+        }
+      ],
+      "support_boundary": "Agent机器提取并按原表定位；未人工核准。归母/集团、时点/加权股数不同，不能混用。",
+      "extraction_actor": "Agent",
+      "extracted_at": "2026-11-12T03:59:08.645620+00:00"
+    },
+    "I09-053": {
+      "id": "I09-053",
+      "kind": "disclosure",
+      "state": "Unknown",
+      "claim": "ShareBasedCompensation 2025-01-01/2025-09-30",
+      "value": "584900000.0",
+      "scope": {
+        "period": "2025-01-01/2025-09-30",
+        "entity": "Intuitive Surgical, Inc.",
+        "basis": "US GAAP consolidated; dimensionless context",
+        "definition": "ShareBasedCompensation",
+        "unit": "usd",
+        "currency": "USD"
+      },
+      "sources": [
+        {
+          "source_id": "S83c179dfd93521d4",
+          "location": "官方HTML iXBRL #f-237 contextRef=c-15；context=0001035267    2025-01-01  2025-09-30"
+        }
+      ],
+      "support_boundary": "Agent机器提取并按原表定位；未人工核准。归母/集团、时点/加权股数不同，不能混用。",
+      "extraction_actor": "Agent",
+      "extracted_at": "2026-11-12T03:59:08.702117+00:00"
+    },
+    "I09-054": {
+      "id": "I09-054",
+      "kind": "disclosure",
+      "state": "Unknown",
+      "claim": "NetCashProvidedByUsedInOperatingActivities 2026-01-01/2026-09-30",
+      "value": "3197000000.0",
+      "scope": {
+        "period": "2026-01-01/2026-09-30",
+        "entity": "Intuitive Surgical, Inc.",
+        "basis": "US GAAP consolidated; dimensionless context",
+        "definition": "NetCashProvidedByUsedInOperatingActivities",
+        "unit": "usd",
+        "currency": "USD"
+      },
+      "sources": [
+        {
+          "source_id": "S83c179dfd93521d4",
+          "location": "官方HTML iXBRL #f-252 contextRef=c-1；context=0001035267    2026-01-01  2026-09-30"
+        }
+      ],
+      "support_boundary": "Agent机器提取并按原表定位；未人工核准。归母/集团、时点/加权股数不同，不能混用。",
+      "extraction_actor": "Agent",
+      "extracted_at": "2026-11-12T03:59:08.760494+00:00"
+    },
+    "I09-055": {
+      "id": "I09-055",
+      "kind": "disclosure",
+      "state": "Unknown",
+      "claim": "NetCashProvidedByUsedInOperatingActivities 2025-01-01/2025-09-30",
+      "value": "2138000000.0",
+      "scope": {
+        "period": "2025-01-01/2025-09-30",
+        "entity": "Intuitive Surgical, Inc.",
+        "basis": "US GAAP consolidated; dimensionless context",
+        "definition": "NetCashProvidedByUsedInOperatingActivities",
+        "unit": "usd",
+        "currency": "USD"
+      },
+      "sources": [
+        {
+          "source_id": "S83c179dfd93521d4",
+          "location": "官方HTML iXBRL #f-253 contextRef=c-15；context=0001035267    2025-01-01  2025-09-30"
+        }
+      ],
+      "support_boundary": "Agent机器提取并按原表定位；未人工核准。归母/集团、时点/加权股数不同，不能混用。",
+      "extraction_actor": "Agent",
+      "extracted_at": "2026-11-12T03:59:08.821688+00:00"
+    }
+  },
+  "events": [
+    {
+      "id": "E000001",
+      "time": "2026-11-12T11:59:06+08:00",
+      "action": "candidate-created",
+      "data": {
+        "record": {
+          "id": "I09-001",
+          "kind": "disclosure",
+          "state": "Unknown",
+          "claim": "AccountsReceivableNetCurrent 2023-12-31",
+          "value": "1130200000.0",
+          "scope": {
+            "period": "2023-12-31",
+            "entity": "Intuitive Surgical, Inc.",
+            "basis": "US GAAP consolidated; dimensionless context",
+            "definition": "AccountsReceivableNetCurrent",
+            "unit": "usd",
+            "currency": "USD"
+          },
+          "sources": [
+            {
+              "source_id": "Sf92ee8eb3f06a597",
+              "location": "官方HTML iXBRL #f-47 contextRef=c-5；context=0001035267    2023-12-31"
+            }
+          ],
+          "support_boundary": "Agent机器提取并按原表定位；未人工核准。归母/集团、时点/加权股数不同，不能混用。",
+          "extraction_actor": "Agent",
+          "extracted_at": "2026-11-12T03:59:06.547658+00:00"
+        },
+        "previous": null
+      },
+      "previous_hash": null,
+      "hash": "e81fd24ea956afd8a54b2f75f7e83180d12883fd68540a8f37c5c7aa2ec17fc6"
+    },
+    {
+      "id": "E000002",
+      "time": "2026-11-12T11:59:06+08:00",
+      "action": "candidate-created",
+      "data": {
+        "record": {
+          "id": "I09-002",
+          "kind": "disclosure",
+          "state": "Unknown",
+          "claim": "InventoryNet 2023-12-31",
+          "value": "1220600000.0",
+          "scope": {
+            "period": "2023-12-31",
+            "entity": "Intuitive Surgical, Inc.",
+            "basis": "US GAAP consolidated; dimensionless context",
+            "definition": "InventoryNet",
+            "unit": "usd",
+            "currency": "USD"
+          },
+          "sources": [
+            {
+              "source_id": "Sf92ee8eb3f06a597",
+              "location": "官方HTML iXBRL #f-49 contextRef=c-5；context=0001035267    2023-12-31"
+            }
+          ],
+          "support_boundary": "Agent机器提取并按原表定位；未人工核准。归母/集团、时点/加权股数不同，不能混用。",
+          "extraction_actor": "Agent",
+          "extracted_at": "2026-11-12T03:59:06.574310+00:00"
+        },
+        "previous": null
+      },
+      "previous_hash": "e81fd24ea956afd8a54b2f75f7e83180d12883fd68540a8f37c5c7aa2ec17fc6",
+      "hash": "c78e0a3bf8d0daae75bea514af7db199d135bec5cbba3b344948d256a2dad424"
+    },
+    {
+      "id": "E000003",
+      "time": "2026-11-12T11:59:06+08:00",
+      "action": "candidate-created",
+      "data": {
+        "record": {
+          "id": "I09-003",
+          "kind": "disclosure",
+          "state": "Unknown",
+          "claim": "AccountsPayableCurrent 2023-12-31",
+          "value": "188700000.0",
+          "scope": {
+            "period": "2023-12-31",
+            "entity": "Intuitive Surgical, Inc.",
+            "basis": "US GAAP consolidated; dimensionless context",
+            "definition": "AccountsPayableCurrent",
+            "unit": "usd",
+            "currency": "USD"
+          },
+          "sources": [
+            {
+              "source_id": "Sf92ee8eb3f06a597",
+              "location": "官方HTML iXBRL #f-68 contextRef=c-5；context=0001035267    2023-12-31"
+            }
+          ],
+          "support_boundary": "Agent机器提取并按原表定位；未人工核准。归母/集团、时点/加权股数不同，不能混用。",
+          "extraction_actor": "Agent",
+          "extracted_at": "2026-11-12T03:59:06.595970+00:00"
+        },
+        "previous": null
+      },
+      "previous_hash": "c78e0a3bf8d0daae75bea514af7db199d135bec5cbba3b344948d256a2dad424",
+      "hash": "00853dc8eb87d1ef1229e651bdecf8c3f5bb20b09f5363c0e38f4ebf6c1c929f"
+    },
+    {
+      "id": "E000004",
+      "time": "2026-11-12T11:59:06+08:00",
+      "action": "candidate-created",
+      "data": {
+        "record": {
+          "id": "I09-004",
+          "kind": "disclosure",
+          "state": "Unknown",
+          "claim": "RevenueFromContractWithCustomerExcludingAssessedTax 2023-01-01/2023-12-31",
+          "value": "7124100000.0",
+          "scope": {
+            "period": "2023-01-01/2023-12-31",
+            "entity": "Intuitive Surgical, Inc.",
+            "basis": "US GAAP consolidated; dimensionless context",
+            "definition": "RevenueFromContractWithCustomerExcludingAssessedTax",
+            "unit": "usd",
+            "currency": "USD"
+          },
+          "sources": [
+            {
+              "source_id": "Sf92ee8eb3f06a597",
+              "location": "官方HTML iXBRL #f-124 contextRef=c-1；context=0001035267    2023-01-01  2023-12-31"
+            }
+          ],
+          "support_boundary": "Agent机器提取并按原表定位；未人工核准。归母/集团、时点/加权股数不同，不能混用。",
+          "extraction_actor": "Agent",
+          "extracted_at": "2026-11-12T03:59:06.620036+00:00"
+        },
+        "previous": null
+      },
+      "previous_hash": "00853dc8eb87d1ef1229e651bdecf8c3f5bb20b09f5363c0e38f4ebf6c1c929f",
+      "hash": "4c7e9167b109251c5539c6e884af4cdc607c682f74f10422bfd1d44f8f058e1b"
+    },
+    {
+      "id": "E000005",
+      "time": "2026-11-12T11:59:06+08:00",
+      "action": "candidate-created",
+      "data": {
+        "record": {
+          "id": "I09-005",
+          "kind": "disclosure",
+          "state": "Unknown",
+          "claim": "ResearchAndDevelopmentExpense 2023-01-01/2023-12-31",
+          "value": "998800000.0",
+          "scope": {
+            "period": "2023-01-01/2023-12-31",
+            "entity": "Intuitive Surgical, Inc.",
+            "basis": "US GAAP consolidated; dimensionless context",
+            "definition": "ResearchAndDevelopmentExpense",
+            "unit": "usd",
+            "currency": "USD"
+          },
+          "sources": [
+            {
+              "source_id": "Sf92ee8eb3f06a597",
+              "location": "官方HTML iXBRL #f-142 contextRef=c-1；context=0001035267    2023-01-01  2023-12-31"
+            }
+          ],
+          "support_boundary": "Agent机器提取并按原表定位；未人工核准。归母/集团、时点/加权股数不同，不能混用。",
+          "extraction_actor": "Agent",
+          "extracted_at": "2026-11-12T03:59:06.645612+00:00"
+        },
+        "previous": null
+      },
+      "previous_hash": "4c7e9167b109251c5539c6e884af4cdc607c682f74f10422bfd1d44f8f058e1b",
+      "hash": "e523e3a586b57a942d215de17e559b14f19841e9d87a9e8f98432957b91be37a"
+    },
+    {
+      "id": "E000006",
+      "time": "2026-11-12T11:59:06+08:00",
+      "action": "candidate-created",
+      "data": {
+        "record": {
+          "id": "I09-006",
+          "kind": "disclosure",
+          "state": "Unknown",
+          "claim": "OperatingIncomeLoss 2023-01-01/2023-12-31",
+          "value": "1766800000.0",
+          "scope": {
+            "period": "2023-01-01/2023-12-31",
+            "entity": "Intuitive Surgical, Inc.",
+            "basis": "US GAAP consolidated; dimensionless context",
+            "definition": "OperatingIncomeLoss",
+            "unit": "usd",
+            "currency": "USD"
+          },
+          "sources": [
+            {
+              "source_id": "Sf92ee8eb3f06a597",
+              "location": "官方HTML iXBRL #f-148 contextRef=c-1；context=0001035267    2023-01-01  2023-12-31"
+            }
+          ],
+          "support_boundary": "Agent机器提取并按原表定位；未人工核准。归母/集团、时点/加权股数不同，不能混用。",
+          "extraction_actor": "Agent",
+          "extracted_at": "2026-11-12T03:59:06.669915+00:00"
+        },
+        "previous": null
+      },
+      "previous_hash": "e523e3a586b57a942d215de17e559b14f19841e9d87a9e8f98432957b91be37a",
+      "hash": "d6f65e1c9c77e87875e9984af8325f1e9605424752c537c7d848b7c861a6206d"
+    },
+    {
+      "id": "E000007",
+      "time": "2026-11-12T11:59:06+08:00",
+      "action": "candidate-created",
+      "data": {
+        "record": {
+          "id": "I09-007",
+          "kind": "disclosure",
+          "state": "Unknown",
+          "claim": "NetIncomeLoss 2023-01-01/2023-12-31",
+          "value": "1798000000.0",
+          "scope": {
+            "period": "2023-01-01/2023-12-31",
+            "entity": "Intuitive Surgical, Inc.",
+            "basis": "US GAAP consolidated; dimensionless context",
+            "definition": "NetIncomeLoss",
+            "unit": "usd",
+            "currency": "USD"
+          },
+          "sources": [
+            {
+              "source_id": "Sf92ee8eb3f06a597",
+              "location": "官方HTML iXBRL #f-166 contextRef=c-1；context=0001035267    2023-01-01  2023-12-31"
+            }
+          ],
+          "support_boundary": "Agent机器提取并按原表定位；未人工核准。归母/集团、时点/加权股数不同，不能混用。",
+          "extraction_actor": "Agent",
+          "extracted_at": "2026-11-12T03:59:06.693927+00:00"
+        },
+        "previous": null
+      },
+      "previous_hash": "d6f65e1c9c77e87875e9984af8325f1e9605424752c537c7d848b7c861a6206d",
+      "hash": "71bc78c1e3dfe0ac390b80c26958d5a9b9b911ddcccabf0cf39d7c90beb059c1"
+    },
+    {
+      "id": "E000008",
+      "time": "2026-11-12T11:59:06+08:00",
+      "action": "candidate-created",
+      "data": {
+        "record": {
+          "id": "I09-008",
+          "kind": "disclosure",
+          "state": "Unknown",
+          "claim": "ShareBasedCompensation 2023-01-01/2023-12-31",
+          "value": "592800000.0",
+          "scope": {
+            "period": "2023-01-01/2023-12-31",
+            "entity": "Intuitive Surgical, Inc.",
+            "basis": "US GAAP consolidated; dimensionless context",
+            "definition": "ShareBasedCompensation",
+            "unit": "usd",
+            "currency": "USD"
+          },
+          "sources": [
+            {
+              "source_id": "Sf92ee8eb3f06a597",
+              "location": "官方HTML iXBRL #f-349 contextRef=c-1；context=0001035267    2023-01-01  2023-12-31"
+            }
+          ],
+          "support_boundary": "Agent机器提取并按原表定位；未人工核准。归母/集团、时点/加权股数不同，不能混用。",
+          "extraction_actor": "Agent",
+          "extracted_at": "2026-11-12T03:59:06.720720+00:00"
+        },
+        "previous": null
+      },
+      "previous_hash": "71bc78c1e3dfe0ac390b80c26958d5a9b9b911ddcccabf0cf39d7c90beb059c1",
+      "hash": "a5973a9dfc581294556db7e23c72a8adde46402bec865f6725a45a34e6911e06"
+    },
+    {
+      "id": "E000009",
+      "time": "2026-11-12T11:59:06+08:00",
+      "action": "candidate-created",
+      "data": {
+        "record": {
+          "id": "I09-009",
+          "kind": "disclosure",
+          "state": "Unknown",
+          "claim": "NetCashProvidedByUsedInOperatingActivities 2023-01-01/2023-12-31",
+          "value": "1813800000.0",
+          "scope": {
+            "period": "2023-01-01/2023-12-31",
+            "entity": "Intuitive Surgical, Inc.",
+            "basis": "US GAAP consolidated; dimensionless context",
+            "definition": "NetCashProvidedByUsedInOperatingActivities",
+            "unit": "usd",
+            "currency": "USD"
+          },
+          "sources": [
+            {
+              "source_id": "Sf92ee8eb3f06a597",
+              "location": "官方HTML iXBRL #f-376 contextRef=c-1；context=0001035267    2023-01-01  2023-12-31"
+            }
+          ],
+          "support_boundary": "Agent机器提取并按原表定位；未人工核准。归母/集团、时点/加权股数不同，不能混用。",
+          "extraction_actor": "Agent",
+          "extracted_at": "2026-11-12T03:59:06.745674+00:00"
+        },
+        "previous": null
+      },
+      "previous_hash": "a5973a9dfc581294556db7e23c72a8adde46402bec865f6725a45a34e6911e06",
+      "hash": "be798e2b74303467a3be9187d2b87e69b3141f96ea568e5f0daa26986f048d24"
+    },
+    {
+      "id": "E000010",
+      "time": "2026-11-12T11:59:06+08:00",
+      "action": "candidate-created",
+      "data": {
+        "record": {
+          "id": "I09-010",
+          "kind": "disclosure",
+          "state": "Unknown",
+          "claim": "AccountsReceivableNetCurrent 2024-12-31",
+          "value": "1225400000.0",
+          "scope": {
+            "period": "2024-12-31",
+            "entity": "Intuitive Surgical, Inc.",
+            "basis": "US GAAP consolidated; dimensionless context",
+            "definition": "AccountsReceivableNetCurrent",
+            "unit": "usd",
+            "currency": "USD"
+          },
+          "sources": [
+            {
+              "source_id": "Se4905bffbdcd3611",
+              "location": "官方HTML iXBRL #f-62 contextRef=c-5；context=0001035267    2024-12-31"
+            }
+          ],
+          "support_boundary": "Agent机器提取并按原表定位；未人工核准。归母/集团、时点/加权股数不同，不能混用。",
+          "extraction_actor": "Agent",
+          "extracted_at": "2026-11-12T03:59:06.784333+00:00"
+        },
+        "previous": null
+      },
+      "previous_hash": "be798e2b74303467a3be9187d2b87e69b3141f96ea568e5f0daa26986f048d24",
+      "hash": "e73718faf9f00e19d84b235b0ccb23dcfea2347ff1e66966b850a78ec5eaf883"
+    },
+    {
+      "id": "E000011",
+      "time": "2026-11-12T11:59:06+08:00",
+      "action": "candidate-created",
+      "data": {
+        "record": {
+          "id": "I09-011",
+          "kind": "disclosure",
+          "state": "Unknown",
+          "claim": "InventoryNet 2024-12-31",
+          "value": "1487200000.0",
+          "scope": {
+            "period": "2024-12-31",
+            "entity": "Intuitive Surgical, Inc.",
+            "basis": "US GAAP consolidated; dimensionless context",
+            "definition": "InventoryNet",
+            "unit": "usd",
+            "currency": "USD"
+          },
+          "sources": [
+            {
+              "source_id": "Se4905bffbdcd3611",
+              "location": "官方HTML iXBRL #f-64 contextRef=c-5；context=0001035267    2024-12-31"
+            }
+          ],
+          "support_boundary": "Agent机器提取并按原表定位；未人工核准。归母/集团、时点/加权股数不同，不能混用。",
+          "extraction_actor": "Agent",
+          "extracted_at": "2026-11-12T03:59:06.812972+00:00"
+        },
+        "previous": null
+      },
+      "previous_hash": "e73718faf9f00e19d84b235b0ccb23dcfea2347ff1e66966b850a78ec5eaf883",
+      "hash": "db439c5ca460e0edb8c536a50edd15c6cb4757d9580fc3bb8642b04f1ebd0e96"
+    },
+    {
+      "id": "E000012",
+      "time": "2026-11-12T11:59:06+08:00",
+      "action": "candidate-created",
+      "data": {
+        "record": {
+          "id": "I09-012",
+          "kind": "disclosure",
+          "state": "Unknown",
+          "claim": "AccountsPayableCurrent 2024-12-31",
+          "value": "193400000.0",
+          "scope": {
+            "period": "2024-12-31",
+            "entity": "Intuitive Surgical, Inc.",
+            "basis": "US GAAP consolidated; dimensionless context",
+            "definition": "AccountsPayableCurrent",
+            "unit": "usd",
+            "currency": "USD"
+          },
+          "sources": [
+            {
+              "source_id": "Se4905bffbdcd3611",
+              "location": "官方HTML iXBRL #f-83 contextRef=c-5；context=0001035267    2024-12-31"
+            }
+          ],
+          "support_boundary": "Agent机器提取并按原表定位；未人工核准。归母/集团、时点/加权股数不同，不能混用。",
+          "extraction_actor": "Agent",
+          "extracted_at": "2026-11-12T03:59:06.843121+00:00"
+        },
+        "previous": null
+      },
+      "previous_hash": "db439c5ca460e0edb8c536a50edd15c6cb4757d9580fc3bb8642b04f1ebd0e96",
+      "hash": "03773f2091a2da02f306ebbcdba3b48821079c547ff503f426b3eb91880059a9"
+    },
+    {
+      "id": "E000013",
+      "time": "2026-11-12T11:59:06+08:00",
+      "action": "candidate-created",
+      "data": {
+        "record": {
+          "id": "I09-013",
+          "kind": "disclosure",
+          "state": "Unknown",
+          "claim": "CommonStockSharesOutstanding 2023-12-31",
+          "value": "352300000.0",
+          "scope": {
+            "period": "2023-12-31",
+            "entity": "Intuitive Surgical, Inc.",
+            "basis": "US GAAP consolidated; dimensionless context",
+            "definition": "CommonStockSharesOutstanding",
+            "unit": "shares",
+            "currency": ""
+          },
+          "sources": [
+            {
+              "source_id": "Se4905bffbdcd3611",
+              "location": "官方HTML iXBRL #f-115 contextRef=c-6；context=0001035267    2023-12-31"
+            }
+          ],
+          "support_boundary": "Agent机器提取并按原表定位；未人工核准。归母/集团、时点/加权股数不同，不能混用。",
+          "extraction_actor": "Agent",
+          "extracted_at": "2026-11-12T03:59:06.873012+00:00"
+        },
+        "previous": null
+      },
+      "previous_hash": "03773f2091a2da02f306ebbcdba3b48821079c547ff503f426b3eb91880059a9",
+      "hash": "eb7a96d85f78cb62cc6e0a253c23af87579ce3bd2e6f369b2cce72a8a1ca52e2"
+    },
+    {
+      "id": "E000014",
+      "time": "2026-11-12T11:59:06+08:00",
+      "action": "candidate-created",
+      "data": {
+        "record": {
+          "id": "I09-014",
+          "kind": "disclosure",
+          "state": "Unknown",
+          "claim": "RevenueFromContractWithCustomerExcludingAssessedTax 2024-01-01/2024-12-31",
+          "value": "8352100000.0",
+          "scope": {
+            "period": "2024-01-01/2024-12-31",
+            "entity": "Intuitive Surgical, Inc.",
+            "basis": "US GAAP consolidated; dimensionless context",
+            "definition": "RevenueFromContractWithCustomerExcludingAssessedTax",
+            "unit": "usd",
+            "currency": "USD"
+          },
+          "sources": [
+            {
+              "source_id": "Se4905bffbdcd3611",
+              "location": "官方HTML iXBRL #f-139 contextRef=c-1；context=0001035267    2024-01-01  2024-12-31"
+            }
+          ],
+          "support_boundary": "Agent机器提取并按原表定位；未人工核准。归母/集团、时点/加权股数不同，不能混用。",
+          "extraction_actor": "Agent",
+          "extracted_at": "2026-11-12T03:59:06.907735+00:00"
+        },
+        "previous": null
+      },
+      "previous_hash": "eb7a96d85f78cb62cc6e0a253c23af87579ce3bd2e6f369b2cce72a8a1ca52e2",
+      "hash": "9753ea1ff11e37d0c8808413048b51bed1aa7489b6b2fced435d53e9f0fe1014"
+    },
+    {
+      "id": "E000015",
+      "time": "2026-11-12T11:59:06+08:00",
+      "action": "candidate-created",
+      "data": {
+        "record": {
+          "id": "I09-015",
+          "kind": "disclosure",
+          "state": "Unknown",
+          "claim": "ResearchAndDevelopmentExpense 2024-01-01/2024-12-31",
+          "value": "1145300000.0",
+          "scope": {
+            "period": "2024-01-01/2024-12-31",
+            "entity": "Intuitive Surgical, Inc.",
+            "basis": "US GAAP consolidated; dimensionless context",
+            "definition": "ResearchAndDevelopmentExpense",
+            "unit": "usd",
+            "currency": "USD"
+          },
+          "sources": [
+            {
+              "source_id": "Se4905bffbdcd3611",
+              "location": "官方HTML iXBRL #f-157 contextRef=c-1；context=0001035267    2024-01-01  2024-12-31"
+            }
+          ],
+          "support_boundary": "Agent机器提取并按原表定位；未人工核准。归母/集团、时点/加权股数不同，不能混用。",
+          "extraction_actor": "Agent",
+          "extracted_at": "2026-11-12T03:59:06.939560+00:00"
+        },
+        "previous": null
+      },
+      "previous_hash": "9753ea1ff11e37d0c8808413048b51bed1aa7489b6b2fced435d53e9f0fe1014",
+      "hash": "633bf8586ad8cf1187a10c26ad9b280c5aa53e680182cec7bc8e0627d8ca0e50"
+    },
+    {
+      "id": "E000016",
+      "time": "2026-11-12T11:59:06+08:00",
+      "action": "candidate-created",
+      "data": {
+        "record": {
+          "id": "I09-016",
+          "kind": "disclosure",
+          "state": "Unknown",
+          "claim": "OperatingIncomeLoss 2024-01-01/2024-12-31",
+          "value": "2348900000.0",
+          "scope": {
+            "period": "2024-01-01/2024-12-31",
+            "entity": "Intuitive Surgical, Inc.",
+            "basis": "US GAAP consolidated; dimensionless context",
+            "definition": "OperatingIncomeLoss",
+            "unit": "usd",
+            "currency": "USD"
+          },
+          "sources": [
+            {
+              "source_id": "Se4905bffbdcd3611",
+              "location": "官方HTML iXBRL #f-163 contextRef=c-1；context=0001035267    2024-01-01  2024-12-31"
+            }
+          ],
+          "support_boundary": "Agent机器提取并按原表定位；未人工核准。归母/集团、时点/加权股数不同，不能混用。",
+          "extraction_actor": "Agent",
+          "extracted_at": "2026-11-12T03:59:06.970968+00:00"
+        },
+        "previous": null
+      },
+      "previous_hash": "633bf8586ad8cf1187a10c26ad9b280c5aa53e680182cec7bc8e0627d8ca0e50",
+      "hash": "8333642766a4f69e51f0128eb6aabba41736d4f1e918885454e13871c2919e38"
+    },
+    {
+      "id": "E000017",
+      "time": "2026-11-12T11:59:07+08:00",
+      "action": "candidate-created",
+      "data": {
+        "record": {
+          "id": "I09-017",
+          "kind": "disclosure",
+          "state": "Unknown",
+          "claim": "NetIncomeLoss 2024-01-01/2024-12-31",
+          "value": "2322600000.0",
+          "scope": {
+            "period": "2024-01-01/2024-12-31",
+            "entity": "Intuitive Surgical, Inc.",
+            "basis": "US GAAP consolidated; dimensionless context",
+            "definition": "NetIncomeLoss",
+            "unit": "usd",
+            "currency": "USD"
+          },
+          "sources": [
+            {
+              "source_id": "Se4905bffbdcd3611",
+              "location": "官方HTML iXBRL #f-181 contextRef=c-1；context=0001035267    2024-01-01  2024-12-31"
+            }
+          ],
+          "support_boundary": "Agent机器提取并按原表定位；未人工核准。归母/集团、时点/加权股数不同，不能混用。",
+          "extraction_actor": "Agent",
+          "extracted_at": "2026-11-12T03:59:07.007094+00:00"
+        },
+        "previous": null
+      },
+      "previous_hash": "8333642766a4f69e51f0128eb6aabba41736d4f1e918885454e13871c2919e38",
+      "hash": "c4d5d3079ca32a217c00cb22478c668d23988fd717112c985680ab92de1db78d"
+    },
+    {
+      "id": "E000018",
+      "time": "2026-11-12T11:59:07+08:00",
+      "action": "candidate-created",
+      "data": {
+        "record": {
+          "id": "I09-018",
+          "kind": "disclosure",
+          "state": "Unknown",
+          "claim": "ShareBasedCompensation 2024-01-01/2024-12-31",
+          "value": "676800000.0",
+          "scope": {
+            "period": "2024-01-01/2024-12-31",
+            "entity": "Intuitive Surgical, Inc.",
+            "basis": "US GAAP consolidated; dimensionless context",
+            "definition": "ShareBasedCompensation",
+            "unit": "usd",
+            "currency": "USD"
+          },
+          "sources": [
+            {
+              "source_id": "Se4905bffbdcd3611",
+              "location": "官方HTML iXBRL #f-366 contextRef=c-1；context=0001035267    2024-01-01  2024-12-31"
+            }
+          ],
+          "support_boundary": "Agent机器提取并按原表定位；未人工核准。归母/集团、时点/加权股数不同，不能混用。",
+          "extraction_actor": "Agent",
+          "extracted_at": "2026-11-12T03:59:07.039715+00:00"
+        },
+        "previous": null
+      },
+      "previous_hash": "c4d5d3079ca32a217c00cb22478c668d23988fd717112c985680ab92de1db78d",
+      "hash": "265122dac99b6056cc1ea1ce7dc300a060f2a95e525ecebd7e465d5cdb801b5e"
+    },
+    {
+      "id": "E000019",
+      "time": "2026-11-12T11:59:07+08:00",
+      "action": "candidate-created",
+      "data": {
+        "record": {
+          "id": "I09-019",
+          "kind": "disclosure",
+          "state": "Unknown",
+          "claim": "NetCashProvidedByUsedInOperatingActivities 2024-01-01/2024-12-31",
+          "value": "2415000000.0",
+          "scope": {
+            "period": "2024-01-01/2024-12-31",
+            "entity": "Intuitive Surgical, Inc.",
+            "basis": "US GAAP consolidated; dimensionless context",
+            "definition": "NetCashProvidedByUsedInOperatingActivities",
+            "unit": "usd",
+            "currency": "USD"
+          },
+          "sources": [
+            {
+              "source_id": "Se4905bffbdcd3611",
+              "location": "官方HTML iXBRL #f-393 contextRef=c-1；context=0001035267    2024-01-01  2024-12-31"
+            }
+          ],
+          "support_boundary": "Agent机器提取并按原表定位；未人工核准。归母/集团、时点/加权股数不同，不能混用。",
+          "extraction_actor": "Agent",
+          "extracted_at": "2026-11-12T03:59:07.072747+00:00"
+        },
+        "previous": null
+      },
+      "previous_hash": "265122dac99b6056cc1ea1ce7dc300a060f2a95e525ecebd7e465d5cdb801b5e",
+      "hash": "1482e035fa6a6200a7c28e3ace0bd258e11f46a3b19c7c671efe5fd639c67663"
+    },
+    {
+      "id": "E000020",
+      "time": "2026-11-12T11:59:07+08:00",
+      "action": "candidate-created",
+      "data": {
+        "record": {
+          "id": "I09-020",
+          "kind": "disclosure",
+          "state": "Unknown",
+          "claim": "AccountsReceivableNetCurrent 2025-12-31",
+          "value": "1527300000.0",
+          "scope": {
+            "period": "2025-12-31",
+            "entity": "Intuitive Surgical, Inc.",
+            "basis": "US GAAP consolidated; dimensionless context",
+            "definition": "AccountsReceivableNetCurrent",
+            "unit": "usd",
+            "currency": "USD"
+          },
+          "sources": [
+            {
+              "source_id": "Se7f95d2f97642180",
+              "location": "官方HTML iXBRL #f-62 contextRef=c-5；context=0001035267    2025-12-31"
+            }
+          ],
+          "support_boundary": "Agent机器提取并按原表定位；未人工核准。归母/集团、时点/加权股数不同，不能混用。",
+          "extraction_actor": "Agent",
+          "extracted_at": "2026-11-12T03:59:07.121802+00:00"
+        },
+        "previous": null
+      },
+      "previous_hash": "1482e035fa6a6200a7c28e3ace0bd258e11f46a3b19c7c671efe5fd639c67663",
+      "hash": "f4a03139e8c74aea28d913e38704d5f833db5f8443397970278027e90417c1bb"
+    },
+    {
+      "id": "E000021",
+      "time": "2026-11-12T11:59:07+08:00",
+      "action": "candidate-created",
+      "data": {
+        "record": {
+          "id": "I09-021",
+          "kind": "disclosure",
+          "state": "Unknown",
+          "claim": "InventoryNet 2025-12-31",
+          "value": "1840000000.0",
+          "scope": {
+            "period": "2025-12-31",
+            "entity": "Intuitive Surgical, Inc.",
+            "basis": "US GAAP consolidated; dimensionless context",
+            "definition": "InventoryNet",
+            "unit": "usd",
+            "currency": "USD"
+          },
+          "sources": [
+            {
+              "source_id": "Se7f95d2f97642180",
+              "location": "官方HTML iXBRL #f-64 contextRef=c-5；context=0001035267    2025-12-31"
+            }
+          ],
+          "support_boundary": "Agent机器提取并按原表定位；未人工核准。归母/集团、时点/加权股数不同，不能混用。",
+          "extraction_actor": "Agent",
+          "extracted_at": "2026-11-12T03:59:07.156856+00:00"
+        },
+        "previous": null
+      },
+      "previous_hash": "f4a03139e8c74aea28d913e38704d5f833db5f8443397970278027e90417c1bb",
+      "hash": "c45a31235fc3997455f166d5200bf53b1c12d8ed1ef53d6e37fcab945b09f348"
+    },
+    {
+      "id": "E000022",
+      "time": "2026-11-12T11:59:07+08:00",
+      "action": "candidate-created",
+      "data": {
+        "record": {
+          "id": "I09-022",
+          "kind": "disclosure",
+          "state": "Unknown",
+          "claim": "AccountsPayableCurrent 2025-12-31",
+          "value": "255100000.0",
+          "scope": {
+            "period": "2025-12-31",
+            "entity": "Intuitive Surgical, Inc.",
+            "basis": "US GAAP consolidated; dimensionless context",
+            "definition": "AccountsPayableCurrent",
+            "unit": "usd",
+            "currency": "USD"
+          },
+          "sources": [
+            {
+              "source_id": "Se7f95d2f97642180",
+              "location": "官方HTML iXBRL #f-83 contextRef=c-5；context=0001035267    2025-12-31"
+            }
+          ],
+          "support_boundary": "Agent机器提取并按原表定位；未人工核准。归母/集团、时点/加权股数不同，不能混用。",
+          "extraction_actor": "Agent",
+          "extracted_at": "2026-11-12T03:59:07.193134+00:00"
+        },
+        "previous": null
+      },
+      "previous_hash": "c45a31235fc3997455f166d5200bf53b1c12d8ed1ef53d6e37fcab945b09f348",
+      "hash": "736362413a790cd9fc6a1c2c6b8ceb6a17306e5c826c8961492737ba121c8695"
+    },
+    {
+      "id": "E000023",
+      "time": "2026-11-12T11:59:07+08:00",
+      "action": "candidate-created",
+      "data": {
+        "record": {
+          "id": "I09-023",
+          "kind": "disclosure",
+          "state": "Unknown",
+          "claim": "CommonStockSharesOutstanding 2025-12-31",
+          "value": "355100000.0",
+          "scope": {
+            "period": "2025-12-31",
+            "entity": "Intuitive Surgical, Inc.",
+            "basis": "US GAAP consolidated; dimensionless context",
+            "definition": "CommonStockSharesOutstanding",
+            "unit": "shares",
+            "currency": ""
+          },
+          "sources": [
+            {
+              "source_id": "Se7f95d2f97642180",
+              "location": "官方HTML iXBRL #f-113 contextRef=c-5；context=0001035267    2025-12-31"
+            }
+          ],
+          "support_boundary": "Agent机器提取并按原表定位；未人工核准。归母/集团、时点/加权股数不同，不能混用。",
+          "extraction_actor": "Agent",
+          "extracted_at": "2026-11-12T03:59:07.232714+00:00"
+        },
+        "previous": null
+      },
+      "previous_hash": "736362413a790cd9fc6a1c2c6b8ceb6a17306e5c826c8961492737ba121c8695",
+      "hash": "81d452f06bdba1a24f60c54cb21ddf933481f04e754495ca1ef1986eab9d0be9"
+    },
+    {
+      "id": "E000024",
+      "time": "2026-11-12T11:59:07+08:00",
+      "action": "candidate-created",
+      "data": {
+        "record": {
+          "id": "I09-024",
+          "kind": "disclosure",
+          "state": "Unknown",
+          "claim": "CommonStockSharesOutstanding 2024-12-31",
+          "value": "356600000.0",
+          "scope": {
+            "period": "2024-12-31",
+            "entity": "Intuitive Surgical, Inc.",
+            "basis": "US GAAP consolidated; dimensionless context",
+            "definition": "CommonStockSharesOutstanding",
+            "unit": "shares",
+            "currency": ""
+          },
+          "sources": [
+            {
+              "source_id": "Se7f95d2f97642180",
+              "location": "官方HTML iXBRL #f-115 contextRef=c-6；context=0001035267    2024-12-31"
+            }
+          ],
+          "support_boundary": "Agent机器提取并按原表定位；未人工核准。归母/集团、时点/加权股数不同，不能混用。",
+          "extraction_actor": "Agent",
+          "extracted_at": "2026-11-12T03:59:07.271441+00:00"
+        },
+        "previous": null
+      },
+      "previous_hash": "81d452f06bdba1a24f60c54cb21ddf933481f04e754495ca1ef1986eab9d0be9",
+      "hash": "fbb8b2ab63203dcc270086dd83b69ba3d6e0bc1e2abdd32fdf973b1e12b52e33"
+    },
+    {
+      "id": "E000025",
+      "time": "2026-11-12T11:59:07+08:00",
+      "action": "candidate-created",
+      "data": {
+        "record": {
+          "id": "I09-025",
+          "kind": "disclosure",
+          "state": "Unknown",
+          "claim": "RevenueFromContractWithCustomerExcludingAssessedTax 2025-01-01/2025-12-31",
+          "value": "10064700000.0",
+          "scope": {
+            "period": "2025-01-01/2025-12-31",
+            "entity": "Intuitive Surgical, Inc.",
+            "basis": "US GAAP consolidated; dimensionless context",
+            "definition": "RevenueFromContractWithCustomerExcludingAssessedTax",
+            "unit": "usd",
+            "currency": "USD"
+          },
+          "sources": [
+            {
+              "source_id": "Se7f95d2f97642180",
+              "location": "官方HTML iXBRL #f-139 contextRef=c-1；context=0001035267    2025-01-01  2025-12-31"
+            }
+          ],
+          "support_boundary": "Agent机器提取并按原表定位；未人工核准。归母/集团、时点/加权股数不同，不能混用。",
+          "extraction_actor": "Agent",
+          "extracted_at": "2026-11-12T03:59:07.309213+00:00"
+        },
+        "previous": null
+      },
+      "previous_hash": "fbb8b2ab63203dcc270086dd83b69ba3d6e0bc1e2abdd32fdf973b1e12b52e33",
+      "hash": "44adc9197d40c959618b63f5eeca8a825a3b529c9c73ec7507a44a2a991e568c"
+    },
+    {
+      "id": "E000026",
+      "time": "2026-11-12T11:59:07+08:00",
+      "action": "candidate-created",
+      "data": {
+        "record": {
+          "id": "I09-026",
+          "kind": "disclosure",
+          "state": "Unknown",
+          "claim": "ResearchAndDevelopmentExpense 2025-01-01/2025-12-31",
+          "value": "1311800000.0",
+          "scope": {
+            "period": "2025-01-01/2025-12-31",
+            "entity": "Intuitive Surgical, Inc.",
+            "basis": "US GAAP consolidated; dimensionless context",
+            "definition": "ResearchAndDevelopmentExpense",
+            "unit": "usd",
+            "currency": "USD"
+          },
+          "sources": [
+            {
+              "source_id": "Se7f95d2f97642180",
+              "location": "官方HTML iXBRL #f-157 contextRef=c-1；context=0001035267    2025-01-01  2025-12-31"
+            }
+          ],
+          "support_boundary": "Agent机器提取并按原表定位；未人工核准。归母/集团、时点/加权股数不同，不能混用。",
+          "extraction_actor": "Agent",
+          "extracted_at": "2026-11-12T03:59:07.351390+00:00"
+        },
+        "previous": null
+      },
+      "previous_hash": "44adc9197d40c959618b63f5eeca8a825a3b529c9c73ec7507a44a2a991e568c",
+      "hash": "2b4c0ecd7e8e9a3ba395c83401df4a00ceb479b86059cc59516117757047711e"
+    },
+    {
+      "id": "E000027",
+      "time": "2026-11-12T11:59:07+08:00",
+      "action": "candidate-created",
+      "data": {
+        "record": {
+          "id": "I09-027",
+          "kind": "disclosure",
+          "state": "Unknown",
+          "claim": "OperatingIncomeLoss 2025-01-01/2025-12-31",
+          "value": "2945500000.0",
+          "scope": {
+            "period": "2025-01-01/2025-12-31",
+            "entity": "Intuitive Surgical, Inc.",
+            "basis": "US GAAP consolidated; dimensionless context",
+            "definition": "OperatingIncomeLoss",
+            "unit": "usd",
+            "currency": "USD"
+          },
+          "sources": [
+            {
+              "source_id": "Se7f95d2f97642180",
+              "location": "官方HTML iXBRL #f-163 contextRef=c-1；context=0001035267    2025-01-01  2025-12-31"
+            }
+          ],
+          "support_boundary": "Agent机器提取并按原表定位；未人工核准。归母/集团、时点/加权股数不同，不能混用。",
+          "extraction_actor": "Agent",
+          "extracted_at": "2026-11-12T03:59:07.392004+00:00"
+        },
+        "previous": null
+      },
+      "previous_hash": "2b4c0ecd7e8e9a3ba395c83401df4a00ceb479b86059cc59516117757047711e",
+      "hash": "67d6948cb6d8c64eda56e61901ff6e3d043a3a94cae4802bc648acf5404da753"
+    },
+    {
+      "id": "E000028",
+      "time": "2026-11-12T11:59:07+08:00",
+      "action": "candidate-created",
+      "data": {
+        "record": {
+          "id": "I09-028",
+          "kind": "disclosure",
+          "state": "Unknown",
+          "claim": "NetIncomeLoss 2025-01-01/2025-12-31",
+          "value": "2856000000.0",
+          "scope": {
+            "period": "2025-01-01/2025-12-31",
+            "entity": "Intuitive Surgical, Inc.",
+            "basis": "US GAAP consolidated; dimensionless context",
+            "definition": "NetIncomeLoss",
+            "unit": "usd",
+            "currency": "USD"
+          },
+          "sources": [
+            {
+              "source_id": "Se7f95d2f97642180",
+              "location": "官方HTML iXBRL #f-181 contextRef=c-1；context=0001035267    2025-01-01  2025-12-31"
+            }
+          ],
+          "support_boundary": "Agent机器提取并按原表定位；未人工核准。归母/集团、时点/加权股数不同，不能混用。",
+          "extraction_actor": "Agent",
+          "extracted_at": "2026-11-12T03:59:07.432869+00:00"
+        },
+        "previous": null
+      },
+      "previous_hash": "67d6948cb6d8c64eda56e61901ff6e3d043a3a94cae4802bc648acf5404da753",
+      "hash": "d8042202d4fba40cf2a73f0addaca8086239d5a921c3c8d413e8fff41b588310"
+    },
+    {
+      "id": "E000029",
+      "time": "2026-11-12T11:59:07+08:00",
+      "action": "candidate-created",
+      "data": {
+        "record": {
+          "id": "I09-029",
+          "kind": "disclosure",
+          "state": "Unknown",
+          "claim": "ShareBasedCompensation 2025-01-01/2025-12-31",
+          "value": "788200000.0",
+          "scope": {
+            "period": "2025-01-01/2025-12-31",
+            "entity": "Intuitive Surgical, Inc.",
+            "basis": "US GAAP consolidated; dimensionless context",
+            "definition": "ShareBasedCompensation",
+            "unit": "usd",
+            "currency": "USD"
+          },
+          "sources": [
+            {
+              "source_id": "Se7f95d2f97642180",
+              "location": "官方HTML iXBRL #f-371 contextRef=c-1；context=0001035267    2025-01-01  2025-12-31"
+            }
+          ],
+          "support_boundary": "Agent机器提取并按原表定位；未人工核准。归母/集团、时点/加权股数不同，不能混用。",
+          "extraction_actor": "Agent",
+          "extracted_at": "2026-11-12T03:59:07.481231+00:00"
+        },
+        "previous": null
+      },
+      "previous_hash": "d8042202d4fba40cf2a73f0addaca8086239d5a921c3c8d413e8fff41b588310",
+      "hash": "77dc50e3b6845b2a7f901ca58ea1ff540baf6609ab999de8a516a919a5b7d30b"
+    },
+    {
+      "id": "E000030",
+      "time": "2026-11-12T11:59:07+08:00",
+      "action": "candidate-created",
+      "data": {
+        "record": {
+          "id": "I09-030",
+          "kind": "disclosure",
+          "state": "Unknown",
+          "claim": "NetCashProvidedByUsedInOperatingActivities 2025-01-01/2025-12-31",
+          "value": "3030500000.0",
+          "scope": {
+            "period": "2025-01-01/2025-12-31",
+            "entity": "Intuitive Surgical, Inc.",
+            "basis": "US GAAP consolidated; dimensionless context",
+            "definition": "NetCashProvidedByUsedInOperatingActivities",
+            "unit": "usd",
+            "currency": "USD"
+          },
+          "sources": [
+            {
+              "source_id": "Se7f95d2f97642180",
+              "location": "官方HTML iXBRL #f-395 contextRef=c-1；context=0001035267    2025-01-01  2025-12-31"
+            }
+          ],
+          "support_boundary": "Agent机器提取并按原表定位；未人工核准。归母/集团、时点/加权股数不同，不能混用。",
+          "extraction_actor": "Agent",
+          "extracted_at": "2026-11-12T03:59:07.526627+00:00"
+        },
+        "previous": null
+      },
+      "previous_hash": "77dc50e3b6845b2a7f901ca58ea1ff540baf6609ab999de8a516a919a5b7d30b",
+      "hash": "f81846450831b79e58cbc95ce96aa1c3df255e263408cc8d5daa0b0d2079ce6a"
+    },
+    {
+      "id": "E000031",
+      "time": "2026-11-12T11:59:07+08:00",
+      "action": "candidate-created",
+      "data": {
+        "record": {
+          "id": "I09-031",
+          "kind": "disclosure",
+          "state": "Unknown",
+          "claim": "IncomeTaxesPaidNet 2025-01-01/2025-12-31",
+          "value": "537900000.0",
+          "scope": {
+            "period": "2025-01-01/2025-12-31",
+            "entity": "Intuitive Surgical, Inc.",
+            "basis": "US GAAP consolidated; dimensionless context",
+            "definition": "IncomeTaxesPaidNet",
+            "unit": "usd",
+            "currency": "USD"
+          },
+          "sources": [
+            {
+              "source_id": "Se7f95d2f97642180",
+              "location": "官方HTML iXBRL #f-1533 contextRef=c-1；context=0001035267    2025-01-01  2025-12-31"
+            }
+          ],
+          "support_boundary": "Agent机器提取并按原表定位；未人工核准。归母/集团、时点/加权股数不同，不能混用。",
+          "extraction_actor": "Agent",
+          "extracted_at": "2026-11-12T03:59:07.574512+00:00"
+        },
+        "previous": null
+      },
+      "previous_hash": "f81846450831b79e58cbc95ce96aa1c3df255e263408cc8d5daa0b0d2079ce6a",
+      "hash": "024437a46072234844817ab3edda247a41b0da52604860b0924b44bb7768e49e"
+    },
+    {
+      "id": "E000032",
+      "time": "2026-11-12T11:59:07+08:00",
+      "action": "candidate-created",
+      "data": {
+        "record": {
+          "id": "I09-032",
+          "kind": "disclosure",
+          "state": "Unknown",
+          "claim": "AccountsReceivableNetCurrent 2026-09-30",
+          "value": "1721300000.0",
+          "scope": {
+            "period": "2026-09-30",
+            "entity": "Intuitive Surgical, Inc.",
+            "basis": "US GAAP consolidated; dimensionless context",
+            "definition": "AccountsReceivableNetCurrent",
+            "unit": "usd",
+            "currency": "USD"
+          },
+          "sources": [
+            {
+              "source_id": "S83c179dfd93521d4",
+              "location": "官方HTML iXBRL #f-34 contextRef=c-3；context=0001035267    2026-09-30"
+            }
+          ],
+          "support_boundary": "Agent机器提取并按原表定位；未人工核准。归母/集团、时点/加权股数不同，不能混用。",
+          "extraction_actor": "Agent",
+          "extracted_at": "2026-11-12T03:59:07.626331+00:00"
+        },
+        "previous": null
+      },
+      "previous_hash": "024437a46072234844817ab3edda247a41b0da52604860b0924b44bb7768e49e",
+      "hash": "554a1d3dd94ed805fd9044d96f8402a4f025a4062078d79ad07b23ed3eb8fccd"
+    },
+    {
+      "id": "E000033",
+      "time": "2026-11-12T11:59:07+08:00",
+      "action": "candidate-created",
+      "data": {
+        "record": {
+          "id": "I09-033",
+          "kind": "disclosure",
+          "state": "Unknown",
+          "claim": "InventoryNet 2026-09-30",
+          "value": "2128200000.0",
+          "scope": {
+            "period": "2026-09-30",
+            "entity": "Intuitive Surgical, Inc.",
+            "basis": "US GAAP consolidated; dimensionless context",
+            "definition": "InventoryNet",
+            "unit": "usd",
+            "currency": "USD"
+          },
+          "sources": [
+            {
+              "source_id": "S83c179dfd93521d4",
+              "location": "官方HTML iXBRL #f-36 contextRef=c-3；context=0001035267    2026-09-30"
+            }
+          ],
+          "support_boundary": "Agent机器提取并按原表定位；未人工核准。归母/集团、时点/加权股数不同，不能混用。",
+          "extraction_actor": "Agent",
+          "extracted_at": "2026-11-12T03:59:07.676931+00:00"
+        },
+        "previous": null
+      },
+      "previous_hash": "554a1d3dd94ed805fd9044d96f8402a4f025a4062078d79ad07b23ed3eb8fccd",
+      "hash": "d89ec207d67b496e9bae96201d7ebc7588e86617854663a1208e4ec4481af471"
+    },
+    {
+      "id": "E000034",
+      "time": "2026-11-12T11:59:07+08:00",
+      "action": "candidate-created",
+      "data": {
+        "record": {
+          "id": "I09-034",
+          "kind": "disclosure",
+          "state": "Unknown",
+          "claim": "AccountsPayableCurrent 2026-09-30",
+          "value": "279500000.0",
+          "scope": {
+            "period": "2026-09-30",
+            "entity": "Intuitive Surgical, Inc.",
+            "basis": "US GAAP consolidated; dimensionless context",
+            "definition": "AccountsPayableCurrent",
+            "unit": "usd",
+            "currency": "USD"
+          },
+          "sources": [
+            {
+              "source_id": "S83c179dfd93521d4",
+              "location": "官方HTML iXBRL #f-54 contextRef=c-3；context=0001035267    2026-09-30"
+            }
+          ],
+          "support_boundary": "Agent机器提取并按原表定位；未人工核准。归母/集团、时点/加权股数不同，不能混用。",
+          "extraction_actor": "Agent",
+          "extracted_at": "2026-11-12T03:59:07.723846+00:00"
+        },
+        "previous": null
+      },
+      "previous_hash": "d89ec207d67b496e9bae96201d7ebc7588e86617854663a1208e4ec4481af471",
+      "hash": "10f8e6b43db974648aa0c193d8a02b80c8b413c423ae715c2cfd556772c1aa7b"
+    },
+    {
+      "id": "E000035",
+      "time": "2026-11-12T11:59:07+08:00",
+      "action": "candidate-created",
+      "data": {
+        "record": {
+          "id": "I09-035",
+          "kind": "disclosure",
+          "state": "Unknown",
+          "claim": "CommonStockSharesOutstanding 2026-09-30",
+          "value": "346600000.0",
+          "scope": {
+            "period": "2026-09-30",
+            "entity": "Intuitive Surgical, Inc.",
+            "basis": "US GAAP consolidated; dimensionless context",
+            "definition": "CommonStockSharesOutstanding",
+            "unit": "shares",
+            "currency": ""
+          },
+          "sources": [
+            {
+              "source_id": "S83c179dfd93521d4",
+              "location": "官方HTML iXBRL #f-84 contextRef=c-3；context=0001035267    2026-09-30"
+            }
+          ],
+          "support_boundary": "Agent机器提取并按原表定位；未人工核准。归母/集团、时点/加权股数不同，不能混用。",
+          "extraction_actor": "Agent",
+          "extracted_at": "2026-11-12T03:59:07.772760+00:00"
+        },
+        "previous": null
+      },
+      "previous_hash": "10f8e6b43db974648aa0c193d8a02b80c8b413c423ae715c2cfd556772c1aa7b",
+      "hash": "86f938171723098b4b53e6bfb95c26288b05a04850d78d012a5cd911cc51242d"
+    },
+    {
+      "id": "E000036",
+      "time": "2026-11-12T11:59:07+08:00",
+      "action": "candidate-created",
+      "data": {
+        "record": {
+          "id": "I09-036",
+          "kind": "disclosure",
+          "state": "Unknown",
+          "claim": "RevenueFromContractWithCustomerExcludingAssessedTax 2026-07-01/2026-09-30",
+          "value": "3048700000.0",
+          "scope": {
+            "period": "2026-07-01/2026-09-30",
+            "entity": "Intuitive Surgical, Inc.",
+            "basis": "US GAAP consolidated; dimensionless context",
+            "definition": "RevenueFromContractWithCustomerExcludingAssessedTax",
+            "unit": "usd",
+            "currency": "USD"
+          },
+          "sources": [
+            {
+              "source_id": "S83c179dfd93521d4",
+              "location": "官方HTML iXBRL #f-112 contextRef=c-13；context=0001035267    2026-07-01  2026-09-30"
+            }
+          ],
+          "support_boundary": "Agent机器提取并按原表定位；未人工核准。归母/集团、时点/加权股数不同，不能混用。",
+          "extraction_actor": "Agent",
+          "extracted_at": "2026-11-12T03:59:07.819908+00:00"
+        },
+        "previous": null
+      },
+      "previous_hash": "86f938171723098b4b53e6bfb95c26288b05a04850d78d012a5cd911cc51242d",
+      "hash": "77c57c936f884300dfdb92c6df3a3b3c887ddb0862363d38c7de24e0ae052f1b"
+    },
+    {
+      "id": "E000037",
+      "time": "2026-11-12T11:59:07+08:00",
+      "action": "candidate-created",
+      "data": {
+        "record": {
+          "id": "I09-037",
+          "kind": "disclosure",
+          "state": "Unknown",
+          "claim": "RevenueFromContractWithCustomerExcludingAssessedTax 2025-07-01/2025-09-30",
+          "value": "2505100000.0",
+          "scope": {
+            "period": "2025-07-01/2025-09-30",
+            "entity": "Intuitive Surgical, Inc.",
+            "basis": "US GAAP consolidated; dimensionless context",
+            "definition": "RevenueFromContractWithCustomerExcludingAssessedTax",
+            "unit": "usd",
+            "currency": "USD"
+          },
+          "sources": [
+            {
+              "source_id": "S83c179dfd93521d4",
+              "location": "官方HTML iXBRL #f-113 contextRef=c-14；context=0001035267    2025-07-01  2025-09-30"
+            }
+          ],
+          "support_boundary": "Agent机器提取并按原表定位；未人工核准。归母/集团、时点/加权股数不同，不能混用。",
+          "extraction_actor": "Agent",
+          "extracted_at": "2026-11-12T03:59:07.866892+00:00"
+        },
+        "previous": null
+      },
+      "previous_hash": "77c57c936f884300dfdb92c6df3a3b3c887ddb0862363d38c7de24e0ae052f1b",
+      "hash": "3ef6d1b7c225bf72ed9955d1e08b3820137d18f6f086c039cef87ff09689b060"
+    },
+    {
+      "id": "E000038",
+      "time": "2026-11-12T11:59:07+08:00",
+      "action": "candidate-created",
+      "data": {
+        "record": {
+          "id": "I09-038",
+          "kind": "disclosure",
+          "state": "Unknown",
+          "claim": "RevenueFromContractWithCustomerExcludingAssessedTax 2026-01-01/2026-09-30",
+          "value": "8711800000.0",
+          "scope": {
+            "period": "2026-01-01/2026-09-30",
+            "entity": "Intuitive Surgical, Inc.",
+            "basis": "US GAAP consolidated; dimensionless context",
+            "definition": "RevenueFromContractWithCustomerExcludingAssessedTax",
+            "unit": "usd",
+            "currency": "USD"
+          },
+          "sources": [
+            {
+              "source_id": "S83c179dfd93521d4",
+              "location": "官方HTML iXBRL #f-114 contextRef=c-1；context=0001035267    2026-01-01  2026-09-30"
+            }
+          ],
+          "support_boundary": "Agent机器提取并按原表定位；未人工核准。归母/集团、时点/加权股数不同，不能混用。",
+          "extraction_actor": "Agent",
+          "extracted_at": "2026-11-12T03:59:07.916568+00:00"
+        },
+        "previous": null
+      },
+      "previous_hash": "3ef6d1b7c225bf72ed9955d1e08b3820137d18f6f086c039cef87ff09689b060",
+      "hash": "721d613be5d7787fe2a80aa56b688f3d50ae13c6f01e763b5cd8f749d904a7f8"
+    },
+    {
+      "id": "E000039",
+      "time": "2026-11-12T11:59:07+08:00",
+      "action": "candidate-created",
+      "data": {
+        "record": {
+          "id": "I09-039",
+          "kind": "disclosure",
+          "state": "Unknown",
+          "claim": "RevenueFromContractWithCustomerExcludingAssessedTax 2025-01-01/2025-09-30",
+          "value": "7198500000.0",
+          "scope": {
+            "period": "2025-01-01/2025-09-30",
+            "entity": "Intuitive Surgical, Inc.",
+            "basis": "US GAAP consolidated; dimensionless context",
+            "definition": "RevenueFromContractWithCustomerExcludingAssessedTax",
+            "unit": "usd",
+            "currency": "USD"
+          },
+          "sources": [
+            {
+              "source_id": "S83c179dfd93521d4",
+              "location": "官方HTML iXBRL #f-115 contextRef=c-15；context=0001035267    2025-01-01  2025-09-30"
+            }
+          ],
+          "support_boundary": "Agent机器提取并按原表定位；未人工核准。归母/集团、时点/加权股数不同，不能混用。",
+          "extraction_actor": "Agent",
+          "extracted_at": "2026-11-12T03:59:07.966613+00:00"
+        },
+        "previous": null
+      },
+      "previous_hash": "721d613be5d7787fe2a80aa56b688f3d50ae13c6f01e763b5cd8f749d904a7f8",
+      "hash": "6388401830d74fa5f89cc9c9b4b2a5bbd1d459e8e2e9b427ddb023da867582ef"
+    },
+    {
+      "id": "E000040",
+      "time": "2026-11-12T11:59:08+08:00",
+      "action": "candidate-created",
+      "data": {
+        "record": {
+          "id": "I09-040",
+          "kind": "disclosure",
+          "state": "Unknown",
+          "claim": "ResearchAndDevelopmentExpense 2026-07-01/2026-09-30",
+          "value": "408300000.0",
+          "scope": {
+            "period": "2026-07-01/2026-09-30",
+            "entity": "Intuitive Surgical, Inc.",
+            "basis": "US GAAP consolidated; dimensionless context",
+            "definition": "ResearchAndDevelopmentExpense",
+            "unit": "usd",
+            "currency": "USD"
+          },
+          "sources": [
+            {
+              "source_id": "S83c179dfd93521d4",
+              "location": "官方HTML iXBRL #f-140 contextRef=c-13；context=0001035267    2026-07-01  2026-09-30"
+            }
+          ],
+          "support_boundary": "Agent机器提取并按原表定位；未人工核准。归母/集团、时点/加权股数不同，不能混用。",
+          "extraction_actor": "Agent",
+          "extracted_at": "2026-11-12T03:59:08.014517+00:00"
+        },
+        "previous": null
+      },
+      "previous_hash": "6388401830d74fa5f89cc9c9b4b2a5bbd1d459e8e2e9b427ddb023da867582ef",
+      "hash": "00ca45214bcc9eb7327de44571adf8aa109107e336531c4fafd454a33966c396"
+    },
+    {
+      "id": "E000041",
+      "time": "2026-11-12T11:59:08+08:00",
+      "action": "candidate-created",
+      "data": {
+        "record": {
+          "id": "I09-041",
+          "kind": "disclosure",
+          "state": "Unknown",
+          "claim": "ResearchAndDevelopmentExpense 2025-07-01/2025-09-30",
+          "value": "329400000.0",
+          "scope": {
+            "period": "2025-07-01/2025-09-30",
+            "entity": "Intuitive Surgical, Inc.",
+            "basis": "US GAAP consolidated; dimensionless context",
+            "definition": "ResearchAndDevelopmentExpense",
+            "unit": "usd",
+            "currency": "USD"
+          },
+          "sources": [
+            {
+              "source_id": "S83c179dfd93521d4",
+              "location": "官方HTML iXBRL #f-141 contextRef=c-14；context=0001035267    2025-07-01  2025-09-30"
+            }
+          ],
+          "support_boundary": "Agent机器提取并按原表定位；未人工核准。归母/集团、时点/加权股数不同，不能混用。",
+          "extraction_actor": "Agent",
+          "extracted_at": "2026-11-12T03:59:08.062300+00:00"
+        },
+        "previous": null
+      },
+      "previous_hash": "00ca45214bcc9eb7327de44571adf8aa109107e336531c4fafd454a33966c396",
+      "hash": "48074c7d3d5b67fff55372f6c5a8eac5b60007477cd02085148f9291e0996440"
+    },
+    {
+      "id": "E000042",
+      "time": "2026-11-12T11:59:08+08:00",
+      "action": "candidate-created",
+      "data": {
+        "record": {
+          "id": "I09-042",
+          "kind": "disclosure",
+          "state": "Unknown",
+          "claim": "ResearchAndDevelopmentExpense 2026-01-01/2026-09-30",
+          "value": "1140800000.0",
+          "scope": {
+            "period": "2026-01-01/2026-09-30",
+            "entity": "Intuitive Surgical, Inc.",
+            "basis": "US GAAP consolidated; dimensionless context",
+            "definition": "ResearchAndDevelopmentExpense",
+            "unit": "usd",
+            "currency": "USD"
+          },
+          "sources": [
+            {
+              "source_id": "S83c179dfd93521d4",
+              "location": "官方HTML iXBRL #f-142 contextRef=c-1；context=0001035267    2026-01-01  2026-09-30"
+            }
+          ],
+          "support_boundary": "Agent机器提取并按原表定位；未人工核准。归母/集团、时点/加权股数不同，不能混用。",
+          "extraction_actor": "Agent",
+          "extracted_at": "2026-11-12T03:59:08.113359+00:00"
+        },
+        "previous": null
+      },
+      "previous_hash": "48074c7d3d5b67fff55372f6c5a8eac5b60007477cd02085148f9291e0996440",
+      "hash": "39dfc9883179d28c21b72f4f4bf18cf2fddbf4ec6b5a550c4f199288fa0b6617"
+    },
+    {
+      "id": "E000043",
+      "time": "2026-11-12T11:59:08+08:00",
+      "action": "candidate-created",
+      "data": {
+        "record": {
+          "id": "I09-043",
+          "kind": "disclosure",
+          "state": "Unknown",
+          "claim": "ResearchAndDevelopmentExpense 2025-01-01/2025-09-30",
+          "value": "958900000.0",
+          "scope": {
+            "period": "2025-01-01/2025-09-30",
+            "entity": "Intuitive Surgical, Inc.",
+            "basis": "US GAAP consolidated; dimensionless context",
+            "definition": "ResearchAndDevelopmentExpense",
+            "unit": "usd",
+            "currency": "USD"
+          },
+          "sources": [
+            {
+              "source_id": "S83c179dfd93521d4",
+              "location": "官方HTML iXBRL #f-143 contextRef=c-15；context=0001035267    2025-01-01  2025-09-30"
+            }
+          ],
+          "support_boundary": "Agent机器提取并按原表定位；未人工核准。归母/集团、时点/加权股数不同，不能混用。",
+          "extraction_actor": "Agent",
+          "extracted_at": "2026-11-12T03:59:08.165161+00:00"
+        },
+        "previous": null
+      },
+      "previous_hash": "39dfc9883179d28c21b72f4f4bf18cf2fddbf4ec6b5a550c4f199288fa0b6617",
+      "hash": "202ccfba04058767acb9eb93e974761f234b7544a68f74103be6d1b18be7b50e"
+    },
+    {
+      "id": "E000044",
+      "time": "2026-11-12T11:59:08+08:00",
+      "action": "candidate-created",
+      "data": {
+        "record": {
+          "id": "I09-044",
+          "kind": "disclosure",
+          "state": "Unknown",
+          "claim": "OperatingIncomeLoss 2026-07-01/2026-09-30",
+          "value": "592600000.0",
+          "scope": {
+            "period": "2026-07-01/2026-09-30",
+            "entity": "Intuitive Surgical, Inc.",
+            "basis": "US GAAP consolidated; dimensionless context",
+            "definition": "OperatingIncomeLoss",
+            "unit": "usd",
+            "currency": "USD"
+          },
+          "sources": [
+            {
+              "source_id": "S83c179dfd93521d4",
+              "location": "官方HTML iXBRL #f-148 contextRef=c-13；context=0001035267    2026-07-01  2026-09-30"
+            }
+          ],
+          "support_boundary": "Agent机器提取并按原表定位；未人工核准。归母/集团、时点/加权股数不同，不能混用。",
+          "extraction_actor": "Agent",
+          "extracted_at": "2026-11-12T03:59:08.215725+00:00"
+        },
+        "previous": null
+      },
+      "previous_hash": "202ccfba04058767acb9eb93e974761f234b7544a68f74103be6d1b18be7b50e",
+      "hash": "e83812a21e5aa9da12c1baf7f8bc1b121a0abe21fd9f72e5fbbfe855f09775b1"
+    },
+    {
+      "id": "E000045",
+      "time": "2026-11-12T11:59:08+08:00",
+      "action": "candidate-created",
+      "data": {
+        "record": {
+          "id": "I09-045",
+          "kind": "disclosure",
+          "state": "Unknown",
+          "claim": "OperatingIncomeLoss 2025-07-01/2025-09-30",
+          "value": "759700000.0",
+          "scope": {
+            "period": "2025-07-01/2025-09-30",
+            "entity": "Intuitive Surgical, Inc.",
+            "basis": "US GAAP consolidated; dimensionless context",
+            "definition": "OperatingIncomeLoss",
+            "unit": "usd",
+            "currency": "USD"
+          },
+          "sources": [
+            {
+              "source_id": "S83c179dfd93521d4",
+              "location": "官方HTML iXBRL #f-149 contextRef=c-14；context=0001035267    2025-07-01  2025-09-30"
+            }
+          ],
+          "support_boundary": "Agent机器提取并按原表定位；未人工核准。归母/集团、时点/加权股数不同，不能混用。",
+          "extraction_actor": "Agent",
+          "extracted_at": "2026-11-12T03:59:08.269228+00:00"
+        },
+        "previous": null
+      },
+      "previous_hash": "e83812a21e5aa9da12c1baf7f8bc1b121a0abe21fd9f72e5fbbfe855f09775b1",
+      "hash": "220a09d0e8405387b23fce5d8501ac5d622bb484c64244cfb3e8c7e0edc5566d"
+    },
+    {
+      "id": "E000046",
+      "time": "2026-11-12T11:59:08+08:00",
+      "action": "candidate-created",
+      "data": {
+        "record": {
+          "id": "I09-046",
+          "kind": "disclosure",
+          "state": "Unknown",
+          "claim": "OperatingIncomeLoss 2026-01-01/2026-09-30",
+          "value": "2419800000.0",
+          "scope": {
+            "period": "2026-01-01/2026-09-30",
+            "entity": "Intuitive Surgical, Inc.",
+            "basis": "US GAAP consolidated; dimensionless context",
+            "definition": "OperatingIncomeLoss",
+            "unit": "usd",
+            "currency": "USD"
+          },
+          "sources": [
+            {
+              "source_id": "S83c179dfd93521d4",
+              "location": "官方HTML iXBRL #f-150 contextRef=c-1；context=0001035267    2026-01-01  2026-09-30"
+            }
+          ],
+          "support_boundary": "Agent机器提取并按原表定位；未人工核准。归母/集团、时点/加权股数不同，不能混用。",
+          "extraction_actor": "Agent",
+          "extracted_at": "2026-11-12T03:59:08.321286+00:00"
+        },
+        "previous": null
+      },
+      "previous_hash": "220a09d0e8405387b23fce5d8501ac5d622bb484c64244cfb3e8c7e0edc5566d",
+      "hash": "6ea5eb6217290ee49c27ac1cbbc64ac74a5bc938ff3627be8d8744e4488a57b0"
+    },
+    {
+      "id": "E000047",
+      "time": "2026-11-12T11:59:08+08:00",
+      "action": "candidate-created",
+      "data": {
+        "record": {
+          "id": "I09-047",
+          "kind": "disclosure",
+          "state": "Unknown",
+          "claim": "OperatingIncomeLoss 2025-01-01/2025-09-30",
+          "value": "2081200000.0",
+          "scope": {
+            "period": "2025-01-01/2025-09-30",
+            "entity": "Intuitive Surgical, Inc.",
+            "basis": "US GAAP consolidated; dimensionless context",
+            "definition": "OperatingIncomeLoss",
+            "unit": "usd",
+            "currency": "USD"
+          },
+          "sources": [
+            {
+              "source_id": "S83c179dfd93521d4",
+              "location": "官方HTML iXBRL #f-151 contextRef=c-15；context=0001035267    2025-01-01  2025-09-30"
+            }
+          ],
+          "support_boundary": "Agent机器提取并按原表定位；未人工核准。归母/集团、时点/加权股数不同，不能混用。",
+          "extraction_actor": "Agent",
+          "extracted_at": "2026-11-12T03:59:08.373590+00:00"
+        },
+        "previous": null
+      },
+      "previous_hash": "6ea5eb6217290ee49c27ac1cbbc64ac74a5bc938ff3627be8d8744e4488a57b0",
+      "hash": "93d13c61b10ac53c59007ff090806e3611aceca388349ea93635e2a2917ca4b6"
+    },
+    {
+      "id": "E000048",
+      "time": "2026-11-12T11:59:08+08:00",
+      "action": "candidate-created",
+      "data": {
+        "record": {
+          "id": "I09-048",
+          "kind": "disclosure",
+          "state": "Unknown",
+          "claim": "NetIncomeLoss 2026-07-01/2026-09-30",
+          "value": "522800000.0",
+          "scope": {
+            "period": "2026-07-01/2026-09-30",
+            "entity": "Intuitive Surgical, Inc.",
+            "basis": "US GAAP consolidated; dimensionless context",
+            "definition": "NetIncomeLoss",
+            "unit": "usd",
+            "currency": "USD"
+          },
+          "sources": [
+            {
+              "source_id": "S83c179dfd93521d4",
+              "location": "官方HTML iXBRL #f-172 contextRef=c-13；context=0001035267    2026-07-01  2026-09-30"
+            }
+          ],
+          "support_boundary": "Agent机器提取并按原表定位；未人工核准。归母/集团、时点/加权股数不同，不能混用。",
+          "extraction_actor": "Agent",
+          "extracted_at": "2026-11-12T03:59:08.425750+00:00"
+        },
+        "previous": null
+      },
+      "previous_hash": "93d13c61b10ac53c59007ff090806e3611aceca388349ea93635e2a2917ca4b6",
+      "hash": "e25288781267be3a4975917def66fb403be14649af4a45cb7fda55a74cbe45ef"
+    },
+    {
+      "id": "E000049",
+      "time": "2026-11-12T11:59:08+08:00",
+      "action": "candidate-created",
+      "data": {
+        "record": {
+          "id": "I09-049",
+          "kind": "disclosure",
+          "state": "Unknown",
+          "claim": "NetIncomeLoss 2025-07-01/2025-09-30",
+          "value": "704400000.0",
+          "scope": {
+            "period": "2025-07-01/2025-09-30",
+            "entity": "Intuitive Surgical, Inc.",
+            "basis": "US GAAP consolidated; dimensionless context",
+            "definition": "NetIncomeLoss",
+            "unit": "usd",
+            "currency": "USD"
+          },
+          "sources": [
+            {
+              "source_id": "S83c179dfd93521d4",
+              "location": "官方HTML iXBRL #f-173 contextRef=c-14；context=0001035267    2025-07-01  2025-09-30"
+            }
+          ],
+          "support_boundary": "Agent机器提取并按原表定位；未人工核准。归母/集团、时点/加权股数不同，不能混用。",
+          "extraction_actor": "Agent",
+          "extracted_at": "2026-11-12T03:59:08.480689+00:00"
+        },
+        "previous": null
+      },
+      "previous_hash": "e25288781267be3a4975917def66fb403be14649af4a45cb7fda55a74cbe45ef",
+      "hash": "96d10cfca690220b3b281c20414b58aa9c23d0d9acc8d0ad4cf69b3eb33c1c48"
+    },
+    {
+      "id": "E000050",
+      "time": "2026-11-12T11:59:08+08:00",
+      "action": "candidate-created",
+      "data": {
+        "record": {
+          "id": "I09-050",
+          "kind": "disclosure",
+          "state": "Unknown",
+          "claim": "NetIncomeLoss 2026-01-01/2026-09-30",
+          "value": "2162400000.0",
+          "scope": {
+            "period": "2026-01-01/2026-09-30",
+            "entity": "Intuitive Surgical, Inc.",
+            "basis": "US GAAP consolidated; dimensionless context",
+            "definition": "NetIncomeLoss",
+            "unit": "usd",
+            "currency": "USD"
+          },
+          "sources": [
+            {
+              "source_id": "S83c179dfd93521d4",
+              "location": "官方HTML iXBRL #f-174 contextRef=c-1；context=0001035267    2026-01-01  2026-09-30"
+            }
+          ],
+          "support_boundary": "Agent机器提取并按原表定位；未人工核准。归母/集团、时点/加权股数不同，不能混用。",
+          "extraction_actor": "Agent",
+          "extracted_at": "2026-11-12T03:59:08.534600+00:00"
+        },
+        "previous": null
+      },
+      "previous_hash": "96d10cfca690220b3b281c20414b58aa9c23d0d9acc8d0ad4cf69b3eb33c1c48",
+      "hash": "1f1b976f086e5f30d7c87983f58674f903c548097a0709074fce4a6ab113a032"
+    },
+    {
+      "id": "E000051",
+      "time": "2026-11-12T11:59:08+08:00",
+      "action": "candidate-created",
+      "data": {
+        "record": {
+          "id": "I09-051",
+          "kind": "disclosure",
+          "state": "Unknown",
+          "claim": "NetIncomeLoss 2025-01-01/2025-09-30",
+          "value": "2061200000.0",
+          "scope": {
+            "period": "2025-01-01/2025-09-30",
+            "entity": "Intuitive Surgical, Inc.",
+            "basis": "US GAAP consolidated; dimensionless context",
+            "definition": "NetIncomeLoss",
+            "unit": "usd",
+            "currency": "USD"
+          },
+          "sources": [
+            {
+              "source_id": "S83c179dfd93521d4",
+              "location": "官方HTML iXBRL #f-175 contextRef=c-15；context=0001035267    2025-01-01  2025-09-30"
+            }
+          ],
+          "support_boundary": "Agent机器提取并按原表定位；未人工核准。归母/集团、时点/加权股数不同，不能混用。",
+          "extraction_actor": "Agent",
+          "extracted_at": "2026-11-12T03:59:08.589430+00:00"
+        },
+        "previous": null
+      },
+      "previous_hash": "1f1b976f086e5f30d7c87983f58674f903c548097a0709074fce4a6ab113a032",
+      "hash": "a7bbc13c1d20628fe532e252961f91f9f0ce3bd8f55c79b601ea2963c3b74d6c"
+    },
+    {
+      "id": "E000052",
+      "time": "2026-11-12T11:59:08+08:00",
+      "action": "candidate-created",
+      "data": {
+        "record": {
+          "id": "I09-052",
+          "kind": "disclosure",
+          "state": "Unknown",
+          "claim": "ShareBasedCompensation 2026-01-01/2026-09-30",
+          "value": "632000000.0",
+          "scope": {
+            "period": "2026-01-01/2026-09-30",
+            "entity": "Intuitive Surgical, Inc.",
+            "basis": "US GAAP consolidated; dimensionless context",
+            "definition": "ShareBasedCompensation",
+            "unit": "usd",
+            "currency": "USD"
+          },
+          "sources": [
+            {
+              "source_id": "S83c179dfd93521d4",
+              "location": "官方HTML iXBRL #f-236 contextRef=c-1；context=0001035267    2026-01-01  2026-09-30"
+            }
+          ],
+          "support_boundary": "Agent机器提取并按原表定位；未人工核准。归母/集团、时点/加权股数不同，不能混用。",
+          "extraction_actor": "Agent",
+          "extracted_at": "2026-11-12T03:59:08.645620+00:00"
+        },
+        "previous": null
+      },
+      "previous_hash": "a7bbc13c1d20628fe532e252961f91f9f0ce3bd8f55c79b601ea2963c3b74d6c",
+      "hash": "21c7464630d0d3bdf4958732b4751735c3f8bd49e7f8dee3532cb867495eb34c"
+    },
+    {
+      "id": "E000053",
+      "time": "2026-11-12T11:59:08+08:00",
+      "action": "candidate-created",
+      "data": {
+        "record": {
+          "id": "I09-053",
+          "kind": "disclosure",
+          "state": "Unknown",
+          "claim": "ShareBasedCompensation 2025-01-01/2025-09-30",
+          "value": "584900000.0",
+          "scope": {
+            "period": "2025-01-01/2025-09-30",
+            "entity": "Intuitive Surgical, Inc.",
+            "basis": "US GAAP consolidated; dimensionless context",
+            "definition": "ShareBasedCompensation",
+            "unit": "usd",
+            "currency": "USD"
+          },
+          "sources": [
+            {
+              "source_id": "S83c179dfd93521d4",
+              "location": "官方HTML iXBRL #f-237 contextRef=c-15；context=0001035267    2025-01-01  2025-09-30"
+            }
+          ],
+          "support_boundary": "Agent机器提取并按原表定位；未人工核准。归母/集团、时点/加权股数不同，不能混用。",
+          "extraction_actor": "Agent",
+          "extracted_at": "2026-11-12T03:59:08.702117+00:00"
+        },
+        "previous": null
+      },
+      "previous_hash": "21c7464630d0d3bdf4958732b4751735c3f8bd49e7f8dee3532cb867495eb34c",
+      "hash": "881f12a31d53283eea476e62334ce90b4eb6717612d1586d7fb49b8dd1c76a38"
+    },
+    {
+      "id": "E000054",
+      "time": "2026-11-12T11:59:08+08:00",
+      "action": "candidate-created",
+      "data": {
+        "record": {
+          "id": "I09-054",
+          "kind": "disclosure",
+          "state": "Unknown",
+          "claim": "NetCashProvidedByUsedInOperatingActivities 2026-01-01/2026-09-30",
+          "value": "3197000000.0",
+          "scope": {
+            "period": "2026-01-01/2026-09-30",
+            "entity": "Intuitive Surgical, Inc.",
+            "basis": "US GAAP consolidated; dimensionless context",
+            "definition": "NetCashProvidedByUsedInOperatingActivities",
+            "unit": "usd",
+            "currency": "USD"
+          },
+          "sources": [
+            {
+              "source_id": "S83c179dfd93521d4",
+              "location": "官方HTML iXBRL #f-252 contextRef=c-1；context=0001035267    2026-01-01  2026-09-30"
+            }
+          ],
+          "support_boundary": "Agent机器提取并按原表定位；未人工核准。归母/集团、时点/加权股数不同，不能混用。",
+          "extraction_actor": "Agent",
+          "extracted_at": "2026-11-12T03:59:08.760494+00:00"
+        },
+        "previous": null
+      },
+      "previous_hash": "881f12a31d53283eea476e62334ce90b4eb6717612d1586d7fb49b8dd1c76a38",
+      "hash": "4f6c9f2477f6fd3676b07950eb0adb55eb67b02bfcc72d52eb7cb0b89e2a9968"
+    },
+    {
+      "id": "E000055",
+      "time": "2026-11-12T11:59:08+08:00",
+      "action": "candidate-created",
+      "data": {
+        "record": {
+          "id": "I09-055",
+          "kind": "disclosure",
+          "state": "Unknown",
+          "claim": "NetCashProvidedByUsedInOperatingActivities 2025-01-01/2025-09-30",
+          "value": "2138000000.0",
+          "scope": {
+            "period": "2025-01-01/2025-09-30",
+            "entity": "Intuitive Surgical, Inc.",
+            "basis": "US GAAP consolidated; dimensionless context",
+            "definition": "NetCashProvidedByUsedInOperatingActivities",
+            "unit": "usd",
+            "currency": "USD"
+          },
+          "sources": [
+            {
+              "source_id": "S83c179dfd93521d4",
+              "location": "官方HTML iXBRL #f-253 contextRef=c-15；context=0001035267    2025-01-01  2025-09-30"
+            }
+          ],
+          "support_boundary": "Agent机器提取并按原表定位；未人工核准。归母/集团、时点/加权股数不同，不能混用。",
+          "extraction_actor": "Agent",
+          "extracted_at": "2026-11-12T03:59:08.821688+00:00"
+        },
+        "previous": null
+      },
+      "previous_hash": "4f6c9f2477f6fd3676b07950eb0adb55eb67b02bfcc72d52eb7cb0b89e2a9968",
+      "hash": "99e991ea0f32ee523acd0f63d032da876ff9d46f3ba46eee7fc7a2a8f5d278ff"
+    }
+  ],
+  "delegations": [],
+  "approvals": []
+}

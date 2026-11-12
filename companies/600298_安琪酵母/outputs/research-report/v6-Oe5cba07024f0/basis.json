@@ -1,0 +1,540 @@
+{
+  "company": "600298_安琪酵母",
+  "cards": [
+    {
+      "lane": "研究起点",
+      "title": "应用拓展和海外产能扩张是否提高可持续利润及新增资本回报？",
+      "claim": "解释/假设：收入扩张有基础，但2026现金与利润增速分化使新增资本回报成为核心约束，不能仅用海外销量或合并利润增长作结论。",
+      "evidence": "2025年报 600298-a14b53fefcfc0356 PDF物理6页；2026最新更新 600298-5c763f656754f15e PDF物理1页。B07-annual与B07-Q3均为机器候选，Fact=0。2025收入+10.08%、归母+16.60%、CFO+50.19%；2026前三季收入+15.45%、归母仅+4.90%、CFO-22.8%，Q3归母-8.46%。候选趋势支持进一步拆解，尚非机制事实。",
+      "mechanism": "应用/地区销量×实现净价→收入→糖蜜能源、运输与汇率→经营EBIT；融资租赁和包材等另列业务边界，不能按收入比例猜资本。海外建设→投产→菌种工艺爬坡→认证销售→回款。NCWC币种和合并变动独立桥接，资本账面变化剔除汇兑/重分类。",
+      "opposition": "2025收入+10.08%、归母+16.60%、CFO+50.19%；2026前三季收入+15.45%、归母仅+4.90%、CFO-22.8%，Q3归母-8.46%。候选趋势支持进一步拆解，尚非机制事实。",
+      "alternative": "应用技术和海外本地化形成规模与成本优势，现金下降来自可回收的扩张占用。；竞争解释：过快扩产、原料能源与价格竞争压低新增回报，汇兑/补助及租赁混合掩盖主业现金。",
+      "variables": "成熟厂与新厂单位成本/利用率分组、应收库存现金回收、当地币价量与汇率桥；追踪投产后的首个完整年度而非同期利润增量除资本增量。",
+      "invalidate": "若新增产线达产后同范围经营回报仍低于机会成本且现金持续落后，收窄规模效应解释；若现金差异由一次性税款或结算时点解释，应撤回需求恶化推断。",
+      "gap": "分厂分应用销量净价、糖蜜与能源采购、利用率和产能年度；建设与爬坡投入收益的对应队列；经营与融资租赁现金分表、现金税与营运税款余额。",
+      "action_needed": "回到work/research07/source-field-map.json与B07原件定位；先集中核未核候选，再从年报附注补上述变量，字段缺失保留具体阻断。",
+      "methods": [
+        {
+          "id": "K03",
+          "version": 1
+        },
+        {
+          "id": "K11",
+          "version": 1
+        },
+        {
+          "id": "E03",
+          "version": 1
+        },
+        {
+          "id": "E06",
+          "version": 1
+        },
+        {
+          "id": "K46",
+          "version": 1
+        },
+        {
+          "id": "K52",
+          "version": 1
+        },
+        {
+          "id": "K63",
+          "version": 1
+        }
+      ],
+      "id": "R6911ffac3797",
+      "needs_review": false,
+      "impacts": [],
+      "updated_at": "2026-11-12T03:58:31.425573+00:00",
+      "actor": "Agent/test-or-api",
+      "status": "Interpretation draft"
+    },
+    {
+      "lane": "生意与价值创造",
+      "title": "谁付钱，什么投入形成利润与现金？",
+      "claim": "酵母、酵母抽提物及相关生物产品面向烘焙、食品调味、发酵工业、营养等客户。年报9—10物理页说明常规品按库存与需求生产，非常规品按订单，销售由经销、大客户直供、电商组成。原料糖蜜等发酵投入、能源、产能爬坡、应用技术服务和回款决定现金；合并范围亦含包材、制糖与融资租赁，不能直接把合并ROIC命名为酵母业务回报。",
+      "evidence": "2025年报 600298-a14b53fefcfc0356 PDF物理6页；2026最新更新 600298-5c763f656754f15e PDF物理1页。B07-annual与B07-Q3均为机器候选，Fact=0。2025收入+10.08%、归母+16.60%、CFO+50.19%；2026前三季收入+15.45%、归母仅+4.90%、CFO-22.8%，Q3归母-8.46%。候选趋势支持进一步拆解，尚非机制事实。",
+      "mechanism": "应用/地区销量×实现净价→收入→糖蜜能源、运输与汇率→经营EBIT；融资租赁和包材等另列业务边界，不能按收入比例猜资本。海外建设→投产→菌种工艺爬坡→认证销售→回款。NCWC币种和合并变动独立桥接，资本账面变化剔除汇兑/重分类。",
+      "opposition": "2025收入+10.08%、归母+16.60%、CFO+50.19%；2026前三季收入+15.45%、归母仅+4.90%、CFO-22.8%，Q3归母-8.46%。候选趋势支持进一步拆解，尚非机制事实。",
+      "alternative": "应用技术和海外本地化形成规模与成本优势，现金下降来自可回收的扩张占用。；竞争解释：过快扩产、原料能源与价格竞争压低新增回报，汇兑/补助及租赁混合掩盖主业现金。",
+      "variables": "成熟厂与新厂单位成本/利用率分组、应收库存现金回收、当地币价量与汇率桥；追踪投产后的首个完整年度而非同期利润增量除资本增量。",
+      "invalidate": "若新增产线达产后同范围经营回报仍低于机会成本且现金持续落后，收窄规模效应解释；若现金差异由一次性税款或结算时点解释，应撤回需求恶化推断。",
+      "gap": "分厂分应用销量净价、糖蜜与能源采购、利用率和产能年度；建设与爬坡投入收益的对应队列；经营与融资租赁现金分表、现金税与营运税款余额。",
+      "action_needed": "回到work/research07/source-field-map.json与B07原件定位；先集中核未核候选，再从年报附注补上述变量，字段缺失保留具体阻断。",
+      "methods": [
+        {
+          "id": "K03",
+          "version": 1
+        },
+        {
+          "id": "K11",
+          "version": 1
+        },
+        {
+          "id": "E03",
+          "version": 1
+        },
+        {
+          "id": "E06",
+          "version": 1
+        },
+        {
+          "id": "K46",
+          "version": 1
+        },
+        {
+          "id": "K52",
+          "version": 1
+        },
+        {
+          "id": "K63",
+          "version": 1
+        }
+      ],
+      "id": "Re0aacfad8631",
+      "needs_review": false,
+      "impacts": [],
+      "updated_at": "2026-11-12T03:58:31.432550+00:00",
+      "actor": "Agent/test-or-api",
+      "status": "Interpretation draft"
+    },
+    {
+      "lane": "行业变化与竞争优势",
+      "title": "优势是否超出行业景气或产品组合？",
+      "claim": "研究假设，尚未确认护城河。产品应用和海外规模效应持续改善经营利润，现金下降只是营运投入时点。",
+      "evidence": "2025年报 600298-a14b53fefcfc0356 PDF物理6页；2026最新更新 600298-5c763f656754f15e PDF物理1页。B07-annual与B07-Q3均为机器候选，Fact=0。2025收入+10.08%、归母+16.60%、CFO+50.19%；2026前三季收入+15.45%、归母仅+4.90%、CFO-22.8%，Q3归母-8.46%。候选趋势支持进一步拆解，尚非机制事实。",
+      "mechanism": "应用/地区销量×实现净价→收入→糖蜜能源、运输与汇率→经营EBIT；融资租赁和包材等另列业务边界，不能按收入比例猜资本。海外建设→投产→菌种工艺爬坡→认证销售→回款。NCWC币种和合并变动独立桥接，资本账面变化剔除汇兑/重分类。",
+      "opposition": "2025收入+10.08%、归母+16.60%、CFO+50.19%；2026前三季收入+15.45%、归母仅+4.90%、CFO-22.8%，Q3归母-8.46%。候选趋势支持进一步拆解，尚非机制事实。",
+      "alternative": "应用技术和海外本地化形成规模与成本优势，现金下降来自可回收的扩张占用。；竞争解释：过快扩产、原料能源与价格竞争压低新增回报，汇兑/补助及租赁混合掩盖主业现金。",
+      "variables": "成熟厂与新厂单位成本/利用率分组、应收库存现金回收、当地币价量与汇率桥；追踪投产后的首个完整年度而非同期利润增量除资本增量。",
+      "invalidate": "若新增产线达产后同范围经营回报仍低于机会成本且现金持续落后，收窄规模效应解释；若现金差异由一次性税款或结算时点解释，应撤回需求恶化推断。",
+      "gap": "分厂分应用销量净价、糖蜜与能源采购、利用率和产能年度；建设与爬坡投入收益的对应队列；经营与融资租赁现金分表、现金税与营运税款余额。",
+      "action_needed": "回到work/research07/source-field-map.json与B07原件定位；先集中核未核候选，再从年报附注补上述变量，字段缺失保留具体阻断。",
+      "methods": [
+        {
+          "id": "K03",
+          "version": 1
+        },
+        {
+          "id": "K11",
+          "version": 1
+        },
+        {
+          "id": "E03",
+          "version": 1
+        },
+        {
+          "id": "E06",
+          "version": 1
+        },
+        {
+          "id": "K46",
+          "version": 1
+        },
+        {
+          "id": "K52",
+          "version": 1
+        },
+        {
+          "id": "K63",
+          "version": 1
+        }
+      ],
+      "id": "Ra9f2c23c0275",
+      "needs_review": false,
+      "impacts": [],
+      "updated_at": "2026-11-12T03:58:31.438530+00:00",
+      "actor": "Agent/test-or-api",
+      "status": "Interpretation draft"
+    },
+    {
+      "lane": "未来预测",
+      "title": "哪些经营驱动能进入条件预测？",
+      "claim": "可用产能×利用率×良率→销量和客户订单→实现价/糖蜜能源成本→应收库存→回款；海外建设、菌种发酵爬坡与认证有时滞。",
+      "evidence": "2025年报 600298-a14b53fefcfc0356 PDF物理6页；2026最新更新 600298-5c763f656754f15e PDF物理1页。B07-annual与B07-Q3均为机器候选，Fact=0。2025收入+10.08%、归母+16.60%、CFO+50.19%；2026前三季收入+15.45%、归母仅+4.90%、CFO-22.8%，Q3归母-8.46%。候选趋势支持进一步拆解，尚非机制事实。",
+      "mechanism": "应用/地区销量×实现净价→收入→糖蜜能源、运输与汇率→经营EBIT；融资租赁和包材等另列业务边界，不能按收入比例猜资本。海外建设→投产→菌种工艺爬坡→认证销售→回款。NCWC币种和合并变动独立桥接，资本账面变化剔除汇兑/重分类。",
+      "opposition": "2025收入+10.08%、归母+16.60%、CFO+50.19%；2026前三季收入+15.45%、归母仅+4.90%、CFO-22.8%，Q3归母-8.46%。候选趋势支持进一步拆解，尚非机制事实。",
+      "alternative": "应用技术和海外本地化形成规模与成本优势，现金下降来自可回收的扩张占用。；竞争解释：过快扩产、原料能源与价格竞争压低新增回报，汇兑/补助及租赁混合掩盖主业现金。",
+      "variables": "成熟厂与新厂单位成本/利用率分组、应收库存现金回收、当地币价量与汇率桥；追踪投产后的首个完整年度而非同期利润增量除资本增量。",
+      "invalidate": "若新增产线达产后同范围经营回报仍低于机会成本且现金持续落后，收窄规模效应解释；若现金差异由一次性税款或结算时点解释，应撤回需求恶化推断。",
+      "gap": "分厂分应用销量净价、糖蜜与能源采购、利用率和产能年度；建设与爬坡投入收益的对应队列；经营与融资租赁现金分表、现金税与营运税款余额。",
+      "action_needed": "回到work/research07/source-field-map.json与B07原件定位；先集中核未核候选，再从年报附注补上述变量，字段缺失保留具体阻断。",
+      "methods": [
+        {
+          "id": "K03",
+          "version": 1
+        },
+        {
+          "id": "K11",
+          "version": 1
+        },
+        {
+          "id": "E03",
+          "version": 1
+        },
+        {
+          "id": "E06",
+          "version": 1
+        },
+        {
+          "id": "K48",
+          "version": 1
+        },
+        {
+          "id": "K50",
+          "version": 1
+        },
+        {
+          "id": "K54",
+          "version": 1
+        },
+        {
+          "id": "K55",
+          "version": 1
+        },
+        {
+          "id": "K58",
+          "version": 1
+        },
+        {
+          "id": "K59",
+          "version": 1
+        }
+      ],
+      "id": "R29373d7bc0f1",
+      "needs_review": false,
+      "impacts": [],
+      "updated_at": "2026-11-12T03:58:31.445514+00:00",
+      "actor": "Agent/test-or-api",
+      "status": "Interpretation draft"
+    },
+    {
+      "lane": "估值与投资判断",
+      "title": "当前能否计算有依据的价值？",
+      "claim": "不能给正式估值：尚缺经核对历史桥、经营资本范围、再投资、现金流索取权和同日风险/价格输入。",
+      "evidence": "2025年报 600298-a14b53fefcfc0356 PDF物理6页；2026最新更新 600298-5c763f656754f15e PDF物理1页。B07-annual与B07-Q3均为机器候选，Fact=0。2025收入+10.08%、归母+16.60%、CFO+50.19%；2026前三季收入+15.45%、归母仅+4.90%、CFO-22.8%，Q3归母-8.46%。候选趋势支持进一步拆解，尚非机制事实。",
+      "mechanism": "应用/地区销量×实现净价→收入→糖蜜能源、运输与汇率→经营EBIT；融资租赁和包材等另列业务边界，不能按收入比例猜资本。海外建设→投产→菌种工艺爬坡→认证销售→回款。NCWC币种和合并变动独立桥接，资本账面变化剔除汇兑/重分类。",
+      "opposition": "2025收入+10.08%、归母+16.60%、CFO+50.19%；2026前三季收入+15.45%、归母仅+4.90%、CFO-22.8%，Q3归母-8.46%。候选趋势支持进一步拆解，尚非机制事实。",
+      "alternative": "应用技术和海外本地化形成规模与成本优势，现金下降来自可回收的扩张占用。；竞争解释：过快扩产、原料能源与价格竞争压低新增回报，汇兑/补助及租赁混合掩盖主业现金。",
+      "variables": "成熟厂与新厂单位成本/利用率分组、应收库存现金回收、当地币价量与汇率桥；追踪投产后的首个完整年度而非同期利润增量除资本增量。",
+      "invalidate": "若新增产线达产后同范围经营回报仍低于机会成本且现金持续落后，收窄规模效应解释；若现金差异由一次性税款或结算时点解释，应撤回需求恶化推断。",
+      "gap": "分厂分应用销量净价、糖蜜与能源采购、利用率和产能年度；建设与爬坡投入收益的对应队列；经营与融资租赁现金分表、现金税与营运税款余额。",
+      "action_needed": "回到work/research07/source-field-map.json与B07原件定位；先集中核未核候选，再从年报附注补上述变量，字段缺失保留具体阻断。",
+      "methods": [
+        {
+          "id": "K03",
+          "version": 1
+        },
+        {
+          "id": "K11",
+          "version": 1
+        },
+        {
+          "id": "E03",
+          "version": 1
+        },
+        {
+          "id": "E06",
+          "version": 1
+        },
+        {
+          "id": "K48",
+          "version": 1
+        },
+        {
+          "id": "K50",
+          "version": 1
+        },
+        {
+          "id": "K54",
+          "version": 1
+        },
+        {
+          "id": "K55",
+          "version": 1
+        },
+        {
+          "id": "K58",
+          "version": 1
+        },
+        {
+          "id": "K59",
+          "version": 1
+        }
+      ],
+      "id": "R2660b3bfa732",
+      "needs_review": false,
+      "impacts": [],
+      "updated_at": "2026-11-12T03:58:31.451525+00:00",
+      "actor": "Agent/test-or-api",
+      "status": "Interpretation draft"
+    },
+    {
+      "lane": "风险与反方",
+      "title": "什么证据会推翻当前解释？",
+      "claim": "扩产和价格竞争吞噬回报，汇率、租赁与补助等混合范围掩盖主业盈利质量。",
+      "evidence": "2025年报 600298-a14b53fefcfc0356 PDF物理6页；2026最新更新 600298-5c763f656754f15e PDF物理1页。B07-annual与B07-Q3均为机器候选，Fact=0。2025收入+10.08%、归母+16.60%、CFO+50.19%；2026前三季收入+15.45%、归母仅+4.90%、CFO-22.8%，Q3归母-8.46%。候选趋势支持进一步拆解，尚非机制事实。",
+      "mechanism": "应用/地区销量×实现净价→收入→糖蜜能源、运输与汇率→经营EBIT；融资租赁和包材等另列业务边界，不能按收入比例猜资本。海外建设→投产→菌种工艺爬坡→认证销售→回款。NCWC币种和合并变动独立桥接，资本账面变化剔除汇兑/重分类。",
+      "opposition": "2025收入+10.08%、归母+16.60%、CFO+50.19%；2026前三季收入+15.45%、归母仅+4.90%、CFO-22.8%，Q3归母-8.46%。候选趋势支持进一步拆解，尚非机制事实。",
+      "alternative": "应用技术和海外本地化形成规模与成本优势，现金下降来自可回收的扩张占用。；竞争解释：过快扩产、原料能源与价格竞争压低新增回报，汇兑/补助及租赁混合掩盖主业现金。",
+      "variables": "成熟厂与新厂单位成本/利用率分组、应收库存现金回收、当地币价量与汇率桥；追踪投产后的首个完整年度而非同期利润增量除资本增量。",
+      "invalidate": "若新增产线达产后同范围经营回报仍低于机会成本且现金持续落后，收窄规模效应解释；若现金差异由一次性税款或结算时点解释，应撤回需求恶化推断。",
+      "gap": "分厂分应用销量净价、糖蜜与能源采购、利用率和产能年度；建设与爬坡投入收益的对应队列；经营与融资租赁现金分表、现金税与营运税款余额。",
+      "action_needed": "回到work/research07/source-field-map.json与B07原件定位；先集中核未核候选，再从年报附注补上述变量，字段缺失保留具体阻断。",
+      "methods": [
+        {
+          "id": "K03",
+          "version": 1
+        },
+        {
+          "id": "K11",
+          "version": 1
+        },
+        {
+          "id": "E03",
+          "version": 1
+        },
+        {
+          "id": "E06",
+          "version": 1
+        },
+        {
+          "id": "K46",
+          "version": 1
+        },
+        {
+          "id": "K52",
+          "version": 1
+        },
+        {
+          "id": "K63",
+          "version": 1
+        }
+      ],
+      "id": "R21f6d6590f9f",
+      "needs_review": false,
+      "impacts": [],
+      "updated_at": "2026-11-12T03:58:31.457505+00:00",
+      "actor": "Agent/test-or-api",
+      "status": "Interpretation draft"
+    },
+    {
+      "lane": "研究交付",
+      "title": "当前研究支持到哪一层？",
+      "claim": "仅为候选证据支持的研究起点，不是完整投资报告、目标价或买卖建议。",
+      "evidence": "2025年报 600298-a14b53fefcfc0356 PDF物理6页；2026最新更新 600298-5c763f656754f15e PDF物理1页。B07-annual与B07-Q3均为机器候选，Fact=0。2025收入+10.08%、归母+16.60%、CFO+50.19%；2026前三季收入+15.45%、归母仅+4.90%、CFO-22.8%，Q3归母-8.46%。候选趋势支持进一步拆解，尚非机制事实。",
+      "mechanism": "应用/地区销量×实现净价→收入→糖蜜能源、运输与汇率→经营EBIT；融资租赁和包材等另列业务边界，不能按收入比例猜资本。海外建设→投产→菌种工艺爬坡→认证销售→回款。NCWC币种和合并变动独立桥接，资本账面变化剔除汇兑/重分类。",
+      "opposition": "2025收入+10.08%、归母+16.60%、CFO+50.19%；2026前三季收入+15.45%、归母仅+4.90%、CFO-22.8%，Q3归母-8.46%。候选趋势支持进一步拆解，尚非机制事实。",
+      "alternative": "应用技术和海外本地化形成规模与成本优势，现金下降来自可回收的扩张占用。；竞争解释：过快扩产、原料能源与价格竞争压低新增回报，汇兑/补助及租赁混合掩盖主业现金。",
+      "variables": "成熟厂与新厂单位成本/利用率分组、应收库存现金回收、当地币价量与汇率桥；追踪投产后的首个完整年度而非同期利润增量除资本增量。",
+      "invalidate": "若新增产线达产后同范围经营回报仍低于机会成本且现金持续落后，收窄规模效应解释；若现金差异由一次性税款或结算时点解释，应撤回需求恶化推断。",
+      "gap": "分厂分应用销量净价、糖蜜与能源采购、利用率和产能年度；建设与爬坡投入收益的对应队列；经营与融资租赁现金分表、现金税与营运税款余额。",
+      "action_needed": "回到work/research07/source-field-map.json与B07原件定位；先集中核未核候选，再从年报附注补上述变量，字段缺失保留具体阻断。",
+      "methods": [
+        {
+          "id": "K03",
+          "version": 1
+        },
+        {
+          "id": "K11",
+          "version": 1
+        },
+        {
+          "id": "E03",
+          "version": 1
+        },
+        {
+          "id": "E06",
+          "version": 1
+        },
+        {
+          "id": "K46",
+          "version": 1
+        },
+        {
+          "id": "K52",
+          "version": 1
+        },
+        {
+          "id": "K63",
+          "version": 1
+        }
+      ],
+      "id": "Rd60b7456dc65",
+      "needs_review": false,
+      "impacts": [],
+      "updated_at": "2026-11-12T03:58:31.464481+00:00",
+      "actor": "Agent/test-or-api",
+      "status": "Interpretation draft"
+    },
+    {
+      "lane": "历史经营解释",
+      "title": "收入、利润与现金为什么不同步？",
+      "claim": "2025收入+10.08%、归母+16.60%、CFO+50.19%；2026前三季收入+15.45%、归母仅+4.90%、CFO-22.8%，Q3归母-8.46%。候选趋势支持进一步拆解，尚非机制事实。",
+      "evidence": "2025年报 600298-a14b53fefcfc0356 PDF物理6页；2026最新更新 600298-5c763f656754f15e PDF物理1页。B07-annual与B07-Q3均为机器候选，Fact=0。2025收入+10.08%、归母+16.60%、CFO+50.19%；2026前三季收入+15.45%、归母仅+4.90%、CFO-22.8%，Q3归母-8.46%。候选趋势支持进一步拆解，尚非机制事实。\n2026中报 600298-48dbfbb4962cfdb9 PDF物理5页：2026H1收入+16.30%、归母+10.21%、CFO-23.79%；前三季延续收入快于利润且现金承压，需分营运投入与资本支出。",
+      "mechanism": "应用/地区销量×实现净价→收入→糖蜜能源、运输与汇率→经营EBIT；融资租赁和包材等另列业务边界，不能按收入比例猜资本。海外建设→投产→菌种工艺爬坡→认证销售→回款。NCWC币种和合并变动独立桥接，资本账面变化剔除汇兑/重分类。",
+      "opposition": "2025收入+10.08%、归母+16.60%、CFO+50.19%；2026前三季收入+15.45%、归母仅+4.90%、CFO-22.8%，Q3归母-8.46%。候选趋势支持进一步拆解，尚非机制事实。",
+      "alternative": "应用技术和海外本地化形成规模与成本优势，现金下降来自可回收的扩张占用。；竞争解释：过快扩产、原料能源与价格竞争压低新增回报，汇兑/补助及租赁混合掩盖主业现金。",
+      "variables": "成熟厂与新厂单位成本/利用率分组、应收库存现金回收、当地币价量与汇率桥；追踪投产后的首个完整年度而非同期利润增量除资本增量。",
+      "invalidate": "若新增产线达产后同范围经营回报仍低于机会成本且现金持续落后，收窄规模效应解释；若现金差异由一次性税款或结算时点解释，应撤回需求恶化推断。",
+      "gap": "分厂分应用销量净价、糖蜜与能源采购、利用率和产能年度；建设与爬坡投入收益的对应队列；经营与融资租赁现金分表、现金税与营运税款余额。",
+      "action_needed": "回到work/research07/source-field-map.json与B07原件定位；先集中核未核候选，再从年报附注补上述变量，字段缺失保留具体阻断。",
+      "methods": [
+        {
+          "id": "K03",
+          "version": 1
+        },
+        {
+          "id": "K11",
+          "version": 1
+        },
+        {
+          "id": "E03",
+          "version": 1
+        },
+        {
+          "id": "E06",
+          "version": 1
+        },
+        {
+          "id": "K48",
+          "version": 1
+        },
+        {
+          "id": "K50",
+          "version": 1
+        },
+        {
+          "id": "K54",
+          "version": 1
+        },
+        {
+          "id": "K55",
+          "version": 1
+        },
+        {
+          "id": "K58",
+          "version": 1
+        },
+        {
+          "id": "K59",
+          "version": 1
+        }
+      ],
+      "id": "Rc307bcec6202",
+      "needs_review": false,
+      "impacts": [],
+      "updated_at": "2026-11-12T03:58:31.471458+00:00",
+      "actor": "Agent/test-or-api",
+      "status": "Interpretation draft"
+    }
+  ],
+  "bindings": {
+    "selection_ids": [
+      "R21f6d6590f9f",
+      "R2660b3bfa732",
+      "R29373d7bc0f1",
+      "R6911ffac3797",
+      "Ra9f2c23c0275",
+      "Rc307bcec6202",
+      "Rd60b7456dc65",
+      "Re0aacfad8631"
+    ],
+    "selection_scope": "all-eight-lanes",
+    "cards": {
+      "R6911ffac3797": "8a818cf5adb299fdfde53e98cfd028bd75940bcca289da43beae43f9a90ae5a4",
+      "Re0aacfad8631": "8a549c0baddaa88d5ba799a081be77b99d8b0ea48f69a112af67c7726a5f0cb3",
+      "Ra9f2c23c0275": "a62aa0bb0dc16983998da7255e62467c30015122ded3e3835d6b3e0c2f14723a",
+      "R29373d7bc0f1": "7f01fad15ce0da29415d165de419da101c8e12deb394329868dd9615e8b9efb5",
+      "R2660b3bfa732": "227f4234338251ead11c2ac25a727d701ff414058930a3aa5a35a0e28e6aaa44",
+      "R21f6d6590f9f": "8eb1fc79ed9544739fd70f0e35c9a634f8178c946d52f79f719c3f7c5db12c80",
+      "Rd60b7456dc65": "fb60d1150cdc25d5181dea544a3d8f6ef67be5f30ddfdc7b49268307bd4da502",
+      "Rc307bcec6202": "dfb9eb553ae6114f5494b5c816301c2dfc6938f96f2224e01b0994507d2f2a04"
+    },
+    "methods": [
+      {
+        "id": "K03",
+        "version": 1
+      },
+      {
+        "id": "K11",
+        "version": 1
+      },
+      {
+        "id": "E03",
+        "version": 1
+      },
+      {
+        "id": "E06",
+        "version": 1
+      },
+      {
+        "id": "K46",
+        "version": 1
+      },
+      {
+        "id": "K52",
+        "version": 1
+      },
+      {
+        "id": "K63",
+        "version": 1
+      },
+      {
+        "id": "K48",
+        "version": 1
+      },
+      {
+        "id": "K50",
+        "version": 1
+      },
+      {
+        "id": "K54",
+        "version": 1
+      },
+      {
+        "id": "K55",
+        "version": 1
+      },
+      {
+        "id": "K58",
+        "version": 1
+      },
+      {
+        "id": "K59",
+        "version": 1
+      }
+    ],
+    "inputs": {
+      "work/research09/evidence-map.json": "323c7b8ec891adee4cb21e6f5848f49f1bce6dd8513142ea19d3dd8ac2c2e7fd",
+      "work/research09/parameter-register.json": "39e4a383d3f9bb5cfdc82614c2f791d288eeffce04f1f87404444592d9c24c00",
+      "work/research09/利润资本现金与估值准备.md": "d0d66fe87d485ed2d9728eda6a89e4ee07f6577fa76ad2c2d33aa4a7c413e0b4",
+      "work/research07/source-field-map.json": "014674ca79ef6b2fdab2de541060518b35e84048b8acd578c872a8d46592f6c1",
+      "work/valuation/index.json": "b5855ba8f1999bdb1bbadfeed49c324a459c68545465afd0207134801f3d0850",
+      "work/valuation/v1-V2cc086959eb0.json": "675da54b224ad8421abf826241a5011fa56bc798af58f5b6134f808089cc7de8"
+    },
+    "sources": [
+      {
+        "id": "600298-a14b53fefcfc0356",
+        "path": "sources/raw/01_年报/2026-03-31_安琪酵母股份有限公司2025年年度报告_1225056953.pdf",
+        "sha256": "7bee6f0f30a5da24746dd431f1947f15c8189fa9fbf5db75df4d3ba3c512c800"
+      }
+    ],
+    "shared_dependencies": {
+      "shared/runtime/companybench/valuation_chain.py": "0155df03fa6ff2dd86a6a4c92f51f277f88e1edd45bfd972d191796276ac23ca",
+      "shared/runtime/companybench/research_depth.py": "bb364cd41336a0d3fe62d0d0663f7e8557570aeff2d201c21517259ae1404a41",
+      "scripts/recalculate_valuation.py": "711a5a9c153a834a2c28d133d24b0aec0cd93153c0baa4f1358a8b22ef4cc727"
+    }
+  },
+  "actual_user_review": null,
+  "unresolved_impacts": [],
+  "input_values": {
+    "work/research09/evidence-map.json": "{\n  \"company\": \"600298_安琪酵母\",\n  \"prior\": \"work/research07/source-field-map.json\",\n  \"review\": \"work/review-batches/README.md\",\n  \"hypotheses\": [\n    \"应用技术和海外本地化形成规模与成本优势，现金下降来自可回收的扩张占用。\",\n    \"过快扩产、原料能源与价格竞争压低新增回报，汇兑/补助及租赁混合掩盖主业现金。\"\n  ],\n  \"operating_cash_bridge\": \"应用/地区销量×实现净价→收入→糖蜜能源、运输与汇率→经营EBIT；融资租赁和包材等另列业务边界，不能按收入比例猜资本。海外建设→投产→菌种工艺爬坡→认证销售→回款。NCWC币种和合并变动独立桥接，资本账面变化剔除汇兑/重分类。\",\n  \"missing\": \"分厂分应用销量净价、糖蜜与能源采购、利用率和产能年度；建设与爬坡投入收益的对应队列；经营与融资租赁现金分表、现金税与营运税款余额。\",\n  \"discriminating_observations\": \"成熟厂与新厂单位成本/利用率分组、应收库存现金回收、当地币价量与汇率桥；追踪投产后的首个完整年度而非同期利润增量除资本增量。\",\n  \"methods\": [\n    \"K48\",\n    \"K50\",\n    \"K54\",\n    \"K55\",\n    \"K58\",\n    \"K59\"\n  ],\n  \"human_review\": null\n}\n",
+    "work/research09/parameter-register.json": "{\n  \"schema_version\": 1,\n  \"kind\": \"空白研究登记，不可直接计算\",\n  \"company_data_included\": false,\n  \"parameters\": [\n    {\n      \"name\": \"业务范围\",\n      \"value\": null,\n      \"unit\": null,\n      \"source\": null,\n      \"source_period\": null,\n      \"published_at\": null,\n      \"retrieved_at\": null,\n      \"applies_to_year\": null,\n      \"method\": null,\n      \"rationale\": null,\n      \"state\": \"Unknown\",\n      \"investment_support_year\": null,\n      \"limitations\": \"分厂分应用销量净价、糖蜜与能源采购、利用率和产能年度；建设与爬坡投入收益的对应队列；经营与融资租赁现金分表、现金税与营运税款余额。\",\n      \"currency\": \"CNY\",\n      \"entity\": \"600298_安琪酵母\",\n      \"claim_scope\": \"经营全合并FCFF；普通股桥另核\",\n      \"alternative_value\": null,\n      \"trigger\": \"成熟厂与新厂单位成本/利用率分组、应收库存现金回收、当地币价量与汇率桥；追踪投产后的首个完整年度而非同期利润增量除资本增量。\"\n    },\n    {\n      \"name\": \"现金流权利\",\n      \"value\": null,\n      \"unit\": null,\n      \"source\": null,\n      \"source_period\": null,\n      \"published_at\": null,\n      \"retrieved_at\": null,\n      \"applies_to_year\": null,\n      \"method\": null,\n      \"rationale\": null,\n      \"state\": \"Unknown\",\n      \"investment_support_year\": null,\n      \"limitations\": \"分厂分应用销量净价、糖蜜与能源采购、利用率和产能年度；建设与爬坡投入收益的对应队列；经营与融资租赁现金分表、现金税与营运税款余额。\",\n      \"currency\": \"CNY\",\n      \"entity\": \"600298_安琪酵母\",\n      \"claim_scope\": \"经营全合并FCFF；普通股桥另核\",\n      \"alternative_value\": null,\n      \"trigger\": \"成熟厂与新厂单位成本/利用率分组、应收库存现金回收、当地币价量与汇率桥；追踪投产后的首个完整年度而非同期利润增量除资本增量。\"\n    },\n    {\n      \"name\": \"估值日与信息截止\",\n      \"value\": null,\n      \"unit\": null,\n      \"source\": null,\n      \"source_period\": null,\n      \"published_at\": null,\n      \"retrieved_at\": null,\n      \"applies_to_year\": null,\n      \"method\": null,\n      \"rationale\": null,\n      \"state\": \"Unknown\",\n      \"investment_support_year\": null,\n      \"limitations\": \"分厂分应用销量净价、糖蜜与能源采购、利用率和产能年度；建设与爬坡投入收益的对应队列；经营与融资租赁现金分表、现金税与营运税款余额。\",\n      \"currency\": \"CNY\",\n      \"entity\": \"600298_安琪酵母\",\n      \"claim_scope\": \"经营全合并FCFF；普通股桥另核\",\n      \"alternative_value\": null,\n      \"trigger\": \"成熟厂与新厂单位成本/利用率分组、应收库存现金回收、当地币价量与汇率桥；追踪投产后的首个完整年度而非同期利润增量除资本增量。\"\n    },\n    {\n      \"name\": \"币种与名义实际\",\n      \"value\": null,\n      \"unit\": null,\n      \"source\": null,\n      \"source_period\": null,\n      \"published_at\": null,\n      \"retrieved_at\": null,\n      \"applies_to_year\": null,\n      \"method\": null,\n      \"rationale\": null,\n      \"state\": \"Unknown\",\n      \"investment_support_year\": null,\n      \"limitations\": \"分厂分应用销量净价、糖蜜与能源采购、利用率和产能年度；建设与爬坡投入收益的对应队列；经营与融资租赁现金分表、现金税与营运税款余额。\",\n      \"currency\": \"CNY\",\n      \"entity\": \"600298_安琪酵母\",\n      \"claim_scope\": \"经营全合并FCFF；普通股桥另核\",\n      \"alternative_value\": null,\n      \"trigger\": \"成熟厂与新厂单位成本/利用率分组、应收库存现金回收、当地币价量与汇率桥；追踪投产后的首个完整年度而非同期利润增量除资本增量。\"\n    },\n    {\n      \"name\": \"经营EBIT\",\n      \"value\": null,\n      \"unit\": null,\n      \"source\": null,\n      \"source_period\": null,\n      \"published_at\": null,\n      \"retrieved_at\": null,\n      \"applies_to_year\": null,\n      \"method\": null,\n      \"rationale\": null,\n      \"state\": \"Unknown\",\n      \"investment_support_year\": null,\n      \"limitations\": \"分厂分应用销量净价、糖蜜与能源采购、利用率和产能年度；建设与爬坡投入收益的对应队列；经营与融资租赁现金分表、现金税与营运税款余额。\",\n      \"currency\": \"CNY\",\n      \"entity\": \"600298_安琪酵母\",\n      \"claim_scope\": \"经营全合并FCFF；普通股桥另核\",\n      \"alternative_value\": null,\n      \"trigger\": \"成熟厂与新厂单位成本/利用率分组、应收库存现金回收、当地币价量与汇率桥；追踪投产后的首个完整年度而非同期利润增量除资本增量。\"\n    },\n    {\n      \"name\": \"经营现金税\",\n      \"value\": null,\n      \"unit\": null,\n      \"source\": null,\n      \"source_period\": null,\n      \"published_at\": null,\n      \"retrieved_at\": null,\n      \"applies_to_year\": null,\n      \"method\": null,\n      \"rationale\": null,\n      \"state\": \"Unknown\",\n      \"investment_support_year\": null,\n      \"limitations\": \"分厂分应用销量净价、糖蜜与能源采购、利用率和产能年度；建设与爬坡投入收益的对应队列；经营与融资租赁现金分表、现金税与营运税款余额。\",\n      \"currency\": \"CNY\",\n      \"entity\": \"600298_安琪酵母\",\n      \"claim_scope\": \"经营全合并FCFF；普通股桥另核\",\n      \"alternative_value\": null,\n      \"trigger\": \"成熟厂与新厂单位成本/利用率分组、应收库存现金回收、当地币价量与汇率桥；追踪投产后的首个完整年度而非同期利润增量除资本增量。\"\n    },\n    {\n      \"name\": \"CapEx与D&A\",\n      \"value\": null,\n      \"unit\": null,\n      \"source\": null,\n      \"source_period\": null,\n      \"published_at\": null,\n      \"retrieved_at\": null,\n      \"applies_to_year\": null,\n      \"method\": null,\n      \"rationale\": null,\n      \"state\": \"Unknown\",\n      \"investment_support_year\": null,\n      \"limitations\": \"分厂分应用销量净价、糖蜜与能源采购、利用率和产能年度；建设与爬坡投入收益的对应队列；经营与融资租赁现金分表、现金税与营运税款余额。\",\n      \"currency\": \"CNY\",\n      \"entity\": \"600298_安琪酵母\",\n      \"claim_scope\": \"经营全合并FCFF；普通股桥另核\",\n      \"alternative_value\": null,\n      \"trigger\": \"成熟厂与新厂单位成本/利用率分组、应收库存现金回收、当地币价量与汇率桥；追踪投产后的首个完整年度而非同期利润增量除资本增量。\"\n    },\n    {\n      \"name\": \"NCWC期初期末\",\n      \"value\": null,\n      \"unit\": null,\n      \"source\": null,\n      \"source_period\": null,\n      \"published_at\": null,\n      \"retrieved_at\": null,\n      \"applies_to_year\": null,\n      \"method\": null,\n      \"rationale\": null,\n      \"state\": \"Unknown\",\n      \"investment_support_year\": null,\n      \"limitations\": \"分厂分应用销量净价、糖蜜与能源采购、利用率和产能年度；建设与爬坡投入收益的对应队列；经营与融资租赁现金分表、现金税与营运税款余额。\",\n      \"currency\": \"CNY\",\n      \"entity\": \"600298_安琪酵母\",\n      \"claim_scope\": \"经营全合并FCFF；普通股桥另核\",\n      \"alternative_value\": null,\n      \"trigger\": \"成熟厂与新厂单位成本/利用率分组、应收库存现金回收、当地币价量与汇率桥；追踪投产后的首个完整年度而非同期利润增量除资本增量。\"\n    },\n    {\n      \"name\": \"其他再投资\",\n      \"value\": null,\n      \"unit\": null,\n      \"source\": null,\n      \"source_period\": null,\n      \"published_at\": null,\n      \"retrieved_at\": null,\n      \"applies_to_year\": null,\n      \"method\": null,\n      \"rationale\": null,\n      \"state\": \"Unknown\",\n      \"investment_support_year\": null,\n      \"limitations\": \"分厂分应用销量净价、糖蜜与能源采购、利用率和产能年度；建设与爬坡投入收益的对应队列；经营与融资租赁现金分表、现金税与营运税款余额。\",\n      \"currency\": \"CNY\",\n      \"entity\": \"600298_安琪酵母\",\n      \"claim_scope\": \"经营全合并FCFF；普通股桥另核\",\n      \"alternative_value\": null,\n      \"trigger\": \"成熟厂与新厂单位成本/利用率分组、应收库存现金回收、当地币价量与汇率桥；追踪投产后的首个完整年度而非同期利润增量除资本增量。\"\n    },\n    {\n      \"name\": \"投入支持的收益年度\",\n      \"value\": null,\n      \"unit\": null,\n      \"source\": null,\n      \"source_period\": null,\n      \"published_at\": null,\n      \"retrieved_at\": null,\n      \"applies_to_year\": null,\n      \"method\": null,\n      \"rationale\": null,\n      \"state\": \"Unknown\",\n      \"investment_support_year\": null,\n      \"limitations\": \"分厂分应用销量净价、糖蜜与能源采购、利用率和产能年度；建设与爬坡投入收益的对应队列；经营与融资租赁现金分表、现金税与营运税款余额。\",\n      \"currency\": \"CNY\",\n      \"entity\": \"600298_安琪酵母\",\n      \"claim_scope\": \"经营全合并FCFF；普通股桥另核\",\n      \"alternative_value\": null,\n      \"trigger\": \"成熟厂与新厂单位成本/利用率分组、应收库存现金回收、当地币价量与汇率桥；追踪投产后的首个完整年度而非同期利润增量除资本增量。\"\n    },\n    {\n      \"name\": \"Rf\",\n      \"value\": null,\n      \"unit\": null,\n      \"source\": null,\n      \"source_period\": null,\n      \"published_at\": null,\n      \"retrieved_at\": null,\n      \"applies_to_year\": null,\n      \"method\": null,\n      \"rationale\": null,\n      \"state\": \"Unknown\",\n      \"investment_support_year\": null,\n      \"limitations\": \"分厂分应用销量净价、糖蜜与能源采购、利用率和产能年度；建设与爬坡投入收益的对应队列；经营与融资租赁现金分表、现金税与营运税款余额。\",\n      \"currency\": \"CNY\",\n      \"entity\": \"600298_安琪酵母\",\n      \"claim_scope\": \"经营全合并FCFF；普通股桥另核\",\n      \"alternative_value\": null,\n      \"trigger\": \"成熟厂与新厂单位成本/利用率分组、应收库存现金回收、当地币价量与汇率桥；追踪投产后的首个完整年度而非同期利润增量除资本增量。\"\n    },\n    {\n      \"name\": \"ERP\",\n      \"value\": null,\n      \"unit\": null,\n      \"source\": null,\n      \"source_period\": null,\n      \"published_at\": null,\n      \"retrieved_at\": null,\n      \"applies_to_year\": null,\n      \"method\": null,\n      \"rationale\": null,\n      \"state\": \"Unknown\",\n      \"investment_support_year\": null,\n      \"limitations\": \"分厂分应用销量净价、糖蜜与能源采购、利用率和产能年度；建设与爬坡投入收益的对应队列；经营与融资租赁现金分表、现金税与营运税款余额。\",\n      \"currency\": \"CNY\",\n      \"entity\": \"600298_安琪酵母\",\n      \"claim_scope\": \"经营全合并FCFF；普通股桥另核\",\n      \"alternative_value\": null,\n      \"trigger\": \"成熟厂与新厂单位成本/利用率分组、应收库存现金回收、当地币价量与汇率桥；追踪投产后的首个完整年度而非同期利润增量除资本增量。\"\n    },\n    {\n      \"name\": \"beta与回归样本\",\n      \"value\": null,\n      \"unit\": null,\n      \"source\": null,\n      \"source_period\": null,\n      \"published_at\": null,\n      \"retrieved_at\": null,\n      \"applies_to_year\": null,\n      \"method\": null,\n      \"rationale\": null,\n      \"state\": \"Unknown\",\n      \"investment_support_year\": null,\n      \"limitations\": \"分厂分应用销量净价、糖蜜与能源采购、利用率和产能年度；建设与爬坡投入收益的对应队列；经营与融资租赁现金分表、现金税与营运税款余额。\",\n      \"currency\": \"CNY\",\n      \"entity\": \"600298_安琪酵母\",\n      \"claim_scope\": \"经营全合并FCFF；普通股桥另核\",\n      \"alternative_value\": null,\n      \"trigger\": \"成熟厂与新厂单位成本/利用率分组、应收库存现金回收、当地币价量与汇率桥；追踪投产后的首个完整年度而非同期利润增量除资本增量。\"\n    },\n    {\n      \"name\": \"边际债务成本\",\n      \"value\": null,\n      \"unit\": null,\n      \"source\": null,\n      \"source_period\": null,\n      \"published_at\": null,\n      \"retrieved_at\": null,\n      \"applies_to_year\": null,\n      \"method\": null,\n      \"rationale\": null,\n      \"state\": \"Unknown\",\n      \"investment_support_year\": null,\n      \"limitations\": \"分厂分应用销量净价、糖蜜与能源采购、利用率和产能年度；建设与爬坡投入收益的对应队列；经营与融资租赁现金分表、现金税与营运税款余额。\",\n      \"currency\": \"CNY\",\n      \"entity\": \"600298_安琪酵母\",\n      \"claim_scope\": \"经营全合并FCFF；普通股桥另核\",\n      \"alternative_value\": null,\n      \"trigger\": \"成熟厂与新厂单位成本/利用率分组、应收库存现金回收、当地币价量与汇率桥；追踪投产后的首个完整年度而非同期利润增量除资本增量。\"\n    },\n    {\n      \"name\": \"市场D/E和税盾能力\",\n      \"value\": null,\n      \"unit\": null,\n      \"source\": null,\n      \"source_period\": null,\n      \"published_at\": null,\n      \"retrieved_at\": null,\n      \"applies_to_year\": null,\n      \"method\": null,\n      \"rationale\": null,\n      \"state\": \"Unknown\",\n      \"investment_support_year\": null,\n      \"limitations\": \"分厂分应用销量净价、糖蜜与能源采购、利用率和产能年度；建设与爬坡投入收益的对应队列；经营与融资租赁现金分表、现金税与营运税款余额。\",\n      \"currency\": \"CNY\",\n      \"entity\": \"600298_安琪酵母\",\n      \"claim_scope\": \"经营全合并FCFF；普通股桥另核\",\n      \"alternative_value\": null,\n      \"trigger\": \"成熟厂与新厂单位成本/利用率分组、应收库存现金回收、当地币价量与汇率桥；追踪投产后的首个完整年度而非同期利润增量除资本增量。\"\n    },\n    {\n      \"name\": \"稳定期起点\",\n      \"value\": null,\n      \"unit\": null,\n      \"source\": null,\n      \"source_period\": null,\n      \"published_at\": null,\n      \"retrieved_at\": null,\n      \"applies_to_year\": null,\n      \"method\": null,\n      \"rationale\": null,\n      \"state\": \"Unknown\",\n      \"investment_support_year\": null,\n      \"limitations\": \"分厂分应用销量净价、糖蜜与能源采购、利用率和产能年度；建设与爬坡投入收益的对应队列；经营与融资租赁现金分表、现金税与营运税款余额。\",\n      \"currency\": \"CNY\",\n      \"entity\": \"600298_安琪酵母\",\n      \"claim_scope\": \"经营全合并FCFF；普通股桥另核\",\n      \"alternative_value\": null,\n      \"trigger\": \"成熟厂与新厂单位成本/利用率分组、应收库存现金回收、当地币价量与汇率桥；追踪投产后的首个完整年度而非同期利润增量除资本增量。\"\n    },\n    {\n      \"name\": \"稳定首年NOPAT\",\n      \"value\": null,\n      \"unit\": null,\n      \"source\": null,\n      \"source_period\": null,\n      \"published_at\": null,\n      \"retrieved_at\": null,\n      \"applies_to_year\": null,\n      \"method\": null,\n      \"rationale\": null,\n      \"state\": \"Unknown\",\n      \"investment_support_year\": null,\n      \"limitations\": \"分厂分应用销量净价、糖蜜与能源采购、利用率和产能年度；建设与爬坡投入收益的对应队列；经营与融资租赁现金分表、现金税与营运税款余额。\",\n      \"currency\": \"CNY\",\n      \"entity\": \"600298_安琪酵母\",\n      \"claim_scope\": \"经营全合并FCFF；普通股桥另核\",\n      \"alternative_value\": null,\n      \"trigger\": \"成熟厂与新厂单位成本/利用率分组、应收库存现金回收、当地币价量与汇率桥；追踪投产后的首个完整年度而非同期利润增量除资本增量。\"\n    },\n    {\n      \"name\": \"长期g\",\n      \"value\": null,\n      \"unit\": null,\n      \"source\": null,\n      \"source_period\": null,\n      \"published_at\": null,\n      \"retrieved_at\": null,\n      \"applies_to_year\": null,\n      \"method\": null,\n      \"rationale\": null,\n      \"state\": \"Unknown\",\n      \"investment_support_year\": null,\n      \"limitations\": \"分厂分应用销量净价、糖蜜与能源采购、利用率和产能年度；建设与爬坡投入收益的对应队列；经营与融资租赁现金分表、现金税与营运税款余额。\",\n      \"currency\": \"CNY\",\n      \"entity\": \"600298_安琪酵母\",\n      \"claim_scope\": \"经营全合并FCFF；普通股桥另核\",\n      \"alternative_value\": null,\n      \"trigger\": \"成熟厂与新厂单位成本/利用率分组、应收库存现金回收、当地币价量与汇率桥；追踪投产后的首个完整年度而非同期利润增量除资本增量。\"\n    },\n    {\n      \"name\": \"未来新增ROIC与fade\",\n      \"value\": null,\n      \"unit\": null,\n      \"source\": null,\n      \"source_period\": null,\n      \"published_at\": null,\n      \"retrieved_at\": null,\n      \"applies_to_year\": null,\n      \"method\": null,\n      \"rationale\": null,\n      \"state\": \"Unknown\",\n      \"investment_support_year\": null,\n      \"limitations\": \"分厂分应用销量净价、糖蜜与能源采购、利用率和产能年度；建设与爬坡投入收益的对应队列；经营与融资租赁现金分表、现金税与营运税款余额。\",\n      \"currency\": \"CNY\",\n      \"entity\": \"600298_安琪酵母\",\n      \"claim_scope\": \"经营全合并FCFF；普通股桥另核\",\n      \"alternative_value\": null,\n      \"trigger\": \"成熟厂与新厂单位成本/利用率分组、应收库存现金回收、当地币价量与汇率桥；追踪投产后的首个完整年度而非同期利润增量除资本增量。\"\n    },\n    {\n      \"name\": \"末年投入衔接\",\n      \"value\": null,\n      \"unit\": null,\n      \"source\": null,\n      \"source_period\": null,\n      \"published_at\": null,\n      \"retrieved_at\": null,\n      \"applies_to_year\": null,\n      \"method\": null,\n      \"rationale\": null,\n      \"state\": \"Unknown\",\n      \"investment_support_year\": null,\n      \"limitations\": \"分厂分应用销量净价、糖蜜与能源采购、利用率和产能年度；建设与爬坡投入收益的对应队列；经营与融资租赁现金分表、现金税与营运税款余额。\",\n      \"currency\": \"CNY\",\n      \"entity\": \"600298_安琪酵母\",\n      \"claim_scope\": \"经营全合并FCFF；普通股桥另核\",\n      \"alternative_value\": null,\n      \"trigger\": \"成熟厂与新厂单位成本/利用率分组、应收库存现金回收、当地币价量与汇率桥；追踪投产后的首个完整年度而非同期利润增量除资本增量。\"\n    },\n    {\n      \"name\": \"非经营资产\",\n      \"value\": null,\n      \"unit\": null,\n      \"source\": null,\n      \"source_period\": null,\n      \"published_at\": null,\n      \"retrieved_at\": null,\n      \"applies_to_year\": null,\n      \"method\": null,\n      \"rationale\": null,\n      \"state\": \"Unknown\",\n      \"investment_support_year\": null,\n      \"limitations\": \"分厂分应用销量净价、糖蜜与能源采购、利用率和产能年度；建设与爬坡投入收益的对应队列；经营与融资租赁现金分表、现金税与营运税款余额。\",\n      \"currency\": \"CNY\",\n      \"entity\": \"600298_安琪酵母\",\n      \"claim_scope\": \"经营全合并FCFF；普通股桥另核\",\n      \"alternative_value\": null,\n      \"trigger\": \"成熟厂与新厂单位成本/利用率分组、应收库存现金回收、当地币价量与汇率桥；追踪投产后的首个完整年度而非同期利润增量除资本增量。\"\n    },\n    {\n      \"name\": \"融资与其他权利\",\n      \"value\": null,\n      \"unit\": null,\n      \"source\": null,\n      \"source_period\": null,\n      \"published_at\": null,\n      \"retrieved_at\": null,\n      \"applies_to_year\": null,\n      \"method\": null,\n      \"rationale\": null,\n      \"state\": \"Unknown\",\n      \"investment_support_year\": null,\n      \"limitations\": \"分厂分应用销量净价、糖蜜与能源采购、利用率和产能年度；建设与爬坡投入收益的对应队列；经营与融资租赁现金分表、现金税与营运税款余额。\",\n      \"currency\": \"CNY\",\n      \"entity\": \"600298_安琪酵母\",\n      \"claim_scope\": \"经营全合并FCFF；普通股桥另核\",\n      \"alternative_value\": null,\n      \"trigger\": \"成熟厂与新厂单位成本/利用率分组、应收库存现金回收、当地币价量与汇率桥；追踪投产后的首个完整年度而非同期利润增量除资本增量。\"\n    },\n    {\n      \"name\": \"少数权益价值\",\n      \"value\": null,\n      \"unit\": null,\n      \"source\": null,\n      \"source_period\": null,\n      \"published_at\": null,\n      \"retrieved_at\": null,\n      \"applies_to_year\": null,\n      \"method\": null,\n      \"rationale\": null,\n      \"state\": \"Unknown\",\n      \"investment_support_year\": null,\n      \"limitations\": \"分厂分应用销量净价、糖蜜与能源采购、利用率和产能年度；建设与爬坡投入收益的对应队列；经营与融资租赁现金分表、现金税与营运税款余额。\",\n      \"currency\": \"CNY\",\n      \"entity\": \"600298_安琪酵母\",\n      \"claim_scope\": \"经营全合并FCFF；普通股桥另核\",\n      \"alternative_value\": null,\n      \"trigger\": \"成熟厂与新厂单位成本/利用率分组、应收库存现金回收、当地币价量与汇率桥；追踪投产后的首个完整年度而非同期利润增量除资本增量。\"\n    },\n    {\n      \"name\": \"股数与稀释\",\n      \"value\": null,\n      \"unit\": null,\n      \"source\": null,\n      \"source_period\": null,\n      \"published_at\": null,\n      \"retrieved_at\": null,\n      \"applies_to_year\": null,\n      \"method\": null,\n      \"rationale\": null,\n      \"state\": \"Unknown\",\n      \"investment_support_year\": null,\n      \"limitations\": \"分厂分应用销量净价、糖蜜与能源采购、利用率和产能年度；建设与爬坡投入收益的对应队列；经营与融资租赁现金分表、现金税与营运税款余额。\",\n      \"currency\": \"CNY\",\n      \"entity\": \"600298_安琪酵母\",\n      \"claim_scope\": \"经营全合并FCFF；普通股桥另核\",\n      \"alternative_value\": null,\n      \"trigger\": \"成熟厂与新厂单位成本/利用率分组、应收库存现金回收、当地币价量与汇率桥；追踪投产后的首个完整年度而非同期利润增量除资本增量。\"\n    },\n    {\n      \"name\": \"同日价格与市场预期\",\n      \"value\": null,\n      \"unit\": null,\n      \"source\": null,\n      \"source_period\": null,\n      \"published_at\": null,\n      \"retrieved_at\": null,\n      \"applies_to_year\": null,\n      \"method\": null,\n      \"rationale\": null,\n      \"state\": \"Unknown\",\n      \"investment_support_year\": null,\n      \"limitations\": \"分厂分应用销量净价、糖蜜与能源采购、利用率和产能年度；建设与爬坡投入收益的对应队列；经营与融资租赁现金分表、现金税与营运税款余额。\",\n      \"currency\": \"CNY\",\n      \"entity\": \"600298_安琪酵母\",\n      \"claim_scope\": \"经营全合并FCFF；普通股桥另核\",\n      \"alternative_value\": null,\n      \"trigger\": \"成熟厂与新厂单位成本/利用率分组、应收库存现金回收、当地币价量与汇率桥；追踪投产后的首个完整年度而非同期利润增量除资本增量。\"\n    },\n    {\n      \"name\": \"催化剂及反证\",\n      \"value\": null,\n      \"unit\": null,\n      \"source\": null,\n      \"source_period\": null,\n      \"published_at\": null,\n      \"retrieved_at\": null,\n      \"applies_to_year\": null,\n      \"method\": null,\n      \"rationale\": null,\n      \"state\": \"Unknown\",\n      \"investment_support_year\": null,\n      \"limitations\": \"分厂分应用销量净价、糖蜜与能源采购、利用率和产能年度；建设与爬坡投入收益的对应队列；经营与融资租赁现金分表、现金税与营运税款余额。\",\n      \"currency\": \"CNY\",\n      \"entity\": \"600298_安琪酵母\",\n      \"claim_scope\": \"经营全合并FCFF；普通股桥另核\",\n      \"alternative_value\": null,\n      \"trigger\": \"成熟厂与新厂单位成本/利用率分组、应收库存现金回收、当地币价量与汇率桥；追踪投产后的首个完整年度而非同期利润增量除资本增量。\"\n    }\n  ],\n  \"company\": \"600298_安琪酵母\",\n  \"information_cutoff\": \"2026-11-10（原研究窗口保持）\",\n  \"updated_at\": \"2026-11-12T03:58:31.474448+00:00\"\n}\n",
+    "work/research09/利润资本现金与估值准备.md": "# 安琪酵母：利润、资本与现金准备表\n\n应用/地区销量×实现净价→收入→糖蜜能源、运输与汇率→经营EBIT；融资租赁和包材等另列业务边界，不能按收入比例猜资本。海外建设→投产→菌种工艺爬坡→认证销售→回款。NCWC币种和合并变动独立桥接，资本账面变化剔除汇兑/重分类。\n\n竞争解释A：应用技术和海外本地化形成规模与成本优势，现金下降来自可回收的扩张占用。\n\n竞争解释B：过快扩产、原料能源与价格竞争压低新增回报，汇兑/补助及租赁混合掩盖主业现金。\n\n具体输入缺口与动作：分厂分应用销量净价、糖蜜与能源采购、利用率和产能年度；建设与爬坡投入收益的对应队列；经营与融资租赁现金分表、现金税与营运税款余额。；回原年报附注取值，不用课程参数填空。\n\n区分观察：成熟厂与新厂单位成本/利用率分组、应收库存现金回收、当地币价量与汇率桥；追踪投产后的首个完整年度而非同期利润增量除资本增量。\n\n复用B07但未核准新Fact；参数表和计算依赖从本公司成果中心打开。",
+    "work/research07/source-field-map.json": "{\n  \"cutoff\": \"2026-11-10\",\n  \"company\": \"600298_安琪酵母\",\n  \"management_statement\": {\n    \"source_id\": \"600298-a14b53fefcfc0356\",\n    \"page\": 9,\n    \"identity\": \"管理层自述，非机制事实\",\n    \"summary\": \"酵母、酵母抽提物及相关生物产品面向烘焙、食品调味、发酵工业、营养等客户。年报9—10物理页说明常规品按库存与需求生产，非常规品按订单，销售由经销、大客户直供、电商组成。原料糖蜜等发酵投入、能源、产能爬坡、应用技术服务和回款决定现金；合并范围亦含包材、制糖与融资租赁，不能直接把合并ROIC命名为酵母业务回报。\"\n  },\n  \"batches\": [\n    \"B07-annual\",\n    \"B07-Q3\"\n  ],\n  \"sources\": [\n    {\n      \"company\": \"600298_安琪酵母\",\n      \"kind\": \"annual\",\n      \"id\": \"600298-a14b53fefcfc0356\",\n      \"path\": \"sources/raw/01_年报/2026-03-31_安琪酵母股份有限公司2025年年度报告_1225056953.pdf\",\n      \"title\": \"安琪酵母股份有限公司2025年年度报告\",\n      \"sha256\": \"7bee6f0f30a5da24746dd431f1947f15c8189fa9fbf5db75df4d3ba3c512c800\",\n      \"pages_total\": 218\n    },\n    {\n      \"company\": \"600298_安琪酵母\",\n      \"kind\": \"Q3\",\n      \"id\": \"600298-5c763f656754f15e\",\n      \"path\": \"sources/raw/02_定期报告与经营数据/2026-10-30_安琪酵母股份有限公司2026年第三季度报告_1225641080.pdf\",\n      \"title\": \"安琪酵母股份有限公司2026年第三季度报告\",\n      \"sha256\": \"f4739d889d29da1a9744f1fb9428f75f6e6331572031b3de1daec550113f59d1\",\n      \"pages_total\": 19\n    },\n    {\n      \"company\": \"600298_安琪酵母\",\n      \"kind\": \"H1\",\n      \"id\": \"600298-48dbfbb4962cfdb9\",\n      \"path\": \"sources/raw/01_年报/2026-08-15_安琪酵母股份有限公司2026年半年度报告_1225474683.pdf\",\n      \"title\": \"安琪酵母股份有限公司2026年半年度报告\",\n      \"sha256\": \"5a4940bc351e4d8c4c222857f896065044c944d7d9d149c1ccf598fb44bc968b\",\n      \"pages_total\": 176\n    }\n  ],\n  \"knowledge_application\": [\n    {\n      \"id\": \"K03\",\n      \"question\": \"总量、产品结构、组内ASP应如何判断？\",\n      \"method_used\": \"按总销量→产品销量占比→组内ASP顺序，三项精确闭合；交互归后序。\",\n      \"applied_to\": \"若新增产线达产后同范围经营回报仍低于机会成本且现金持续落后，收窄规模效应解释；若现金差异由一次性税款或结算时点解释，应撤回需求恶化推断。\"\n    },\n    {\n      \"id\": \"K11\",\n      \"question\": \"现金不是一个桶应如何判断？\",\n      \"method_used\": \"先解释报表CFO，再区分金融项、营运项目和实体经营；利润现金匹配需同一主体。\",\n      \"applied_to\": \"若新增产线达产后同范围经营回报仍低于机会成本且现金持续落后，收窄规模效应解释；若现金差异由一次性税款或结算时点解释，应撤回需求恶化推断。\"\n    },\n    {\n      \"id\": \"E03\",\n      \"question\": \"投资何时成为可销售产出、收入和现金？\",\n      \"method_used\": \"建立投入→产能→利用率→销量→收入→资本回收的条件路径\",\n      \"applied_to\": \"若新增产线达产后同范围经营回报仍低于机会成本且现金持续落后，收窄规模效应解释；若现金差异由一次性税款或结算时点解释，应撤回需求恶化推断。\"\n    },\n    {\n      \"id\": \"E06\",\n      \"question\": \"新增项目是否创造价值？\",\n      \"method_used\": \"匹配同批投资的后续收益和现金，区分历史平均ROIC与增量回报\",\n      \"applied_to\": \"若新增产线达产后同范围经营回报仍低于机会成本且现金持续落后，收窄规模效应解释；若现金差异由一次性税款或结算时点解释，应撤回需求恶化推断。\"\n    }\n  ],\n  \"contract_mapping\": \"共享contract-research-map：原文取证/口径/财务四环/行业优势与反证；本轮不宣称条款验收或签署\",\n  \"gaps\": \"缺新产线投产日/爬坡、按应用和地域的销量净价成本、糖蜜能源变动、实体/融资租赁现金范围和同批投入回报。\",\n  \"actions\": \"核对分地区/产品收入毛利、海外项目在建转固和利用率、汇兑及现金流调节附注，单列租赁等非酵母业务。\",\n  \"restatement_note\": \"年报摘要使用报告内可比列；柏楚往年每股收益随权益分派调整，本批不选EPS；泡泡IFRS与调整利润不混用\",\n  \"H1_candidate_reading_note\": {\n    \"physical_pages\": \"5\",\n    \"note\": \"2026H1收入+16.30%、归母+10.21%、CFO-23.79%；前三季延续收入快于利润且现金承压，需分营运投入与资本支出。\",\n    \"status\": \"未人审，不认定Fact\"\n  },\n  \"financial_statement_locations\": [\n    {\n      \"source_id\": \"600298-a14b53fefcfc0356\",\n      \"label\": \"合并资产负债表\",\n      \"physical_page\": 74\n    },\n    {\n      \"source_id\": \"600298-a14b53fefcfc0356\",\n      \"label\": \"合并利润表\",\n      \"physical_page\": 78\n    },\n    {\n      \"source_id\": \"600298-a14b53fefcfc0356\",\n      \"label\": \"合并现金流量表\",\n      \"physical_page\": 82\n    },\n    {\n      \"source_id\": \"600298-a14b53fefcfc0356\",\n      \"label\": \"存货或收入附注\",\n      \"physical_page\": 100\n    }\n  ],\n  \"scope_guard\": \"表格起始页可能先列母公司上表尾部，仅从合并表标题之后读取；合并/母公司及归母/总净利分开。存货政策/关键审计事项已读，不声称存货明细和资本经济归类已完成。\",\n  \"contract_requirements_map\": [\n    {\n      \"source\": \"D:\\\\投资学\\\\课件与任务文件\\\\任务合同\\\\第一次任务合同.md\",\n      \"sha256\": \"4867e16f12245ff4d5842c23841f4c7ebf4830b201169766b54c9a74eaa6f0fb\",\n      \"requirement_group\": [\n        \"证据与口径是否闭合\",\n        \"经营解释和反证是什么\",\n        \"预测变量和现金归属是否匹配\"\n      ],\n      \"result_positions\": [\n        \"work/review-batches\",\n        \"历史经营解释研究卡\",\n        \"风险与反方研究卡\"\n      ],\n      \"status\": \"方法承接，非合同验收/签署\"\n    },\n    {\n      \"source\": \"D:\\\\投资学\\\\课件与任务文件\\\\任务合同\\\\第三次任务合同_年报指标口径识别.md\",\n      \"sha256\": \"9453a5d0801b6251e56538e9ab2eaee325029e4fc907eaeb85378812f99bebf9\",\n      \"requirement_group\": [\n        \"证据与口径是否闭合\",\n        \"经营解释和反证是什么\",\n        \"预测变量和现金归属是否匹配\"\n      ],\n      \"result_positions\": [\n        \"work/review-batches\",\n        \"历史经营解释研究卡\",\n        \"风险与反方研究卡\"\n      ],\n      \"status\": \"方法承接，非合同验收/签署\"\n    },\n    {\n      \"source\": \"D:\\\\投资学\\\\课件与任务文件\\\\任务合同\\\\第二次任务合同_年报收入信息结构化提取.md\",\n      \"sha256\": \"fa9d200800e8a581eb8631e8d2d9daa475686c401f0995a51cf752e814a3da8d\",\n      \"requirement_group\": [\n        \"证据与口径是否闭合\",\n        \"经营解释和反证是什么\",\n        \"预测变量和现金归属是否匹配\"\n      ],\n      \"result_positions\": [\n        \"work/review-batches\",\n        \"历史经营解释研究卡\",\n        \"风险与反方研究卡\"\n      ],\n      \"status\": \"方法承接，非合同验收/签署\"\n    },\n    {\n      \"source\": \"D:\\\\投资学\\\\课件与任务文件\\\\任务合同\\\\第五次任务合同_贵州茅台商业模式、竞争优势与叙事核验.md\",\n      \"sha256\": \"742749871e570ecaa486f20c17e210f918edd39289c2a83dc4cd5dd4c2fe1d28\",\n      \"requirement_group\": [\n        \"证据与口径是否闭合\",\n        \"经营解释和反证是什么\",\n        \"预测变量和现金归属是否匹配\"\n      ],\n      \"result_positions\": [\n        \"work/review-batches\",\n        \"历史经营解释研究卡\",\n        \"风险与反方研究卡\"\n      ],\n      \"status\": \"方法承接，非合同验收/签署\"\n    },\n    {\n      \"source\": \"D:\\\\投资学\\\\课件与任务文件\\\\任务合同\\\\第五次任务合同第一部分_贵州茅台商业模式验证.md\",\n      \"sha256\": \"33c24262c521635601f76fb51f22f01a670db4b7c569fd12a372766c554ffee3\",\n      \"requirement_group\": [\n        \"证据与口径是否闭合\",\n        \"经营解释和反证是什么\",\n        \"预测变量和现金归属是否匹配\"\n      ],\n      \"result_positions\": [\n        \"work/review-batches\",\n        \"历史经营解释研究卡\",\n        \"风险与反方研究卡\"\n      ],\n      \"status\": \"方法承接，非合同验收/签署\"\n    },\n    {\n      \"source\": \"D:\\\\投资学\\\\课件与任务文件\\\\任务合同\\\\第四次任务合同_年报指标变化核验.md\",\n      \"sha256\": \"3d1af9c2753f9fc5fc5338038d48e7c3f033faf1960260b4d69fe3792be3e13b\",\n      \"requirement_group\": [\n        \"证据与口径是否闭合\",\n        \"经营解释和反证是什么\",\n        \"预测变量和现金归属是否匹配\"\n      ],\n      \"result_positions\": [\n        \"work/review-batches\",\n        \"历史经营解释研究卡\",\n        \"风险与反方研究卡\"\n      ],\n      \"status\": \"方法承接，非合同验收/签署\"\n    },\n    {\n      \"source\": \"D:\\\\投资学\\\\课件与任务文件\\\\补充材料\\\\第七次任务合同_贵州茅台叙事核验.md\",\n      \"sha256\": \"5237bc4d19110ed6f60eb6f425c5735d472606a341e72384829d1f99e7861035\",\n      \"requirement_group\": [\n        \"证据与口径是否闭合\",\n        \"经营解释和反证是什么\",\n        \"预测变量和现金归属是否匹配\"\n      ],\n      \"result_positions\": [\n        \"work/review-batches\",\n        \"历史经营解释研究卡\",\n        \"风险与反方研究卡\"\n      ],\n      \"status\": \"方法承接，非合同验收/签署\"\n    },\n    {\n      \"source\": \"D:\\\\投资学\\\\课件与任务文件\\\\补充材料\\\\第六次任务合同_贵州茅台行业竞争与竞争优势.md\",\n      \"sha256\": \"93acb50f2cd9c6977db83c0c69be0b52bda65ff8787556109c801175479c1629\",\n      \"requirement_group\": [\n        \"证据与口径是否闭合\",\n        \"经营解释和反证是什么\",\n        \"预测变量和现金归属是否匹配\"\n      ],\n      \"result_positions\": [\n        \"work/review-batches\",\n        \"历史经营解释研究卡\",\n        \"风险与反方研究卡\"\n      ],\n      \"status\": \"方法承接，非合同验收/签署\"\n    },\n    {\n      \"source\": \"D:\\\\投资学\\\\课件与任务文件\\\\补充材料3\\\\第七次任务合同_贵州茅台叙事核验.md\",\n      \"sha256\": \"6ca0d75c9efbcbd643d7129cb4ea5a3cb4be0a4c55ca63539f0041b01fa72c6e\",\n      \"requirement_group\": [\n        \"证据与口径是否闭合\",\n        \"经营解释和反证是什么\",\n        \"预测变量和现金归属是否匹配\"\n      ],\n      \"result_positions\": [\n        \"work/review-batches\",\n        \"历史经营解释研究卡\",\n        \"风险与反方研究卡\"\n      ],\n      \"status\": \"方法承接，非合同验收/签署\"\n    },\n    {\n      \"source\": \"D:\\\\投资学\\\\课件与任务文件\\\\补充材料3\\\\第五次任务合同_贵州茅台商业模式验证.md\",\n      \"sha256\": \"fb25c4182f568fb3922535f7a22363a06e9cae250a1c8cb53c206f17f629320d\",\n      \"requirement_group\": [\n        \"证据与口径是否闭合\",\n        \"经营解释和反证是什么\",\n        \"预测变量和现金归属是否匹配\"\n      ],\n      \"result_positions\": [\n        \"work/review-batches\",\n        \"历史经营解释研究卡\",\n        \"风险与反方研究卡\"\n      ],\n      \"status\": \"方法承接，非合同验收/签署\"\n    },\n    {\n      \"source\": \"D:\\\\投资学\\\\课件与任务文件\\\\补充材料3\\\\第五次任务延伸合同_贵州茅台渠道净贡献验证.md\",\n      \"sha256\": \"fa36428379f160d124a83a2e9906328ca904b9cce3fb6cea9fcf3d8ab99ab8af\",\n      \"requirement_group\": [\n        \"证据与口径是否闭合\",\n        \"经营解释和反证是什么\",\n        \"预测变量和现金归属是否匹配\"\n      ],\n      \"result_positions\": [\n        \"work/review-batches\",\n        \"历史经营解释研究卡\",\n        \"风险与反方研究卡\"\n      ],\n      \"status\": \"方法承接，非合同验收/签署\"\n    },\n    {\n      \"source\": \"D:\\\\投资学\\\\课件与任务文件\\\\补充材料3\\\\第五次任务延伸合同_贵州茅台现金与资本回报验证.md\",\n      \"sha256\": \"da205d95d3157ca474c8e5638749d884d5ede85302f449999b3879741a60d121\",\n      \"requirement_group\": [\n        \"证据与口径是否闭合\",\n        \"经营解释和反证是什么\",\n        \"预测变量和现金归属是否匹配\"\n      ],\n      \"result_positions\": [\n        \"work/review-batches\",\n        \"历史经营解释研究卡\",\n        \"风险与反方研究卡\"\n      ],\n      \"status\": \"方法承接，非合同验收/签署\"\n    },\n    {\n      \"source\": \"D:\\\\投资学\\\\课件与任务文件\\\\补充材料3\\\\第五次任务延伸合同_贵州茅台生产库存销售滞后验证.md\",\n      \"sha256\": \"d9da305bedb3f89c3f0a6b4478ced5e55b163f8bb4efd37e734ba5dc6c876261\",\n      \"requirement_group\": [\n        \"证据与口径是否闭合\",\n        \"经营解释和反证是什么\",\n        \"预测变量和现金归属是否匹配\"\n      ],\n      \"result_positions\": [\n        \"work/review-batches\",\n        \"历史经营解释研究卡\",\n        \"风险与反方研究卡\"\n      ],\n      \"status\": \"方法承接，非合同验收/签署\"\n    },\n    {\n      \"source\": \"D:\\\\投资学\\\\课件与任务文件\\\\补充材料3\\\\第六次任务合同_贵州茅台行业竞争与竞争优势.md\",\n      \"sha256\": \"0ed8d279fad8598890838f9da3e561c6b7e1cc4a1a9afd5da7103d89f1ef8aa2\",\n      \"requirement_group\": [\n        \"证据与口径是否闭合\",\n        \"经营解释和反证是什么\",\n        \"预测变量和现金归属是否匹配\"\n      ],\n      \"result_positions\": [\n        \"work/review-batches\",\n        \"历史经营解释研究卡\",\n        \"风险与反方研究卡\"\n      ],\n      \"status\": \"方法承接，非合同验收/签署\"\n    },\n    {\n      \"source\": \"D:\\\\投资学\\\\课件与任务文件\\\\补充材料4\\\\Lec05任务合同01_V1027_从贵州茅台叙事到预测参数.md\",\n      \"sha256\": \"ecb174a6ab8caf50e0e403019ef1100e47b314b36410ed954eedb82cba1fd8c7\",\n      \"requirement_group\": [\n        \"证据与口径是否闭合\",\n        \"经营解释和反证是什么\",\n        \"预测变量和现金归属是否匹配\"\n      ],\n      \"result_positions\": [\n        \"work/review-batches\",\n        \"历史经营解释研究卡\",\n        \"风险与反方研究卡\"\n      ],\n      \"status\": \"方法承接，非合同验收/签署\"\n    },\n    {\n      \"source\": \"D:\\\\投资学\\\\课件与任务文件\\\\补充材料4\\\\Lec05任务合同02_V1027_收入预测路径与一致性检查.md\",\n      \"sha256\": \"ebd6a7ed3fe41d8ec633a4d5100ff4c1245e37064abf621ddd0c9c743714e1a2\",\n      \"requirement_group\": [\n        \"证据与口径是否闭合\",\n        \"经营解释和反证是什么\",\n        \"预测变量和现金归属是否匹配\"\n      ],\n      \"result_positions\": [\n        \"work/review-batches\",\n        \"历史经营解释研究卡\",\n        \"风险与反方研究卡\"\n      ],\n      \"status\": \"方法承接，非合同验收/签署\"\n    },\n    {\n      \"source\": \"D:\\\\投资学\\\\课件与任务文件\\\\补充材料4\\\\Lec05任务合同03_V1027_现金流归属与每股价值计算.md\",\n      \"sha256\": \"2f3d6e0329eda8b5b2070b43e7a3d51b634e89a3849014406560dbc990b8c33b\",\n      \"requirement_group\": [\n        \"证据与口径是否闭合\",\n        \"经营解释和反证是什么\",\n        \"预测变量和现金归属是否匹配\"\n      ],\n      \"result_positions\": [\n        \"work/review-batches\",\n        \"历史经营解释研究卡\",\n        \"风险与反方研究卡\"\n      ],\n      \"status\": \"方法承接，非合同验收/签署\"\n    }\n  ]\n}\n",
+    "work/valuation/index.json": "{\n  \"runs\": [\n    {\n      \"id\": \"V2cc086959eb0\",\n      \"path\": \"work/valuation/v1-V2cc086959eb0.json\",\n      \"action\": \"forecast\",\n      \"state\": \"BlockedMissingInputs\",\n      \"version\": 1\n    }\n  ]\n}\n",
+    "work/valuation/v1-V2cc086959eb0.json": "{\n  \"id\": \"V2cc086959eb0\",\n  \"version\": 1,\n  \"at\": \"2026-11-12T03:58:31.480428+00:00\",\n  \"actor\": \"Agent/test-or-api\",\n  \"company\": \"600298_安琪酵母\",\n  \"action\": \"forecast\",\n  \"inputs\": {},\n  \"parameter_metadata\": {\n    \"register\": \"work/research09/parameter-register.json\",\n    \"missing\": \"分厂分应用销量净价、糖蜜与能源采购、利用率和产能年度；建设与爬坡投入收益的对应队列；经营与融资租赁现金分表、现金税与营运税款余额。\"\n  },\n  \"result\": {\n    \"state\": \"BlockedMissingInputs\",\n    \"missing_fields\": [\n      \"base_revenue\",\n      \"rows\"\n    ],\n    \"new_fact\": false,\n    \"impact\": \"无法执行forecast；按公司参数登记补同范围字段\"\n  },\n  \"module_sha256\": \"0155df03fa6ff2dd86a6a4c92f51f277f88e1edd45bfd972d191796276ac23ca\",\n  \"dependencies\": [\n    \"shared/runtime/companybench/valuation_chain.py\",\n    \"shared/runtime/companybench/research_depth.py\"\n  ],\n  \"recalculate\": \"python -B scripts/recalculate_valuation.py --company 600298_安琪酵母 --record work/valuation/v1-V2cc086959eb0.json\",\n  \"scope_boundary\": \"条件算术不是公司Fact；未完成beta业务去再杠杆、税损明细、归母权利桥\"\n}\n"
+  }
+}

@@ -1,0 +1,17 @@
+test_components_and_double_count (test_valuation_chain.ChainTests.test_components_and_double_count) ... ok
+test_cost_and_transition (test_valuation_chain.ChainTests.test_cost_and_transition) ... ok
+test_discount_path (test_valuation_chain.ChainTests.test_discount_path) ... ok
+test_growth_can_destroy_value (test_valuation_chain.ChainTests.test_growth_can_destroy_value) ... ok
+test_invalid_terminal (test_valuation_chain.ChainTests.test_invalid_terminal) ... ok
+test_nwc_stock_and_reversal (test_valuation_chain.ChainTests.test_nwc_stock_and_reversal) ... ok
+test_rd_cash_invariance (test_valuation_chain.ChainTests.test_rd_cash_invariance) ... ok
+test_stable_rate_not_historical_rate (test_valuation_chain.ChainTests.test_stable_rate_not_historical_rate) ... ok
+test_strict_missing_numbers (test_valuation_chain.ChainTests.test_strict_missing_numbers) ... ok
+test_terminal (test_valuation_chain.ChainTests.test_terminal) ... ok
+test_terminal_share (test_valuation_chain.ChainTests.test_terminal_share) ... ok
+test_three_year_cash (test_valuation_chain.ChainTests.test_three_year_cash) ... ok
+
+----------------------------------------------------------------------
+Ran 12 tests in 0.001s
+
+OK

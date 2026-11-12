@@ -63,7 +63,7 @@ def make_server(root=ROOT,port=0):
                 if downloadable:policy+=' allow-downloads'
                 self.send_header('Content-Security-Policy',policy)
             else:
-                self.send_header('Content-Security-Policy',"default-src 'self'; style-src 'self' 'unsafe-inline'; script-src 'nonce-"+token+"'; connect-src 'self'; img-src 'self' data:; frame-ancestors 'none'" if self.path.split('?')[0]=='/' else "default-src 'none'; style-src 'unsafe-inline'; img-src 'self' data:; sandbox allow-popups allow-top-navigation-by-user-activation")
+                self.send_header('Content-Security-Policy',"default-src 'self'; style-src 'self' 'unsafe-inline'; script-src 'nonce-"+token+"'; connect-src 'self'; img-src 'self' data:; frame-ancestors 'none'" if self.path.split('?')[0] in ('/','/showcase') else "default-src 'none'; style-src 'unsafe-inline'; img-src 'self' data:; sandbox allow-popups allow-top-navigation-by-user-activation")
             if disposition:self.send_header('Content-Disposition',disposition)
             self.end_headers();self.wfile.write(data)
         def host_ok(self):
@@ -80,12 +80,28 @@ def make_server(root=ROOT,port=0):
                 if route.path=='/':
                     page=(Path(__file__).parent/'ui.html').read_text(encoding='utf-8').replace('__TOKEN__',token)
                     self.send(page,content='text/html; charset=utf-8');return
-                if route.path in ('/assets/ui.js','/assets/ui.css'):
+                if route.path in ('/assets/ui.js','/assets/ui.css','/assets/showcase.js','/assets/showcase.css','/assets/result_features.js'):
                     name=route.path.rsplit('/',1)[1]
                     self.send((Path(__file__).parent/name).read_bytes(),content='text/javascript; charset=utf-8' if name.endswith('.js') else 'text/css; charset=utf-8');return
+                if route.path=='/api/showcase-templates':
+                    from .showcase import feature_templates
+                    self.send(feature_templates());return
+                if route.path=='/showcase':
+                    page=(Path(__file__).parent/'showcase.html').read_text(encoding='utf-8').replace('__TOKEN__',token)
+                    self.send(page,content='text/html; charset=utf-8');return
+                if route.path in ('/api/showcase','/api/showcase-history'):
+                    from .showcase import load,history
+                    space=query.get('space',['general'])[0]
+                    revision=int(query['revision'][0]) if 'revision' in query else None
+                    self.send(history(root,space) if route.path.endswith('history') else load(root,space,revision));return
                 if route.path=='/knowledge':
                     from .research_depth import knowledge_page
                     self.send(knowledge_page(token),content='text/html; charset=utf-8',interactive=True);return
+                if route.path=='/method-guide':
+                    from .research_depth import method_guide
+                    topic=query.get('topic',['knowledge-map'])[0]
+                    if topic not in ('knowledge-map','cashflow-terminal'):raise WorkbenchError('未知方法主题')
+                    self.send(method_guide(topic),content='text/html; charset=utf-8');return
                 if route.path=='/api/state':
                     entries=inventory(root);selected=query.get('project',[''])[0];value={'projects':[{'id':k,**project_info(e),'mode':e['mode']} for k,e in entries.items()], 'single_project':(root/'project.json').exists()}
                     if selected:
@@ -159,6 +175,10 @@ def make_server(root=ROOT,port=0):
                 length=int(self.headers.get('Content-Length','0'))
                 if not 0<length<=75*1024*1024:raise WorkbenchError('请求大小须为1字节—75MB；大量资料使用目录导入')
                 data=json.loads(self.rfile.read(length));action=urlparse(self.path).path
+                if action in ('/api/showcase','/api/showcase-validate'):
+                    from .showcase import save,validate
+                    if action.endswith('validate'):self.send({'valid':bool(validate(data['document']))});return
+                    self.send(save(root,data.get('space','general'),data['document'],data['expected_revision']));return
                 if action=='/api/new':
                     if (root/'project.json').exists():raise WorkbenchError('独立公司项目内不创建其他公司；请从通用工作台新建')
                     p=create_project(data['company'],data.get('code',''),data.get('profile','general'),kit=root)

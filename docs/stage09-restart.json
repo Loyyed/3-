@@ -1,0 +1,22 @@
+{
+  "at": "2026-11-12T04:09:44.962Z",
+  "processes": [
+    {
+      "port": 8780,
+      "old_pid": 14468,
+      "new_pid": 17440,
+      "root": "D:\\投资学\\三家公司证券投资分析"
+    },
+    {
+      "port": 8786,
+      "old_pid": 12704,
+      "new_pid": 17328,
+      "root": "C:\\Users\\Administrator\\AppData\\Local\\Temp\\stage09-browser-84a5mu9z"
+    }
+  ],
+  "main_methods": 73,
+  "fixture_v2": true,
+  "fixture_saved_runs": 5,
+  "fixture_impact_retained": true,
+  "fixture_output_affected": true
+}

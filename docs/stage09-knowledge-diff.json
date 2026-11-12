@@ -1,0 +1,577 @@
+{
+  "at": "2026-11-11T12:51:26.537653+00:00",
+  "before_count": 49,
+  "after_count": 73,
+  "cards": [
+    {
+      "id": "K01",
+      "source_sha256": "e86ffad31610562b0256ce18c509e2028d68ca79f352678b9c1c5c66d2a1feeb",
+      "source_version": "2026-11-11",
+      "old_version": 1,
+      "status": "unchanged-preserved",
+      "reason": "保留工程增强字段及E卡；只增量安装，修订单独留版本"
+    },
+    {
+      "id": "K02",
+      "source_sha256": "105557d99efe59545a56285fbab4c65e2815080edbd3e5c598be4194f8a01fb9",
+      "source_version": "2026-11-11",
+      "old_version": 1,
+      "status": "unchanged-preserved",
+      "reason": "保留工程增强字段及E卡；只增量安装，修订单独留版本"
+    },
+    {
+      "id": "K03",
+      "source_sha256": "ff657c6c9ff5cf6cde5c8664a60706b77f93776c25408b5d72e40877c440b06d",
+      "source_version": "2026-11-11",
+      "old_version": 1,
+      "status": "unchanged-preserved",
+      "reason": "保留工程增强字段及E卡；只增量安装，修订单独留版本"
+    },
+    {
+      "id": "K04",
+      "source_sha256": "909cb0d6a60401a1b02dd93230140dffdf9bae9a3e99f19b53fe30aea2b1b7f0",
+      "source_version": "2026-11-11",
+      "old_version": 1,
+      "status": "unchanged-preserved",
+      "reason": "保留工程增强字段及E卡；只增量安装，修订单独留版本"
+    },
+    {
+      "id": "K05",
+      "source_sha256": "699a58597bd762dfca66d3e7dfedd0eb0cd8ce57febbff1ef5e6aaa2bdd0800c",
+      "source_version": "2026-11-11",
+      "old_version": 1,
+      "status": "unchanged-preserved",
+      "reason": "保留工程增强字段及E卡；只增量安装，修订单独留版本"
+    },
+    {
+      "id": "K06",
+      "source_sha256": "9d677decfa34a9ddeddc6746733c6684e8dcf903463e748c0180c88f90ec2361",
+      "source_version": "2026-11-11",
+      "old_version": 1,
+      "status": "unchanged-preserved",
+      "reason": "保留工程增强字段及E卡；只增量安装，修订单独留版本"
+    },
+    {
+      "id": "K07",
+      "source_sha256": "ac3b557b32e932d034fa9777dbbf0664e2d3fed089598be2c054474b49d72b6f",
+      "source_version": "2026-11-11",
+      "old_version": 1,
+      "status": "unchanged-preserved",
+      "reason": "保留工程增强字段及E卡；只增量安装，修订单独留版本"
+    },
+    {
+      "id": "K08",
+      "source_sha256": "8ea6a5328b427b34abea2b2ef1156d60f9dcdd066f1953777ed6ef679e9379bc",
+      "source_version": "2026-11-11",
+      "old_version": 1,
+      "status": "unchanged-preserved",
+      "reason": "保留工程增强字段及E卡；只增量安装，修订单独留版本"
+    },
+    {
+      "id": "K09",
+      "source_sha256": "7e62cb7e2ad385d0c8b5cbe4c1e0b6df0d0ea68337a1309295e210cc24ae9a68",
+      "source_version": "2026-11-11",
+      "old_version": 1,
+      "status": "unchanged-preserved",
+      "reason": "保留工程增强字段及E卡；只增量安装，修订单独留版本"
+    },
+    {
+      "id": "K10",
+      "source_sha256": "01f255d1d2e5d7bde3680764dae18fa02a1a58c7af24c5ac841e8be6faad2e5c",
+      "source_version": "2026-11-11",
+      "old_version": 1,
+      "status": "unchanged-preserved",
+      "reason": "保留工程增强字段及E卡；只增量安装，修订单独留版本"
+    },
+    {
+      "id": "K11",
+      "source_sha256": "e0db0ea0a0bfd60c30121f527d98636c9443a9e458f5dbf00233d7e990b08342",
+      "source_version": "2026-11-11",
+      "old_version": 1,
+      "status": "unchanged-preserved",
+      "reason": "保留工程增强字段及E卡；只增量安装，修订单独留版本"
+    },
+    {
+      "id": "K12",
+      "source_sha256": "4aa8f531f097e42e02213f582b92bbfcade1e718a5937c1c975c5eab27e701c3",
+      "source_version": "2026-11-11",
+      "old_version": 1,
+      "status": "unchanged-preserved",
+      "reason": "保留工程增强字段及E卡；只增量安装，修订单独留版本"
+    },
+    {
+      "id": "K13",
+      "source_sha256": "20dc1e22275677309d5b3cf9026df35835d13d82ed39a67c6a4800bf25a790f5",
+      "source_version": "2026-11-11",
+      "old_version": 1,
+      "status": "unchanged-preserved",
+      "reason": "保留工程增强字段及E卡；只增量安装，修订单独留版本"
+    },
+    {
+      "id": "K14",
+      "source_sha256": "e19870ecbe54b01ff40775a24738db487e5d30bbe577894f2ce9ee555c23d9f6",
+      "source_version": "2026-11-11",
+      "old_version": 1,
+      "status": "unchanged-preserved",
+      "reason": "保留工程增强字段及E卡；只增量安装，修订单独留版本"
+    },
+    {
+      "id": "K15",
+      "source_sha256": "211c8f744ae848374665626c016de36e3befc50f443377e3eec38044329f777a",
+      "source_version": "2026-11-11",
+      "old_version": 1,
+      "status": "unchanged-preserved",
+      "reason": "保留工程增强字段及E卡；只增量安装，修订单独留版本"
+    },
+    {
+      "id": "K16",
+      "source_sha256": "f7284165ebb58c8cfbfeb0ff328b93a715596c69d1b4fcacccd6a85bc5a40e8b",
+      "source_version": "2026-11-11",
+      "old_version": 1,
+      "status": "unchanged-preserved",
+      "reason": "保留工程增强字段及E卡；只增量安装，修订单独留版本"
+    },
+    {
+      "id": "K17",
+      "source_sha256": "09c60d7ec210d78d9347b52edcac1ff213df22476003b5d28e8e2ba88ec74b50",
+      "source_version": "2026-11-11",
+      "old_version": 1,
+      "status": "unchanged-preserved",
+      "reason": "保留工程增强字段及E卡；只增量安装，修订单独留版本"
+    },
+    {
+      "id": "K18",
+      "source_sha256": "f451a1c4e436593f3b375785c020632bc88e533f88034068b3d7d9485614a643",
+      "source_version": "2026-11-11",
+      "old_version": 1,
+      "status": "unchanged-preserved",
+      "reason": "保留工程增强字段及E卡；只增量安装，修订单独留版本"
+    },
+    {
+      "id": "K19",
+      "source_sha256": "b84d2e27537eea438aa9c3ce215d0ccecfac92ff4f74725f2815a82e9d31fd10",
+      "source_version": "2026-11-11",
+      "old_version": 1,
+      "status": "unchanged-preserved",
+      "reason": "保留工程增强字段及E卡；只增量安装，修订单独留版本"
+    },
+    {
+      "id": "K20",
+      "source_sha256": "e9b68bce24653662b9bc210e591d5bf7eef6161858ba949ccf150f4de3d3236e",
+      "source_version": "2026-11-11",
+      "old_version": 1,
+      "status": "unchanged-preserved",
+      "reason": "保留工程增强字段及E卡；只增量安装，修订单独留版本"
+    },
+    {
+      "id": "K21",
+      "source_sha256": "0830cfd97581b77d89068a1877768580430842f680f6e5143d67f8bcc3971071",
+      "source_version": "2026-11-11",
+      "old_version": 1,
+      "status": "unchanged-preserved",
+      "reason": "保留工程增强字段及E卡；只增量安装，修订单独留版本"
+    },
+    {
+      "id": "K22",
+      "source_sha256": "28397d41f93f453df43918206f945dc1a0f6a632907854bc1c5385ba6bfe1368",
+      "source_version": "2026-11-11",
+      "old_version": 1,
+      "status": "unchanged-preserved",
+      "reason": "保留工程增强字段及E卡；只增量安装，修订单独留版本"
+    },
+    {
+      "id": "K23",
+      "source_sha256": "052b2b959b37cce9cdcd8e96e7c287529486f8a23500bea782f5d87f69e9a0e0",
+      "source_version": "2026-11-11",
+      "old_version": 1,
+      "status": "unchanged-preserved",
+      "reason": "保留工程增强字段及E卡；只增量安装，修订单独留版本"
+    },
+    {
+      "id": "K24",
+      "source_sha256": "4cb64ad6e6e5fa6ce6ca52a366403d875947189a0cd324bbe29983213b5716c2",
+      "source_version": "2026-11-11",
+      "old_version": 1,
+      "status": "unchanged-preserved",
+      "reason": "保留工程增强字段及E卡；只增量安装，修订单独留版本"
+    },
+    {
+      "id": "K25",
+      "source_sha256": "cc2b077eb0a0ea3b810a0bdf5715466fdf51ca8477b0f4b58bf23e63f9fa6c2c",
+      "source_version": "2026-11-11",
+      "old_version": 1,
+      "status": "unchanged-preserved",
+      "reason": "保留工程增强字段及E卡；只增量安装，修订单独留版本"
+    },
+    {
+      "id": "K26",
+      "source_sha256": "3329529973742cb900b63d87dbc78d296edd52f602b799d7ca8d947ab5c78c67",
+      "source_version": "2026-11-11",
+      "old_version": 1,
+      "status": "unchanged-preserved",
+      "reason": "保留工程增强字段及E卡；只增量安装，修订单独留版本"
+    },
+    {
+      "id": "K27",
+      "source_sha256": "f4a8f42b11e40a287ec9aef523154debc791ccc7a35f1ca065492e669c311829",
+      "source_version": "2026-11-11",
+      "old_version": 1,
+      "status": "unchanged-preserved",
+      "reason": "保留工程增强字段及E卡；只增量安装，修订单独留版本"
+    },
+    {
+      "id": "K28",
+      "source_sha256": "709b315502427d469b30c5e8aa2cf560b7cb3379c10fea86455e58cd89e429d9",
+      "source_version": "2026-11-11",
+      "old_version": 1,
+      "status": "unchanged-preserved",
+      "reason": "保留工程增强字段及E卡；只增量安装，修订单独留版本"
+    },
+    {
+      "id": "K29",
+      "source_sha256": "5c2792afe4b5d9cebe6d49e06578ae8ace5f0958bcd25a261065742dafae4bcd",
+      "source_version": "2026-11-11",
+      "old_version": 1,
+      "status": "unchanged-preserved",
+      "reason": "保留工程增强字段及E卡；只增量安装，修订单独留版本"
+    },
+    {
+      "id": "K30",
+      "source_sha256": "963125e16abb4033c3908442b90244e32f88a73a54d1486b3a9a7305325243ac",
+      "source_version": "2026-11-11",
+      "old_version": 1,
+      "status": "unchanged-preserved",
+      "reason": "保留工程增强字段及E卡；只增量安装，修订单独留版本"
+    },
+    {
+      "id": "K31",
+      "source_sha256": "370f0262a3e491571966010fab467d353f80f803b2370befa6b18608312c1c43",
+      "source_version": "2026-11-11",
+      "old_version": 1,
+      "status": "unchanged-preserved",
+      "reason": "保留工程增强字段及E卡；只增量安装，修订单独留版本"
+    },
+    {
+      "id": "K32",
+      "source_sha256": "e9614b54ca5cfb1db2ed689038d9ebbf04712dd97f4798eca088723c8b4b50f3",
+      "source_version": "2026-11-11",
+      "old_version": 1,
+      "status": "unchanged-preserved",
+      "reason": "保留工程增强字段及E卡；只增量安装，修订单独留版本"
+    },
+    {
+      "id": "K33",
+      "source_sha256": "fa214d33203338adabd45774fa7c119fc084920a236a639a1483c62ccdd0771f",
+      "source_version": "2026-11-11",
+      "old_version": 1,
+      "status": "unchanged-preserved",
+      "reason": "保留工程增强字段及E卡；只增量安装，修订单独留版本"
+    },
+    {
+      "id": "K34",
+      "source_sha256": "322bb6b414f65ee03fcbf48bfae3c6c599f550a44c7b754952d3c1ed95ce74b4",
+      "source_version": "2026-11-11",
+      "old_version": 1,
+      "status": "unchanged-preserved",
+      "reason": "保留工程增强字段及E卡；只增量安装，修订单独留版本"
+    },
+    {
+      "id": "K35",
+      "source_sha256": "dfeea299518367e3b531958c4748047cf25b4d26acc4fc103ca1c2f9eb9d3422",
+      "source_version": "2026-11-11",
+      "old_version": 1,
+      "status": "unchanged-preserved",
+      "reason": "保留工程增强字段及E卡；只增量安装，修订单独留版本"
+    },
+    {
+      "id": "K36",
+      "source_sha256": "bf3c0c16a9b65d521c30eb11993f6db4f16d061c01d03d5ca635ba5edd62e22d",
+      "source_version": "2026-11-11",
+      "old_version": 1,
+      "status": "unchanged-preserved",
+      "reason": "保留工程增强字段及E卡；只增量安装，修订单独留版本"
+    },
+    {
+      "id": "K37",
+      "source_sha256": "9d1c013190eb2aa15ec76ae96bfa4a43348f041fd25cf0d0a9ec594d4ea19e94",
+      "source_version": "2026-11-11",
+      "old_version": 1,
+      "status": "unchanged-preserved",
+      "reason": "保留工程增强字段及E卡；只增量安装，修订单独留版本"
+    },
+    {
+      "id": "K38",
+      "source_sha256": "da437c00286f68bf34f1e4cf3f2d5c94484a3672071985075c0c4218a64b7614",
+      "source_version": "2026-11-11",
+      "old_version": 1,
+      "status": "unchanged-preserved",
+      "reason": "保留工程增强字段及E卡；只增量安装，修订单独留版本"
+    },
+    {
+      "id": "K39",
+      "source_sha256": "ac9407999cc9e2634140ddaec20f6bde30fe12f02137703fab4e1fab99e30097",
+      "source_version": "2026-11-11",
+      "old_version": 1,
+      "status": "unchanged-preserved",
+      "reason": "保留工程增强字段及E卡；只增量安装，修订单独留版本"
+    },
+    {
+      "id": "K40",
+      "source_sha256": "8efda2d973717f97b300e35ed5071e08c57bc28d4d3871c9484dd3f472659a05",
+      "source_version": "2026-11-11",
+      "old_version": 1,
+      "status": "unchanged-preserved",
+      "reason": "保留工程增强字段及E卡；只增量安装，修订单独留版本"
+    },
+    {
+      "id": "K41",
+      "source_sha256": "3ad8721c339b1f2914a0ce2747df7b778fe1391bbc8a1d60c9c41277658ff313",
+      "source_version": "2026-11-11",
+      "old_version": null,
+      "status": "added",
+      "reason": "保留工程增强字段及E卡；只增量安装，修订单独留版本"
+    },
+    {
+      "id": "K42",
+      "source_sha256": "d5d7360f72b768470dcbbbffe105786b430c381632eebb55ff525ee00f7dde6e",
+      "source_version": "2026-11-11",
+      "old_version": null,
+      "status": "added",
+      "reason": "保留工程增强字段及E卡；只增量安装，修订单独留版本"
+    },
+    {
+      "id": "K43",
+      "source_sha256": "033e2817a32f1835aef0a0358ce25c7f3cd40f2bb921d83946d0c273b53a041c",
+      "source_version": "2026-11-11",
+      "old_version": null,
+      "status": "added",
+      "reason": "保留工程增强字段及E卡；只增量安装，修订单独留版本"
+    },
+    {
+      "id": "K44",
+      "source_sha256": "8da45af52a34eb17e56a1092b5bdd45b050e2dbfbea4108300d3177495f6ca4a",
+      "source_version": "2026-11-11",
+      "old_version": null,
+      "status": "added",
+      "reason": "保留工程增强字段及E卡；只增量安装，修订单独留版本"
+    },
+    {
+      "id": "K45",
+      "source_sha256": "9383ca3de2d7c3429642459027e4a8aca5be9f49f26ec5353f9ae6cda80fb5b9",
+      "source_version": "2026-11-11",
+      "old_version": null,
+      "status": "added",
+      "reason": "保留工程增强字段及E卡；只增量安装，修订单独留版本"
+    },
+    {
+      "id": "K46",
+      "source_sha256": "e2809cf67b3a515bb2766f8198e8cf8b4d2fb92e708f9daae13fe30245e4321d",
+      "source_version": "2026-11-11",
+      "old_version": null,
+      "status": "added",
+      "reason": "保留工程增强字段及E卡；只增量安装，修订单独留版本"
+    },
+    {
+      "id": "K47",
+      "source_sha256": "2c60d9aa6c9a2a390aaed00e4264fa54642043dc67e259062a2035b2ca070a88",
+      "source_version": "2026-11-11",
+      "old_version": null,
+      "status": "added",
+      "reason": "保留工程增强字段及E卡；只增量安装，修订单独留版本"
+    },
+    {
+      "id": "K48",
+      "source_sha256": "0c0ce1742c7faf6969594e919633c2e14be6835db9bdfedd57a61ae8d8afd1ac",
+      "source_version": "2026-11-11",
+      "old_version": null,
+      "status": "added",
+      "reason": "保留工程增强字段及E卡；只增量安装，修订单独留版本"
+    },
+    {
+      "id": "K49",
+      "source_sha256": "fe924edc238e619ff7039b01659af16c26288f9758a6129eff49ea91252e4678",
+      "source_version": "2026-11-11",
+      "old_version": null,
+      "status": "added",
+      "reason": "保留工程增强字段及E卡；只增量安装，修订单独留版本"
+    },
+    {
+      "id": "K50",
+      "source_sha256": "b35a8777a9c32d505bd70c63b832ceb57c2348473eb1b950d686eea0f09d6edb",
+      "source_version": "2026-11-11",
+      "old_version": null,
+      "status": "added",
+      "reason": "保留工程增强字段及E卡；只增量安装，修订单独留版本"
+    },
+    {
+      "id": "K51",
+      "source_sha256": "a731de994256106354c9a5be59f42b5959d476a350c279eed5cefa3c04d8e0bf",
+      "source_version": "2026-11-11",
+      "old_version": null,
+      "status": "added",
+      "reason": "保留工程增强字段及E卡；只增量安装，修订单独留版本"
+    },
+    {
+      "id": "K52",
+      "source_sha256": "bdab544f9eb761f6365b2a87edd1d8529b226670a88219eccdfae8d4ba9ab509",
+      "source_version": "2026-11-11",
+      "old_version": null,
+      "status": "added",
+      "reason": "保留工程增强字段及E卡；只增量安装，修订单独留版本"
+    },
+    {
+      "id": "K53",
+      "source_sha256": "839901df0af3c6f33d397a16d2129793d1c6896ccf37ab3c585af59a67039efb",
+      "source_version": "2026-11-11",
+      "old_version": null,
+      "status": "added",
+      "reason": "保留工程增强字段及E卡；只增量安装，修订单独留版本"
+    },
+    {
+      "id": "K54",
+      "source_sha256": "fefe33da149c4512b375ebb942cb4dbbc7d580ec51b47f0db53cdb11cca69e9b",
+      "source_version": "2026-11-11",
+      "old_version": null,
+      "status": "added",
+      "reason": "保留工程增强字段及E卡；只增量安装，修订单独留版本"
+    },
+    {
+      "id": "K55",
+      "source_sha256": "e2568ccab82b32dbd0921ae37a684971b7803c2e7557b178534ff7162c03c845",
+      "source_version": "2026-11-11",
+      "old_version": null,
+      "status": "added",
+      "reason": "保留工程增强字段及E卡；只增量安装，修订单独留版本"
+    },
+    {
+      "id": "K56",
+      "source_sha256": "af7a84de846b71cdb697a2fb2ed0d55ce36539621bfc4f5ed61f848fceff1d4c",
+      "source_version": "2026-11-11",
+      "old_version": null,
+      "status": "added",
+      "reason": "保留工程增强字段及E卡；只增量安装，修订单独留版本"
+    },
+    {
+      "id": "K57",
+      "source_sha256": "931eafcfae9a746fcd87800c041dfe3f2b9d695c2025f793ee0f951c903b3511",
+      "source_version": "2026-11-11",
+      "old_version": null,
+      "status": "added",
+      "reason": "保留工程增强字段及E卡；只增量安装，修订单独留版本"
+    },
+    {
+      "id": "K58",
+      "source_sha256": "f41605b06749852bc7db2dce9e30eff88e57b123fe79a71e988f23f9daf80607",
+      "source_version": "2026-11-11",
+      "old_version": null,
+      "status": "added",
+      "reason": "保留工程增强字段及E卡；只增量安装，修订单独留版本"
+    },
+    {
+      "id": "K59",
+      "source_sha256": "1d8a1539032c55f437c3cf25ae2659ad5739497f1ad50c9270127fb1c7a6a2fc",
+      "source_version": "2026-11-11",
+      "old_version": null,
+      "status": "added",
+      "reason": "保留工程增强字段及E卡；只增量安装，修订单独留版本"
+    },
+    {
+      "id": "K60",
+      "source_sha256": "ca17a82ae929cfdd8d701b75ec7816ab161d5b8c366135b92eae26260f0ab6a3",
+      "source_version": "2026-11-11",
+      "old_version": null,
+      "status": "added",
+      "reason": "保留工程增强字段及E卡；只增量安装，修订单独留版本"
+    },
+    {
+      "id": "K61",
+      "source_sha256": "ae153b8615bbbdf4cdd94f4ca6cbcc0b2ed827e81eff4a01eabe9e7e1d6a232f",
+      "source_version": "2026-11-11",
+      "old_version": null,
+      "status": "added",
+      "reason": "保留工程增强字段及E卡；只增量安装，修订单独留版本"
+    },
+    {
+      "id": "K62",
+      "source_sha256": "eb8d6f03ef8b7d8af58ee9504f4216c020092dd6ae1e518d789ca2d9c1239338",
+      "source_version": "2026-11-11",
+      "old_version": null,
+      "status": "added",
+      "reason": "保留工程增强字段及E卡；只增量安装，修订单独留版本"
+    },
+    {
+      "id": "K63",
+      "source_sha256": "bedf9f193dc06e6e1f09e7c956ac06398222f76a22653bedabd0ac652cf85b9c",
+      "source_version": "2026-11-11",
+      "old_version": null,
+      "status": "added",
+      "reason": "保留工程增强字段及E卡；只增量安装，修订单独留版本"
+    },
+    {
+      "id": "K64",
+      "source_sha256": "29528df3a4bae3263ad68fc9eef63b30652b93fa4ddb18fec0cd1daf902ea702",
+      "source_version": "2026-11-11",
+      "old_version": null,
+      "status": "added",
+      "reason": "保留工程增强字段及E卡；只增量安装，修订单独留版本"
+    }
+  ],
+  "corrections": [
+    {
+      "from": "K48",
+      "original": "K4",
+      "normalized": "K04",
+      "reason": "回核K03/K04标题与方法，统一已有两位编号；来源原文不改"
+    },
+    {
+      "from": "K49",
+      "original": "K3",
+      "normalized": "K03",
+      "reason": "回核K03/K04标题与方法，统一已有两位编号；来源原文不改"
+    },
+    {
+      "from": "K51",
+      "original": "K4",
+      "normalized": "K04",
+      "reason": "回核K03/K04标题与方法，统一已有两位编号；来源原文不改"
+    }
+  ],
+  "preserved_E": [
+    "E01",
+    "E02",
+    "E03",
+    "E04",
+    "E05",
+    "E06",
+    "E07",
+    "E08",
+    "E09"
+  ],
+  "new_ids": [
+    "K41",
+    "K42",
+    "K43",
+    "K44",
+    "K45",
+    "K46",
+    "K47",
+    "K48",
+    "K49",
+    "K50",
+    "K51",
+    "K52",
+    "K53",
+    "K54",
+    "K55",
+    "K56",
+    "K57",
+    "K58",
+    "K59",
+    "K60",
+    "K61",
+    "K62",
+    "K63",
+    "K64"
+  ],
+  "missing_related": []
+}

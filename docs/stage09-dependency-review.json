@@ -1,0 +1,29 @@
+{
+  "changed": [
+    {
+      "path": "companybench\\knowledge.json",
+      "old": "8cbc2191caa8aff19b8aee21caf2d2d63206d309fb8746d82ce9f01b3cc822f5",
+      "current": "8434dead6134772c8e357ea0696f7d3a38a7ad55fd001b0684249322cd3bbaf9"
+    },
+    {
+      "path": "companybench\\portal.py",
+      "old": "a3d4ea938fff6c057302bc2ac307b1a45b4f89c65879997e5ec1e3489b6e5379",
+      "current": "53055f42b99f32b96669f9f3ec608e6a086b3e803c11b90db48ecbaa92cc145e"
+    },
+    {
+      "path": "companybench\\research_depth.py",
+      "old": "7fce082d71a0d1b6116200aebf86caafaccbc4b62be5a170e4ca5802ab790e44",
+      "current": "bb364cd41336a0d3fe62d0d0663f7e8557570aeff2d201c21517259ae1404a41"
+    },
+    {
+      "path": "companybench\\ui.html",
+      "old": "fc94a1f4bde59eb9282cc7756b41a752a73fa10e51aab78535904a412e99f0af",
+      "current": "614a729d645c6a1ea02badcfc115601343c67470d7c13b9367f3a8508131e42f"
+    }
+  ],
+  "review": "portal新增白名单method-guide与showcase路由；原Host/Origin/token控制保留，showcase使用nonce；research_depth只增加受控方法导航；ui.html新增展示链接。展示草稿与公司Fact分离。新增valuation_chain无Fact写入。",
+  "compatibility": "本轮完整来源unittest实际通过，项目适配与新进程另验",
+  "source_head": "6d8a6504f1ee4ec07851bff33f6a5148989ec4c7",
+  "source_uncommitted": " M README.md\n M companybench/knowledge.json\n M companybench/portal.py\n M companybench/research_depth.py\n M companybench/ui.html\n M skills/investment-insight-forecast/SKILL.md\n M skills/investment-research-delivery/SKILL.md\n M tests/test_research_depth.py\n M 会话交接/CURRENT.md\n?? companybench/result_features.js\n?? companybench/result_features.json\n?? companybench/showcase.css\n?? companybench/showcase.html\n?? companybench/showcase.js\n?? companybench/showcase.py\n?? companybench/valuation_chain.py\n?? docs/2026-11-11-知识整合与现金流.md\n?? docs/2026-11-12-大型结果卡.md\n?? docs/2026-11-12-最终展示图册.md\n?? skills/investment-insight-forecast/references/cashflow-terminal.md\n?? skills/investment-insight-forecast/references/knowledge-map.md\n?? skills/investment-research-delivery/references/large-results.md\n?? templates/valuation-parameter-register.json\n?? tests/test_showcase.py\n?? tests/test_valuation_chain.py\n",
+  "recovery": "shared/runtime + shared/skills + shared/templates 为本工程范围审核的纯方法快照；不依赖来源未提交文件"
+}

@@ -1,0 +1,68 @@
+{
+  "at": "2026-11-12T04:06:44.116Z",
+  "companies": [
+    {
+      "company": "涪陵榨菜",
+      "overflow": false,
+      "sourceID": "002507-d45bfdfdec6d4379",
+      "raw_http": 200,
+      "intact": true,
+      "counts": {
+        "Fact": 0,
+        "Unknown": 12,
+        "total": 12
+      }
+    },
+    {
+      "company": "泡泡玛特",
+      "overflow": false,
+      "sourceID": "S363e6ba37cb28262",
+      "raw_http": 200,
+      "intact": true,
+      "counts": {
+        "Fact": 0,
+        "Unknown": 13,
+        "total": 13
+      }
+    },
+    {
+      "company": "安琪酵母",
+      "overflow": false,
+      "sourceID": "600298-5c763f656754f15e",
+      "raw_http": 200,
+      "intact": true,
+      "counts": {
+        "Fact": 0,
+        "Unknown": 12,
+        "total": 12
+      }
+    },
+    {
+      "company": "柏楚电子",
+      "overflow": false,
+      "sourceID": "688188-63c702dcc0d35898",
+      "raw_http": 200,
+      "intact": true,
+      "counts": {
+        "Fact": 0,
+        "Unknown": 12,
+        "total": 12
+      }
+    },
+    {
+      "company": "Intuitive Surgical, Inc.（直觉外科）",
+      "overflow": false,
+      "sourceID": "Sf92ee8eb3f06a597",
+      "raw_http": 200,
+      "intact": true,
+      "counts": {
+        "Fact": 0,
+        "Unknown": 55,
+        "total": 55
+      }
+    }
+  ],
+  "cash_tax_search": 4,
+  "experience_http": 200,
+  "body_available": true
+}

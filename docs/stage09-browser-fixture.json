@@ -1,0 +1,72 @@
+{
+  "at": "2026-11-12T04:04:48.968Z",
+  "root": "C:\\Users\\Administrator\\AppData\\Local\\Temp\\stage09-browser-84a5mu9z",
+  "material_import": true,
+  "extract_adopt_apply_save": true,
+  "method": "Ua1267e720705",
+  "conditional_actions": [
+    {
+      "state": "ConditionalCalculation",
+      "new_fact": false,
+      "rows": [
+        {
+          "year": 1,
+          "factor": "0.9090909090909090909090909090909090909091",
+          "pv": "9.090909090909090909090909090909090909091"
+        },
+        {
+          "year": 2,
+          "factor": "0.8340283569641367806505421184320266889074",
+          "pv": "10.00834028356964136780650542118432026689"
+        }
+      ],
+      "pv_explicit": "19.09924937447873227689741451209341117598",
+      "terminal_discount_factor": "0.8340283569641367806505421184320266889074",
+      "boundary": "仅年末现金流现值，不含终值或权益桥。"
+    },
+    {
+      "state": "ConditionalCalculation",
+      "new_fact": false,
+      "ke": "0.09",
+      "wacc": "0.0795",
+      "boundary": "仅普通股与债务；市场权重、债务边际成本及当期充分税盾需有独立依据。"
+    },
+    {
+      "state": "ConditionalCalculation",
+      "new_fact": false,
+      "rows": [
+        {
+          "year": 1,
+          "revenue": "110",
+          "ebit": "22",
+          "cash_operating_tax": "5",
+          "cash_after_operating_tax": "17",
+          "reinvestment": "4",
+          "fcff": "13",
+          "revenue_change": "10"
+        }
+      ],
+      "boundary": "现金税由调用者独立预测；不自动使用有效税率。负再投资须有资产退出/营运资本回收依据。"
+    },
+    {
+      "state": "ConditionalCalculation",
+      "new_fact": false,
+      "rr": "0.2",
+      "reinvestment_next": "3",
+      "fcff_next": "12",
+      "tv_at_horizon": "200",
+      "pv_terminal": "181.8181818181818181818181818181818181818",
+      "operating_value": "191.8181818181818181818181818181818181818",
+      "terminal_share": "0.9478672985781990521327014218009478672986",
+      "boundary": "数值通过不证明稳定期成立；显性末年投入与下一年利润衔接须单独核对。终值占比可超过100%。"
+    },
+    {
+      "unexplained_profit_change": "0",
+      "closed_under_new_investment_only": true,
+      "boundary": "差额可来自旧资产效率/利润率/税负变化；需另解释，不自动否定模型。",
+      "state": "ConditionalCalculation",
+      "new_fact": false
+    }
+  ],
+  "revision_persisted": true
+}

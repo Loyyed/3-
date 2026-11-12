@@ -1,0 +1,6 @@
+{
+  "at": "2026-11-12T03:58:31.420590+00:00",
+  "facts": [],
+  "candidates": 12,
+  "change_facts": "普通核心无独立change_facts接口；派生变化仍在原ReviewStore.records/facts，不另造权威"
+}

@@ -1,2 +1,8 @@
 
 outputs/** -text
+
+shared/runtime/** -text
+shared/skills/** -text
+shared/templates/** -text
+companies/*/work/research09/** -text
+companies/*/work/valuation/** -text

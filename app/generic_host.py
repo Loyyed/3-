@@ -34,6 +34,11 @@ def start(root,kit,port):
      if route.path.endswith('preview') and path.suffix=='.html':return self.send(path.read_bytes(),content='text/html; charset=utf-8',interactive=True)
      return self.send(path.read_bytes(),content='application/octet-stream',disposition='attachment; filename="'+path.name+'"')
     except Exception as e:return self.send({'error':str(e)},400)
+   if route.path=='/api/experience':
+    try:
+     from companybench.workflow import export_html
+     topic=q.get('topic',['knowledge-map'])[0];allowed={'knowledge-map':'investment-insight-forecast','cashflow-terminal':'investment-insight-forecast','experience-and-failure-modes':'investment-company-analysis'};assert topic in allowed,'未知经验主题';path=root/'shared/skills'/allowed[topic]/'references'/(topic+'.md');return self.send(export_html(path.read_text(encoding='utf-8')),content='text/html; charset=utf-8')
+    except Exception as e:return self.send({'error':str(e)},400)
    if route.path=='/api/project-state':
     try:
      key=q['project'][0];cid=mapping[key];value=engine.state();value['selected_company']=cid;value['connection_map']=mapping;return self.send(value)

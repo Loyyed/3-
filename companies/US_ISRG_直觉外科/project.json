@@ -1,0 +1,24 @@
+{
+  "schema_version": 1,
+  "company": "Intuitive Surgical, Inc.（直觉外科）",
+  "code": "ISRG",
+  "profile": "industrial",
+  "created_at": "2026-11-11T20:52:55+08:00",
+  "information_cutoff": "2026-11-11",
+  "research_purpose": "装机—培训与工作流—手术—耗材服务—现金与新增回报",
+  "source_scope": "本轮用户授权公开官方补证",
+  "network_policy": "按本项目实际用户指令；未授权时不使用外部数据",
+  "review_mode": "human-first",
+  "reviewer": "",
+  "executor": "",
+  "signature_status": "pending",
+  "required_dimensions": [
+    "商业模式",
+    "行业竞争",
+    "竞争优势"
+  ],
+  "cik": "0001035267",
+  "currency": "USD",
+  "accounting": "US GAAP",
+  "fiscal_year_end": "12-31"
+}

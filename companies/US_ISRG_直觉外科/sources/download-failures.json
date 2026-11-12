@@ -1,0 +1,38 @@
+[
+  {
+    "url": "https://isrg.intuitive.com/node/22631/pdf",
+    "title": "da Vinci 5 cardiac公司许可公告",
+    "form": "产品监管",
+    "period": "",
+    "at": "2026-11-12T03:57:31.178874+00:00",
+    "error": "HTTPError: HTTP Error 403: Forbidden",
+    "impact": "该原载荷未取得；不以摘要替代"
+  },
+  {
+    "url": "https://isrg.intuitive.com/static-files/42b1fa2c-4c6e-4dd7-90b9-acceda8baded",
+    "title": "2026Q3官方PDF",
+    "form": "10-Q PDF",
+    "period": "",
+    "at": "2026-11-12T03:57:34.787121+00:00",
+    "error": "HTTPError: HTTP Error 403: Forbidden",
+    "impact": "该原载荷未取得；不以摘要替代"
+  },
+  {
+    "url": "https://isrg.intuitive.com/node/22631/pdf",
+    "title": "da Vinci 5 cardiac公司许可公告",
+    "form": "产品监管",
+    "period": "",
+    "at": "2026-11-12T03:57:31.178874+00:00",
+    "error": "HTTPError: HTTP Error 403: Forbidden",
+    "impact": "该原载荷未取得；不以摘要替代"
+  },
+  {
+    "url": "https://isrg.intuitive.com/static-files/42b1fa2c-4c6e-4dd7-90b9-acceda8baded",
+    "title": "2026Q3官方PDF",
+    "form": "10-Q PDF",
+    "period": "",
+    "at": "2026-11-12T03:57:34.787121+00:00",
+    "error": "HTTPError: HTTP Error 403: Forbidden",
+    "impact": "该原载荷未取得；不以摘要替代"
+  }
+]

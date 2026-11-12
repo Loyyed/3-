@@ -1,0 +1,29 @@
+{
+  "id": "V8fb3181b10d1",
+  "version": 1,
+  "at": "2026-11-12T03:58:31.788106+00:00",
+  "actor": "Agent/test-or-api",
+  "company": "688188_柏楚电子",
+  "action": "forecast",
+  "inputs": {},
+  "parameter_metadata": {
+    "register": "work/research09/parameter-register.json",
+    "missing": "控制系统和切割头分产品销量净价及配套率；OEM留存/切换成本及新应用认证、订单商业化时序；研发年限/队列及已资本化范围；非经营资产与融资/经营现金分界。"
+  },
+  "result": {
+    "state": "BlockedMissingInputs",
+    "missing_fields": [
+      "base_revenue",
+      "rows"
+    ],
+    "new_fact": false,
+    "impact": "无法执行forecast；按公司参数登记补同范围字段"
+  },
+  "module_sha256": "0155df03fa6ff2dd86a6a4c92f51f277f88e1edd45bfd972d191796276ac23ca",
+  "dependencies": [
+    "shared/runtime/companybench/valuation_chain.py",
+    "shared/runtime/companybench/research_depth.py"
+  ],
+  "recalculate": "python -B scripts/recalculate_valuation.py --company 688188_柏楚电子 --record work/valuation/v1-V8fb3181b10d1.json",
+  "scope_boundary": "条件算术不是公司Fact；未完成beta业务去再杠杆、税损明细、归母权利桥"
+}

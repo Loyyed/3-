@@ -1,0 +1,29 @@
+{
+  "id": "V641d287771d9",
+  "version": 1,
+  "at": "2026-11-12T03:58:31.186530+00:00",
+  "actor": "Agent/test-or-api",
+  "company": "09992_泡泡玛特",
+  "action": "forecast",
+  "inputs": {},
+  "parameter_metadata": {
+    "register": "work/research09/parameter-register.json",
+    "missing": "IP级复购和新品接续、分区同店/店龄店效、折扣及库存龄；合同期限与续约分成；租赁负债和门店维持投入；完整2026Q3利润现金未披露不能造数；HKD价格需匹配RMB价值桥。"
+  },
+  "result": {
+    "state": "BlockedMissingInputs",
+    "missing_fields": [
+      "base_revenue",
+      "rows"
+    ],
+    "new_fact": false,
+    "impact": "无法执行forecast；按公司参数登记补同范围字段"
+  },
+  "module_sha256": "0155df03fa6ff2dd86a6a4c92f51f277f88e1edd45bfd972d191796276ac23ca",
+  "dependencies": [
+    "shared/runtime/companybench/valuation_chain.py",
+    "shared/runtime/companybench/research_depth.py"
+  ],
+  "recalculate": "python -B scripts/recalculate_valuation.py --company 09992_泡泡玛特 --record work/valuation/v1-V641d287771d9.json",
+  "scope_boundary": "条件算术不是公司Fact；未完成beta业务去再杠杆、税损明细、归母权利桥"
+}
