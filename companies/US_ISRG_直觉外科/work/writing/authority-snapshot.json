@@ -1,0 +1,621 @@
+{
+  "at": "2026-11-12T04:35:52.513194+00:00",
+  "Fact": [],
+  "records": [
+    {
+      "id": "I09-001",
+      "state": "Unknown",
+      "binding": "5889565e77bcb99fd8e26335bfaf7e78f10eaecc78da5e295df630aabf9fbc5a",
+      "sources": [
+        {
+          "source_id": "Sf92ee8eb3f06a597",
+          "location": "官方HTML iXBRL #f-47 contextRef=c-5；context=0001035267    2023-12-31"
+        }
+      ]
+    },
+    {
+      "id": "I09-002",
+      "state": "Unknown",
+      "binding": "901b3406517f1793ab38bde7d3e0f742b2da01bfe0702605846c9a18678d7b5f",
+      "sources": [
+        {
+          "source_id": "Sf92ee8eb3f06a597",
+          "location": "官方HTML iXBRL #f-49 contextRef=c-5；context=0001035267    2023-12-31"
+        }
+      ]
+    },
+    {
+      "id": "I09-003",
+      "state": "Unknown",
+      "binding": "1d640c844d32eed1cf69368f9fe9ad642524e0ea5bc9b63c7f29efdc5049c152",
+      "sources": [
+        {
+          "source_id": "Sf92ee8eb3f06a597",
+          "location": "官方HTML iXBRL #f-68 contextRef=c-5；context=0001035267    2023-12-31"
+        }
+      ]
+    },
+    {
+      "id": "I09-004",
+      "state": "Unknown",
+      "binding": "21f66973d5892a1d9e7867dfb2f779bb412523d8dbe53f5eab7da2090ab867b4",
+      "sources": [
+        {
+          "source_id": "Sf92ee8eb3f06a597",
+          "location": "官方HTML iXBRL #f-124 contextRef=c-1；context=0001035267    2023-01-01  2023-12-31"
+        }
+      ]
+    },
+    {
+      "id": "I09-005",
+      "state": "Unknown",
+      "binding": "ca991dbec90ae9d533ebf9a63607a81c945f9b1cd462e902f0628a040cbcc528",
+      "sources": [
+        {
+          "source_id": "Sf92ee8eb3f06a597",
+          "location": "官方HTML iXBRL #f-142 contextRef=c-1；context=0001035267    2023-01-01  2023-12-31"
+        }
+      ]
+    },
+    {
+      "id": "I09-006",
+      "state": "Unknown",
+      "binding": "f31add833878b39ceed4d474b38fb134cafcc4aa0617c8052d1c6f689ae4667f",
+      "sources": [
+        {
+          "source_id": "Sf92ee8eb3f06a597",
+          "location": "官方HTML iXBRL #f-148 contextRef=c-1；context=0001035267    2023-01-01  2023-12-31"
+        }
+      ]
+    },
+    {
+      "id": "I09-007",
+      "state": "Unknown",
+      "binding": "847cbc62b1c0c98f18d6934d42065d3eb714160187c7adb631ea6c51549802c3",
+      "sources": [
+        {
+          "source_id": "Sf92ee8eb3f06a597",
+          "location": "官方HTML iXBRL #f-166 contextRef=c-1；context=0001035267    2023-01-01  2023-12-31"
+        }
+      ]
+    },
+    {
+      "id": "I09-008",
+      "state": "Unknown",
+      "binding": "2cbd4f2c18953e00789be2d3742c1a943427de9b505e477f56a8a433d7d0179a",
+      "sources": [
+        {
+          "source_id": "Sf92ee8eb3f06a597",
+          "location": "官方HTML iXBRL #f-349 contextRef=c-1；context=0001035267    2023-01-01  2023-12-31"
+        }
+      ]
+    },
+    {
+      "id": "I09-009",
+      "state": "Unknown",
+      "binding": "e90d62832308389d5a4e62b1d3a481dd39d5a00b614b2da311b3e3c87d208c98",
+      "sources": [
+        {
+          "source_id": "Sf92ee8eb3f06a597",
+          "location": "官方HTML iXBRL #f-376 contextRef=c-1；context=0001035267    2023-01-01  2023-12-31"
+        }
+      ]
+    },
+    {
+      "id": "I09-010",
+      "state": "Unknown",
+      "binding": "c44e1b63577b3e87cb24acdb2447b784771fd98b4a19f30c9f831d9a02e7aadb",
+      "sources": [
+        {
+          "source_id": "Se4905bffbdcd3611",
+          "location": "官方HTML iXBRL #f-62 contextRef=c-5；context=0001035267    2024-12-31"
+        }
+      ]
+    },
+    {
+      "id": "I09-011",
+      "state": "Unknown",
+      "binding": "1c80c8ac5354f03fbaf31df639879850954dca63189a1d295bce545e3b04565a",
+      "sources": [
+        {
+          "source_id": "Se4905bffbdcd3611",
+          "location": "官方HTML iXBRL #f-64 contextRef=c-5；context=0001035267    2024-12-31"
+        }
+      ]
+    },
+    {
+      "id": "I09-012",
+      "state": "Unknown",
+      "binding": "722c7afefac82fe21c3513aff1a35f9b1c34c1790c80a12fdd259db8d57e19fb",
+      "sources": [
+        {
+          "source_id": "Se4905bffbdcd3611",
+          "location": "官方HTML iXBRL #f-83 contextRef=c-5；context=0001035267    2024-12-31"
+        }
+      ]
+    },
+    {
+      "id": "I09-013",
+      "state": "Unknown",
+      "binding": "757118083dd2efeb83c4befa03cfb51ba5ed37945e4d8501b789e6fa659be247",
+      "sources": [
+        {
+          "source_id": "Se4905bffbdcd3611",
+          "location": "官方HTML iXBRL #f-115 contextRef=c-6；context=0001035267    2023-12-31"
+        }
+      ]
+    },
+    {
+      "id": "I09-014",
+      "state": "Unknown",
+      "binding": "041c340fbe2204ef42b9ac03071f46b9b3bf6dd49425dcd8fe35e4c5998ba350",
+      "sources": [
+        {
+          "source_id": "Se4905bffbdcd3611",
+          "location": "官方HTML iXBRL #f-139 contextRef=c-1；context=0001035267    2024-01-01  2024-12-31"
+        }
+      ]
+    },
+    {
+      "id": "I09-015",
+      "state": "Unknown",
+      "binding": "4625efbf648748d77075e23b1d6152d2b509d53fe0225cde66e4bfb76e14ecfc",
+      "sources": [
+        {
+          "source_id": "Se4905bffbdcd3611",
+          "location": "官方HTML iXBRL #f-157 contextRef=c-1；context=0001035267    2024-01-01  2024-12-31"
+        }
+      ]
+    },
+    {
+      "id": "I09-016",
+      "state": "Unknown",
+      "binding": "359febd8b0ce4eb2147ca4aee7d2ba7525fdcd62b14524d4a0fc9bc4689f7250",
+      "sources": [
+        {
+          "source_id": "Se4905bffbdcd3611",
+          "location": "官方HTML iXBRL #f-163 contextRef=c-1；context=0001035267    2024-01-01  2024-12-31"
+        }
+      ]
+    },
+    {
+      "id": "I09-017",
+      "state": "Unknown",
+      "binding": "d6854aa70ce53c4825bda3fb4b743aeecb7f24d06fdf39fc266b37ecaea00fd3",
+      "sources": [
+        {
+          "source_id": "Se4905bffbdcd3611",
+          "location": "官方HTML iXBRL #f-181 contextRef=c-1；context=0001035267    2024-01-01  2024-12-31"
+        }
+      ]
+    },
+    {
+      "id": "I09-018",
+      "state": "Unknown",
+      "binding": "4662fe1a2ab7554bbff2a19bd453fe9c1c5825628a67ff5e93748b02f54000b9",
+      "sources": [
+        {
+          "source_id": "Se4905bffbdcd3611",
+          "location": "官方HTML iXBRL #f-366 contextRef=c-1；context=0001035267    2024-01-01  2024-12-31"
+        }
+      ]
+    },
+    {
+      "id": "I09-019",
+      "state": "Unknown",
+      "binding": "3d431a28653b26eb92ce2aaa731f03521cb96019dbfcad39a8938b8a67c43685",
+      "sources": [
+        {
+          "source_id": "Se4905bffbdcd3611",
+          "location": "官方HTML iXBRL #f-393 contextRef=c-1；context=0001035267    2024-01-01  2024-12-31"
+        }
+      ]
+    },
+    {
+      "id": "I09-020",
+      "state": "Unknown",
+      "binding": "ec16b48c7f8d7746e5ba3d153d6932100245e5c2242a69872116dc09d4e7f138",
+      "sources": [
+        {
+          "source_id": "Se7f95d2f97642180",
+          "location": "官方HTML iXBRL #f-62 contextRef=c-5；context=0001035267    2025-12-31"
+        }
+      ]
+    },
+    {
+      "id": "I09-021",
+      "state": "Unknown",
+      "binding": "3e10349cbb963ba75bf9fb48942684c9594b320223555f0ce0b33057c71c1765",
+      "sources": [
+        {
+          "source_id": "Se7f95d2f97642180",
+          "location": "官方HTML iXBRL #f-64 contextRef=c-5；context=0001035267    2025-12-31"
+        }
+      ]
+    },
+    {
+      "id": "I09-022",
+      "state": "Unknown",
+      "binding": "f794261a7dd0f0825c143edef73fd4d21d1c025788806a581491702a277bfd3c",
+      "sources": [
+        {
+          "source_id": "Se7f95d2f97642180",
+          "location": "官方HTML iXBRL #f-83 contextRef=c-5；context=0001035267    2025-12-31"
+        }
+      ]
+    },
+    {
+      "id": "I09-023",
+      "state": "Unknown",
+      "binding": "a8878d976d4e45007b9ea93b0165f6f42ee83ba9f8841be4fdecf9867cf6af80",
+      "sources": [
+        {
+          "source_id": "Se7f95d2f97642180",
+          "location": "官方HTML iXBRL #f-113 contextRef=c-5；context=0001035267    2025-12-31"
+        }
+      ]
+    },
+    {
+      "id": "I09-024",
+      "state": "Unknown",
+      "binding": "f38efd2478dcc73694e8f1629780eaa6ebdeb0d9fff5c01a9028e74c10c3adbd",
+      "sources": [
+        {
+          "source_id": "Se7f95d2f97642180",
+          "location": "官方HTML iXBRL #f-115 contextRef=c-6；context=0001035267    2024-12-31"
+        }
+      ]
+    },
+    {
+      "id": "I09-025",
+      "state": "Unknown",
+      "binding": "055a5ec9f523fa032ff439f89646d19a1a4b80f717066a5b18fc2507c080a7f6",
+      "sources": [
+        {
+          "source_id": "Se7f95d2f97642180",
+          "location": "官方HTML iXBRL #f-139 contextRef=c-1；context=0001035267    2025-01-01  2025-12-31"
+        }
+      ]
+    },
+    {
+      "id": "I09-026",
+      "state": "Unknown",
+      "binding": "69a0d780f68b39bfdc46009203f9ffdd48b4e38cdd93a6c99d75d773c47a7876",
+      "sources": [
+        {
+          "source_id": "Se7f95d2f97642180",
+          "location": "官方HTML iXBRL #f-157 contextRef=c-1；context=0001035267    2025-01-01  2025-12-31"
+        }
+      ]
+    },
+    {
+      "id": "I09-027",
+      "state": "Unknown",
+      "binding": "32045838c36b760d0b51b3dfcdcd634cedf014c57b27552fbeee234555f97179",
+      "sources": [
+        {
+          "source_id": "Se7f95d2f97642180",
+          "location": "官方HTML iXBRL #f-163 contextRef=c-1；context=0001035267    2025-01-01  2025-12-31"
+        }
+      ]
+    },
+    {
+      "id": "I09-028",
+      "state": "Unknown",
+      "binding": "649d4ed25dc70b12beaec02bf77e9df001e9ded7ee9ce07011c7b1e240d03512",
+      "sources": [
+        {
+          "source_id": "Se7f95d2f97642180",
+          "location": "官方HTML iXBRL #f-181 contextRef=c-1；context=0001035267    2025-01-01  2025-12-31"
+        }
+      ]
+    },
+    {
+      "id": "I09-029",
+      "state": "Unknown",
+      "binding": "79cfc52a97e53ae2666a4af35fcded89c0c0d8ab197dd73273ef7c619fb75a1a",
+      "sources": [
+        {
+          "source_id": "Se7f95d2f97642180",
+          "location": "官方HTML iXBRL #f-371 contextRef=c-1；context=0001035267    2025-01-01  2025-12-31"
+        }
+      ]
+    },
+    {
+      "id": "I09-030",
+      "state": "Unknown",
+      "binding": "5e381635e6bf10189e8db28e37ad80a85891afc0122df49de4dac7b6a99a69d4",
+      "sources": [
+        {
+          "source_id": "Se7f95d2f97642180",
+          "location": "官方HTML iXBRL #f-395 contextRef=c-1；context=0001035267    2025-01-01  2025-12-31"
+        }
+      ]
+    },
+    {
+      "id": "I09-031",
+      "state": "Unknown",
+      "binding": "bbf74cf752f436f8bb22d75442218a55dc7c72ff7ef796ca01d1abf41018763f",
+      "sources": [
+        {
+          "source_id": "Se7f95d2f97642180",
+          "location": "官方HTML iXBRL #f-1533 contextRef=c-1；context=0001035267    2025-01-01  2025-12-31"
+        }
+      ]
+    },
+    {
+      "id": "I09-032",
+      "state": "Unknown",
+      "binding": "f5997503c927fb1e1e81f64a1fef8aa687c68335104b6f7c42f8a05c2fd5a8a9",
+      "sources": [
+        {
+          "source_id": "S83c179dfd93521d4",
+          "location": "官方HTML iXBRL #f-34 contextRef=c-3；context=0001035267    2026-09-30"
+        }
+      ]
+    },
+    {
+      "id": "I09-033",
+      "state": "Unknown",
+      "binding": "4eeeef090f045d7a2e5ef3b6751bde9ca401635bea7530fd8101080d1fbbccf9",
+      "sources": [
+        {
+          "source_id": "S83c179dfd93521d4",
+          "location": "官方HTML iXBRL #f-36 contextRef=c-3；context=0001035267    2026-09-30"
+        }
+      ]
+    },
+    {
+      "id": "I09-034",
+      "state": "Unknown",
+      "binding": "7e1992f120471c905f44ba55d296475ad6a2f1876dda9f8f9f0c8ff947c45b49",
+      "sources": [
+        {
+          "source_id": "S83c179dfd93521d4",
+          "location": "官方HTML iXBRL #f-54 contextRef=c-3；context=0001035267    2026-09-30"
+        }
+      ]
+    },
+    {
+      "id": "I09-035",
+      "state": "Unknown",
+      "binding": "96b412b53eeba087e8315d58e71568b749421a40d823d5a12c32eeb703be01de",
+      "sources": [
+        {
+          "source_id": "S83c179dfd93521d4",
+          "location": "官方HTML iXBRL #f-84 contextRef=c-3；context=0001035267    2026-09-30"
+        }
+      ]
+    },
+    {
+      "id": "I09-036",
+      "state": "Unknown",
+      "binding": "2380cdf87c36720c8369ac7646180adaa3a45adbc6ccb7ad50ec0128cdb3475d",
+      "sources": [
+        {
+          "source_id": "S83c179dfd93521d4",
+          "location": "官方HTML iXBRL #f-112 contextRef=c-13；context=0001035267    2026-07-01  2026-09-30"
+        }
+      ]
+    },
+    {
+      "id": "I09-037",
+      "state": "Unknown",
+      "binding": "044830908692a320522fed5a7e62b61bea26c3bbc3281557529564c06dece458",
+      "sources": [
+        {
+          "source_id": "S83c179dfd93521d4",
+          "location": "官方HTML iXBRL #f-113 contextRef=c-14；context=0001035267    2025-07-01  2025-09-30"
+        }
+      ]
+    },
+    {
+      "id": "I09-038",
+      "state": "Unknown",
+      "binding": "2c677cb95d6b35690110574d9d98321557bde274a88324f3e78f576509cb7a4b",
+      "sources": [
+        {
+          "source_id": "S83c179dfd93521d4",
+          "location": "官方HTML iXBRL #f-114 contextRef=c-1；context=0001035267    2026-01-01  2026-09-30"
+        }
+      ]
+    },
+    {
+      "id": "I09-039",
+      "state": "Unknown",
+      "binding": "d0226705601160c16d3f72f883f520f5a7665911fda161e4b169602f89e4d43b",
+      "sources": [
+        {
+          "source_id": "S83c179dfd93521d4",
+          "location": "官方HTML iXBRL #f-115 contextRef=c-15；context=0001035267    2025-01-01  2025-09-30"
+        }
+      ]
+    },
+    {
+      "id": "I09-040",
+      "state": "Unknown",
+      "binding": "f332cf0c550d695123aa16e8126454130d5ec500bdceb387136e271c446d57a0",
+      "sources": [
+        {
+          "source_id": "S83c179dfd93521d4",
+          "location": "官方HTML iXBRL #f-140 contextRef=c-13；context=0001035267    2026-07-01  2026-09-30"
+        }
+      ]
+    },
+    {
+      "id": "I09-041",
+      "state": "Unknown",
+      "binding": "e70b47df2bf4cddbdbfc67173bb4a3e578ddc33eaba208e6948ba6539d6456c4",
+      "sources": [
+        {
+          "source_id": "S83c179dfd93521d4",
+          "location": "官方HTML iXBRL #f-141 contextRef=c-14；context=0001035267    2025-07-01  2025-09-30"
+        }
+      ]
+    },
+    {
+      "id": "I09-042",
+      "state": "Unknown",
+      "binding": "f085e2ba052c901347b43f2e58fd0870f4cf7674aa45928199bb69d0ec27a40d",
+      "sources": [
+        {
+          "source_id": "S83c179dfd93521d4",
+          "location": "官方HTML iXBRL #f-142 contextRef=c-1；context=0001035267    2026-01-01  2026-09-30"
+        }
+      ]
+    },
+    {
+      "id": "I09-043",
+      "state": "Unknown",
+      "binding": "fb556dc59ea87969e7251ca93847d646e2fb42f00dcf479e8027dbebefede0cc",
+      "sources": [
+        {
+          "source_id": "S83c179dfd93521d4",
+          "location": "官方HTML iXBRL #f-143 contextRef=c-15；context=0001035267    2025-01-01  2025-09-30"
+        }
+      ]
+    },
+    {
+      "id": "I09-044",
+      "state": "Unknown",
+      "binding": "ef722b46c98627b2bf1dcb474b5bfdda2565d0ab9accc45b65d4420cf0deb6ce",
+      "sources": [
+        {
+          "source_id": "S83c179dfd93521d4",
+          "location": "官方HTML iXBRL #f-148 contextRef=c-13；context=0001035267    2026-07-01  2026-09-30"
+        }
+      ]
+    },
+    {
+      "id": "I09-045",
+      "state": "Unknown",
+      "binding": "59bc96991b4b52af3974c84631970d5749def993f318ba5233e522021ad22c66",
+      "sources": [
+        {
+          "source_id": "S83c179dfd93521d4",
+          "location": "官方HTML iXBRL #f-149 contextRef=c-14；context=0001035267    2025-07-01  2025-09-30"
+        }
+      ]
+    },
+    {
+      "id": "I09-046",
+      "state": "Unknown",
+      "binding": "448fbe29c1405c9772875e79649fc4901f6413a41298599135722acf9144f659",
+      "sources": [
+        {
+          "source_id": "S83c179dfd93521d4",
+          "location": "官方HTML iXBRL #f-150 contextRef=c-1；context=0001035267    2026-01-01  2026-09-30"
+        }
+      ]
+    },
+    {
+      "id": "I09-047",
+      "state": "Unknown",
+      "binding": "c941197f7a6be6414b0da4fd6baaaae364e1b390547a89434f50bcf4b85ac2ac",
+      "sources": [
+        {
+          "source_id": "S83c179dfd93521d4",
+          "location": "官方HTML iXBRL #f-151 contextRef=c-15；context=0001035267    2025-01-01  2025-09-30"
+        }
+      ]
+    },
+    {
+      "id": "I09-048",
+      "state": "Unknown",
+      "binding": "a375a41f83eba537d45674ff812ac7ea2ff089ad98644a707301b3d3e0b247fe",
+      "sources": [
+        {
+          "source_id": "S83c179dfd93521d4",
+          "location": "官方HTML iXBRL #f-172 contextRef=c-13；context=0001035267    2026-07-01  2026-09-30"
+        }
+      ]
+    },
+    {
+      "id": "I09-049",
+      "state": "Unknown",
+      "binding": "b0f332f9b4d1a7effb332b7c30f350d46a3b0d5926e32f0b0d20f2711038c251",
+      "sources": [
+        {
+          "source_id": "S83c179dfd93521d4",
+          "location": "官方HTML iXBRL #f-173 contextRef=c-14；context=0001035267    2025-07-01  2025-09-30"
+        }
+      ]
+    },
+    {
+      "id": "I09-050",
+      "state": "Unknown",
+      "binding": "2678f3f7fcff186bd17ec239873e47f59e0693b574cb39965e062aae132b3c1c",
+      "sources": [
+        {
+          "source_id": "S83c179dfd93521d4",
+          "location": "官方HTML iXBRL #f-174 contextRef=c-1；context=0001035267    2026-01-01  2026-09-30"
+        }
+      ]
+    },
+    {
+      "id": "I09-051",
+      "state": "Unknown",
+      "binding": "1f1048a58ae1a08ad01178c93aea111adfa49f8e5662f4a6f233d4ddf9341679",
+      "sources": [
+        {
+          "source_id": "S83c179dfd93521d4",
+          "location": "官方HTML iXBRL #f-175 contextRef=c-15；context=0001035267    2025-01-01  2025-09-30"
+        }
+      ]
+    },
+    {
+      "id": "I09-052",
+      "state": "Unknown",
+      "binding": "c4dd9dfa42c9922f90c99132fd800ec08d044f0b0bc807bf0c2c89122fb9a959",
+      "sources": [
+        {
+          "source_id": "S83c179dfd93521d4",
+          "location": "官方HTML iXBRL #f-236 contextRef=c-1；context=0001035267    2026-01-01  2026-09-30"
+        }
+      ]
+    },
+    {
+      "id": "I09-053",
+      "state": "Unknown",
+      "binding": "a0917ffff2cfbc9ffa2d88e4d8ee0b6978ffd5055d836613a72748750b3005b7",
+      "sources": [
+        {
+          "source_id": "S83c179dfd93521d4",
+          "location": "官方HTML iXBRL #f-237 contextRef=c-15；context=0001035267    2025-01-01  2025-09-30"
+        }
+      ]
+    },
+    {
+      "id": "I09-054",
+      "state": "Unknown",
+      "binding": "4ade5c141cba16dd62c49a8cccfd24c226bb78fa1acc542ab22695cdb25560a6",
+      "sources": [
+        {
+          "source_id": "S83c179dfd93521d4",
+          "location": "官方HTML iXBRL #f-252 contextRef=c-1；context=0001035267    2026-01-01  2026-09-30"
+        }
+      ]
+    },
+    {
+      "id": "I09-055",
+      "state": "Unknown",
+      "binding": "a8677f3f8b03fad27362b0127e3cf5e1ead0860ee59c8299f9e68799247a5fa7",
+      "sources": [
+        {
+          "source_id": "S83c179dfd93521d4",
+          "location": "官方HTML iXBRL #f-253 contextRef=c-15；context=0001035267    2025-01-01  2025-09-30"
+        }
+      ]
+    }
+  ],
+  "source_ids": [
+    "S83c179dfd93521d4",
+    "Sb5631e1f8bdde033",
+    "Sd2c5030b82023f2f",
+    "Se0c87c58c13b5968",
+    "Se7f95d2f97642180",
+    "Sedbd7176dea63afe"
+  ],
+  "new_human_review": null,
+  "change_facts": "本轮仅表达编辑，无新变化事实；当前普通ReviewStore无独立change_facts接口"
+}

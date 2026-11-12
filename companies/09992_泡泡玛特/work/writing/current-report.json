@@ -1,0 +1,141 @@
+{
+  "id": "O75e6689bf8ba",
+  "group": "research-report",
+  "title": "泡泡玛特：增长回落后，IP与渠道的现金回报如何重估",
+  "kind": "报告草稿",
+  "version": 6,
+  "at": "2026-11-12T04:33:21.285969+00:00",
+  "actor": "Agent/test-or-api",
+  "actual_user_review": null,
+  "historical": false,
+  "bindings": {
+    "selection_ids": [
+      "R14c10b3a792a",
+      "R58b870a4ee64",
+      "R7bfc89d395aa",
+      "R7d8112e87a58",
+      "R8c387d2da2f6",
+      "Ra42a6324bb1c",
+      "Rad6660d577af",
+      "Rbd733d44d823"
+    ],
+    "selection_scope": "all-eight-lanes",
+    "cards": {
+      "R7d8112e87a58": "5b618d49a9a249012ab0e8a6e45254ae1710dd7e0df0eb4352b7dc401453f091",
+      "R7bfc89d395aa": "c38c934b47dc030d3eba5e53017d86aca10be5bf4095b588e9d9f118d1a0a351",
+      "R58b870a4ee64": "ff3ad49b2c994e8d4c2daa4e2eda7f0ef634cfb74e1f5d452b84d94d4fa76634",
+      "R8c387d2da2f6": "4c05191b7c15ff7919cd99084d206c11bc1cc138551872f8adf6bc2d0fb2cdb6",
+      "R14c10b3a792a": "2d2ac6dcab560b6b37c9e1692726829cb156f6b685b669933198b195b61eede7",
+      "Rbd733d44d823": "68e41ba88010b0afd4bd10788b4c074fa1b214f1a9d7e2b67aa61cf69a9bc446",
+      "Ra42a6324bb1c": "d1027c5f002b58defe641ac22ecad5e4bbd56faab29534b0af3e2ca9a949dab1",
+      "Rad6660d577af": "4de211585c5a9023190f5c508f741bf402a043c8dc6d295b0ea09de18a25709b"
+    },
+    "methods": [
+      {
+        "id": "K03",
+        "version": 1
+      },
+      {
+        "id": "K09",
+        "version": 1
+      },
+      {
+        "id": "E04",
+        "version": 1
+      },
+      {
+        "id": "E08",
+        "version": 1
+      },
+      {
+        "id": "K46",
+        "version": 1
+      },
+      {
+        "id": "K52",
+        "version": 1
+      },
+      {
+        "id": "K63",
+        "version": 1
+      },
+      {
+        "id": "K49",
+        "version": 1
+      },
+      {
+        "id": "K53",
+        "version": 1
+      },
+      {
+        "id": "K55",
+        "version": 1
+      },
+      {
+        "id": "K57",
+        "version": 1
+      },
+      {
+        "id": "K59",
+        "version": 1
+      }
+    ],
+    "inputs": {
+      "work/research09/evidence-map.json": "2d4105f98cb0cae60fbb3303415a3d7c481b33df9b148f9eb2dcd3b065a1c1d2",
+      "work/research09/parameter-register.json": "a9764df7011a7240092449e07eeac497ceef2163798dcebc00296b857a004906",
+      "work/research09/利润资本现金与估值准备.md": "d402c7e3aaf23ded0abb37a15df308087ad0f636090ead6e1e394dccb2e9ea81",
+      "work/research07/source-field-map.json": "f25c9f8867dc3525f5b7fcdb73c16f91e45cdf813bd2eac8efc739cae90c6655",
+      "work/valuation/index.json": "9ea379ecae2e3d53d409bc24d3e0a9320ba394cdf5876c1767d43cfc282d8f56",
+      "work/valuation/v1-V641d287771d9.json": "c07916fa7a6f18a11c14b5cd949cf6ab89d16ff5cf7c237d07b52b95c2b70e14",
+      "work/writing/authority-snapshot.json": "332778e1132e58dcec8ec3d6b9d95bcd9bbfa48ef3adb7cc12081d46c8e125d9",
+      "work/writing/reader.json": "c1f0cbfb25d66a3f42944bd78c7b568f9b5a69559cac51a2665b02f5cdd5e864"
+    },
+    "sources": [
+      {
+        "id": "S47095a39c6425b11",
+        "path": "sources/raw/S47095a39c6425b11_2026-04-21_ANNUAL REPORT 2025__2025_bd4e173872.pdf",
+        "sha256": "47095a39c6425b11e5aaa091f456e178498d20a77d4ff6a969e351e4f5dfaaf7"
+      },
+      {
+        "id": "S92234424087f455a",
+        "path": "sources/raw/S92234424087f455a_2026-10-27_LATEST BUSINESS UPDATE FOR THE THIRD QUARTER OF 2026__2026_c437e22e46.pdf",
+        "sha256": "92234424087f455a786558f9a9c6c900573392160a63f4720371b07ee3197490"
+      },
+      {
+        "id": "S01b68f6b1c14e53d",
+        "path": "sources/raw/S01b68f6b1c14e53d_2026-09-24_2026 INTERIM REPORT_EPORT_3ca5b69bf8.pdf",
+        "sha256": "01b68f6b1c14e53d235bf8cb476d87db1345f00eeeabc10533c820ae00894d44"
+      }
+    ],
+    "shared_dependencies": {
+      "shared/runtime/companybench/valuation_chain.py": "0155df03fa6ff2dd86a6a4c92f51f277f88e1edd45bfd972d191796276ac23ca",
+      "shared/runtime/companybench/research_depth.py": "bb364cd41336a0d3fe62d0d0663f7e8557570aeff2d201c21517259ae1404a41",
+      "scripts/recalculate_valuation.py": "711a5a9c153a834a2c28d133d24b0aec0cd93153c0baa4f1358a8b22ef4cc727",
+      "docs/投研写作规范.md": "e4cf87afffc67976148eab1d4f2aba00056a5825ba0c7ac64d7ccab1122cfb60",
+      "shared/writing-skills.json": "cad001177fa60de41d782dfbdb8d3ffbfa1ffb81a959472130c85925b6d2ab2a",
+      "app/writing.py": "083ceb8239ce4c1f76b50ead42c52d2e73068d6a564f25f6f288eb4697e947d8"
+    }
+  },
+  "files": [
+    {
+      "path": "outputs/research-report/v6-O75e6689bf8ba/basis.json",
+      "format": "json",
+      "sha256": "273b97d5be20e93ceb11ea82f4d9aeb9c943080ddfc7c444bd9ffde45ff22ea6",
+      "bytes": 111723
+    },
+    {
+      "path": "outputs/research-report/v6-O75e6689bf8ba/report.html",
+      "format": "html",
+      "sha256": "1b1f3c50303b3332923d65a8810bb46a0e8cfc6c608178cd3ee61e218fde7954",
+      "bytes": 7903
+    },
+    {
+      "path": "outputs/research-report/v6-O75e6689bf8ba/report.md",
+      "format": "md",
+      "sha256": "b6c1b8f213906a442a8793f3df3e13f73c1d708ddd974bc77f17f6db5a1300bd",
+      "bytes": 6117
+    }
+  ],
+  "needs_review": false,
+  "imported": false
+}

@@ -31,9 +31,18 @@ def start(root,kit,port):
     try:
      from companybench.core import contained
      base=engine.companies()[mapping[q['project'][0]]];rel=q['path'][0];assert rel.startswith('outputs/'),'仅允许成果路径';path=contained(base,rel);assert path.is_file()
-     if route.path.endswith('preview') and path.suffix=='.html':return self.send(path.read_bytes(),content='text/html; charset=utf-8',interactive=True)
+     if route.path.endswith('preview') and path.suffix=='.html':
+      import re,html
+      from urllib.parse import urlencode
+      body=path.read_text(encoding='utf-8');body=re.sub(r'data-company-path="([^"]+)" href="[^"]*"',lambda m:'href="/file?'+html.escape(urlencode({'project':q['project'][0],'path':html.unescape(m.group(1))}),quote=True)+'"',body);return self.send(body,content='text/html; charset=utf-8',interactive=True)
+     if route.path.endswith('preview'):
+      import html
+      return self.send('<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><style>pre{white-space:pre-wrap;overflow-wrap:anywhere;font:16px/1.7 system-ui;padding:20px}</style><pre>'+html.escape(path.read_text(encoding='utf-8'))+'</pre>',content='text/html; charset=utf-8')
      return self.send(path.read_bytes(),content='application/octet-stream',disposition='attachment; filename="'+path.name+'"')
     except Exception as e:return self.send({'error':str(e)},400)
+   if route.path=='/api/writing-policy':
+    from companybench.workflow import export_html
+    return self.send(export_html((root/'docs/投研写作规范.md').read_text(encoding='utf-8')),content='text/html; charset=utf-8')
    if route.path=='/api/experience':
     try:
      from companybench.workflow import export_html

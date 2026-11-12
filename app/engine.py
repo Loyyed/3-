@@ -14,12 +14,15 @@ class Engine:
    knowledge=load(self.root/'shared/knowledge.json',{'cards':[]});updates=load(self.root/'shared/updates.json',{'materials':[],'methods':[],'events':[]})
    companies=[]
    for key,p in sorted(self.companies().items()):
-    s=load(p/'work/research-workspace.json',{'cards':[],'events':[]});companies.append({'id':key,'name':load(p/'project.json',{})['company'],'cards':s['cards'],'events':s['events'][-10:],'valuation':load(p/'work/valuation/index.json',{'runs':[]})})
+    s=load(p/'work/research-workspace.json',{'cards':[],'events':[]});companies.append({'id':key,'name':load(p/'project.json',{})['company'],'cards':s['cards'],'events':s['events'][-10:],'valuation':load(p/'work/valuation/index.json',{'runs':[]}),'reader':load(p/'work/writing/reader.json',None)})
    from outputs import current,registry
    return {'current_methods':list(current(self).values()),'outputs':registry(self),'tool_ports':load(self.root/'shared/tool-ports.json',{}),'lanes':LANES,'companies':companies,'knowledge':knowledge,'updates':updates}
  def action(self,d):
   with self.lock:
    u=load(self.root/'shared/updates.json',{'materials':[],'methods':[],'events':[]});a=d['action'];actor='local-user-ui' if d.get('actor')=='local-user-ui' else 'Agent/test-or-api';event={'at':now(),'action':a,'actor':actor};result={}
+   if a=='save-reader':
+    from writing import save_reader
+    return save_reader(self,d,actor)
    if a=='valuation':
     from valuation import perform
     return perform(self,d,actor)

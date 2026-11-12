@@ -1,0 +1,436 @@
+{
+  "schema_version": 1,
+  "title": "ISRG：装机与手术增长，怎样转成每例收入和现金",
+  "sections": [
+    {
+      "title": "采用和培训能否带来持续使用？",
+      "paragraphs": [
+        {
+          "text": "培训、手术团队工作流与维护网络可能降低医院采用摩擦。这个优势假设的经营基础，是医院在临床效果和经济回报上愿意持续使用设备，并将装机转成手术量、耗材和服务收入。",
+          "anchors": [
+            {
+              "card": "Re4a5d5334869",
+              "field": "claim"
+            },
+            {
+              "card": "Re4a5d5334869",
+              "field": "evidence"
+            },
+            {
+              "card": "Re4a5d5334869",
+              "field": "mechanism"
+            },
+            {
+              "card": "Re4a5d5334869",
+              "field": "alternative"
+            },
+            {
+              "card": "Re4a5d5334869",
+              "field": "variables"
+            },
+            {
+              "card": "Re4a5d5334869",
+              "field": "invalidate"
+            },
+            {
+              "card": "Re4a5d5334869",
+              "field": "gap"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "设备、耗材与服务如何计收？",
+      "paragraphs": [
+        {
+          "text": "医院和医疗机构采购或租赁设备，医生及团队学习使用。系统销售和销售型租赁主要前置计收；经营租赁按固定费用或使用量随期确认，耗材与服务收入随使用和合同实现。租赁收入已包含在相应系统收入中，耗材的重复购买取决于实际手术使用。",
+          "anchors": [
+            {
+              "card": "R4257c7215539",
+              "field": "claim"
+            },
+            {
+              "card": "R4257c7215539",
+              "field": "evidence"
+            },
+            {
+              "card": "R4257c7215539",
+              "field": "mechanism"
+            },
+            {
+              "card": "R4257c7215539",
+              "field": "alternative"
+            },
+            {
+              "card": "R4257c7215539",
+              "field": "variables"
+            },
+            {
+              "card": "R4257c7215539",
+              "field": "invalidate"
+            },
+            {
+              "card": "R4257c7215539",
+              "field": "gap"
+            }
+          ]
+        },
+        {
+          "text": "da Vinci与Ion分别研究装机、手术和收入分母。销售型与经营租赁在收入和资本回收时间上有差别，租赁设备投入、折旧和现金回收需要按队列桥接。",
+          "anchors": [
+            {
+              "card": "R4257c7215539",
+              "field": "claim"
+            },
+            {
+              "card": "R4257c7215539",
+              "field": "evidence"
+            },
+            {
+              "card": "R4257c7215539",
+              "field": "mechanism"
+            },
+            {
+              "card": "R4257c7215539",
+              "field": "alternative"
+            },
+            {
+              "card": "R4257c7215539",
+              "field": "variables"
+            },
+            {
+              "card": "R4257c7215539",
+              "field": "invalidate"
+            },
+            {
+              "card": "R4257c7215539",
+              "field": "gap"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "收入、利润与现金披露了哪些变化？",
+      "paragraphs": [
+        {
+          "text": "2025收入USD10064.7m、营业利润2945.5m、研发1311.8m；2026前三季收入8711.8m、营业利润2419.8m、经营现金3197.0m。经营EBIT分析需分开非经营利息，再把现金税、经营NCWC和设备投入接入现金桥。",
+          "anchors": [
+            {
+              "card": "R143dc49386bb",
+              "field": "claim"
+            },
+            {
+              "card": "R143dc49386bb",
+              "field": "evidence"
+            },
+            {
+              "card": "R143dc49386bb",
+              "field": "mechanism"
+            },
+            {
+              "card": "R143dc49386bb",
+              "field": "alternative"
+            },
+            {
+              "card": "R143dc49386bb",
+              "field": "variables"
+            },
+            {
+              "card": "R143dc49386bb",
+              "field": "invalidate"
+            },
+            {
+              "card": "R143dc49386bb",
+              "field": "gap"
+            }
+          ]
+        },
+        {
+          "text": "Q3营业利润含450m反垄断诉讼和解费用。拟议和解仍受法院批准等条件约束，费用确认、未来支付、税务处理与经营应付变化分别影响利润和现金。",
+          "anchors": [
+            {
+              "card": "R143dc49386bb",
+              "field": "claim"
+            },
+            {
+              "card": "R143dc49386bb",
+              "field": "evidence"
+            },
+            {
+              "card": "R143dc49386bb",
+              "field": "mechanism"
+            },
+            {
+              "card": "R143dc49386bb",
+              "field": "alternative"
+            },
+            {
+              "card": "R143dc49386bb",
+              "field": "variables"
+            },
+            {
+              "card": "R143dc49386bb",
+              "field": "invalidate"
+            },
+            {
+              "card": "R143dc49386bb",
+              "field": "gap"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "每例变现下降怎样改变增长要求？",
+      "paragraphs": [
+        {
+          "text": "2026Q3原文中，管理层预计2027上半年延长部分核心器械使用次数并实行量价政策，2026Q4在中国降价。充分实施后，每例da Vinci器械耗材收入预计减少约3%—5%，该幅度排除术式、产品和地区组合影响。",
+          "anchors": [
+            {
+              "card": "R3fe807f7f8f2",
+              "field": "claim"
+            },
+            {
+              "card": "R3fe807f7f8f2",
+              "field": "evidence"
+            },
+            {
+              "card": "R3fe807f7f8f2",
+              "field": "mechanism"
+            },
+            {
+              "card": "R3fe807f7f8f2",
+              "field": "alternative"
+            },
+            {
+              "card": "R3fe807f7f8f2",
+              "field": "variables"
+            },
+            {
+              "card": "R3fe807f7f8f2",
+              "field": "invalidate"
+            },
+            {
+              "card": "R3fe807f7f8f2",
+              "field": "gap"
+            }
+          ]
+        },
+        {
+          "text": "预测需依次连接医院采用、培训、利用率、手术、耗材服务与回款；许可之后的试点和推广另有时序。装机生态与医院经济性若能支持使用量增长，降价可能拓宽可付费病例；如果手术增长放缓而预算、竞争持续压价，单例变现与设备出租资本占用将压低回报。",
+          "anchors": [
+            {
+              "card": "R3fe807f7f8f2",
+              "field": "claim"
+            },
+            {
+              "card": "R3fe807f7f8f2",
+              "field": "evidence"
+            },
+            {
+              "card": "R3fe807f7f8f2",
+              "field": "mechanism"
+            },
+            {
+              "card": "R3fe807f7f8f2",
+              "field": "alternative"
+            },
+            {
+              "card": "R3fe807f7f8f2",
+              "field": "variables"
+            },
+            {
+              "card": "R3fe807f7f8f2",
+              "field": "invalidate"
+            },
+            {
+              "card": "R3fe807f7f8f2",
+              "field": "gap"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "竞争与医院经济性带来哪些挑战？",
+      "paragraphs": [
+        {
+          "text": "训练、流程和服务网络的优势判断仍缺医院采用与切换调查。临床价值需要按术式、样本及医院全成本比较，FDA许可提供的是限定适应证的上市资格。Hugo K250725与Versius DEN230078/K252111/K261252的监管原文已取得，竞争研究按术式、地区和时间展开。",
+          "anchors": [
+            {
+              "card": "R13e68bc03271",
+              "field": "claim"
+            },
+            {
+              "card": "R13e68bc03271",
+              "field": "evidence"
+            },
+            {
+              "card": "R13e68bc03271",
+              "field": "mechanism"
+            },
+            {
+              "card": "R13e68bc03271",
+              "field": "alternative"
+            },
+            {
+              "card": "R13e68bc03271",
+              "field": "variables"
+            },
+            {
+              "card": "R13e68bc03271",
+              "field": "invalidate"
+            },
+            {
+              "card": "R13e68bc03271",
+              "field": "gap"
+            }
+          ]
+        },
+        {
+          "text": "第三方翻新、维修限制和反垄断事项影响耗材复购及风险，需分别查证。若同术式使用与医院净收益不改善、需求量未达到抵消净价下降的门槛，或再处理与竞争使耗材复购明显脱钩，持续使用和变现的故事就要收窄。先跟踪两个季度，并保留更长的医院采用窗口。",
+          "anchors": [
+            {
+              "card": "R13e68bc03271",
+              "field": "claim"
+            },
+            {
+              "card": "R13e68bc03271",
+              "field": "evidence"
+            },
+            {
+              "card": "R13e68bc03271",
+              "field": "mechanism"
+            },
+            {
+              "card": "R13e68bc03271",
+              "field": "alternative"
+            },
+            {
+              "card": "R13e68bc03271",
+              "field": "variables"
+            },
+            {
+              "card": "R13e68bc03271",
+              "field": "invalidate"
+            },
+            {
+              "card": "R13e68bc03271",
+              "field": "gap"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "从经营现金走向普通股价值，还缺什么？",
+      "paragraphs": [
+        {
+          "text": "现金税、经营NCWC、租赁设备投入和折旧、研发资本化及SBC净稀释需要一致的处理。USD现金对应USD资本成本；同一估值日的时点股数与EPS加权股数分别服务市值和每股利润口径。",
+          "anchors": [
+            {
+              "card": "Rc4f28a3b6f14",
+              "field": "claim"
+            },
+            {
+              "card": "Rc4f28a3b6f14",
+              "field": "evidence"
+            },
+            {
+              "card": "Rc4f28a3b6f14",
+              "field": "mechanism"
+            },
+            {
+              "card": "Rc4f28a3b6f14",
+              "field": "alternative"
+            },
+            {
+              "card": "Rc4f28a3b6f14",
+              "field": "variables"
+            },
+            {
+              "card": "Rc4f28a3b6f14",
+              "field": "invalidate"
+            },
+            {
+              "card": "Rc4f28a3b6f14",
+              "field": "gap"
+            }
+          ]
+        },
+        {
+          "text": "目前缺分平台每例收入、器械计费次数、装机净增与退役置换、租赁队列、医院全成本和培训利用率、维修份额及当前判决，也缺完整现金税与再投资口径。同日USD Rf/ERP/beta、股价股数及可追溯共识样本尚待取得，完整DCF和每股价值计算停在这些输入处。",
+          "anchors": [
+            {
+              "card": "Rc4f28a3b6f14",
+              "field": "claim"
+            },
+            {
+              "card": "Rc4f28a3b6f14",
+              "field": "evidence"
+            },
+            {
+              "card": "Rc4f28a3b6f14",
+              "field": "mechanism"
+            },
+            {
+              "card": "Rc4f28a3b6f14",
+              "field": "alternative"
+            },
+            {
+              "card": "Rc4f28a3b6f14",
+              "field": "variables"
+            },
+            {
+              "card": "Rc4f28a3b6f14",
+              "field": "invalidate"
+            },
+            {
+              "card": "Rc4f28a3b6f14",
+              "field": "gap"
+            }
+          ]
+        },
+        {
+          "text": "本稿的信息截止2026-11-11，原件实际下载于2026-11-12 UTC。首批55项iXBRL原数定位、来源版本和后续补证入口见附录；医院经济性因果、市场共识及正式估值仍是后续研究任务。",
+          "anchors": [
+            {
+              "card": "Rc4f28a3b6f14",
+              "field": "claim"
+            },
+            {
+              "card": "Rc4f28a3b6f14",
+              "field": "evidence"
+            },
+            {
+              "card": "Rc4f28a3b6f14",
+              "field": "mechanism"
+            },
+            {
+              "card": "Rc4f28a3b6f14",
+              "field": "alternative"
+            },
+            {
+              "card": "Rc4f28a3b6f14",
+              "field": "variables"
+            },
+            {
+              "card": "Rc4f28a3b6f14",
+              "field": "invalidate"
+            },
+            {
+              "card": "Rc4f28a3b6f14",
+              "field": "gap"
+            },
+            {
+              "card": "R1879b1d90070",
+              "field": "claim"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

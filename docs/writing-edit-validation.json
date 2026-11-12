@@ -1,0 +1,78 @@
+{
+  "at": "2026-11-12T04:41:52.460001+00:00",
+  "protected_file_count": 61,
+  "changed_protected": [],
+  "companies": [
+    {
+      "company": "002507_涪陵榨菜",
+      "old_report": "outputs\\research-report\\v6-Oe64dc4afe3e7\\report.md",
+      "new_report": "outputs\\research-report\\v8-O315df3a0d64f\\report.md",
+      "structure_decision": "存在结构缺陷：8主线逐项打印相同机制、竞争解释、变量和缺口；卡片保持，阅读版按公司投资问题合并为6节",
+      "repetition_diagnosis": {
+        "mechanism": 7,
+        "alternative": 7,
+        "variables": 7,
+        "gap": 7,
+        "action_needed": 7
+      },
+      "material_issue": "部分旧风险卡使用断言式措辞而总研究定位为竞争解释；阅读稿按原有研究起点和alternative的假设范围展示，卡片原文保持，内容强度须另行审阅。"
+    },
+    {
+      "company": "09992_泡泡玛特",
+      "old_report": "outputs\\research-report\\v5-O94ad36e8b135\\report.md",
+      "new_report": "outputs\\research-report\\v6-O75e6689bf8ba\\report.md",
+      "structure_decision": "存在结构缺陷：8主线逐项打印相同机制、竞争解释、变量和缺口；卡片保持，阅读版按公司投资问题合并为6节",
+      "repetition_diagnosis": {
+        "mechanism": 7,
+        "alternative": 7,
+        "variables": 7,
+        "gap": 7,
+        "action_needed": 7
+      },
+      "material_issue": "部分旧风险卡使用断言式措辞而总研究定位为竞争解释；阅读稿按原有研究起点和alternative的假设范围展示，卡片原文保持，内容强度须另行审阅。"
+    },
+    {
+      "company": "600298_安琪酵母",
+      "old_report": "outputs\\research-report\\v6-Oe5cba07024f0\\report.md",
+      "new_report": "outputs\\research-report\\v8-O58646fce0ace\\report.md",
+      "structure_decision": "存在结构缺陷：8主线逐项打印相同机制、竞争解释、变量和缺口；卡片保持，阅读版按公司投资问题合并为6节",
+      "repetition_diagnosis": {
+        "mechanism": 7,
+        "alternative": 7,
+        "variables": 7,
+        "gap": 7,
+        "action_needed": 7
+      },
+      "material_issue": "部分旧风险卡使用断言式措辞而总研究定位为竞争解释；阅读稿按原有研究起点和alternative的假设范围展示，卡片原文保持，内容强度须另行审阅。"
+    },
+    {
+      "company": "688188_柏楚电子",
+      "old_report": "outputs\\research-report\\v6-Of40ddaac6ef2\\report.md",
+      "new_report": "outputs\\research-report\\v7-Of8d2471a82be\\report.md",
+      "structure_decision": "存在结构缺陷：8主线逐项打印相同机制、竞争解释、变量和缺口；卡片保持，阅读版按公司投资问题合并为6节",
+      "repetition_diagnosis": {
+        "mechanism": 7,
+        "alternative": 7,
+        "variables": 7,
+        "gap": 7,
+        "action_needed": 7
+      },
+      "material_issue": "部分旧风险卡使用断言式措辞而总研究定位为竞争解释；阅读稿按原有研究起点和alternative的假设范围展示，卡片原文保持，内容强度须另行审阅。"
+    },
+    {
+      "company": "US_ISRG_直觉外科",
+      "old_report": "outputs\\research-report\\v1-O44bdf1e27fe4\\report.md",
+      "new_report": "outputs\\research-report\\v3-O1fa4629ea2fa\\report.md",
+      "structure_decision": "存在结构缺陷：8主线逐项打印相同机制、竞争解释、变量和缺口；卡片保持，阅读版按公司投资问题合并为6节",
+      "repetition_diagnosis": {
+        "mechanism": 7,
+        "alternative": 7,
+        "variables": 7,
+        "gap": 7,
+        "action_needed": 7
+      },
+      "material_issue": "Q3和解费用确认、未来支付与法院批准条件继续分开；医院经济性与共识、估值尚无完整输入，原内容问题未由本轮认可。"
+    }
+  ],
+  "scope": "语义及表达编辑；无新数据、参数或核准；content_lock告警不等于语义判定"
+}

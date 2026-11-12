@@ -1,0 +1,145 @@
+{
+  "id": "O58646fce0ace",
+  "group": "research-report",
+  "title": "安琪酵母：海外扩张的收入，何时成为资本回报",
+  "kind": "报告草稿",
+  "version": 8,
+  "at": "2026-11-12T04:41:15.885187+00:00",
+  "actor": "Agent/test-or-api",
+  "actual_user_review": null,
+  "historical": false,
+  "bindings": {
+    "selection_ids": [
+      "R21f6d6590f9f",
+      "R2660b3bfa732",
+      "R29373d7bc0f1",
+      "R6911ffac3797",
+      "Ra9f2c23c0275",
+      "Rc307bcec6202",
+      "Rd60b7456dc65",
+      "Re0aacfad8631"
+    ],
+    "selection_scope": "all-eight-lanes",
+    "cards": {
+      "R6911ffac3797": "8a818cf5adb299fdfde53e98cfd028bd75940bcca289da43beae43f9a90ae5a4",
+      "Re0aacfad8631": "8a549c0baddaa88d5ba799a081be77b99d8b0ea48f69a112af67c7726a5f0cb3",
+      "Ra9f2c23c0275": "a62aa0bb0dc16983998da7255e62467c30015122ded3e3835d6b3e0c2f14723a",
+      "R29373d7bc0f1": "7f01fad15ce0da29415d165de419da101c8e12deb394329868dd9615e8b9efb5",
+      "R2660b3bfa732": "227f4234338251ead11c2ac25a727d701ff414058930a3aa5a35a0e28e6aaa44",
+      "R21f6d6590f9f": "8eb1fc79ed9544739fd70f0e35c9a634f8178c946d52f79f719c3f7c5db12c80",
+      "Rd60b7456dc65": "fb60d1150cdc25d5181dea544a3d8f6ef67be5f30ddfdc7b49268307bd4da502",
+      "Rc307bcec6202": "dfb9eb553ae6114f5494b5c816301c2dfc6938f96f2224e01b0994507d2f2a04"
+    },
+    "methods": [
+      {
+        "id": "K03",
+        "version": 1
+      },
+      {
+        "id": "K11",
+        "version": 1
+      },
+      {
+        "id": "E03",
+        "version": 1
+      },
+      {
+        "id": "E06",
+        "version": 1
+      },
+      {
+        "id": "K46",
+        "version": 1
+      },
+      {
+        "id": "K52",
+        "version": 1
+      },
+      {
+        "id": "K63",
+        "version": 1
+      },
+      {
+        "id": "K48",
+        "version": 1
+      },
+      {
+        "id": "K50",
+        "version": 1
+      },
+      {
+        "id": "K54",
+        "version": 1
+      },
+      {
+        "id": "K55",
+        "version": 1
+      },
+      {
+        "id": "K58",
+        "version": 1
+      },
+      {
+        "id": "K59",
+        "version": 1
+      }
+    ],
+    "inputs": {
+      "work/research09/evidence-map.json": "323c7b8ec891adee4cb21e6f5848f49f1bce6dd8513142ea19d3dd8ac2c2e7fd",
+      "work/research09/parameter-register.json": "39e4a383d3f9bb5cfdc82614c2f791d288eeffce04f1f87404444592d9c24c00",
+      "work/research09/利润资本现金与估值准备.md": "d0d66fe87d485ed2d9728eda6a89e4ee07f6577fa76ad2c2d33aa4a7c413e0b4",
+      "work/research07/source-field-map.json": "014674ca79ef6b2fdab2de541060518b35e84048b8acd578c872a8d46592f6c1",
+      "work/valuation/index.json": "b5855ba8f1999bdb1bbadfeed49c324a459c68545465afd0207134801f3d0850",
+      "work/valuation/v1-V2cc086959eb0.json": "675da54b224ad8421abf826241a5011fa56bc798af58f5b6134f808089cc7de8",
+      "work/writing/authority-snapshot.json": "5b367d44b619f6b6f76b3b379b5bbdee3d7cb57f7a98d20dbfe474c8536257c6",
+      "work/writing/reader.json": "15f32ccdd8accbd458219732adaaa18a67b17629981f2aefd8b2a4bdd8ebc588"
+    },
+    "sources": [
+      {
+        "id": "600298-5c763f656754f15e",
+        "path": "sources/raw/02_定期报告与经营数据/2026-10-30_安琪酵母股份有限公司2026年第三季度报告_1225641080.pdf",
+        "sha256": "f4739d889d29da1a9744f1fb9428f75f6e6331572031b3de1daec550113f59d1"
+      },
+      {
+        "id": "600298-48dbfbb4962cfdb9",
+        "path": "sources/raw/01_年报/2026-08-15_安琪酵母股份有限公司2026年半年度报告_1225474683.pdf",
+        "sha256": "5a4940bc351e4d8c4c222857f896065044c944d7d9d149c1ccf598fb44bc968b"
+      },
+      {
+        "id": "600298-a14b53fefcfc0356",
+        "path": "sources/raw/01_年报/2026-03-31_安琪酵母股份有限公司2025年年度报告_1225056953.pdf",
+        "sha256": "7bee6f0f30a5da24746dd431f1947f15c8189fa9fbf5db75df4d3ba3c512c800"
+      }
+    ],
+    "shared_dependencies": {
+      "shared/runtime/companybench/valuation_chain.py": "0155df03fa6ff2dd86a6a4c92f51f277f88e1edd45bfd972d191796276ac23ca",
+      "shared/runtime/companybench/research_depth.py": "bb364cd41336a0d3fe62d0d0663f7e8557570aeff2d201c21517259ae1404a41",
+      "scripts/recalculate_valuation.py": "711a5a9c153a834a2c28d133d24b0aec0cd93153c0baa4f1358a8b22ef4cc727",
+      "docs/投研写作规范.md": "e4cf87afffc67976148eab1d4f2aba00056a5825ba0c7ac64d7ccab1122cfb60",
+      "shared/writing-skills.json": "cad001177fa60de41d782dfbdb8d3ffbfa1ffb81a959472130c85925b6d2ab2a",
+      "app/writing.py": "083ceb8239ce4c1f76b50ead42c52d2e73068d6a564f25f6f288eb4697e947d8"
+    }
+  },
+  "files": [
+    {
+      "path": "outputs/research-report/v8-O58646fce0ace/basis.json",
+      "format": "json",
+      "sha256": "0cbbeb232f109e07391b55e8c1f9ae98c3c9bf668ca3c7e4a201997a6c131118",
+      "bytes": 111734
+    },
+    {
+      "path": "outputs/research-report/v8-O58646fce0ace/report.html",
+      "format": "html",
+      "sha256": "e7a87a6bb80010def37cc9354316f6ffe0774b41d8c94520d6ca26ab66d02caf",
+      "bytes": 8326
+    },
+    {
+      "path": "outputs/research-report/v8-O58646fce0ace/report.md",
+      "format": "md",
+      "sha256": "a96e1c62c7a4afca7a3ab3c0f00067bb77bbd88ec79f0d6512b4534e79aef063",
+      "bytes": 6472
+    }
+  ],
+  "needs_review": false,
+  "imported": false
+}

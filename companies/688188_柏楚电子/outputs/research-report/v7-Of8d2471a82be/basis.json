@@ -1,0 +1,974 @@
+{
+  "company": "688188_柏楚电子",
+  "cards": [
+    {
+      "lane": "研究起点",
+      "title": "控制系统、切割头及新应用如何贡献增长，优势能否支持利润与现金？",
+      "claim": "解释/假设：控制与配套协同具有研究价值，但需区分行业设备销量、份额、产品升级和金融收益，不能把高利润率直接判为可持续护城河。",
+      "evidence": "2025年报 688188-a343f0dc3c27d114 PDF物理8页；2026最新更新 688188-fed67b607fa475a7 PDF物理1页。B07-annual与B07-Q3均为机器候选，Fact=0。2025收入+26.52%、归母+26.04%，CFO+15.95%；2026前三季收入+16.05%、归母+21.69%，CFO仅+7.49%。年报12页交易性金融资产及公允价值变动提示需拆经营与金融贡献。",
+      "mechanism": "设备订单×控制渗透×配套率×净价→主业收入→研发/技术支持及采购成本→经营EBIT，交易性金融资产收益单列。研发分析资本化同调EBIT、未摊销资本、摊销、净再投资，保持真实现金税，现金重分类前后不变。试用认证→批量交付→回款不能缩成固定一期。",
+      "opposition": "2025收入+26.52%、归母+26.04%，CFO+15.95%；2026前三季收入+16.05%、归母+21.69%，CFO仅+7.49%。年报12页交易性金融资产及公允价值变动提示需拆经营与金融贡献。",
+      "alternative": "算法软件和硬件协同提升设备客户生产效率，客户切换成本支持长期回报。；竞争解释：设备周期、组合升级和投资收益解释增长，新应用尚未覆盖研发投入且降价竞争加剧。",
+      "variables": "控制/头部配套率、同客户续购与故障服务、研发批次兑现收入和回款；不由合并高毛利直接判壁垒。",
+      "invalidate": "若客户切换率提高、配套率下降并伴净价受压，则收窄粘性解释；若剔除金融收益后经营利润不改善，不认定主业优势兑现。",
+      "gap": "控制系统和切割头分产品销量净价及配套率；OEM留存/切换成本及新应用认证、订单商业化时序；研发年限/队列及已资本化范围；非经营资产与融资/经营现金分界。",
+      "action_needed": "回到work/research07/source-field-map.json与B07原件定位；先集中核未核候选，再从年报附注补上述变量，字段缺失保留具体阻断。",
+      "methods": [
+        {
+          "id": "K02",
+          "version": 1
+        },
+        {
+          "id": "E02",
+          "version": 1
+        },
+        {
+          "id": "E03",
+          "version": 1
+        },
+        {
+          "id": "E07",
+          "version": 1
+        },
+        {
+          "id": "K46",
+          "version": 1
+        },
+        {
+          "id": "K52",
+          "version": 1
+        },
+        {
+          "id": "K63",
+          "version": 1
+        }
+      ],
+      "id": "Rc91d3bad8c35",
+      "needs_review": false,
+      "impacts": [],
+      "updated_at": "2026-11-12T03:58:31.729106+00:00",
+      "actor": "Agent/test-or-api",
+      "status": "Interpretation draft"
+    },
+    {
+      "lane": "生意与价值创造",
+      "title": "谁付钱，什么投入形成利润与现金？",
+      "claim": "为激光切割设备制造商提供控制系统、套料软件、随动控制及切割头等配套。年报12—14物理页将产品规划、销售技术支持、采购外协、组装检测和订单闭环串联。收入随设备客户采用方案并交付实现；软件算法与控制/切割头协同可能提高客户价值，但研发投入、供应链、客户设备周期和回款共同约束利润现金。",
+      "evidence": "2025年报 688188-a343f0dc3c27d114 PDF物理8页；2026最新更新 688188-fed67b607fa475a7 PDF物理1页。B07-annual与B07-Q3均为机器候选，Fact=0。2025收入+26.52%、归母+26.04%，CFO+15.95%；2026前三季收入+16.05%、归母+21.69%，CFO仅+7.49%。年报12页交易性金融资产及公允价值变动提示需拆经营与金融贡献。",
+      "mechanism": "设备订单×控制渗透×配套率×净价→主业收入→研发/技术支持及采购成本→经营EBIT，交易性金融资产收益单列。研发分析资本化同调EBIT、未摊销资本、摊销、净再投资，保持真实现金税，现金重分类前后不变。试用认证→批量交付→回款不能缩成固定一期。",
+      "opposition": "2025收入+26.52%、归母+26.04%，CFO+15.95%；2026前三季收入+16.05%、归母+21.69%，CFO仅+7.49%。年报12页交易性金融资产及公允价值变动提示需拆经营与金融贡献。",
+      "alternative": "算法软件和硬件协同提升设备客户生产效率，客户切换成本支持长期回报。；竞争解释：设备周期、组合升级和投资收益解释增长，新应用尚未覆盖研发投入且降价竞争加剧。",
+      "variables": "控制/头部配套率、同客户续购与故障服务、研发批次兑现收入和回款；不由合并高毛利直接判壁垒。",
+      "invalidate": "若客户切换率提高、配套率下降并伴净价受压，则收窄粘性解释；若剔除金融收益后经营利润不改善，不认定主业优势兑现。",
+      "gap": "控制系统和切割头分产品销量净价及配套率；OEM留存/切换成本及新应用认证、订单商业化时序；研发年限/队列及已资本化范围；非经营资产与融资/经营现金分界。",
+      "action_needed": "回到work/research07/source-field-map.json与B07原件定位；先集中核未核候选，再从年报附注补上述变量，字段缺失保留具体阻断。",
+      "methods": [
+        {
+          "id": "K02",
+          "version": 1
+        },
+        {
+          "id": "E02",
+          "version": 1
+        },
+        {
+          "id": "E03",
+          "version": 1
+        },
+        {
+          "id": "E07",
+          "version": 1
+        },
+        {
+          "id": "K46",
+          "version": 1
+        },
+        {
+          "id": "K52",
+          "version": 1
+        },
+        {
+          "id": "K63",
+          "version": 1
+        }
+      ],
+      "id": "R42383f58e180",
+      "needs_review": false,
+      "impacts": [],
+      "updated_at": "2026-11-12T03:58:31.737101+00:00",
+      "actor": "Agent/test-or-api",
+      "status": "Interpretation draft"
+    },
+    {
+      "lane": "行业变化与竞争优势",
+      "title": "优势是否超出行业景气或产品组合？",
+      "claim": "研究假设，尚未确认护城河。控制算法、软件生态和切割头联动提高客户效率与粘性，驱动主业增长。",
+      "evidence": "2025年报 688188-a343f0dc3c27d114 PDF物理8页；2026最新更新 688188-fed67b607fa475a7 PDF物理1页。B07-annual与B07-Q3均为机器候选，Fact=0。2025收入+26.52%、归母+26.04%，CFO+15.95%；2026前三季收入+16.05%、归母+21.69%，CFO仅+7.49%。年报12页交易性金融资产及公允价值变动提示需拆经营与金融贡献。",
+      "mechanism": "设备订单×控制渗透×配套率×净价→主业收入→研发/技术支持及采购成本→经营EBIT，交易性金融资产收益单列。研发分析资本化同调EBIT、未摊销资本、摊销、净再投资，保持真实现金税，现金重分类前后不变。试用认证→批量交付→回款不能缩成固定一期。",
+      "opposition": "2025收入+26.52%、归母+26.04%，CFO+15.95%；2026前三季收入+16.05%、归母+21.69%，CFO仅+7.49%。年报12页交易性金融资产及公允价值变动提示需拆经营与金融贡献。",
+      "alternative": "算法软件和硬件协同提升设备客户生产效率，客户切换成本支持长期回报。；竞争解释：设备周期、组合升级和投资收益解释增长，新应用尚未覆盖研发投入且降价竞争加剧。",
+      "variables": "控制/头部配套率、同客户续购与故障服务、研发批次兑现收入和回款；不由合并高毛利直接判壁垒。",
+      "invalidate": "若客户切换率提高、配套率下降并伴净价受压，则收窄粘性解释；若剔除金融收益后经营利润不改善，不认定主业优势兑现。",
+      "gap": "控制系统和切割头分产品销量净价及配套率；OEM留存/切换成本及新应用认证、订单商业化时序；研发年限/队列及已资本化范围；非经营资产与融资/经营现金分界。",
+      "action_needed": "回到work/research07/source-field-map.json与B07原件定位；先集中核未核候选，再从年报附注补上述变量，字段缺失保留具体阻断。",
+      "methods": [
+        {
+          "id": "K02",
+          "version": 1
+        },
+        {
+          "id": "E02",
+          "version": 1
+        },
+        {
+          "id": "E03",
+          "version": 1
+        },
+        {
+          "id": "E07",
+          "version": 1
+        },
+        {
+          "id": "K46",
+          "version": 1
+        },
+        {
+          "id": "K52",
+          "version": 1
+        },
+        {
+          "id": "K63",
+          "version": 1
+        }
+      ],
+      "id": "Re652de68ca00",
+      "needs_review": false,
+      "impacts": [],
+      "updated_at": "2026-11-12T03:58:31.743132+00:00",
+      "actor": "Agent/test-or-api",
+      "status": "Interpretation draft"
+    },
+    {
+      "lane": "未来预测",
+      "title": "哪些经营驱动能进入条件预测？",
+      "claim": "激光设备订单×控制系统渗透×配套率×净价；研发→样机验证→设备厂认证→批量交付→回款；金融收益单列不外推。",
+      "evidence": "2025年报 688188-a343f0dc3c27d114 PDF物理8页；2026最新更新 688188-fed67b607fa475a7 PDF物理1页。B07-annual与B07-Q3均为机器候选，Fact=0。2025收入+26.52%、归母+26.04%，CFO+15.95%；2026前三季收入+16.05%、归母+21.69%，CFO仅+7.49%。年报12页交易性金融资产及公允价值变动提示需拆经营与金融贡献。",
+      "mechanism": "设备订单×控制渗透×配套率×净价→主业收入→研发/技术支持及采购成本→经营EBIT，交易性金融资产收益单列。研发分析资本化同调EBIT、未摊销资本、摊销、净再投资，保持真实现金税，现金重分类前后不变。试用认证→批量交付→回款不能缩成固定一期。",
+      "opposition": "2025收入+26.52%、归母+26.04%，CFO+15.95%；2026前三季收入+16.05%、归母+21.69%，CFO仅+7.49%。年报12页交易性金融资产及公允价值变动提示需拆经营与金融贡献。",
+      "alternative": "算法软件和硬件协同提升设备客户生产效率，客户切换成本支持长期回报。；竞争解释：设备周期、组合升级和投资收益解释增长，新应用尚未覆盖研发投入且降价竞争加剧。",
+      "variables": "控制/头部配套率、同客户续购与故障服务、研发批次兑现收入和回款；不由合并高毛利直接判壁垒。",
+      "invalidate": "若客户切换率提高、配套率下降并伴净价受压，则收窄粘性解释；若剔除金融收益后经营利润不改善，不认定主业优势兑现。",
+      "gap": "控制系统和切割头分产品销量净价及配套率；OEM留存/切换成本及新应用认证、订单商业化时序；研发年限/队列及已资本化范围；非经营资产与融资/经营现金分界。",
+      "action_needed": "回到work/research07/source-field-map.json与B07原件定位；先集中核未核候选，再从年报附注补上述变量，字段缺失保留具体阻断。",
+      "methods": [
+        {
+          "id": "K02",
+          "version": 1
+        },
+        {
+          "id": "E02",
+          "version": 1
+        },
+        {
+          "id": "E03",
+          "version": 1
+        },
+        {
+          "id": "E07",
+          "version": 1
+        },
+        {
+          "id": "K48",
+          "version": 1
+        },
+        {
+          "id": "K53",
+          "version": 1
+        },
+        {
+          "id": "K50",
+          "version": 1
+        },
+        {
+          "id": "K57",
+          "version": 1
+        },
+        {
+          "id": "K59",
+          "version": 1
+        },
+        {
+          "id": "K62",
+          "version": 1
+        }
+      ],
+      "id": "R9b91e4658392",
+      "needs_review": false,
+      "impacts": [],
+      "updated_at": "2026-11-12T03:58:31.750057+00:00",
+      "actor": "Agent/test-or-api",
+      "status": "Interpretation draft"
+    },
+    {
+      "lane": "估值与投资判断",
+      "title": "当前能否计算有依据的价值？",
+      "claim": "不能给正式估值：尚缺经核对历史桥、经营资本范围、再投资、现金流索取权和同日风险/价格输入。",
+      "evidence": "2025年报 688188-a343f0dc3c27d114 PDF物理8页；2026最新更新 688188-fed67b607fa475a7 PDF物理1页。B07-annual与B07-Q3均为机器候选，Fact=0。2025收入+26.52%、归母+26.04%，CFO+15.95%；2026前三季收入+16.05%、归母+21.69%，CFO仅+7.49%。年报12页交易性金融资产及公允价值变动提示需拆经营与金融贡献。",
+      "mechanism": "设备订单×控制渗透×配套率×净价→主业收入→研发/技术支持及采购成本→经营EBIT，交易性金融资产收益单列。研发分析资本化同调EBIT、未摊销资本、摊销、净再投资，保持真实现金税，现金重分类前后不变。试用认证→批量交付→回款不能缩成固定一期。",
+      "opposition": "2025收入+26.52%、归母+26.04%，CFO+15.95%；2026前三季收入+16.05%、归母+21.69%，CFO仅+7.49%。年报12页交易性金融资产及公允价值变动提示需拆经营与金融贡献。",
+      "alternative": "算法软件和硬件协同提升设备客户生产效率，客户切换成本支持长期回报。；竞争解释：设备周期、组合升级和投资收益解释增长，新应用尚未覆盖研发投入且降价竞争加剧。",
+      "variables": "控制/头部配套率、同客户续购与故障服务、研发批次兑现收入和回款；不由合并高毛利直接判壁垒。",
+      "invalidate": "若客户切换率提高、配套率下降并伴净价受压，则收窄粘性解释；若剔除金融收益后经营利润不改善，不认定主业优势兑现。",
+      "gap": "控制系统和切割头分产品销量净价及配套率；OEM留存/切换成本及新应用认证、订单商业化时序；研发年限/队列及已资本化范围；非经营资产与融资/经营现金分界。",
+      "action_needed": "回到work/research07/source-field-map.json与B07原件定位；先集中核未核候选，再从年报附注补上述变量，字段缺失保留具体阻断。",
+      "methods": [
+        {
+          "id": "K02",
+          "version": 1
+        },
+        {
+          "id": "E02",
+          "version": 1
+        },
+        {
+          "id": "E03",
+          "version": 1
+        },
+        {
+          "id": "E07",
+          "version": 1
+        },
+        {
+          "id": "K48",
+          "version": 1
+        },
+        {
+          "id": "K53",
+          "version": 1
+        },
+        {
+          "id": "K50",
+          "version": 1
+        },
+        {
+          "id": "K57",
+          "version": 1
+        },
+        {
+          "id": "K59",
+          "version": 1
+        },
+        {
+          "id": "K62",
+          "version": 1
+        }
+      ],
+      "id": "Rd192d88d9be7",
+      "needs_review": false,
+      "impacts": [],
+      "updated_at": "2026-11-12T03:58:31.757034+00:00",
+      "actor": "Agent/test-or-api",
+      "status": "Interpretation draft"
+    },
+    {
+      "lane": "风险与反方",
+      "title": "什么证据会推翻当前解释？",
+      "claim": "增长主要随设备景气、升级周期或投资收益波动，新应用仍在投入且竞争可能压价。",
+      "evidence": "2025年报 688188-a343f0dc3c27d114 PDF物理8页；2026最新更新 688188-fed67b607fa475a7 PDF物理1页。B07-annual与B07-Q3均为机器候选，Fact=0。2025收入+26.52%、归母+26.04%，CFO+15.95%；2026前三季收入+16.05%、归母+21.69%，CFO仅+7.49%。年报12页交易性金融资产及公允价值变动提示需拆经营与金融贡献。",
+      "mechanism": "设备订单×控制渗透×配套率×净价→主业收入→研发/技术支持及采购成本→经营EBIT，交易性金融资产收益单列。研发分析资本化同调EBIT、未摊销资本、摊销、净再投资，保持真实现金税，现金重分类前后不变。试用认证→批量交付→回款不能缩成固定一期。",
+      "opposition": "2025收入+26.52%、归母+26.04%，CFO+15.95%；2026前三季收入+16.05%、归母+21.69%，CFO仅+7.49%。年报12页交易性金融资产及公允价值变动提示需拆经营与金融贡献。",
+      "alternative": "算法软件和硬件协同提升设备客户生产效率，客户切换成本支持长期回报。；竞争解释：设备周期、组合升级和投资收益解释增长，新应用尚未覆盖研发投入且降价竞争加剧。",
+      "variables": "控制/头部配套率、同客户续购与故障服务、研发批次兑现收入和回款；不由合并高毛利直接判壁垒。",
+      "invalidate": "若客户切换率提高、配套率下降并伴净价受压，则收窄粘性解释；若剔除金融收益后经营利润不改善，不认定主业优势兑现。",
+      "gap": "控制系统和切割头分产品销量净价及配套率；OEM留存/切换成本及新应用认证、订单商业化时序；研发年限/队列及已资本化范围；非经营资产与融资/经营现金分界。",
+      "action_needed": "回到work/research07/source-field-map.json与B07原件定位；先集中核未核候选，再从年报附注补上述变量，字段缺失保留具体阻断。",
+      "methods": [
+        {
+          "id": "K02",
+          "version": 1
+        },
+        {
+          "id": "E02",
+          "version": 1
+        },
+        {
+          "id": "E03",
+          "version": 1
+        },
+        {
+          "id": "E07",
+          "version": 1
+        },
+        {
+          "id": "K46",
+          "version": 1
+        },
+        {
+          "id": "K52",
+          "version": 1
+        },
+        {
+          "id": "K63",
+          "version": 1
+        }
+      ],
+      "id": "R6ef717bb11b9",
+      "needs_review": false,
+      "impacts": [],
+      "updated_at": "2026-11-12T03:58:31.765008+00:00",
+      "actor": "Agent/test-or-api",
+      "status": "Interpretation draft"
+    },
+    {
+      "lane": "研究交付",
+      "title": "当前研究支持到哪一层？",
+      "claim": "仅为候选证据支持的研究起点，不是完整投资报告、目标价或买卖建议。",
+      "evidence": "2025年报 688188-a343f0dc3c27d114 PDF物理8页；2026最新更新 688188-fed67b607fa475a7 PDF物理1页。B07-annual与B07-Q3均为机器候选，Fact=0。2025收入+26.52%、归母+26.04%，CFO+15.95%；2026前三季收入+16.05%、归母+21.69%，CFO仅+7.49%。年报12页交易性金融资产及公允价值变动提示需拆经营与金融贡献。",
+      "mechanism": "设备订单×控制渗透×配套率×净价→主业收入→研发/技术支持及采购成本→经营EBIT，交易性金融资产收益单列。研发分析资本化同调EBIT、未摊销资本、摊销、净再投资，保持真实现金税，现金重分类前后不变。试用认证→批量交付→回款不能缩成固定一期。",
+      "opposition": "2025收入+26.52%、归母+26.04%，CFO+15.95%；2026前三季收入+16.05%、归母+21.69%，CFO仅+7.49%。年报12页交易性金融资产及公允价值变动提示需拆经营与金融贡献。",
+      "alternative": "算法软件和硬件协同提升设备客户生产效率，客户切换成本支持长期回报。；竞争解释：设备周期、组合升级和投资收益解释增长，新应用尚未覆盖研发投入且降价竞争加剧。",
+      "variables": "控制/头部配套率、同客户续购与故障服务、研发批次兑现收入和回款；不由合并高毛利直接判壁垒。",
+      "invalidate": "若客户切换率提高、配套率下降并伴净价受压，则收窄粘性解释；若剔除金融收益后经营利润不改善，不认定主业优势兑现。",
+      "gap": "控制系统和切割头分产品销量净价及配套率；OEM留存/切换成本及新应用认证、订单商业化时序；研发年限/队列及已资本化范围；非经营资产与融资/经营现金分界。",
+      "action_needed": "回到work/research07/source-field-map.json与B07原件定位；先集中核未核候选，再从年报附注补上述变量，字段缺失保留具体阻断。",
+      "methods": [
+        {
+          "id": "K02",
+          "version": 1
+        },
+        {
+          "id": "E02",
+          "version": 1
+        },
+        {
+          "id": "E03",
+          "version": 1
+        },
+        {
+          "id": "E07",
+          "version": 1
+        },
+        {
+          "id": "K46",
+          "version": 1
+        },
+        {
+          "id": "K52",
+          "version": 1
+        },
+        {
+          "id": "K63",
+          "version": 1
+        }
+      ],
+      "id": "Rd3892afbfc24",
+      "needs_review": false,
+      "impacts": [],
+      "updated_at": "2026-11-12T03:58:31.770989+00:00",
+      "actor": "Agent/test-or-api",
+      "status": "Interpretation draft"
+    },
+    {
+      "lane": "历史经营解释",
+      "title": "收入、利润与现金为什么不同步？",
+      "claim": "2025收入+26.52%、归母+26.04%，CFO+15.95%；2026前三季收入+16.05%、归母+21.69%，CFO仅+7.49%。年报12页交易性金融资产及公允价值变动提示需拆经营与金融贡献。",
+      "evidence": "2025年报 688188-a343f0dc3c27d114 PDF物理8页；2026最新更新 688188-fed67b607fa475a7 PDF物理1页。B07-annual与B07-Q3均为机器候选，Fact=0。2025收入+26.52%、归母+26.04%，CFO+15.95%；2026前三季收入+16.05%、归母+21.69%，CFO仅+7.49%。年报12页交易性金融资产及公允价值变动提示需拆经营与金融贡献。\n2026中报 688188-20b73bb3528dbdbe PDF物理6—7页：2026H1收入+15.84%、归母+22.97%，CFO-8.84%；前三季CFO同比转正但仍慢于利润，金融收益与营运回款应分拆。",
+      "mechanism": "设备订单×控制渗透×配套率×净价→主业收入→研发/技术支持及采购成本→经营EBIT，交易性金融资产收益单列。研发分析资本化同调EBIT、未摊销资本、摊销、净再投资，保持真实现金税，现金重分类前后不变。试用认证→批量交付→回款不能缩成固定一期。",
+      "opposition": "2025收入+26.52%、归母+26.04%，CFO+15.95%；2026前三季收入+16.05%、归母+21.69%，CFO仅+7.49%。年报12页交易性金融资产及公允价值变动提示需拆经营与金融贡献。",
+      "alternative": "算法软件和硬件协同提升设备客户生产效率，客户切换成本支持长期回报。；竞争解释：设备周期、组合升级和投资收益解释增长，新应用尚未覆盖研发投入且降价竞争加剧。",
+      "variables": "控制/头部配套率、同客户续购与故障服务、研发批次兑现收入和回款；不由合并高毛利直接判壁垒。",
+      "invalidate": "若客户切换率提高、配套率下降并伴净价受压，则收窄粘性解释；若剔除金融收益后经营利润不改善，不认定主业优势兑现。",
+      "gap": "控制系统和切割头分产品销量净价及配套率；OEM留存/切换成本及新应用认证、订单商业化时序；研发年限/队列及已资本化范围；非经营资产与融资/经营现金分界。",
+      "action_needed": "回到work/research07/source-field-map.json与B07原件定位；先集中核未核候选，再从年报附注补上述变量，字段缺失保留具体阻断。",
+      "methods": [
+        {
+          "id": "K02",
+          "version": 1
+        },
+        {
+          "id": "E02",
+          "version": 1
+        },
+        {
+          "id": "E03",
+          "version": 1
+        },
+        {
+          "id": "E07",
+          "version": 1
+        },
+        {
+          "id": "K48",
+          "version": 1
+        },
+        {
+          "id": "K53",
+          "version": 1
+        },
+        {
+          "id": "K50",
+          "version": 1
+        },
+        {
+          "id": "K57",
+          "version": 1
+        },
+        {
+          "id": "K59",
+          "version": 1
+        },
+        {
+          "id": "K62",
+          "version": 1
+        }
+      ],
+      "id": "R1622b2e65098",
+      "needs_review": false,
+      "impacts": [],
+      "updated_at": "2026-11-12T03:58:31.779004+00:00",
+      "actor": "Agent/test-or-api",
+      "status": "Interpretation draft"
+    }
+  ],
+  "bindings": {
+    "selection_ids": [
+      "R1622b2e65098",
+      "R42383f58e180",
+      "R6ef717bb11b9",
+      "R9b91e4658392",
+      "Rc91d3bad8c35",
+      "Rd192d88d9be7",
+      "Rd3892afbfc24",
+      "Re652de68ca00"
+    ],
+    "selection_scope": "all-eight-lanes",
+    "cards": {
+      "Rc91d3bad8c35": "ce98f022b6634e1822708031a11897fadc353a5432c5e7fb575ced62a1367391",
+      "R42383f58e180": "703fd3c4f59da609c61fdd455f0c89e565d5ec920cab59ddcd399c6db5343a67",
+      "Re652de68ca00": "be468f6d960e51e897f3c4e75052bc459918d3b94ba590b904c83ad42238eca9",
+      "R9b91e4658392": "5ab8b31b75d709b7e8f2f6434830de910d087161ec824281dc0814153e36762d",
+      "Rd192d88d9be7": "7aa3e4a4d7cf3053e2bd004accdb9808216b15daf775af804848372b4fe2adc9",
+      "R6ef717bb11b9": "76f05d5c4db915f8ea42cb43421915ca9aaa469a00712804fc221db5c80aec6f",
+      "Rd3892afbfc24": "bf39795a5426e3adb61cced52e1d3e0fd1c42d84eb104e586883aa1115e29186",
+      "R1622b2e65098": "332a5dcfac04161ddcffab6919ba9de1884680c92b199ab467125208f2d7d51b"
+    },
+    "methods": [
+      {
+        "id": "K02",
+        "version": 1
+      },
+      {
+        "id": "E02",
+        "version": 1
+      },
+      {
+        "id": "E03",
+        "version": 1
+      },
+      {
+        "id": "E07",
+        "version": 1
+      },
+      {
+        "id": "K46",
+        "version": 1
+      },
+      {
+        "id": "K52",
+        "version": 1
+      },
+      {
+        "id": "K63",
+        "version": 1
+      },
+      {
+        "id": "K48",
+        "version": 1
+      },
+      {
+        "id": "K53",
+        "version": 1
+      },
+      {
+        "id": "K50",
+        "version": 1
+      },
+      {
+        "id": "K57",
+        "version": 1
+      },
+      {
+        "id": "K59",
+        "version": 1
+      },
+      {
+        "id": "K62",
+        "version": 1
+      }
+    ],
+    "inputs": {
+      "work/research09/evidence-map.json": "047de000db6c7dfb892f1032e5a732e5f36c99ba8f8dafc96f89d08e163ca3ea",
+      "work/research09/parameter-register.json": "98c9f43e4173d8e2263b3d1cfa5d9b775ee43e9befd2c40c6487b85cfdc3e91f",
+      "work/research09/利润资本现金与估值准备.md": "5f0cd48ff750658d25b7d3a298b23e13f7c13dcb0f620763f838bf5e2bcb240f",
+      "work/research07/source-field-map.json": "8df86766e01695fd8c97beb13cee442e3309746d26adb759bc65346f2d8cbd40",
+      "work/valuation/index.json": "5becdf6a6504467898eae0deaa648b49a7d092fb7ed0f3b5d34cd48e19eccf0b",
+      "work/valuation/v1-V8fb3181b10d1.json": "e0827fa29a13f73fd0ce57f0e735a1824af4242b8801f31db5fa491ebf4a6498",
+      "work/writing/authority-snapshot.json": "a79f924d68e6c0806561e623290a6f5e96a598e438d7bf7fbbd22c869aaa9d65",
+      "work/writing/reader.json": "e16e6abca161eee8a6d2ec5e5cf5a8ef1f8a1d3732cc1bf93cf12f30b373321c"
+    },
+    "sources": [
+      {
+        "id": "688188-20b73bb3528dbdbe",
+        "path": "sources/raw/02_定期报告与经营数据/2026-08-18_2026年半年度报告_1225477071.pdf",
+        "sha256": "caa94577eda863f238933d192305884ec05c01cf6aad7a2ba89fe96ef8259eb1"
+      },
+      {
+        "id": "688188-a343f0dc3c27d114",
+        "path": "sources/raw/01_年报/2026-04-10_2025年年度报告_1225091045.pdf",
+        "sha256": "e12688b3c2e80e63fae0008983426c644a0ca5bc0da6bed30f9b45f635ecfed2"
+      },
+      {
+        "id": "688188-fed67b607fa475a7",
+        "path": "sources/raw/02_定期报告与经营数据/2026-10-27_2026年第三季度报告_1225622322.pdf",
+        "sha256": "33f3c5e4de011f9858e98a1034e672104e0435fda3bdeec651a04c83fd6887ef"
+      }
+    ],
+    "shared_dependencies": {
+      "shared/runtime/companybench/valuation_chain.py": "0155df03fa6ff2dd86a6a4c92f51f277f88e1edd45bfd972d191796276ac23ca",
+      "shared/runtime/companybench/research_depth.py": "bb364cd41336a0d3fe62d0d0663f7e8557570aeff2d201c21517259ae1404a41",
+      "scripts/recalculate_valuation.py": "711a5a9c153a834a2c28d133d24b0aec0cd93153c0baa4f1358a8b22ef4cc727",
+      "docs/投研写作规范.md": "e4cf87afffc67976148eab1d4f2aba00056a5825ba0c7ac64d7ccab1122cfb60",
+      "shared/writing-skills.json": "cad001177fa60de41d782dfbdb8d3ffbfa1ffb81a959472130c85925b6d2ab2a",
+      "app/writing.py": "083ceb8239ce4c1f76b50ead42c52d2e73068d6a564f25f6f288eb4697e947d8"
+    }
+  },
+  "actual_user_review": null,
+  "unresolved_impacts": [],
+  "editorial": {
+    "reader": {
+      "schema_version": 1,
+      "title": "柏楚电子：控制与配套协同，怎样兑现为经营现金",
+      "sections": [
+        {
+          "title": "增长中有多少来自主业协同？",
+          "paragraphs": [
+            {
+              "text": "控制系统、切割头与新应用的协同值得研究。当前要分清设备行业销量、份额、产品升级和金融收益各自的贡献，再判断客户采用与研发投入能否支持长期回报。",
+              "anchors": [
+                {
+                  "card": "Rc91d3bad8c35",
+                  "field": "claim"
+                },
+                {
+                  "card": "Rc91d3bad8c35",
+                  "field": "evidence"
+                },
+                {
+                  "card": "Rc91d3bad8c35",
+                  "field": "mechanism"
+                },
+                {
+                  "card": "Rc91d3bad8c35",
+                  "field": "alternative"
+                },
+                {
+                  "card": "Rc91d3bad8c35",
+                  "field": "variables"
+                },
+                {
+                  "card": "Rc91d3bad8c35",
+                  "field": "invalidate"
+                },
+                {
+                  "card": "Rc91d3bad8c35",
+                  "field": "gap"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "从设备客户采用到交付，价值在哪里形成？",
+          "paragraphs": [
+            {
+              "text": "公司为激光切割设备制造商提供控制系统、套料软件、随动控制和切割头等配套。2025年报物理12—14页描述了产品规划、销售技术支持、采购外协、组装检测和订单交付的过程。",
+              "anchors": [
+                {
+                  "card": "R42383f58e180",
+                  "field": "claim"
+                },
+                {
+                  "card": "R42383f58e180",
+                  "field": "evidence"
+                },
+                {
+                  "card": "R42383f58e180",
+                  "field": "mechanism"
+                },
+                {
+                  "card": "R42383f58e180",
+                  "field": "alternative"
+                },
+                {
+                  "card": "R42383f58e180",
+                  "field": "variables"
+                },
+                {
+                  "card": "R42383f58e180",
+                  "field": "invalidate"
+                },
+                {
+                  "card": "R42383f58e180",
+                  "field": "gap"
+                }
+              ]
+            },
+            {
+              "text": "软件算法与控制、切割头的协同可能提高设备客户的效率。研发、供应链、客户设备周期与回款同时影响这项价值能留下多少利润和现金。客户留存、配套率、切换成本及服务质量，是检验这一优势假设的直接观察点。",
+              "anchors": [
+                {
+                  "card": "R42383f58e180",
+                  "field": "claim"
+                },
+                {
+                  "card": "R42383f58e180",
+                  "field": "evidence"
+                },
+                {
+                  "card": "R42383f58e180",
+                  "field": "mechanism"
+                },
+                {
+                  "card": "R42383f58e180",
+                  "field": "alternative"
+                },
+                {
+                  "card": "R42383f58e180",
+                  "field": "variables"
+                },
+                {
+                  "card": "R42383f58e180",
+                  "field": "invalidate"
+                },
+                {
+                  "card": "R42383f58e180",
+                  "field": "gap"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "利润增长与现金增长有何差别？",
+          "paragraphs": [
+            {
+              "text": "2025收入+26.52%、归母+26.04%，CFO+15.95%；2026前三季收入+16.05%、归母+21.69%，CFO仅+7.49%。利润与现金增长并未同步，经营回款与金融收益需要拆开。",
+              "anchors": [
+                {
+                  "card": "R1622b2e65098",
+                  "field": "claim"
+                },
+                {
+                  "card": "R1622b2e65098",
+                  "field": "evidence"
+                },
+                {
+                  "card": "R1622b2e65098",
+                  "field": "mechanism"
+                },
+                {
+                  "card": "R1622b2e65098",
+                  "field": "alternative"
+                },
+                {
+                  "card": "R1622b2e65098",
+                  "field": "variables"
+                },
+                {
+                  "card": "R1622b2e65098",
+                  "field": "invalidate"
+                },
+                {
+                  "card": "R1622b2e65098",
+                  "field": "gap"
+                }
+              ]
+            },
+            {
+              "text": "2026H1收入+15.84%、归母+22.97%，CFO-8.84%；前三季CFO同比转正但仍慢于利润。2025年报物理12页列有交易性金融资产及公允价值变动，主业利润桥要将这些金融贡献另列。",
+              "anchors": [
+                {
+                  "card": "R1622b2e65098",
+                  "field": "claim"
+                },
+                {
+                  "card": "R1622b2e65098",
+                  "field": "evidence"
+                },
+                {
+                  "card": "R1622b2e65098",
+                  "field": "mechanism"
+                },
+                {
+                  "card": "R1622b2e65098",
+                  "field": "alternative"
+                },
+                {
+                  "card": "R1622b2e65098",
+                  "field": "variables"
+                },
+                {
+                  "card": "R1622b2e65098",
+                  "field": "invalidate"
+                },
+                {
+                  "card": "R1622b2e65098",
+                  "field": "gap"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "客户黏性与设备周期，哪些观察能够区分？",
+          "paragraphs": [
+            {
+              "text": "优势假设是算法软件和硬件协同提高设备效率，客户切换成本支持长期回报。另一种解释是设备景气、产品组合升级或投资收益主导增长，新应用仍在投入，竞争带来净价压力。",
+              "anchors": [
+                {
+                  "card": "Re652de68ca00",
+                  "field": "claim"
+                },
+                {
+                  "card": "Re652de68ca00",
+                  "field": "evidence"
+                },
+                {
+                  "card": "Re652de68ca00",
+                  "field": "mechanism"
+                },
+                {
+                  "card": "Re652de68ca00",
+                  "field": "alternative"
+                },
+                {
+                  "card": "Re652de68ca00",
+                  "field": "variables"
+                },
+                {
+                  "card": "Re652de68ca00",
+                  "field": "invalidate"
+                },
+                {
+                  "card": "Re652de68ca00",
+                  "field": "gap"
+                }
+              ]
+            },
+            {
+              "text": "若客户切换率提高、配套率下降并伴随净价受压，黏性解释就需要收窄。若剔除金融收益后经营利润没有改善，主业优势兑现的判断也需调整。相关资料包括同客户续购、故障服务、控制系统与切割头配套率。",
+              "anchors": [
+                {
+                  "card": "Re652de68ca00",
+                  "field": "claim"
+                },
+                {
+                  "card": "Re652de68ca00",
+                  "field": "evidence"
+                },
+                {
+                  "card": "Re652de68ca00",
+                  "field": "mechanism"
+                },
+                {
+                  "card": "Re652de68ca00",
+                  "field": "alternative"
+                },
+                {
+                  "card": "Re652de68ca00",
+                  "field": "variables"
+                },
+                {
+                  "card": "Re652de68ca00",
+                  "field": "invalidate"
+                },
+                {
+                  "card": "Re652de68ca00",
+                  "field": "gap"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "研发投入怎样进入预测和现金？",
+          "paragraphs": [
+            {
+              "text": "收入预测从激光设备订单、控制系统渗透、配套率与净价出发。新应用经历研发、样机验证、设备厂认证、批量交付和回款，投入与收益分年对应，金融收益单列。",
+              "anchors": [
+                {
+                  "card": "R9b91e4658392",
+                  "field": "claim"
+                },
+                {
+                  "card": "R9b91e4658392",
+                  "field": "evidence"
+                },
+                {
+                  "card": "R9b91e4658392",
+                  "field": "mechanism"
+                },
+                {
+                  "card": "R9b91e4658392",
+                  "field": "alternative"
+                },
+                {
+                  "card": "R9b91e4658392",
+                  "field": "variables"
+                },
+                {
+                  "card": "R9b91e4658392",
+                  "field": "invalidate"
+                },
+                {
+                  "card": "R9b91e4658392",
+                  "field": "gap"
+                }
+              ]
+            },
+            {
+              "text": "分析资本化研发时，EBIT、未摊销研发资本、摊销与净再投资需同步调整，并保留真实现金税；重分类前后的现金应一致。研发寿命、投入队列和已资本化范围尚缺具体资料，这一步目前停在准备阶段。",
+              "anchors": [
+                {
+                  "card": "R9b91e4658392",
+                  "field": "claim"
+                },
+                {
+                  "card": "R9b91e4658392",
+                  "field": "evidence"
+                },
+                {
+                  "card": "R9b91e4658392",
+                  "field": "mechanism"
+                },
+                {
+                  "card": "R9b91e4658392",
+                  "field": "alternative"
+                },
+                {
+                  "card": "R9b91e4658392",
+                  "field": "variables"
+                },
+                {
+                  "card": "R9b91e4658392",
+                  "field": "invalidate"
+                },
+                {
+                  "card": "R9b91e4658392",
+                  "field": "gap"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "经营价值与非经营资产如何分开？",
+          "paragraphs": [
+            {
+              "text": "经营利润扣除同范围采购、研发与技术支持成本，交易性金融资产收益分开处理。控制系统和切割头的销量净价、配套率、OEM留存与新应用商业化时序，决定增长与再投资的解释。",
+              "anchors": [
+                {
+                  "card": "Rd192d88d9be7",
+                  "field": "claim"
+                },
+                {
+                  "card": "Rd192d88d9be7",
+                  "field": "evidence"
+                },
+                {
+                  "card": "Rd192d88d9be7",
+                  "field": "mechanism"
+                },
+                {
+                  "card": "Rd192d88d9be7",
+                  "field": "alternative"
+                },
+                {
+                  "card": "Rd192d88d9be7",
+                  "field": "variables"
+                },
+                {
+                  "card": "Rd192d88d9be7",
+                  "field": "invalidate"
+                },
+                {
+                  "card": "Rd192d88d9be7",
+                  "field": "gap"
+                }
+              ]
+            },
+            {
+              "text": "目前缺非经营资产及融资、经营现金的范围桥，也缺完整经营资本、现金流索取权与同日风险、价格输入。补齐这些字段后，才能把已有经营解释接到现金流和股权价值。",
+              "anchors": [
+                {
+                  "card": "Rd192d88d9be7",
+                  "field": "claim"
+                },
+                {
+                  "card": "Rd192d88d9be7",
+                  "field": "evidence"
+                },
+                {
+                  "card": "Rd192d88d9be7",
+                  "field": "mechanism"
+                },
+                {
+                  "card": "Rd192d88d9be7",
+                  "field": "alternative"
+                },
+                {
+                  "card": "Rd192d88d9be7",
+                  "field": "variables"
+                },
+                {
+                  "card": "Rd192d88d9be7",
+                  "field": "invalidate"
+                },
+                {
+                  "card": "Rd192d88d9be7",
+                  "field": "gap"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "source_cards": {
+        "Rc91d3bad8c35": "ce98f022b6634e1822708031a11897fadc353a5432c5e7fb575ced62a1367391",
+        "R42383f58e180": "703fd3c4f59da609c61fdd455f0c89e565d5ec920cab59ddcd399c6db5343a67",
+        "Re652de68ca00": "be468f6d960e51e897f3c4e75052bc459918d3b94ba590b904c83ad42238eca9",
+        "R9b91e4658392": "5ab8b31b75d709b7e8f2f6434830de910d087161ec824281dc0814153e36762d",
+        "Rd192d88d9be7": "7aa3e4a4d7cf3053e2bd004accdb9808216b15daf775af804848372b4fe2adc9",
+        "R6ef717bb11b9": "76f05d5c4db915f8ea42cb43421915ca9aaa469a00712804fc221db5c80aec6f",
+        "Rd3892afbfc24": "bf39795a5426e3adb61cced52e1d3e0fd1c42d84eb104e586883aa1115e29186",
+        "R1622b2e65098": "332a5dcfac04161ddcffab6919ba9de1884680c92b199ab467125208f2d7d51b"
+      },
+      "saved_at": "2026-11-12T04:33:22.114120+00:00",
+      "saved_by": "Agent/test-or-api",
+      "actual_user_review": null
+    },
+    "unresolved_impacts": [],
+    "policy": "docs/投研写作规范.md",
+    "actual_user_review": null
+  },
+  "input_values": {
+    "work/research09/evidence-map.json": "{\n  \"company\": \"688188_柏楚电子\",\n  \"prior\": \"work/research07/source-field-map.json\",\n  \"review\": \"work/review-batches/README.md\",\n  \"hypotheses\": [\n    \"算法软件和硬件协同提升设备客户生产效率，客户切换成本支持长期回报。\",\n    \"设备周期、组合升级和投资收益解释增长，新应用尚未覆盖研发投入且降价竞争加剧。\"\n  ],\n  \"operating_cash_bridge\": \"设备订单×控制渗透×配套率×净价→主业收入→研发/技术支持及采购成本→经营EBIT，交易性金融资产收益单列。研发分析资本化同调EBIT、未摊销资本、摊销、净再投资，保持真实现金税，现金重分类前后不变。试用认证→批量交付→回款不能缩成固定一期。\",\n  \"missing\": \"控制系统和切割头分产品销量净价及配套率；OEM留存/切换成本及新应用认证、订单商业化时序；研发年限/队列及已资本化范围；非经营资产与融资/经营现金分界。\",\n  \"discriminating_observations\": \"控制/头部配套率、同客户续购与故障服务、研发批次兑现收入和回款；不由合并高毛利直接判壁垒。\",\n  \"methods\": [\n    \"K48\",\n    \"K53\",\n    \"K50\",\n    \"K57\",\n    \"K59\",\n    \"K62\"\n  ],\n  \"human_review\": null\n}\n",
+    "work/research09/parameter-register.json": "{\n  \"schema_version\": 1,\n  \"kind\": \"空白研究登记，不可直接计算\",\n  \"company_data_included\": false,\n  \"parameters\": [\n    {\n      \"name\": \"业务范围\",\n      \"value\": null,\n      \"unit\": null,\n      \"source\": null,\n      \"source_period\": null,\n      \"published_at\": null,\n      \"retrieved_at\": null,\n      \"applies_to_year\": null,\n      \"method\": null,\n      \"rationale\": null,\n      \"state\": \"Unknown\",\n      \"investment_support_year\": null,\n      \"limitations\": \"控制系统和切割头分产品销量净价及配套率；OEM留存/切换成本及新应用认证、订单商业化时序；研发年限/队列及已资本化范围；非经营资产与融资/经营现金分界。\",\n      \"currency\": \"CNY\",\n      \"entity\": \"688188_柏楚电子\",\n      \"claim_scope\": \"经营全合并FCFF；普通股桥另核\",\n      \"alternative_value\": null,\n      \"trigger\": \"控制/头部配套率、同客户续购与故障服务、研发批次兑现收入和回款；不由合并高毛利直接判壁垒。\"\n    },\n    {\n      \"name\": \"现金流权利\",\n      \"value\": null,\n      \"unit\": null,\n      \"source\": null,\n      \"source_period\": null,\n      \"published_at\": null,\n      \"retrieved_at\": null,\n      \"applies_to_year\": null,\n      \"method\": null,\n      \"rationale\": null,\n      \"state\": \"Unknown\",\n      \"investment_support_year\": null,\n      \"limitations\": \"控制系统和切割头分产品销量净价及配套率；OEM留存/切换成本及新应用认证、订单商业化时序；研发年限/队列及已资本化范围；非经营资产与融资/经营现金分界。\",\n      \"currency\": \"CNY\",\n      \"entity\": \"688188_柏楚电子\",\n      \"claim_scope\": \"经营全合并FCFF；普通股桥另核\",\n      \"alternative_value\": null,\n      \"trigger\": \"控制/头部配套率、同客户续购与故障服务、研发批次兑现收入和回款；不由合并高毛利直接判壁垒。\"\n    },\n    {\n      \"name\": \"估值日与信息截止\",\n      \"value\": null,\n      \"unit\": null,\n      \"source\": null,\n      \"source_period\": null,\n      \"published_at\": null,\n      \"retrieved_at\": null,\n      \"applies_to_year\": null,\n      \"method\": null,\n      \"rationale\": null,\n      \"state\": \"Unknown\",\n      \"investment_support_year\": null,\n      \"limitations\": \"控制系统和切割头分产品销量净价及配套率；OEM留存/切换成本及新应用认证、订单商业化时序；研发年限/队列及已资本化范围；非经营资产与融资/经营现金分界。\",\n      \"currency\": \"CNY\",\n      \"entity\": \"688188_柏楚电子\",\n      \"claim_scope\": \"经营全合并FCFF；普通股桥另核\",\n      \"alternative_value\": null,\n      \"trigger\": \"控制/头部配套率、同客户续购与故障服务、研发批次兑现收入和回款；不由合并高毛利直接判壁垒。\"\n    },\n    {\n      \"name\": \"币种与名义实际\",\n      \"value\": null,\n      \"unit\": null,\n      \"source\": null,\n      \"source_period\": null,\n      \"published_at\": null,\n      \"retrieved_at\": null,\n      \"applies_to_year\": null,\n      \"method\": null,\n      \"rationale\": null,\n      \"state\": \"Unknown\",\n      \"investment_support_year\": null,\n      \"limitations\": \"控制系统和切割头分产品销量净价及配套率；OEM留存/切换成本及新应用认证、订单商业化时序；研发年限/队列及已资本化范围；非经营资产与融资/经营现金分界。\",\n      \"currency\": \"CNY\",\n      \"entity\": \"688188_柏楚电子\",\n      \"claim_scope\": \"经营全合并FCFF；普通股桥另核\",\n      \"alternative_value\": null,\n      \"trigger\": \"控制/头部配套率、同客户续购与故障服务、研发批次兑现收入和回款；不由合并高毛利直接判壁垒。\"\n    },\n    {\n      \"name\": \"经营EBIT\",\n      \"value\": null,\n      \"unit\": null,\n      \"source\": null,\n      \"source_period\": null,\n      \"published_at\": null,\n      \"retrieved_at\": null,\n      \"applies_to_year\": null,\n      \"method\": null,\n      \"rationale\": null,\n      \"state\": \"Unknown\",\n      \"investment_support_year\": null,\n      \"limitations\": \"控制系统和切割头分产品销量净价及配套率；OEM留存/切换成本及新应用认证、订单商业化时序；研发年限/队列及已资本化范围；非经营资产与融资/经营现金分界。\",\n      \"currency\": \"CNY\",\n      \"entity\": \"688188_柏楚电子\",\n      \"claim_scope\": \"经营全合并FCFF；普通股桥另核\",\n      \"alternative_value\": null,\n      \"trigger\": \"控制/头部配套率、同客户续购与故障服务、研发批次兑现收入和回款；不由合并高毛利直接判壁垒。\"\n    },\n    {\n      \"name\": \"经营现金税\",\n      \"value\": null,\n      \"unit\": null,\n      \"source\": null,\n      \"source_period\": null,\n      \"published_at\": null,\n      \"retrieved_at\": null,\n      \"applies_to_year\": null,\n      \"method\": null,\n      \"rationale\": null,\n      \"state\": \"Unknown\",\n      \"investment_support_year\": null,\n      \"limitations\": \"控制系统和切割头分产品销量净价及配套率；OEM留存/切换成本及新应用认证、订单商业化时序；研发年限/队列及已资本化范围；非经营资产与融资/经营现金分界。\",\n      \"currency\": \"CNY\",\n      \"entity\": \"688188_柏楚电子\",\n      \"claim_scope\": \"经营全合并FCFF；普通股桥另核\",\n      \"alternative_value\": null,\n      \"trigger\": \"控制/头部配套率、同客户续购与故障服务、研发批次兑现收入和回款；不由合并高毛利直接判壁垒。\"\n    },\n    {\n      \"name\": \"CapEx与D&A\",\n      \"value\": null,\n      \"unit\": null,\n      \"source\": null,\n      \"source_period\": null,\n      \"published_at\": null,\n      \"retrieved_at\": null,\n      \"applies_to_year\": null,\n      \"method\": null,\n      \"rationale\": null,\n      \"state\": \"Unknown\",\n      \"investment_support_year\": null,\n      \"limitations\": \"控制系统和切割头分产品销量净价及配套率；OEM留存/切换成本及新应用认证、订单商业化时序；研发年限/队列及已资本化范围；非经营资产与融资/经营现金分界。\",\n      \"currency\": \"CNY\",\n      \"entity\": \"688188_柏楚电子\",\n      \"claim_scope\": \"经营全合并FCFF；普通股桥另核\",\n      \"alternative_value\": null,\n      \"trigger\": \"控制/头部配套率、同客户续购与故障服务、研发批次兑现收入和回款；不由合并高毛利直接判壁垒。\"\n    },\n    {\n      \"name\": \"NCWC期初期末\",\n      \"value\": null,\n      \"unit\": null,\n      \"source\": null,\n      \"source_period\": null,\n      \"published_at\": null,\n      \"retrieved_at\": null,\n      \"applies_to_year\": null,\n      \"method\": null,\n      \"rationale\": null,\n      \"state\": \"Unknown\",\n      \"investment_support_year\": null,\n      \"limitations\": \"控制系统和切割头分产品销量净价及配套率；OEM留存/切换成本及新应用认证、订单商业化时序；研发年限/队列及已资本化范围；非经营资产与融资/经营现金分界。\",\n      \"currency\": \"CNY\",\n      \"entity\": \"688188_柏楚电子\",\n      \"claim_scope\": \"经营全合并FCFF；普通股桥另核\",\n      \"alternative_value\": null,\n      \"trigger\": \"控制/头部配套率、同客户续购与故障服务、研发批次兑现收入和回款；不由合并高毛利直接判壁垒。\"\n    },\n    {\n      \"name\": \"其他再投资\",\n      \"value\": null,\n      \"unit\": null,\n      \"source\": null,\n      \"source_period\": null,\n      \"published_at\": null,\n      \"retrieved_at\": null,\n      \"applies_to_year\": null,\n      \"method\": null,\n      \"rationale\": null,\n      \"state\": \"Unknown\",\n      \"investment_support_year\": null,\n      \"limitations\": \"控制系统和切割头分产品销量净价及配套率；OEM留存/切换成本及新应用认证、订单商业化时序；研发年限/队列及已资本化范围；非经营资产与融资/经营现金分界。\",\n      \"currency\": \"CNY\",\n      \"entity\": \"688188_柏楚电子\",\n      \"claim_scope\": \"经营全合并FCFF；普通股桥另核\",\n      \"alternative_value\": null,\n      \"trigger\": \"控制/头部配套率、同客户续购与故障服务、研发批次兑现收入和回款；不由合并高毛利直接判壁垒。\"\n    },\n    {\n      \"name\": \"投入支持的收益年度\",\n      \"value\": null,\n      \"unit\": null,\n      \"source\": null,\n      \"source_period\": null,\n      \"published_at\": null,\n      \"retrieved_at\": null,\n      \"applies_to_year\": null,\n      \"method\": null,\n      \"rationale\": null,\n      \"state\": \"Unknown\",\n      \"investment_support_year\": null,\n      \"limitations\": \"控制系统和切割头分产品销量净价及配套率；OEM留存/切换成本及新应用认证、订单商业化时序；研发年限/队列及已资本化范围；非经营资产与融资/经营现金分界。\",\n      \"currency\": \"CNY\",\n      \"entity\": \"688188_柏楚电子\",\n      \"claim_scope\": \"经营全合并FCFF；普通股桥另核\",\n      \"alternative_value\": null,\n      \"trigger\": \"控制/头部配套率、同客户续购与故障服务、研发批次兑现收入和回款；不由合并高毛利直接判壁垒。\"\n    },\n    {\n      \"name\": \"Rf\",\n      \"value\": null,\n      \"unit\": null,\n      \"source\": null,\n      \"source_period\": null,\n      \"published_at\": null,\n      \"retrieved_at\": null,\n      \"applies_to_year\": null,\n      \"method\": null,\n      \"rationale\": null,\n      \"state\": \"Unknown\",\n      \"investment_support_year\": null,\n      \"limitations\": \"控制系统和切割头分产品销量净价及配套率；OEM留存/切换成本及新应用认证、订单商业化时序；研发年限/队列及已资本化范围；非经营资产与融资/经营现金分界。\",\n      \"currency\": \"CNY\",\n      \"entity\": \"688188_柏楚电子\",\n      \"claim_scope\": \"经营全合并FCFF；普通股桥另核\",\n      \"alternative_value\": null,\n      \"trigger\": \"控制/头部配套率、同客户续购与故障服务、研发批次兑现收入和回款；不由合并高毛利直接判壁垒。\"\n    },\n    {\n      \"name\": \"ERP\",\n      \"value\": null,\n      \"unit\": null,\n      \"source\": null,\n      \"source_period\": null,\n      \"published_at\": null,\n      \"retrieved_at\": null,\n      \"applies_to_year\": null,\n      \"method\": null,\n      \"rationale\": null,\n      \"state\": \"Unknown\",\n      \"investment_support_year\": null,\n      \"limitations\": \"控制系统和切割头分产品销量净价及配套率；OEM留存/切换成本及新应用认证、订单商业化时序；研发年限/队列及已资本化范围；非经营资产与融资/经营现金分界。\",\n      \"currency\": \"CNY\",\n      \"entity\": \"688188_柏楚电子\",\n      \"claim_scope\": \"经营全合并FCFF；普通股桥另核\",\n      \"alternative_value\": null,\n      \"trigger\": \"控制/头部配套率、同客户续购与故障服务、研发批次兑现收入和回款；不由合并高毛利直接判壁垒。\"\n    },\n    {\n      \"name\": \"beta与回归样本\",\n      \"value\": null,\n      \"unit\": null,\n      \"source\": null,\n      \"source_period\": null,\n      \"published_at\": null,\n      \"retrieved_at\": null,\n      \"applies_to_year\": null,\n      \"method\": null,\n      \"rationale\": null,\n      \"state\": \"Unknown\",\n      \"investment_support_year\": null,\n      \"limitations\": \"控制系统和切割头分产品销量净价及配套率；OEM留存/切换成本及新应用认证、订单商业化时序；研发年限/队列及已资本化范围；非经营资产与融资/经营现金分界。\",\n      \"currency\": \"CNY\",\n      \"entity\": \"688188_柏楚电子\",\n      \"claim_scope\": \"经营全合并FCFF；普通股桥另核\",\n      \"alternative_value\": null,\n      \"trigger\": \"控制/头部配套率、同客户续购与故障服务、研发批次兑现收入和回款；不由合并高毛利直接判壁垒。\"\n    },\n    {\n      \"name\": \"边际债务成本\",\n      \"value\": null,\n      \"unit\": null,\n      \"source\": null,\n      \"source_period\": null,\n      \"published_at\": null,\n      \"retrieved_at\": null,\n      \"applies_to_year\": null,\n      \"method\": null,\n      \"rationale\": null,\n      \"state\": \"Unknown\",\n      \"investment_support_year\": null,\n      \"limitations\": \"控制系统和切割头分产品销量净价及配套率；OEM留存/切换成本及新应用认证、订单商业化时序；研发年限/队列及已资本化范围；非经营资产与融资/经营现金分界。\",\n      \"currency\": \"CNY\",\n      \"entity\": \"688188_柏楚电子\",\n      \"claim_scope\": \"经营全合并FCFF；普通股桥另核\",\n      \"alternative_value\": null,\n      \"trigger\": \"控制/头部配套率、同客户续购与故障服务、研发批次兑现收入和回款；不由合并高毛利直接判壁垒。\"\n    },\n    {\n      \"name\": \"市场D/E和税盾能力\",\n      \"value\": null,\n      \"unit\": null,\n      \"source\": null,\n      \"source_period\": null,\n      \"published_at\": null,\n      \"retrieved_at\": null,\n      \"applies_to_year\": null,\n      \"method\": null,\n      \"rationale\": null,\n      \"state\": \"Unknown\",\n      \"investment_support_year\": null,\n      \"limitations\": \"控制系统和切割头分产品销量净价及配套率；OEM留存/切换成本及新应用认证、订单商业化时序；研发年限/队列及已资本化范围；非经营资产与融资/经营现金分界。\",\n      \"currency\": \"CNY\",\n      \"entity\": \"688188_柏楚电子\",\n      \"claim_scope\": \"经营全合并FCFF；普通股桥另核\",\n      \"alternative_value\": null,\n      \"trigger\": \"控制/头部配套率、同客户续购与故障服务、研发批次兑现收入和回款；不由合并高毛利直接判壁垒。\"\n    },\n    {\n      \"name\": \"稳定期起点\",\n      \"value\": null,\n      \"unit\": null,\n      \"source\": null,\n      \"source_period\": null,\n      \"published_at\": null,\n      \"retrieved_at\": null,\n      \"applies_to_year\": null,\n      \"method\": null,\n      \"rationale\": null,\n      \"state\": \"Unknown\",\n      \"investment_support_year\": null,\n      \"limitations\": \"控制系统和切割头分产品销量净价及配套率；OEM留存/切换成本及新应用认证、订单商业化时序；研发年限/队列及已资本化范围；非经营资产与融资/经营现金分界。\",\n      \"currency\": \"CNY\",\n      \"entity\": \"688188_柏楚电子\",\n      \"claim_scope\": \"经营全合并FCFF；普通股桥另核\",\n      \"alternative_value\": null,\n      \"trigger\": \"控制/头部配套率、同客户续购与故障服务、研发批次兑现收入和回款；不由合并高毛利直接判壁垒。\"\n    },\n    {\n      \"name\": \"稳定首年NOPAT\",\n      \"value\": null,\n      \"unit\": null,\n      \"source\": null,\n      \"source_period\": null,\n      \"published_at\": null,\n      \"retrieved_at\": null,\n      \"applies_to_year\": null,\n      \"method\": null,\n      \"rationale\": null,\n      \"state\": \"Unknown\",\n      \"investment_support_year\": null,\n      \"limitations\": \"控制系统和切割头分产品销量净价及配套率；OEM留存/切换成本及新应用认证、订单商业化时序；研发年限/队列及已资本化范围；非经营资产与融资/经营现金分界。\",\n      \"currency\": \"CNY\",\n      \"entity\": \"688188_柏楚电子\",\n      \"claim_scope\": \"经营全合并FCFF；普通股桥另核\",\n      \"alternative_value\": null,\n      \"trigger\": \"控制/头部配套率、同客户续购与故障服务、研发批次兑现收入和回款；不由合并高毛利直接判壁垒。\"\n    },\n    {\n      \"name\": \"长期g\",\n      \"value\": null,\n      \"unit\": null,\n      \"source\": null,\n      \"source_period\": null,\n      \"published_at\": null,\n      \"retrieved_at\": null,\n      \"applies_to_year\": null,\n      \"method\": null,\n      \"rationale\": null,\n      \"state\": \"Unknown\",\n      \"investment_support_year\": null,\n      \"limitations\": \"控制系统和切割头分产品销量净价及配套率；OEM留存/切换成本及新应用认证、订单商业化时序；研发年限/队列及已资本化范围；非经营资产与融资/经营现金分界。\",\n      \"currency\": \"CNY\",\n      \"entity\": \"688188_柏楚电子\",\n      \"claim_scope\": \"经营全合并FCFF；普通股桥另核\",\n      \"alternative_value\": null,\n      \"trigger\": \"控制/头部配套率、同客户续购与故障服务、研发批次兑现收入和回款；不由合并高毛利直接判壁垒。\"\n    },\n    {\n      \"name\": \"未来新增ROIC与fade\",\n      \"value\": null,\n      \"unit\": null,\n      \"source\": null,\n      \"source_period\": null,\n      \"published_at\": null,\n      \"retrieved_at\": null,\n      \"applies_to_year\": null,\n      \"method\": null,\n      \"rationale\": null,\n      \"state\": \"Unknown\",\n      \"investment_support_year\": null,\n      \"limitations\": \"控制系统和切割头分产品销量净价及配套率；OEM留存/切换成本及新应用认证、订单商业化时序；研发年限/队列及已资本化范围；非经营资产与融资/经营现金分界。\",\n      \"currency\": \"CNY\",\n      \"entity\": \"688188_柏楚电子\",\n      \"claim_scope\": \"经营全合并FCFF；普通股桥另核\",\n      \"alternative_value\": null,\n      \"trigger\": \"控制/头部配套率、同客户续购与故障服务、研发批次兑现收入和回款；不由合并高毛利直接判壁垒。\"\n    },\n    {\n      \"name\": \"末年投入衔接\",\n      \"value\": null,\n      \"unit\": null,\n      \"source\": null,\n      \"source_period\": null,\n      \"published_at\": null,\n      \"retrieved_at\": null,\n      \"applies_to_year\": null,\n      \"method\": null,\n      \"rationale\": null,\n      \"state\": \"Unknown\",\n      \"investment_support_year\": null,\n      \"limitations\": \"控制系统和切割头分产品销量净价及配套率；OEM留存/切换成本及新应用认证、订单商业化时序；研发年限/队列及已资本化范围；非经营资产与融资/经营现金分界。\",\n      \"currency\": \"CNY\",\n      \"entity\": \"688188_柏楚电子\",\n      \"claim_scope\": \"经营全合并FCFF；普通股桥另核\",\n      \"alternative_value\": null,\n      \"trigger\": \"控制/头部配套率、同客户续购与故障服务、研发批次兑现收入和回款；不由合并高毛利直接判壁垒。\"\n    },\n    {\n      \"name\": \"非经营资产\",\n      \"value\": null,\n      \"unit\": null,\n      \"source\": null,\n      \"source_period\": null,\n      \"published_at\": null,\n      \"retrieved_at\": null,\n      \"applies_to_year\": null,\n      \"method\": null,\n      \"rationale\": null,\n      \"state\": \"Unknown\",\n      \"investment_support_year\": null,\n      \"limitations\": \"控制系统和切割头分产品销量净价及配套率；OEM留存/切换成本及新应用认证、订单商业化时序；研发年限/队列及已资本化范围；非经营资产与融资/经营现金分界。\",\n      \"currency\": \"CNY\",\n      \"entity\": \"688188_柏楚电子\",\n      \"claim_scope\": \"经营全合并FCFF；普通股桥另核\",\n      \"alternative_value\": null,\n      \"trigger\": \"控制/头部配套率、同客户续购与故障服务、研发批次兑现收入和回款；不由合并高毛利直接判壁垒。\"\n    },\n    {\n      \"name\": \"融资与其他权利\",\n      \"value\": null,\n      \"unit\": null,\n      \"source\": null,\n      \"source_period\": null,\n      \"published_at\": null,\n      \"retrieved_at\": null,\n      \"applies_to_year\": null,\n      \"method\": null,\n      \"rationale\": null,\n      \"state\": \"Unknown\",\n      \"investment_support_year\": null,\n      \"limitations\": \"控制系统和切割头分产品销量净价及配套率；OEM留存/切换成本及新应用认证、订单商业化时序；研发年限/队列及已资本化范围；非经营资产与融资/经营现金分界。\",\n      \"currency\": \"CNY\",\n      \"entity\": \"688188_柏楚电子\",\n      \"claim_scope\": \"经营全合并FCFF；普通股桥另核\",\n      \"alternative_value\": null,\n      \"trigger\": \"控制/头部配套率、同客户续购与故障服务、研发批次兑现收入和回款；不由合并高毛利直接判壁垒。\"\n    },\n    {\n      \"name\": \"少数权益价值\",\n      \"value\": null,\n      \"unit\": null,\n      \"source\": null,\n      \"source_period\": null,\n      \"published_at\": null,\n      \"retrieved_at\": null,\n      \"applies_to_year\": null,\n      \"method\": null,\n      \"rationale\": null,\n      \"state\": \"Unknown\",\n      \"investment_support_year\": null,\n      \"limitations\": \"控制系统和切割头分产品销量净价及配套率；OEM留存/切换成本及新应用认证、订单商业化时序；研发年限/队列及已资本化范围；非经营资产与融资/经营现金分界。\",\n      \"currency\": \"CNY\",\n      \"entity\": \"688188_柏楚电子\",\n      \"claim_scope\": \"经营全合并FCFF；普通股桥另核\",\n      \"alternative_value\": null,\n      \"trigger\": \"控制/头部配套率、同客户续购与故障服务、研发批次兑现收入和回款；不由合并高毛利直接判壁垒。\"\n    },\n    {\n      \"name\": \"股数与稀释\",\n      \"value\": null,\n      \"unit\": null,\n      \"source\": null,\n      \"source_period\": null,\n      \"published_at\": null,\n      \"retrieved_at\": null,\n      \"applies_to_year\": null,\n      \"method\": null,\n      \"rationale\": null,\n      \"state\": \"Unknown\",\n      \"investment_support_year\": null,\n      \"limitations\": \"控制系统和切割头分产品销量净价及配套率；OEM留存/切换成本及新应用认证、订单商业化时序；研发年限/队列及已资本化范围；非经营资产与融资/经营现金分界。\",\n      \"currency\": \"CNY\",\n      \"entity\": \"688188_柏楚电子\",\n      \"claim_scope\": \"经营全合并FCFF；普通股桥另核\",\n      \"alternative_value\": null,\n      \"trigger\": \"控制/头部配套率、同客户续购与故障服务、研发批次兑现收入和回款；不由合并高毛利直接判壁垒。\"\n    },\n    {\n      \"name\": \"同日价格与市场预期\",\n      \"value\": null,\n      \"unit\": null,\n      \"source\": null,\n      \"source_period\": null,\n      \"published_at\": null,\n      \"retrieved_at\": null,\n      \"applies_to_year\": null,\n      \"method\": null,\n      \"rationale\": null,\n      \"state\": \"Unknown\",\n      \"investment_support_year\": null,\n      \"limitations\": \"控制系统和切割头分产品销量净价及配套率；OEM留存/切换成本及新应用认证、订单商业化时序；研发年限/队列及已资本化范围；非经营资产与融资/经营现金分界。\",\n      \"currency\": \"CNY\",\n      \"entity\": \"688188_柏楚电子\",\n      \"claim_scope\": \"经营全合并FCFF；普通股桥另核\",\n      \"alternative_value\": null,\n      \"trigger\": \"控制/头部配套率、同客户续购与故障服务、研发批次兑现收入和回款；不由合并高毛利直接判壁垒。\"\n    },\n    {\n      \"name\": \"催化剂及反证\",\n      \"value\": null,\n      \"unit\": null,\n      \"source\": null,\n      \"source_period\": null,\n      \"published_at\": null,\n      \"retrieved_at\": null,\n      \"applies_to_year\": null,\n      \"method\": null,\n      \"rationale\": null,\n      \"state\": \"Unknown\",\n      \"investment_support_year\": null,\n      \"limitations\": \"控制系统和切割头分产品销量净价及配套率；OEM留存/切换成本及新应用认证、订单商业化时序；研发年限/队列及已资本化范围；非经营资产与融资/经营现金分界。\",\n      \"currency\": \"CNY\",\n      \"entity\": \"688188_柏楚电子\",\n      \"claim_scope\": \"经营全合并FCFF；普通股桥另核\",\n      \"alternative_value\": null,\n      \"trigger\": \"控制/头部配套率、同客户续购与故障服务、研发批次兑现收入和回款；不由合并高毛利直接判壁垒。\"\n    }\n  ],\n  \"company\": \"688188_柏楚电子\",\n  \"information_cutoff\": \"2026-11-10（原研究窗口保持）\",\n  \"updated_at\": \"2026-11-12T03:58:31.782990+00:00\"\n}\n",
+    "work/research09/利润资本现金与估值准备.md": "# 柏楚电子：利润、资本与现金准备表\n\n设备订单×控制渗透×配套率×净价→主业收入→研发/技术支持及采购成本→经营EBIT，交易性金融资产收益单列。研发分析资本化同调EBIT、未摊销资本、摊销、净再投资，保持真实现金税，现金重分类前后不变。试用认证→批量交付→回款不能缩成固定一期。\n\n竞争解释A：算法软件和硬件协同提升设备客户生产效率，客户切换成本支持长期回报。\n\n竞争解释B：设备周期、组合升级和投资收益解释增长，新应用尚未覆盖研发投入且降价竞争加剧。\n\n具体输入缺口与动作：控制系统和切割头分产品销量净价及配套率；OEM留存/切换成本及新应用认证、订单商业化时序；研发年限/队列及已资本化范围；非经营资产与融资/经营现金分界。；回原年报附注取值，不用课程参数填空。\n\n区分观察：控制/头部配套率、同客户续购与故障服务、研发批次兑现收入和回款；不由合并高毛利直接判壁垒。\n\n复用B07但未核准新Fact；参数表和计算依赖从本公司成果中心打开。",
+    "work/research07/source-field-map.json": "{\n  \"cutoff\": \"2026-11-10\",\n  \"company\": \"688188_柏楚电子\",\n  \"management_statement\": {\n    \"source_id\": \"688188-a343f0dc3c27d114\",\n    \"page\": 12,\n    \"identity\": \"管理层自述，非机制事实\",\n    \"summary\": \"为激光切割设备制造商提供控制系统、套料软件、随动控制及切割头等配套。年报12—14物理页将产品规划、销售技术支持、采购外协、组装检测和订单闭环串联。收入随设备客户采用方案并交付实现；软件算法与控制/切割头协同可能提高客户价值，但研发投入、供应链、客户设备周期和回款共同约束利润现金。\"\n  },\n  \"batches\": [\n    \"B07-annual\",\n    \"B07-Q3\"\n  ],\n  \"sources\": [\n    {\n      \"company\": \"688188_柏楚电子\",\n      \"kind\": \"annual\",\n      \"id\": \"688188-a343f0dc3c27d114\",\n      \"path\": \"sources/raw/01_年报/2026-04-10_2025年年度报告_1225091045.pdf\",\n      \"title\": \"2025年年度报告\",\n      \"sha256\": \"e12688b3c2e80e63fae0008983426c644a0ca5bc0da6bed30f9b45f635ecfed2\",\n      \"pages_total\": 266\n    },\n    {\n      \"company\": \"688188_柏楚电子\",\n      \"kind\": \"Q3\",\n      \"id\": \"688188-fed67b607fa475a7\",\n      \"path\": \"sources/raw/02_定期报告与经营数据/2026-10-27_2026年第三季度报告_1225622322.pdf\",\n      \"title\": \"2026年第三季度报告\",\n      \"sha256\": \"33f3c5e4de011f9858e98a1034e672104e0435fda3bdeec651a04c83fd6887ef\",\n      \"pages_total\": 12\n    },\n    {\n      \"company\": \"688188_柏楚电子\",\n      \"kind\": \"H1\",\n      \"id\": \"688188-20b73bb3528dbdbe\",\n      \"path\": \"sources/raw/02_定期报告与经营数据/2026-08-18_2026年半年度报告_1225477071.pdf\",\n      \"title\": \"2026年半年度报告\",\n      \"sha256\": \"caa94577eda863f238933d192305884ec05c01cf6aad7a2ba89fe96ef8259eb1\",\n      \"pages_total\": 184\n    }\n  ],\n  \"knowledge_application\": [\n    {\n      \"id\": \"K02\",\n      \"question\": \"量、价、交互项应如何判断？\",\n      \"method_used\": \"R=Q×P；ΔR=P0ΔQ+Q0ΔP+ΔQΔP。固定基期展示三个项；或用中点对称分解。\",\n      \"applied_to\": \"若客户切换率提高、配套率下降并伴净价受压，则收窄粘性解释；若剔除金融收益后经营利润不改善，不认定主业优势兑现。\"\n    },\n    {\n      \"id\": \"E02\",\n      \"question\": \"定价优势能否在资本成本后持续？\",\n      \"method_used\": \"区分优势来源、传导机制、财务结果、复制成本与替代威胁\",\n      \"applied_to\": \"若客户切换率提高、配套率下降并伴净价受压，则收窄粘性解释；若剔除金融收益后经营利润不改善，不认定主业优势兑现。\"\n    },\n    {\n      \"id\": \"E03\",\n      \"question\": \"投资何时成为可销售产出、收入和现金？\",\n      \"method_used\": \"建立投入→产能→利用率→销量→收入→资本回收的条件路径\",\n      \"applied_to\": \"若客户切换率提高、配套率下降并伴净价受压，则收窄粘性解释；若剔除金融收益后经营利润不改善，不认定主业优势兑现。\"\n    },\n    {\n      \"id\": \"E07\",\n      \"question\": \"费用重分类后利润资本税现金是否闭合？\",\n      \"method_used\": \"同时重述利润、投入资本、税和现金，保留原报表桥\",\n      \"applied_to\": \"若客户切换率提高、配套率下降并伴净价受压，则收窄粘性解释；若剔除金融收益后经营利润不改善，不认定主业优势兑现。\"\n    }\n  ],\n  \"contract_mapping\": \"共享contract-research-map：原文取证/口径/财务四环/行业优势与反证；本轮不宣称条款验收或签署\",\n  \"gaps\": \"缺控制系统/切割头各自销量净价、装机客户留存、同类替换成本、研发资本化/费用化一致口径及新应用商业化时序。\",\n  \"actions\": \"从业务分产品表、收入成本附注、研发和投资收益附注，建立控制系统→切割头→新应用的收入与毛利桥，再核应收库存。\",\n  \"restatement_note\": \"年报摘要使用报告内可比列；柏楚往年每股收益随权益分派调整，本批不选EPS；泡泡IFRS与调整利润不混用\",\n  \"H1_candidate_reading_note\": {\n    \"physical_pages\": \"6—7\",\n    \"note\": \"2026H1收入+15.84%、归母+22.97%，CFO-8.84%；前三季CFO同比转正但仍慢于利润，金融收益与营运回款应分拆。\",\n    \"status\": \"未人审，不认定Fact\"\n  },\n  \"financial_statement_locations\": [\n    {\n      \"source_id\": \"688188-a343f0dc3c27d114\",\n      \"label\": \"合并资产负债表\",\n      \"physical_page\": 121\n    },\n    {\n      \"source_id\": \"688188-a343f0dc3c27d114\",\n      \"label\": \"合并利润表\",\n      \"physical_page\": 125\n    },\n    {\n      \"source_id\": \"688188-a343f0dc3c27d114\",\n      \"label\": \"合并现金流量表\",\n      \"physical_page\": 129\n    },\n    {\n      \"source_id\": \"688188-a343f0dc3c27d114\",\n      \"label\": \"存货或收入附注\",\n      \"physical_page\": 119\n    }\n  ],\n  \"scope_guard\": \"表格起始页可能先列母公司上表尾部，仅从合并表标题之后读取；合并/母公司及归母/总净利分开。存货政策/关键审计事项已读，不声称存货明细和资本经济归类已完成。\",\n  \"contract_requirements_map\": [\n    {\n      \"source\": \"D:\\\\投资学\\\\课件与任务文件\\\\任务合同\\\\第一次任务合同.md\",\n      \"sha256\": \"4867e16f12245ff4d5842c23841f4c7ebf4830b201169766b54c9a74eaa6f0fb\",\n      \"requirement_group\": [\n        \"证据与口径是否闭合\",\n        \"经营解释和反证是什么\",\n        \"预测变量和现金归属是否匹配\"\n      ],\n      \"result_positions\": [\n        \"work/review-batches\",\n        \"历史经营解释研究卡\",\n        \"风险与反方研究卡\"\n      ],\n      \"status\": \"方法承接，非合同验收/签署\"\n    },\n    {\n      \"source\": \"D:\\\\投资学\\\\课件与任务文件\\\\任务合同\\\\第三次任务合同_年报指标口径识别.md\",\n      \"sha256\": \"9453a5d0801b6251e56538e9ab2eaee325029e4fc907eaeb85378812f99bebf9\",\n      \"requirement_group\": [\n        \"证据与口径是否闭合\",\n        \"经营解释和反证是什么\",\n        \"预测变量和现金归属是否匹配\"\n      ],\n      \"result_positions\": [\n        \"work/review-batches\",\n        \"历史经营解释研究卡\",\n        \"风险与反方研究卡\"\n      ],\n      \"status\": \"方法承接，非合同验收/签署\"\n    },\n    {\n      \"source\": \"D:\\\\投资学\\\\课件与任务文件\\\\任务合同\\\\第二次任务合同_年报收入信息结构化提取.md\",\n      \"sha256\": \"fa9d200800e8a581eb8631e8d2d9daa475686c401f0995a51cf752e814a3da8d\",\n      \"requirement_group\": [\n        \"证据与口径是否闭合\",\n        \"经营解释和反证是什么\",\n        \"预测变量和现金归属是否匹配\"\n      ],\n      \"result_positions\": [\n        \"work/review-batches\",\n        \"历史经营解释研究卡\",\n        \"风险与反方研究卡\"\n      ],\n      \"status\": \"方法承接，非合同验收/签署\"\n    },\n    {\n      \"source\": \"D:\\\\投资学\\\\课件与任务文件\\\\任务合同\\\\第五次任务合同_贵州茅台商业模式、竞争优势与叙事核验.md\",\n      \"sha256\": \"742749871e570ecaa486f20c17e210f918edd39289c2a83dc4cd5dd4c2fe1d28\",\n      \"requirement_group\": [\n        \"证据与口径是否闭合\",\n        \"经营解释和反证是什么\",\n        \"预测变量和现金归属是否匹配\"\n      ],\n      \"result_positions\": [\n        \"work/review-batches\",\n        \"历史经营解释研究卡\",\n        \"风险与反方研究卡\"\n      ],\n      \"status\": \"方法承接，非合同验收/签署\"\n    },\n    {\n      \"source\": \"D:\\\\投资学\\\\课件与任务文件\\\\任务合同\\\\第五次任务合同第一部分_贵州茅台商业模式验证.md\",\n      \"sha256\": \"33c24262c521635601f76fb51f22f01a670db4b7c569fd12a372766c554ffee3\",\n      \"requirement_group\": [\n        \"证据与口径是否闭合\",\n        \"经营解释和反证是什么\",\n        \"预测变量和现金归属是否匹配\"\n      ],\n      \"result_positions\": [\n        \"work/review-batches\",\n        \"历史经营解释研究卡\",\n        \"风险与反方研究卡\"\n      ],\n      \"status\": \"方法承接，非合同验收/签署\"\n    },\n    {\n      \"source\": \"D:\\\\投资学\\\\课件与任务文件\\\\任务合同\\\\第四次任务合同_年报指标变化核验.md\",\n      \"sha256\": \"3d1af9c2753f9fc5fc5338038d48e7c3f033faf1960260b4d69fe3792be3e13b\",\n      \"requirement_group\": [\n        \"证据与口径是否闭合\",\n        \"经营解释和反证是什么\",\n        \"预测变量和现金归属是否匹配\"\n      ],\n      \"result_positions\": [\n        \"work/review-batches\",\n        \"历史经营解释研究卡\",\n        \"风险与反方研究卡\"\n      ],\n      \"status\": \"方法承接，非合同验收/签署\"\n    },\n    {\n      \"source\": \"D:\\\\投资学\\\\课件与任务文件\\\\补充材料\\\\第七次任务合同_贵州茅台叙事核验.md\",\n      \"sha256\": \"5237bc4d19110ed6f60eb6f425c5735d472606a341e72384829d1f99e7861035\",\n      \"requirement_group\": [\n        \"证据与口径是否闭合\",\n        \"经营解释和反证是什么\",\n        \"预测变量和现金归属是否匹配\"\n      ],\n      \"result_positions\": [\n        \"work/review-batches\",\n        \"历史经营解释研究卡\",\n        \"风险与反方研究卡\"\n      ],\n      \"status\": \"方法承接，非合同验收/签署\"\n    },\n    {\n      \"source\": \"D:\\\\投资学\\\\课件与任务文件\\\\补充材料\\\\第六次任务合同_贵州茅台行业竞争与竞争优势.md\",\n      \"sha256\": \"93acb50f2cd9c6977db83c0c69be0b52bda65ff8787556109c801175479c1629\",\n      \"requirement_group\": [\n        \"证据与口径是否闭合\",\n        \"经营解释和反证是什么\",\n        \"预测变量和现金归属是否匹配\"\n      ],\n      \"result_positions\": [\n        \"work/review-batches\",\n        \"历史经营解释研究卡\",\n        \"风险与反方研究卡\"\n      ],\n      \"status\": \"方法承接，非合同验收/签署\"\n    },\n    {\n      \"source\": \"D:\\\\投资学\\\\课件与任务文件\\\\补充材料3\\\\第七次任务合同_贵州茅台叙事核验.md\",\n      \"sha256\": \"6ca0d75c9efbcbd643d7129cb4ea5a3cb4be0a4c55ca63539f0041b01fa72c6e\",\n      \"requirement_group\": [\n        \"证据与口径是否闭合\",\n        \"经营解释和反证是什么\",\n        \"预测变量和现金归属是否匹配\"\n      ],\n      \"result_positions\": [\n        \"work/review-batches\",\n        \"历史经营解释研究卡\",\n        \"风险与反方研究卡\"\n      ],\n      \"status\": \"方法承接，非合同验收/签署\"\n    },\n    {\n      \"source\": \"D:\\\\投资学\\\\课件与任务文件\\\\补充材料3\\\\第五次任务合同_贵州茅台商业模式验证.md\",\n      \"sha256\": \"fb25c4182f568fb3922535f7a22363a06e9cae250a1c8cb53c206f17f629320d\",\n      \"requirement_group\": [\n        \"证据与口径是否闭合\",\n        \"经营解释和反证是什么\",\n        \"预测变量和现金归属是否匹配\"\n      ],\n      \"result_positions\": [\n        \"work/review-batches\",\n        \"历史经营解释研究卡\",\n        \"风险与反方研究卡\"\n      ],\n      \"status\": \"方法承接，非合同验收/签署\"\n    },\n    {\n      \"source\": \"D:\\\\投资学\\\\课件与任务文件\\\\补充材料3\\\\第五次任务延伸合同_贵州茅台渠道净贡献验证.md\",\n      \"sha256\": \"fa36428379f160d124a83a2e9906328ca904b9cce3fb6cea9fcf3d8ab99ab8af\",\n      \"requirement_group\": [\n        \"证据与口径是否闭合\",\n        \"经营解释和反证是什么\",\n        \"预测变量和现金归属是否匹配\"\n      ],\n      \"result_positions\": [\n        \"work/review-batches\",\n        \"历史经营解释研究卡\",\n        \"风险与反方研究卡\"\n      ],\n      \"status\": \"方法承接，非合同验收/签署\"\n    },\n    {\n      \"source\": \"D:\\\\投资学\\\\课件与任务文件\\\\补充材料3\\\\第五次任务延伸合同_贵州茅台现金与资本回报验证.md\",\n      \"sha256\": \"da205d95d3157ca474c8e5638749d884d5ede85302f449999b3879741a60d121\",\n      \"requirement_group\": [\n        \"证据与口径是否闭合\",\n        \"经营解释和反证是什么\",\n        \"预测变量和现金归属是否匹配\"\n      ],\n      \"result_positions\": [\n        \"work/review-batches\",\n        \"历史经营解释研究卡\",\n        \"风险与反方研究卡\"\n      ],\n      \"status\": \"方法承接，非合同验收/签署\"\n    },\n    {\n      \"source\": \"D:\\\\投资学\\\\课件与任务文件\\\\补充材料3\\\\第五次任务延伸合同_贵州茅台生产库存销售滞后验证.md\",\n      \"sha256\": \"d9da305bedb3f89c3f0a6b4478ced5e55b163f8bb4efd37e734ba5dc6c876261\",\n      \"requirement_group\": [\n        \"证据与口径是否闭合\",\n        \"经营解释和反证是什么\",\n        \"预测变量和现金归属是否匹配\"\n      ],\n      \"result_positions\": [\n        \"work/review-batches\",\n        \"历史经营解释研究卡\",\n        \"风险与反方研究卡\"\n      ],\n      \"status\": \"方法承接，非合同验收/签署\"\n    },\n    {\n      \"source\": \"D:\\\\投资学\\\\课件与任务文件\\\\补充材料3\\\\第六次任务合同_贵州茅台行业竞争与竞争优势.md\",\n      \"sha256\": \"0ed8d279fad8598890838f9da3e561c6b7e1cc4a1a9afd5da7103d89f1ef8aa2\",\n      \"requirement_group\": [\n        \"证据与口径是否闭合\",\n        \"经营解释和反证是什么\",\n        \"预测变量和现金归属是否匹配\"\n      ],\n      \"result_positions\": [\n        \"work/review-batches\",\n        \"历史经营解释研究卡\",\n        \"风险与反方研究卡\"\n      ],\n      \"status\": \"方法承接，非合同验收/签署\"\n    },\n    {\n      \"source\": \"D:\\\\投资学\\\\课件与任务文件\\\\补充材料4\\\\Lec05任务合同01_V1027_从贵州茅台叙事到预测参数.md\",\n      \"sha256\": \"ecb174a6ab8caf50e0e403019ef1100e47b314b36410ed954eedb82cba1fd8c7\",\n      \"requirement_group\": [\n        \"证据与口径是否闭合\",\n        \"经营解释和反证是什么\",\n        \"预测变量和现金归属是否匹配\"\n      ],\n      \"result_positions\": [\n        \"work/review-batches\",\n        \"历史经营解释研究卡\",\n        \"风险与反方研究卡\"\n      ],\n      \"status\": \"方法承接，非合同验收/签署\"\n    },\n    {\n      \"source\": \"D:\\\\投资学\\\\课件与任务文件\\\\补充材料4\\\\Lec05任务合同02_V1027_收入预测路径与一致性检查.md\",\n      \"sha256\": \"ebd6a7ed3fe41d8ec633a4d5100ff4c1245e37064abf621ddd0c9c743714e1a2\",\n      \"requirement_group\": [\n        \"证据与口径是否闭合\",\n        \"经营解释和反证是什么\",\n        \"预测变量和现金归属是否匹配\"\n      ],\n      \"result_positions\": [\n        \"work/review-batches\",\n        \"历史经营解释研究卡\",\n        \"风险与反方研究卡\"\n      ],\n      \"status\": \"方法承接，非合同验收/签署\"\n    },\n    {\n      \"source\": \"D:\\\\投资学\\\\课件与任务文件\\\\补充材料4\\\\Lec05任务合同03_V1027_现金流归属与每股价值计算.md\",\n      \"sha256\": \"2f3d6e0329eda8b5b2070b43e7a3d51b634e89a3849014406560dbc990b8c33b\",\n      \"requirement_group\": [\n        \"证据与口径是否闭合\",\n        \"经营解释和反证是什么\",\n        \"预测变量和现金归属是否匹配\"\n      ],\n      \"result_positions\": [\n        \"work/review-batches\",\n        \"历史经营解释研究卡\",\n        \"风险与反方研究卡\"\n      ],\n      \"status\": \"方法承接，非合同验收/签署\"\n    }\n  ]\n}\n",
+    "work/valuation/index.json": "{\n  \"runs\": [\n    {\n      \"id\": \"V8fb3181b10d1\",\n      \"path\": \"work/valuation/v1-V8fb3181b10d1.json\",\n      \"action\": \"forecast\",\n      \"state\": \"BlockedMissingInputs\",\n      \"version\": 1\n    }\n  ]\n}\n",
+    "work/valuation/v1-V8fb3181b10d1.json": "{\n  \"id\": \"V8fb3181b10d1\",\n  \"version\": 1,\n  \"at\": \"2026-11-12T03:58:31.788106+00:00\",\n  \"actor\": \"Agent/test-or-api\",\n  \"company\": \"688188_柏楚电子\",\n  \"action\": \"forecast\",\n  \"inputs\": {},\n  \"parameter_metadata\": {\n    \"register\": \"work/research09/parameter-register.json\",\n    \"missing\": \"控制系统和切割头分产品销量净价及配套率；OEM留存/切换成本及新应用认证、订单商业化时序；研发年限/队列及已资本化范围；非经营资产与融资/经营现金分界。\"\n  },\n  \"result\": {\n    \"state\": \"BlockedMissingInputs\",\n    \"missing_fields\": [\n      \"base_revenue\",\n      \"rows\"\n    ],\n    \"new_fact\": false,\n    \"impact\": \"无法执行forecast；按公司参数登记补同范围字段\"\n  },\n  \"module_sha256\": \"0155df03fa6ff2dd86a6a4c92f51f277f88e1edd45bfd972d191796276ac23ca\",\n  \"dependencies\": [\n    \"shared/runtime/companybench/valuation_chain.py\",\n    \"shared/runtime/companybench/research_depth.py\"\n  ],\n  \"recalculate\": \"python -B scripts/recalculate_valuation.py --company 688188_柏楚电子 --record work/valuation/v1-V8fb3181b10d1.json\",\n  \"scope_boundary\": \"条件算术不是公司Fact；未完成beta业务去再杠杆、税损明细、归母权利桥\"\n}\n",
+    "work/writing/authority-snapshot.json": "{\n  \"at\": \"2026-11-12T04:33:22.234978+00:00\",\n  \"Fact\": [],\n  \"records\": [\n    {\n      \"id\": \"B07-A01\",\n      \"state\": \"Unknown\",\n      \"binding\": \"f97938a604e88689803ff948275314454e6ea905762bdcbda8595049501cc65c\",\n      \"sources\": [\n        {\n          \"source_id\": \"688188-a343f0dc3c27d114\",\n          \"location\": \"PDF物理第8页，财务摘要/经营更新，行“营业收入2025”\"\n        }\n      ]\n    },\n    {\n      \"id\": \"B07-A02\",\n      \"state\": \"Unknown\",\n      \"binding\": \"3d8c21c76554467dbe0da73a46a475dd64af0cd6ba03099b0fbf1b7cc68ddced\",\n      \"sources\": [\n        {\n          \"source_id\": \"688188-a343f0dc3c27d114\",\n          \"location\": \"PDF物理第8页，财务摘要/经营更新，行“营业收入2024”\"\n        }\n      ]\n    },\n    {\n      \"id\": \"B07-A03\",\n      \"state\": \"Unknown\",\n      \"binding\": \"b4cf1bfb35cadddc1cc27b82f020b4d428d25c6b1546c7caa63f0fc9794cf93f\",\n      \"sources\": [\n        {\n          \"source_id\": \"688188-a343f0dc3c27d114\",\n          \"location\": \"PDF物理第8页，财务摘要/经营更新，行“归母净利润2025”\"\n        }\n      ]\n    },\n    {\n      \"id\": \"B07-A04\",\n      \"state\": \"Unknown\",\n      \"binding\": \"cb5d3dd440ea084d77c6df1c7ee3a4c29391ff847c48eb8c578bcd41b11764d6\",\n      \"sources\": [\n        {\n          \"source_id\": \"688188-a343f0dc3c27d114\",\n          \"location\": \"PDF物理第8页，财务摘要/经营更新，行“归母净利润2024”\"\n        }\n      ]\n    },\n    {\n      \"id\": \"B07-A05\",\n      \"state\": \"Unknown\",\n      \"binding\": \"09b7c461441f344b0bffa44a3e8d6098b370ba3c9e66fe5d3a31cbb0559faa86\",\n      \"sources\": [\n        {\n          \"source_id\": \"688188-a343f0dc3c27d114\",\n          \"location\": \"PDF物理第8页，财务摘要/经营更新，行“CFO2025”\"\n        }\n      ]\n    },\n    {\n      \"id\": \"B07-A06\",\n      \"state\": \"Unknown\",\n      \"binding\": \"d93a570d49d5bfe52213d50d148becb558294c10261a14ea2ab1dca0c3516b0a\",\n      \"sources\": [\n        {\n          \"source_id\": \"688188-a343f0dc3c27d114\",\n          \"location\": \"PDF物理第8页，财务摘要/经营更新，行“CFO2024”\"\n        }\n      ]\n    },\n    {\n      \"id\": \"B07-Q01\",\n      \"state\": \"Unknown\",\n      \"binding\": \"998654384875b7b66295e99596e7159b5829dd0ca03bf99f00d83ef2091ae663\",\n      \"sources\": [\n        {\n          \"source_id\": \"688188-fed67b607fa475a7\",\n          \"location\": \"PDF物理第1页，财务摘要/经营更新，行“本季度营业收入”\"\n        }\n      ]\n    },\n    {\n      \"id\": \"B07-Q02\",\n      \"state\": \"Unknown\",\n      \"binding\": \"1159c50260575c36051083a9947aae5d6f96da3f7d2ebed018474f2b2cf27c13\",\n      \"sources\": [\n        {\n          \"source_id\": \"688188-fed67b607fa475a7\",\n          \"location\": \"PDF物理第1页，财务摘要/经营更新，行“前九个月营业收入”\"\n        }\n      ]\n    },\n    {\n      \"id\": \"B07-Q03\",\n      \"state\": \"Unknown\",\n      \"binding\": \"fe903cf5b41e3fe356e1060b92ad2ba6ec9a5d948eccaf8a91e8a9c13d1abc40\",\n      \"sources\": [\n        {\n          \"source_id\": \"688188-fed67b607fa475a7\",\n          \"location\": \"PDF物理第1页，财务摘要/经营更新，行“本季度归母净利润”\"\n        }\n      ]\n    },\n    {\n      \"id\": \"B07-Q04\",\n      \"state\": \"Unknown\",\n      \"binding\": \"322232b0b348242f7d89f28fff457c611f282feb98fecbc97c7a4c79be05193b\",\n      \"sources\": [\n        {\n          \"source_id\": \"688188-fed67b607fa475a7\",\n          \"location\": \"PDF物理第1页，财务摘要/经营更新，行“前九个月归母净利润”\"\n        }\n      ]\n    },\n    {\n      \"id\": \"B07-Q05\",\n      \"state\": \"Unknown\",\n      \"binding\": \"78b0d04c790f707aa932d8d799bb9fda04ccb93703a8155996f5dbe11c6d46e3\",\n      \"sources\": [\n        {\n          \"source_id\": \"688188-fed67b607fa475a7\",\n          \"location\": \"PDF物理第1页，财务摘要/经营更新，行“前九个月CFO”\"\n        }\n      ]\n    },\n    {\n      \"id\": \"B07-Q06\",\n      \"state\": \"Unknown\",\n      \"binding\": \"57b5da437777e58856294d5566d60aec7dfa9a4f68257ff3953b151afbd985b9\",\n      \"sources\": [\n        {\n          \"source_id\": \"688188-fed67b607fa475a7\",\n          \"location\": \"PDF物理第1页，财务摘要/经营更新，行“前九个月营业收入同比”\"\n        }\n      ]\n    }\n  ],\n  \"source_ids\": [\n    \"688188-20b73bb3528dbdbe\",\n    \"688188-a343f0dc3c27d114\",\n    \"688188-fed67b607fa475a7\"\n  ],\n  \"new_human_review\": null,\n  \"change_facts\": \"本轮仅表达编辑，无新变化事实；当前普通ReviewStore无独立change_facts接口\"\n}\n",
+    "work/writing/reader.json": "{\n  \"schema_version\": 1,\n  \"title\": \"柏楚电子：控制与配套协同，怎样兑现为经营现金\",\n  \"sections\": [\n    {\n      \"title\": \"增长中有多少来自主业协同？\",\n      \"paragraphs\": [\n        {\n          \"text\": \"控制系统、切割头与新应用的协同值得研究。当前要分清设备行业销量、份额、产品升级和金融收益各自的贡献，再判断客户采用与研发投入能否支持长期回报。\",\n          \"anchors\": [\n            {\n              \"card\": \"Rc91d3bad8c35\",\n              \"field\": \"claim\"\n            },\n            {\n              \"card\": \"Rc91d3bad8c35\",\n              \"field\": \"evidence\"\n            },\n            {\n              \"card\": \"Rc91d3bad8c35\",\n              \"field\": \"mechanism\"\n            },\n            {\n              \"card\": \"Rc91d3bad8c35\",\n              \"field\": \"alternative\"\n            },\n            {\n              \"card\": \"Rc91d3bad8c35\",\n              \"field\": \"variables\"\n            },\n            {\n              \"card\": \"Rc91d3bad8c35\",\n              \"field\": \"invalidate\"\n            },\n            {\n              \"card\": \"Rc91d3bad8c35\",\n              \"field\": \"gap\"\n            }\n          ]\n        }\n      ]\n    },\n    {\n      \"title\": \"从设备客户采用到交付，价值在哪里形成？\",\n      \"paragraphs\": [\n        {\n          \"text\": \"公司为激光切割设备制造商提供控制系统、套料软件、随动控制和切割头等配套。2025年报物理12—14页描述了产品规划、销售技术支持、采购外协、组装检测和订单交付的过程。\",\n          \"anchors\": [\n            {\n              \"card\": \"R42383f58e180\",\n              \"field\": \"claim\"\n            },\n            {\n              \"card\": \"R42383f58e180\",\n              \"field\": \"evidence\"\n            },\n            {\n              \"card\": \"R42383f58e180\",\n              \"field\": \"mechanism\"\n            },\n            {\n              \"card\": \"R42383f58e180\",\n              \"field\": \"alternative\"\n            },\n            {\n              \"card\": \"R42383f58e180\",\n              \"field\": \"variables\"\n            },\n            {\n              \"card\": \"R42383f58e180\",\n              \"field\": \"invalidate\"\n            },\n            {\n              \"card\": \"R42383f58e180\",\n              \"field\": \"gap\"\n            }\n          ]\n        },\n        {\n          \"text\": \"软件算法与控制、切割头的协同可能提高设备客户的效率。研发、供应链、客户设备周期与回款同时影响这项价值能留下多少利润和现金。客户留存、配套率、切换成本及服务质量，是检验这一优势假设的直接观察点。\",\n          \"anchors\": [\n            {\n              \"card\": \"R42383f58e180\",\n              \"field\": \"claim\"\n            },\n            {\n              \"card\": \"R42383f58e180\",\n              \"field\": \"evidence\"\n            },\n            {\n              \"card\": \"R42383f58e180\",\n              \"field\": \"mechanism\"\n            },\n            {\n              \"card\": \"R42383f58e180\",\n              \"field\": \"alternative\"\n            },\n            {\n              \"card\": \"R42383f58e180\",\n              \"field\": \"variables\"\n            },\n            {\n              \"card\": \"R42383f58e180\",\n              \"field\": \"invalidate\"\n            },\n            {\n              \"card\": \"R42383f58e180\",\n              \"field\": \"gap\"\n            }\n          ]\n        }\n      ]\n    },\n    {\n      \"title\": \"利润增长与现金增长有何差别？\",\n      \"paragraphs\": [\n        {\n          \"text\": \"2025收入+26.52%、归母+26.04%，CFO+15.95%；2026前三季收入+16.05%、归母+21.69%，CFO仅+7.49%。利润与现金增长并未同步，经营回款与金融收益需要拆开。\",\n          \"anchors\": [\n            {\n              \"card\": \"R1622b2e65098\",\n              \"field\": \"claim\"\n            },\n            {\n              \"card\": \"R1622b2e65098\",\n              \"field\": \"evidence\"\n            },\n            {\n              \"card\": \"R1622b2e65098\",\n              \"field\": \"mechanism\"\n            },\n            {\n              \"card\": \"R1622b2e65098\",\n              \"field\": \"alternative\"\n            },\n            {\n              \"card\": \"R1622b2e65098\",\n              \"field\": \"variables\"\n            },\n            {\n              \"card\": \"R1622b2e65098\",\n              \"field\": \"invalidate\"\n            },\n            {\n              \"card\": \"R1622b2e65098\",\n              \"field\": \"gap\"\n            }\n          ]\n        },\n        {\n          \"text\": \"2026H1收入+15.84%、归母+22.97%，CFO-8.84%；前三季CFO同比转正但仍慢于利润。2025年报物理12页列有交易性金融资产及公允价值变动，主业利润桥要将这些金融贡献另列。\",\n          \"anchors\": [\n            {\n              \"card\": \"R1622b2e65098\",\n              \"field\": \"claim\"\n            },\n            {\n              \"card\": \"R1622b2e65098\",\n              \"field\": \"evidence\"\n            },\n            {\n              \"card\": \"R1622b2e65098\",\n              \"field\": \"mechanism\"\n            },\n            {\n              \"card\": \"R1622b2e65098\",\n              \"field\": \"alternative\"\n            },\n            {\n              \"card\": \"R1622b2e65098\",\n              \"field\": \"variables\"\n            },\n            {\n              \"card\": \"R1622b2e65098\",\n              \"field\": \"invalidate\"\n            },\n            {\n              \"card\": \"R1622b2e65098\",\n              \"field\": \"gap\"\n            }\n          ]\n        }\n      ]\n    },\n    {\n      \"title\": \"客户黏性与设备周期，哪些观察能够区分？\",\n      \"paragraphs\": [\n        {\n          \"text\": \"优势假设是算法软件和硬件协同提高设备效率，客户切换成本支持长期回报。另一种解释是设备景气、产品组合升级或投资收益主导增长，新应用仍在投入，竞争带来净价压力。\",\n          \"anchors\": [\n            {\n              \"card\": \"Re652de68ca00\",\n              \"field\": \"claim\"\n            },\n            {\n              \"card\": \"Re652de68ca00\",\n              \"field\": \"evidence\"\n            },\n            {\n              \"card\": \"Re652de68ca00\",\n              \"field\": \"mechanism\"\n            },\n            {\n              \"card\": \"Re652de68ca00\",\n              \"field\": \"alternative\"\n            },\n            {\n              \"card\": \"Re652de68ca00\",\n              \"field\": \"variables\"\n            },\n            {\n              \"card\": \"Re652de68ca00\",\n              \"field\": \"invalidate\"\n            },\n            {\n              \"card\": \"Re652de68ca00\",\n              \"field\": \"gap\"\n            }\n          ]\n        },\n        {\n          \"text\": \"若客户切换率提高、配套率下降并伴随净价受压，黏性解释就需要收窄。若剔除金融收益后经营利润没有改善，主业优势兑现的判断也需调整。相关资料包括同客户续购、故障服务、控制系统与切割头配套率。\",\n          \"anchors\": [\n            {\n              \"card\": \"Re652de68ca00\",\n              \"field\": \"claim\"\n            },\n            {\n              \"card\": \"Re652de68ca00\",\n              \"field\": \"evidence\"\n            },\n            {\n              \"card\": \"Re652de68ca00\",\n              \"field\": \"mechanism\"\n            },\n            {\n              \"card\": \"Re652de68ca00\",\n              \"field\": \"alternative\"\n            },\n            {\n              \"card\": \"Re652de68ca00\",\n              \"field\": \"variables\"\n            },\n            {\n              \"card\": \"Re652de68ca00\",\n              \"field\": \"invalidate\"\n            },\n            {\n              \"card\": \"Re652de68ca00\",\n              \"field\": \"gap\"\n            }\n          ]\n        }\n      ]\n    },\n    {\n      \"title\": \"研发投入怎样进入预测和现金？\",\n      \"paragraphs\": [\n        {\n          \"text\": \"收入预测从激光设备订单、控制系统渗透、配套率与净价出发。新应用经历研发、样机验证、设备厂认证、批量交付和回款，投入与收益分年对应，金融收益单列。\",\n          \"anchors\": [\n            {\n              \"card\": \"R9b91e4658392\",\n              \"field\": \"claim\"\n            },\n            {\n              \"card\": \"R9b91e4658392\",\n              \"field\": \"evidence\"\n            },\n            {\n              \"card\": \"R9b91e4658392\",\n              \"field\": \"mechanism\"\n            },\n            {\n              \"card\": \"R9b91e4658392\",\n              \"field\": \"alternative\"\n            },\n            {\n              \"card\": \"R9b91e4658392\",\n              \"field\": \"variables\"\n            },\n            {\n              \"card\": \"R9b91e4658392\",\n              \"field\": \"invalidate\"\n            },\n            {\n              \"card\": \"R9b91e4658392\",\n              \"field\": \"gap\"\n            }\n          ]\n        },\n        {\n          \"text\": \"分析资本化研发时，EBIT、未摊销研发资本、摊销与净再投资需同步调整，并保留真实现金税；重分类前后的现金应一致。研发寿命、投入队列和已资本化范围尚缺具体资料，这一步目前停在准备阶段。\",\n          \"anchors\": [\n            {\n              \"card\": \"R9b91e4658392\",\n              \"field\": \"claim\"\n            },\n            {\n              \"card\": \"R9b91e4658392\",\n              \"field\": \"evidence\"\n            },\n            {\n              \"card\": \"R9b91e4658392\",\n              \"field\": \"mechanism\"\n            },\n            {\n              \"card\": \"R9b91e4658392\",\n              \"field\": \"alternative\"\n            },\n            {\n              \"card\": \"R9b91e4658392\",\n              \"field\": \"variables\"\n            },\n            {\n              \"card\": \"R9b91e4658392\",\n              \"field\": \"invalidate\"\n            },\n            {\n              \"card\": \"R9b91e4658392\",\n              \"field\": \"gap\"\n            }\n          ]\n        }\n      ]\n    },\n    {\n      \"title\": \"经营价值与非经营资产如何分开？\",\n      \"paragraphs\": [\n        {\n          \"text\": \"经营利润扣除同范围采购、研发与技术支持成本，交易性金融资产收益分开处理。控制系统和切割头的销量净价、配套率、OEM留存与新应用商业化时序，决定增长与再投资的解释。\",\n          \"anchors\": [\n            {\n              \"card\": \"Rd192d88d9be7\",\n              \"field\": \"claim\"\n            },\n            {\n              \"card\": \"Rd192d88d9be7\",\n              \"field\": \"evidence\"\n            },\n            {\n              \"card\": \"Rd192d88d9be7\",\n              \"field\": \"mechanism\"\n            },\n            {\n              \"card\": \"Rd192d88d9be7\",\n              \"field\": \"alternative\"\n            },\n            {\n              \"card\": \"Rd192d88d9be7\",\n              \"field\": \"variables\"\n            },\n            {\n              \"card\": \"Rd192d88d9be7\",\n              \"field\": \"invalidate\"\n            },\n            {\n              \"card\": \"Rd192d88d9be7\",\n              \"field\": \"gap\"\n            }\n          ]\n        },\n        {\n          \"text\": \"目前缺非经营资产及融资、经营现金的范围桥，也缺完整经营资本、现金流索取权与同日风险、价格输入。补齐这些字段后，才能把已有经营解释接到现金流和股权价值。\",\n          \"anchors\": [\n            {\n              \"card\": \"Rd192d88d9be7\",\n              \"field\": \"claim\"\n            },\n            {\n              \"card\": \"Rd192d88d9be7\",\n              \"field\": \"evidence\"\n            },\n            {\n              \"card\": \"Rd192d88d9be7\",\n              \"field\": \"mechanism\"\n            },\n            {\n              \"card\": \"Rd192d88d9be7\",\n              \"field\": \"alternative\"\n            },\n            {\n              \"card\": \"Rd192d88d9be7\",\n              \"field\": \"variables\"\n            },\n            {\n              \"card\": \"Rd192d88d9be7\",\n              \"field\": \"invalidate\"\n            },\n            {\n              \"card\": \"Rd192d88d9be7\",\n              \"field\": \"gap\"\n            }\n          ]\n        }\n      ]\n    }\n  ],\n  \"source_cards\": {\n    \"Rc91d3bad8c35\": \"ce98f022b6634e1822708031a11897fadc353a5432c5e7fb575ced62a1367391\",\n    \"R42383f58e180\": \"703fd3c4f59da609c61fdd455f0c89e565d5ec920cab59ddcd399c6db5343a67\",\n    \"Re652de68ca00\": \"be468f6d960e51e897f3c4e75052bc459918d3b94ba590b904c83ad42238eca9\",\n    \"R9b91e4658392\": \"5ab8b31b75d709b7e8f2f6434830de910d087161ec824281dc0814153e36762d\",\n    \"Rd192d88d9be7\": \"7aa3e4a4d7cf3053e2bd004accdb9808216b15daf775af804848372b4fe2adc9\",\n    \"R6ef717bb11b9\": \"76f05d5c4db915f8ea42cb43421915ca9aaa469a00712804fc221db5c80aec6f\",\n    \"Rd3892afbfc24\": \"bf39795a5426e3adb61cced52e1d3e0fd1c42d84eb104e586883aa1115e29186\",\n    \"R1622b2e65098\": \"332a5dcfac04161ddcffab6919ba9de1884680c92b199ab467125208f2d7d51b\"\n  },\n  \"saved_at\": \"2026-11-12T04:33:22.114120+00:00\",\n  \"saved_by\": \"Agent/test-or-api\",\n  \"actual_user_review\": null\n}\n"
+  }
+}

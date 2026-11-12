@@ -1,0 +1,974 @@
+{
+  "company": "002507_涪陵榨菜",
+  "cards": [
+    {
+      "lane": "研究起点",
+      "title": "成熟榨菜品类的销量与渠道改善，能否覆盖新增费用和产能投入？",
+      "claim": "解释/假设：收入温和恢复尚未转化为利润改善，须检验渠道、产品组合和投入效率，而非仅凭品牌标签推断提价能力。",
+      "evidence": "2025年报 002507-6cd117ea1ac8beee PDF物理7页；2026最新更新 002507-d45bfdfdec6d4379 PDF物理3页。B07-annual与B07-Q3均为机器候选，Fact=0。2025收入同比+1.88%而归母净利-3.92%、CFO-19.55%；2026前三季收入+3.45%但归母-8.78%，单季归母-11.79%。这些均为未人审候选，不确认因果。",
+      "mechanism": "净价/销量→收入→原料包装、营销与履约→经营EBIT；投资收益与财务收益剔除；现金税排除融资效应；腌制库存与经销应收、经营应付先作余额表再差分；新基地CapEx与已扣D&A匹配，建设投产爬坡分年。渠道毛利差不能直接成为净贡献。",
+      "opposition": "2025收入同比+1.88%而归母净利-3.92%、CFO-19.55%；2026前三季收入+3.45%但归母-8.78%，单季归母-11.79%。这些均为未人审候选，不确认因果。",
+      "alternative": "真实终端需求和渠道效率恢复，先行营销与新基地投入可以在爬坡后回收。；竞争解释：铺货授信或组合变化造成收入恢复，而费用、库存和闲置基地长期吞噬现金。",
+      "variables": "同SKU净价×终端销量、经销库存天数、渠道净费用率、基地利用率、库存龄与回款；比较未来两个定期报告，时间窗是研究安排。",
+      "invalidate": "若年底授信未收回而经销库存或退货上升、终端销量不改善，则否定渠道效率改善；若同SKU净价未变而产品权重变化，撤回提价解释。",
+      "gap": "同SKU实际净价及促销、终端销量和经销商库存；渠道专属履约/广告与授信；新基地分期投入、投产利用率与同范围现金所得税。",
+      "action_needed": "回到work/research07/source-field-map.json与B07原件定位；先集中核未核候选，再从年报附注补上述变量，字段缺失保留具体阻断。",
+      "methods": [
+        {
+          "id": "K02",
+          "version": 1
+        },
+        {
+          "id": "E05",
+          "version": 1
+        },
+        {
+          "id": "E06",
+          "version": 1
+        },
+        {
+          "id": "E08",
+          "version": 1
+        },
+        {
+          "id": "K46",
+          "version": 1
+        },
+        {
+          "id": "K52",
+          "version": 1
+        },
+        {
+          "id": "K63",
+          "version": 1
+        }
+      ],
+      "id": "R3a8ec12bc38f",
+      "needs_review": false,
+      "impacts": [],
+      "updated_at": "2026-11-12T03:58:30.815446+00:00",
+      "actor": "Agent/test-or-api",
+      "status": "Interpretation draft"
+    },
+    {
+      "lane": "生意与价值创造",
+      "title": "谁付钱，什么投入形成利润与现金？",
+      "claim": "以榨菜、下饭菜、泡菜及酱类等佐餐产品满足家庭与餐饮开味需求。年报第14物理页披露经销为主、电商补充；消费者需求经经销商订单、生产与交付转成收入，出货不等于终端动销。原料采购、腌制加工、包装、渠道与品牌费用、基地投入共同决定利润和现金。",
+      "evidence": "2025年报 002507-6cd117ea1ac8beee PDF物理7页；2026最新更新 002507-d45bfdfdec6d4379 PDF物理3页。B07-annual与B07-Q3均为机器候选，Fact=0。2025收入同比+1.88%而归母净利-3.92%、CFO-19.55%；2026前三季收入+3.45%但归母-8.78%，单季归母-11.79%。这些均为未人审候选，不确认因果。",
+      "mechanism": "净价/销量→收入→原料包装、营销与履约→经营EBIT；投资收益与财务收益剔除；现金税排除融资效应；腌制库存与经销应收、经营应付先作余额表再差分；新基地CapEx与已扣D&A匹配，建设投产爬坡分年。渠道毛利差不能直接成为净贡献。",
+      "opposition": "2025收入同比+1.88%而归母净利-3.92%、CFO-19.55%；2026前三季收入+3.45%但归母-8.78%，单季归母-11.79%。这些均为未人审候选，不确认因果。",
+      "alternative": "真实终端需求和渠道效率恢复，先行营销与新基地投入可以在爬坡后回收。；竞争解释：铺货授信或组合变化造成收入恢复，而费用、库存和闲置基地长期吞噬现金。",
+      "variables": "同SKU净价×终端销量、经销库存天数、渠道净费用率、基地利用率、库存龄与回款；比较未来两个定期报告，时间窗是研究安排。",
+      "invalidate": "若年底授信未收回而经销库存或退货上升、终端销量不改善，则否定渠道效率改善；若同SKU净价未变而产品权重变化，撤回提价解释。",
+      "gap": "同SKU实际净价及促销、终端销量和经销商库存；渠道专属履约/广告与授信；新基地分期投入、投产利用率与同范围现金所得税。",
+      "action_needed": "回到work/research07/source-field-map.json与B07原件定位；先集中核未核候选，再从年报附注补上述变量，字段缺失保留具体阻断。",
+      "methods": [
+        {
+          "id": "K02",
+          "version": 1
+        },
+        {
+          "id": "E05",
+          "version": 1
+        },
+        {
+          "id": "E06",
+          "version": 1
+        },
+        {
+          "id": "E08",
+          "version": 1
+        },
+        {
+          "id": "K46",
+          "version": 1
+        },
+        {
+          "id": "K52",
+          "version": 1
+        },
+        {
+          "id": "K63",
+          "version": 1
+        }
+      ],
+      "id": "R09e06cc7c1a8",
+      "needs_review": false,
+      "impacts": [],
+      "updated_at": "2026-11-12T03:58:30.824278+00:00",
+      "actor": "Agent/test-or-api",
+      "status": "Interpretation draft"
+    },
+    {
+      "lane": "行业变化与竞争优势",
+      "title": "优势是否超出行业景气或产品组合？",
+      "claim": "研究假设，尚未确认护城河。收入改善来自真实消费与渠道效率提高，费用属有回报的先行投入。",
+      "evidence": "2025年报 002507-6cd117ea1ac8beee PDF物理7页；2026最新更新 002507-d45bfdfdec6d4379 PDF物理3页。B07-annual与B07-Q3均为机器候选，Fact=0。2025收入同比+1.88%而归母净利-3.92%、CFO-19.55%；2026前三季收入+3.45%但归母-8.78%，单季归母-11.79%。这些均为未人审候选，不确认因果。",
+      "mechanism": "净价/销量→收入→原料包装、营销与履约→经营EBIT；投资收益与财务收益剔除；现金税排除融资效应；腌制库存与经销应收、经营应付先作余额表再差分；新基地CapEx与已扣D&A匹配，建设投产爬坡分年。渠道毛利差不能直接成为净贡献。",
+      "opposition": "2025收入同比+1.88%而归母净利-3.92%、CFO-19.55%；2026前三季收入+3.45%但归母-8.78%，单季归母-11.79%。这些均为未人审候选，不确认因果。",
+      "alternative": "真实终端需求和渠道效率恢复，先行营销与新基地投入可以在爬坡后回收。；竞争解释：铺货授信或组合变化造成收入恢复，而费用、库存和闲置基地长期吞噬现金。",
+      "variables": "同SKU净价×终端销量、经销库存天数、渠道净费用率、基地利用率、库存龄与回款；比较未来两个定期报告，时间窗是研究安排。",
+      "invalidate": "若年底授信未收回而经销库存或退货上升、终端销量不改善，则否定渠道效率改善；若同SKU净价未变而产品权重变化，撤回提价解释。",
+      "gap": "同SKU实际净价及促销、终端销量和经销商库存；渠道专属履约/广告与授信；新基地分期投入、投产利用率与同范围现金所得税。",
+      "action_needed": "回到work/research07/source-field-map.json与B07原件定位；先集中核未核候选，再从年报附注补上述变量，字段缺失保留具体阻断。",
+      "methods": [
+        {
+          "id": "K02",
+          "version": 1
+        },
+        {
+          "id": "E05",
+          "version": 1
+        },
+        {
+          "id": "E06",
+          "version": 1
+        },
+        {
+          "id": "E08",
+          "version": 1
+        },
+        {
+          "id": "K46",
+          "version": 1
+        },
+        {
+          "id": "K52",
+          "version": 1
+        },
+        {
+          "id": "K63",
+          "version": 1
+        }
+      ],
+      "id": "R0b427d7dd7fe",
+      "needs_review": false,
+      "impacts": [],
+      "updated_at": "2026-11-12T03:58:30.831212+00:00",
+      "actor": "Agent/test-or-api",
+      "status": "Interpretation draft"
+    },
+    {
+      "lane": "未来预测",
+      "title": "哪些经营驱动能进入条件预测？",
+      "claim": "同SKU净价×销量、渠道折扣与费用；青菜头采购/腌制库存→加工销售→授信回款；基地建设→投产→利用率→现金回收，周期不借用茅台t−5。",
+      "evidence": "2025年报 002507-6cd117ea1ac8beee PDF物理7页；2026最新更新 002507-d45bfdfdec6d4379 PDF物理3页。B07-annual与B07-Q3均为机器候选，Fact=0。2025收入同比+1.88%而归母净利-3.92%、CFO-19.55%；2026前三季收入+3.45%但归母-8.78%，单季归母-11.79%。这些均为未人审候选，不确认因果。",
+      "mechanism": "净价/销量→收入→原料包装、营销与履约→经营EBIT；投资收益与财务收益剔除；现金税排除融资效应；腌制库存与经销应收、经营应付先作余额表再差分；新基地CapEx与已扣D&A匹配，建设投产爬坡分年。渠道毛利差不能直接成为净贡献。",
+      "opposition": "2025收入同比+1.88%而归母净利-3.92%、CFO-19.55%；2026前三季收入+3.45%但归母-8.78%，单季归母-11.79%。这些均为未人审候选，不确认因果。",
+      "alternative": "真实终端需求和渠道效率恢复，先行营销与新基地投入可以在爬坡后回收。；竞争解释：铺货授信或组合变化造成收入恢复，而费用、库存和闲置基地长期吞噬现金。",
+      "variables": "同SKU净价×终端销量、经销库存天数、渠道净费用率、基地利用率、库存龄与回款；比较未来两个定期报告，时间窗是研究安排。",
+      "invalidate": "若年底授信未收回而经销库存或退货上升、终端销量不改善，则否定渠道效率改善；若同SKU净价未变而产品权重变化，撤回提价解释。",
+      "gap": "同SKU实际净价及促销、终端销量和经销商库存；渠道专属履约/广告与授信；新基地分期投入、投产利用率与同范围现金所得税。",
+      "action_needed": "回到work/research07/source-field-map.json与B07原件定位；先集中核未核候选，再从年报附注补上述变量，字段缺失保留具体阻断。",
+      "methods": [
+        {
+          "id": "K02",
+          "version": 1
+        },
+        {
+          "id": "E05",
+          "version": 1
+        },
+        {
+          "id": "E06",
+          "version": 1
+        },
+        {
+          "id": "E08",
+          "version": 1
+        },
+        {
+          "id": "K49",
+          "version": 1
+        },
+        {
+          "id": "K64",
+          "version": 1
+        },
+        {
+          "id": "K48",
+          "version": 1
+        },
+        {
+          "id": "K55",
+          "version": 1
+        },
+        {
+          "id": "K58",
+          "version": 1
+        },
+        {
+          "id": "K59",
+          "version": 1
+        }
+      ],
+      "id": "R48ccbb2a4ad6",
+      "needs_review": false,
+      "impacts": [],
+      "updated_at": "2026-11-12T03:58:30.837953+00:00",
+      "actor": "Agent/test-or-api",
+      "status": "Interpretation draft"
+    },
+    {
+      "lane": "估值与投资判断",
+      "title": "当前能否计算有依据的价值？",
+      "claim": "不能给正式估值：尚缺经核对历史桥、经营资本范围、再投资、现金流索取权和同日风险/价格输入。",
+      "evidence": "2025年报 002507-6cd117ea1ac8beee PDF物理7页；2026最新更新 002507-d45bfdfdec6d4379 PDF物理3页。B07-annual与B07-Q3均为机器候选，Fact=0。2025收入同比+1.88%而归母净利-3.92%、CFO-19.55%；2026前三季收入+3.45%但归母-8.78%，单季归母-11.79%。这些均为未人审候选，不确认因果。",
+      "mechanism": "净价/销量→收入→原料包装、营销与履约→经营EBIT；投资收益与财务收益剔除；现金税排除融资效应；腌制库存与经销应收、经营应付先作余额表再差分；新基地CapEx与已扣D&A匹配，建设投产爬坡分年。渠道毛利差不能直接成为净贡献。",
+      "opposition": "2025收入同比+1.88%而归母净利-3.92%、CFO-19.55%；2026前三季收入+3.45%但归母-8.78%，单季归母-11.79%。这些均为未人审候选，不确认因果。",
+      "alternative": "真实终端需求和渠道效率恢复，先行营销与新基地投入可以在爬坡后回收。；竞争解释：铺货授信或组合变化造成收入恢复，而费用、库存和闲置基地长期吞噬现金。",
+      "variables": "同SKU净价×终端销量、经销库存天数、渠道净费用率、基地利用率、库存龄与回款；比较未来两个定期报告，时间窗是研究安排。",
+      "invalidate": "若年底授信未收回而经销库存或退货上升、终端销量不改善，则否定渠道效率改善；若同SKU净价未变而产品权重变化，撤回提价解释。",
+      "gap": "同SKU实际净价及促销、终端销量和经销商库存；渠道专属履约/广告与授信；新基地分期投入、投产利用率与同范围现金所得税。",
+      "action_needed": "回到work/research07/source-field-map.json与B07原件定位；先集中核未核候选，再从年报附注补上述变量，字段缺失保留具体阻断。",
+      "methods": [
+        {
+          "id": "K02",
+          "version": 1
+        },
+        {
+          "id": "E05",
+          "version": 1
+        },
+        {
+          "id": "E06",
+          "version": 1
+        },
+        {
+          "id": "E08",
+          "version": 1
+        },
+        {
+          "id": "K49",
+          "version": 1
+        },
+        {
+          "id": "K64",
+          "version": 1
+        },
+        {
+          "id": "K48",
+          "version": 1
+        },
+        {
+          "id": "K55",
+          "version": 1
+        },
+        {
+          "id": "K58",
+          "version": 1
+        },
+        {
+          "id": "K59",
+          "version": 1
+        }
+      ],
+      "id": "R1572b24923fd",
+      "needs_review": false,
+      "impacts": [],
+      "updated_at": "2026-11-12T03:58:30.844675+00:00",
+      "actor": "Agent/test-or-api",
+      "status": "Interpretation draft"
+    },
+    {
+      "lane": "风险与反方",
+      "title": "什么证据会推翻当前解释？",
+      "claim": "收入改善主要是授信、铺货或组合迁移，新增费用与产能回报不足。",
+      "evidence": "2025年报 002507-6cd117ea1ac8beee PDF物理7页；2026最新更新 002507-d45bfdfdec6d4379 PDF物理3页。B07-annual与B07-Q3均为机器候选，Fact=0。2025收入同比+1.88%而归母净利-3.92%、CFO-19.55%；2026前三季收入+3.45%但归母-8.78%，单季归母-11.79%。这些均为未人审候选，不确认因果。",
+      "mechanism": "净价/销量→收入→原料包装、营销与履约→经营EBIT；投资收益与财务收益剔除；现金税排除融资效应；腌制库存与经销应收、经营应付先作余额表再差分；新基地CapEx与已扣D&A匹配，建设投产爬坡分年。渠道毛利差不能直接成为净贡献。",
+      "opposition": "2025收入同比+1.88%而归母净利-3.92%、CFO-19.55%；2026前三季收入+3.45%但归母-8.78%，单季归母-11.79%。这些均为未人审候选，不确认因果。",
+      "alternative": "真实终端需求和渠道效率恢复，先行营销与新基地投入可以在爬坡后回收。；竞争解释：铺货授信或组合变化造成收入恢复，而费用、库存和闲置基地长期吞噬现金。",
+      "variables": "同SKU净价×终端销量、经销库存天数、渠道净费用率、基地利用率、库存龄与回款；比较未来两个定期报告，时间窗是研究安排。",
+      "invalidate": "若年底授信未收回而经销库存或退货上升、终端销量不改善，则否定渠道效率改善；若同SKU净价未变而产品权重变化，撤回提价解释。",
+      "gap": "同SKU实际净价及促销、终端销量和经销商库存；渠道专属履约/广告与授信；新基地分期投入、投产利用率与同范围现金所得税。",
+      "action_needed": "回到work/research07/source-field-map.json与B07原件定位；先集中核未核候选，再从年报附注补上述变量，字段缺失保留具体阻断。",
+      "methods": [
+        {
+          "id": "K02",
+          "version": 1
+        },
+        {
+          "id": "E05",
+          "version": 1
+        },
+        {
+          "id": "E06",
+          "version": 1
+        },
+        {
+          "id": "E08",
+          "version": 1
+        },
+        {
+          "id": "K46",
+          "version": 1
+        },
+        {
+          "id": "K52",
+          "version": 1
+        },
+        {
+          "id": "K63",
+          "version": 1
+        }
+      ],
+      "id": "R8bff8d9f729a",
+      "needs_review": false,
+      "impacts": [],
+      "updated_at": "2026-11-12T03:58:30.851684+00:00",
+      "actor": "Agent/test-or-api",
+      "status": "Interpretation draft"
+    },
+    {
+      "lane": "研究交付",
+      "title": "当前研究支持到哪一层？",
+      "claim": "仅为候选证据支持的研究起点，不是完整投资报告、目标价或买卖建议。",
+      "evidence": "2025年报 002507-6cd117ea1ac8beee PDF物理7页；2026最新更新 002507-d45bfdfdec6d4379 PDF物理3页。B07-annual与B07-Q3均为机器候选，Fact=0。2025收入同比+1.88%而归母净利-3.92%、CFO-19.55%；2026前三季收入+3.45%但归母-8.78%，单季归母-11.79%。这些均为未人审候选，不确认因果。",
+      "mechanism": "净价/销量→收入→原料包装、营销与履约→经营EBIT；投资收益与财务收益剔除；现金税排除融资效应；腌制库存与经销应收、经营应付先作余额表再差分；新基地CapEx与已扣D&A匹配，建设投产爬坡分年。渠道毛利差不能直接成为净贡献。",
+      "opposition": "2025收入同比+1.88%而归母净利-3.92%、CFO-19.55%；2026前三季收入+3.45%但归母-8.78%，单季归母-11.79%。这些均为未人审候选，不确认因果。",
+      "alternative": "真实终端需求和渠道效率恢复，先行营销与新基地投入可以在爬坡后回收。；竞争解释：铺货授信或组合变化造成收入恢复，而费用、库存和闲置基地长期吞噬现金。",
+      "variables": "同SKU净价×终端销量、经销库存天数、渠道净费用率、基地利用率、库存龄与回款；比较未来两个定期报告，时间窗是研究安排。",
+      "invalidate": "若年底授信未收回而经销库存或退货上升、终端销量不改善，则否定渠道效率改善；若同SKU净价未变而产品权重变化，撤回提价解释。",
+      "gap": "同SKU实际净价及促销、终端销量和经销商库存；渠道专属履约/广告与授信；新基地分期投入、投产利用率与同范围现金所得税。",
+      "action_needed": "回到work/research07/source-field-map.json与B07原件定位；先集中核未核候选，再从年报附注补上述变量，字段缺失保留具体阻断。",
+      "methods": [
+        {
+          "id": "K02",
+          "version": 1
+        },
+        {
+          "id": "E05",
+          "version": 1
+        },
+        {
+          "id": "E06",
+          "version": 1
+        },
+        {
+          "id": "E08",
+          "version": 1
+        },
+        {
+          "id": "K46",
+          "version": 1
+        },
+        {
+          "id": "K52",
+          "version": 1
+        },
+        {
+          "id": "K63",
+          "version": 1
+        }
+      ],
+      "id": "R8c5f7065f343",
+      "needs_review": false,
+      "impacts": [],
+      "updated_at": "2026-11-12T03:58:30.858973+00:00",
+      "actor": "Agent/test-or-api",
+      "status": "Interpretation draft"
+    },
+    {
+      "lane": "历史经营解释",
+      "title": "收入、利润与现金为什么不同步？",
+      "claim": "2025收入同比+1.88%而归母净利-3.92%、CFO-19.55%；2026前三季收入+3.45%但归母-8.78%，单季归母-11.79%。这些均为未人审候选，不确认因果。",
+      "evidence": "2025年报 002507-6cd117ea1ac8beee PDF物理7页；2026最新更新 002507-d45bfdfdec6d4379 PDF物理3页。B07-annual与B07-Q3均为机器候选，Fact=0。2025收入同比+1.88%而归母净利-3.92%、CFO-19.55%；2026前三季收入+3.45%但归母-8.78%，单季归母-11.79%。这些均为未人审候选，不确认因果。\n2026中报 002507-b901d0b919e32cba PDF物理7页：2026H1收入+4.02%、归母-7.19%、CFO+195.21%，与Q3累计收入小增、利润下降并列；现金改善不能直接归因终端需求。",
+      "mechanism": "净价/销量→收入→原料包装、营销与履约→经营EBIT；投资收益与财务收益剔除；现金税排除融资效应；腌制库存与经销应收、经营应付先作余额表再差分；新基地CapEx与已扣D&A匹配，建设投产爬坡分年。渠道毛利差不能直接成为净贡献。",
+      "opposition": "2025收入同比+1.88%而归母净利-3.92%、CFO-19.55%；2026前三季收入+3.45%但归母-8.78%，单季归母-11.79%。这些均为未人审候选，不确认因果。",
+      "alternative": "真实终端需求和渠道效率恢复，先行营销与新基地投入可以在爬坡后回收。；竞争解释：铺货授信或组合变化造成收入恢复，而费用、库存和闲置基地长期吞噬现金。",
+      "variables": "同SKU净价×终端销量、经销库存天数、渠道净费用率、基地利用率、库存龄与回款；比较未来两个定期报告，时间窗是研究安排。",
+      "invalidate": "若年底授信未收回而经销库存或退货上升、终端销量不改善，则否定渠道效率改善；若同SKU净价未变而产品权重变化，撤回提价解释。",
+      "gap": "同SKU实际净价及促销、终端销量和经销商库存；渠道专属履约/广告与授信；新基地分期投入、投产利用率与同范围现金所得税。",
+      "action_needed": "回到work/research07/source-field-map.json与B07原件定位；先集中核未核候选，再从年报附注补上述变量，字段缺失保留具体阻断。",
+      "methods": [
+        {
+          "id": "K02",
+          "version": 1
+        },
+        {
+          "id": "E05",
+          "version": 1
+        },
+        {
+          "id": "E06",
+          "version": 1
+        },
+        {
+          "id": "E08",
+          "version": 1
+        },
+        {
+          "id": "K49",
+          "version": 1
+        },
+        {
+          "id": "K64",
+          "version": 1
+        },
+        {
+          "id": "K48",
+          "version": 1
+        },
+        {
+          "id": "K55",
+          "version": 1
+        },
+        {
+          "id": "K58",
+          "version": 1
+        },
+        {
+          "id": "K59",
+          "version": 1
+        }
+      ],
+      "id": "R69074d027896",
+      "needs_review": false,
+      "impacts": [],
+      "updated_at": "2026-11-12T03:58:30.865956+00:00",
+      "actor": "Agent/test-or-api",
+      "status": "Interpretation draft"
+    }
+  ],
+  "bindings": {
+    "selection_ids": [
+      "R09e06cc7c1a8",
+      "R0b427d7dd7fe",
+      "R1572b24923fd",
+      "R3a8ec12bc38f",
+      "R48ccbb2a4ad6",
+      "R69074d027896",
+      "R8bff8d9f729a",
+      "R8c5f7065f343"
+    ],
+    "selection_scope": "all-eight-lanes",
+    "cards": {
+      "R3a8ec12bc38f": "b2c22eca8e6659d1cae6f4a14f7d41c213eeb66bcd1ea7e63ff0bc21fa8ecdc3",
+      "R09e06cc7c1a8": "10688bbc4e9f06915e412b8f80645d6d7ab5fee410c975ed0866803eb35700f6",
+      "R0b427d7dd7fe": "6e2d11f60d28bac78d60f7709ff1f40456f87d75645c7cad6e609ea84e818273",
+      "R48ccbb2a4ad6": "937bab55f96a97a4810dda169975a883da617684e6930fe770fb64e355a7884d",
+      "R1572b24923fd": "70762eed47310a6c145c1c068a60a65b4ebf7d3970c35a4078b5e41f3065e07c",
+      "R8bff8d9f729a": "14add837442794f72984b2a72ec44475774c713558ca8197391448e1b9e57dd7",
+      "R8c5f7065f343": "e22f166c3a1d96cf2700a689ead779e5af36d5a7cd067f6861d657a6efdf3b8e",
+      "R69074d027896": "08942ef05bccf89f633b93e8a2c25d5919832ead36651d160c0e1e89a98516f1"
+    },
+    "methods": [
+      {
+        "id": "K02",
+        "version": 1
+      },
+      {
+        "id": "E05",
+        "version": 1
+      },
+      {
+        "id": "E06",
+        "version": 1
+      },
+      {
+        "id": "E08",
+        "version": 1
+      },
+      {
+        "id": "K46",
+        "version": 1
+      },
+      {
+        "id": "K52",
+        "version": 1
+      },
+      {
+        "id": "K63",
+        "version": 1
+      },
+      {
+        "id": "K49",
+        "version": 1
+      },
+      {
+        "id": "K64",
+        "version": 1
+      },
+      {
+        "id": "K48",
+        "version": 1
+      },
+      {
+        "id": "K55",
+        "version": 1
+      },
+      {
+        "id": "K58",
+        "version": 1
+      },
+      {
+        "id": "K59",
+        "version": 1
+      }
+    ],
+    "inputs": {
+      "work/research09/evidence-map.json": "e9782ef46dac32ab1b5e8d52ecd570e828d765581b9d2a9cd25dc1fd96a20e8a",
+      "work/research09/parameter-register.json": "ba5b50301dbc97043a52d6dd1fee7217b35aa88be5d1df517bc3120933bf3f48",
+      "work/research09/利润资本现金与估值准备.md": "5fc00d1b228fd0e7f903c2d657b2eda64e96728ce39763496034bb2a0487b5da",
+      "work/research07/source-field-map.json": "e6cf65a2d041fc7c74cc95b6da672ab9cfdea12deacd5b056634b417b4191ac8",
+      "work/valuation/index.json": "1d62b040b5016e95ad10be36bc9f8bed839605e873056d63331f8aef01d080f0",
+      "work/valuation/v1-V15d4e40ce069.json": "305ba8000413a16028173270f0fe6fb4ebec2bf9c688749e03f71edbc97abe9f",
+      "work/writing/authority-snapshot.json": "92d6a6be4dc28b4356df9595f5c249c5eda3dcbdb01ca105e6749e3e2dbf9019",
+      "work/writing/reader.json": "c4a12fd492772b3953edcb4c995ba24edefa801c6a0b3dfedc11d975131f0859"
+    },
+    "sources": [
+      {
+        "id": "002507-d45bfdfdec6d4379",
+        "path": "sources/raw/02_定期报告与经营数据/2026-10-28_2026年三季度报告_1225628280.pdf",
+        "sha256": "18eee5ef5d7b63db544c0c855a1ade7c311e914a397245a11873679fc6955b07"
+      },
+      {
+        "id": "002507-6cd117ea1ac8beee",
+        "path": "sources/raw/01_年报/2026-03-28_2025年年度报告_1225042838.pdf",
+        "sha256": "db3af94635933a99c37cccb2b3809267b5e21072563ef12c2a8de93eb721f9b5"
+      },
+      {
+        "id": "002507-b901d0b919e32cba",
+        "path": "sources/raw/01_年报/2026-08-28_2026年半年度报告_1225517908.pdf",
+        "sha256": "e85ee9eaacaa3eac2ec2e3940e147cc7941f992f5fd6efb072a88e0438e2bd11"
+      }
+    ],
+    "shared_dependencies": {
+      "shared/runtime/companybench/valuation_chain.py": "0155df03fa6ff2dd86a6a4c92f51f277f88e1edd45bfd972d191796276ac23ca",
+      "shared/runtime/companybench/research_depth.py": "bb364cd41336a0d3fe62d0d0663f7e8557570aeff2d201c21517259ae1404a41",
+      "scripts/recalculate_valuation.py": "711a5a9c153a834a2c28d133d24b0aec0cd93153c0baa4f1358a8b22ef4cc727",
+      "docs/投研写作规范.md": "e4cf87afffc67976148eab1d4f2aba00056a5825ba0c7ac64d7ccab1122cfb60",
+      "shared/writing-skills.json": "cad001177fa60de41d782dfbdb8d3ffbfa1ffb81a959472130c85925b6d2ab2a",
+      "app/writing.py": "083ceb8239ce4c1f76b50ead42c52d2e73068d6a564f25f6f288eb4697e947d8"
+    }
+  },
+  "actual_user_review": null,
+  "unresolved_impacts": [],
+  "editorial": {
+    "reader": {
+      "schema_version": 1,
+      "title": "涪陵榨菜：收入恢复之后，利润与现金如何跟上",
+      "sections": [
+        {
+          "title": "销量和渠道改善要兑现到利润",
+          "paragraphs": [
+            {
+              "text": "收入温和恢复尚未转化为利润改善。当前研究的重点是渠道、产品组合与投入效率：终端需求改善能带来多少收入，营销、履约和基地投入又需要付出多少代价。",
+              "anchors": [
+                {
+                  "card": "R3a8ec12bc38f",
+                  "field": "claim"
+                },
+                {
+                  "card": "R3a8ec12bc38f",
+                  "field": "evidence"
+                },
+                {
+                  "card": "R3a8ec12bc38f",
+                  "field": "mechanism"
+                },
+                {
+                  "card": "R3a8ec12bc38f",
+                  "field": "alternative"
+                },
+                {
+                  "card": "R3a8ec12bc38f",
+                  "field": "variables"
+                },
+                {
+                  "card": "R3a8ec12bc38f",
+                  "field": "invalidate"
+                },
+                {
+                  "card": "R3a8ec12bc38f",
+                  "field": "gap"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "经销模式把终端需求传到哪里？",
+          "paragraphs": [
+            {
+              "text": "公司以榨菜、下饭菜、泡菜及酱类等佐餐产品满足家庭与餐饮需求。2025年报物理14页披露经销为主、电商补充；订单经过生产与交付形成收入，终端动销和经销库存还需要另一组观察。",
+              "anchors": [
+                {
+                  "card": "R09e06cc7c1a8",
+                  "field": "claim"
+                },
+                {
+                  "card": "R09e06cc7c1a8",
+                  "field": "evidence"
+                },
+                {
+                  "card": "R09e06cc7c1a8",
+                  "field": "mechanism"
+                },
+                {
+                  "card": "R09e06cc7c1a8",
+                  "field": "alternative"
+                },
+                {
+                  "card": "R09e06cc7c1a8",
+                  "field": "variables"
+                },
+                {
+                  "card": "R09e06cc7c1a8",
+                  "field": "invalidate"
+                },
+                {
+                  "card": "R09e06cc7c1a8",
+                  "field": "gap"
+                }
+              ]
+            },
+            {
+              "text": "青菜头采购、腌制加工、包装、渠道和品牌费用，以及基地建设，共同决定一笔销售最终留下的利润和现金。收入恢复的质量取决于实际净价、产品组合及回款，固定SKU提价仍缺同口径价格资料。",
+              "anchors": [
+                {
+                  "card": "R09e06cc7c1a8",
+                  "field": "claim"
+                },
+                {
+                  "card": "R09e06cc7c1a8",
+                  "field": "evidence"
+                },
+                {
+                  "card": "R09e06cc7c1a8",
+                  "field": "mechanism"
+                },
+                {
+                  "card": "R09e06cc7c1a8",
+                  "field": "alternative"
+                },
+                {
+                  "card": "R09e06cc7c1a8",
+                  "field": "variables"
+                },
+                {
+                  "card": "R09e06cc7c1a8",
+                  "field": "invalidate"
+                },
+                {
+                  "card": "R09e06cc7c1a8",
+                  "field": "gap"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "收入、利润与现金呈现怎样的分化？",
+          "paragraphs": [
+            {
+              "text": "2025收入同比+1.88%，归母净利-3.92%、CFO-19.55%；2026前三季收入+3.45%，归母-8.78%，单季归母-11.79%。收入与利润的分化延续，费用、产品组合及投入效率是需要拆开的解释。",
+              "anchors": [
+                {
+                  "card": "R69074d027896",
+                  "field": "claim"
+                },
+                {
+                  "card": "R69074d027896",
+                  "field": "evidence"
+                },
+                {
+                  "card": "R69074d027896",
+                  "field": "mechanism"
+                },
+                {
+                  "card": "R69074d027896",
+                  "field": "alternative"
+                },
+                {
+                  "card": "R69074d027896",
+                  "field": "variables"
+                },
+                {
+                  "card": "R69074d027896",
+                  "field": "invalidate"
+                },
+                {
+                  "card": "R69074d027896",
+                  "field": "gap"
+                }
+              ]
+            },
+            {
+              "text": "2026H1收入+4.02%、归母-7.19%、CFO+195.21%。这段现金改善还需用应收、库存与经营应付余额桥接，才能区分回款、结算时点和需求变化。",
+              "anchors": [
+                {
+                  "card": "R69074d027896",
+                  "field": "claim"
+                },
+                {
+                  "card": "R69074d027896",
+                  "field": "evidence"
+                },
+                {
+                  "card": "R69074d027896",
+                  "field": "mechanism"
+                },
+                {
+                  "card": "R69074d027896",
+                  "field": "alternative"
+                },
+                {
+                  "card": "R69074d027896",
+                  "field": "variables"
+                },
+                {
+                  "card": "R69074d027896",
+                  "field": "invalidate"
+                },
+                {
+                  "card": "R69074d027896",
+                  "field": "gap"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "渠道效率改善与铺货扩张，怎样区分？",
+          "paragraphs": [
+            {
+              "text": "一种解释是真实消费和渠道效率恢复，先行营销与新基地投入可在爬坡后回收。另一种解释是铺货授信或组合迁移带来收入增长，费用、库存和闲置基地持续压低现金回报。",
+              "anchors": [
+                {
+                  "card": "R0b427d7dd7fe",
+                  "field": "claim"
+                },
+                {
+                  "card": "R0b427d7dd7fe",
+                  "field": "evidence"
+                },
+                {
+                  "card": "R0b427d7dd7fe",
+                  "field": "mechanism"
+                },
+                {
+                  "card": "R0b427d7dd7fe",
+                  "field": "alternative"
+                },
+                {
+                  "card": "R0b427d7dd7fe",
+                  "field": "variables"
+                },
+                {
+                  "card": "R0b427d7dd7fe",
+                  "field": "invalidate"
+                },
+                {
+                  "card": "R0b427d7dd7fe",
+                  "field": "gap"
+                }
+              ]
+            },
+            {
+              "text": "年底授信未收回、经销库存或退货上升且终端销量不改善，会推翻渠道效率改善的解释。同SKU净价未变而产品权重变化时，收入变化应转向组合解释。渠道的净贡献还要扣除专属广告、履约费用和资金占用。",
+              "anchors": [
+                {
+                  "card": "R0b427d7dd7fe",
+                  "field": "claim"
+                },
+                {
+                  "card": "R0b427d7dd7fe",
+                  "field": "evidence"
+                },
+                {
+                  "card": "R0b427d7dd7fe",
+                  "field": "mechanism"
+                },
+                {
+                  "card": "R0b427d7dd7fe",
+                  "field": "alternative"
+                },
+                {
+                  "card": "R0b427d7dd7fe",
+                  "field": "variables"
+                },
+                {
+                  "card": "R0b427d7dd7fe",
+                  "field": "invalidate"
+                },
+                {
+                  "card": "R0b427d7dd7fe",
+                  "field": "gap"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "未来收入和现金取决于哪些经营环节？",
+          "paragraphs": [
+            {
+              "text": "收入从同SKU净价与销量出发，分别计入渠道折扣与费用。青菜头采购和腌制库存经过加工、销售、授信到回款；新基地则经过建设、投产、利用率提升到现金回收。各环节的时间由本公司资料确定。",
+              "anchors": [
+                {
+                  "card": "R48ccbb2a4ad6",
+                  "field": "claim"
+                },
+                {
+                  "card": "R48ccbb2a4ad6",
+                  "field": "evidence"
+                },
+                {
+                  "card": "R48ccbb2a4ad6",
+                  "field": "mechanism"
+                },
+                {
+                  "card": "R48ccbb2a4ad6",
+                  "field": "alternative"
+                },
+                {
+                  "card": "R48ccbb2a4ad6",
+                  "field": "variables"
+                },
+                {
+                  "card": "R48ccbb2a4ad6",
+                  "field": "invalidate"
+                },
+                {
+                  "card": "R48ccbb2a4ad6",
+                  "field": "gap"
+                }
+              ]
+            },
+            {
+              "text": "后续两个定期报告优先观察经销库存天数、渠道净费用率、基地利用率、库存龄和回款。这个窗口用于跟踪研究命题，基地回收期仍需分期投入与爬坡数据。",
+              "anchors": [
+                {
+                  "card": "R48ccbb2a4ad6",
+                  "field": "claim"
+                },
+                {
+                  "card": "R48ccbb2a4ad6",
+                  "field": "evidence"
+                },
+                {
+                  "card": "R48ccbb2a4ad6",
+                  "field": "mechanism"
+                },
+                {
+                  "card": "R48ccbb2a4ad6",
+                  "field": "alternative"
+                },
+                {
+                  "card": "R48ccbb2a4ad6",
+                  "field": "variables"
+                },
+                {
+                  "card": "R48ccbb2a4ad6",
+                  "field": "invalidate"
+                },
+                {
+                  "card": "R48ccbb2a4ad6",
+                  "field": "gap"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "从经营改善走向价值，还缺哪些输入？",
+          "paragraphs": [
+            {
+              "text": "利润桥需将原料包装、营销及履约成本接到经营EBIT，分开投资与财务收益；经营现金税按同范围识别。腌制库存、经销应收和经营应付先预测余额，再计算变动，新基地CapEx与已扣D&A采用一致的资产范围。",
+              "anchors": [
+                {
+                  "card": "R1572b24923fd",
+                  "field": "claim"
+                },
+                {
+                  "card": "R1572b24923fd",
+                  "field": "evidence"
+                },
+                {
+                  "card": "R1572b24923fd",
+                  "field": "mechanism"
+                },
+                {
+                  "card": "R1572b24923fd",
+                  "field": "alternative"
+                },
+                {
+                  "card": "R1572b24923fd",
+                  "field": "variables"
+                },
+                {
+                  "card": "R1572b24923fd",
+                  "field": "invalidate"
+                },
+                {
+                  "card": "R1572b24923fd",
+                  "field": "gap"
+                }
+              ]
+            },
+            {
+              "text": "目前缺同SKU净价及促销、终端销量、经销库存、渠道专属费用与授信、新基地分期投入和利用率、同范围现金所得税。这些缺口分别阻止渠道净贡献、新增资本回报和现金流预测；正式估值还需要经营资本范围、现金流索取权及同日风险与价格输入。原数定位从B07批次和source-field-map进入。",
+              "anchors": [
+                {
+                  "card": "R1572b24923fd",
+                  "field": "claim"
+                },
+                {
+                  "card": "R1572b24923fd",
+                  "field": "evidence"
+                },
+                {
+                  "card": "R1572b24923fd",
+                  "field": "mechanism"
+                },
+                {
+                  "card": "R1572b24923fd",
+                  "field": "alternative"
+                },
+                {
+                  "card": "R1572b24923fd",
+                  "field": "variables"
+                },
+                {
+                  "card": "R1572b24923fd",
+                  "field": "invalidate"
+                },
+                {
+                  "card": "R1572b24923fd",
+                  "field": "gap"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "source_cards": {
+        "R3a8ec12bc38f": "b2c22eca8e6659d1cae6f4a14f7d41c213eeb66bcd1ea7e63ff0bc21fa8ecdc3",
+        "R09e06cc7c1a8": "10688bbc4e9f06915e412b8f80645d6d7ab5fee410c975ed0866803eb35700f6",
+        "R0b427d7dd7fe": "6e2d11f60d28bac78d60f7709ff1f40456f87d75645c7cad6e609ea84e818273",
+        "R48ccbb2a4ad6": "937bab55f96a97a4810dda169975a883da617684e6930fe770fb64e355a7884d",
+        "R1572b24923fd": "70762eed47310a6c145c1c068a60a65b4ebf7d3970c35a4078b5e41f3065e07c",
+        "R8bff8d9f729a": "14add837442794f72984b2a72ec44475774c713558ca8197391448e1b9e57dd7",
+        "R8c5f7065f343": "e22f166c3a1d96cf2700a689ead779e5af36d5a7cd067f6861d657a6efdf3b8e",
+        "R69074d027896": "08942ef05bccf89f633b93e8a2c25d5919832ead36651d160c0e1e89a98516f1"
+      },
+      "saved_at": "2026-11-12T04:30:53.075154+00:00",
+      "saved_by": "Agent/test-or-api",
+      "actual_user_review": null
+    },
+    "unresolved_impacts": [],
+    "policy": "docs/投研写作规范.md",
+    "actual_user_review": null
+  },
+  "input_values": {
+    "work/research09/evidence-map.json": "{\n  \"company\": \"002507_涪陵榨菜\",\n  \"prior\": \"work/research07/source-field-map.json\",\n  \"review\": \"work/review-batches/README.md\",\n  \"hypotheses\": [\n    \"真实终端需求和渠道效率恢复，先行营销与新基地投入可以在爬坡后回收。\",\n    \"铺货授信或组合变化造成收入恢复，而费用、库存和闲置基地长期吞噬现金。\"\n  ],\n  \"operating_cash_bridge\": \"净价/销量→收入→原料包装、营销与履约→经营EBIT；投资收益与财务收益剔除；现金税排除融资效应；腌制库存与经销应收、经营应付先作余额表再差分；新基地CapEx与已扣D&A匹配，建设投产爬坡分年。渠道毛利差不能直接成为净贡献。\",\n  \"missing\": \"同SKU实际净价及促销、终端销量和经销商库存；渠道专属履约/广告与授信；新基地分期投入、投产利用率与同范围现金所得税。\",\n  \"discriminating_observations\": \"同SKU净价×终端销量、经销库存天数、渠道净费用率、基地利用率、库存龄与回款；比较未来两个定期报告，时间窗是研究安排。\",\n  \"methods\": [\n    \"K49\",\n    \"K64\",\n    \"K48\",\n    \"K55\",\n    \"K58\",\n    \"K59\"\n  ],\n  \"human_review\": null\n}\n",
+    "work/research09/parameter-register.json": "{\n  \"schema_version\": 1,\n  \"kind\": \"空白研究登记，不可直接计算\",\n  \"company_data_included\": false,\n  \"parameters\": [\n    {\n      \"name\": \"业务范围\",\n      \"value\": null,\n      \"unit\": null,\n      \"source\": null,\n      \"source_period\": null,\n      \"published_at\": null,\n      \"retrieved_at\": null,\n      \"applies_to_year\": null,\n      \"method\": null,\n      \"rationale\": null,\n      \"state\": \"Unknown\",\n      \"investment_support_year\": null,\n      \"limitations\": \"同SKU实际净价及促销、终端销量和经销商库存；渠道专属履约/广告与授信；新基地分期投入、投产利用率与同范围现金所得税。\",\n      \"currency\": \"CNY\",\n      \"entity\": \"002507_涪陵榨菜\",\n      \"claim_scope\": \"经营全合并FCFF；普通股桥另核\",\n      \"alternative_value\": null,\n      \"trigger\": \"同SKU净价×终端销量、经销库存天数、渠道净费用率、基地利用率、库存龄与回款；比较未来两个定期报告，时间窗是研究安排。\"\n    },\n    {\n      \"name\": \"现金流权利\",\n      \"value\": null,\n      \"unit\": null,\n      \"source\": null,\n      \"source_period\": null,\n      \"published_at\": null,\n      \"retrieved_at\": null,\n      \"applies_to_year\": null,\n      \"method\": null,\n      \"rationale\": null,\n      \"state\": \"Unknown\",\n      \"investment_support_year\": null,\n      \"limitations\": \"同SKU实际净价及促销、终端销量和经销商库存；渠道专属履约/广告与授信；新基地分期投入、投产利用率与同范围现金所得税。\",\n      \"currency\": \"CNY\",\n      \"entity\": \"002507_涪陵榨菜\",\n      \"claim_scope\": \"经营全合并FCFF；普通股桥另核\",\n      \"alternative_value\": null,\n      \"trigger\": \"同SKU净价×终端销量、经销库存天数、渠道净费用率、基地利用率、库存龄与回款；比较未来两个定期报告，时间窗是研究安排。\"\n    },\n    {\n      \"name\": \"估值日与信息截止\",\n      \"value\": null,\n      \"unit\": null,\n      \"source\": null,\n      \"source_period\": null,\n      \"published_at\": null,\n      \"retrieved_at\": null,\n      \"applies_to_year\": null,\n      \"method\": null,\n      \"rationale\": null,\n      \"state\": \"Unknown\",\n      \"investment_support_year\": null,\n      \"limitations\": \"同SKU实际净价及促销、终端销量和经销商库存；渠道专属履约/广告与授信；新基地分期投入、投产利用率与同范围现金所得税。\",\n      \"currency\": \"CNY\",\n      \"entity\": \"002507_涪陵榨菜\",\n      \"claim_scope\": \"经营全合并FCFF；普通股桥另核\",\n      \"alternative_value\": null,\n      \"trigger\": \"同SKU净价×终端销量、经销库存天数、渠道净费用率、基地利用率、库存龄与回款；比较未来两个定期报告，时间窗是研究安排。\"\n    },\n    {\n      \"name\": \"币种与名义实际\",\n      \"value\": null,\n      \"unit\": null,\n      \"source\": null,\n      \"source_period\": null,\n      \"published_at\": null,\n      \"retrieved_at\": null,\n      \"applies_to_year\": null,\n      \"method\": null,\n      \"rationale\": null,\n      \"state\": \"Unknown\",\n      \"investment_support_year\": null,\n      \"limitations\": \"同SKU实际净价及促销、终端销量和经销商库存；渠道专属履约/广告与授信；新基地分期投入、投产利用率与同范围现金所得税。\",\n      \"currency\": \"CNY\",\n      \"entity\": \"002507_涪陵榨菜\",\n      \"claim_scope\": \"经营全合并FCFF；普通股桥另核\",\n      \"alternative_value\": null,\n      \"trigger\": \"同SKU净价×终端销量、经销库存天数、渠道净费用率、基地利用率、库存龄与回款；比较未来两个定期报告，时间窗是研究安排。\"\n    },\n    {\n      \"name\": \"经营EBIT\",\n      \"value\": null,\n      \"unit\": null,\n      \"source\": null,\n      \"source_period\": null,\n      \"published_at\": null,\n      \"retrieved_at\": null,\n      \"applies_to_year\": null,\n      \"method\": null,\n      \"rationale\": null,\n      \"state\": \"Unknown\",\n      \"investment_support_year\": null,\n      \"limitations\": \"同SKU实际净价及促销、终端销量和经销商库存；渠道专属履约/广告与授信；新基地分期投入、投产利用率与同范围现金所得税。\",\n      \"currency\": \"CNY\",\n      \"entity\": \"002507_涪陵榨菜\",\n      \"claim_scope\": \"经营全合并FCFF；普通股桥另核\",\n      \"alternative_value\": null,\n      \"trigger\": \"同SKU净价×终端销量、经销库存天数、渠道净费用率、基地利用率、库存龄与回款；比较未来两个定期报告，时间窗是研究安排。\"\n    },\n    {\n      \"name\": \"经营现金税\",\n      \"value\": null,\n      \"unit\": null,\n      \"source\": null,\n      \"source_period\": null,\n      \"published_at\": null,\n      \"retrieved_at\": null,\n      \"applies_to_year\": null,\n      \"method\": null,\n      \"rationale\": null,\n      \"state\": \"Unknown\",\n      \"investment_support_year\": null,\n      \"limitations\": \"同SKU实际净价及促销、终端销量和经销商库存；渠道专属履约/广告与授信；新基地分期投入、投产利用率与同范围现金所得税。\",\n      \"currency\": \"CNY\",\n      \"entity\": \"002507_涪陵榨菜\",\n      \"claim_scope\": \"经营全合并FCFF；普通股桥另核\",\n      \"alternative_value\": null,\n      \"trigger\": \"同SKU净价×终端销量、经销库存天数、渠道净费用率、基地利用率、库存龄与回款；比较未来两个定期报告，时间窗是研究安排。\"\n    },\n    {\n      \"name\": \"CapEx与D&A\",\n      \"value\": null,\n      \"unit\": null,\n      \"source\": null,\n      \"source_period\": null,\n      \"published_at\": null,\n      \"retrieved_at\": null,\n      \"applies_to_year\": null,\n      \"method\": null,\n      \"rationale\": null,\n      \"state\": \"Unknown\",\n      \"investment_support_year\": null,\n      \"limitations\": \"同SKU实际净价及促销、终端销量和经销商库存；渠道专属履约/广告与授信；新基地分期投入、投产利用率与同范围现金所得税。\",\n      \"currency\": \"CNY\",\n      \"entity\": \"002507_涪陵榨菜\",\n      \"claim_scope\": \"经营全合并FCFF；普通股桥另核\",\n      \"alternative_value\": null,\n      \"trigger\": \"同SKU净价×终端销量、经销库存天数、渠道净费用率、基地利用率、库存龄与回款；比较未来两个定期报告，时间窗是研究安排。\"\n    },\n    {\n      \"name\": \"NCWC期初期末\",\n      \"value\": null,\n      \"unit\": null,\n      \"source\": null,\n      \"source_period\": null,\n      \"published_at\": null,\n      \"retrieved_at\": null,\n      \"applies_to_year\": null,\n      \"method\": null,\n      \"rationale\": null,\n      \"state\": \"Unknown\",\n      \"investment_support_year\": null,\n      \"limitations\": \"同SKU实际净价及促销、终端销量和经销商库存；渠道专属履约/广告与授信；新基地分期投入、投产利用率与同范围现金所得税。\",\n      \"currency\": \"CNY\",\n      \"entity\": \"002507_涪陵榨菜\",\n      \"claim_scope\": \"经营全合并FCFF；普通股桥另核\",\n      \"alternative_value\": null,\n      \"trigger\": \"同SKU净价×终端销量、经销库存天数、渠道净费用率、基地利用率、库存龄与回款；比较未来两个定期报告，时间窗是研究安排。\"\n    },\n    {\n      \"name\": \"其他再投资\",\n      \"value\": null,\n      \"unit\": null,\n      \"source\": null,\n      \"source_period\": null,\n      \"published_at\": null,\n      \"retrieved_at\": null,\n      \"applies_to_year\": null,\n      \"method\": null,\n      \"rationale\": null,\n      \"state\": \"Unknown\",\n      \"investment_support_year\": null,\n      \"limitations\": \"同SKU实际净价及促销、终端销量和经销商库存；渠道专属履约/广告与授信；新基地分期投入、投产利用率与同范围现金所得税。\",\n      \"currency\": \"CNY\",\n      \"entity\": \"002507_涪陵榨菜\",\n      \"claim_scope\": \"经营全合并FCFF；普通股桥另核\",\n      \"alternative_value\": null,\n      \"trigger\": \"同SKU净价×终端销量、经销库存天数、渠道净费用率、基地利用率、库存龄与回款；比较未来两个定期报告，时间窗是研究安排。\"\n    },\n    {\n      \"name\": \"投入支持的收益年度\",\n      \"value\": null,\n      \"unit\": null,\n      \"source\": null,\n      \"source_period\": null,\n      \"published_at\": null,\n      \"retrieved_at\": null,\n      \"applies_to_year\": null,\n      \"method\": null,\n      \"rationale\": null,\n      \"state\": \"Unknown\",\n      \"investment_support_year\": null,\n      \"limitations\": \"同SKU实际净价及促销、终端销量和经销商库存；渠道专属履约/广告与授信；新基地分期投入、投产利用率与同范围现金所得税。\",\n      \"currency\": \"CNY\",\n      \"entity\": \"002507_涪陵榨菜\",\n      \"claim_scope\": \"经营全合并FCFF；普通股桥另核\",\n      \"alternative_value\": null,\n      \"trigger\": \"同SKU净价×终端销量、经销库存天数、渠道净费用率、基地利用率、库存龄与回款；比较未来两个定期报告，时间窗是研究安排。\"\n    },\n    {\n      \"name\": \"Rf\",\n      \"value\": null,\n      \"unit\": null,\n      \"source\": null,\n      \"source_period\": null,\n      \"published_at\": null,\n      \"retrieved_at\": null,\n      \"applies_to_year\": null,\n      \"method\": null,\n      \"rationale\": null,\n      \"state\": \"Unknown\",\n      \"investment_support_year\": null,\n      \"limitations\": \"同SKU实际净价及促销、终端销量和经销商库存；渠道专属履约/广告与授信；新基地分期投入、投产利用率与同范围现金所得税。\",\n      \"currency\": \"CNY\",\n      \"entity\": \"002507_涪陵榨菜\",\n      \"claim_scope\": \"经营全合并FCFF；普通股桥另核\",\n      \"alternative_value\": null,\n      \"trigger\": \"同SKU净价×终端销量、经销库存天数、渠道净费用率、基地利用率、库存龄与回款；比较未来两个定期报告，时间窗是研究安排。\"\n    },\n    {\n      \"name\": \"ERP\",\n      \"value\": null,\n      \"unit\": null,\n      \"source\": null,\n      \"source_period\": null,\n      \"published_at\": null,\n      \"retrieved_at\": null,\n      \"applies_to_year\": null,\n      \"method\": null,\n      \"rationale\": null,\n      \"state\": \"Unknown\",\n      \"investment_support_year\": null,\n      \"limitations\": \"同SKU实际净价及促销、终端销量和经销商库存；渠道专属履约/广告与授信；新基地分期投入、投产利用率与同范围现金所得税。\",\n      \"currency\": \"CNY\",\n      \"entity\": \"002507_涪陵榨菜\",\n      \"claim_scope\": \"经营全合并FCFF；普通股桥另核\",\n      \"alternative_value\": null,\n      \"trigger\": \"同SKU净价×终端销量、经销库存天数、渠道净费用率、基地利用率、库存龄与回款；比较未来两个定期报告，时间窗是研究安排。\"\n    },\n    {\n      \"name\": \"beta与回归样本\",\n      \"value\": null,\n      \"unit\": null,\n      \"source\": null,\n      \"source_period\": null,\n      \"published_at\": null,\n      \"retrieved_at\": null,\n      \"applies_to_year\": null,\n      \"method\": null,\n      \"rationale\": null,\n      \"state\": \"Unknown\",\n      \"investment_support_year\": null,\n      \"limitations\": \"同SKU实际净价及促销、终端销量和经销商库存；渠道专属履约/广告与授信；新基地分期投入、投产利用率与同范围现金所得税。\",\n      \"currency\": \"CNY\",\n      \"entity\": \"002507_涪陵榨菜\",\n      \"claim_scope\": \"经营全合并FCFF；普通股桥另核\",\n      \"alternative_value\": null,\n      \"trigger\": \"同SKU净价×终端销量、经销库存天数、渠道净费用率、基地利用率、库存龄与回款；比较未来两个定期报告，时间窗是研究安排。\"\n    },\n    {\n      \"name\": \"边际债务成本\",\n      \"value\": null,\n      \"unit\": null,\n      \"source\": null,\n      \"source_period\": null,\n      \"published_at\": null,\n      \"retrieved_at\": null,\n      \"applies_to_year\": null,\n      \"method\": null,\n      \"rationale\": null,\n      \"state\": \"Unknown\",\n      \"investment_support_year\": null,\n      \"limitations\": \"同SKU实际净价及促销、终端销量和经销商库存；渠道专属履约/广告与授信；新基地分期投入、投产利用率与同范围现金所得税。\",\n      \"currency\": \"CNY\",\n      \"entity\": \"002507_涪陵榨菜\",\n      \"claim_scope\": \"经营全合并FCFF；普通股桥另核\",\n      \"alternative_value\": null,\n      \"trigger\": \"同SKU净价×终端销量、经销库存天数、渠道净费用率、基地利用率、库存龄与回款；比较未来两个定期报告，时间窗是研究安排。\"\n    },\n    {\n      \"name\": \"市场D/E和税盾能力\",\n      \"value\": null,\n      \"unit\": null,\n      \"source\": null,\n      \"source_period\": null,\n      \"published_at\": null,\n      \"retrieved_at\": null,\n      \"applies_to_year\": null,\n      \"method\": null,\n      \"rationale\": null,\n      \"state\": \"Unknown\",\n      \"investment_support_year\": null,\n      \"limitations\": \"同SKU实际净价及促销、终端销量和经销商库存；渠道专属履约/广告与授信；新基地分期投入、投产利用率与同范围现金所得税。\",\n      \"currency\": \"CNY\",\n      \"entity\": \"002507_涪陵榨菜\",\n      \"claim_scope\": \"经营全合并FCFF；普通股桥另核\",\n      \"alternative_value\": null,\n      \"trigger\": \"同SKU净价×终端销量、经销库存天数、渠道净费用率、基地利用率、库存龄与回款；比较未来两个定期报告，时间窗是研究安排。\"\n    },\n    {\n      \"name\": \"稳定期起点\",\n      \"value\": null,\n      \"unit\": null,\n      \"source\": null,\n      \"source_period\": null,\n      \"published_at\": null,\n      \"retrieved_at\": null,\n      \"applies_to_year\": null,\n      \"method\": null,\n      \"rationale\": null,\n      \"state\": \"Unknown\",\n      \"investment_support_year\": null,\n      \"limitations\": \"同SKU实际净价及促销、终端销量和经销商库存；渠道专属履约/广告与授信；新基地分期投入、投产利用率与同范围现金所得税。\",\n      \"currency\": \"CNY\",\n      \"entity\": \"002507_涪陵榨菜\",\n      \"claim_scope\": \"经营全合并FCFF；普通股桥另核\",\n      \"alternative_value\": null,\n      \"trigger\": \"同SKU净价×终端销量、经销库存天数、渠道净费用率、基地利用率、库存龄与回款；比较未来两个定期报告，时间窗是研究安排。\"\n    },\n    {\n      \"name\": \"稳定首年NOPAT\",\n      \"value\": null,\n      \"unit\": null,\n      \"source\": null,\n      \"source_period\": null,\n      \"published_at\": null,\n      \"retrieved_at\": null,\n      \"applies_to_year\": null,\n      \"method\": null,\n      \"rationale\": null,\n      \"state\": \"Unknown\",\n      \"investment_support_year\": null,\n      \"limitations\": \"同SKU实际净价及促销、终端销量和经销商库存；渠道专属履约/广告与授信；新基地分期投入、投产利用率与同范围现金所得税。\",\n      \"currency\": \"CNY\",\n      \"entity\": \"002507_涪陵榨菜\",\n      \"claim_scope\": \"经营全合并FCFF；普通股桥另核\",\n      \"alternative_value\": null,\n      \"trigger\": \"同SKU净价×终端销量、经销库存天数、渠道净费用率、基地利用率、库存龄与回款；比较未来两个定期报告，时间窗是研究安排。\"\n    },\n    {\n      \"name\": \"长期g\",\n      \"value\": null,\n      \"unit\": null,\n      \"source\": null,\n      \"source_period\": null,\n      \"published_at\": null,\n      \"retrieved_at\": null,\n      \"applies_to_year\": null,\n      \"method\": null,\n      \"rationale\": null,\n      \"state\": \"Unknown\",\n      \"investment_support_year\": null,\n      \"limitations\": \"同SKU实际净价及促销、终端销量和经销商库存；渠道专属履约/广告与授信；新基地分期投入、投产利用率与同范围现金所得税。\",\n      \"currency\": \"CNY\",\n      \"entity\": \"002507_涪陵榨菜\",\n      \"claim_scope\": \"经营全合并FCFF；普通股桥另核\",\n      \"alternative_value\": null,\n      \"trigger\": \"同SKU净价×终端销量、经销库存天数、渠道净费用率、基地利用率、库存龄与回款；比较未来两个定期报告，时间窗是研究安排。\"\n    },\n    {\n      \"name\": \"未来新增ROIC与fade\",\n      \"value\": null,\n      \"unit\": null,\n      \"source\": null,\n      \"source_period\": null,\n      \"published_at\": null,\n      \"retrieved_at\": null,\n      \"applies_to_year\": null,\n      \"method\": null,\n      \"rationale\": null,\n      \"state\": \"Unknown\",\n      \"investment_support_year\": null,\n      \"limitations\": \"同SKU实际净价及促销、终端销量和经销商库存；渠道专属履约/广告与授信；新基地分期投入、投产利用率与同范围现金所得税。\",\n      \"currency\": \"CNY\",\n      \"entity\": \"002507_涪陵榨菜\",\n      \"claim_scope\": \"经营全合并FCFF；普通股桥另核\",\n      \"alternative_value\": null,\n      \"trigger\": \"同SKU净价×终端销量、经销库存天数、渠道净费用率、基地利用率、库存龄与回款；比较未来两个定期报告，时间窗是研究安排。\"\n    },\n    {\n      \"name\": \"末年投入衔接\",\n      \"value\": null,\n      \"unit\": null,\n      \"source\": null,\n      \"source_period\": null,\n      \"published_at\": null,\n      \"retrieved_at\": null,\n      \"applies_to_year\": null,\n      \"method\": null,\n      \"rationale\": null,\n      \"state\": \"Unknown\",\n      \"investment_support_year\": null,\n      \"limitations\": \"同SKU实际净价及促销、终端销量和经销商库存；渠道专属履约/广告与授信；新基地分期投入、投产利用率与同范围现金所得税。\",\n      \"currency\": \"CNY\",\n      \"entity\": \"002507_涪陵榨菜\",\n      \"claim_scope\": \"经营全合并FCFF；普通股桥另核\",\n      \"alternative_value\": null,\n      \"trigger\": \"同SKU净价×终端销量、经销库存天数、渠道净费用率、基地利用率、库存龄与回款；比较未来两个定期报告，时间窗是研究安排。\"\n    },\n    {\n      \"name\": \"非经营资产\",\n      \"value\": null,\n      \"unit\": null,\n      \"source\": null,\n      \"source_period\": null,\n      \"published_at\": null,\n      \"retrieved_at\": null,\n      \"applies_to_year\": null,\n      \"method\": null,\n      \"rationale\": null,\n      \"state\": \"Unknown\",\n      \"investment_support_year\": null,\n      \"limitations\": \"同SKU实际净价及促销、终端销量和经销商库存；渠道专属履约/广告与授信；新基地分期投入、投产利用率与同范围现金所得税。\",\n      \"currency\": \"CNY\",\n      \"entity\": \"002507_涪陵榨菜\",\n      \"claim_scope\": \"经营全合并FCFF；普通股桥另核\",\n      \"alternative_value\": null,\n      \"trigger\": \"同SKU净价×终端销量、经销库存天数、渠道净费用率、基地利用率、库存龄与回款；比较未来两个定期报告，时间窗是研究安排。\"\n    },\n    {\n      \"name\": \"融资与其他权利\",\n      \"value\": null,\n      \"unit\": null,\n      \"source\": null,\n      \"source_period\": null,\n      \"published_at\": null,\n      \"retrieved_at\": null,\n      \"applies_to_year\": null,\n      \"method\": null,\n      \"rationale\": null,\n      \"state\": \"Unknown\",\n      \"investment_support_year\": null,\n      \"limitations\": \"同SKU实际净价及促销、终端销量和经销商库存；渠道专属履约/广告与授信；新基地分期投入、投产利用率与同范围现金所得税。\",\n      \"currency\": \"CNY\",\n      \"entity\": \"002507_涪陵榨菜\",\n      \"claim_scope\": \"经营全合并FCFF；普通股桥另核\",\n      \"alternative_value\": null,\n      \"trigger\": \"同SKU净价×终端销量、经销库存天数、渠道净费用率、基地利用率、库存龄与回款；比较未来两个定期报告，时间窗是研究安排。\"\n    },\n    {\n      \"name\": \"少数权益价值\",\n      \"value\": null,\n      \"unit\": null,\n      \"source\": null,\n      \"source_period\": null,\n      \"published_at\": null,\n      \"retrieved_at\": null,\n      \"applies_to_year\": null,\n      \"method\": null,\n      \"rationale\": null,\n      \"state\": \"Unknown\",\n      \"investment_support_year\": null,\n      \"limitations\": \"同SKU实际净价及促销、终端销量和经销商库存；渠道专属履约/广告与授信；新基地分期投入、投产利用率与同范围现金所得税。\",\n      \"currency\": \"CNY\",\n      \"entity\": \"002507_涪陵榨菜\",\n      \"claim_scope\": \"经营全合并FCFF；普通股桥另核\",\n      \"alternative_value\": null,\n      \"trigger\": \"同SKU净价×终端销量、经销库存天数、渠道净费用率、基地利用率、库存龄与回款；比较未来两个定期报告，时间窗是研究安排。\"\n    },\n    {\n      \"name\": \"股数与稀释\",\n      \"value\": null,\n      \"unit\": null,\n      \"source\": null,\n      \"source_period\": null,\n      \"published_at\": null,\n      \"retrieved_at\": null,\n      \"applies_to_year\": null,\n      \"method\": null,\n      \"rationale\": null,\n      \"state\": \"Unknown\",\n      \"investment_support_year\": null,\n      \"limitations\": \"同SKU实际净价及促销、终端销量和经销商库存；渠道专属履约/广告与授信；新基地分期投入、投产利用率与同范围现金所得税。\",\n      \"currency\": \"CNY\",\n      \"entity\": \"002507_涪陵榨菜\",\n      \"claim_scope\": \"经营全合并FCFF；普通股桥另核\",\n      \"alternative_value\": null,\n      \"trigger\": \"同SKU净价×终端销量、经销库存天数、渠道净费用率、基地利用率、库存龄与回款；比较未来两个定期报告，时间窗是研究安排。\"\n    },\n    {\n      \"name\": \"同日价格与市场预期\",\n      \"value\": null,\n      \"unit\": null,\n      \"source\": null,\n      \"source_period\": null,\n      \"published_at\": null,\n      \"retrieved_at\": null,\n      \"applies_to_year\": null,\n      \"method\": null,\n      \"rationale\": null,\n      \"state\": \"Unknown\",\n      \"investment_support_year\": null,\n      \"limitations\": \"同SKU实际净价及促销、终端销量和经销商库存；渠道专属履约/广告与授信；新基地分期投入、投产利用率与同范围现金所得税。\",\n      \"currency\": \"CNY\",\n      \"entity\": \"002507_涪陵榨菜\",\n      \"claim_scope\": \"经营全合并FCFF；普通股桥另核\",\n      \"alternative_value\": null,\n      \"trigger\": \"同SKU净价×终端销量、经销库存天数、渠道净费用率、基地利用率、库存龄与回款；比较未来两个定期报告，时间窗是研究安排。\"\n    },\n    {\n      \"name\": \"催化剂及反证\",\n      \"value\": null,\n      \"unit\": null,\n      \"source\": null,\n      \"source_period\": null,\n      \"published_at\": null,\n      \"retrieved_at\": null,\n      \"applies_to_year\": null,\n      \"method\": null,\n      \"rationale\": null,\n      \"state\": \"Unknown\",\n      \"investment_support_year\": null,\n      \"limitations\": \"同SKU实际净价及促销、终端销量和经销商库存；渠道专属履约/广告与授信；新基地分期投入、投产利用率与同范围现金所得税。\",\n      \"currency\": \"CNY\",\n      \"entity\": \"002507_涪陵榨菜\",\n      \"claim_scope\": \"经营全合并FCFF；普通股桥另核\",\n      \"alternative_value\": null,\n      \"trigger\": \"同SKU净价×终端销量、经销库存天数、渠道净费用率、基地利用率、库存龄与回款；比较未来两个定期报告，时间窗是研究安排。\"\n    }\n  ],\n  \"company\": \"002507_涪陵榨菜\",\n  \"information_cutoff\": \"2026-11-10（原研究窗口保持）\",\n  \"updated_at\": \"2026-11-12T03:58:30.869933+00:00\"\n}\n",
+    "work/research09/利润资本现金与估值准备.md": "# 涪陵榨菜：利润、资本与现金准备表\n\n净价/销量→收入→原料包装、营销与履约→经营EBIT；投资收益与财务收益剔除；现金税排除融资效应；腌制库存与经销应收、经营应付先作余额表再差分；新基地CapEx与已扣D&A匹配，建设投产爬坡分年。渠道毛利差不能直接成为净贡献。\n\n竞争解释A：真实终端需求和渠道效率恢复，先行营销与新基地投入可以在爬坡后回收。\n\n竞争解释B：铺货授信或组合变化造成收入恢复，而费用、库存和闲置基地长期吞噬现金。\n\n具体输入缺口与动作：同SKU实际净价及促销、终端销量和经销商库存；渠道专属履约/广告与授信；新基地分期投入、投产利用率与同范围现金所得税。；回原年报附注取值，不用课程参数填空。\n\n区分观察：同SKU净价×终端销量、经销库存天数、渠道净费用率、基地利用率、库存龄与回款；比较未来两个定期报告，时间窗是研究安排。\n\n复用B07但未核准新Fact；参数表和计算依赖从本公司成果中心打开。",
+    "work/research07/source-field-map.json": "{\n  \"cutoff\": \"2026-11-10\",\n  \"company\": \"002507_涪陵榨菜\",\n  \"management_statement\": {\n    \"source_id\": \"002507-6cd117ea1ac8beee\",\n    \"page\": 10,\n    \"identity\": \"管理层自述，非机制事实\",\n    \"summary\": \"以榨菜、下饭菜、泡菜及酱类等佐餐产品满足家庭与餐饮开味需求。年报第14物理页披露经销为主、电商补充；消费者需求经经销商订单、生产与交付转成收入，出货不等于终端动销。原料采购、腌制加工、包装、渠道与品牌费用、基地投入共同决定利润和现金。\"\n  },\n  \"batches\": [\n    \"B07-annual\",\n    \"B07-Q3\"\n  ],\n  \"sources\": [\n    {\n      \"company\": \"002507_涪陵榨菜\",\n      \"kind\": \"annual\",\n      \"id\": \"002507-6cd117ea1ac8beee\",\n      \"path\": \"sources/raw/01_年报/2026-03-28_2025年年度报告_1225042838.pdf\",\n      \"title\": \"2025年年度报告\",\n      \"sha256\": \"db3af94635933a99c37cccb2b3809267b5e21072563ef12c2a8de93eb721f9b5\",\n      \"pages_total\": 154\n    },\n    {\n      \"company\": \"002507_涪陵榨菜\",\n      \"kind\": \"Q3\",\n      \"id\": \"002507-d45bfdfdec6d4379\",\n      \"path\": \"sources/raw/02_定期报告与经营数据/2026-10-28_2026年三季度报告_1225628280.pdf\",\n      \"title\": \"2026年三季度报告\",\n      \"sha256\": \"18eee5ef5d7b63db544c0c855a1ade7c311e914a397245a11873679fc6955b07\",\n      \"pages_total\": 12\n    },\n    {\n      \"company\": \"002507_涪陵榨菜\",\n      \"kind\": \"H1\",\n      \"id\": \"002507-b901d0b919e32cba\",\n      \"path\": \"sources/raw/01_年报/2026-08-28_2026年半年度报告_1225517908.pdf\",\n      \"title\": \"2026年半年度报告\",\n      \"sha256\": \"e85ee9eaacaa3eac2ec2e3940e147cc7941f992f5fd6efb072a88e0438e2bd11\",\n      \"pages_total\": 116\n    }\n  ],\n  \"knowledge_application\": [\n    {\n      \"id\": \"K02\",\n      \"question\": \"量、价、交互项应如何判断？\",\n      \"method_used\": \"R=Q×P；ΔR=P0ΔQ+Q0ΔP+ΔQΔP。固定基期展示三个项；或用中点对称分解。\",\n      \"applied_to\": \"若年底授信未收回而经销库存或退货上升、终端销量不改善，则否定渠道效率改善；若同SKU净价未变而产品权重变化，撤回提价解释。\"\n    },\n    {\n      \"id\": \"E05\",\n      \"question\": \"渠道毛利差是否形成增量净贡献？\",\n      \"method_used\": \"从收入差减去同范围增量成本费用和资本机会成本\",\n      \"applied_to\": \"若年底授信未收回而经销库存或退货上升、终端销量不改善，则否定渠道效率改善；若同SKU净价未变而产品权重变化，撤回提价解释。\"\n    },\n    {\n      \"id\": \"E06\",\n      \"question\": \"新增项目是否创造价值？\",\n      \"method_used\": \"匹配同批投资的后续收益和现金，区分历史平均ROIC与增量回报\",\n      \"applied_to\": \"若年底授信未收回而经销库存或退货上升、终端销量不改善，则否定渠道效率改善；若同SKU净价未变而产品权重变化，撤回提价解释。\"\n    },\n    {\n      \"id\": \"E08\",\n      \"question\": \"利润能否转化为可分配现金？\",\n      \"method_used\": \"利润→经营营运资本→CFO→再投资逐层解释\",\n      \"applied_to\": \"若年底授信未收回而经销库存或退货上升、终端销量不改善，则否定渠道效率改善；若同SKU净价未变而产品权重变化，撤回提价解释。\"\n    }\n  ],\n  \"contract_mapping\": \"共享contract-research-map：原文取证/口径/财务四环/行业优势与反证；本轮不宣称条款验收或签署\",\n  \"gaps\": \"缺同SKU净价、终端动销/经销库存、渠道增量费用及新基地投产爬坡回报；无法确认涨价权或新增资本回报。\",\n  \"actions\": \"对齐年报14页渠道产品收入成本，再取销售费用附注、授信回收与绿色基地在建转固/产能利用数据。\",\n  \"restatement_note\": \"年报摘要使用报告内可比列；柏楚往年每股收益随权益分派调整，本批不选EPS；泡泡IFRS与调整利润不混用\",\n  \"H1_candidate_reading_note\": {\n    \"physical_pages\": \"7\",\n    \"note\": \"2026H1收入+4.02%、归母-7.19%、CFO+195.21%，与Q3累计收入小增、利润下降并列；现金改善不能直接归因终端需求。\",\n    \"status\": \"未人审，不认定Fact\"\n  },\n  \"financial_statement_locations\": [\n    {\n      \"source_id\": \"002507-6cd117ea1ac8beee\",\n      \"label\": \"合并资产负债表\",\n      \"physical_page\": 77\n    },\n    {\n      \"source_id\": \"002507-6cd117ea1ac8beee\",\n      \"label\": \"合并利润表\",\n      \"physical_page\": 81\n    },\n    {\n      \"source_id\": \"002507-6cd117ea1ac8beee\",\n      \"label\": \"合并现金流量表\",\n      \"physical_page\": 84\n    },\n    {\n      \"source_id\": \"002507-6cd117ea1ac8beee\",\n      \"label\": \"存货或收入附注\",\n      \"physical_page\": 103\n    }\n  ],\n  \"scope_guard\": \"表格起始页可能先列母公司上表尾部，仅从合并表标题之后读取；合并/母公司及归母/总净利分开。存货政策/关键审计事项已读，不声称存货明细和资本经济归类已完成。\",\n  \"contract_requirements_map\": [\n    {\n      \"source\": \"D:\\\\投资学\\\\课件与任务文件\\\\任务合同\\\\第一次任务合同.md\",\n      \"sha256\": \"4867e16f12245ff4d5842c23841f4c7ebf4830b201169766b54c9a74eaa6f0fb\",\n      \"requirement_group\": [\n        \"证据与口径是否闭合\",\n        \"经营解释和反证是什么\",\n        \"预测变量和现金归属是否匹配\"\n      ],\n      \"result_positions\": [\n        \"work/review-batches\",\n        \"历史经营解释研究卡\",\n        \"风险与反方研究卡\"\n      ],\n      \"status\": \"方法承接，非合同验收/签署\"\n    },\n    {\n      \"source\": \"D:\\\\投资学\\\\课件与任务文件\\\\任务合同\\\\第三次任务合同_年报指标口径识别.md\",\n      \"sha256\": \"9453a5d0801b6251e56538e9ab2eaee325029e4fc907eaeb85378812f99bebf9\",\n      \"requirement_group\": [\n        \"证据与口径是否闭合\",\n        \"经营解释和反证是什么\",\n        \"预测变量和现金归属是否匹配\"\n      ],\n      \"result_positions\": [\n        \"work/review-batches\",\n        \"历史经营解释研究卡\",\n        \"风险与反方研究卡\"\n      ],\n      \"status\": \"方法承接，非合同验收/签署\"\n    },\n    {\n      \"source\": \"D:\\\\投资学\\\\课件与任务文件\\\\任务合同\\\\第二次任务合同_年报收入信息结构化提取.md\",\n      \"sha256\": \"fa9d200800e8a581eb8631e8d2d9daa475686c401f0995a51cf752e814a3da8d\",\n      \"requirement_group\": [\n        \"证据与口径是否闭合\",\n        \"经营解释和反证是什么\",\n        \"预测变量和现金归属是否匹配\"\n      ],\n      \"result_positions\": [\n        \"work/review-batches\",\n        \"历史经营解释研究卡\",\n        \"风险与反方研究卡\"\n      ],\n      \"status\": \"方法承接，非合同验收/签署\"\n    },\n    {\n      \"source\": \"D:\\\\投资学\\\\课件与任务文件\\\\任务合同\\\\第五次任务合同_贵州茅台商业模式、竞争优势与叙事核验.md\",\n      \"sha256\": \"742749871e570ecaa486f20c17e210f918edd39289c2a83dc4cd5dd4c2fe1d28\",\n      \"requirement_group\": [\n        \"证据与口径是否闭合\",\n        \"经营解释和反证是什么\",\n        \"预测变量和现金归属是否匹配\"\n      ],\n      \"result_positions\": [\n        \"work/review-batches\",\n        \"历史经营解释研究卡\",\n        \"风险与反方研究卡\"\n      ],\n      \"status\": \"方法承接，非合同验收/签署\"\n    },\n    {\n      \"source\": \"D:\\\\投资学\\\\课件与任务文件\\\\任务合同\\\\第五次任务合同第一部分_贵州茅台商业模式验证.md\",\n      \"sha256\": \"33c24262c521635601f76fb51f22f01a670db4b7c569fd12a372766c554ffee3\",\n      \"requirement_group\": [\n        \"证据与口径是否闭合\",\n        \"经营解释和反证是什么\",\n        \"预测变量和现金归属是否匹配\"\n      ],\n      \"result_positions\": [\n        \"work/review-batches\",\n        \"历史经营解释研究卡\",\n        \"风险与反方研究卡\"\n      ],\n      \"status\": \"方法承接，非合同验收/签署\"\n    },\n    {\n      \"source\": \"D:\\\\投资学\\\\课件与任务文件\\\\任务合同\\\\第四次任务合同_年报指标变化核验.md\",\n      \"sha256\": \"3d1af9c2753f9fc5fc5338038d48e7c3f033faf1960260b4d69fe3792be3e13b\",\n      \"requirement_group\": [\n        \"证据与口径是否闭合\",\n        \"经营解释和反证是什么\",\n        \"预测变量和现金归属是否匹配\"\n      ],\n      \"result_positions\": [\n        \"work/review-batches\",\n        \"历史经营解释研究卡\",\n        \"风险与反方研究卡\"\n      ],\n      \"status\": \"方法承接，非合同验收/签署\"\n    },\n    {\n      \"source\": \"D:\\\\投资学\\\\课件与任务文件\\\\补充材料\\\\第七次任务合同_贵州茅台叙事核验.md\",\n      \"sha256\": \"5237bc4d19110ed6f60eb6f425c5735d472606a341e72384829d1f99e7861035\",\n      \"requirement_group\": [\n        \"证据与口径是否闭合\",\n        \"经营解释和反证是什么\",\n        \"预测变量和现金归属是否匹配\"\n      ],\n      \"result_positions\": [\n        \"work/review-batches\",\n        \"历史经营解释研究卡\",\n        \"风险与反方研究卡\"\n      ],\n      \"status\": \"方法承接，非合同验收/签署\"\n    },\n    {\n      \"source\": \"D:\\\\投资学\\\\课件与任务文件\\\\补充材料\\\\第六次任务合同_贵州茅台行业竞争与竞争优势.md\",\n      \"sha256\": \"93acb50f2cd9c6977db83c0c69be0b52bda65ff8787556109c801175479c1629\",\n      \"requirement_group\": [\n        \"证据与口径是否闭合\",\n        \"经营解释和反证是什么\",\n        \"预测变量和现金归属是否匹配\"\n      ],\n      \"result_positions\": [\n        \"work/review-batches\",\n        \"历史经营解释研究卡\",\n        \"风险与反方研究卡\"\n      ],\n      \"status\": \"方法承接，非合同验收/签署\"\n    },\n    {\n      \"source\": \"D:\\\\投资学\\\\课件与任务文件\\\\补充材料3\\\\第七次任务合同_贵州茅台叙事核验.md\",\n      \"sha256\": \"6ca0d75c9efbcbd643d7129cb4ea5a3cb4be0a4c55ca63539f0041b01fa72c6e\",\n      \"requirement_group\": [\n        \"证据与口径是否闭合\",\n        \"经营解释和反证是什么\",\n        \"预测变量和现金归属是否匹配\"\n      ],\n      \"result_positions\": [\n        \"work/review-batches\",\n        \"历史经营解释研究卡\",\n        \"风险与反方研究卡\"\n      ],\n      \"status\": \"方法承接，非合同验收/签署\"\n    },\n    {\n      \"source\": \"D:\\\\投资学\\\\课件与任务文件\\\\补充材料3\\\\第五次任务合同_贵州茅台商业模式验证.md\",\n      \"sha256\": \"fb25c4182f568fb3922535f7a22363a06e9cae250a1c8cb53c206f17f629320d\",\n      \"requirement_group\": [\n        \"证据与口径是否闭合\",\n        \"经营解释和反证是什么\",\n        \"预测变量和现金归属是否匹配\"\n      ],\n      \"result_positions\": [\n        \"work/review-batches\",\n        \"历史经营解释研究卡\",\n        \"风险与反方研究卡\"\n      ],\n      \"status\": \"方法承接，非合同验收/签署\"\n    },\n    {\n      \"source\": \"D:\\\\投资学\\\\课件与任务文件\\\\补充材料3\\\\第五次任务延伸合同_贵州茅台渠道净贡献验证.md\",\n      \"sha256\": \"fa36428379f160d124a83a2e9906328ca904b9cce3fb6cea9fcf3d8ab99ab8af\",\n      \"requirement_group\": [\n        \"证据与口径是否闭合\",\n        \"经营解释和反证是什么\",\n        \"预测变量和现金归属是否匹配\"\n      ],\n      \"result_positions\": [\n        \"work/review-batches\",\n        \"历史经营解释研究卡\",\n        \"风险与反方研究卡\"\n      ],\n      \"status\": \"方法承接，非合同验收/签署\"\n    },\n    {\n      \"source\": \"D:\\\\投资学\\\\课件与任务文件\\\\补充材料3\\\\第五次任务延伸合同_贵州茅台现金与资本回报验证.md\",\n      \"sha256\": \"da205d95d3157ca474c8e5638749d884d5ede85302f449999b3879741a60d121\",\n      \"requirement_group\": [\n        \"证据与口径是否闭合\",\n        \"经营解释和反证是什么\",\n        \"预测变量和现金归属是否匹配\"\n      ],\n      \"result_positions\": [\n        \"work/review-batches\",\n        \"历史经营解释研究卡\",\n        \"风险与反方研究卡\"\n      ],\n      \"status\": \"方法承接，非合同验收/签署\"\n    },\n    {\n      \"source\": \"D:\\\\投资学\\\\课件与任务文件\\\\补充材料3\\\\第五次任务延伸合同_贵州茅台生产库存销售滞后验证.md\",\n      \"sha256\": \"d9da305bedb3f89c3f0a6b4478ced5e55b163f8bb4efd37e734ba5dc6c876261\",\n      \"requirement_group\": [\n        \"证据与口径是否闭合\",\n        \"经营解释和反证是什么\",\n        \"预测变量和现金归属是否匹配\"\n      ],\n      \"result_positions\": [\n        \"work/review-batches\",\n        \"历史经营解释研究卡\",\n        \"风险与反方研究卡\"\n      ],\n      \"status\": \"方法承接，非合同验收/签署\"\n    },\n    {\n      \"source\": \"D:\\\\投资学\\\\课件与任务文件\\\\补充材料3\\\\第六次任务合同_贵州茅台行业竞争与竞争优势.md\",\n      \"sha256\": \"0ed8d279fad8598890838f9da3e561c6b7e1cc4a1a9afd5da7103d89f1ef8aa2\",\n      \"requirement_group\": [\n        \"证据与口径是否闭合\",\n        \"经营解释和反证是什么\",\n        \"预测变量和现金归属是否匹配\"\n      ],\n      \"result_positions\": [\n        \"work/review-batches\",\n        \"历史经营解释研究卡\",\n        \"风险与反方研究卡\"\n      ],\n      \"status\": \"方法承接，非合同验收/签署\"\n    },\n    {\n      \"source\": \"D:\\\\投资学\\\\课件与任务文件\\\\补充材料4\\\\Lec05任务合同01_V1027_从贵州茅台叙事到预测参数.md\",\n      \"sha256\": \"ecb174a6ab8caf50e0e403019ef1100e47b314b36410ed954eedb82cba1fd8c7\",\n      \"requirement_group\": [\n        \"证据与口径是否闭合\",\n        \"经营解释和反证是什么\",\n        \"预测变量和现金归属是否匹配\"\n      ],\n      \"result_positions\": [\n        \"work/review-batches\",\n        \"历史经营解释研究卡\",\n        \"风险与反方研究卡\"\n      ],\n      \"status\": \"方法承接，非合同验收/签署\"\n    },\n    {\n      \"source\": \"D:\\\\投资学\\\\课件与任务文件\\\\补充材料4\\\\Lec05任务合同02_V1027_收入预测路径与一致性检查.md\",\n      \"sha256\": \"ebd6a7ed3fe41d8ec633a4d5100ff4c1245e37064abf621ddd0c9c743714e1a2\",\n      \"requirement_group\": [\n        \"证据与口径是否闭合\",\n        \"经营解释和反证是什么\",\n        \"预测变量和现金归属是否匹配\"\n      ],\n      \"result_positions\": [\n        \"work/review-batches\",\n        \"历史经营解释研究卡\",\n        \"风险与反方研究卡\"\n      ],\n      \"status\": \"方法承接，非合同验收/签署\"\n    },\n    {\n      \"source\": \"D:\\\\投资学\\\\课件与任务文件\\\\补充材料4\\\\Lec05任务合同03_V1027_现金流归属与每股价值计算.md\",\n      \"sha256\": \"2f3d6e0329eda8b5b2070b43e7a3d51b634e89a3849014406560dbc990b8c33b\",\n      \"requirement_group\": [\n        \"证据与口径是否闭合\",\n        \"经营解释和反证是什么\",\n        \"预测变量和现金归属是否匹配\"\n      ],\n      \"result_positions\": [\n        \"work/review-batches\",\n        \"历史经营解释研究卡\",\n        \"风险与反方研究卡\"\n      ],\n      \"status\": \"方法承接，非合同验收/签署\"\n    }\n  ]\n}\n",
+    "work/valuation/index.json": "{\n  \"runs\": [\n    {\n      \"id\": \"V15d4e40ce069\",\n      \"path\": \"work/valuation/v1-V15d4e40ce069.json\",\n      \"action\": \"forecast\",\n      \"state\": \"BlockedMissingInputs\",\n      \"version\": 1\n    }\n  ]\n}\n",
+    "work/valuation/v1-V15d4e40ce069.json": "{\n  \"id\": \"V15d4e40ce069\",\n  \"version\": 1,\n  \"at\": \"2026-11-12T03:58:30.889946+00:00\",\n  \"actor\": \"Agent/test-or-api\",\n  \"company\": \"002507_涪陵榨菜\",\n  \"action\": \"forecast\",\n  \"inputs\": {},\n  \"parameter_metadata\": {\n    \"register\": \"work/research09/parameter-register.json\",\n    \"missing\": \"同SKU实际净价及促销、终端销量和经销商库存；渠道专属履约/广告与授信；新基地分期投入、投产利用率与同范围现金所得税。\"\n  },\n  \"result\": {\n    \"state\": \"BlockedMissingInputs\",\n    \"missing_fields\": [\n      \"base_revenue\",\n      \"rows\"\n    ],\n    \"new_fact\": false,\n    \"impact\": \"无法执行forecast；按公司参数登记补同范围字段\"\n  },\n  \"module_sha256\": \"0155df03fa6ff2dd86a6a4c92f51f277f88e1edd45bfd972d191796276ac23ca\",\n  \"dependencies\": [\n    \"shared/runtime/companybench/valuation_chain.py\",\n    \"shared/runtime/companybench/research_depth.py\"\n  ],\n  \"recalculate\": \"python -B scripts/recalculate_valuation.py --company 002507_涪陵榨菜 --record work/valuation/v1-V15d4e40ce069.json\",\n  \"scope_boundary\": \"条件算术不是公司Fact；未完成beta业务去再杠杆、税损明细、归母权利桥\"\n}\n",
+    "work/writing/authority-snapshot.json": "{\n  \"at\": \"2026-11-12T04:30:53.193080+00:00\",\n  \"Fact\": [],\n  \"records\": [\n    {\n      \"id\": \"B07-A01\",\n      \"state\": \"Unknown\",\n      \"binding\": \"d2a1b2fce62c9a41a270117d2352beed0a26e0f4defb845e45e0bf3d5353bb9f\",\n      \"sources\": [\n        {\n          \"source_id\": \"002507-6cd117ea1ac8beee\",\n          \"location\": \"PDF物理第7页，财务摘要/经营更新，行“营业收入2025”\"\n        }\n      ]\n    },\n    {\n      \"id\": \"B07-A02\",\n      \"state\": \"Unknown\",\n      \"binding\": \"3ba50d87c8fcbbb13550720d1e36b4261a4a4f27d21154bced87de6df3b3d81e\",\n      \"sources\": [\n        {\n          \"source_id\": \"002507-6cd117ea1ac8beee\",\n          \"location\": \"PDF物理第7页，财务摘要/经营更新，行“营业收入2024”\"\n        }\n      ]\n    },\n    {\n      \"id\": \"B07-A03\",\n      \"state\": \"Unknown\",\n      \"binding\": \"882a8e850c8a87347f9733e4bef3e4ae5e4cbdbb10360e7ab8d072b84ce48497\",\n      \"sources\": [\n        {\n          \"source_id\": \"002507-6cd117ea1ac8beee\",\n          \"location\": \"PDF物理第7页，财务摘要/经营更新，行“归母净利润2025”\"\n        }\n      ]\n    },\n    {\n      \"id\": \"B07-A04\",\n      \"state\": \"Unknown\",\n      \"binding\": \"cc064186cd2e892b5847d7896f8e0b3972db5666aaf5a18779393b6644b9fe28\",\n      \"sources\": [\n        {\n          \"source_id\": \"002507-6cd117ea1ac8beee\",\n          \"location\": \"PDF物理第7页，财务摘要/经营更新，行“归母净利润2024”\"\n        }\n      ]\n    },\n    {\n      \"id\": \"B07-A05\",\n      \"state\": \"Unknown\",\n      \"binding\": \"7bd0fefefe54f74092238b5fb15a6865eb33b3acdbf68411238126eb47cfda04\",\n      \"sources\": [\n        {\n          \"source_id\": \"002507-6cd117ea1ac8beee\",\n          \"location\": \"PDF物理第7页，财务摘要/经营更新，行“CFO2025”\"\n        }\n      ]\n    },\n    {\n      \"id\": \"B07-A06\",\n      \"state\": \"Unknown\",\n      \"binding\": \"f242910bab92600da684f351fb12ce83163755ef49c457eee79152886d15c18f\",\n      \"sources\": [\n        {\n          \"source_id\": \"002507-6cd117ea1ac8beee\",\n          \"location\": \"PDF物理第7页，财务摘要/经营更新，行“CFO2024”\"\n        }\n      ]\n    },\n    {\n      \"id\": \"B07-Q01\",\n      \"state\": \"Unknown\",\n      \"binding\": \"5e216864b066dc587edc778ed98b7371acdf122aefc9b316afdeaeeb54190036\",\n      \"sources\": [\n        {\n          \"source_id\": \"002507-d45bfdfdec6d4379\",\n          \"location\": \"PDF物理第3页，财务摘要/经营更新，行“本季度营业收入”\"\n        }\n      ]\n    },\n    {\n      \"id\": \"B07-Q02\",\n      \"state\": \"Unknown\",\n      \"binding\": \"af7abd0d405edf3a5b900e5141dd7545269faa4b034c375aa8dcf242a895ed52\",\n      \"sources\": [\n        {\n          \"source_id\": \"002507-d45bfdfdec6d4379\",\n          \"location\": \"PDF物理第3页，财务摘要/经营更新，行“前九个月营业收入”\"\n        }\n      ]\n    },\n    {\n      \"id\": \"B07-Q03\",\n      \"state\": \"Unknown\",\n      \"binding\": \"a4df1f65358f5734f7459f0b7d7a9503bd76e201ac1b66be9cc07fe5e2ddd55d\",\n      \"sources\": [\n        {\n          \"source_id\": \"002507-d45bfdfdec6d4379\",\n          \"location\": \"PDF物理第3页，财务摘要/经营更新，行“本季度归母净利润”\"\n        }\n      ]\n    },\n    {\n      \"id\": \"B07-Q04\",\n      \"state\": \"Unknown\",\n      \"binding\": \"d70d072b9137f5cdc488d3c4e27655aafcc30b2eb94a4b16793641a256ff9ca2\",\n      \"sources\": [\n        {\n          \"source_id\": \"002507-d45bfdfdec6d4379\",\n          \"location\": \"PDF物理第3页，财务摘要/经营更新，行“前九个月归母净利润”\"\n        }\n      ]\n    },\n    {\n      \"id\": \"B07-Q05\",\n      \"state\": \"Unknown\",\n      \"binding\": \"fda44764d6d389df739c7fd342caeef69daaa01bf52db3b03eabd51d9ac956ea\",\n      \"sources\": [\n        {\n          \"source_id\": \"002507-d45bfdfdec6d4379\",\n          \"location\": \"PDF物理第3页，财务摘要/经营更新，行“前九个月CFO”\"\n        }\n      ]\n    },\n    {\n      \"id\": \"B07-Q06\",\n      \"state\": \"Unknown\",\n      \"binding\": \"659efd7b8d2d4c127b0451f35bce2560d7eb5de286b64669bd97965480245c8c\",\n      \"sources\": [\n        {\n          \"source_id\": \"002507-d45bfdfdec6d4379\",\n          \"location\": \"PDF物理第3页，财务摘要/经营更新，行“前九个月营业收入同比”\"\n        }\n      ]\n    }\n  ],\n  \"source_ids\": [\n    \"002507-6cd117ea1ac8beee\",\n    \"002507-b901d0b919e32cba\",\n    \"002507-d45bfdfdec6d4379\"\n  ],\n  \"new_human_review\": null,\n  \"change_facts\": \"本轮仅表达编辑，无新变化事实；当前普通ReviewStore无独立change_facts接口\"\n}\n",
+    "work/writing/reader.json": "{\n  \"schema_version\": 1,\n  \"title\": \"涪陵榨菜：收入恢复之后，利润与现金如何跟上\",\n  \"sections\": [\n    {\n      \"title\": \"销量和渠道改善要兑现到利润\",\n      \"paragraphs\": [\n        {\n          \"text\": \"收入温和恢复尚未转化为利润改善。当前研究的重点是渠道、产品组合与投入效率：终端需求改善能带来多少收入，营销、履约和基地投入又需要付出多少代价。\",\n          \"anchors\": [\n            {\n              \"card\": \"R3a8ec12bc38f\",\n              \"field\": \"claim\"\n            },\n            {\n              \"card\": \"R3a8ec12bc38f\",\n              \"field\": \"evidence\"\n            },\n            {\n              \"card\": \"R3a8ec12bc38f\",\n              \"field\": \"mechanism\"\n            },\n            {\n              \"card\": \"R3a8ec12bc38f\",\n              \"field\": \"alternative\"\n            },\n            {\n              \"card\": \"R3a8ec12bc38f\",\n              \"field\": \"variables\"\n            },\n            {\n              \"card\": \"R3a8ec12bc38f\",\n              \"field\": \"invalidate\"\n            },\n            {\n              \"card\": \"R3a8ec12bc38f\",\n              \"field\": \"gap\"\n            }\n          ]\n        }\n      ]\n    },\n    {\n      \"title\": \"经销模式把终端需求传到哪里？\",\n      \"paragraphs\": [\n        {\n          \"text\": \"公司以榨菜、下饭菜、泡菜及酱类等佐餐产品满足家庭与餐饮需求。2025年报物理14页披露经销为主、电商补充；订单经过生产与交付形成收入，终端动销和经销库存还需要另一组观察。\",\n          \"anchors\": [\n            {\n              \"card\": \"R09e06cc7c1a8\",\n              \"field\": \"claim\"\n            },\n            {\n              \"card\": \"R09e06cc7c1a8\",\n              \"field\": \"evidence\"\n            },\n            {\n              \"card\": \"R09e06cc7c1a8\",\n              \"field\": \"mechanism\"\n            },\n            {\n              \"card\": \"R09e06cc7c1a8\",\n              \"field\": \"alternative\"\n            },\n            {\n              \"card\": \"R09e06cc7c1a8\",\n              \"field\": \"variables\"\n            },\n            {\n              \"card\": \"R09e06cc7c1a8\",\n              \"field\": \"invalidate\"\n            },\n            {\n              \"card\": \"R09e06cc7c1a8\",\n              \"field\": \"gap\"\n            }\n          ]\n        },\n        {\n          \"text\": \"青菜头采购、腌制加工、包装、渠道和品牌费用，以及基地建设，共同决定一笔销售最终留下的利润和现金。收入恢复的质量取决于实际净价、产品组合及回款，固定SKU提价仍缺同口径价格资料。\",\n          \"anchors\": [\n            {\n              \"card\": \"R09e06cc7c1a8\",\n              \"field\": \"claim\"\n            },\n            {\n              \"card\": \"R09e06cc7c1a8\",\n              \"field\": \"evidence\"\n            },\n            {\n              \"card\": \"R09e06cc7c1a8\",\n              \"field\": \"mechanism\"\n            },\n            {\n              \"card\": \"R09e06cc7c1a8\",\n              \"field\": \"alternative\"\n            },\n            {\n              \"card\": \"R09e06cc7c1a8\",\n              \"field\": \"variables\"\n            },\n            {\n              \"card\": \"R09e06cc7c1a8\",\n              \"field\": \"invalidate\"\n            },\n            {\n              \"card\": \"R09e06cc7c1a8\",\n              \"field\": \"gap\"\n            }\n          ]\n        }\n      ]\n    },\n    {\n      \"title\": \"收入、利润与现金呈现怎样的分化？\",\n      \"paragraphs\": [\n        {\n          \"text\": \"2025收入同比+1.88%，归母净利-3.92%、CFO-19.55%；2026前三季收入+3.45%，归母-8.78%，单季归母-11.79%。收入与利润的分化延续，费用、产品组合及投入效率是需要拆开的解释。\",\n          \"anchors\": [\n            {\n              \"card\": \"R69074d027896\",\n              \"field\": \"claim\"\n            },\n            {\n              \"card\": \"R69074d027896\",\n              \"field\": \"evidence\"\n            },\n            {\n              \"card\": \"R69074d027896\",\n              \"field\": \"mechanism\"\n            },\n            {\n              \"card\": \"R69074d027896\",\n              \"field\": \"alternative\"\n            },\n            {\n              \"card\": \"R69074d027896\",\n              \"field\": \"variables\"\n            },\n            {\n              \"card\": \"R69074d027896\",\n              \"field\": \"invalidate\"\n            },\n            {\n              \"card\": \"R69074d027896\",\n              \"field\": \"gap\"\n            }\n          ]\n        },\n        {\n          \"text\": \"2026H1收入+4.02%、归母-7.19%、CFO+195.21%。这段现金改善还需用应收、库存与经营应付余额桥接，才能区分回款、结算时点和需求变化。\",\n          \"anchors\": [\n            {\n              \"card\": \"R69074d027896\",\n              \"field\": \"claim\"\n            },\n            {\n              \"card\": \"R69074d027896\",\n              \"field\": \"evidence\"\n            },\n            {\n              \"card\": \"R69074d027896\",\n              \"field\": \"mechanism\"\n            },\n            {\n              \"card\": \"R69074d027896\",\n              \"field\": \"alternative\"\n            },\n            {\n              \"card\": \"R69074d027896\",\n              \"field\": \"variables\"\n            },\n            {\n              \"card\": \"R69074d027896\",\n              \"field\": \"invalidate\"\n            },\n            {\n              \"card\": \"R69074d027896\",\n              \"field\": \"gap\"\n            }\n          ]\n        }\n      ]\n    },\n    {\n      \"title\": \"渠道效率改善与铺货扩张，怎样区分？\",\n      \"paragraphs\": [\n        {\n          \"text\": \"一种解释是真实消费和渠道效率恢复，先行营销与新基地投入可在爬坡后回收。另一种解释是铺货授信或组合迁移带来收入增长，费用、库存和闲置基地持续压低现金回报。\",\n          \"anchors\": [\n            {\n              \"card\": \"R0b427d7dd7fe\",\n              \"field\": \"claim\"\n            },\n            {\n              \"card\": \"R0b427d7dd7fe\",\n              \"field\": \"evidence\"\n            },\n            {\n              \"card\": \"R0b427d7dd7fe\",\n              \"field\": \"mechanism\"\n            },\n            {\n              \"card\": \"R0b427d7dd7fe\",\n              \"field\": \"alternative\"\n            },\n            {\n              \"card\": \"R0b427d7dd7fe\",\n              \"field\": \"variables\"\n            },\n            {\n              \"card\": \"R0b427d7dd7fe\",\n              \"field\": \"invalidate\"\n            },\n            {\n              \"card\": \"R0b427d7dd7fe\",\n              \"field\": \"gap\"\n            }\n          ]\n        },\n        {\n          \"text\": \"年底授信未收回、经销库存或退货上升且终端销量不改善，会推翻渠道效率改善的解释。同SKU净价未变而产品权重变化时，收入变化应转向组合解释。渠道的净贡献还要扣除专属广告、履约费用和资金占用。\",\n          \"anchors\": [\n            {\n              \"card\": \"R0b427d7dd7fe\",\n              \"field\": \"claim\"\n            },\n            {\n              \"card\": \"R0b427d7dd7fe\",\n              \"field\": \"evidence\"\n            },\n            {\n              \"card\": \"R0b427d7dd7fe\",\n              \"field\": \"mechanism\"\n            },\n            {\n              \"card\": \"R0b427d7dd7fe\",\n              \"field\": \"alternative\"\n            },\n            {\n              \"card\": \"R0b427d7dd7fe\",\n              \"field\": \"variables\"\n            },\n            {\n              \"card\": \"R0b427d7dd7fe\",\n              \"field\": \"invalidate\"\n            },\n            {\n              \"card\": \"R0b427d7dd7fe\",\n              \"field\": \"gap\"\n            }\n          ]\n        }\n      ]\n    },\n    {\n      \"title\": \"未来收入和现金取决于哪些经营环节？\",\n      \"paragraphs\": [\n        {\n          \"text\": \"收入从同SKU净价与销量出发，分别计入渠道折扣与费用。青菜头采购和腌制库存经过加工、销售、授信到回款；新基地则经过建设、投产、利用率提升到现金回收。各环节的时间由本公司资料确定。\",\n          \"anchors\": [\n            {\n              \"card\": \"R48ccbb2a4ad6\",\n              \"field\": \"claim\"\n            },\n            {\n              \"card\": \"R48ccbb2a4ad6\",\n              \"field\": \"evidence\"\n            },\n            {\n              \"card\": \"R48ccbb2a4ad6\",\n              \"field\": \"mechanism\"\n            },\n            {\n              \"card\": \"R48ccbb2a4ad6\",\n              \"field\": \"alternative\"\n            },\n            {\n              \"card\": \"R48ccbb2a4ad6\",\n              \"field\": \"variables\"\n            },\n            {\n              \"card\": \"R48ccbb2a4ad6\",\n              \"field\": \"invalidate\"\n            },\n            {\n              \"card\": \"R48ccbb2a4ad6\",\n              \"field\": \"gap\"\n            }\n          ]\n        },\n        {\n          \"text\": \"后续两个定期报告优先观察经销库存天数、渠道净费用率、基地利用率、库存龄和回款。这个窗口用于跟踪研究命题，基地回收期仍需分期投入与爬坡数据。\",\n          \"anchors\": [\n            {\n              \"card\": \"R48ccbb2a4ad6\",\n              \"field\": \"claim\"\n            },\n            {\n              \"card\": \"R48ccbb2a4ad6\",\n              \"field\": \"evidence\"\n            },\n            {\n              \"card\": \"R48ccbb2a4ad6\",\n              \"field\": \"mechanism\"\n            },\n            {\n              \"card\": \"R48ccbb2a4ad6\",\n              \"field\": \"alternative\"\n            },\n            {\n              \"card\": \"R48ccbb2a4ad6\",\n              \"field\": \"variables\"\n            },\n            {\n              \"card\": \"R48ccbb2a4ad6\",\n              \"field\": \"invalidate\"\n            },\n            {\n              \"card\": \"R48ccbb2a4ad6\",\n              \"field\": \"gap\"\n            }\n          ]\n        }\n      ]\n    },\n    {\n      \"title\": \"从经营改善走向价值，还缺哪些输入？\",\n      \"paragraphs\": [\n        {\n          \"text\": \"利润桥需将原料包装、营销及履约成本接到经营EBIT，分开投资与财务收益；经营现金税按同范围识别。腌制库存、经销应收和经营应付先预测余额，再计算变动，新基地CapEx与已扣D&A采用一致的资产范围。\",\n          \"anchors\": [\n            {\n              \"card\": \"R1572b24923fd\",\n              \"field\": \"claim\"\n            },\n            {\n              \"card\": \"R1572b24923fd\",\n              \"field\": \"evidence\"\n            },\n            {\n              \"card\": \"R1572b24923fd\",\n              \"field\": \"mechanism\"\n            },\n            {\n              \"card\": \"R1572b24923fd\",\n              \"field\": \"alternative\"\n            },\n            {\n              \"card\": \"R1572b24923fd\",\n              \"field\": \"variables\"\n            },\n            {\n              \"card\": \"R1572b24923fd\",\n              \"field\": \"invalidate\"\n            },\n            {\n              \"card\": \"R1572b24923fd\",\n              \"field\": \"gap\"\n            }\n          ]\n        },\n        {\n          \"text\": \"目前缺同SKU净价及促销、终端销量、经销库存、渠道专属费用与授信、新基地分期投入和利用率、同范围现金所得税。这些缺口分别阻止渠道净贡献、新增资本回报和现金流预测；正式估值还需要经营资本范围、现金流索取权及同日风险与价格输入。原数定位从B07批次和source-field-map进入。\",\n          \"anchors\": [\n            {\n              \"card\": \"R1572b24923fd\",\n              \"field\": \"claim\"\n            },\n            {\n              \"card\": \"R1572b24923fd\",\n              \"field\": \"evidence\"\n            },\n            {\n              \"card\": \"R1572b24923fd\",\n              \"field\": \"mechanism\"\n            },\n            {\n              \"card\": \"R1572b24923fd\",\n              \"field\": \"alternative\"\n            },\n            {\n              \"card\": \"R1572b24923fd\",\n              \"field\": \"variables\"\n            },\n            {\n              \"card\": \"R1572b24923fd\",\n              \"field\": \"invalidate\"\n            },\n            {\n              \"card\": \"R1572b24923fd\",\n              \"field\": \"gap\"\n            }\n          ]\n        }\n      ]\n    }\n  ],\n  \"source_cards\": {\n    \"R3a8ec12bc38f\": \"b2c22eca8e6659d1cae6f4a14f7d41c213eeb66bcd1ea7e63ff0bc21fa8ecdc3\",\n    \"R09e06cc7c1a8\": \"10688bbc4e9f06915e412b8f80645d6d7ab5fee410c975ed0866803eb35700f6\",\n    \"R0b427d7dd7fe\": \"6e2d11f60d28bac78d60f7709ff1f40456f87d75645c7cad6e609ea84e818273\",\n    \"R48ccbb2a4ad6\": \"937bab55f96a97a4810dda169975a883da617684e6930fe770fb64e355a7884d\",\n    \"R1572b24923fd\": \"70762eed47310a6c145c1c068a60a65b4ebf7d3970c35a4078b5e41f3065e07c\",\n    \"R8bff8d9f729a\": \"14add837442794f72984b2a72ec44475774c713558ca8197391448e1b9e57dd7\",\n    \"R8c5f7065f343\": \"e22f166c3a1d96cf2700a689ead779e5af36d5a7cd067f6861d657a6efdf3b8e\",\n    \"R69074d027896\": \"08942ef05bccf89f633b93e8a2c25d5919832ead36651d160c0e1e89a98516f1\"\n  },\n  \"saved_at\": \"2026-11-12T04:30:53.075154+00:00\",\n  \"saved_by\": \"Agent/test-or-api\",\n  \"actual_user_review\": null\n}\n"
+  }
+}

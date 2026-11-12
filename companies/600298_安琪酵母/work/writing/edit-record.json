@@ -1,0 +1,651 @@
+{
+  "at": "2026-11-12T04:41:52.273599+00:00",
+  "company": "600298_安琪酵母",
+  "structure_decision": "存在结构缺陷：8主线逐项打印相同机制、竞争解释、变量和缺口；卡片保持，阅读版按公司投资问题合并为6节",
+  "repetition_diagnosis": {
+    "mechanism": 7,
+    "alternative": 7,
+    "variables": 7,
+    "gap": 7,
+    "action_needed": 7
+  },
+  "old_report": "outputs\\research-report\\v6-Oe5cba07024f0\\report.md",
+  "old_sha256": "f86be65a52ad52f8392d7e8cd773018ce8a60f0161e1cdc6da6f2c63850f5fe7",
+  "new_report": "outputs\\research-report\\v8-O58646fce0ace\\report.md",
+  "new_sha256": "a96e1c62c7a4afca7a3ab3c0f00067bb77bbd88ec79f0d6512b4534e79aef063",
+  "spans": [
+    {
+      "new_span": "1.1",
+      "question": "扩张加快，现金回报如何跟上？",
+      "anchors": [
+        {
+          "card": "R6911ffac3797",
+          "field": "claim"
+        },
+        {
+          "card": "R6911ffac3797",
+          "field": "evidence"
+        },
+        {
+          "card": "R6911ffac3797",
+          "field": "mechanism"
+        },
+        {
+          "card": "R6911ffac3797",
+          "field": "alternative"
+        },
+        {
+          "card": "R6911ffac3797",
+          "field": "variables"
+        },
+        {
+          "card": "R6911ffac3797",
+          "field": "invalidate"
+        },
+        {
+          "card": "R6911ffac3797",
+          "field": "gap"
+        }
+      ],
+      "operation": "merge/route/rephrase",
+      "reason": "该编辑单元原有字段跨节重复；按本问题保留判断与实质条件，将来源和状态集中到附录",
+      "after": "应用拓展和海外产能扩张是研究主线，2026年收入、利润与现金的分化则把新增资本回报推到前面。扩张所需投入能否回收，要沿着各工厂的建设、爬坡、销售和回款追踪。",
+      "protected_numbers": [
+        "2026"
+      ],
+      "numeric_anchor_check": true,
+      "modality_review": "Agent逐段回读：推测/竞争解释仍按假设呈现；口径、否定条件和时间范围保留",
+      "actual_user_review": null
+    },
+    {
+      "new_span": "2.1",
+      "question": "客户购买什么，生产怎样接到订单？",
+      "anchors": [
+        {
+          "card": "Re0aacfad8631",
+          "field": "claim"
+        },
+        {
+          "card": "Re0aacfad8631",
+          "field": "evidence"
+        },
+        {
+          "card": "Re0aacfad8631",
+          "field": "mechanism"
+        },
+        {
+          "card": "Re0aacfad8631",
+          "field": "alternative"
+        },
+        {
+          "card": "Re0aacfad8631",
+          "field": "variables"
+        },
+        {
+          "card": "Re0aacfad8631",
+          "field": "invalidate"
+        },
+        {
+          "card": "Re0aacfad8631",
+          "field": "gap"
+        }
+      ],
+      "operation": "merge/route/rephrase",
+      "reason": "该编辑单元原有字段跨节重复；按本问题保留判断与实质条件，将来源和状态集中到附录",
+      "after": "酵母、酵母抽提物及相关生物产品服务烘焙、食品调味、发酵工业和营养等客户。2025年报物理9—10页披露，常规品依据库存和需求生产，非常规品按订单生产，经销、大客户直供及电商连接客户。",
+      "protected_numbers": [
+        "2025",
+        "9",
+        "10"
+      ],
+      "numeric_anchor_check": true,
+      "modality_review": "Agent逐段回读：推测/竞争解释仍按假设呈现；口径、否定条件和时间范围保留",
+      "actual_user_review": null
+    },
+    {
+      "new_span": "2.2",
+      "question": "客户购买什么，生产怎样接到订单？",
+      "anchors": [
+        {
+          "card": "Re0aacfad8631",
+          "field": "claim"
+        },
+        {
+          "card": "Re0aacfad8631",
+          "field": "evidence"
+        },
+        {
+          "card": "Re0aacfad8631",
+          "field": "mechanism"
+        },
+        {
+          "card": "Re0aacfad8631",
+          "field": "alternative"
+        },
+        {
+          "card": "Re0aacfad8631",
+          "field": "variables"
+        },
+        {
+          "card": "Re0aacfad8631",
+          "field": "invalidate"
+        },
+        {
+          "card": "Re0aacfad8631",
+          "field": "gap"
+        }
+      ],
+      "operation": "merge/route/rephrase",
+      "reason": "该编辑单元原有字段跨节重复；按本问题保留判断与实质条件，将来源和状态集中到附录",
+      "after": "糖蜜、能源、应用技术服务和产能爬坡影响成本与现金。合并范围还包括包材、制糖和融资租赁，酵母业务的回报分析需要对应的利润、资本与现金分表。",
+      "protected_numbers": [],
+      "numeric_anchor_check": true,
+      "modality_review": "Agent逐段回读：推测/竞争解释仍按假设呈现；口径、否定条件和时间范围保留",
+      "actual_user_review": null
+    },
+    {
+      "new_span": "3.1",
+      "question": "增长加快，利润和现金为何落后？",
+      "anchors": [
+        {
+          "card": "Rc307bcec6202",
+          "field": "claim"
+        },
+        {
+          "card": "Rc307bcec6202",
+          "field": "evidence"
+        },
+        {
+          "card": "Rc307bcec6202",
+          "field": "mechanism"
+        },
+        {
+          "card": "Rc307bcec6202",
+          "field": "alternative"
+        },
+        {
+          "card": "Rc307bcec6202",
+          "field": "variables"
+        },
+        {
+          "card": "Rc307bcec6202",
+          "field": "invalidate"
+        },
+        {
+          "card": "Rc307bcec6202",
+          "field": "gap"
+        }
+      ],
+      "operation": "merge/route/rephrase",
+      "reason": "该编辑单元原有字段跨节重复；按本问题保留判断与实质条件，将来源和状态集中到附录",
+      "after": "2025收入+10.08%、归母+16.60%、CFO+50.19%；2026前三季收入+15.45%、归母仅+4.90%、CFO-22.8%，Q3归母-8.46%。这组分化使销量净价、原料能源、汇率与资金占用需要分别解释。",
+      "protected_numbers": [
+        "2025",
+        "+10.08%",
+        "+16.60%",
+        "+50.19%",
+        "2026",
+        "+15.45%",
+        "+4.90%",
+        "-22.8%",
+        "3",
+        "-8.46%"
+      ],
+      "numeric_anchor_check": true,
+      "modality_review": "Agent逐段回读：推测/竞争解释仍按假设呈现；口径、否定条件和时间范围保留",
+      "actual_user_review": null
+    },
+    {
+      "new_span": "3.2",
+      "question": "增长加快，利润和现金为何落后？",
+      "anchors": [
+        {
+          "card": "Rc307bcec6202",
+          "field": "claim"
+        },
+        {
+          "card": "Rc307bcec6202",
+          "field": "evidence"
+        },
+        {
+          "card": "Rc307bcec6202",
+          "field": "mechanism"
+        },
+        {
+          "card": "Rc307bcec6202",
+          "field": "alternative"
+        },
+        {
+          "card": "Rc307bcec6202",
+          "field": "variables"
+        },
+        {
+          "card": "Rc307bcec6202",
+          "field": "invalidate"
+        },
+        {
+          "card": "Rc307bcec6202",
+          "field": "gap"
+        }
+      ],
+      "operation": "merge/route/rephrase",
+      "reason": "该编辑单元原有字段跨节重复；按本问题保留判断与实质条件，将来源和状态集中到附录",
+      "after": "2026H1收入+16.30%、归母+10.21%、CFO-23.79%。前三季收入快于利润、现金承压的表现，需要从应收、库存和现金税、结算时点入手，再与资本支出研究衔接。",
+      "protected_numbers": [
+        "2026",
+        "1",
+        "+16.30%",
+        "+10.21%",
+        "-23.79%"
+      ],
+      "numeric_anchor_check": true,
+      "modality_review": "Agent逐段回读：推测/竞争解释仍按假设呈现；口径、否定条件和时间范围保留",
+      "actual_user_review": null
+    },
+    {
+      "new_span": "4.1",
+      "question": "规模效应还是扩张回报下降？",
+      "anchors": [
+        {
+          "card": "Ra9f2c23c0275",
+          "field": "claim"
+        },
+        {
+          "card": "Ra9f2c23c0275",
+          "field": "evidence"
+        },
+        {
+          "card": "Ra9f2c23c0275",
+          "field": "mechanism"
+        },
+        {
+          "card": "Ra9f2c23c0275",
+          "field": "alternative"
+        },
+        {
+          "card": "Ra9f2c23c0275",
+          "field": "variables"
+        },
+        {
+          "card": "Ra9f2c23c0275",
+          "field": "invalidate"
+        },
+        {
+          "card": "Ra9f2c23c0275",
+          "field": "gap"
+        }
+      ],
+      "operation": "merge/route/rephrase",
+      "reason": "该编辑单元原有字段跨节重复；按本问题保留判断与实质条件，将来源和状态集中到附录",
+      "after": "积极解释是应用技术和海外本地化带来规模、成本优势，现金下降主要来自可回收的扩张占用。竞争解释是扩产速度、原料能源与价格竞争压低新增回报，汇兑、补助及租赁混合范围掩盖主业表现。两种解释需要成熟厂与新厂的单位成本、利用率和回款资料来区分。",
+      "protected_numbers": [],
+      "numeric_anchor_check": true,
+      "modality_review": "Agent逐段回读：推测/竞争解释仍按假设呈现；口径、否定条件和时间范围保留",
+      "actual_user_review": null
+    },
+    {
+      "new_span": "4.2",
+      "question": "规模效应还是扩张回报下降？",
+      "anchors": [
+        {
+          "card": "Ra9f2c23c0275",
+          "field": "claim"
+        },
+        {
+          "card": "Ra9f2c23c0275",
+          "field": "evidence"
+        },
+        {
+          "card": "Ra9f2c23c0275",
+          "field": "mechanism"
+        },
+        {
+          "card": "Ra9f2c23c0275",
+          "field": "alternative"
+        },
+        {
+          "card": "Ra9f2c23c0275",
+          "field": "variables"
+        },
+        {
+          "card": "Ra9f2c23c0275",
+          "field": "invalidate"
+        },
+        {
+          "card": "Ra9f2c23c0275",
+          "field": "gap"
+        }
+      ],
+      "operation": "merge/route/rephrase",
+      "reason": "该编辑单元原有字段跨节重复；按本问题保留判断与实质条件，将来源和状态集中到附录",
+      "after": "新增产线达产后，同范围经营回报仍低于机会成本且现金持续落后，会收窄规模效应解释。如果现金差异来自一次性税款或结算时点，需求恶化的推断也要撤回。",
+      "protected_numbers": [],
+      "numeric_anchor_check": true,
+      "modality_review": "Agent逐段回读：推测/竞争解释仍按假设呈现；口径、否定条件和时间范围保留",
+      "actual_user_review": null
+    },
+    {
+      "new_span": "5.1",
+      "question": "从投产到回款，预测需要保留哪些时滞？",
+      "anchors": [
+        {
+          "card": "R29373d7bc0f1",
+          "field": "claim"
+        },
+        {
+          "card": "R29373d7bc0f1",
+          "field": "evidence"
+        },
+        {
+          "card": "R29373d7bc0f1",
+          "field": "mechanism"
+        },
+        {
+          "card": "R29373d7bc0f1",
+          "field": "alternative"
+        },
+        {
+          "card": "R29373d7bc0f1",
+          "field": "variables"
+        },
+        {
+          "card": "R29373d7bc0f1",
+          "field": "invalidate"
+        },
+        {
+          "card": "R29373d7bc0f1",
+          "field": "gap"
+        }
+      ],
+      "operation": "merge/route/rephrase",
+      "reason": "该编辑单元原有字段跨节重复；按本问题保留判断与实质条件，将来源和状态集中到附录",
+      "after": "可用产能、利用率和良率决定产出条件，再结合订单形成销量，乘以实现净价得到收入。海外建设之后还有菌种工艺爬坡、客户认证、销售和回款，各笔投入支持的收益年度需要分别登记。",
+      "protected_numbers": [],
+      "numeric_anchor_check": true,
+      "modality_review": "Agent逐段回读：推测/竞争解释仍按假设呈现；口径、否定条件和时间范围保留",
+      "actual_user_review": null
+    },
+    {
+      "new_span": "5.2",
+      "question": "从投产到回款，预测需要保留哪些时滞？",
+      "anchors": [
+        {
+          "card": "R29373d7bc0f1",
+          "field": "claim"
+        },
+        {
+          "card": "R29373d7bc0f1",
+          "field": "evidence"
+        },
+        {
+          "card": "R29373d7bc0f1",
+          "field": "mechanism"
+        },
+        {
+          "card": "R29373d7bc0f1",
+          "field": "alternative"
+        },
+        {
+          "card": "R29373d7bc0f1",
+          "field": "variables"
+        },
+        {
+          "card": "R29373d7bc0f1",
+          "field": "invalidate"
+        },
+        {
+          "card": "R29373d7bc0f1",
+          "field": "gap"
+        }
+      ],
+      "operation": "merge/route/rephrase",
+      "reason": "该编辑单元原有字段跨节重复；按本问题保留判断与实质条件，将来源和状态集中到附录",
+      "after": "分厂、分应用补齐销量净价、糖蜜和能源采购、产能与利用率；将当地币经营变化与汇率换算分开。新厂投产后的首个完整年度是一个回报观察点，同期利润与资本增量则需另外拆出存量业务贡献。",
+      "protected_numbers": [],
+      "numeric_anchor_check": true,
+      "modality_review": "Agent逐段回读：推测/竞争解释仍按假设呈现；口径、否定条件和时间范围保留",
+      "actual_user_review": null
+    },
+    {
+      "new_span": "6.1",
+      "question": "利润、资本、现金还缺怎样的桥？",
+      "anchors": [
+        {
+          "card": "R2660b3bfa732",
+          "field": "claim"
+        },
+        {
+          "card": "R2660b3bfa732",
+          "field": "evidence"
+        },
+        {
+          "card": "R2660b3bfa732",
+          "field": "mechanism"
+        },
+        {
+          "card": "R2660b3bfa732",
+          "field": "alternative"
+        },
+        {
+          "card": "R2660b3bfa732",
+          "field": "variables"
+        },
+        {
+          "card": "R2660b3bfa732",
+          "field": "invalidate"
+        },
+        {
+          "card": "R2660b3bfa732",
+          "field": "gap"
+        }
+      ],
+      "operation": "merge/route/rephrase",
+      "reason": "该编辑单元原有字段跨节重复；按本问题保留判断与实质条件，将来源和状态集中到附录",
+      "after": "经营EBIT沿应用和地区收入扣除同范围经营成本，融资租赁与包材业务分别识别。NCWC按币种及经营资金性质桥接期初期末余额，资本变化另列汇兑、合并变动与重分类。",
+      "protected_numbers": [],
+      "numeric_anchor_check": true,
+      "modality_review": "Agent逐段回读：推测/竞争解释仍按假设呈现；口径、否定条件和时间范围保留",
+      "actual_user_review": null
+    },
+    {
+      "new_span": "6.2",
+      "question": "利润、资本、现金还缺怎样的桥？",
+      "anchors": [
+        {
+          "card": "R2660b3bfa732",
+          "field": "claim"
+        },
+        {
+          "card": "R2660b3bfa732",
+          "field": "evidence"
+        },
+        {
+          "card": "R2660b3bfa732",
+          "field": "mechanism"
+        },
+        {
+          "card": "R2660b3bfa732",
+          "field": "alternative"
+        },
+        {
+          "card": "R2660b3bfa732",
+          "field": "variables"
+        },
+        {
+          "card": "R2660b3bfa732",
+          "field": "invalidate"
+        },
+        {
+          "card": "R2660b3bfa732",
+          "field": "gap"
+        }
+      ],
+      "operation": "merge/route/rephrase",
+      "reason": "该编辑单元原有字段跨节重复；按本问题保留判断与实质条件，将来源和状态集中到附录",
+      "after": "目前缺建设和爬坡投入对应的收益队列、经营与融资租赁现金分表、现金税及营运税款余额，资本也缺可靠的业务分配依据。这些缺口阻止完整主业现金流与新增回报测算；正式估值还需现金流索取权和同日风险、价格输入。",
+      "protected_numbers": [],
+      "numeric_anchor_check": true,
+      "modality_review": "Agent逐段回读：推测/竞争解释仍按假设呈现；口径、否定条件和时间范围保留",
+      "actual_user_review": null
+    }
+  ],
+  "content_lock": {
+    "tool": {
+      "name": "academic-content-lock",
+      "version": "1.0.0",
+      "semantic_equivalence": false
+    },
+    "status": "fail",
+    "summary": {
+      "high_risk_categories": 1,
+      "warning_categories": 2
+    },
+    "review": {
+      "numbers": {
+        "before_count": 166,
+        "after_count": 52,
+        "removed_unique": [
+          "0",
+          "00",
+          "10.08%",
+          "11",
+          "15.45%",
+          "16.60%",
+          "22.8%",
+          "31.494139",
+          "4.90%",
+          "50.19%",
+          "58",
+          "600298",
+          "8.46%"
+        ],
+        "added_unique": [
+          "03",
+          "08",
+          "10",
+          "10.21%",
+          "16.30%",
+          "2026",
+          "23.79%"
+        ]
+      },
+      "citations": {
+        "before_count": 0,
+        "after_count": 0,
+        "removed_unique": [],
+        "added_unique": []
+      },
+      "identifiers": {
+        "before_count": 0,
+        "after_count": 0,
+        "removed_unique": [],
+        "added_unique": []
+      },
+      "protected_spans": {
+        "before_count": 0,
+        "after_count": 0,
+        "removed_unique": [],
+        "added_unique": []
+      },
+      "terms": {
+        "before_count": 0,
+        "after_count": 0,
+        "removed_unique": [],
+        "added_unique": []
+      },
+      "stance_negation": {
+        "before_count": 30,
+        "after_count": 1,
+        "removed_unique": [
+          "不",
+          "不会",
+          "不能",
+          "未"
+        ],
+        "added_unique": []
+      },
+      "stance_modality": {
+        "before_count": 10,
+        "after_count": 4,
+        "removed_unique": [
+          "可"
+        ],
+        "added_unique": [
+          "将"
+        ]
+      },
+      "stance_causal": {
+        "before_count": 0,
+        "after_count": 0,
+        "removed_unique": [],
+        "added_unique": []
+      }
+    }
+  },
+  "warning_review": "数字次数减少来自重复段合并、元数据与哈希展示变化；新正文各数字逐项在锚点中核对。立场词增减按本段假设和条件回读，未按阈值盲替换。完整来源、公式/模型参数保持原文件；研究卡未修改，完整原文在新依据JSON中。",
+  "material_issue": "部分旧风险卡使用断言式措辞而总研究定位为竞争解释；阅读稿按原有研究起点和alternative的假设范围展示，卡片原文保持，内容强度须另行审阅。",
+  "preserved_conditions": [
+    "若新增产线达产后同范围经营回报仍低于机会成本且现金持续落后，收窄规模效应解释；若现金差异由一次性税款或结算时点解释，应撤回需求恶化推断。"
+  ],
+  "new_human_review": null,
+  "template_candidates": [
+    {
+      "text": "主张及范围：解释/假设：收入扩张有基础，但2026现金与利润增速分化使新增资本回报成为核心约束，不能仅用海外销量或合并利润增长作结论。",
+      "decision": "改按问题成段；底稿字段保留在依据JSON"
+    },
+    {
+      "text": "来源数据与计算：2025年报 600298-a14b53fefcfc0356 PDF物理6页；2026最新更新 600298-5c763f656754f15e PDF物理1页。B07-annual与B07-Q3均为机器候选，Fact=0。2025收入+10.08%、归母+16.60%、CFO+50.19%；2026前三季收入+15.45%、归母仅+4.90%、CFO-22.8%，Q3归母-8.46%。候选趋势支持进一步拆解，尚非机制事实。",
+      "decision": "逐处回读，重复状态移入附录，实质限制在正文具体化"
+    },
+    {
+      "text": "机制：应用/地区销量×实现净价→收入→糖蜜能源、运输与汇率→经营EBIT；融资租赁和包材等另列业务边界，不能按收入比例猜资本。海外建设→投产→菌种工艺爬坡→认证销售→回款。NCWC币种和合并变动独立桥接，资本账面变化剔除汇兑/重分类。",
+      "decision": "逐处回读，重复状态移入附录，实质限制在正文具体化"
+    },
+    {
+      "text": "反方：2025收入+10.08%、归母+16.60%、CFO+50.19%；2026前三季收入+15.45%、归母仅+4.90%、CFO-22.8%，Q3归母-8.46%。候选趋势支持进一步拆解，尚非机制事实。",
+      "decision": "逐处回读，重复状态移入附录，实质限制在正文具体化"
+    },
+    {
+      "text": "主张及范围：酵母、酵母抽提物及相关生物产品面向烘焙、食品调味、发酵工业、营养等客户。年报9—10物理页说明常规品按库存与需求生产，非常规品按订单，销售由经销、大客户直供、电商组成。原料糖蜜等发酵投入、能源、产能爬坡、应用技术服务和回款决定现金；合并范围亦含包材、制糖与融资租赁，不能直接把合并ROIC命名为酵母业务回报。",
+      "decision": "改按问题成段；底稿字段保留在依据JSON"
+    },
+    {
+      "text": "主张及范围：研究假设，尚未确认护城河。产品应用和海外规模效应持续改善经营利润，现金下降只是营运投入时点。",
+      "decision": "改按问题成段；底稿字段保留在依据JSON"
+    },
+    {
+      "text": "主张及范围：2025收入+10.08%、归母+16.60%、CFO+50.19%；2026前三季收入+15.45%、归母仅+4.90%、CFO-22.8%，Q3归母-8.46%。候选趋势支持进一步拆解，尚非机制事实。",
+      "decision": "改按问题成段；底稿字段保留在依据JSON"
+    },
+    {
+      "text": "主张及范围：可用产能×利用率×良率→销量和客户订单→实现价/糖蜜能源成本→应收库存→回款；海外建设、菌种发酵爬坡与认证有时滞。",
+      "decision": "改按问题成段；底稿字段保留在依据JSON"
+    },
+    {
+      "text": "主张及范围：不能给正式估值：尚缺经核对历史桥、经营资本范围、再投资、现金流索取权和同日风险/价格输入。",
+      "decision": "改按问题成段；底稿字段保留在依据JSON"
+    },
+    {
+      "text": "主张及范围：扩产和价格竞争吞噬回报，汇率、租赁与补助等混合范围掩盖主业盈利质量。",
+      "decision": "改按问题成段；底稿字段保留在依据JSON"
+    },
+    {
+      "text": "主张及范围：仅为候选证据支持的研究起点，不是完整投资报告、目标价或买卖建议。",
+      "decision": "改按问题成段；底稿字段保留在依据JSON"
+    },
+    {
+      "text": "本次未发现未解决研究卡影响；不等于数据已核准。",
+      "decision": "逐处回读，重复状态移入附录，实质限制在正文具体化"
+    }
+  ],
+  "tool_warning_disposition": {
+    "numbers": "每个新段落的所有数值已在该段anchors原文中查得，含正负号/百分比；去重使次数减少，SHA与时间戳移入依据，不据计数判保真",
+    "terms_and_stance": "同SKU、归母/CFO、IP权利期限、研发资本化现金不变、USD、租赁归属、FDA限定适应证、拟议和解批准条件分别保留；假设仍有归属",
+    "metadata": "移除正文生成时间和哈希清单，原值保留basis.json bindings；页码与来源ID在附录可定位"
+  },
+  "editorial_correction": {
+    "before": "扩张的代价已经进入现金表现",
+    "after": "扩张加快，现金回报如何跟上？",
+    "reason": "初稿标题将扩张与现金下降的关系说得过强；改回原研究问题，不预先认定变化原因"
+  }
+}

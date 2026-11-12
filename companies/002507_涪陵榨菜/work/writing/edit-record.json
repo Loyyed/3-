@@ -1,0 +1,648 @@
+{
+  "at": "2026-11-12T04:41:52.087196+00:00",
+  "company": "002507_涪陵榨菜",
+  "structure_decision": "存在结构缺陷：8主线逐项打印相同机制、竞争解释、变量和缺口；卡片保持，阅读版按公司投资问题合并为6节",
+  "repetition_diagnosis": {
+    "mechanism": 7,
+    "alternative": 7,
+    "variables": 7,
+    "gap": 7,
+    "action_needed": 7
+  },
+  "old_report": "outputs\\research-report\\v6-Oe64dc4afe3e7\\report.md",
+  "old_sha256": "3050065bbcc53478bf1f9394a3280dfcf3a81c09e942f034149cf1e6a82a9ec7",
+  "new_report": "outputs\\research-report\\v8-O315df3a0d64f\\report.md",
+  "new_sha256": "a0fad53a48f5080fcc0e97e8c5de983030404ecb102c9207edfd9fbf1e08f70d",
+  "spans": [
+    {
+      "new_span": "1.1",
+      "question": "销量和渠道改善要兑现到利润",
+      "anchors": [
+        {
+          "card": "R3a8ec12bc38f",
+          "field": "claim"
+        },
+        {
+          "card": "R3a8ec12bc38f",
+          "field": "evidence"
+        },
+        {
+          "card": "R3a8ec12bc38f",
+          "field": "mechanism"
+        },
+        {
+          "card": "R3a8ec12bc38f",
+          "field": "alternative"
+        },
+        {
+          "card": "R3a8ec12bc38f",
+          "field": "variables"
+        },
+        {
+          "card": "R3a8ec12bc38f",
+          "field": "invalidate"
+        },
+        {
+          "card": "R3a8ec12bc38f",
+          "field": "gap"
+        }
+      ],
+      "operation": "merge/route/rephrase",
+      "reason": "该编辑单元原有字段跨节重复；按本问题保留判断与实质条件，将来源和状态集中到附录",
+      "after": "收入温和恢复尚未转化为利润改善。当前研究的重点是渠道、产品组合与投入效率：终端需求改善能带来多少收入，营销、履约和基地投入又需要付出多少代价。",
+      "protected_numbers": [],
+      "numeric_anchor_check": true,
+      "modality_review": "Agent逐段回读：推测/竞争解释仍按假设呈现；口径、否定条件和时间范围保留",
+      "actual_user_review": null
+    },
+    {
+      "new_span": "2.1",
+      "question": "经销模式把终端需求传到哪里？",
+      "anchors": [
+        {
+          "card": "R09e06cc7c1a8",
+          "field": "claim"
+        },
+        {
+          "card": "R09e06cc7c1a8",
+          "field": "evidence"
+        },
+        {
+          "card": "R09e06cc7c1a8",
+          "field": "mechanism"
+        },
+        {
+          "card": "R09e06cc7c1a8",
+          "field": "alternative"
+        },
+        {
+          "card": "R09e06cc7c1a8",
+          "field": "variables"
+        },
+        {
+          "card": "R09e06cc7c1a8",
+          "field": "invalidate"
+        },
+        {
+          "card": "R09e06cc7c1a8",
+          "field": "gap"
+        }
+      ],
+      "operation": "merge/route/rephrase",
+      "reason": "该编辑单元原有字段跨节重复；按本问题保留判断与实质条件，将来源和状态集中到附录",
+      "after": "公司以榨菜、下饭菜、泡菜及酱类等佐餐产品满足家庭与餐饮需求。2025年报物理14页披露经销为主、电商补充；订单经过生产与交付形成收入，终端动销和经销库存还需要另一组观察。",
+      "protected_numbers": [
+        "2025",
+        "14"
+      ],
+      "numeric_anchor_check": true,
+      "modality_review": "Agent逐段回读：推测/竞争解释仍按假设呈现；口径、否定条件和时间范围保留",
+      "actual_user_review": null
+    },
+    {
+      "new_span": "2.2",
+      "question": "经销模式把终端需求传到哪里？",
+      "anchors": [
+        {
+          "card": "R09e06cc7c1a8",
+          "field": "claim"
+        },
+        {
+          "card": "R09e06cc7c1a8",
+          "field": "evidence"
+        },
+        {
+          "card": "R09e06cc7c1a8",
+          "field": "mechanism"
+        },
+        {
+          "card": "R09e06cc7c1a8",
+          "field": "alternative"
+        },
+        {
+          "card": "R09e06cc7c1a8",
+          "field": "variables"
+        },
+        {
+          "card": "R09e06cc7c1a8",
+          "field": "invalidate"
+        },
+        {
+          "card": "R09e06cc7c1a8",
+          "field": "gap"
+        }
+      ],
+      "operation": "merge/route/rephrase",
+      "reason": "该编辑单元原有字段跨节重复；按本问题保留判断与实质条件，将来源和状态集中到附录",
+      "after": "青菜头采购、腌制加工、包装、渠道和品牌费用，以及基地建设，共同决定一笔销售最终留下的利润和现金。收入恢复的质量取决于实际净价、产品组合及回款，固定SKU提价仍缺同口径价格资料。",
+      "protected_numbers": [],
+      "numeric_anchor_check": true,
+      "modality_review": "Agent逐段回读：推测/竞争解释仍按假设呈现；口径、否定条件和时间范围保留",
+      "actual_user_review": null
+    },
+    {
+      "new_span": "3.1",
+      "question": "收入、利润与现金呈现怎样的分化？",
+      "anchors": [
+        {
+          "card": "R69074d027896",
+          "field": "claim"
+        },
+        {
+          "card": "R69074d027896",
+          "field": "evidence"
+        },
+        {
+          "card": "R69074d027896",
+          "field": "mechanism"
+        },
+        {
+          "card": "R69074d027896",
+          "field": "alternative"
+        },
+        {
+          "card": "R69074d027896",
+          "field": "variables"
+        },
+        {
+          "card": "R69074d027896",
+          "field": "invalidate"
+        },
+        {
+          "card": "R69074d027896",
+          "field": "gap"
+        }
+      ],
+      "operation": "merge/route/rephrase",
+      "reason": "该编辑单元原有字段跨节重复；按本问题保留判断与实质条件，将来源和状态集中到附录",
+      "after": "2025收入同比+1.88%，归母净利-3.92%、CFO-19.55%；2026前三季收入+3.45%，归母-8.78%，单季归母-11.79%。收入与利润的分化延续，费用、产品组合及投入效率是需要拆开的解释。",
+      "protected_numbers": [
+        "2025",
+        "+1.88%",
+        "-3.92%",
+        "-19.55%",
+        "2026",
+        "+3.45%",
+        "-8.78%",
+        "-11.79%"
+      ],
+      "numeric_anchor_check": true,
+      "modality_review": "Agent逐段回读：推测/竞争解释仍按假设呈现；口径、否定条件和时间范围保留",
+      "actual_user_review": null
+    },
+    {
+      "new_span": "3.2",
+      "question": "收入、利润与现金呈现怎样的分化？",
+      "anchors": [
+        {
+          "card": "R69074d027896",
+          "field": "claim"
+        },
+        {
+          "card": "R69074d027896",
+          "field": "evidence"
+        },
+        {
+          "card": "R69074d027896",
+          "field": "mechanism"
+        },
+        {
+          "card": "R69074d027896",
+          "field": "alternative"
+        },
+        {
+          "card": "R69074d027896",
+          "field": "variables"
+        },
+        {
+          "card": "R69074d027896",
+          "field": "invalidate"
+        },
+        {
+          "card": "R69074d027896",
+          "field": "gap"
+        }
+      ],
+      "operation": "merge/route/rephrase",
+      "reason": "该编辑单元原有字段跨节重复；按本问题保留判断与实质条件，将来源和状态集中到附录",
+      "after": "2026H1收入+4.02%、归母-7.19%、CFO+195.21%。这段现金改善还需用应收、库存与经营应付余额桥接，才能区分回款、结算时点和需求变化。",
+      "protected_numbers": [
+        "2026",
+        "1",
+        "+4.02%",
+        "-7.19%",
+        "+195.21%"
+      ],
+      "numeric_anchor_check": true,
+      "modality_review": "Agent逐段回读：推测/竞争解释仍按假设呈现；口径、否定条件和时间范围保留",
+      "actual_user_review": null
+    },
+    {
+      "new_span": "4.1",
+      "question": "渠道效率改善与铺货扩张，怎样区分？",
+      "anchors": [
+        {
+          "card": "R0b427d7dd7fe",
+          "field": "claim"
+        },
+        {
+          "card": "R0b427d7dd7fe",
+          "field": "evidence"
+        },
+        {
+          "card": "R0b427d7dd7fe",
+          "field": "mechanism"
+        },
+        {
+          "card": "R0b427d7dd7fe",
+          "field": "alternative"
+        },
+        {
+          "card": "R0b427d7dd7fe",
+          "field": "variables"
+        },
+        {
+          "card": "R0b427d7dd7fe",
+          "field": "invalidate"
+        },
+        {
+          "card": "R0b427d7dd7fe",
+          "field": "gap"
+        }
+      ],
+      "operation": "merge/route/rephrase",
+      "reason": "该编辑单元原有字段跨节重复；按本问题保留判断与实质条件，将来源和状态集中到附录",
+      "after": "一种解释是真实消费和渠道效率恢复，先行营销与新基地投入可在爬坡后回收。另一种解释是铺货授信或组合迁移带来收入增长，费用、库存和闲置基地持续压低现金回报。",
+      "protected_numbers": [],
+      "numeric_anchor_check": true,
+      "modality_review": "Agent逐段回读：推测/竞争解释仍按假设呈现；口径、否定条件和时间范围保留",
+      "actual_user_review": null
+    },
+    {
+      "new_span": "4.2",
+      "question": "渠道效率改善与铺货扩张，怎样区分？",
+      "anchors": [
+        {
+          "card": "R0b427d7dd7fe",
+          "field": "claim"
+        },
+        {
+          "card": "R0b427d7dd7fe",
+          "field": "evidence"
+        },
+        {
+          "card": "R0b427d7dd7fe",
+          "field": "mechanism"
+        },
+        {
+          "card": "R0b427d7dd7fe",
+          "field": "alternative"
+        },
+        {
+          "card": "R0b427d7dd7fe",
+          "field": "variables"
+        },
+        {
+          "card": "R0b427d7dd7fe",
+          "field": "invalidate"
+        },
+        {
+          "card": "R0b427d7dd7fe",
+          "field": "gap"
+        }
+      ],
+      "operation": "merge/route/rephrase",
+      "reason": "该编辑单元原有字段跨节重复；按本问题保留判断与实质条件，将来源和状态集中到附录",
+      "after": "年底授信未收回、经销库存或退货上升且终端销量不改善，会推翻渠道效率改善的解释。同SKU净价未变而产品权重变化时，收入变化应转向组合解释。渠道的净贡献还要扣除专属广告、履约费用和资金占用。",
+      "protected_numbers": [],
+      "numeric_anchor_check": true,
+      "modality_review": "Agent逐段回读：推测/竞争解释仍按假设呈现；口径、否定条件和时间范围保留",
+      "actual_user_review": null
+    },
+    {
+      "new_span": "5.1",
+      "question": "未来收入和现金取决于哪些经营环节？",
+      "anchors": [
+        {
+          "card": "R48ccbb2a4ad6",
+          "field": "claim"
+        },
+        {
+          "card": "R48ccbb2a4ad6",
+          "field": "evidence"
+        },
+        {
+          "card": "R48ccbb2a4ad6",
+          "field": "mechanism"
+        },
+        {
+          "card": "R48ccbb2a4ad6",
+          "field": "alternative"
+        },
+        {
+          "card": "R48ccbb2a4ad6",
+          "field": "variables"
+        },
+        {
+          "card": "R48ccbb2a4ad6",
+          "field": "invalidate"
+        },
+        {
+          "card": "R48ccbb2a4ad6",
+          "field": "gap"
+        }
+      ],
+      "operation": "merge/route/rephrase",
+      "reason": "该编辑单元原有字段跨节重复；按本问题保留判断与实质条件，将来源和状态集中到附录",
+      "after": "收入从同SKU净价与销量出发，分别计入渠道折扣与费用。青菜头采购和腌制库存经过加工、销售、授信到回款；新基地则经过建设、投产、利用率提升到现金回收。各环节的时间由本公司资料确定。",
+      "protected_numbers": [],
+      "numeric_anchor_check": true,
+      "modality_review": "Agent逐段回读：推测/竞争解释仍按假设呈现；口径、否定条件和时间范围保留",
+      "actual_user_review": null
+    },
+    {
+      "new_span": "5.2",
+      "question": "未来收入和现金取决于哪些经营环节？",
+      "anchors": [
+        {
+          "card": "R48ccbb2a4ad6",
+          "field": "claim"
+        },
+        {
+          "card": "R48ccbb2a4ad6",
+          "field": "evidence"
+        },
+        {
+          "card": "R48ccbb2a4ad6",
+          "field": "mechanism"
+        },
+        {
+          "card": "R48ccbb2a4ad6",
+          "field": "alternative"
+        },
+        {
+          "card": "R48ccbb2a4ad6",
+          "field": "variables"
+        },
+        {
+          "card": "R48ccbb2a4ad6",
+          "field": "invalidate"
+        },
+        {
+          "card": "R48ccbb2a4ad6",
+          "field": "gap"
+        }
+      ],
+      "operation": "merge/route/rephrase",
+      "reason": "该编辑单元原有字段跨节重复；按本问题保留判断与实质条件，将来源和状态集中到附录",
+      "after": "后续两个定期报告优先观察经销库存天数、渠道净费用率、基地利用率、库存龄和回款。这个窗口用于跟踪研究命题，基地回收期仍需分期投入与爬坡数据。",
+      "protected_numbers": [],
+      "numeric_anchor_check": true,
+      "modality_review": "Agent逐段回读：推测/竞争解释仍按假设呈现；口径、否定条件和时间范围保留",
+      "actual_user_review": null
+    },
+    {
+      "new_span": "6.1",
+      "question": "从经营改善走向价值，还缺哪些输入？",
+      "anchors": [
+        {
+          "card": "R1572b24923fd",
+          "field": "claim"
+        },
+        {
+          "card": "R1572b24923fd",
+          "field": "evidence"
+        },
+        {
+          "card": "R1572b24923fd",
+          "field": "mechanism"
+        },
+        {
+          "card": "R1572b24923fd",
+          "field": "alternative"
+        },
+        {
+          "card": "R1572b24923fd",
+          "field": "variables"
+        },
+        {
+          "card": "R1572b24923fd",
+          "field": "invalidate"
+        },
+        {
+          "card": "R1572b24923fd",
+          "field": "gap"
+        }
+      ],
+      "operation": "merge/route/rephrase",
+      "reason": "该编辑单元原有字段跨节重复；按本问题保留判断与实质条件，将来源和状态集中到附录",
+      "after": "利润桥需将原料包装、营销及履约成本接到经营EBIT，分开投资与财务收益；经营现金税按同范围识别。腌制库存、经销应收和经营应付先预测余额，再计算变动，新基地CapEx与已扣D&A采用一致的资产范围。",
+      "protected_numbers": [],
+      "numeric_anchor_check": true,
+      "modality_review": "Agent逐段回读：推测/竞争解释仍按假设呈现；口径、否定条件和时间范围保留",
+      "actual_user_review": null
+    },
+    {
+      "new_span": "6.2",
+      "question": "从经营改善走向价值，还缺哪些输入？",
+      "anchors": [
+        {
+          "card": "R1572b24923fd",
+          "field": "claim"
+        },
+        {
+          "card": "R1572b24923fd",
+          "field": "evidence"
+        },
+        {
+          "card": "R1572b24923fd",
+          "field": "mechanism"
+        },
+        {
+          "card": "R1572b24923fd",
+          "field": "alternative"
+        },
+        {
+          "card": "R1572b24923fd",
+          "field": "variables"
+        },
+        {
+          "card": "R1572b24923fd",
+          "field": "invalidate"
+        },
+        {
+          "card": "R1572b24923fd",
+          "field": "gap"
+        }
+      ],
+      "operation": "merge/route/rephrase",
+      "reason": "该编辑单元原有字段跨节重复；按本问题保留判断与实质条件，将来源和状态集中到附录",
+      "after": "目前缺同SKU净价及促销、终端销量、经销库存、渠道专属费用与授信、新基地分期投入和利用率、同范围现金所得税。这些缺口分别阻止渠道净贡献、新增资本回报和现金流预测；正式估值还需要经营资本范围、现金流索取权及同日风险与价格输入。原数定位从B07批次和source-field-map进入。",
+      "protected_numbers": [
+        "07"
+      ],
+      "numeric_anchor_check": true,
+      "modality_review": "Agent逐段回读：推测/竞争解释仍按假设呈现；口径、否定条件和时间范围保留",
+      "actual_user_review": null
+    }
+  ],
+  "content_lock": {
+    "tool": {
+      "name": "academic-content-lock",
+      "version": "1.0.0",
+      "semantic_equivalence": false
+    },
+    "status": "fail",
+    "summary": {
+      "high_risk_categories": 1,
+      "warning_categories": 3
+    },
+    "review": {
+      "numbers": {
+        "before_count": 150,
+        "after_count": 50,
+        "removed_unique": [
+          "0",
+          "00",
+          "002507",
+          "1.88",
+          "11",
+          "11.79%",
+          "19.55%",
+          "3.45",
+          "3.92%",
+          "30.906599",
+          "5",
+          "58",
+          "8.78%"
+        ],
+        "added_unique": [
+          "03",
+          "08",
+          "1.88%",
+          "10",
+          "195.21%",
+          "2026",
+          "3.45%",
+          "4.02%",
+          "7.19%"
+        ]
+      },
+      "citations": {
+        "before_count": 0,
+        "after_count": 0,
+        "removed_unique": [],
+        "added_unique": []
+      },
+      "identifiers": {
+        "before_count": 0,
+        "after_count": 0,
+        "removed_unique": [],
+        "added_unique": []
+      },
+      "protected_spans": {
+        "before_count": 0,
+        "after_count": 0,
+        "removed_unique": [],
+        "added_unique": []
+      },
+      "terms": {
+        "before_count": 0,
+        "after_count": 0,
+        "removed_unique": [],
+        "added_unique": []
+      },
+      "stance_negation": {
+        "before_count": 99,
+        "after_count": 9,
+        "removed_unique": [
+          "不",
+          "不会",
+          "不能",
+          "未"
+        ],
+        "added_unique": []
+      },
+      "stance_modality": {
+        "before_count": 8,
+        "after_count": 2,
+        "removed_unique": [
+          "可以"
+        ],
+        "added_unique": [
+          "可",
+          "将"
+        ]
+      },
+      "stance_causal": {
+        "before_count": 8,
+        "after_count": 0,
+        "removed_unique": [
+          "造成"
+        ],
+        "added_unique": []
+      }
+    }
+  },
+  "warning_review": "数字次数减少来自重复段合并、元数据与哈希展示变化；新正文各数字逐项在锚点中核对。立场词增减按本段假设和条件回读，未按阈值盲替换。完整来源、公式/模型参数保持原文件；研究卡未修改，完整原文在新依据JSON中。",
+  "material_issue": "部分旧风险卡使用断言式措辞而总研究定位为竞争解释；阅读稿按原有研究起点和alternative的假设范围展示，卡片原文保持，内容强度须另行审阅。",
+  "preserved_conditions": [
+    "若年底授信未收回而经销库存或退货上升、终端销量不改善，则否定渠道效率改善；若同SKU净价未变而产品权重变化，撤回提价解释。"
+  ],
+  "new_human_review": null,
+  "template_candidates": [
+    {
+      "text": "主张及范围：解释/假设：收入温和恢复尚未转化为利润改善，须检验渠道、产品组合和投入效率，而非仅凭品牌标签推断提价能力。",
+      "decision": "改按问题成段；底稿字段保留在依据JSON"
+    },
+    {
+      "text": "来源数据与计算：2025年报 002507-6cd117ea1ac8beee PDF物理7页；2026最新更新 002507-d45bfdfdec6d4379 PDF物理3页。B07-annual与B07-Q3均为机器候选，Fact=0。2025收入同比+1.88%而归母净利-3.92%、CFO-19.55%；2026前三季收入+3.45%但归母-8.78%，单季归母-11.79%。这些均为未人审候选，不确认因果。",
+      "decision": "逐处回读，重复状态移入附录，实质限制在正文具体化"
+    },
+    {
+      "text": "机制：净价/销量→收入→原料包装、营销与履约→经营EBIT；投资收益与财务收益剔除；现金税排除融资效应；腌制库存与经销应收、经营应付先作余额表再差分；新基地CapEx与已扣D&A匹配，建设投产爬坡分年。渠道毛利差不能直接成为净贡献。",
+      "decision": "逐处回读，重复状态移入附录，实质限制在正文具体化"
+    },
+    {
+      "text": "主张及范围：以榨菜、下饭菜、泡菜及酱类等佐餐产品满足家庭与餐饮开味需求。年报第14物理页披露经销为主、电商补充；消费者需求经经销商订单、生产与交付转成收入，出货不等于终端动销。原料采购、腌制加工、包装、渠道与品牌费用、基地投入共同决定利润和现金。",
+      "decision": "改按问题成段；底稿字段保留在依据JSON"
+    },
+    {
+      "text": "主张及范围：研究假设，尚未确认护城河。收入改善来自真实消费与渠道效率提高，费用属有回报的先行投入。",
+      "decision": "改按问题成段；底稿字段保留在依据JSON"
+    },
+    {
+      "text": "主张及范围：2025收入同比+1.88%而归母净利-3.92%、CFO-19.55%；2026前三季收入+3.45%但归母-8.78%，单季归母-11.79%。这些均为未人审候选，不确认因果。",
+      "decision": "改按问题成段；底稿字段保留在依据JSON"
+    },
+    {
+      "text": "2026中报 002507-b901d0b919e32cba PDF物理7页：2026H1收入+4.02%、归母-7.19%、CFO+195.21%，与Q3累计收入小增、利润下降并列；现金改善不能直接归因终端需求。",
+      "decision": "逐处回读，重复状态移入附录，实质限制在正文具体化"
+    },
+    {
+      "text": "主张及范围：同SKU净价×销量、渠道折扣与费用；青菜头采购/腌制库存→加工销售→授信回款；基地建设→投产→利用率→现金回收，周期不借用茅台t−5。",
+      "decision": "改按问题成段；底稿字段保留在依据JSON"
+    },
+    {
+      "text": "主张及范围：不能给正式估值：尚缺经核对历史桥、经营资本范围、再投资、现金流索取权和同日风险/价格输入。",
+      "decision": "改按问题成段；底稿字段保留在依据JSON"
+    },
+    {
+      "text": "主张及范围：收入改善主要是授信、铺货或组合迁移，新增费用与产能回报不足。",
+      "decision": "改按问题成段；底稿字段保留在依据JSON"
+    },
+    {
+      "text": "主张及范围：仅为候选证据支持的研究起点，不是完整投资报告、目标价或买卖建议。",
+      "decision": "改按问题成段；底稿字段保留在依据JSON"
+    },
+    {
+      "text": "本次未发现未解决研究卡影响；不等于数据已核准。",
+      "decision": "逐处回读，重复状态移入附录，实质限制在正文具体化"
+    }
+  ],
+  "tool_warning_disposition": {
+    "numbers": "每个新段落的所有数值已在该段anchors原文中查得，含正负号/百分比；去重使次数减少，SHA与时间戳移入依据，不据计数判保真",
+    "terms_and_stance": "同SKU、归母/CFO、IP权利期限、研发资本化现金不变、USD、租赁归属、FDA限定适应证、拟议和解批准条件分别保留；假设仍有归属",
+    "metadata": "移除正文生成时间和哈希清单，原值保留basis.json bindings；页码与来源ID在附录可定位"
+  }
+}

@@ -1,0 +1,649 @@
+{
+  "at": "2026-11-12T04:41:52.180611+00:00",
+  "company": "09992_泡泡玛特",
+  "structure_decision": "存在结构缺陷：8主线逐项打印相同机制、竞争解释、变量和缺口；卡片保持，阅读版按公司投资问题合并为6节",
+  "repetition_diagnosis": {
+    "mechanism": 7,
+    "alternative": 7,
+    "variables": 7,
+    "gap": 7,
+    "action_needed": 7
+  },
+  "old_report": "outputs\\research-report\\v5-O94ad36e8b135\\report.md",
+  "old_sha256": "5e7e41acd10eb7831ce3524a00d7e0d56d6ad66601f9728a63513a35d6f69211",
+  "new_report": "outputs\\research-report\\v6-O75e6689bf8ba\\report.md",
+  "new_sha256": "b6c1b8f213906a442a8793f3df3e13f73c1d708ddd974bc77f17f6db5a1300bd",
+  "spans": [
+    {
+      "new_span": "1.1",
+      "question": "高增长之后，要重新检验什么？",
+      "anchors": [
+        {
+          "card": "R7d8112e87a58",
+          "field": "claim"
+        },
+        {
+          "card": "R7d8112e87a58",
+          "field": "evidence"
+        },
+        {
+          "card": "R7d8112e87a58",
+          "field": "mechanism"
+        },
+        {
+          "card": "R7d8112e87a58",
+          "field": "alternative"
+        },
+        {
+          "card": "R7d8112e87a58",
+          "field": "variables"
+        },
+        {
+          "card": "R7d8112e87a58",
+          "field": "invalidate"
+        },
+        {
+          "card": "R7d8112e87a58",
+          "field": "gap"
+        }
+      ],
+      "operation": "merge/route/rephrase",
+      "reason": "该编辑单元原有字段跨节重复；按本问题保留判断与实质条件，将来源和状态集中到附录",
+      "after": "2025年的快速增长需要结合2026Q3地区和渠道收入下降重新研究。爆款集中、复购和库存，是判断长期变现能力能否延续的关键经营问题。",
+      "protected_numbers": [
+        "2025",
+        "2026",
+        "3"
+      ],
+      "numeric_anchor_check": true,
+      "modality_review": "Agent逐段回读：推测/竞争解释仍按假设呈现；口径、否定条件和时间范围保留",
+      "actual_user_review": null
+    },
+    {
+      "new_span": "2.1",
+      "question": "IP如何变为商品收入与资金占用？",
+      "anchors": [
+        {
+          "card": "R7bfc89d395aa",
+          "field": "claim"
+        },
+        {
+          "card": "R7bfc89d395aa",
+          "field": "evidence"
+        },
+        {
+          "card": "R7bfc89d395aa",
+          "field": "mechanism"
+        },
+        {
+          "card": "R7bfc89d395aa",
+          "field": "alternative"
+        },
+        {
+          "card": "R7bfc89d395aa",
+          "field": "variables"
+        },
+        {
+          "card": "R7bfc89d395aa",
+          "field": "invalidate"
+        },
+        {
+          "card": "R7bfc89d395aa",
+          "field": "gap"
+        }
+      ],
+      "operation": "merge/route/rephrase",
+      "reason": "该编辑单元原有字段跨节重复；按本问题保留判断与实质条件，将来源和状态集中到附录",
+      "after": "公司将艺术家IP孵化、运营与设计转成手办、搪胶毛绒等产品，经全球零售和线上渠道触达消费者。2025年报物理11—12页将IP和新品运营列为增长驱动，这一归因来自管理层。",
+      "protected_numbers": [
+        "2025",
+        "11",
+        "12"
+      ],
+      "numeric_anchor_check": true,
+      "modality_review": "Agent逐段回读：推测/竞争解释仍按假设呈现；口径、否定条件和时间范围保留",
+      "actual_user_review": null
+    },
+    {
+      "new_span": "2.2",
+      "question": "IP如何变为商品收入与资金占用？",
+      "anchors": [
+        {
+          "card": "R7bfc89d395aa",
+          "field": "claim"
+        },
+        {
+          "card": "R7bfc89d395aa",
+          "field": "evidence"
+        },
+        {
+          "card": "R7bfc89d395aa",
+          "field": "mechanism"
+        },
+        {
+          "card": "R7bfc89d395aa",
+          "field": "alternative"
+        },
+        {
+          "card": "R7bfc89d395aa",
+          "field": "variables"
+        },
+        {
+          "card": "R7bfc89d395aa",
+          "field": "invalidate"
+        },
+        {
+          "card": "R7bfc89d395aa",
+          "field": "gap"
+        }
+      ],
+      "operation": "merge/route/rephrase",
+      "reason": "该编辑单元原有字段跨节重复；按本问题保留判断与实质条件，将来源和状态集中到附录",
+      "after": "IP权利安排、生产备货、店铺租赁和人力共同构成经营投入，销售回款与库存折价决定现金回收。IP、地区和渠道分别提供收入观察切面；成熟同店与新增门店则需要单独分析。",
+      "protected_numbers": [],
+      "numeric_anchor_check": true,
+      "modality_review": "Agent逐段回读：推测/竞争解释仍按假设呈现；口径、否定条件和时间范围保留",
+      "actual_user_review": null
+    },
+    {
+      "new_span": "3.1",
+      "question": "半年报与Q3更新分别披露了什么？",
+      "anchors": [
+        {
+          "card": "Rad6660d577af",
+          "field": "claim"
+        },
+        {
+          "card": "Rad6660d577af",
+          "field": "evidence"
+        },
+        {
+          "card": "Rad6660d577af",
+          "field": "mechanism"
+        },
+        {
+          "card": "Rad6660d577af",
+          "field": "alternative"
+        },
+        {
+          "card": "Rad6660d577af",
+          "field": "variables"
+        },
+        {
+          "card": "Rad6660d577af",
+          "field": "invalidate"
+        },
+        {
+          "card": "Rad6660d577af",
+          "field": "gap"
+        }
+      ],
+      "operation": "merge/route/rephrase",
+      "reason": "该编辑单元原有字段跨节重复；按本问题保留判断与实质条件，将来源和状态集中到附录",
+      "after": "2025收入371.20052亿元、毛利率72.1%。2026H1收入+23.8%、经营溢利+11.3%、归母+10.1%，毛利率69.7%低于同期70.3%。利润增速和毛利率已经给增长质量提出了具体问题。",
+      "protected_numbers": [
+        "2025",
+        "371.20052",
+        "72.1%",
+        "2026",
+        "1",
+        "+23.8%",
+        "+11.3%",
+        "+10.1%",
+        "69.7%",
+        "70.3%"
+      ],
+      "numeric_anchor_check": true,
+      "modality_review": "Agent逐段回读：推测/竞争解释仍按假设呈现；口径、否定条件和时间范围保留",
+      "actual_user_review": null
+    },
+    {
+      "new_span": "3.2",
+      "question": "半年报与Q3更新分别披露了什么？",
+      "anchors": [
+        {
+          "card": "Rad6660d577af",
+          "field": "claim"
+        },
+        {
+          "card": "Rad6660d577af",
+          "field": "evidence"
+        },
+        {
+          "card": "Rad6660d577af",
+          "field": "mechanism"
+        },
+        {
+          "card": "Rad6660d577af",
+          "field": "alternative"
+        },
+        {
+          "card": "Rad6660d577af",
+          "field": "variables"
+        },
+        {
+          "card": "Rad6660d577af",
+          "field": "invalidate"
+        },
+        {
+          "card": "Rad6660d577af",
+          "field": "gap"
+        }
+      ],
+      "operation": "merge/route/rephrase",
+      "reason": "该编辑单元原有字段跨节重复；按本问题保留判断与实质条件，将来源和状态集中到附录",
+      "after": "2026Q3官方未审经营更新称总收入同比下降45%—50%，美洲下降70%—75%、亚太下降65%—70%。本次更新披露的是收入区间，完整季度利润和现金流未披露，其降幅留空。",
+      "protected_numbers": [
+        "2026",
+        "3",
+        "45%",
+        "50%",
+        "70%",
+        "75%",
+        "65%",
+        "70%"
+      ],
+      "numeric_anchor_check": true,
+      "modality_review": "Agent逐段回读：推测/竞争解释仍按假设呈现；口径、否定条件和时间范围保留",
+      "actual_user_review": null
+    },
+    {
+      "new_span": "4.1",
+      "question": "新品节奏回落，还是需求和渠道承压？",
+      "anchors": [
+        {
+          "card": "R58b870a4ee64",
+          "field": "claim"
+        },
+        {
+          "card": "R58b870a4ee64",
+          "field": "evidence"
+        },
+        {
+          "card": "R58b870a4ee64",
+          "field": "mechanism"
+        },
+        {
+          "card": "R58b870a4ee64",
+          "field": "alternative"
+        },
+        {
+          "card": "R58b870a4ee64",
+          "field": "variables"
+        },
+        {
+          "card": "R58b870a4ee64",
+          "field": "invalidate"
+        },
+        {
+          "card": "R58b870a4ee64",
+          "field": "gap"
+        }
+      ],
+      "operation": "merge/route/rephrase",
+      "reason": "该编辑单元原有字段跨节重复；按本问题保留判断与实质条件，将来源和状态集中到附录",
+      "after": "一种解释是高基数和新品节奏造成阶段回落，IP组合接续及成熟门店仍可保持长期变现。另一种解释是爆款稀缺性消退、海外铺货透支，库存折价和租赁固定支出持续压低现金回报。",
+      "protected_numbers": [],
+      "numeric_anchor_check": true,
+      "modality_review": "Agent逐段回读：推测/竞争解释仍按假设呈现；口径、否定条件和时间范围保留",
+      "actual_user_review": null
+    },
+    {
+      "new_span": "4.2",
+      "question": "新品节奏回落，还是需求和渠道承压？",
+      "anchors": [
+        {
+          "card": "R58b870a4ee64",
+          "field": "claim"
+        },
+        {
+          "card": "R58b870a4ee64",
+          "field": "evidence"
+        },
+        {
+          "card": "R58b870a4ee64",
+          "field": "mechanism"
+        },
+        {
+          "card": "R58b870a4ee64",
+          "field": "alternative"
+        },
+        {
+          "card": "R58b870a4ee64",
+          "field": "variables"
+        },
+        {
+          "card": "R58b870a4ee64",
+          "field": "invalidate"
+        },
+        {
+          "card": "R58b870a4ee64",
+          "field": "gap"
+        }
+      ],
+      "operation": "merge/route/rephrase",
+      "reason": "该编辑单元原有字段跨节重复；按本问题保留判断与实质条件，将来源和状态集中到附录",
+      "after": "后续新品上市后，同店销售和复购仍不恢复，且折扣与库存继续上升，会推翻暂时节奏假说。若变化主要来自渠道时点移转，且合并现金稳定，结构性衰退的解释则应收窄。",
+      "protected_numbers": [],
+      "numeric_anchor_check": true,
+      "modality_review": "Agent逐段回读：推测/竞争解释仍按假设呈现；口径、否定条件和时间范围保留",
+      "actual_user_review": null
+    },
+    {
+      "new_span": "5.1",
+      "question": "现金预测需要哪些门店与IP资料？",
+      "anchors": [
+        {
+          "card": "R8c387d2da2f6",
+          "field": "claim"
+        },
+        {
+          "card": "R8c387d2da2f6",
+          "field": "evidence"
+        },
+        {
+          "card": "R8c387d2da2f6",
+          "field": "mechanism"
+        },
+        {
+          "card": "R8c387d2da2f6",
+          "field": "alternative"
+        },
+        {
+          "card": "R8c387d2da2f6",
+          "field": "variables"
+        },
+        {
+          "card": "R8c387d2da2f6",
+          "field": "invalidate"
+        },
+        {
+          "card": "R8c387d2da2f6",
+          "field": "gap"
+        }
+      ],
+      "operation": "merge/route/rephrase",
+      "reason": "该编辑单元原有字段跨节重复；按本问题保留判断与实质条件，将来源和状态集中到附录",
+      "after": "新品推出后经过备货、门店及线上销售，再形成回款或库存折价。分地区店龄、店效与成熟爬坡决定门店投入回收，IP合同期限和续约成本影响收益持续时间。",
+      "protected_numbers": [],
+      "numeric_anchor_check": true,
+      "modality_review": "Agent逐段回读：推测/竞争解释仍按假设呈现；口径、否定条件和时间范围保留",
+      "actual_user_review": null
+    },
+    {
+      "new_span": "5.2",
+      "question": "现金预测需要哪些门店与IP资料？",
+      "anchors": [
+        {
+          "card": "R8c387d2da2f6",
+          "field": "claim"
+        },
+        {
+          "card": "R8c387d2da2f6",
+          "field": "evidence"
+        },
+        {
+          "card": "R8c387d2da2f6",
+          "field": "mechanism"
+        },
+        {
+          "card": "R8c387d2da2f6",
+          "field": "alternative"
+        },
+        {
+          "card": "R8c387d2da2f6",
+          "field": "variables"
+        },
+        {
+          "card": "R8c387d2da2f6",
+          "field": "invalidate"
+        },
+        {
+          "card": "R8c387d2da2f6",
+          "field": "gap"
+        }
+      ],
+      "operation": "merge/route/rephrase",
+      "reason": "该编辑单元原有字段跨节重复；按本问题保留判断与实质条件，将来源和状态集中到附录",
+      "after": "利润桥要纳入折扣库存成本、授权分成、租赁与人工，再接经营EBIT、现金税和库存、经营应付余额变动。租赁费用、使用权资产、租赁债务及支付采用一致口径。",
+      "protected_numbers": [],
+      "numeric_anchor_check": true,
+      "modality_review": "Agent逐段回读：推测/竞争解释仍按假设呈现；口径、否定条件和时间范围保留",
+      "actual_user_review": null
+    },
+    {
+      "new_span": "6.1",
+      "question": "哪些缺口阻止现金与价值测算？",
+      "anchors": [
+        {
+          "card": "R14c10b3a792a",
+          "field": "claim"
+        },
+        {
+          "card": "R14c10b3a792a",
+          "field": "evidence"
+        },
+        {
+          "card": "R14c10b3a792a",
+          "field": "mechanism"
+        },
+        {
+          "card": "R14c10b3a792a",
+          "field": "alternative"
+        },
+        {
+          "card": "R14c10b3a792a",
+          "field": "variables"
+        },
+        {
+          "card": "R14c10b3a792a",
+          "field": "invalidate"
+        },
+        {
+          "card": "R14c10b3a792a",
+          "field": "gap"
+        }
+      ],
+      "operation": "merge/route/rephrase",
+      "reason": "该编辑单元原有字段跨节重复；按本问题保留判断与实质条件，将来源和状态集中到附录",
+      "after": "目前缺IP级复购、新品接续、分区同店和店龄店效、折扣与库存龄、合同期限与续约分成，以及租赁负债和门店维持投入。上述资料决定下滑是阶段波动还是持续回报下降，也决定稳定期能够采用多长的收益期限。",
+      "protected_numbers": [],
+      "numeric_anchor_check": true,
+      "modality_review": "Agent逐段回读：推测/竞争解释仍按假设呈现；口径、否定条件和时间范围保留",
+      "actual_user_review": null
+    },
+    {
+      "new_span": "6.2",
+      "question": "哪些缺口阻止现金与价值测算？",
+      "anchors": [
+        {
+          "card": "R14c10b3a792a",
+          "field": "claim"
+        },
+        {
+          "card": "R14c10b3a792a",
+          "field": "evidence"
+        },
+        {
+          "card": "R14c10b3a792a",
+          "field": "mechanism"
+        },
+        {
+          "card": "R14c10b3a792a",
+          "field": "alternative"
+        },
+        {
+          "card": "R14c10b3a792a",
+          "field": "variables"
+        },
+        {
+          "card": "R14c10b3a792a",
+          "field": "invalidate"
+        },
+        {
+          "card": "R14c10b3a792a",
+          "field": "gap"
+        }
+      ],
+      "operation": "merge/route/rephrase",
+      "reason": "该编辑单元原有字段跨节重复；按本问题保留判断与实质条件，将来源和状态集中到附录",
+      "after": "估值还需经营资本与再投资、现金流索取权及同日风险和价格输入。财务采用RMB口径，股票价格为HKD，两者需经同口径价值桥连接；Q3经营更新未披露的利润与现金字段继续保留缺项。",
+      "protected_numbers": [
+        "3"
+      ],
+      "numeric_anchor_check": true,
+      "modality_review": "Agent逐段回读：推测/竞争解释仍按假设呈现；口径、否定条件和时间范围保留",
+      "actual_user_review": null
+    }
+  ],
+  "content_lock": {
+    "tool": {
+      "name": "academic-content-lock",
+      "version": "1.0.0",
+      "semantic_equivalence": false
+    },
+    "status": "fail",
+    "summary": {
+      "high_risk_categories": 1,
+      "warning_categories": 3
+    },
+    "review": {
+      "numbers": {
+        "before_count": 80,
+        "after_count": 31,
+        "removed_unique": [
+          "0",
+          "00",
+          "11",
+          "31.198559",
+          "50%",
+          "58",
+          "70%",
+          "75%"
+        ],
+        "added_unique": [
+          "04",
+          "09",
+          "10",
+          "10.1%",
+          "11.3%",
+          "2025",
+          "2026",
+          "23.8%"
+        ]
+      },
+      "citations": {
+        "before_count": 0,
+        "after_count": 0,
+        "removed_unique": [],
+        "added_unique": []
+      },
+      "identifiers": {
+        "before_count": 0,
+        "after_count": 0,
+        "removed_unique": [],
+        "added_unique": []
+      },
+      "protected_spans": {
+        "before_count": 0,
+        "after_count": 0,
+        "removed_unique": [],
+        "added_unique": []
+      },
+      "terms": {
+        "before_count": 0,
+        "after_count": 0,
+        "removed_unique": [],
+        "added_unique": []
+      },
+      "stance_negation": {
+        "before_count": 91,
+        "after_count": 8,
+        "removed_unique": [
+          "不",
+          "不会",
+          "不能",
+          "未"
+        ],
+        "added_unique": []
+      },
+      "stance_modality": {
+        "before_count": 1,
+        "after_count": 3,
+        "removed_unique": [],
+        "added_unique": [
+          "将"
+        ]
+      },
+      "stance_causal": {
+        "before_count": 8,
+        "after_count": 1,
+        "removed_unique": [
+          "造成"
+        ],
+        "added_unique": []
+      }
+    }
+  },
+  "warning_review": "数字次数减少来自重复段合并、元数据与哈希展示变化；新正文各数字逐项在锚点中核对。立场词增减按本段假设和条件回读，未按阈值盲替换。完整来源、公式/模型参数保持原文件；研究卡未修改，完整原文在新依据JSON中。",
+  "material_issue": "部分旧风险卡使用断言式措辞而总研究定位为竞争解释；阅读稿按原有研究起点和alternative的假设范围展示，卡片原文保持，内容强度须另行审阅。",
+  "preserved_conditions": [
+    "若后续新品上市后同店/复购不恢复且折扣与库存上升，否定暂时节奏假说；若仅渠道时点移转且合并现金稳定，则收窄结构性衰退解释。"
+  ],
+  "new_human_review": null,
+  "template_candidates": [
+    {
+      "text": "主张及范围：解释/假设：2025爆发不能直接外推永续，2026Q3官方未审经营更新的区域和渠道下降，要求从爆款集中、复购和库存重新检验增长质量。",
+      "decision": "改按问题成段；底稿字段保留在依据JSON"
+    },
+    {
+      "text": "来源数据与计算：2025年报 S47095a39c6425b11 PDF物理7页；2026最新更新 S92234424087f455a PDF物理1页。B07-annual与B07-Q3均为机器候选，Fact=0。2025收入371.20052亿元、毛利率72.1%属年报候选；2026Q3经营更新称总收入同比下降45%—50%，美洲下降70%—75%、亚太下降65%—70%。这是收入区间更新，不是完整季度损益或现金流；不能据此推造利润降幅。",
+      "decision": "逐处回读，重复状态移入附录，实质限制在正文具体化"
+    },
+    {
+      "text": "反方：2025收入371.20052亿元、毛利率72.1%属年报候选；2026Q3经营更新称总收入同比下降45%—50%，美洲下降70%—75%、亚太下降65%—70%。这是收入区间更新，不是完整季度损益或现金流；不能据此推造利润降幅。",
+      "decision": "逐处回读，重复状态移入附录，实质限制在正文具体化"
+    },
+    {
+      "text": "证据缺口：IP级复购和新品接续、分区同店/店龄店效、折扣及库存龄；合同期限与续约分成；租赁负债和门店维持投入；完整2026Q3利润现金未披露不能造数；HKD价格需匹配RMB价值桥。",
+      "decision": "逐处回读，重复状态移入附录，实质限制在正文具体化"
+    },
+    {
+      "text": "主张及范围：通过艺术家IP孵化、运营和产品设计，把IP表达为手办、搪胶毛绒等产品，再通过全球零售及线上渠道触达消费者。2025年报11—12物理页把IP及新品运营列为增长驱动，这是管理层自述，不是壁垒确认。IP权利安排、生产备货、店铺租赁与人力、库存折价及销售回款共同影响资本和现金。",
+      "decision": "改按问题成段；底稿字段保留在依据JSON"
+    },
+    {
+      "text": "主张及范围：研究假设，尚未确认护城河。2025高基数与新品节奏引发短期回落，IP组合和区域渠道仍可维持长期变现。",
+      "decision": "改按问题成段；底稿字段保留在依据JSON"
+    },
+    {
+      "text": "主张及范围：2025收入371.20052亿元、毛利率72.1%属年报候选；2026Q3经营更新称总收入同比下降45%—50%，美洲下降70%—75%、亚太下降65%—70%。这是收入区间更新，不是完整季度损益或现金流；不能据此推造利润降幅。",
+      "decision": "改按问题成段；底稿字段保留在依据JSON"
+    },
+    {
+      "text": "主张及范围：IP/新品推出→生产备货→门店线上销售→回款与库存折价；地区门店成熟爬坡、IP授权期限和续约成本。季度区间不替代完整财报。",
+      "decision": "改按问题成段；底稿字段保留在依据JSON"
+    },
+    {
+      "text": "主张及范围：不能给正式估值：尚缺经核对历史桥、经营资本范围、再投资、现金流索取权和同日风险/价格输入。",
+      "decision": "改按问题成段；底稿字段保留在依据JSON"
+    },
+    {
+      "text": "主张及范围：爆款需求和稀缺性消退、海外渠道铺货透支，库存与固定租赁费用使利润现金对收入下降更敏感。",
+      "decision": "改按问题成段；底稿字段保留在依据JSON"
+    },
+    {
+      "text": "主张及范围：仅为候选证据支持的研究起点，不是完整投资报告、目标价或买卖建议。",
+      "decision": "改按问题成段；底稿字段保留在依据JSON"
+    },
+    {
+      "text": "本次未发现未解决研究卡影响；不等于数据已核准。",
+      "decision": "逐处回读，重复状态移入附录，实质限制在正文具体化"
+    }
+  ],
+  "tool_warning_disposition": {
+    "numbers": "每个新段落的所有数值已在该段anchors原文中查得，含正负号/百分比；去重使次数减少，SHA与时间戳移入依据，不据计数判保真",
+    "terms_and_stance": "同SKU、归母/CFO、IP权利期限、研发资本化现金不变、USD、租赁归属、FDA限定适应证、拟议和解批准条件分别保留；假设仍有归属",
+    "metadata": "移除正文生成时间和哈希清单，原值保留basis.json bindings；页码与来源ID在附录可定位"
+  }
+}

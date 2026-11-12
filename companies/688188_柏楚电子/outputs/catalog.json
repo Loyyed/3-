@@ -483,7 +483,7 @@
       "at": "2026-11-12T03:58:31.811500+00:00",
       "actor": "Agent/test-or-api",
       "actual_user_review": null,
-      "historical": false,
+      "historical": true,
       "bindings": {
         "selection_ids": [
           "R1622b2e65098",
@@ -599,6 +599,153 @@
           "format": "md",
           "sha256": "ed08d87496dc10fd4881ed9ffd0f6cf4ee2a82df025e958f5ec4b84b91646925",
           "bytes": 19505
+        }
+      ],
+      "needs_review": false,
+      "imported": false,
+      "impact_reasons": [],
+      "file_integrity": true
+    },
+    {
+      "id": "Of8d2471a82be",
+      "group": "research-report",
+      "title": "柏楚电子：控制与配套协同，怎样兑现为经营现金",
+      "kind": "报告草稿",
+      "version": 7,
+      "at": "2026-11-12T04:33:22.265972+00:00",
+      "actor": "Agent/test-or-api",
+      "actual_user_review": null,
+      "historical": false,
+      "bindings": {
+        "selection_ids": [
+          "R1622b2e65098",
+          "R42383f58e180",
+          "R6ef717bb11b9",
+          "R9b91e4658392",
+          "Rc91d3bad8c35",
+          "Rd192d88d9be7",
+          "Rd3892afbfc24",
+          "Re652de68ca00"
+        ],
+        "selection_scope": "all-eight-lanes",
+        "cards": {
+          "Rc91d3bad8c35": "ce98f022b6634e1822708031a11897fadc353a5432c5e7fb575ced62a1367391",
+          "R42383f58e180": "703fd3c4f59da609c61fdd455f0c89e565d5ec920cab59ddcd399c6db5343a67",
+          "Re652de68ca00": "be468f6d960e51e897f3c4e75052bc459918d3b94ba590b904c83ad42238eca9",
+          "R9b91e4658392": "5ab8b31b75d709b7e8f2f6434830de910d087161ec824281dc0814153e36762d",
+          "Rd192d88d9be7": "7aa3e4a4d7cf3053e2bd004accdb9808216b15daf775af804848372b4fe2adc9",
+          "R6ef717bb11b9": "76f05d5c4db915f8ea42cb43421915ca9aaa469a00712804fc221db5c80aec6f",
+          "Rd3892afbfc24": "bf39795a5426e3adb61cced52e1d3e0fd1c42d84eb104e586883aa1115e29186",
+          "R1622b2e65098": "332a5dcfac04161ddcffab6919ba9de1884680c92b199ab467125208f2d7d51b"
+        },
+        "methods": [
+          {
+            "id": "K02",
+            "version": 1
+          },
+          {
+            "id": "E02",
+            "version": 1
+          },
+          {
+            "id": "E03",
+            "version": 1
+          },
+          {
+            "id": "E07",
+            "version": 1
+          },
+          {
+            "id": "K46",
+            "version": 1
+          },
+          {
+            "id": "K52",
+            "version": 1
+          },
+          {
+            "id": "K63",
+            "version": 1
+          },
+          {
+            "id": "K48",
+            "version": 1
+          },
+          {
+            "id": "K53",
+            "version": 1
+          },
+          {
+            "id": "K50",
+            "version": 1
+          },
+          {
+            "id": "K57",
+            "version": 1
+          },
+          {
+            "id": "K59",
+            "version": 1
+          },
+          {
+            "id": "K62",
+            "version": 1
+          }
+        ],
+        "inputs": {
+          "work/research09/evidence-map.json": "047de000db6c7dfb892f1032e5a732e5f36c99ba8f8dafc96f89d08e163ca3ea",
+          "work/research09/parameter-register.json": "98c9f43e4173d8e2263b3d1cfa5d9b775ee43e9befd2c40c6487b85cfdc3e91f",
+          "work/research09/利润资本现金与估值准备.md": "5f0cd48ff750658d25b7d3a298b23e13f7c13dcb0f620763f838bf5e2bcb240f",
+          "work/research07/source-field-map.json": "8df86766e01695fd8c97beb13cee442e3309746d26adb759bc65346f2d8cbd40",
+          "work/valuation/index.json": "5becdf6a6504467898eae0deaa648b49a7d092fb7ed0f3b5d34cd48e19eccf0b",
+          "work/valuation/v1-V8fb3181b10d1.json": "e0827fa29a13f73fd0ce57f0e735a1824af4242b8801f31db5fa491ebf4a6498",
+          "work/writing/authority-snapshot.json": "a79f924d68e6c0806561e623290a6f5e96a598e438d7bf7fbbd22c869aaa9d65",
+          "work/writing/reader.json": "e16e6abca161eee8a6d2ec5e5cf5a8ef1f8a1d3732cc1bf93cf12f30b373321c"
+        },
+        "sources": [
+          {
+            "id": "688188-20b73bb3528dbdbe",
+            "path": "sources/raw/02_定期报告与经营数据/2026-08-18_2026年半年度报告_1225477071.pdf",
+            "sha256": "caa94577eda863f238933d192305884ec05c01cf6aad7a2ba89fe96ef8259eb1"
+          },
+          {
+            "id": "688188-a343f0dc3c27d114",
+            "path": "sources/raw/01_年报/2026-04-10_2025年年度报告_1225091045.pdf",
+            "sha256": "e12688b3c2e80e63fae0008983426c644a0ca5bc0da6bed30f9b45f635ecfed2"
+          },
+          {
+            "id": "688188-fed67b607fa475a7",
+            "path": "sources/raw/02_定期报告与经营数据/2026-10-27_2026年第三季度报告_1225622322.pdf",
+            "sha256": "33f3c5e4de011f9858e98a1034e672104e0435fda3bdeec651a04c83fd6887ef"
+          }
+        ],
+        "shared_dependencies": {
+          "shared/runtime/companybench/valuation_chain.py": "0155df03fa6ff2dd86a6a4c92f51f277f88e1edd45bfd972d191796276ac23ca",
+          "shared/runtime/companybench/research_depth.py": "bb364cd41336a0d3fe62d0d0663f7e8557570aeff2d201c21517259ae1404a41",
+          "scripts/recalculate_valuation.py": "711a5a9c153a834a2c28d133d24b0aec0cd93153c0baa4f1358a8b22ef4cc727",
+          "docs/投研写作规范.md": "e4cf87afffc67976148eab1d4f2aba00056a5825ba0c7ac64d7ccab1122cfb60",
+          "shared/writing-skills.json": "cad001177fa60de41d782dfbdb8d3ffbfa1ffb81a959472130c85925b6d2ab2a",
+          "app/writing.py": "083ceb8239ce4c1f76b50ead42c52d2e73068d6a564f25f6f288eb4697e947d8"
+        }
+      },
+      "files": [
+        {
+          "path": "outputs/research-report/v7-Of8d2471a82be/basis.json",
+          "format": "json",
+          "sha256": "ae77b62671f6cead7def888f790222edb4138b83c3f5d5d5e661163171b3ab0c",
+          "bytes": 110186
+        },
+        {
+          "path": "outputs/research-report/v7-Of8d2471a82be/report.html",
+          "format": "html",
+          "sha256": "e1473595f924f9fae6c7462fbc0e397542f17496a4a26977fff9e9e91159921b",
+          "bytes": 8027
+        },
+        {
+          "path": "outputs/research-report/v7-Of8d2471a82be/report.md",
+          "format": "md",
+          "sha256": "77157f86546106a826f2920671c7e3913c12be1cf66164da415fba58b11720b7",
+          "bytes": 6239
         }
       ],
       "needs_review": false,

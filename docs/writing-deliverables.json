@@ -1,0 +1,30 @@
+{
+  "at": "2026-11-12T04:41:16.284Z",
+  "reports": {
+    "002507_涪陵榨菜": {
+      "html": "outputs/research-report/v8-O315df3a0d64f/report.html",
+      "md": "outputs/research-report/v8-O315df3a0d64f/report.md",
+      "version": 8
+    },
+    "09992_泡泡玛特": {
+      "html": "outputs/research-report/v6-O75e6689bf8ba/report.html",
+      "md": "outputs/research-report/v6-O75e6689bf8ba/report.md",
+      "version": 6
+    },
+    "600298_安琪酵母": {
+      "html": "outputs/research-report/v8-O58646fce0ace/report.html",
+      "md": "outputs/research-report/v8-O58646fce0ace/report.md",
+      "version": 8
+    },
+    "688188_柏楚电子": {
+      "html": "outputs/research-report/v7-Of8d2471a82be/report.html",
+      "md": "outputs/research-report/v7-Of8d2471a82be/report.md",
+      "version": 7
+    },
+    "US_ISRG_直觉外科": {
+      "html": "outputs/research-report/v3-O1fa4629ea2fa/report.html",
+      "md": "outputs/research-report/v3-O1fa4629ea2fa/report.md",
+      "version": 3
+    }
+  }
+}

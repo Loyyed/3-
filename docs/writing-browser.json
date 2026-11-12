@@ -1,0 +1,91 @@
+{
+  "at": "2026-11-12T04:38:35.442Z",
+  "checks": [
+    {
+      "company": "涪陵榨菜",
+      "headings": [
+        "销量和渠道改善要兑现到利润",
+        "经销模式把终端需求传到哪里？",
+        "收入、利润与现金呈现怎样的分化？",
+        "渠道效率改善与铺货扩张，怎样区分？",
+        "未来收入和现金取决于哪些经营环节？",
+        "从经营改善走向价值，还缺哪些输入？"
+      ],
+      "source_http": 200,
+      "download_http": 200,
+      "overflow": false,
+      "field_dump": false,
+      "old_disclaimer": false,
+      "editor_persisted": true
+    },
+    {
+      "company": "泡泡玛特",
+      "headings": [
+        "高增长之后，要重新检验什么？",
+        "IP如何变为商品收入与资金占用？",
+        "半年报与Q3更新分别披露了什么？",
+        "新品节奏回落，还是需求和渠道承压？",
+        "现金预测需要哪些门店与IP资料？",
+        "哪些缺口阻止现金与价值测算？"
+      ],
+      "source_http": 200,
+      "download_http": 200,
+      "overflow": false,
+      "field_dump": false,
+      "old_disclaimer": false,
+      "editor_persisted": true
+    },
+    {
+      "company": "安琪酵母",
+      "headings": [
+        "扩张的代价已经进入现金表现",
+        "客户购买什么，生产怎样接到订单？",
+        "增长加快，利润和现金为何落后？",
+        "规模效应还是扩张回报下降？",
+        "从投产到回款，预测需要保留哪些时滞？",
+        "利润、资本、现金还缺怎样的桥？"
+      ],
+      "source_http": 200,
+      "download_http": 200,
+      "overflow": false,
+      "field_dump": false,
+      "old_disclaimer": false,
+      "editor_persisted": true
+    },
+    {
+      "company": "柏楚电子",
+      "headings": [
+        "增长中有多少来自主业协同？",
+        "从设备客户采用到交付，价值在哪里形成？",
+        "利润增长与现金增长有何差别？",
+        "客户黏性与设备周期，哪些观察能够区分？",
+        "研发投入怎样进入预测和现金？",
+        "经营价值与非经营资产如何分开？"
+      ],
+      "source_http": 200,
+      "download_http": 200,
+      "overflow": false,
+      "field_dump": false,
+      "old_disclaimer": false,
+      "editor_persisted": true
+    },
+    {
+      "company": "Intuitive Surgical, Inc.（直觉外科）",
+      "headings": [
+        "采用和培训能否带来持续使用？",
+        "设备、耗材与服务如何计收？",
+        "收入、利润与现金披露了哪些变化？",
+        "每例变现下降怎样改变增长要求？",
+        "竞争与医院经济性带来哪些挑战？",
+        "从经营现金走向普通股价值，还缺什么？"
+      ],
+      "source_http": 200,
+      "download_http": 200,
+      "overflow": false,
+      "field_dump": false,
+      "old_disclaimer": false,
+      "editor_persisted": true
+    }
+  ],
+  "errors": []
+}

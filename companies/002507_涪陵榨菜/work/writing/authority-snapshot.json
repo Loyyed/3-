@@ -1,0 +1,145 @@
+{
+  "at": "2026-11-12T04:30:53.193080+00:00",
+  "Fact": [],
+  "records": [
+    {
+      "id": "B07-A01",
+      "state": "Unknown",
+      "binding": "d2a1b2fce62c9a41a270117d2352beed0a26e0f4defb845e45e0bf3d5353bb9f",
+      "sources": [
+        {
+          "source_id": "002507-6cd117ea1ac8beee",
+          "location": "PDF物理第7页，财务摘要/经营更新，行“营业收入2025”"
+        }
+      ]
+    },
+    {
+      "id": "B07-A02",
+      "state": "Unknown",
+      "binding": "3ba50d87c8fcbbb13550720d1e36b4261a4a4f27d21154bced87de6df3b3d81e",
+      "sources": [
+        {
+          "source_id": "002507-6cd117ea1ac8beee",
+          "location": "PDF物理第7页，财务摘要/经营更新，行“营业收入2024”"
+        }
+      ]
+    },
+    {
+      "id": "B07-A03",
+      "state": "Unknown",
+      "binding": "882a8e850c8a87347f9733e4bef3e4ae5e4cbdbb10360e7ab8d072b84ce48497",
+      "sources": [
+        {
+          "source_id": "002507-6cd117ea1ac8beee",
+          "location": "PDF物理第7页，财务摘要/经营更新，行“归母净利润2025”"
+        }
+      ]
+    },
+    {
+      "id": "B07-A04",
+      "state": "Unknown",
+      "binding": "cc064186cd2e892b5847d7896f8e0b3972db5666aaf5a18779393b6644b9fe28",
+      "sources": [
+        {
+          "source_id": "002507-6cd117ea1ac8beee",
+          "location": "PDF物理第7页，财务摘要/经营更新，行“归母净利润2024”"
+        }
+      ]
+    },
+    {
+      "id": "B07-A05",
+      "state": "Unknown",
+      "binding": "7bd0fefefe54f74092238b5fb15a6865eb33b3acdbf68411238126eb47cfda04",
+      "sources": [
+        {
+          "source_id": "002507-6cd117ea1ac8beee",
+          "location": "PDF物理第7页，财务摘要/经营更新，行“CFO2025”"
+        }
+      ]
+    },
+    {
+      "id": "B07-A06",
+      "state": "Unknown",
+      "binding": "f242910bab92600da684f351fb12ce83163755ef49c457eee79152886d15c18f",
+      "sources": [
+        {
+          "source_id": "002507-6cd117ea1ac8beee",
+          "location": "PDF物理第7页，财务摘要/经营更新，行“CFO2024”"
+        }
+      ]
+    },
+    {
+      "id": "B07-Q01",
+      "state": "Unknown",
+      "binding": "5e216864b066dc587edc778ed98b7371acdf122aefc9b316afdeaeeb54190036",
+      "sources": [
+        {
+          "source_id": "002507-d45bfdfdec6d4379",
+          "location": "PDF物理第3页，财务摘要/经营更新，行“本季度营业收入”"
+        }
+      ]
+    },
+    {
+      "id": "B07-Q02",
+      "state": "Unknown",
+      "binding": "af7abd0d405edf3a5b900e5141dd7545269faa4b034c375aa8dcf242a895ed52",
+      "sources": [
+        {
+          "source_id": "002507-d45bfdfdec6d4379",
+          "location": "PDF物理第3页，财务摘要/经营更新，行“前九个月营业收入”"
+        }
+      ]
+    },
+    {
+      "id": "B07-Q03",
+      "state": "Unknown",
+      "binding": "a4df1f65358f5734f7459f0b7d7a9503bd76e201ac1b66be9cc07fe5e2ddd55d",
+      "sources": [
+        {
+          "source_id": "002507-d45bfdfdec6d4379",
+          "location": "PDF物理第3页，财务摘要/经营更新，行“本季度归母净利润”"
+        }
+      ]
+    },
+    {
+      "id": "B07-Q04",
+      "state": "Unknown",
+      "binding": "d70d072b9137f5cdc488d3c4e27655aafcc30b2eb94a4b16793641a256ff9ca2",
+      "sources": [
+        {
+          "source_id": "002507-d45bfdfdec6d4379",
+          "location": "PDF物理第3页，财务摘要/经营更新，行“前九个月归母净利润”"
+        }
+      ]
+    },
+    {
+      "id": "B07-Q05",
+      "state": "Unknown",
+      "binding": "fda44764d6d389df739c7fd342caeef69daaa01bf52db3b03eabd51d9ac956ea",
+      "sources": [
+        {
+          "source_id": "002507-d45bfdfdec6d4379",
+          "location": "PDF物理第3页，财务摘要/经营更新，行“前九个月CFO”"
+        }
+      ]
+    },
+    {
+      "id": "B07-Q06",
+      "state": "Unknown",
+      "binding": "659efd7b8d2d4c127b0451f35bce2560d7eb5de286b64669bd97965480245c8c",
+      "sources": [
+        {
+          "source_id": "002507-d45bfdfdec6d4379",
+          "location": "PDF物理第3页，财务摘要/经营更新，行“前九个月营业收入同比”"
+        }
+      ]
+    }
+  ],
+  "source_ids": [
+    "002507-6cd117ea1ac8beee",
+    "002507-b901d0b919e32cba",
+    "002507-d45bfdfdec6d4379"
+  ],
+  "new_human_review": null,
+  "change_facts": "本轮仅表达编辑，无新变化事实；当前普通ReviewStore无独立change_facts接口"
+}

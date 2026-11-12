@@ -1,0 +1,685 @@
+{
+  "at": "2026-11-12T04:41:52.458999+00:00",
+  "company": "US_ISRG_直觉外科",
+  "structure_decision": "存在结构缺陷：8主线逐项打印相同机制、竞争解释、变量和缺口；卡片保持，阅读版按公司投资问题合并为6节",
+  "repetition_diagnosis": {
+    "mechanism": 7,
+    "alternative": 7,
+    "variables": 7,
+    "gap": 7,
+    "action_needed": 7
+  },
+  "old_report": "outputs\\research-report\\v1-O44bdf1e27fe4\\report.md",
+  "old_sha256": "7f995197b570ce1f4b0c43d063a5af1db72090946fce57874e54c64cdb7c856b",
+  "new_report": "outputs\\research-report\\v3-O1fa4629ea2fa\\report.md",
+  "new_sha256": "85c6badb5129f210a4ddb1c19a2a3d76f6cd1a5d761d38e87185c2abe9d088c7",
+  "spans": [
+    {
+      "new_span": "1.1",
+      "question": "采用和培训能否带来持续使用？",
+      "anchors": [
+        {
+          "card": "Re4a5d5334869",
+          "field": "claim"
+        },
+        {
+          "card": "Re4a5d5334869",
+          "field": "evidence"
+        },
+        {
+          "card": "Re4a5d5334869",
+          "field": "mechanism"
+        },
+        {
+          "card": "Re4a5d5334869",
+          "field": "alternative"
+        },
+        {
+          "card": "Re4a5d5334869",
+          "field": "variables"
+        },
+        {
+          "card": "Re4a5d5334869",
+          "field": "invalidate"
+        },
+        {
+          "card": "Re4a5d5334869",
+          "field": "gap"
+        }
+      ],
+      "operation": "merge/route/rephrase",
+      "reason": "该编辑单元原有字段跨节重复；按本问题保留判断与实质条件，将来源和状态集中到附录",
+      "after": "培训、手术团队工作流与维护网络可能降低医院采用摩擦。这个优势假设的经营基础，是医院在临床效果和经济回报上愿意持续使用设备，并将装机转成手术量、耗材和服务收入。",
+      "protected_numbers": [],
+      "numeric_anchor_check": true,
+      "modality_review": "Agent逐段回读：推测/竞争解释仍按假设呈现；口径、否定条件和时间范围保留",
+      "actual_user_review": null
+    },
+    {
+      "new_span": "2.1",
+      "question": "设备、耗材与服务如何计收？",
+      "anchors": [
+        {
+          "card": "R4257c7215539",
+          "field": "claim"
+        },
+        {
+          "card": "R4257c7215539",
+          "field": "evidence"
+        },
+        {
+          "card": "R4257c7215539",
+          "field": "mechanism"
+        },
+        {
+          "card": "R4257c7215539",
+          "field": "alternative"
+        },
+        {
+          "card": "R4257c7215539",
+          "field": "variables"
+        },
+        {
+          "card": "R4257c7215539",
+          "field": "invalidate"
+        },
+        {
+          "card": "R4257c7215539",
+          "field": "gap"
+        }
+      ],
+      "operation": "merge/route/rephrase",
+      "reason": "该编辑单元原有字段跨节重复；按本问题保留判断与实质条件，将来源和状态集中到附录",
+      "after": "医院和医疗机构采购或租赁设备，医生及团队学习使用。系统销售和销售型租赁主要前置计收；经营租赁按固定费用或使用量随期确认，耗材与服务收入随使用和合同实现。租赁收入已包含在相应系统收入中，耗材的重复购买取决于实际手术使用。",
+      "protected_numbers": [],
+      "numeric_anchor_check": true,
+      "modality_review": "Agent逐段回读：推测/竞争解释仍按假设呈现；口径、否定条件和时间范围保留",
+      "actual_user_review": null
+    },
+    {
+      "new_span": "2.2",
+      "question": "设备、耗材与服务如何计收？",
+      "anchors": [
+        {
+          "card": "R4257c7215539",
+          "field": "claim"
+        },
+        {
+          "card": "R4257c7215539",
+          "field": "evidence"
+        },
+        {
+          "card": "R4257c7215539",
+          "field": "mechanism"
+        },
+        {
+          "card": "R4257c7215539",
+          "field": "alternative"
+        },
+        {
+          "card": "R4257c7215539",
+          "field": "variables"
+        },
+        {
+          "card": "R4257c7215539",
+          "field": "invalidate"
+        },
+        {
+          "card": "R4257c7215539",
+          "field": "gap"
+        }
+      ],
+      "operation": "merge/route/rephrase",
+      "reason": "该编辑单元原有字段跨节重复；按本问题保留判断与实质条件，将来源和状态集中到附录",
+      "after": "da Vinci与Ion分别研究装机、手术和收入分母。销售型与经营租赁在收入和资本回收时间上有差别，租赁设备投入、折旧和现金回收需要按队列桥接。",
+      "protected_numbers": [],
+      "numeric_anchor_check": true,
+      "modality_review": "Agent逐段回读：推测/竞争解释仍按假设呈现；口径、否定条件和时间范围保留",
+      "actual_user_review": null
+    },
+    {
+      "new_span": "3.1",
+      "question": "收入、利润与现金披露了哪些变化？",
+      "anchors": [
+        {
+          "card": "R143dc49386bb",
+          "field": "claim"
+        },
+        {
+          "card": "R143dc49386bb",
+          "field": "evidence"
+        },
+        {
+          "card": "R143dc49386bb",
+          "field": "mechanism"
+        },
+        {
+          "card": "R143dc49386bb",
+          "field": "alternative"
+        },
+        {
+          "card": "R143dc49386bb",
+          "field": "variables"
+        },
+        {
+          "card": "R143dc49386bb",
+          "field": "invalidate"
+        },
+        {
+          "card": "R143dc49386bb",
+          "field": "gap"
+        }
+      ],
+      "operation": "merge/route/rephrase",
+      "reason": "该编辑单元原有字段跨节重复；按本问题保留判断与实质条件，将来源和状态集中到附录",
+      "after": "2025收入USD10064.7m、营业利润2945.5m、研发1311.8m；2026前三季收入8711.8m、营业利润2419.8m、经营现金3197.0m。经营EBIT分析需分开非经营利息，再把现金税、经营NCWC和设备投入接入现金桥。",
+      "protected_numbers": [
+        "2025",
+        "10064.7m",
+        "2945.5m",
+        "1311.8m",
+        "2026",
+        "8711.8m",
+        "2419.8m",
+        "3197.0m"
+      ],
+      "numeric_anchor_check": true,
+      "modality_review": "Agent逐段回读：推测/竞争解释仍按假设呈现；口径、否定条件和时间范围保留",
+      "actual_user_review": null
+    },
+    {
+      "new_span": "3.2",
+      "question": "收入、利润与现金披露了哪些变化？",
+      "anchors": [
+        {
+          "card": "R143dc49386bb",
+          "field": "claim"
+        },
+        {
+          "card": "R143dc49386bb",
+          "field": "evidence"
+        },
+        {
+          "card": "R143dc49386bb",
+          "field": "mechanism"
+        },
+        {
+          "card": "R143dc49386bb",
+          "field": "alternative"
+        },
+        {
+          "card": "R143dc49386bb",
+          "field": "variables"
+        },
+        {
+          "card": "R143dc49386bb",
+          "field": "invalidate"
+        },
+        {
+          "card": "R143dc49386bb",
+          "field": "gap"
+        }
+      ],
+      "operation": "merge/route/rephrase",
+      "reason": "该编辑单元原有字段跨节重复；按本问题保留判断与实质条件，将来源和状态集中到附录",
+      "after": "Q3营业利润含450m反垄断诉讼和解费用。拟议和解仍受法院批准等条件约束，费用确认、未来支付、税务处理与经营应付变化分别影响利润和现金。",
+      "protected_numbers": [
+        "3",
+        "450m"
+      ],
+      "numeric_anchor_check": true,
+      "modality_review": "Agent逐段回读：推测/竞争解释仍按假设呈现；口径、否定条件和时间范围保留",
+      "actual_user_review": null
+    },
+    {
+      "new_span": "4.1",
+      "question": "每例变现下降怎样改变增长要求？",
+      "anchors": [
+        {
+          "card": "R3fe807f7f8f2",
+          "field": "claim"
+        },
+        {
+          "card": "R3fe807f7f8f2",
+          "field": "evidence"
+        },
+        {
+          "card": "R3fe807f7f8f2",
+          "field": "mechanism"
+        },
+        {
+          "card": "R3fe807f7f8f2",
+          "field": "alternative"
+        },
+        {
+          "card": "R3fe807f7f8f2",
+          "field": "variables"
+        },
+        {
+          "card": "R3fe807f7f8f2",
+          "field": "invalidate"
+        },
+        {
+          "card": "R3fe807f7f8f2",
+          "field": "gap"
+        }
+      ],
+      "operation": "merge/route/rephrase",
+      "reason": "该编辑单元原有字段跨节重复；按本问题保留判断与实质条件，将来源和状态集中到附录",
+      "after": "2026Q3原文中，管理层预计2027上半年延长部分核心器械使用次数并实行量价政策，2026Q4在中国降价。充分实施后，每例da Vinci器械耗材收入预计减少约3%—5%，该幅度排除术式、产品和地区组合影响。",
+      "protected_numbers": [
+        "2026",
+        "3",
+        "2027",
+        "2026",
+        "4",
+        "3%",
+        "5%"
+      ],
+      "numeric_anchor_check": true,
+      "modality_review": "Agent逐段回读：推测/竞争解释仍按假设呈现；口径、否定条件和时间范围保留",
+      "actual_user_review": null
+    },
+    {
+      "new_span": "4.2",
+      "question": "每例变现下降怎样改变增长要求？",
+      "anchors": [
+        {
+          "card": "R3fe807f7f8f2",
+          "field": "claim"
+        },
+        {
+          "card": "R3fe807f7f8f2",
+          "field": "evidence"
+        },
+        {
+          "card": "R3fe807f7f8f2",
+          "field": "mechanism"
+        },
+        {
+          "card": "R3fe807f7f8f2",
+          "field": "alternative"
+        },
+        {
+          "card": "R3fe807f7f8f2",
+          "field": "variables"
+        },
+        {
+          "card": "R3fe807f7f8f2",
+          "field": "invalidate"
+        },
+        {
+          "card": "R3fe807f7f8f2",
+          "field": "gap"
+        }
+      ],
+      "operation": "merge/route/rephrase",
+      "reason": "该编辑单元原有字段跨节重复；按本问题保留判断与实质条件，将来源和状态集中到附录",
+      "after": "预测需依次连接医院采用、培训、利用率、手术、耗材服务与回款；许可之后的试点和推广另有时序。装机生态与医院经济性若能支持使用量增长，降价可能拓宽可付费病例；如果手术增长放缓而预算、竞争持续压价，单例变现与设备出租资本占用将压低回报。",
+      "protected_numbers": [],
+      "numeric_anchor_check": true,
+      "modality_review": "Agent逐段回读：推测/竞争解释仍按假设呈现；口径、否定条件和时间范围保留",
+      "actual_user_review": null
+    },
+    {
+      "new_span": "5.1",
+      "question": "竞争与医院经济性带来哪些挑战？",
+      "anchors": [
+        {
+          "card": "R13e68bc03271",
+          "field": "claim"
+        },
+        {
+          "card": "R13e68bc03271",
+          "field": "evidence"
+        },
+        {
+          "card": "R13e68bc03271",
+          "field": "mechanism"
+        },
+        {
+          "card": "R13e68bc03271",
+          "field": "alternative"
+        },
+        {
+          "card": "R13e68bc03271",
+          "field": "variables"
+        },
+        {
+          "card": "R13e68bc03271",
+          "field": "invalidate"
+        },
+        {
+          "card": "R13e68bc03271",
+          "field": "gap"
+        }
+      ],
+      "operation": "merge/route/rephrase",
+      "reason": "该编辑单元原有字段跨节重复；按本问题保留判断与实质条件，将来源和状态集中到附录",
+      "after": "训练、流程和服务网络的优势判断仍缺医院采用与切换调查。临床价值需要按术式、样本及医院全成本比较，FDA许可提供的是限定适应证的上市资格。Hugo K250725与Versius DEN230078/K252111/K261252的监管原文已取得，竞争研究按术式、地区和时间展开。",
+      "protected_numbers": [
+        "250725",
+        "230078",
+        "252111",
+        "261252"
+      ],
+      "numeric_anchor_check": true,
+      "modality_review": "Agent逐段回读：推测/竞争解释仍按假设呈现；口径、否定条件和时间范围保留",
+      "actual_user_review": null
+    },
+    {
+      "new_span": "5.2",
+      "question": "竞争与医院经济性带来哪些挑战？",
+      "anchors": [
+        {
+          "card": "R13e68bc03271",
+          "field": "claim"
+        },
+        {
+          "card": "R13e68bc03271",
+          "field": "evidence"
+        },
+        {
+          "card": "R13e68bc03271",
+          "field": "mechanism"
+        },
+        {
+          "card": "R13e68bc03271",
+          "field": "alternative"
+        },
+        {
+          "card": "R13e68bc03271",
+          "field": "variables"
+        },
+        {
+          "card": "R13e68bc03271",
+          "field": "invalidate"
+        },
+        {
+          "card": "R13e68bc03271",
+          "field": "gap"
+        }
+      ],
+      "operation": "merge/route/rephrase",
+      "reason": "该编辑单元原有字段跨节重复；按本问题保留判断与实质条件，将来源和状态集中到附录",
+      "after": "第三方翻新、维修限制和反垄断事项影响耗材复购及风险，需分别查证。若同术式使用与医院净收益不改善、需求量未达到抵消净价下降的门槛，或再处理与竞争使耗材复购明显脱钩，持续使用和变现的故事就要收窄。先跟踪两个季度，并保留更长的医院采用窗口。",
+      "protected_numbers": [],
+      "numeric_anchor_check": true,
+      "modality_review": "Agent逐段回读：推测/竞争解释仍按假设呈现；口径、否定条件和时间范围保留",
+      "actual_user_review": null
+    },
+    {
+      "new_span": "6.1",
+      "question": "从经营现金走向普通股价值，还缺什么？",
+      "anchors": [
+        {
+          "card": "Rc4f28a3b6f14",
+          "field": "claim"
+        },
+        {
+          "card": "Rc4f28a3b6f14",
+          "field": "evidence"
+        },
+        {
+          "card": "Rc4f28a3b6f14",
+          "field": "mechanism"
+        },
+        {
+          "card": "Rc4f28a3b6f14",
+          "field": "alternative"
+        },
+        {
+          "card": "Rc4f28a3b6f14",
+          "field": "variables"
+        },
+        {
+          "card": "Rc4f28a3b6f14",
+          "field": "invalidate"
+        },
+        {
+          "card": "Rc4f28a3b6f14",
+          "field": "gap"
+        }
+      ],
+      "operation": "merge/route/rephrase",
+      "reason": "该编辑单元原有字段跨节重复；按本问题保留判断与实质条件，将来源和状态集中到附录",
+      "after": "现金税、经营NCWC、租赁设备投入和折旧、研发资本化及SBC净稀释需要一致的处理。USD现金对应USD资本成本；同一估值日的时点股数与EPS加权股数分别服务市值和每股利润口径。",
+      "protected_numbers": [],
+      "numeric_anchor_check": true,
+      "modality_review": "Agent逐段回读：推测/竞争解释仍按假设呈现；口径、否定条件和时间范围保留",
+      "actual_user_review": null
+    },
+    {
+      "new_span": "6.2",
+      "question": "从经营现金走向普通股价值，还缺什么？",
+      "anchors": [
+        {
+          "card": "Rc4f28a3b6f14",
+          "field": "claim"
+        },
+        {
+          "card": "Rc4f28a3b6f14",
+          "field": "evidence"
+        },
+        {
+          "card": "Rc4f28a3b6f14",
+          "field": "mechanism"
+        },
+        {
+          "card": "Rc4f28a3b6f14",
+          "field": "alternative"
+        },
+        {
+          "card": "Rc4f28a3b6f14",
+          "field": "variables"
+        },
+        {
+          "card": "Rc4f28a3b6f14",
+          "field": "invalidate"
+        },
+        {
+          "card": "Rc4f28a3b6f14",
+          "field": "gap"
+        }
+      ],
+      "operation": "merge/route/rephrase",
+      "reason": "该编辑单元原有字段跨节重复；按本问题保留判断与实质条件，将来源和状态集中到附录",
+      "after": "目前缺分平台每例收入、器械计费次数、装机净增与退役置换、租赁队列、医院全成本和培训利用率、维修份额及当前判决，也缺完整现金税与再投资口径。同日USD Rf/ERP/beta、股价股数及可追溯共识样本尚待取得，完整DCF和每股价值计算停在这些输入处。",
+      "protected_numbers": [],
+      "numeric_anchor_check": true,
+      "modality_review": "Agent逐段回读：推测/竞争解释仍按假设呈现；口径、否定条件和时间范围保留",
+      "actual_user_review": null
+    },
+    {
+      "new_span": "6.3",
+      "question": "从经营现金走向普通股价值，还缺什么？",
+      "anchors": [
+        {
+          "card": "Rc4f28a3b6f14",
+          "field": "claim"
+        },
+        {
+          "card": "Rc4f28a3b6f14",
+          "field": "evidence"
+        },
+        {
+          "card": "Rc4f28a3b6f14",
+          "field": "mechanism"
+        },
+        {
+          "card": "Rc4f28a3b6f14",
+          "field": "alternative"
+        },
+        {
+          "card": "Rc4f28a3b6f14",
+          "field": "variables"
+        },
+        {
+          "card": "Rc4f28a3b6f14",
+          "field": "invalidate"
+        },
+        {
+          "card": "Rc4f28a3b6f14",
+          "field": "gap"
+        },
+        {
+          "card": "R1879b1d90070",
+          "field": "claim"
+        }
+      ],
+      "operation": "merge/route/rephrase",
+      "reason": "该编辑单元原有字段跨节重复；按本问题保留判断与实质条件，将来源和状态集中到附录",
+      "after": "本稿的信息截止2026-11-11，原件实际下载于2026-11-12 UTC。首批55项iXBRL原数定位、来源版本和后续补证入口见附录；医院经济性因果、市场共识及正式估值仍是后续研究任务。",
+      "protected_numbers": [
+        "2026",
+        "-11",
+        "-11",
+        "2026",
+        "-11",
+        "-12",
+        "55"
+      ],
+      "numeric_anchor_check": true,
+      "modality_review": "Agent逐段回读：推测/竞争解释仍按假设呈现；口径、否定条件和时间范围保留",
+      "actual_user_review": null
+    }
+  ],
+  "content_lock": {
+    "tool": {
+      "name": "academic-content-lock",
+      "version": "1.0.0",
+      "semantic_equivalence": false
+    },
+    "status": "fail",
+    "summary": {
+      "high_risk_categories": 1,
+      "warning_categories": 2
+    },
+    "review": {
+      "numbers": {
+        "before_count": 51,
+        "after_count": 26,
+        "removed_unique": [
+          "00",
+          "10",
+          "11",
+          "2025",
+          "35.677543",
+          "7"
+        ],
+        "added_unique": [
+          "09",
+          "12",
+          "2026",
+          "30",
+          "31"
+        ]
+      },
+      "citations": {
+        "before_count": 0,
+        "after_count": 0,
+        "removed_unique": [],
+        "added_unique": []
+      },
+      "identifiers": {
+        "before_count": 0,
+        "after_count": 0,
+        "removed_unique": [],
+        "added_unique": []
+      },
+      "protected_spans": {
+        "before_count": 0,
+        "after_count": 0,
+        "removed_unique": [],
+        "added_unique": []
+      },
+      "terms": {
+        "before_count": 0,
+        "after_count": 0,
+        "removed_unique": [],
+        "added_unique": []
+      },
+      "stance_negation": {
+        "before_count": 43,
+        "after_count": 4,
+        "removed_unique": [
+          "不",
+          "不会",
+          "不能",
+          "未"
+        ],
+        "added_unique": []
+      },
+      "stance_modality": {
+        "before_count": 29,
+        "after_count": 9,
+        "removed_unique": [
+          "可"
+        ],
+        "added_unique": [
+          "可能",
+          "将"
+        ]
+      },
+      "stance_causal": {
+        "before_count": 0,
+        "after_count": 0,
+        "removed_unique": [],
+        "added_unique": []
+      }
+    }
+  },
+  "warning_review": "数字次数减少来自重复段合并、元数据与哈希展示变化；新正文各数字逐项在锚点中核对。立场词增减按本段假设和条件回读，未按阈值盲替换。完整来源、公式/模型参数保持原文件；研究卡未修改，完整原文在新依据JSON中。",
+  "material_issue": "Q3和解费用确认、未来支付与法院批准条件继续分开；医院经济性与共识、估值尚无完整输入，原内容问题未由本轮认可。",
+  "preserved_conditions": [
+    "同术式使用与医院净收益不改善；需求量未达到抵消净价下降门槛；第三方再处理/竞争使耗材复购显著脱钩；先看两个季度并保留长期医院采用窗口。"
+  ],
+  "new_human_review": null,
+  "template_candidates": [
+    {
+      "text": "主张及范围：研究假设：培训、手术团队工作流与维护网络可能降低采用摩擦，但要由医院临床与经济回报支撑；技术复杂度不等于收费能力或股票低估。",
+      "decision": "改按问题成段；底稿字段保留在依据JSON"
+    },
+    {
+      "text": "替代解释：竞争解释A：装机生态和医院经济性支持利用率，价格降低拓宽可付费病例、弥补单例收入。竞争解释B：程序增长放缓而医院预算与竞争压价，器械寿命延长和第三方翻新削弱每例变现、设备出租占资本。维修限制与反垄断风险需单列，不能当正面护城河。",
+      "decision": "逐处回读，重复状态移入附录，实质限制在正文具体化"
+    },
+    {
+      "text": "主张及范围：医院及医疗机构采购或租赁设备，医生与团队学习使用。系统销售和销售型租赁主要前置计收；经营租赁按固定或使用量随期确认，耗材和服务随使用与合同实现。租赁收入是相关系统收入的组成，不再额外相加；重复性耗材收入不是全为锁定订阅。Ion与da Vinci分别建装机与手术分母。",
+      "decision": "改按问题成段；底稿字段保留在依据JSON"
+    },
+    {
+      "text": "主张及范围：训练/流程/服务网络是优势候选，直接证据仍需医院采用与切换调查。FDA许可只说明限定适应证上市，不能证明临床普遍优于腔镜。Hugo K250725与Versius DEN230078/K252111/K261252已取监管原文，需按术式/地区/时间比较；不能称仍只在申请。",
+      "decision": "改按问题成段；底稿字段保留在依据JSON"
+    },
+    {
+      "text": "主张及范围：原表候选：2025收入USD10064.7m、营业利润2945.5m、研发1311.8m；2026前三季收入8711.8m、营业利润2419.8m、经营现金3197.0m。Q3营业利润含450m反垄断诉讼和解费用，拟议和解仍受法院批准等条件约束；费用确认与未来支付、税和经营应付变化分开。CFO不能直接改名FCFF。",
+      "decision": "改按问题成段；底稿字段保留在依据JSON"
+    },
+    {
+      "text": "主张及范围：2026Q3原文管理层预计2027上半年延长部分核心器械使用次数并实行量价政策，2026Q4中国降价；充分实施后每例da Vinci器械耗材收入减少约3%—5%，排除术式/产品/地区组合影响。装机→培训→利用率→手术→耗材与服务→回款逐层预测，监管许可→试点→推广的时序独立登记。",
+      "decision": "改按问题成段；底稿字段保留在依据JSON"
+    },
+    {
+      "text": "主张及范围：经营EBIT排除非经营利息；现金税、租赁设备投入/折旧、经营NCWC、研发资本化与SBC净稀释一并桥接。USD现金配USD资本成本；同一估值日股价、时点股数与加权EPS分母不同。缺现金税与再投资完整口径，尚不输出DCF/每股目标价。",
+      "decision": "改按问题成段；底稿字段保留在依据JSON"
+    },
+    {
+      "text": "主张及范围：竞争解释A：装机生态和医院经济性支持利用率，价格降低拓宽可付费病例、弥补单例收入。竞争解释B：程序增长放缓而医院预算与竞争压价，器械寿命延长和第三方翻新削弱每例变现、设备出租占资本。维修限制与反垄断风险需单列，不能当正面护城河。",
+      "decision": "改按问题成段；底稿字段保留在依据JSON"
+    },
+    {
+      "text": "主张及范围：形成有来源定位的研究起点、55项iXBRL原数候选和利润资本现金准备表；尚未完成医院经济性因果、市场共识与正式估值。信息截止2026-11-11，实际下载2026-11-12 UTC另记；期后新披露须另版。",
+      "decision": "改按问题成段；底稿字段保留在依据JSON"
+    },
+    {
+      "text": "本次未发现未解决研究卡影响；不等于数据已核准。",
+      "decision": "逐处回读，重复状态移入附录，实质限制在正文具体化"
+    }
+  ],
+  "tool_warning_disposition": {
+    "numbers": "每个新段落的所有数值已在该段anchors原文中查得，含正负号/百分比；去重使次数减少，SHA与时间戳移入依据，不据计数判保真",
+    "terms_and_stance": "同SKU、归母/CFO、IP权利期限、研发资本化现金不变、USD、租赁归属、FDA限定适应证、拟议和解批准条件分别保留；假设仍有归属",
+    "metadata": "移除正文生成时间和哈希清单，原值保留basis.json bindings；页码与来源ID在附录可定位"
+  }
+}

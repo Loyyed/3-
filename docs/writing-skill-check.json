@@ -1,0 +1,30 @@
+[
+  {
+    "name": "humanize-paper",
+    "path": "C:\\Users\\Administrator\\.codex\\skills\\humanize-paper\\SKILL.md",
+    "exists": true,
+    "sha256": "82a7fbe3179ff5f61bfc666a689b5aec458ff75ddc0dab09936496678cf6b8ef",
+    "matches_record": true
+  },
+  {
+    "name": "academic-deai",
+    "path": "C:\\Users\\Administrator\\.codex\\skills\\academic-deai\\SKILL.md",
+    "exists": true,
+    "sha256": "d39876d03402f159cdd85895ed88f2b4aa603b3fb35b4c592744e1a7bf650147",
+    "matches_record": true
+  },
+  {
+    "name": "jiang-ai",
+    "path": "C:\\Users\\Administrator\\.codex\\skills\\jiang-ai\\SKILL.md",
+    "exists": true,
+    "sha256": "e4f642c3a4f36d23237896aafc4848ba6f6404649616eb0b15480c105fa005e8",
+    "matches_record": true
+  },
+  {
+    "name": "aigc-reduce",
+    "path": "C:\\Users\\Administrator\\.codex\\skills\\aigc-reduce\\SKILL.md",
+    "exists": true,
+    "sha256": "56d416ee88b80d1eabbbfc4342df522ff1fcb79bbae7c359b581b80216aaf892",
+    "matches_record": true
+  }
+]
