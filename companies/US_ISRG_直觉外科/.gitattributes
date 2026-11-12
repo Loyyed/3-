@@ -10,3 +10,9 @@ sources/raw/** -text -diff
 sources/unpacked/** -text -diff
 *.png binary
 *.pdf binary
+
+# Exact bytes for version-bound research artifacts
+work/research09/** -text
+work/valuation/** -text
+work/review-batches/I09-candidates.json -text
+outputs/** -text

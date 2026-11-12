@@ -3,3 +3,9 @@ outputs/** -text
 
 work/review-batches/** -text
 work/research07/** -text
+
+# Exact bytes for version-bound research artifacts
+work/research09/** -text
+work/valuation/** -text
+work/review-batches/I09-candidates.json -text
+outputs/** -text
