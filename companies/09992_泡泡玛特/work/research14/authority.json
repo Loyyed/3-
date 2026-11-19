@@ -1,0 +1,108 @@
+{
+  "at": "2026-11-19T08:31:53.292104+00:00",
+  "actor": "Agent",
+  "history_valid": true,
+  "fact_ids": [],
+  "facts": [],
+  "change_facts": null,
+  "change_facts_note": "公司 ReviewStore 未暴露 change_facts；期变动保持分析计算。",
+  "scoped_prior_count": 13,
+  "prior_candidate_states": {
+    "Unknown": 13
+  },
+  "prior_bindings": [
+    {
+      "id": "B07-A01",
+      "state": "Unknown",
+      "binding": "5879e3c54b2bd719b84b35c0c7a41ab454b0f1bc8b26a3cde7525257cdbb452d",
+      "source_id": "S47095a39c6425b11",
+      "source_sha256": "47095a39c6425b11e5aaa091f456e178498d20a77d4ff6a969e351e4f5dfaaf7"
+    },
+    {
+      "id": "B07-A02",
+      "state": "Unknown",
+      "binding": "eb1302b95c18a111b770211ca94ce8ae03360349b512683ff8bb5e7c6f9cd54c",
+      "source_id": "S47095a39c6425b11",
+      "source_sha256": "47095a39c6425b11e5aaa091f456e178498d20a77d4ff6a969e351e4f5dfaaf7"
+    },
+    {
+      "id": "B07-A03",
+      "state": "Unknown",
+      "binding": "8dbd7bcd8e4c5d574e963fed92cb139f4517b7eed3d0e71951571f3fbb085ce5",
+      "source_id": "S47095a39c6425b11",
+      "source_sha256": "47095a39c6425b11e5aaa091f456e178498d20a77d4ff6a969e351e4f5dfaaf7"
+    },
+    {
+      "id": "B07-A04",
+      "state": "Unknown",
+      "binding": "9260f2573b6ce888033a1421805a5b46bd03a6ee80645500139580ca62f6cf88",
+      "source_id": "S47095a39c6425b11",
+      "source_sha256": "47095a39c6425b11e5aaa091f456e178498d20a77d4ff6a969e351e4f5dfaaf7"
+    },
+    {
+      "id": "B07-A05",
+      "state": "Unknown",
+      "binding": "ba6fe17bd055461637fe81d382fb8044d21fdc6cf1f15fcafc645eaefd079ef3",
+      "source_id": "S47095a39c6425b11",
+      "source_sha256": "47095a39c6425b11e5aaa091f456e178498d20a77d4ff6a969e351e4f5dfaaf7"
+    },
+    {
+      "id": "B07-A06",
+      "state": "Unknown",
+      "binding": "0286cde2c57053ce613664dd4b7247d7674e4f2db938235ae4d86817cec63276",
+      "source_id": "S47095a39c6425b11",
+      "source_sha256": "47095a39c6425b11e5aaa091f456e178498d20a77d4ff6a969e351e4f5dfaaf7"
+    },
+    {
+      "id": "B07-Q01",
+      "state": "Unknown",
+      "binding": "f4a56c4cf9f69c72f7a2252c17ac0cf0c08d8337195ee411166b0e6c33ef5dab",
+      "source_id": "S92234424087f455a",
+      "source_sha256": "92234424087f455a786558f9a9c6c900573392160a63f4720371b07ee3197490"
+    },
+    {
+      "id": "B07-Q02",
+      "state": "Unknown",
+      "binding": "66206ec53704ae7a2955e73641b32346b23f82aa052de74a7a640ded8a18f3c6",
+      "source_id": "S92234424087f455a",
+      "source_sha256": "92234424087f455a786558f9a9c6c900573392160a63f4720371b07ee3197490"
+    },
+    {
+      "id": "B07-Q03",
+      "state": "Unknown",
+      "binding": "0240ea4ef4ed8fc6fb11f65077a58a56bfb7a8073b534291db4ffff9198d3048",
+      "source_id": "S92234424087f455a",
+      "source_sha256": "92234424087f455a786558f9a9c6c900573392160a63f4720371b07ee3197490"
+    },
+    {
+      "id": "B07-Q04",
+      "state": "Unknown",
+      "binding": "5d13638d54e56a644699d42df21fd1628989b71d3787d1c03c9ec1f1be9a1104",
+      "source_id": "S92234424087f455a",
+      "source_sha256": "92234424087f455a786558f9a9c6c900573392160a63f4720371b07ee3197490"
+    },
+    {
+      "id": "B07-Q05",
+      "state": "Unknown",
+      "binding": "967e7f916ca355fa82f4b00cd03d81346827be158bdfc2dde3cfcc2acd03681e",
+      "source_id": "S92234424087f455a",
+      "source_sha256": "92234424087f455a786558f9a9c6c900573392160a63f4720371b07ee3197490"
+    },
+    {
+      "id": "B07-Q06",
+      "state": "Unknown",
+      "binding": "8b0c9cd849b01fe21b1452afce0fd6ace124423c831180859ed022639a5f08cf",
+      "source_id": "S92234424087f455a",
+      "source_sha256": "92234424087f455a786558f9a9c6c900573392160a63f4720371b07ee3197490"
+    },
+    {
+      "id": "B07-Q07",
+      "state": "Unknown",
+      "binding": "706dd6b0a82d7cc4375b187588a256eb667196d5e11870cae688a40f03438863",
+      "source_id": "S92234424087f455a",
+      "source_sha256": "92234424087f455a786558f9a9c6c900573392160a63f4720371b07ee3197490"
+    }
+  ],
+  "human_confirmation": null,
+  "analyst_note": "读取原权威账本及当前来源绑定。未向账本写入。"
+}

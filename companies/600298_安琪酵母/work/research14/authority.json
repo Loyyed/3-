@@ -1,0 +1,101 @@
+{
+  "at": "2026-11-19T08:31:50.822603+00:00",
+  "actor": "Agent",
+  "history_valid": true,
+  "fact_ids": [],
+  "facts": [],
+  "change_facts": null,
+  "change_facts_note": "公司 ReviewStore 未暴露 change_facts；期变动保持分析计算。",
+  "scoped_prior_count": 12,
+  "prior_candidate_states": {
+    "Unknown": 12
+  },
+  "prior_bindings": [
+    {
+      "id": "B07-A01",
+      "state": "Unknown",
+      "binding": "a5528b9f98d1c924f9f9c1a0b8102cdbff9aefe2a21f9a328aa30323fc8ef917",
+      "source_id": "600298-a14b53fefcfc0356",
+      "source_sha256": "7bee6f0f30a5da24746dd431f1947f15c8189fa9fbf5db75df4d3ba3c512c800"
+    },
+    {
+      "id": "B07-A02",
+      "state": "Unknown",
+      "binding": "eeadb88ad916ce02f57ce7d550edbd80dc792aa066a8e8ec3cfc8a68cd3a5c7a",
+      "source_id": "600298-a14b53fefcfc0356",
+      "source_sha256": "7bee6f0f30a5da24746dd431f1947f15c8189fa9fbf5db75df4d3ba3c512c800"
+    },
+    {
+      "id": "B07-A03",
+      "state": "Unknown",
+      "binding": "b701a862aba13d89974ae4b577c32ba3ac2b615f568dd39110ae2a2b65cfe230",
+      "source_id": "600298-a14b53fefcfc0356",
+      "source_sha256": "7bee6f0f30a5da24746dd431f1947f15c8189fa9fbf5db75df4d3ba3c512c800"
+    },
+    {
+      "id": "B07-A04",
+      "state": "Unknown",
+      "binding": "345b35ec9f4f0b7c6afe0b84e90fcd634d8f40fd7fa95facffddcf47d0f9bca5",
+      "source_id": "600298-a14b53fefcfc0356",
+      "source_sha256": "7bee6f0f30a5da24746dd431f1947f15c8189fa9fbf5db75df4d3ba3c512c800"
+    },
+    {
+      "id": "B07-A05",
+      "state": "Unknown",
+      "binding": "ba538f75d44631d492b792e7013d78246485616141cf93797a1a3811476309cb",
+      "source_id": "600298-a14b53fefcfc0356",
+      "source_sha256": "7bee6f0f30a5da24746dd431f1947f15c8189fa9fbf5db75df4d3ba3c512c800"
+    },
+    {
+      "id": "B07-A06",
+      "state": "Unknown",
+      "binding": "0bd1789fc60197015a974f11d68b306d87fe8582d168c707d495eb24f4165c6e",
+      "source_id": "600298-a14b53fefcfc0356",
+      "source_sha256": "7bee6f0f30a5da24746dd431f1947f15c8189fa9fbf5db75df4d3ba3c512c800"
+    },
+    {
+      "id": "B07-Q01",
+      "state": "Unknown",
+      "binding": "2576d64e8a3db4c929c660b7ae714047990226476f639d67f52de88ff9ff1478",
+      "source_id": "600298-5c763f656754f15e",
+      "source_sha256": "f4739d889d29da1a9744f1fb9428f75f6e6331572031b3de1daec550113f59d1"
+    },
+    {
+      "id": "B07-Q02",
+      "state": "Unknown",
+      "binding": "928a8b5f13979d78aa7f94ad770d8dcbf81a9fcb0465f2c3780bf4071a0adb65",
+      "source_id": "600298-5c763f656754f15e",
+      "source_sha256": "f4739d889d29da1a9744f1fb9428f75f6e6331572031b3de1daec550113f59d1"
+    },
+    {
+      "id": "B07-Q03",
+      "state": "Unknown",
+      "binding": "a4c42b8ccb947731cb1fe4e417b2f4ac5f9100251bde2408454cdd364c4b8f51",
+      "source_id": "600298-5c763f656754f15e",
+      "source_sha256": "f4739d889d29da1a9744f1fb9428f75f6e6331572031b3de1daec550113f59d1"
+    },
+    {
+      "id": "B07-Q04",
+      "state": "Unknown",
+      "binding": "c50f6f040197bfdf6deb1aa7a34e2029aff8035abba62d228c3db778a4c6b672",
+      "source_id": "600298-5c763f656754f15e",
+      "source_sha256": "f4739d889d29da1a9744f1fb9428f75f6e6331572031b3de1daec550113f59d1"
+    },
+    {
+      "id": "B07-Q05",
+      "state": "Unknown",
+      "binding": "a9a1e25ce45c812402385c3c45fc1ab07bdce106c0ac701234bb6a3da8ee7cf1",
+      "source_id": "600298-5c763f656754f15e",
+      "source_sha256": "f4739d889d29da1a9744f1fb9428f75f6e6331572031b3de1daec550113f59d1"
+    },
+    {
+      "id": "B07-Q06",
+      "state": "Unknown",
+      "binding": "e6200fde1a3e8324bcef22bb1af1a243986c735001c4fd36287d133b8f574d80",
+      "source_id": "600298-5c763f656754f15e",
+      "source_sha256": "f4739d889d29da1a9744f1fb9428f75f6e6331572031b3de1daec550113f59d1"
+    }
+  ],
+  "human_confirmation": null,
+  "analyst_note": "读取原权威账本及当前来源绑定。未向账本写入。"
+}

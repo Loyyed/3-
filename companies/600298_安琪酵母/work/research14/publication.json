@@ -1,0 +1,194 @@
+{
+  "id": "O73a0676c809b",
+  "group": "research-report",
+  "title": "安琪酵母 · 证券分析研究稿（2026-11-12）",
+  "kind": "报告草稿",
+  "version": 12,
+  "at": "2026-11-19T08:31:51.141028+00:00",
+  "actor": "Agent/test-or-api",
+  "actual_user_review": null,
+  "historical": false,
+  "bindings": {
+    "selection_ids": [
+      "R21f6d6590f9f",
+      "R2660b3bfa732",
+      "R29373d7bc0f1",
+      "R6911ffac3797",
+      "Ra9f2c23c0275",
+      "Rc307bcec6202",
+      "Rd60b7456dc65",
+      "Re0aacfad8631"
+    ],
+    "selection_scope": "all-eight-lanes",
+    "cards": {
+      "R6911ffac3797": "8545db159b5f17f7757cc937f1c4eabc6c7a4ff04efc0ba62a1b9a0d7b6579f8",
+      "Re0aacfad8631": "f77d4c68411e9cc59037a8b62c7f24c5815a9026d894a27da6bce05b0fd82d96",
+      "Ra9f2c23c0275": "8e156d142c5d73b2b829491518b6b8215a5433337b6947da795dc854aeebea6d",
+      "Rc307bcec6202": "9e6444d216c560391d00cb29bbf30f9d63b176a86b0bef480d2553d2fb7d7731",
+      "R29373d7bc0f1": "e0caadf9b1086be6880eca1a438ed33d05c402864783962f7e0dc8819323940e",
+      "R2660b3bfa732": "9b890e2d40dbf64fb7fadb95cf020c83d167f3c53b2e2f865941552dbaf95915",
+      "R21f6d6590f9f": "abecf68398243b20a1dcc082d440ec9896394e285ec5e575491cbf3642fca7f7",
+      "Rd60b7456dc65": "6c0b737110c4e5511d1d2d90bf626b9577683ecf981c5d7476c1a8ec1d930f2a"
+    },
+    "methods": [
+      {
+        "id": "K03",
+        "version": 1
+      },
+      {
+        "id": "K11",
+        "version": 1
+      },
+      {
+        "id": "E03",
+        "version": 1
+      },
+      {
+        "id": "E06",
+        "version": 1
+      },
+      {
+        "id": "K46",
+        "version": 1
+      },
+      {
+        "id": "K52",
+        "version": 1
+      },
+      {
+        "id": "K63",
+        "version": 1
+      },
+      {
+        "id": "K48",
+        "version": 1
+      },
+      {
+        "id": "K50",
+        "version": 1
+      },
+      {
+        "id": "K54",
+        "version": 1
+      },
+      {
+        "id": "K55",
+        "version": 1
+      },
+      {
+        "id": "K58",
+        "version": 1
+      },
+      {
+        "id": "K59",
+        "version": 1
+      },
+      {
+        "id": "U9f5b99589fb5",
+        "version": 1
+      },
+      {
+        "id": "U5e3323f8fafd",
+        "version": 1
+      },
+      {
+        "id": "Ub03f1d7c6cec",
+        "version": 1
+      }
+    ],
+    "inputs": {
+      "work/research14/calculation.json": "0d14f6277f83db0d180b9631011447652853c7239e5ed152f8ecf10ec6c5034c",
+      "work/research14/inputs.json": "71dfe6c72b6a025de608b1558e4c40144564f6d981bcdd07cceed26eb821d472",
+      "work/research14/valuation.csv": "61d9486899209659348fc1d5c57b51f41dc291afcda46dd4ef1c45be2f1eb4a9",
+      "work/research14/market.json": "5b5913e7ffddb169fb5873b84c1a683a78f4a0d06db11e53f72b6abe8058d628",
+      "work/research14/corrections.json": "5ebfde5f5e505659045e88ed4d5bd6cafc53892edc5a148d1116835016fab4b4",
+      "work/research14/review-batch.json": "f5234dbaff0586d2223a5edd54e834575054224eebd8031af1d7d7dd1aecf5ed",
+      "work/research14/authority.json": "e3b3d169cb632cc51e7d7f5fdffdcdb75bfe0fcf6230999a336c2bc37575cdc2",
+      "work/research14/review-batch.html": "1e206799f9205a115633585cb987c825a1c8e0754e144b11f68b2f9b4a7c0088",
+      "work/research12/calculation.json": "6a2f2df52e887eb7bcdaf8e8cb17b7609b3ae32895a635e5760f5944f91558f3",
+      "work/research12/forecast-input.json": "be48da9beb2452cb599964bf90268f8caa187988c00ab8bee87ebba4d7deb33b",
+      "work/research12/source-data.json": "3ea9287476fd7f1809d4b7f09ab564be10abf941339f49d5d93502457a765a15",
+      "work/research12/original-batch-audit.json": "60c6297092e1250b54a31ba71a03001d76b27bb4b560d83c5332e2d6afc1921d",
+      "work/research12/comparability.json": "bd794012c278f2da53ac53af0b40af3c6b5f7eb36ba7092e9d92e523876d06a9",
+      "work/research12/claim-review.json": "253b0d0da4310769e2ef54cfa51e31a636d13e6f126f43de328e532e5b25d3d8",
+      "work/research12/coverage-and-gaps.json": "3a50299c83e1731713fb1f130826db60e514ca55218ae8955d13dc7f98738979",
+      "work/valuation/index.json": "b5855ba8f1999bdb1bbadfeed49c324a459c68545465afd0207134801f3d0850",
+      "work/valuation/v1-V2cc086959eb0.json": "675da54b224ad8421abf826241a5011fa56bc798af58f5b6134f808089cc7de8",
+      "work/writing/reader.json": "16ecd7a72308c82e5f2161a1fbb9b3a3aca9195720fcc92b5057b1730b77b732"
+    },
+    "sources": [
+      {
+        "id": "600298-d5b6bb897b9dc0d3",
+        "path": "sources/raw/01_年报/2025-08-15_安琪酵母股份有限公司2025年半年度报告_1224486290.pdf",
+        "sha256": "d1fd851febf46edfce4cb4a301dbf88af68227796e79d078e39ecb1da6419145"
+      },
+      {
+        "id": "600298-174439da1375f513",
+        "path": "sources/raw/01_年报/2024-03-19_安琪酵母股份有限公司2023年年度报告_1219331681.pdf",
+        "sha256": "a155225d4d63153d916fb1dee854bba75b8d5c0352a7738d4eaf926454528308"
+      },
+      {
+        "id": "600298-48dbfbb4962cfdb9",
+        "path": "sources/raw/01_年报/2026-08-15_安琪酵母股份有限公司2026年半年度报告_1225474683.pdf",
+        "sha256": "5a4940bc351e4d8c4c222857f896065044c944d7d9d149c1ccf598fb44bc968b"
+      },
+      {
+        "id": "600298-e14665c0175d59df",
+        "path": "sources/raw/01_年报/2025-04-10_安琪酵母股份有限公司2024年年度报告_1223046779.pdf",
+        "sha256": "9bf55c16321d41dc6ba7a7b980dfad4a76f291cdba5fb0bd447433028de31f46"
+      },
+      {
+        "id": "600298-5c763f656754f15e",
+        "path": "sources/raw/02_定期报告与经营数据/2026-10-30_安琪酵母股份有限公司2026年第三季度报告_1225641080.pdf",
+        "sha256": "f4739d889d29da1a9744f1fb9428f75f6e6331572031b3de1daec550113f59d1"
+      },
+      {
+        "id": "600298-7a9cbdaf728861fa",
+        "path": "sources/raw/02_定期报告与经营数据/2025-10-30_安琪酵母股份有限公司2025年第三季度报告_1224759133.pdf",
+        "sha256": "05deb79b5ce1807d0d507a1759c78289dd6644d7ff1566513e52fb79211a89eb"
+      },
+      {
+        "id": "600298-a14b53fefcfc0356",
+        "path": "sources/raw/01_年报/2026-03-31_安琪酵母股份有限公司2025年年度报告_1225056953.pdf",
+        "sha256": "7bee6f0f30a5da24746dd431f1947f15c8189fa9fbf5db75df4d3ba3c512c800"
+      }
+    ],
+    "shared_dependencies": {
+      "shared/runtime/companybench/valuation_chain.py": "0155df03fa6ff2dd86a6a4c92f51f277f88e1edd45bfd972d191796276ac23ca",
+      "shared/runtime/companybench/research_depth.py": "bb364cd41336a0d3fe62d0d0663f7e8557570aeff2d201c21517259ae1404a41",
+      "scripts/recalculate_valuation.py": "711a5a9c153a834a2c28d133d24b0aec0cd93153c0baa4f1358a8b22ef4cc727",
+      "docs/投研写作规范.md": "e4cf87afffc67976148eab1d4f2aba00056a5825ba0c7ac64d7ccab1122cfb60",
+      "shared/writing-skills.json": "cad001177fa60de41d782dfbdb8d3ffbfa1ffb81a959472130c85925b6d2ab2a",
+      "app/writing.py": "083ceb8239ce4c1f76b50ead42c52d2e73068d6a564f25f6f288eb4697e947d8",
+      "docs/analysis-preparation/writing-v2.md": "0feef00ee9ab2355d700d2aa9f3c3782947237ad4a5b69135a8974960a25572d",
+      "docs/analysis-preparation/author-brief.md": "156f8c78f139bb14fa4540888ba928414fe41f8f22e1f65731b505c23b2c26d1",
+      "docs/analysis-preparation/writing-skills-v2.json": "cf15176ab7ac878fe6c07d6160fee0b3b998207e88f97b0e932fd45448fdcf26",
+      "scripts/recalculate_research12.py": "86555de90ecba93866e5d0c05dd7521237fd0d5f3628a56eeca9b556e7e1015f",
+      "scripts/recalculate_research14.py": "6efb538a9d3a3646cbeb773224831d76162b6457c93e55a303159c3b84657f6f",
+      "scripts/publish_research14.py": "ed77b0ebbc60e80c5f3741a5b5f0b9636857ef5fcf97e3848761203bb88fc676",
+      "docs/research14-market-series.json": "43bbf24015e29bdeba8d8622b5ef474ae6829c66f1b43e5af513cba8f06dd2ab"
+    }
+  },
+  "files": [
+    {
+      "path": "outputs/research-report/v12-O73a0676c809b/basis.json",
+      "format": "json",
+      "sha256": "aa5a74e2b065b17759a1df94ac005c3a2712f0fe08570cea240c0c8b8774454c",
+      "bytes": 510865
+    },
+    {
+      "path": "outputs/research-report/v12-O73a0676c809b/report.html",
+      "format": "html",
+      "sha256": "53c39952a8a5ba9fab87b5393e25bda03688fb5cb67f8759d005dafac01707fd",
+      "bytes": 15693
+    },
+    {
+      "path": "outputs/research-report/v12-O73a0676c809b/report.md",
+      "format": "md",
+      "sha256": "3489347e0fe723632b1e1fbef06595070b3c3d794c536cb3c114337223a5c0b7",
+      "bytes": 13140
+    }
+  ],
+  "needs_review": false,
+  "imported": false
+}

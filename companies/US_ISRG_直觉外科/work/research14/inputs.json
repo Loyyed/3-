@@ -1,0 +1,139 @@
+{
+  "security": {
+    "ticker": "ISRG",
+    "exchange": "NASDAQ Global Select Market",
+    "right": "普通股，每股面值0.001美元",
+    "quote": "USD",
+    "report": "USD",
+    "shares": 346643718,
+    "fx": 1,
+    "close": "2026-11-12T16:00:00-05:00",
+    "shares_basis": "10-Q封面2026-10-15流通在外346,643,718，收盘日前可用股数代理；期间回购可能改变实际。9月季稀释加权EPS股数不作估值分母。",
+    "shares_at": "2026-10-15"
+  },
+  "price_cross": "https://chartexchange.com/symbol/nasdaq-isrg/historical/",
+  "cash": [
+    2978.1,
+    3822.3,
+    0,
+    0,
+    0,
+    131.6,
+    0
+  ],
+  "reserve": [
+    1150,
+    1600,
+    800
+  ],
+  "nci_mult": [
+    1.6,
+    2,
+    1.3
+  ],
+  "other_wc": [
+    0.02,
+    0.04,
+    0.008
+  ],
+  "finance_rate": 0,
+  "share_range": [
+    344500000,
+    347500000
+  ],
+  "revenue_early": "2026-YTD9",
+  "paths": [
+    [
+      0.102,
+      0.03,
+      0.355,
+      0.23,
+      0.009,
+      0.18
+    ],
+    [
+      0.06,
+      0.022,
+      0.29,
+      0.15,
+      0.019,
+      0.22
+    ],
+    [
+      0.135,
+      0.035,
+      0.4,
+      0.29,
+      0.003,
+      0.16
+    ]
+  ],
+  "valuation_risk": "每例耗材变现受延长使用次数、定价、地区和项目结构影响；低价租赁可拉动手术量也会占用设备投资。FDA许可给医院增加选择，无法替代比较用量、价格和临床范围。",
+  "governance": "代理声明披露首席高管2025年目标长期股权支付采用50%绩效单位和50%限制股。2026年前三季普通股回购现金4,419.2百万美元；股权支付留在经营利润，回购与股数时点另列。需根据授予、注销和购股持续性检查股东分得的现金。",
+  "operating": "医院购买系统或租用并为每例耗材及维护付费。前三季收入8,711.8，较上年增加1,513.3百万美元。报告营业利润2,419.8，加入已入账的450.0和解费用后，同口径经营利润2,869.8。经营现金3,197.0包含其他负债调节631.8；库存转设备670.5属于非现金重分类，现金购建329.0，两者用于不同的现金桥。",
+  "proof": "器械使用次数延长和净价下行会压缩每例收入。固定术式组合且相关每例收入降4%时，相关术量须增4.17%才能恢复同额收入。2026年9月末da Vinci经营租赁基数3,555套，年前比较3,115套；FDA授予Hugo、Versius许可只支持新增选择，接下来需要实际装机份额、术式和合同付款条件。",
+  "missing": "采购/经营租赁新装机比例和每套现金制造成本、按术式与地区的耗材量和净收入、库存转设备资产类别、和解法院批准/支付/税务和收盘日正式股数。",
+  "peers": [
+    [
+      "MDT Medtronic",
+      "Hugo有FDA许可，但机器人独立收入、投入及普通股权利未分拆。集团倍数排除。"
+    ],
+    [
+      "SYK Stryker",
+      "Mako适应证与骨科植入绑定，手术量及耗材范围不可直接比。"
+    ],
+    [
+      "CMR Surgical（非上市）",
+      "Versius提供产品竞争边界，没有同日公开普通股交易倍数。"
+    ]
+  ],
+  "review": [
+    "revenue",
+    "tax_expense",
+    "cash_recon_inventory",
+    "receivable",
+    "inventory",
+    "payable",
+    "advance",
+    "recon_sbc"
+  ],
+  "correction": [
+    {
+      "field": "2025/2024年度合并应收净额，USD百万",
+      "old": "29.9 / 30.7（坏账准备）",
+      "new": "1,527.3 / 1,225.4（资产负债表两期净额）",
+      "impact": "2025/2024经营余额子集从1,108.1/855.7改为2,605.5/2,050.4；2026年9月差额423.3。阶段12预测保留原版，只有新版现金桥估算使用纠正后的起点。",
+      "loc": "Se7f95d2f97642180 Consolidated Balance Sheets，Accounts receivable行及2025/2024列"
+    }
+  ],
+  "rates": {
+    "rf": 0.0498,
+    "rf_source": "https://home.treasury.gov/resource-center/data-chart-center/interest-rates/TextView?type=daily_treasury_yield_curve&field_tdr_date_value_month=202611",
+    "rf_basis": "用11月10日10年期国债4.98%，11月11日无该日发布。11月12日5.10%另作可获时间敏感性，基准不依赖财政部当日网页发布时间。",
+    "erp": 0.0441,
+    "erp_source": "https://pages.stern.nyu.edu/~adamodar/New_Home_Page/home.htm",
+    "erp_basis": "Damodaran 11月1日追踪的调整支付口径隐含ERP。"
+  },
+  "finance_basis": "不假设新金融杠杆；经营租约另在经营现金处理。",
+  "reserve_basis": "用不可自由分配的营运现金和资产风险折扣情景。现金储备为分析假设，不作为受限现金披露。少数权利账面余额乘条件倍数，为无独立市场价时的代理。",
+  "capital_cases": [
+    "base",
+    "stress",
+    "improve"
+  ],
+  "external": [
+    {
+      "key": "sec_proxy",
+      "url": "https://www.sec.gov/Archives/edgar/data/1035267/000103526726000023/isrg-20260313.htm",
+      "bytes": 1795002,
+      "sha256": "aa4d77e1ddf1c75286bfa45302fb7b96467d974f9acb635f37c284f4a2627742"
+    },
+    {
+      "key": "treasury",
+      "url": "https://home.treasury.gov/resource-center/data-chart-center/interest-rates/TextView?type=daily_treasury_yield_curve&field_tdr_date_value_month=202611",
+      "bytes": 200238,
+      "sha256": "b7ff3e8e3052338f4bd4be6edd7f903452c256ccf8f9bda127b22a3205340113"
+    }
+  ],
+  "valuation_source_locators": "10-Q Consolidated Balance Sheets及Note 3，短长投资并入可变现金。Note 10和解仍需法院程序；PV单独列，不计入经营EBIT或一般债务。其他负债631.8包含多种调节。"
+}

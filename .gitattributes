@@ -6,3 +6,7 @@ shared/skills/** -text
 shared/templates/** -text
 companies/*/work/research09/** -text
 companies/*/work/valuation/** -text
+companies/*/work/research14/** -text
+docs/research14-market-series.json -text
+scripts/recalculate_research14.py -text
+scripts/publish_research14.py -text

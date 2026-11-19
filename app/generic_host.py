@@ -20,7 +20,7 @@ def start(root,kit,port):
  class Handler(Base):
   def send(self,data,*args,**kwargs):
    if self.path.split('?')[0]=='/' and isinstance(data,str):
-    data=data.replace('最终展示图册</a></nav>','最终展示图册</a><a href="/preparation/">完整证券分析准备</a></nav>')
+    data=data.replace('最终展示图册</a></nav>','最终展示图册</a><a href="/preparation/">完整证券分析准备</a><a href="/security-analysis/">五家公司证券分析</a></nav>')
     data=data.replace('</body>','<script nonce="'+server.workbench_token+'" src="/assets/project-adapter.js"></script></body>')
    return super().send(data,*args,**kwargs)
   def do_GET(self):
@@ -32,14 +32,31 @@ def start(root,kit,port):
    if route.path.startswith('/preparation/'):
     from preparation import serve
     return serve(self,root,route.path,mapping,server.workbench_token)
+   if route.path=='/security-analysis/':
+    import html,re
+    from urllib.parse import urlencode
+    page=root/'docs/research14-index.html'
+    if not page.is_file():
+     return self.send({'error':'证券分析尚无已发布研究稿'},404)
+    def company_preview(match):
+     cid,rel=map(html.unescape,match.groups())
+     key=next(k for k,v in mapping.items() if v==cid)
+     query=urlencode({'project':key,'path':rel})
+     return '<a href="/api/project-preview?'+html.escape(query,quote=True)+'"'
+    content=re.sub(r'<a href="[^"]+" data-company="([^"]+)" data-path="([^"]+)"',
+                   company_preview,page.read_text(encoding='utf-8'))
+    return self.send(content,content='text/html; charset=utf-8')
    if route.path=='/knowledge':
     self.send_response(302);self.send_header('Location','/#library');self.end_headers();return
    if route.path in ['/api/project-download','/api/project-preview']:
     try:
      from companybench.core import contained
      base=engine.companies()[mapping[q['project'][0]]];rel=q['path'][0]
-     research_page=rel in {'work/research12/index.html','work/research12/review-batch.html'} and route.path.endswith('preview')
-     forecast_csv=rel=='work/research12/forecast.csv' and route.path.endswith('download')
+     research_stages=('work/research12/','work/research14/')
+     research_pages={stage+name for stage in research_stages for name in ('index.html','review-batch.html')}
+     research_models={'work/research12/forecast.csv','work/research14/valuation.csv'}
+     research_page=rel in research_pages and route.path.endswith('preview')
+     forecast_csv=rel in research_models and route.path.endswith('download')
      assert rel.startswith('outputs/') or research_page or forecast_csv,'仅允许成果和已发布研究入口'
      path=contained(base,rel);assert path.is_file()
      if route.path.endswith('preview') and path.suffix=='.html':
@@ -51,7 +68,8 @@ def start(root,kit,port):
        def local_link(match):
         target=urlsplit(html.unescape(match.group(1)))
         resolved=(path.parent/target.path).resolve().relative_to(base).as_posix()
-        endpoint='/api/project-preview' if resolved.endswith('.html') and (resolved.startswith('outputs/') or resolved.startswith('work/research12/')) else '/api/project-download' if resolved=='work/research12/forecast.csv' else '/file'
+        report_page=resolved.endswith('.html') and resolved.startswith('outputs/')
+        endpoint='/api/project-preview' if report_page or resolved in research_pages else '/api/project-download' if resolved in research_models else '/file'
         url=endpoint+'?'+urlencode({'project':q['project'][0],'path':resolved})
         if target.fragment:url+='#'+target.fragment
         return 'href="'+html.escape(url,quote=True)+'"'
@@ -77,6 +95,7 @@ def start(root,kit,port):
      key=q['project'][0];cid=mapping[key];value=engine.state();value['selected_company']=cid;value['connection_map']=mapping
      for company in value['companies']:
       company['core_analysis']=(engine.companies()[company['id']]/'work/research12/index.html').is_file()
+      company['securities_analysis']=(engine.companies()[company['id']]/'work/research14/index.html').is_file()
      return self.send(value)
     except Exception as e:return self.send({'error':str(e)},400)
    return super().do_GET()

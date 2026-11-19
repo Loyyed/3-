@@ -1011,7 +1011,7 @@
       "at": "2026-11-19T07:06:46.546414+00:00",
       "actor": "Agent/test-or-api",
       "actual_user_review": null,
-      "historical": false,
+      "historical": true,
       "bindings": {
         "selection_ids": [
           "R14c10b3a792a",
@@ -1155,6 +1155,190 @@
           "format": "md",
           "sha256": "346f3b22213c63b0845c0143ee6a106af1c7d6e8130e6fcc35f336380b3d7c13",
           "bytes": 10011
+        }
+      ],
+      "needs_review": true,
+      "imported": false,
+      "impact_reasons": [
+        "输入文件变化:work/writing/reader.json"
+      ],
+      "file_integrity": true
+    },
+    {
+      "id": "O46100da26684",
+      "group": "research-report",
+      "title": "泡泡玛特 · 证券分析研究稿（2026-11-12）",
+      "kind": "报告草稿",
+      "version": 10,
+      "at": "2026-11-19T08:31:53.544900+00:00",
+      "actor": "Agent/test-or-api",
+      "actual_user_review": null,
+      "historical": false,
+      "bindings": {
+        "selection_ids": [
+          "R14c10b3a792a",
+          "R58b870a4ee64",
+          "R7bfc89d395aa",
+          "R7d8112e87a58",
+          "R8c387d2da2f6",
+          "Ra42a6324bb1c",
+          "Rad6660d577af",
+          "Rbd733d44d823"
+        ],
+        "selection_scope": "all-eight-lanes",
+        "cards": {
+          "R7d8112e87a58": "f7e47d4bf93015e974cb55309d7ef81b2f881a35e32fe81f1b4dd3f95a6e83b3",
+          "R7bfc89d395aa": "8f371e25657df89f58635f8e26baf57c5dbeee5da1bfe2e0d58019e5c0cf2774",
+          "R58b870a4ee64": "091ff1bf84a445ee9c17f478980efabf4be0e8d65d97b0c774c6e8baea2f4a23",
+          "Rad6660d577af": "9f6e0f28805502d235919fca97e3c346e217313b008808dbf73e1102440f34b3",
+          "R8c387d2da2f6": "ae4fabc89a8cef3bb8148675d280ba30282a01bfa31ce9887e0f098bc8454356",
+          "R14c10b3a792a": "cd23d6acba45cfa0110cb30506cbb0b4fb4f9920a3fbc93f9d244cf4d84f0bc9",
+          "Rbd733d44d823": "eec6f83e2bbb2dad786c709b5ac43bb52927d80cec965ac48d57c844b3be4389",
+          "Ra42a6324bb1c": "c7ef8570891ecd13cc51d469bfaaf6a6049d94eead307ee27363f297bfb4005c"
+        },
+        "methods": [
+          {
+            "id": "K03",
+            "version": 1
+          },
+          {
+            "id": "K09",
+            "version": 1
+          },
+          {
+            "id": "E04",
+            "version": 1
+          },
+          {
+            "id": "E08",
+            "version": 1
+          },
+          {
+            "id": "K46",
+            "version": 1
+          },
+          {
+            "id": "K52",
+            "version": 1
+          },
+          {
+            "id": "K63",
+            "version": 1
+          },
+          {
+            "id": "K49",
+            "version": 1
+          },
+          {
+            "id": "K53",
+            "version": 1
+          },
+          {
+            "id": "K55",
+            "version": 1
+          },
+          {
+            "id": "K57",
+            "version": 1
+          },
+          {
+            "id": "K59",
+            "version": 1
+          },
+          {
+            "id": "U9f5b99589fb5",
+            "version": 1
+          },
+          {
+            "id": "U5e3323f8fafd",
+            "version": 1
+          },
+          {
+            "id": "Ub03f1d7c6cec",
+            "version": 1
+          }
+        ],
+        "inputs": {
+          "work/research14/calculation.json": "b398914dc5c137d41fa2ac05754911d1f756dfdac998f7176095f0179b4e10f1",
+          "work/research14/inputs.json": "e0f2b9658823d1cd9d488ba1e7fdeb9c2569dbe3b349f72a3090ff9a074e9e53",
+          "work/research14/valuation.csv": "630cb36c136963cc813ef8bc8658b4a317d923111c413b38631af8b09d120fe8",
+          "work/research14/market.json": "2ead2c4faf80f24fb4f3095b91d2d9b6966faf1ffb5413ded297cd71e4b5cbd3",
+          "work/research14/corrections.json": "0f89bb37385e88796f38e6dfe0524c5de538f642a69c2b2358f658bcff8b44f4",
+          "work/research14/review-batch.json": "2baee6f9a1d8a42812d169edffa481aad05a2747d4bc1b9271c2e98b7858ba30",
+          "work/research14/authority.json": "b1c9c3bf1c07b4d1fd46c61b2bade943f32c27afe2fca209f6e1e50aa2087d0b",
+          "work/research14/review-batch.html": "6e18bb418cfad36d93fd13eced57db5fec8eb44686abac5b9c9ef96a70744c23",
+          "work/research12/calculation.json": "4b13a57582c85fa7f16fd51a501f1d36d2276229bc5883550cbbbb793328fe81",
+          "work/research12/forecast-input.json": "86a9242561ec63ee2e692e25ac6791a17c0b7bd92c7c06179dbcc4d57b237aa9",
+          "work/research12/source-data.json": "3dbdbbe707ccdebf807b3e729821bb615093b6b93b572e1e869fea9055fe1d11",
+          "work/research12/original-batch-audit.json": "92f645ee497d246427667af289a311d9b5b8b7a65b0fe203b714038f6ce19a0b",
+          "work/research12/comparability.json": "7c1943d2908193b4622084380a7577d90d5bcc149f9886fb7522cd64a8789312",
+          "work/research12/claim-review.json": "e024ce7518e37a043b2f15dd8098d94e723ef922cd92fcced8eb87e86544c9c6",
+          "work/research12/coverage-and-gaps.json": "9e8f928c71dd3adb8cff48194d9ee3b08674c6d8bd418c493ddca3e3b8eb06d0",
+          "work/valuation/index.json": "9ea379ecae2e3d53d409bc24d3e0a9320ba394cdf5876c1767d43cfc282d8f56",
+          "work/valuation/v1-V641d287771d9.json": "c07916fa7a6f18a11c14b5cd949cf6ab89d16ff5cf7c237d07b52b95c2b70e14",
+          "work/writing/reader.json": "d9256771c2bdf46ce42e718af5f11a6ec7ffc608068456f272f62361df9f9124"
+        },
+        "sources": [
+          {
+            "id": "S92234424087f455a",
+            "path": "sources/raw/S92234424087f455a_2026-10-27_LATEST BUSINESS UPDATE FOR THE THIRD QUARTER OF 2026__2026_c437e22e46.pdf",
+            "sha256": "92234424087f455a786558f9a9c6c900573392160a63f4720371b07ee3197490"
+          },
+          {
+            "id": "S47095a39c6425b11",
+            "path": "sources/raw/S47095a39c6425b11_2026-04-21_ANNUAL REPORT 2025__2025_bd4e173872.pdf",
+            "sha256": "47095a39c6425b11e5aaa091f456e178498d20a77d4ff6a969e351e4f5dfaaf7"
+          },
+          {
+            "id": "S01b68f6b1c14e53d",
+            "path": "sources/raw/S01b68f6b1c14e53d_2026-09-24_2026 INTERIM REPORT_EPORT_3ca5b69bf8.pdf",
+            "sha256": "01b68f6b1c14e53d235bf8cb476d87db1345f00eeeabc10533c820ae00894d44"
+          },
+          {
+            "id": "S9b89a4686ffb5fe8",
+            "path": "sources/raw/S9b89a4686ffb5fe8_2025-04-23_ANNUAL REPORT 2024__2024_976e7e443e.pdf",
+            "sha256": "9b89a4686ffb5fe838abd5ae8df9e7683b1de2019480e112420e49154fcfde19"
+          },
+          {
+            "id": "S1312bd4fec38932f",
+            "path": "sources/raw/S1312bd4fec38932f_披露日期未核_ANNUAL REPORT 2023__2023_c2e4bab1ae.pdf",
+            "sha256": "1312bd4fec38932f30608c7cec35ec19cc31a6cbaccb36aba9efe2b6dc8d6afa"
+          }
+        ],
+        "shared_dependencies": {
+          "shared/runtime/companybench/valuation_chain.py": "0155df03fa6ff2dd86a6a4c92f51f277f88e1edd45bfd972d191796276ac23ca",
+          "shared/runtime/companybench/research_depth.py": "bb364cd41336a0d3fe62d0d0663f7e8557570aeff2d201c21517259ae1404a41",
+          "scripts/recalculate_valuation.py": "711a5a9c153a834a2c28d133d24b0aec0cd93153c0baa4f1358a8b22ef4cc727",
+          "docs/投研写作规范.md": "e4cf87afffc67976148eab1d4f2aba00056a5825ba0c7ac64d7ccab1122cfb60",
+          "shared/writing-skills.json": "cad001177fa60de41d782dfbdb8d3ffbfa1ffb81a959472130c85925b6d2ab2a",
+          "app/writing.py": "083ceb8239ce4c1f76b50ead42c52d2e73068d6a564f25f6f288eb4697e947d8",
+          "docs/analysis-preparation/writing-v2.md": "0feef00ee9ab2355d700d2aa9f3c3782947237ad4a5b69135a8974960a25572d",
+          "docs/analysis-preparation/author-brief.md": "156f8c78f139bb14fa4540888ba928414fe41f8f22e1f65731b505c23b2c26d1",
+          "docs/analysis-preparation/writing-skills-v2.json": "cf15176ab7ac878fe6c07d6160fee0b3b998207e88f97b0e932fd45448fdcf26",
+          "scripts/recalculate_research12.py": "86555de90ecba93866e5d0c05dd7521237fd0d5f3628a56eeca9b556e7e1015f",
+          "scripts/recalculate_research14.py": "6efb538a9d3a3646cbeb773224831d76162b6457c93e55a303159c3b84657f6f",
+          "scripts/publish_research14.py": "ed77b0ebbc60e80c5f3741a5b5f0b9636857ef5fcf97e3848761203bb88fc676",
+          "docs/research14-market-series.json": "43bbf24015e29bdeba8d8622b5ef474ae6829c66f1b43e5af513cba8f06dd2ab"
+        }
+      },
+      "files": [
+        {
+          "path": "outputs/research-report/v10-O46100da26684/basis.json",
+          "format": "json",
+          "sha256": "f673f59daf138449e25c8eb76431cf5e2828ffd063923b8f99204bc636feb75e",
+          "bytes": 365293
+        },
+        {
+          "path": "outputs/research-report/v10-O46100da26684/report.html",
+          "format": "html",
+          "sha256": "f102dc0a52e802b46fa9b006d8634a9659adba2c0f0ab25378576078c00c6b97",
+          "bytes": 14154
+        },
+        {
+          "path": "outputs/research-report/v10-O46100da26684/report.md",
+          "format": "md",
+          "sha256": "4e6d64d448d41b0ba84df798f55e638add2e804fc6e35f80c3fe52edc7f9eb4a",
+          "bytes": 12027
         }
       ],
       "needs_review": false,

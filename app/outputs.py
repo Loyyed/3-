@@ -63,6 +63,15 @@ def perform(e,d,actor):
    if (e.root/rel).is_file():bindings['shared_dependencies'][rel]=sha(contained(e.root,rel))
  if 'work/research12/calculation.json' in d.get('input_paths',[]):
   bindings['shared_dependencies']['scripts/recalculate_research12.py']=sha(e.root/'scripts/recalculate_research12.py')
+ if 'work/research14/calculation.json' in d.get('input_paths',[]):
+  for rel in ['scripts/recalculate_research14.py','scripts/publish_research14.py','docs/research14-market-series.json']:
+   bindings['shared_dependencies'][rel]=sha(contained(e.root,rel))
+ if d.get('supplemental_methods'):
+  methods=current(e)
+  for mid in dict.fromkeys(d['supplemental_methods']):
+   version=methods[mid]['version']
+   if not any(ref['id']==mid and ref['version']==version for ref in bindings['methods']):
+    bindings['methods'].append({'id':mid,'version':version})
  for rel in dict.fromkeys(d.get('input_paths',[])+auto_inputs):
   q=contained(p,rel);assert not rel.startswith(('sources/raw/','evidence/')),'输入应为公司模型或计算文件';assert q.is_file(),'输入不存在';bindings['inputs'][rel]=sha(q)
  sources=load(p/'sources/manifest.json',{'sources':[]})['sources'];wanted=set(d.get('source_ids',[])+[i for c in cards for i in c.get('source_ids',[])])

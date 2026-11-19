@@ -1,0 +1,244 @@
+{
+  "checked_at": "2026-11-19T08:37:33.584Z",
+  "baseline": "d0344cee7cdd45bebf6fea62523f581c7180ddb8",
+  "research_window": "2026-11-12 local close",
+  "model_and_bindings": {
+    "items": [
+      {
+        "company": "002507_涪陵榨菜",
+        "report": "O5c8b8afa91db",
+        "files": 3,
+        "bridges_carried": 3,
+        "forecast_rows_carried": 9,
+        "prior_candidates_current": 12,
+        "facts_read": 0,
+        "extra_review_rows": 8,
+        "conditional_dcf_cases": 3,
+        "per_case_pv_steps": 8
+      },
+      {
+        "company": "600298_安琪酵母",
+        "report": "O73a0676c809b",
+        "files": 3,
+        "bridges_carried": 3,
+        "forecast_rows_carried": 9,
+        "prior_candidates_current": 12,
+        "facts_read": 0,
+        "extra_review_rows": 8,
+        "conditional_dcf_cases": 3,
+        "per_case_pv_steps": 8
+      },
+      {
+        "company": "688188_柏楚电子",
+        "report": "Ofcf794a0bf46",
+        "files": 3,
+        "bridges_carried": 3,
+        "forecast_rows_carried": 9,
+        "prior_candidates_current": 12,
+        "facts_read": 0,
+        "extra_review_rows": 8,
+        "conditional_dcf_cases": 3,
+        "per_case_pv_steps": 8
+      },
+      {
+        "company": "09992_泡泡玛特",
+        "report": "O46100da26684",
+        "files": 3,
+        "bridges_carried": 3,
+        "forecast_rows_carried": 9,
+        "prior_candidates_current": 13,
+        "facts_read": 0,
+        "extra_review_rows": 8,
+        "conditional_dcf_cases": 3,
+        "per_case_pv_steps": 8
+      },
+      {
+        "company": "US_ISRG_直觉外科",
+        "report": "Oa0971dc7d487",
+        "files": 3,
+        "bridges_carried": 4,
+        "forecast_rows_carried": 9,
+        "prior_candidates_current": 55,
+        "facts_read": 0,
+        "extra_review_rows": 8,
+        "conditional_dcf_cases": 3,
+        "per_case_pv_steps": 8
+      }
+    ],
+    "prior_files_compared": 252,
+    "originals_bound_checked": true
+  },
+  "original_fingerprints": {
+    "documented": 1548,
+    "present": 1548,
+    "absent": 0,
+    "changed": [],
+    "matching": 1548,
+    "seconds": 2.094
+  },
+  "browser": {
+    "port": 8794,
+    "currentProcess": 20488,
+    "desktop": [
+      {
+        "company": "002507_涪陵榨菜",
+        "noPageOverflow": true,
+        "modelCSV": true,
+        "reviewRows": 8,
+        "originalStatus": 200,
+        "reportSections": 8,
+        "sourceExpanded": true,
+        "reportVersion": 12,
+        "project": "linked-8fbb89f126bb",
+        "mdDownloaded": true
+      },
+      {
+        "company": "600298_安琪酵母",
+        "noPageOverflow": true,
+        "modelCSV": true,
+        "reviewRows": 8,
+        "originalStatus": 200,
+        "reportSections": 8,
+        "sourceExpanded": true,
+        "reportVersion": 12,
+        "project": "linked-2eb7d20c5bec",
+        "mdDownloaded": true
+      },
+      {
+        "company": "688188_柏楚电子",
+        "noPageOverflow": true,
+        "modelCSV": true,
+        "reviewRows": 8,
+        "originalStatus": 200,
+        "reportSections": 8,
+        "sourceExpanded": true,
+        "reportVersion": 11,
+        "project": "linked-639eb6a35986",
+        "mdDownloaded": true
+      },
+      {
+        "company": "09992_泡泡玛特",
+        "noPageOverflow": true,
+        "modelCSV": true,
+        "reviewRows": 8,
+        "originalStatus": 200,
+        "reportSections": 8,
+        "sourceExpanded": true,
+        "reportVersion": 10,
+        "project": "linked-f639851e7712",
+        "mdDownloaded": true
+      },
+      {
+        "company": "US_ISRG_直觉外科",
+        "noPageOverflow": true,
+        "modelCSV": true,
+        "reviewRows": 8,
+        "originalStatus": 200,
+        "reportSections": 8,
+        "sourceExpanded": true,
+        "reportVersion": 7,
+        "project": "linked-0971004884cd",
+        "mdDownloaded": true
+      }
+    ],
+    "narrow": [
+      {
+        "company": "002507_涪陵榨菜",
+        "noPageOverflow": true,
+        "modelCSV": true,
+        "reviewRows": 8,
+        "originalStatus": 200,
+        "reportSections": 8,
+        "sourceExpanded": true,
+        "reportVersion": 12,
+        "project": "linked-8fbb89f126bb",
+        "mdDownloaded": true
+      },
+      {
+        "company": "600298_安琪酵母",
+        "noPageOverflow": true,
+        "modelCSV": true,
+        "reviewRows": 8,
+        "originalStatus": 200,
+        "reportSections": 8,
+        "sourceExpanded": true,
+        "reportVersion": 12,
+        "project": "linked-2eb7d20c5bec",
+        "mdDownloaded": true
+      },
+      {
+        "company": "688188_柏楚电子",
+        "noPageOverflow": true,
+        "modelCSV": true,
+        "reviewRows": 8,
+        "originalStatus": 200,
+        "reportSections": 8,
+        "sourceExpanded": true,
+        "reportVersion": 11,
+        "project": "linked-639eb6a35986",
+        "mdDownloaded": true
+      },
+      {
+        "company": "09992_泡泡玛特",
+        "noPageOverflow": true,
+        "modelCSV": true,
+        "reviewRows": 8,
+        "originalStatus": 200,
+        "reportSections": 8,
+        "sourceExpanded": true,
+        "reportVersion": 10,
+        "project": "linked-f639851e7712",
+        "mdDownloaded": true
+      },
+      {
+        "company": "US_ISRG_直觉外科",
+        "noPageOverflow": true,
+        "modelCSV": true,
+        "reviewRows": 8,
+        "originalStatus": 200,
+        "reportSections": 8,
+        "sourceExpanded": true,
+        "reportVersion": 7,
+        "project": "linked-0971004884cd",
+        "mdDownloaded": true
+      }
+    ],
+    "at": "2026-11-19T08:33:38.356Z"
+  },
+  "remaining": [
+    "同口径独立可比样本不足，使用条件倍数与DCF。",
+    "等真实用户的原数、口径和观点答复，五家无新Fact。",
+    "经营现金所得税、完整经营营运资本与同日现金尚有估计项；每家模型列原因。"
+  ],
+  "generic_company_switch": [
+    {
+      "company": "002507_涪陵榨菜",
+      "realGenericReportPanel": true,
+      "project": "linked-8fbb89f126bb"
+    },
+    {
+      "company": "600298_安琪酵母",
+      "realGenericReportPanel": true,
+      "project": "linked-2eb7d20c5bec"
+    },
+    {
+      "company": "688188_柏楚电子",
+      "realGenericReportPanel": true,
+      "project": "linked-639eb6a35986"
+    },
+    {
+      "company": "09992_泡泡玛特",
+      "realGenericReportPanel": true,
+      "project": "linked-f639851e7712"
+    },
+    {
+      "company": "US_ISRG_直觉外科",
+      "realGenericReportPanel": true,
+      "project": "linked-0971004884cd"
+    },
+    {
+      "id": "R12-FIRST-8",
+      "originalRows": 8
+    }
+  ]
+}
