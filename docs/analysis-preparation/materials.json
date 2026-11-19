@@ -1,0 +1,137 @@
+{
+  "learned_on": "2026-11-19",
+  "company_information_cutoff": "2026-11-12",
+  "items": [
+    {
+      "key": "visual",
+      "relative_path": "补充材料8/Anthropic 美学要点.html",
+      "actual_path": "D:/投资学/课件与任务文件/补充材料8/Anthropic 美学要点.html",
+      "type": "html",
+      "version": "content-sha256",
+      "modified_at": "2026-11-18T10:43:15.943Z",
+      "sha256": "4fad2734b72c7c9c860d72672e3844cd81058ba27b9cf944100d4a673086c9dd",
+      "bytes": 36091,
+      "role": "设计参考",
+      "status": "参考或原始指令",
+      "reading": "30节正文、内嵌CSS和SVG、details/页内导航、移动及打印规则；离线浏览器",
+      "teacher_approved": null
+    },
+    {
+      "key": "relative",
+      "relative_path": "补充材料8/lec05_叙事与估值_part6.md",
+      "actual_path": "D:/投资学/课件与任务文件/补充材料8/lec05_叙事与估值_part6.md",
+      "type": "md",
+      "version": "2026-11-18",
+      "modified_at": "2026-11-18T10:35:20.020Z",
+      "sha256": "8bac7aa82382b3cccfbd759517fe6eccc70f583dad909475553a32bae8501664",
+      "bytes": 100250,
+      "role": "待教师审核讲义 / 含虚构教学数据",
+      "status": "待教师审核",
+      "reading": "全文：8.1—8.16、公式1—13、脚注及引用",
+      "teacher_approved": null
+    },
+    {
+      "key": "writing",
+      "relative_path": "补充材料8/新要求提示词.txt",
+      "actual_path": "D:/投资学/课件与任务文件/补充材料8/新要求提示词.txt",
+      "type": "txt",
+      "version": "content-sha256",
+      "modified_at": "2026-11-18T10:34:17.957Z",
+      "sha256": "303b4b5e8343889be7403359acd8a387be68b387cecf6ee5450ba69c9c8c3768",
+      "bytes": 64,
+      "role": "用户写作指令",
+      "status": "参考或原始指令",
+      "reading": "全文",
+      "teacher_approved": null
+    },
+    {
+      "key": "assessment",
+      "relative_path": "补充材料8/课程考核与结课要求.md",
+      "actual_path": "D:/投资学/课件与任务文件/补充材料8/课程考核与结课要求.md",
+      "type": "md",
+      "version": "2026-11-18",
+      "modified_at": "2026-11-18T10:34:53.605Z",
+      "sha256": "3909d6493d404f1ca5e6e4bc40d45e70427d6e915408f2782b636e9391db54fb",
+      "bytes": 4199,
+      "role": "待教师审核的课程考核稿",
+      "status": "draft-for-instructor-review",
+      "reading": "全文",
+      "teacher_approved": null
+    }
+  ],
+  "companion_refs": [
+    {
+      "files": "lec05_叙事与估值_part5.md 与同目录 README.md",
+      "status": "未取得。已查补充8/6/7、合同登记、课件和任务文件及已知方法工作区的相关名称",
+      "effect": "Part6 自带独立数据，足以学习和复算；补原件可完善课件连贯导航"
+    },
+    {
+      "files": "lec05_叙事与估值_part2.md",
+      "status": "精确相邻路径缺。已有补充材料6/lec05_叙事与估值_part2_更新.md 与补充材料4/V1027版本，沿用已登记的概念范围",
+      "effect": "不假定同指纹或同版本"
+    },
+    {
+      "files": "逐页提示词30份、生成脚本、六张参考图及更早的原有页面",
+      "status": "四件材料中未附，在已知材料入口未找到",
+      "effect": "本册30页无需伴随附件即可浏览。外部图/原脚本的复现未验"
+    }
+  ],
+  "external_refs": [
+    {
+      "url": "https://emweb.eastmoney.com/f10_v2/OperationsRequired.aspx",
+      "role": "讲义外部转引，本轮未独立核现行版本"
+    },
+    {
+      "url": "https://quant.10jqka.com.cn/view/dataplatform/detail/345",
+      "role": "讲义外部转引，本轮未独立核现行版本"
+    },
+    {
+      "url": "https://www.msci.com/indexes/documents/methodology/0_MSCI_Fundamental_Data_Methodology_20240625.pdf",
+      "role": "讲义外部转引，本轮未独立核现行版本"
+    },
+    {
+      "url": "https://indexes.morningstar.com/api/docs/6849ce94af1830472be6f203",
+      "role": "讲义外部转引，本轮未独立核现行版本"
+    },
+    {
+      "url": "https://pages.stern.nyu.edu/~adamodar/New_Home_Page/lectures/peg.htm",
+      "role": "讲义外部转引，本轮未独立核现行版本"
+    },
+    {
+      "url": "https://pages.stern.nyu.edu/~adamodar/pdfiles/papers/earnmult.pdf",
+      "role": "讲义外部转引，本轮未独立核现行版本"
+    },
+    {
+      "url": "https://pages.stern.nyu.edu/~adamodar/pdfiles/valrisk/ch5.pdf",
+      "role": "讲义外部转引，本轮未独立核现行版本"
+    },
+    {
+      "url": "https://pages.stern.nyu.edu/adamodar/New_Home_Page/littlebook/terminalvalue.htm",
+      "role": "讲义外部转引，本轮未独立核现行版本"
+    },
+    {
+      "url": "https://pages.stern.nyu.edu/~adamodar/pdfiles/papers/finfirm.pdf",
+      "role": "讲义外部转引，本轮未独立核现行版本"
+    },
+    {
+      "url": "https://pages.stern.nyu.edu/~adamodar/podcasts/valUGspr24/session22slides.pdf#page=33",
+      "role": "讲义外部转引，本轮未独立核现行版本"
+    },
+    {
+      "url": "https://pages.stern.nyu.edu/~adamodar/podcasts/valUGspr24/session22slides.pdf#page=15",
+      "role": "讲义外部转引，本轮未独立核现行版本"
+    },
+    {
+      "url": "https://pages.stern.nyu.edu/~adamodar/pdfiles/eqnotes/narrative%26numbers.pdf#page=20",
+      "role": "讲义外部转引，本轮未独立核现行版本"
+    },
+    {
+      "url": "https://github.com/anthropics/skills/blob/main/skills/brand-guidelines/SKILL.md",
+      "role": "设计参考原HTML所引 [A] 或 [G]；未声明现行官方规则"
+    },
+    {
+      "url": "https://github.com/op7418/guizang-social-card-skill",
+      "role": "设计参考原HTML所引 [A] 或 [G]；未声明现行官方规则"
+    }
+  ]
+}

@@ -1,0 +1,49 @@
+<!doctype html><html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>美学参考的30页应用</title><style>:root{--paper:#EFEAE0;--card:#E5DFD2;--ink:#1A1A1A;--body:#484139;--accent:#9B4A2D;--terracotta:#CD6F47;--rule:#81786A;--sage:#BDCEC0;--serif:Georgia, "Songti SC", "Noto Serif CJK SC", "Source Han Serif SC", SimSun, serif;--mono:"JetBrains Mono", Consolas, ui-monospace, monospace;--size:17px;--line:1.7;--width:1100px;--measure:42em;--radius:10px}*{box-sizing:border-box}
+html{color-scheme:light}
+body{margin:0;background:var(--paper);color:var(--ink);font:var(--size)/var(--line) var(--serif);overflow-wrap:anywhere}
+main{width:min(var(--width),calc(100% - 2rem));margin:auto;padding:2rem 0 4rem}
+p,li{max-width:var(--measure)}
+h1,h2,h3{line-height:1.22}
+h1{font-size:clamp(2rem,5.5vw,3.65rem);margin:.5em 0 .35em}
+h2{font-size:clamp(1.45rem,3vw,2.1rem)}
+section{border-top:1px solid var(--rule);padding:1.1rem 0 1.8rem}
+a{color:var(--accent);text-underline-offset:.2em}
+nav{display:flex;flex-wrap:wrap;gap:.4rem 1.2rem;margin:1rem 0}
+small,.muted{color:var(--body)}
+.tag,.num{font:inherit;font-family:var(--mono);font-variant-numeric:tabular-nums}
+.tag{font-size:.82em}
+:focus-visible{outline:3px solid var(--accent);outline-offset:3px}
+.scroll{max-width:100%;overflow:auto;margin:1rem 0}
+table{border-collapse:collapse;width:100%;min-width:37rem}
+td,th{text-align:left;vertical-align:top;padding:.45rem .7rem;border-bottom:1px solid var(--rule)}
+th{font-size:.87em;background:var(--card)}
+input,select,button,textarea{font:inherit;padding:.35rem;color:var(--ink);background:#fffdf7;border:1px solid var(--rule);border-radius:4px}
+label.control{display:block;margin:.55rem 0}
+label.control :is(select,input){display:block;width:min(100%,34rem)}
+.panel{padding:1rem 1.2rem;background:var(--card);border-radius:var(--radius)}
+.dark{background:var(--ink);color:var(--paper)}
+.chart{margin:1rem 0;max-width:38rem}
+.mark{background:var(--terracotta);color:var(--ink);min-width:2rem;padding:.2rem .45rem}
+.mark.forecast{background:var(--sage);border:2px dashed var(--ink)}
+.empty{border:1px dashed var(--rule);padding:1.1rem}
+figure{margin:1rem 0}
+caption{text-align:left}
+.compact table{min-width:0}
+figcaption{margin-top:.45rem}
+details{margin:.8rem 0}
+summary{cursor:pointer}
+pre{white-space:pre-wrap;line-height:1.5}
+@media(max-width:480px){main{width:calc(100% - 1.5rem);padding:1rem 0 2rem}.panel{padding:.8rem}}
+@media print{
+ @page{size:A4;margin:14mm}
+ body{background:white;color:#1a1a1a;font-size:11pt;print-color-adjust:exact;-webkit-print-color-adjust:exact}
+ main{width:100%;max-width:none;padding:0}
+ nav,.screen-only{display:none}
+ h1,h2,h3{break-after:avoid}
+ .scroll{overflow:visible}
+ table{min-width:0;font-size:10pt}
+ tr,figure,.panel{break-inside:avoid}
+ thead{display:table-header-group}
+ .print-break{break-before:page}
+}
+</style></head><body><main><header><span class="tag">内部准备 · 2026-11-19</span><h1>美学参考的30页应用</h1></header><a href="index.html">返回准备台</a><p>[A] 原文所引官方资料。 [R] 原文所称用户参考图。 [G] 所引借鉴。 [D] 原册实现。无现行品牌认证。</p><div class="scroll" tabindex="0" role="region" aria-label="可横向滚动表格"><table><thead><tr><th scope="col">页</th><th scope="col">原标题</th><th scope="col">原文出处标记</th><th scope="col">本工程实现</th></tr></thead><tbody><tr><td>1</td><td>Anthropic 美学要点</td><td>本册说明</td><td>纸感及行距支持阅读，封面导语可折行</td></tr><tr><td>2</td><td>先建立一条阅读线</td><td>本册说明</td><td>先交代阅读路线</td></tr><tr><td>3</td><td>把来源说清楚</td><td>[A] [R] [G] [D]</td><td>分开官方引用、参考图、借鉴与作者实现</td></tr><tr><td>4</td><td>底色先像一张纸</td><td>[R] [D]</td><td>暖纸底色和细线保持连续</td></tr><tr><td>5</td><td>两套色板，各有出处</td><td>[A] [R]</td><td>参考色与原文所引官方色分别标注</td></tr><tr><td>6</td><td>强调色只点到关键词</td><td>[D]</td><td>陶土仅用于强调重点词</td></tr><tr><td>7</td><td>绿色让辅助信息退后</td><td>[R] [D]</td><td>辅助背景用浅绿，小字用深色</td></tr><tr><td>8</td><td>先清楚，再柔和</td><td>本册说明</td><td>文字与颜色共同标识分类；测实际对比</td></tr><tr><td>9</td><td>三种字，三种职责</td><td>[A] [R]</td><td>宋体正文、稳定的数字等宽标签</td></tr><tr><td>10</td><td>中文标题，按词组落行</td><td>[D] [G]</td><td>中文语义断行，省去合成斜体</td></tr><tr><td>11</td><td>英文保留书页气质</td><td>[A] [D]</td><td>英文Georgia离线回退</td></tr><tr><td>12</td><td>等宽字，负责定位</td><td>[R] [D]</td><td>等宽用于短标签、数字与代码</td></tr><tr><td>13</td><td>字号形成三个台阶</td><td>本册说明</td><td>标题、正文、标签三层</td></tr><tr><td>14</td><td>行长和行距一起调</td><td>本册说明</td><td>正文17px附近、行高1.7并控制行长</td></tr><tr><td>15</td><td>留白是内容之间的距离</td><td>本册说明</td><td>按信息关系设置组内与组间距</td></tr><tr><td>16</td><td>先找到一条左边线</td><td>本册说明</td><td>表、正文、标题与页码共享对齐轴</td></tr><tr><td>17</td><td>一页只留一个重心</td><td>[G] [D]</td><td>一屏一个经营问题</td></tr><tr><td>18</td><td>深色卡片，留给重点</td><td>[R] [D]</td><td>少量深色块承载重点</td></tr><tr><td>19</td><td>圆角小一点，边界轻一点</td><td>本册说明</td><td>相关内容单层，限制嵌套</td></tr><tr><td>20</td><td>细线只做分隔</td><td>本册说明</td><td>细线用于分组和表格行</td></tr><tr><td>21</td><td>图形只解释真实关系</td><td>本册说明</td><td>流程仅表示实际顺序；图形按数据关系选</td></tr><tr><td>22</td><td>比较时，先统一尺度</td><td>本册说明</td><td>比较统一尺度及单位</td></tr><tr><td>23</td><td>数字需要单位与解释</td><td>本册说明</td><td>数字标字段、期间、口径与来源</td></tr><tr><td>24</td><td>插图可以像页边手记</td><td>本册说明</td><td>插图解释对象而非填空</td></tr><tr><td>25</td><td>纸感主要来自颜色与文字</td><td>[R] [D]</td><td>以颜色与字形构成纸感，可无纹理</td></tr><tr><td>26</td><td>文案也要克制</td><td>本册说明</td><td>明确经营行动者、动作、结果</td></tr><tr><td>27</td><td>在手机上，先保证好读</td><td>本册说明</td><td>移动单栏、正文折行、可键盘访问</td></tr><tr><td>28</td><td>从三种版式开始</td><td>[G] [D]</td><td>主张、对照、账页三种版式按内容选</td></tr><tr><td>29</td><td>把做法写进提示词</td><td>本册说明</td><td>把对象、阅读场景和验收写入作者提示</td></tr><tr><td>30</td><td>带着来源，继续使用</td><td>[A] [G] [R] [D]</td><td>出处分级、桌面、窄屏和打印验收</td></tr></tbody></table></div></main></body></html>

@@ -1,0 +1,178 @@
+[
+  {
+    "section": "8.1",
+    "title": "相对估值与内在估值回答的问题不同",
+    "learned": "DCF与相对定价",
+    "inputs": "价格、同权现金流、比较期、风险",
+    "formula_and_scope": "同口径比较市场倍数与内在估算；同业定价只作横向参照",
+    "example": "8.12 20倍对30倍",
+    "existing": "K05 K07 K63",
+    "adoption": "市场/模型边界",
+    "future_question": "先定研究目的和价格基准"
+  },
+  {
+    "section": "8.2",
+    "title": "选择可比公司的四个步骤",
+    "learned": "可比选择",
+    "inputs": "商业模式、客户/地区、阶段、毛利、ROIC、风险",
+    "formula_and_scope": "先定义权利→按业务筛选→统一口径统计→解释差异；少样本用分组",
+    "example": "8.16 甲至丁与甲乙",
+    "existing": "K09 K12 K15",
+    "adoption": "可比组与有效样本",
+    "future_question": "候选入/退样理由"
+  },
+  {
+    "section": "8.3",
+    "title": "估值倍数的分子与分母应如何匹配",
+    "learned": "市场EV、股权和范围",
+    "inputs": "各普通股类别、期末股数、债务、优先、少数、富余现金、投资资产",
+    "formula_and_scope": "市值=Σ价格×同类全部普通股；EV=市值+债务+优先+少数−可扣现金−非经营；与分母匹配",
+    "example": "同市值800对应6/11.7；含少数10.5",
+    "existing": "K05 K11 K57 E09",
+    "adoption": "市场/模型边界",
+    "future_question": "股权类别、EV附件及去重"
+  },
+  {
+    "section": "8.4",
+    "title": "分母财务指标的所属期间与异常值处理",
+    "learned": "期间、异常与聚合",
+    "inputs": "估值日、披露/预测时点、财年、币种、样本股数权重",
+    "formula_and_scope": "LYR最近已披露财年；TTM连续实际四季；NTM未来12月；前瞻明确期间；年化另列。聚合ΣaM/ΣaE",
+    "example": "100/2=50、100/5=20；8.16 聚合",
+    "existing": "K12 K22 K33",
+    "adoption": "可比组与有效样本",
+    "future_question": "挂原报、正常化、前瞻和排除记录"
+  },
+  {
+    "section": "8.5",
+    "title": "P/E：基本面影响因素与适用边界",
+    "learned": "P/E",
+    "inputs": "普通股利润/EPS、期末与加权股数、股利、ke、g、期初普通股ROE",
+    "formula_and_scope": "稳态正盈利、股份不变且g<ke；下一年PE=q/(ke−g)，基期乘(1+g)，同ROE留存支持时q=1−g/ROE",
+    "example": "每股24，12/12.6倍；周期8/20倍",
+    "existing": "K07 K09 K10",
+    "adoption": "倍数基本面与隐含要求",
+    "future_question": "普通股盈利质量与分红/回购"
+  },
+  {
+    "section": "8.6",
+    "title": "P/B：基本面影响因素与适用边界",
+    "learned": "P/B",
+    "inputs": "估值日、账面普通股权益、期初ROE、g、ke、OCI与稀释",
+    "formula_and_scope": "清洁盈余、账面正权益、g<ke；PB=(ROE−g)/(ke−g)",
+    "example": "银行1.67/0.50倍",
+    "existing": "K10 K12",
+    "adoption": "倍数基本面与隐含要求",
+    "future_question": "区分无形资本、减值及账面价值"
+  },
+  {
+    "section": "8.7",
+    "title": "P/S 与 EV/Sales：基本面影响因素与适用边界",
+    "learned": "P/S和EV/Sales",
+    "inputs": "同范围收入与归母净利率/税后经营利润率、净再投资、WACC",
+    "formula_and_scope": "PS=PE×普通股净利率；稳态EV/Sales=mNOPAT(1−g/newROIC)/(WACC−g)，0≤g<min(WACC,newROIC)",
+    "example": "1.2倍；稳态1.25/0.83倍；总额/净额0.5/5倍",
+    "existing": "K04 K05 K48 K50 K54",
+    "adoption": "倍数基本面与隐含要求",
+    "future_question": "收入确认、净变现与再投资"
+  },
+  {
+    "section": "8.8",
+    "title": "EV/EBITDA 与 EV/EBIT：基本面影响因素与适用边界",
+    "learned": "EV/EBITDA和EV/EBIT",
+    "inputs": "同范围EBIT、已扣D&A、现金税、资本支出、NCWC、租赁/SBC",
+    "formula_and_scope": "EBITDA=EBIT+D&A；FCFF=EBITDA−经营现金税−CapEx−ΔNCWC（无其他项时）；租金与租赁债务成对处理",
+    "example": "反转9/6与10/12倍；租赁10→9倍",
+    "existing": "K50 K53 K58 E07 E09",
+    "adoption": "市场/模型边界",
+    "future_question": "现金桥和租赁/激励对照"
+  },
+  {
+    "section": "8.9",
+    "title": "PEG：计算方法、基本面影响因素与适用边界",
+    "learned": "PEG",
+    "inputs": "PE基期、预测期末EPS、时间长度、增长率%单位、风险",
+    "formula_and_scope": "EPS正时CAGR=(EPSn/EPS0)^(1/n)−1；PEG除以100g；增长非正或近零时判适用",
+    "example": "30/30=1与18/12=1.5；稳态2.4/1.2",
+    "existing": "K07 K22",
+    "adoption": "倍数基本面与隐含要求",
+    "future_question": "持久性和稀释放在筛选后"
+  },
+  {
+    "section": "8.10",
+    "title": "风险与增长：如何解释估值倍数的差异",
+    "learned": "风险与增长",
+    "inputs": "各情景现金、能支持的概率、资本成本、增长持续期与新增回报",
+    "formula_and_scope": "预期损失进入期望现金流；折现匹配风险。增长用g/newROIC重算投入，超额回报逐渐衰减",
+    "example": "EV/EBIT 11.67/8.75/15；回报=WACC均10",
+    "existing": "K04 K13 K23 K48 K51 K59-62",
+    "adoption": "倍数基本面与隐含要求",
+    "future_question": "具体风险、资本与替代情景"
+  },
+  {
+    "section": "8.11",
+    "title": "分部加总估值：从各项业务价值到集团普通股权益价值",
+    "learned": "SOTP",
+    "inputs": "分部运营/权益价值、集团持股、总部费用、抵销、现金和各资本权利",
+    "formula_and_scope": "经营价值先调融资到权益；直接估值金融权益按归属计，不再扣该分部融资；总部费用只扣一次",
+    "example": "两业务840，总部现值100，权益590，每股5.9",
+    "existing": "K05 K11 K53 K57 E09",
+    "adoption": "分部权利归属",
+    "future_question": "独立分部现金与集团加减桥"
+  },
+  {
+    "section": "8.12",
+    "title": "估值倍数的常见误判及其分析方法",
+    "learned": "常见误判",
+    "inputs": "行业/历史基准、正常化利润、预测时序、现金用途",
+    "formula_and_scope": "同业折价=(1−市场倍数/参照倍数)；上行=价值/价−1；安全边际=(价值−价)/价值；回报计时间和分配",
+    "example": "同业差33.3%；正常化10→20倍；4年EPS CAGR 25.7%；EV/EBITDA 8→10",
+    "existing": "K07 K09 K11 K63",
+    "adoption": "可比组与有效样本",
+    "future_question": "风险、预期回报与证据边界"
+  },
+  {
+    "section": "8.13",
+    "title": "商业叙事如何转化为合理的估值倍数",
+    "learned": "叙事到倍数",
+    "inputs": "成交价、留存、维护费用、项目资本投入与回报",
+    "formula_and_scope": "证据→变量→经营/资本模型→条件倍数；对照解释差异，不重复加品牌溢价",
+    "example": "1.00→1.371428…倍",
+    "existing": "K15 K46 K48 K52 E02",
+    "adoption": "倍数基本面与隐含要求",
+    "future_question": "催化剂与可证伪参数"
+  },
+  {
+    "section": "8.14",
+    "title": "估值倍数分析的22项检查",
+    "learned": "22项检查",
+    "inputs": "范围、时点、指标、比较组、现金、情景与结论",
+    "formula_and_scope": "逐条可适用或不适用；写明理由、证据、责任人和结论影响",
+    "example": "五公司空登记、适用性建议",
+    "existing": "K12 K19 K40 E09",
+    "adoption": "22项检查工作表",
+    "future_question": "估值准备与正式复核"
+  },
+  {
+    "section": "8.15",
+    "title": "价格隐含预期：反推经营要求并检验其可实现性",
+    "learned": "价格隐含预期",
+    "inputs": "同业务市场倍数、g、资本成本、新增回报、实际正常化基准",
+    "formula_and_scope": "m=EV/Sales×(WACC−g)/(1−g/newROIC)，ROE=g+PB×(ke−g)，回代并检验经营可达性",
+    "example": "14.4%及12/16.8%；反推ROE15%",
+    "existing": "K08 K46 K51 K63",
+    "adoption": "倍数基本面与隐含要求",
+    "future_question": "把同一价格反解为可跟踪的条件"
+  },
+  {
+    "section": "8.16",
+    "title": "综合练习：估值倍数的计算、应用与解释",
+    "learned": "综合练习",
+    "inputs": "六家虚构数据、同权10亿股、税后调整、参考组",
+    "formula_and_scope": "保留戊的NM和入组合亏损；中位数、聚合、改组及EV到普通股桥独立核对",
+    "example": "8.16全表；学生笔算及另一复核者待填",
+    "existing": "K12 K22 K40",
+    "adoption": "四条新方法联合调用",
+    "future_question": "教学复算与人审签核入口"
+  }
+]

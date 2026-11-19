@@ -1,0 +1,106 @@
+<!doctype html><html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>估值准备的22项检查</title><style>:root{--paper:#EFEAE0;--card:#E5DFD2;--ink:#1A1A1A;--body:#484139;--accent:#9B4A2D;--terracotta:#CD6F47;--rule:#81786A;--sage:#BDCEC0;--serif:Georgia, "Songti SC", "Noto Serif CJK SC", "Source Han Serif SC", SimSun, serif;--mono:"JetBrains Mono", Consolas, ui-monospace, monospace;--size:17px;--line:1.7;--width:1100px;--measure:42em;--radius:10px}*{box-sizing:border-box}
+html{color-scheme:light}
+body{margin:0;background:var(--paper);color:var(--ink);font:var(--size)/var(--line) var(--serif);overflow-wrap:anywhere}
+main{width:min(var(--width),calc(100% - 2rem));margin:auto;padding:2rem 0 4rem}
+p,li{max-width:var(--measure)}
+h1,h2,h3{line-height:1.22}
+h1{font-size:clamp(2rem,5.5vw,3.65rem);margin:.5em 0 .35em}
+h2{font-size:clamp(1.45rem,3vw,2.1rem)}
+section{border-top:1px solid var(--rule);padding:1.1rem 0 1.8rem}
+a{color:var(--accent);text-underline-offset:.2em}
+nav{display:flex;flex-wrap:wrap;gap:.4rem 1.2rem;margin:1rem 0}
+small,.muted{color:var(--body)}
+.tag,.num{font:inherit;font-family:var(--mono);font-variant-numeric:tabular-nums}
+.tag{font-size:.82em}
+:focus-visible{outline:3px solid var(--accent);outline-offset:3px}
+.scroll{max-width:100%;overflow:auto;margin:1rem 0}
+table{border-collapse:collapse;width:100%;min-width:37rem}
+td,th{text-align:left;vertical-align:top;padding:.45rem .7rem;border-bottom:1px solid var(--rule)}
+th{font-size:.87em;background:var(--card)}
+input,select,button,textarea{font:inherit;padding:.35rem;color:var(--ink);background:#fffdf7;border:1px solid var(--rule);border-radius:4px}
+label.control{display:block;margin:.55rem 0}
+label.control :is(select,input){display:block;width:min(100%,34rem)}
+.panel{padding:1rem 1.2rem;background:var(--card);border-radius:var(--radius)}
+.dark{background:var(--ink);color:var(--paper)}
+.chart{margin:1rem 0;max-width:38rem}
+.mark{background:var(--terracotta);color:var(--ink);min-width:2rem;padding:.2rem .45rem}
+.mark.forecast{background:var(--sage);border:2px dashed var(--ink)}
+.empty{border:1px dashed var(--rule);padding:1.1rem}
+figure{margin:1rem 0}
+caption{text-align:left}
+.compact table{min-width:0}
+figcaption{margin-top:.45rem}
+details{margin:.8rem 0}
+summary{cursor:pointer}
+pre{white-space:pre-wrap;line-height:1.5}
+@media(max-width:480px){main{width:calc(100% - 1.5rem);padding:1rem 0 2rem}.panel{padding:.8rem}}
+@media print{
+ @page{size:A4;margin:14mm}
+ body{background:white;color:#1a1a1a;font-size:11pt;print-color-adjust:exact;-webkit-print-color-adjust:exact}
+ main{width:100%;max-width:none;padding:0}
+ nav,.screen-only{display:none}
+ h1,h2,h3{break-after:avoid}
+ .scroll{overflow:visible}
+ table{min-width:0;font-size:10pt}
+ tr,figure,.panel{break-inside:avoid}
+ thead{display:table-header-group}
+ .print-break{break-before:page}
+}
+</style></head><body><main><header><span class="tag">内部准备 · 2026-11-19</span><h1>估值准备的22项检查</h1></header><a href="index.html">返回准备台</a><p>每家公司可单独填写临时草稿。下载本地 JSON 后可重开。</p><div id="valuation-checklist"><label class="control">公司<select id="check-company"><option value="002507_涪陵榨菜">002507_涪陵榨菜</option><option value="600298_安琪酵母">600298_安琪酵母</option><option value="688188_柏楚电子">688188_柏楚电子</option><option value="09992_泡泡玛特">09992_泡泡玛特</option><option value="US_ISRG_直觉外科">US_ISRG_直觉外科</option></select></label><div class="scroll" tabindex="0" role="region" aria-label="22项检查表"><table><thead><tr><th>项目</th><th>条件</th><th>适用性</th><th>理由</th></tr></thead><tbody><tr data-check="1"><th scope="row">1 估值对象</th><td>标普通股或经营资产，选择相应倍数</td><td><select aria-label="估值对象适用性"><option value="">未决定</option><option value="applicable">适用</option><option value="not-applicable">不适用</option></select></td><td><input aria-label="估值对象理由"></td></tr><tr data-check="2"><th scope="row">2 分子与分母</th><td>匹配权利、业务、币种</td><td><select aria-label="分子与分母适用性"><option value="">未决定</option><option value="applicable">适用</option><option value="not-applicable">不适用</option></select></td><td><input aria-label="分子与分母理由"></td></tr><tr data-check="3"><th scope="row">3 市场与模型</th><td>并列市场定价与模型价值</td><td><select aria-label="市场与模型适用性"><option value="">未决定</option><option value="applicable">适用</option><option value="not-applicable">不适用</option></select></td><td><input aria-label="市场与模型理由"></td></tr><tr data-check="4"><th scope="row">4 指标定义</th><td>服务商指标和调整可追源</td><td><select aria-label="指标定义适用性"><option value="">未决定</option><option value="applicable">适用</option><option value="not-applicable">不适用</option></select></td><td><input aria-label="指标定义理由"></td></tr><tr data-check="5"><th scope="row">5 所属期间</th><td>明确实际/预测及日期范围</td><td><select aria-label="所属期间适用性"><option value="">未决定</option><option value="applicable">适用</option><option value="not-applicable">不适用</option></select></td><td><input aria-label="所属期间理由"></td></tr><tr data-check="6"><th scope="row">6 可获时间</th><td>估值日早于披露的数据不得倒填</td><td><select aria-label="可获时间适用性"><option value="">未决定</option><option value="applicable">适用</option><option value="not-applicable">不适用</option></select></td><td><input aria-label="可获时间理由"></td></tr><tr data-check="7"><th scope="row">7 可比选择</th><td>根据业务、客户、成长和风险先筛</td><td><select aria-label="可比选择适用性"><option value="">未决定</option><option value="applicable">适用</option><option value="not-applicable">不适用</option></select></td><td><input aria-label="可比选择理由"></td></tr><tr data-check="8"><th scope="row">8 会计口径</th><td>统一总额净额、一次性、租赁、股份支付</td><td><select aria-label="会计口径适用性"><option value="">未决定</option><option value="applicable">适用</option><option value="not-applicable">不适用</option></select></td><td><input aria-label="会计口径理由"></td></tr><tr data-check="9"><th scope="row">9 异常与适用性</th><td>分列亏损、零/近零、负EV和缺件</td><td><select aria-label="异常与适用性适用性"><option value="">未决定</option><option value="applicable">适用</option><option value="not-applicable">不适用</option></select></td><td><input aria-label="异常与适用性理由"></td></tr><tr data-check="10"><th scope="row">10 样本分布</th><td>总数、有效、排除、分位及异常原因</td><td><select aria-label="样本分布适用性"><option value="">未决定</option><option value="applicable">适用</option><option value="not-applicable">不适用</option></select></td><td><input aria-label="样本分布理由"></td></tr><tr data-check="11"><th scope="row">11 聚合市盈率</th><td>标所纳股数及加权市值/利润</td><td><select aria-label="聚合市盈率适用性"><option value="">未决定</option><option value="applicable">适用</option><option value="not-applicable">不适用</option></select></td><td><input aria-label="聚合市盈率理由"></td></tr><tr data-check="12"><th scope="row">12 市盈率</th><td>检查增长、ROE、分配与风险</td><td><select aria-label="市盈率适用性"><option value="">未决定</option><option value="applicable">适用</option><option value="not-applicable">不适用</option></select></td><td><input aria-label="市盈率理由"></td></tr><tr data-check="13"><th scope="row">13 市净率</th><td>检查账面质量、ROE和股权资本成本</td><td><select aria-label="市净率适用性"><option value="">未决定</option><option value="applicable">适用</option><option value="not-applicable">不适用</option></select></td><td><input aria-label="市净率理由"></td></tr><tr data-check="14"><th scope="row">14 市销率</th><td>检查普通股盈利、总额法和融资</td><td><select aria-label="市销率适用性"><option value="">未决定</option><option value="applicable">适用</option><option value="not-applicable">不适用</option></select></td><td><input aria-label="市销率理由"></td></tr><tr data-check="15"><th scope="row">15 EV/Sales</th><td>检查经营利润率、新增回报与WACC</td><td><select aria-label="EV/Sales适用性"><option value="">未决定</option><option value="applicable">适用</option><option value="not-applicable">不适用</option></select></td><td><input aria-label="EV/Sales理由"></td></tr><tr data-check="16"><th scope="row">16 EV/EBIT(D)A</th><td>租赁、维持资本、D&amp;A与现金税配对</td><td><select aria-label="EV/EBIT(D)A适用性"><option value="">未决定</option><option value="applicable">适用</option><option value="not-applicable">不适用</option></select></td><td><input aria-label="EV/EBIT(D)A理由"></td></tr><tr data-check="17"><th scope="row">17 PEG</th><td>起止年、每股口径、百分数及持续期</td><td><select aria-label="PEG适用性"><option value="">未决定</option><option value="applicable">适用</option><option value="not-applicable">不适用</option></select></td><td><input aria-label="PEG理由"></td></tr><tr data-check="18"><th scope="row">18 增长和资本</th><td>投入与新增回报、阶段与折现相连</td><td><select aria-label="增长和资本适用性"><option value="">未决定</option><option value="applicable">适用</option><option value="not-applicable">不适用</option></select></td><td><input aria-label="增长和资本理由"></td></tr><tr data-check="19"><th scope="row">19 参考倍数</th><td>组的采用与溢折价记录依据</td><td><select aria-label="参考倍数适用性"><option value="">未决定</option><option value="applicable">适用</option><option value="not-applicable">不适用</option></select></td><td><input aria-label="参考倍数理由"></td></tr><tr data-check="20"><th scope="row">20 SOTP</th><td>独立业务、内部抵销、总部费用及集团权益</td><td><select aria-label="SOTP适用性"><option value="">未决定</option><option value="applicable">适用</option><option value="not-applicable">不适用</option></select></td><td><input aria-label="SOTP理由"></td></tr><tr data-check="21"><th scope="row">21 叙事与参数</th><td>一条主张对到原证据、驱动和反证</td><td><select aria-label="叙事与参数适用性"><option value="">未决定</option><option value="applicable">适用</option><option value="not-applicable">不适用</option></select></td><td><input aria-label="叙事与参数理由"></td></tr><tr data-check="22"><th scope="row">22 结论及触发</th><td>情景敏感性、可证伪条件、后续更新动作</td><td><select aria-label="结论及触发适用性"><option value="">未决定</option><option value="applicable">适用</option><option value="not-applicable">不适用</option></select></td><td><input aria-label="结论及触发理由"></td></tr></tbody></table></div></div><button id="save-checks" type="button">下载本地草稿</button><label class="control">打开本地草稿<input id="load-checks" type="file" accept=".json,application/json"></label><p id="check-status" role="status"></p></main><script>const form = document.querySelector('#valuation-checklist');
+const company = document.querySelector('#check-company');
+const status = document.querySelector('#check-status');
+const drafts = new Map();
+function snapshot() {
+  return [...form.querySelectorAll('tr[data-check]')].map(row => ({
+    id: Number(row.dataset.check),
+    selection: row.querySelector('select').value || null,
+    reason: row.querySelector('input').value.trim() || null
+  }));
+}
+function restore(items = []) {
+  for (const row of form.querySelectorAll('tr[data-check]')) {
+    const entry = items.find(x => x.id === Number(row.dataset.check));
+    row.querySelector('select').value = entry?.selection || '';
+    row.querySelector('input').value = entry?.reason || '';
+  }
+}
+let active = company.value;
+company.addEventListener('change', () => {
+  drafts.set(active, snapshot());
+  active = company.value;
+  restore(drafts.get(active));
+  status.textContent = '';
+});
+document.querySelector('#save-checks').addEventListener('click', () => {
+  const checks = snapshot();
+  if (checks.some(x => x.selection === 'not-applicable' && !x.reason)) {
+    status.textContent = '请给每项不适用填写理由。';
+    return;
+  }
+  const object = {schema_version:1, company:active, status:'准备草稿，待真实复核', checks, reviewer:null};
+  const url = URL.createObjectURL(new Blob([JSON.stringify(object,null,2)],{type:'application/json'}));
+  const link = document.createElement('a');
+  link.href = url;
+  link.download = 'valuation-preparation.json';
+  link.click();
+  setTimeout(() => URL.revokeObjectURL(url),1000);
+  status.textContent = '已下载本地准备草稿。';
+});
+document.querySelector('#load-checks').addEventListener('change', async event => {
+  try {
+    const value = JSON.parse(await event.target.files[0].text());
+    if (value.schema_version !== 1 || ![...company.options].some(x=>x.value===value.company) ||
+        !Array.isArray(value.checks) || value.checks.length!==22 ||
+        new Set(value.checks.map(item=>item.id)).size!==22 ||
+        value.checks.some(item=>!Number.isInteger(item.id)||item.id<1||item.id>22||
+          ![null,'applicable','not-applicable'].includes(item.selection)||
+          ![null,'string'].includes(item.reason===null?null:typeof item.reason))) throw Error();
+    drafts.set(active,snapshot());
+    company.value = active = value.company;
+    restore(value.checks);
+    status.textContent = '已打开本地准备草稿。';
+  } catch {
+    status.textContent = '文件不符合准备台草稿格式。';
+  } finally { event.target.value = ''; }
+});
+</script></body></html>

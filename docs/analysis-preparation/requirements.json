@@ -1,0 +1,141 @@
+{
+  "document": "补充材料8/课程考核与结课要求.md",
+  "document_sha256": "3909d6493d404f1ca5e6e4bc40d45e70427d6e915408f2782b636e9391db54fb",
+  "version": "2026-11-18 draft-for-instructor-review",
+  "teacher_approval": null,
+  "due_inclusive": "2026-12-02",
+  "group_size": [
+    3,
+    5
+  ],
+  "report_pages": 40,
+  "main_subject": null,
+  "rows": [
+    {
+      "item": "截止与提交",
+      "source": "§一 首段、§一（一）3及（二）",
+      "existing": "当前准备台",
+      "gap": "2026-12-02 含当日。纸质与电子报告，Sessions电子和同包README。原文未给提交时刻/平台。",
+      "next": "最终信息锁定后排期，按教师确认渠道提交",
+      "acceptance": "日期、两版一致、电子包装清单",
+      "responsible_member": null
+    },
+    {
+      "item": "单一对象与组队",
+      "source": "§一（一）1、§二1—5",
+      "existing": "五公司就绪矩阵",
+      "gap": "3—5人、一个主对象待选择；同日估值/收盘基准和最终信息窗口待定",
+      "next": "组内选题、确认证券权利和资料完整性",
+      "acceptance": "主对象唯一，代码交易所、股权类、报价/报表币种明确",
+      "responsible_member": null
+    },
+    {
+      "item": "40页与封面",
+      "source": "§一（一）1—2",
+      "existing": "40页预算和封面字段要求",
+      "gap": "原文未明确封面、参考文献、附录是否计入；成员姓名学号与组长未收集",
+      "next": "预留独立评语区，建议≥半页；真实姓名学号，组长星号",
+      "acceptance": "排印封面、页数口径和纸电一致",
+      "responsible_member": null
+    },
+    {
+      "item": "统一论证及治理",
+      "source": "§三1",
+      "existing": "阶段12公司研究、八主线",
+      "gap": "治理、股权、控制、资本配置、关联交易和激励证据尚需选题后补齐",
+      "next": "用同一投资命题串商业模式/竞争、治理、财务、预测、估值、风险",
+      "acceptance": "分段回扣命题，治理影响现金/权利并有来源",
+      "responsible_member": null
+    },
+    {
+      "item": "原件与口径",
+      "source": "§三2",
+      "existing": "B07/I09、ReviewStore及报告依据",
+      "gap": "关键原数及口径未见学生核验，冲突和可比期尚需决策",
+      "next": "原文定位、日期、单位、范围，区分Fact/Interpretation/Forecast/Decision/Unknown",
+      "acceptance": "原件可打开，事前时点和结论权限可查",
+      "responsible_member": null
+    },
+    {
+      "item": "量化预测及估值",
+      "source": "§三3、Part6 §8.14",
+      "existing": "阶段12三路径、四项新方法和22项工作表",
+      "gap": "FCFF、市场参数和同日价格待补。真实对标尚未入样",
+      "next": "用口径一致的DCF和相对估值，说明何者适用；参数能回到经营证据",
+      "acceptance": "经营现金税/资本/NCWC/租赁桥闭合，权利和币种一致，市场隐含要求可回代",
+      "responsible_member": null
+    },
+    {
+      "item": "反方与催化剂",
+      "source": "§三4",
+      "existing": "阶段12反证、敏感性和条件",
+      "gap": "催化剂时点、失效阈值与信息来源待确定",
+      "next": "区分可反驳的竞争解释、监控指标和行动时点",
+      "acceptance": "关键情景、变化变量和对应证据逐项查验",
+      "responsible_member": null
+    },
+    {
+      "item": "判断职责与成员理解",
+      "source": "§三5、Part6 §8.16",
+      "existing": "教学复算与人审表",
+      "gap": "成员、贡献、学生手算和独立人类复核未收集",
+      "next": "逐人解释主张、证据、估值取舍与参与轨迹",
+      "acceptance": "签核以真实人员及实际时间为准",
+      "responsible_member": null
+    },
+    {
+      "item": "图表引用与包装",
+      "source": "§三6、§一（二）",
+      "existing": "视觉沙盒、Sessions manifest和README",
+      "gap": "正式图表、原始Sessions导出未提交",
+      "next": "编号、标题、来源、日期、期间、单位、口径；建立章节/模型索引、脱敏与纸电包装",
+      "acceptance": "图表与证据可查，电子包无敏感凭据和模型内部推理",
+      "responsible_member": null
+    }
+  ],
+  "budget": {
+    "status": "工作预算，条件为封面与附录计入；教师原文未明确计入范围。若采用正文40页，按确认口径重排。",
+    "pages": [
+      [
+        "封面，含半页教师评语空间",
+        1
+      ],
+      [
+        "摘要与命题",
+        2
+      ],
+      [
+        "商业模式",
+        4
+      ],
+      [
+        "行业、竞争与优势",
+        5
+      ],
+      [
+        "公司治理与证券权利",
+        4
+      ],
+      [
+        "财务、资本和现金分析",
+        7
+      ],
+      [
+        "经营预测",
+        5
+      ],
+      [
+        "估值与价格隐含预期",
+        6
+      ],
+      [
+        "反方、催化剂与跟踪",
+        3
+      ],
+      [
+        "来源、复算入口与研究边界",
+        3
+      ]
+    ]
+  }
+}

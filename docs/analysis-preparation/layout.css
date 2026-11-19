@@ -1,0 +1,48 @@
+*{box-sizing:border-box}
+html{color-scheme:light}
+body{margin:0;background:var(--paper);color:var(--ink);font:var(--size)/var(--line) var(--serif);overflow-wrap:anywhere}
+main{width:min(var(--width),calc(100% - 2rem));margin:auto;padding:2rem 0 4rem}
+p,li{max-width:var(--measure)}
+h1,h2,h3{line-height:1.22}
+h1{font-size:clamp(2rem,5.5vw,3.65rem);margin:.5em 0 .35em}
+h2{font-size:clamp(1.45rem,3vw,2.1rem)}
+section{border-top:1px solid var(--rule);padding:1.1rem 0 1.8rem}
+a{color:var(--accent);text-underline-offset:.2em}
+nav{display:flex;flex-wrap:wrap;gap:.4rem 1.2rem;margin:1rem 0}
+small,.muted{color:var(--body)}
+.tag,.num{font:inherit;font-family:var(--mono);font-variant-numeric:tabular-nums}
+.tag{font-size:.82em}
+:focus-visible{outline:3px solid var(--accent);outline-offset:3px}
+.scroll{max-width:100%;overflow:auto;margin:1rem 0}
+table{border-collapse:collapse;width:100%;min-width:37rem}
+td,th{text-align:left;vertical-align:top;padding:.45rem .7rem;border-bottom:1px solid var(--rule)}
+th{font-size:.87em;background:var(--card)}
+input,select,button,textarea{font:inherit;padding:.35rem;color:var(--ink);background:#fffdf7;border:1px solid var(--rule);border-radius:4px}
+label.control{display:block;margin:.55rem 0}
+label.control :is(select,input){display:block;width:min(100%,34rem)}
+.panel{padding:1rem 1.2rem;background:var(--card);border-radius:var(--radius)}
+.dark{background:var(--ink);color:var(--paper)}
+.chart{margin:1rem 0;max-width:38rem}
+.mark{background:var(--terracotta);color:var(--ink);min-width:2rem;padding:.2rem .45rem}
+.mark.forecast{background:var(--sage);border:2px dashed var(--ink)}
+.empty{border:1px dashed var(--rule);padding:1.1rem}
+figure{margin:1rem 0}
+caption{text-align:left}
+.compact table{min-width:0}
+figcaption{margin-top:.45rem}
+details{margin:.8rem 0}
+summary{cursor:pointer}
+pre{white-space:pre-wrap;line-height:1.5}
+@media(max-width:480px){main{width:calc(100% - 1.5rem);padding:1rem 0 2rem}.panel{padding:.8rem}}
+@media print{
+ @page{size:A4;margin:14mm}
+ body{background:white;color:#1a1a1a;font-size:11pt;print-color-adjust:exact;-webkit-print-color-adjust:exact}
+ main{width:100%;max-width:none;padding:0}
+ nav,.screen-only{display:none}
+ h1,h2,h3{break-after:avoid}
+ .scroll{overflow:visible}
+ table{min-width:0;font-size:10pt}
+ tr,figure,.panel{break-inside:avoid}
+ thead{display:table-header-group}
+ .print-break{break-before:page}
+}

@@ -1,0 +1,591 @@
+{
+  "scope": "Part 6 教学虚构，金额亿元、股数亿股、每股人民币元。非公司Fact。",
+  "precision": 50,
+  "worksheet_8_16": [
+    {
+      "cap": "240",
+      "ttm_profit": "20",
+      "after_tax_oneoff": "0",
+      "ntm_profit": "24",
+      "ntm_sales": "240",
+      "book": "120",
+      "debt": "30",
+      "excess_cash": "10",
+      "name": "甲",
+      "normalized_profit": "20",
+      "market_ev": "260",
+      "ttm_pe": {
+        "status": "valid",
+        "value": "12"
+      },
+      "normalized_pe": {
+        "status": "valid",
+        "value": "12"
+      },
+      "forward_pe": {
+        "status": "valid",
+        "value": "10"
+      },
+      "pb": {
+        "status": "valid",
+        "value": "2"
+      },
+      "forward_ps": {
+        "status": "valid",
+        "value": "1"
+      },
+      "forward_ev_sales": {
+        "status": "valid",
+        "value": "1.0833333333333333333333333333333333333333333333333"
+      }
+    },
+    {
+      "cap": "216",
+      "ttm_profit": "18",
+      "after_tax_oneoff": "0",
+      "ntm_profit": "21.6",
+      "ntm_sales": "216",
+      "book": "108",
+      "debt": "27",
+      "excess_cash": "9",
+      "name": "乙",
+      "normalized_profit": "18",
+      "market_ev": "234",
+      "ttm_pe": {
+        "status": "valid",
+        "value": "12"
+      },
+      "normalized_pe": {
+        "status": "valid",
+        "value": "12"
+      },
+      "forward_pe": {
+        "status": "valid",
+        "value": "1E+1"
+      },
+      "pb": {
+        "status": "valid",
+        "value": "2"
+      },
+      "forward_ps": {
+        "status": "valid",
+        "value": "1"
+      },
+      "forward_ev_sales": {
+        "status": "valid",
+        "value": "1.0833333333333333333333333333333333333333333333333"
+      }
+    },
+    {
+      "cap": "300",
+      "ttm_profit": "20",
+      "after_tax_oneoff": "0",
+      "ntm_profit": "30",
+      "ntm_sales": "200",
+      "book": "100",
+      "debt": "20",
+      "excess_cash": "20",
+      "name": "丙",
+      "normalized_profit": "20",
+      "market_ev": "300",
+      "ttm_pe": {
+        "status": "valid",
+        "value": "15"
+      },
+      "normalized_pe": {
+        "status": "valid",
+        "value": "15"
+      },
+      "forward_pe": {
+        "status": "valid",
+        "value": "10"
+      },
+      "pb": {
+        "status": "valid",
+        "value": "3"
+      },
+      "forward_ps": {
+        "status": "valid",
+        "value": "1.5"
+      },
+      "forward_ev_sales": {
+        "status": "valid",
+        "value": "1.5"
+      }
+    },
+    {
+      "cap": "180",
+      "ttm_profit": "30",
+      "after_tax_oneoff": "18",
+      "ntm_profit": "15",
+      "ntm_sales": "150",
+      "book": "100",
+      "debt": "30",
+      "excess_cash": "10",
+      "name": "丁",
+      "normalized_profit": "12",
+      "market_ev": "200",
+      "ttm_pe": {
+        "status": "valid",
+        "value": "6"
+      },
+      "normalized_pe": {
+        "status": "valid",
+        "value": "15"
+      },
+      "forward_pe": {
+        "status": "valid",
+        "value": "12"
+      },
+      "pb": {
+        "status": "valid",
+        "value": "1.8"
+      },
+      "forward_ps": {
+        "status": "valid",
+        "value": "1.2"
+      },
+      "forward_ev_sales": {
+        "status": "valid",
+        "value": "1.3333333333333333333333333333333333333333333333333"
+      }
+    },
+    {
+      "cap": "150",
+      "ttm_profit": "-5",
+      "after_tax_oneoff": "0",
+      "ntm_profit": "-2",
+      "ntm_sales": "150",
+      "book": "80",
+      "debt": "50",
+      "excess_cash": "5",
+      "name": "戊",
+      "normalized_profit": "-5",
+      "market_ev": "195",
+      "ttm_pe": {
+        "status": "NM: negative denominator",
+        "value": null
+      },
+      "normalized_pe": {
+        "status": "NM: negative denominator",
+        "value": null
+      },
+      "forward_pe": {
+        "status": "NM: negative denominator",
+        "value": null
+      },
+      "pb": {
+        "status": "valid",
+        "value": "1.875"
+      },
+      "forward_ps": {
+        "status": "valid",
+        "value": "1"
+      },
+      "forward_ev_sales": {
+        "status": "valid",
+        "value": "1.3"
+      }
+    },
+    {
+      "cap": "200",
+      "ttm_profit": "20",
+      "after_tax_oneoff": "0",
+      "ntm_profit": "25",
+      "ntm_sales": "250",
+      "book": "125",
+      "debt": "40",
+      "excess_cash": "10",
+      "name": "目标",
+      "normalized_profit": "20",
+      "market_ev": "230",
+      "ttm_pe": {
+        "status": "valid",
+        "value": "10"
+      },
+      "normalized_pe": {
+        "status": "valid",
+        "value": "10"
+      },
+      "forward_pe": {
+        "status": "valid",
+        "value": "8"
+      },
+      "pb": {
+        "status": "valid",
+        "value": "1.6"
+      },
+      "forward_ps": {
+        "status": "valid",
+        "value": "0.8"
+      },
+      "forward_ev_sales": {
+        "status": "valid",
+        "value": "0.92"
+      }
+    }
+  ],
+  "comparison_checks": [
+    {
+      "check": "丁正常化净利",
+      "calculated": "12",
+      "rounded": "12",
+      "lecture": "12"
+    },
+    {
+      "check": "丁正常化PE",
+      "calculated": "15",
+      "rounded": "15.00",
+      "lecture": "15.00"
+    },
+    {
+      "check": "目标EV",
+      "calculated": "230",
+      "rounded": "230",
+      "lecture": "230"
+    },
+    {
+      "check": "目标前瞻PE",
+      "calculated": "8",
+      "rounded": "8.00",
+      "lecture": "8.00"
+    },
+    {
+      "check": "目标EV/Sales",
+      "calculated": "0.92",
+      "rounded": "0.92",
+      "lecture": "0.92"
+    },
+    {
+      "check": "甲至丁PE中位数",
+      "calculated": "10",
+      "rounded": "10.00",
+      "lecture": "10.00"
+    },
+    {
+      "check": "甲至丁EV/Sales中位数",
+      "calculated": "1.2083333333333333333333333333333333333333333333333",
+      "rounded": "1.20833",
+      "lecture": "1.20833"
+    },
+    {
+      "check": "PE每股参考值",
+      "calculated": "25",
+      "rounded": "25.00",
+      "lecture": "25.00"
+    },
+    {
+      "check": "EV/Sales每股参考值",
+      "calculated": "27.208333333333333333333333333333333333333333333332",
+      "rounded": "27.21",
+      "lecture": "27.21"
+    },
+    {
+      "check": "甲至丁聚合PE",
+      "calculated": "10.331125827814569536423841059602649006622516556291",
+      "rounded": "10.33",
+      "lecture": "10.33"
+    },
+    {
+      "check": "甲至戊聚合PE",
+      "calculated": "12.257336343115124153498871331828442437923250564334",
+      "rounded": "12.26",
+      "lecture": "12.26"
+    },
+    {
+      "check": "甲乙EV/Sales中位数",
+      "calculated": "1.0833333333333333333333333333333333333333333333333",
+      "rounded": "1.08333",
+      "lecture": "1.08333"
+    },
+    {
+      "check": "甲乙EV/Sales每股参考值",
+      "calculated": "24.083333333333333333333333333333333333333333333332",
+      "rounded": "24.08",
+      "lecture": "24.08"
+    }
+  ],
+  "examples": {
+    "8.3": {
+      "same_cap_ev_ebitda": [
+        "6",
+        "11.7"
+      ],
+      "with_nci": "10.5"
+    },
+    "8.4": {
+      "same_price_ttm_and_forward": [
+        "50",
+        "20"
+      ],
+      "participation_weighted_demo": {
+        "weighted_market_cap": "336.0",
+        "weighted_positive_profit": "33.6",
+        "weighted_losses": "0.0",
+        "status": "valid",
+        "value": "10"
+      },
+      "negative_ev": {
+        "status": "negative EV: investigate",
+        "value": null,
+        "raw_ratio": "-2"
+      },
+      "zero": {
+        "status": "NM: zero denominator",
+        "value": null
+      },
+      "near_zero": {
+        "status": "NM: near zero by predeclared threshold",
+        "value": null
+      },
+      "missing": {
+        "status": "missing",
+        "value": null
+      }
+    },
+    "8.5": {
+      "dps": "1.2",
+      "value": "24",
+      "forward_pe": "12",
+      "base_pe": "12.6",
+      "implied_roe": "0.125",
+      "cyclical_pe": [
+        "8",
+        "20"
+      ]
+    },
+    "8.6": {
+      "pb": [
+        "1.6666666666666666666666666666666666666666666666667",
+        "0.5"
+      ],
+      "per_share": [
+        "16.666666666666666666666666666666666666666666666667",
+        "5"
+      ]
+    },
+    "8.7": {
+      "forward_ps": "1.2",
+      "ps_and_ev_sales": [
+        "0.6",
+        "1"
+      ],
+      "stable_ev_sales": [
+        "1.25",
+        "0.83333333333333333333333333333333333333333333333333"
+      ],
+      "gross_vs_net_ev_sales": [
+        "0.5",
+        "5"
+      ]
+    },
+    "8.8": {
+      "ev_ebitda": [
+        "9",
+        "6"
+      ],
+      "ev_ebit": [
+        "10",
+        "12"
+      ],
+      "lease_before_after_and_mismatch": [
+        "10",
+        "9",
+        "8"
+      ]
+    },
+    "8.9": {
+      "growth_cagr": "0.2",
+      "simple_peg": [
+        "1",
+        "1.5"
+      ],
+      "stable_peg": [
+        "2.4",
+        "1.2"
+      ]
+    },
+    "8.10": {
+      "ev_ebit": [
+        "11.666666666666666666666666666666666666666666666666",
+        "8.75000",
+        "15.000"
+      ],
+      "ev_ebit_return_equals_wacc": [
+        "10.00",
+        "10.00"
+      ]
+    },
+    "8.11": {
+      "segments": [
+        480,
+        360
+      ],
+      "hq_present_value": "1E+2",
+      "equity": "590",
+      "per_share": "5.9"
+    },
+    "8.12": {
+      "relative_discount": "0.33333333333333333333333333333333333333333333333333",
+      "reported_normalized_pe": [
+        "10",
+        "20"
+      ],
+      "year1_year5_pe": [
+        "20",
+        "8"
+      ],
+      "four_year_cagr": "0.2574334296829354083177655046588578382759683640149",
+      "ev_ebitda_cash_scope": [
+        "8",
+        "10"
+      ]
+    },
+    "8.13": {
+      "base_and_thesis_ev_sales": [
+        "1.0",
+        "1.3714285714285714285714285714285714285714285714285"
+      ]
+    },
+    "8.15": {
+      "implied_margin": [
+        "0.12",
+        "0.144",
+        "0.16800000000000000000000000000000000000000000000000"
+      ],
+      "implied_roe": "0.15",
+      "eps": "1.50",
+      "retention": "0.2",
+      "fcff_check": "108.00000",
+      "ev_check": "1800.0000"
+    }
+  },
+  "groups": {
+    "甲至丁PE": {
+      "members": [
+        "甲",
+        "乙",
+        "丙",
+        "丁"
+      ],
+      "total": 4,
+      "valid": 4,
+      "excluded": {},
+      "median": "10",
+      "min": "10",
+      "max": "12",
+      "p25": "10.00",
+      "p75": "10.50",
+      "quantile_method": "linear interpolation at (n−1)p"
+    },
+    "甲至丁EV/Sales": {
+      "members": [
+        "甲",
+        "乙",
+        "丙",
+        "丁"
+      ],
+      "total": 4,
+      "valid": 4,
+      "excluded": {},
+      "median": "1.2083333333333333333333333333333333333333333333333",
+      "min": "1.0833333333333333333333333333333333333333333333333",
+      "max": "1.5",
+      "p25": "1.0833333333333333333333333333333333333333333333333",
+      "p75": "1.3750000000000000000000000000000000000000000000000",
+      "quantile_method": "linear interpolation at (n−1)p"
+    },
+    "甲乙EV/Sales": {
+      "members": [
+        "甲",
+        "乙"
+      ],
+      "total": 2,
+      "valid": 2,
+      "excluded": {},
+      "median": "1.0833333333333333333333333333333333333333333333333",
+      "min": "1.0833333333333333333333333333333333333333333333333",
+      "max": "1.0833333333333333333333333333333333333333333333333",
+      "p25": "1.0833333333333333333333333333333333333333333333333",
+      "p75": "1.0833333333333333333333333333333333333333333333333",
+      "quantile_method": "linear interpolation at (n−1)p"
+    },
+    "甲至戊PE分布": {
+      "members": [
+        "甲",
+        "乙",
+        "丙",
+        "丁",
+        "戊"
+      ],
+      "total": 5,
+      "valid": 4,
+      "excluded": {
+        "戊": "NM: negative denominator"
+      },
+      "median": "10",
+      "min": "10",
+      "max": "12",
+      "p25": "10.00",
+      "p75": "10.50",
+      "quantile_method": "linear interpolation at (n−1)p"
+    },
+    "甲至丁聚合": {
+      "weighted_market_cap": "936",
+      "weighted_positive_profit": "90.6",
+      "weighted_losses": "0",
+      "status": "valid",
+      "value": "10.331125827814569536423841059602649006622516556291"
+    },
+    "甲至戊聚合": {
+      "weighted_market_cap": "1086",
+      "weighted_positive_profit": "90.6",
+      "weighted_losses": "-2",
+      "status": "valid",
+      "value": "12.257336343115124153498871331828442437923250564334"
+    }
+  },
+  "target_references": {
+    "current_teaching_price": "20",
+    "PE_equity": "250",
+    "PE_per_share": "25",
+    "EV_to_equity": {
+      "operating_value": "302.08333333333333333333333333333333333333333333332",
+      "equity_value": "272.08333333333333333333333333333333333333333333332",
+      "per_share": "27.208333333333333333333333333333333333333333333332"
+    },
+    "narrow_group": {
+      "operating_value": "270.83333333333333333333333333333333333333333333332",
+      "equity_value": "240.83333333333333333333333333333333333333333333332",
+      "per_share": "24.083333333333333333333333333333333333333333333332"
+    }
+  },
+  "interpretation": {
+    "Ding": "税后一次性18由原报30扣除，正常化12，P/E由6升至15。",
+    "Wu": "个体利润为负时P/E记NM。在甲至戊聚合中亏损保留，盈利合计减少2。",
+    "narrower_group": "甲乙成熟组剔开丙丁后，中位EV/Sales从1.20833降至1.08333。参照的成熟度与增长、利润率、杠杆、客户集中度不同，目标公司的适用倍数需另证。",
+    "relative_discount_vs_group_pe": "0.2",
+    "conditional_upside_on_pe_reference": "0.25",
+    "conditional_margin_of_safety_on_pe_reference": "0.2",
+    "expected_return": null,
+    "expected_return_reason": "需要持有期、现金分配、退出价格及概率；横向折价不提供这些输入。"
+  },
+  "personnel": {
+    "actual_agent": "Agent Decimal machine recomputation",
+    "student_hand_calculation": null,
+    "independent_human_reviewer": null,
+    "manual_form": "sessions/teaching-review-template.json"
+  },
+  "editorial_notes": [
+    {
+      "location": "8.4 TTM段",
+      "issue": "原文“2025年Q3、2025Q4及、2026年Q1和2026Q2”有多余顿号",
+      "treatment": "按这四个单季度理解，原稿未改"
+    },
+    {
+      "location": "8.16讲义核对值",
+      "issue": "显示位数不同",
+      "treatment": "计算保留50位有效精度，仅核对时按讲义显示位数四舍五入"
+    }
+  ]
+}

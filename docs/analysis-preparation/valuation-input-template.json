@@ -1,0 +1,260 @@
+{
+  "status": "空登记；启动后取得来源和组内责任再填",
+  "company": null,
+  "security": {
+    "code": null,
+    "exchange": null,
+    "share_class": null,
+    "rights_source": null,
+    "quote_currency": null,
+    "report_currency": null,
+    "total_ordinary_shares_at_valuation": null,
+    "weighted_basic_shares": null,
+    "weighted_diluted_shares": null,
+    "existing_dilution": null
+  },
+  "window": {
+    "company_research_cutoff_existing": "2026-11-12",
+    "final_information_cutoff": null,
+    "valuation_date": null,
+    "reference_price": null,
+    "price_source": null,
+    "price_observed_at": null,
+    "fx": null,
+    "fx_source": null
+  },
+  "operating_inputs": {
+    "operating_cash_tax": null,
+    "NCWC": null,
+    "maintenance_growth_capex": null,
+    "leases": null,
+    "preferred": null,
+    "noncontrolling": null,
+    "debt": null,
+    "convertible_treatment": null,
+    "excess_cash": null,
+    "nonoperating_assets": null,
+    "risk_free": null,
+    "risk_premium": null,
+    "beta": null,
+    "ke": null,
+    "WACC": null,
+    "stable_growth": null,
+    "new_ROIC": null
+  },
+  "peers": [
+    {
+      "candidate": null,
+      "considered_at": null,
+      "source": null,
+      "economic_similarity": null,
+      "rights_currency_period": null,
+      "acceptance_or_exclusion": null,
+      "reason": null,
+      "earnings_reported": null,
+      "after_tax_normalizing_adjustment": null,
+      "earnings_forward": null,
+      "aggregation_share_weight": null
+    }
+  ],
+  "checklist": [
+    {
+      "id": 1,
+      "title": "估值对象",
+      "criterion": "标普通股或经营资产，选择相应倍数",
+      "selection": null,
+      "reason": null,
+      "evidence": null,
+      "reviewer": null
+    },
+    {
+      "id": 2,
+      "title": "分子与分母",
+      "criterion": "匹配权利、业务、币种",
+      "selection": null,
+      "reason": null,
+      "evidence": null,
+      "reviewer": null
+    },
+    {
+      "id": 3,
+      "title": "市场与模型",
+      "criterion": "并列市场定价与模型价值",
+      "selection": null,
+      "reason": null,
+      "evidence": null,
+      "reviewer": null
+    },
+    {
+      "id": 4,
+      "title": "指标定义",
+      "criterion": "服务商指标和调整可追源",
+      "selection": null,
+      "reason": null,
+      "evidence": null,
+      "reviewer": null
+    },
+    {
+      "id": 5,
+      "title": "所属期间",
+      "criterion": "明确实际/预测及日期范围",
+      "selection": null,
+      "reason": null,
+      "evidence": null,
+      "reviewer": null
+    },
+    {
+      "id": 6,
+      "title": "可获时间",
+      "criterion": "估值日早于披露的数据不得倒填",
+      "selection": null,
+      "reason": null,
+      "evidence": null,
+      "reviewer": null
+    },
+    {
+      "id": 7,
+      "title": "可比选择",
+      "criterion": "根据业务、客户、成长和风险先筛",
+      "selection": null,
+      "reason": null,
+      "evidence": null,
+      "reviewer": null
+    },
+    {
+      "id": 8,
+      "title": "会计口径",
+      "criterion": "统一总额净额、一次性、租赁、股份支付",
+      "selection": null,
+      "reason": null,
+      "evidence": null,
+      "reviewer": null
+    },
+    {
+      "id": 9,
+      "title": "异常与适用性",
+      "criterion": "分列亏损、零/近零、负EV和缺件",
+      "selection": null,
+      "reason": null,
+      "evidence": null,
+      "reviewer": null
+    },
+    {
+      "id": 10,
+      "title": "样本分布",
+      "criterion": "总数、有效、排除、分位及异常原因",
+      "selection": null,
+      "reason": null,
+      "evidence": null,
+      "reviewer": null
+    },
+    {
+      "id": 11,
+      "title": "聚合市盈率",
+      "criterion": "标所纳股数及加权市值/利润",
+      "selection": null,
+      "reason": null,
+      "evidence": null,
+      "reviewer": null
+    },
+    {
+      "id": 12,
+      "title": "市盈率",
+      "criterion": "检查增长、ROE、分配与风险",
+      "selection": null,
+      "reason": null,
+      "evidence": null,
+      "reviewer": null
+    },
+    {
+      "id": 13,
+      "title": "市净率",
+      "criterion": "检查账面质量、ROE和股权资本成本",
+      "selection": null,
+      "reason": null,
+      "evidence": null,
+      "reviewer": null
+    },
+    {
+      "id": 14,
+      "title": "市销率",
+      "criterion": "检查普通股盈利、总额法和融资",
+      "selection": null,
+      "reason": null,
+      "evidence": null,
+      "reviewer": null
+    },
+    {
+      "id": 15,
+      "title": "EV/Sales",
+      "criterion": "检查经营利润率、新增回报与WACC",
+      "selection": null,
+      "reason": null,
+      "evidence": null,
+      "reviewer": null
+    },
+    {
+      "id": 16,
+      "title": "EV/EBIT(D)A",
+      "criterion": "租赁、维持资本、D&A与现金税配对",
+      "selection": null,
+      "reason": null,
+      "evidence": null,
+      "reviewer": null
+    },
+    {
+      "id": 17,
+      "title": "PEG",
+      "criterion": "起止年、每股口径、百分数及持续期",
+      "selection": null,
+      "reason": null,
+      "evidence": null,
+      "reviewer": null
+    },
+    {
+      "id": 18,
+      "title": "增长和资本",
+      "criterion": "投入与新增回报、阶段与折现相连",
+      "selection": null,
+      "reason": null,
+      "evidence": null,
+      "reviewer": null
+    },
+    {
+      "id": 19,
+      "title": "参考倍数",
+      "criterion": "组的采用与溢折价记录依据",
+      "selection": null,
+      "reason": null,
+      "evidence": null,
+      "reviewer": null
+    },
+    {
+      "id": 20,
+      "title": "SOTP",
+      "criterion": "独立业务、内部抵销、总部费用及集团权益",
+      "selection": null,
+      "reason": null,
+      "evidence": null,
+      "reviewer": null
+    },
+    {
+      "id": 21,
+      "title": "叙事与参数",
+      "criterion": "一条主张对到原证据、驱动和反证",
+      "selection": null,
+      "reason": null,
+      "evidence": null,
+      "reviewer": null
+    },
+    {
+      "id": 22,
+      "title": "结论及触发",
+      "criterion": "情景敏感性、可证伪条件、后续更新动作",
+      "selection": null,
+      "reason": null,
+      "evidence": null,
+      "reviewer": null
+    }
+  ]
+}

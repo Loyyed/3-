@@ -19,12 +19,19 @@ def start(root,kit,port):
  server=portal.make_server(root,port);Base=server.RequestHandlerClass
  class Handler(Base):
   def send(self,data,*args,**kwargs):
-   if self.path.split('?')[0]=='/' and isinstance(data,str):data=data.replace('</body>','<script nonce="'+server.workbench_token+'" src="/assets/project-adapter.js"></script></body>')
+   if self.path.split('?')[0]=='/' and isinstance(data,str):
+    data=data.replace('最终展示图册</a></nav>','最终展示图册</a><a href="/preparation/">完整证券分析准备</a></nav>')
+    data=data.replace('</body>','<script nonce="'+server.workbench_token+'" src="/assets/project-adapter.js"></script></body>')
    return super().send(data,*args,**kwargs)
   def do_GET(self):
    if not self.host_ok():return self.send({'error':'不允许的Host'},403)
    route=urlparse(self.path);q=parse_qs(route.query)
    if route.path=='/assets/project-adapter.js':return self.send((root/'app/project-adapter.js').read_bytes(),content='text/javascript; charset=utf-8')
+   if route.path=='/preparation':
+    self.send_response(302);self.send_header('Location','/preparation/');self.end_headers();return
+   if route.path.startswith('/preparation/'):
+    from preparation import serve
+    return serve(self,root,route.path,mapping,server.workbench_token)
    if route.path=='/knowledge':
     self.send_response(302);self.send_header('Location','/#library');self.end_headers();return
    if route.path in ['/api/project-download','/api/project-preview']:
@@ -59,7 +66,7 @@ def start(root,kit,port):
     except Exception as e:return self.send({'error':str(e)},400)
    if route.path=='/api/writing-policy':
     from companybench.workflow import export_html
-    return self.send(export_html((root/'docs/投研写作规范.md').read_text(encoding='utf-8')),content='text/html; charset=utf-8')
+    return self.send(export_html(((root/'docs/analysis-preparation/writing-v2.md') if (root/'docs/analysis-preparation/writing-v2.md').is_file() else (root/'docs/投研写作规范.md')).read_text(encoding='utf-8')),content='text/html; charset=utf-8')
    if route.path=='/api/experience':
     try:
      from companybench.workflow import export_html

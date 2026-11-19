@@ -1,0 +1,31 @@
+{
+  "base": "shared/writing-skills.json",
+  "learned_on": "2026-11-19",
+  "core_skills": [
+    {
+      "name": "humanize-paper",
+      "sha256": "82a7fbe3179ff5f61bfc666a689b5aec458ff75ddc0dab09936496678cf6b8ef",
+      "role": "结构缺陷诊断；中文community-lexicon第5节"
+    },
+    {
+      "name": "academic-deai",
+      "sha256": "d39876d03402f159cdd85895ed88f2b4aa603b3fb35b4c592744e1a7bf650147",
+      "role": "主导语义保持编辑与content_lock复核"
+    },
+    {
+      "name": "jiang-ai",
+      "sha256": "e4f642c3a4f36d23237896aafc4848ba6f6404649616eb0b15480c105fa005e8",
+      "role": "逐节诊断、修改、核对、记录；跨节重复复查"
+    },
+    {
+      "name": "aigc-reduce",
+      "sha256": "56d416ee88b80d1eabbbfc4342df522ff1fcb79bbae7c359b581b80216aaf892",
+      "role": "受保护片段、模板句定位与逐处变更；不执行配额或盲替换"
+    }
+  ],
+  "additional": {
+    "relative": "anti-defensive-writing/SKILL.md",
+    "sha256": "6f072e66f6adf813bc1b4291754f2bc07ed4e65a398359844e97bfa215a1c28e",
+    "role": "提炼主句、减少自我防御、重排叙事主次。拒绝删不利样本、回避事实风险或挑比较维度。"
+  }
+}

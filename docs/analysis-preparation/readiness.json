@@ -1,0 +1,1162 @@
+[
+  {
+    "company": "002507_涪陵榨菜",
+    "rights": "A股 CNY，股份类别及股数待同日原件确认",
+    "multiples": "PE只在普通股正常化利润明确后。EV/EBIT对照渠道费用与基地利用率，EV/Sales只作利润率映射。",
+    "peer_screen": "佐餐调味细分、经销占比、原料周期与基地投资强度接近的生产商。排除经营模式明显不同的零食平台。",
+    "gap": "直销回款、经销库存/退货、基地转固与资本回收。控制权、关联采购和分红/回购授权需原件。",
+    "status": "已有历史经营与条件预测，待完成证券分析条件",
+    "report_path": "companies/002507_涪陵榨菜/outputs/research-report/v11-Od7b0c0d6753f/report.html",
+    "model_path": "companies/002507_涪陵榨菜/work/research12/index.html",
+    "methods": [
+      {
+        "id": "U9f5b99589fb5",
+        "version": 1,
+        "association": "未来采用建议，已发布模型/报告无依赖变动"
+      },
+      {
+        "id": "U5e3323f8fafd",
+        "version": 1,
+        "association": "未来采用建议，已发布模型/报告无依赖变动"
+      },
+      {
+        "id": "Ub03f1d7c6cec",
+        "version": 1,
+        "association": "未来采用建议，已发布模型/报告无依赖变动"
+      },
+      {
+        "id": "U78027abe2cc7",
+        "version": 1,
+        "association": "未来采用建议，已发布模型/报告无依赖变动"
+      }
+    ],
+    "valuation_checklist": [
+      {
+        "id": 1,
+        "title": "估值对象",
+        "criterion": "标普通股或经营资产，选择相应倍数",
+        "selection": null,
+        "reason": null,
+        "evidence": null,
+        "reviewer": null
+      },
+      {
+        "id": 2,
+        "title": "分子与分母",
+        "criterion": "匹配权利、业务、币种",
+        "selection": null,
+        "reason": null,
+        "evidence": null,
+        "reviewer": null
+      },
+      {
+        "id": 3,
+        "title": "市场与模型",
+        "criterion": "并列市场定价与模型价值",
+        "selection": null,
+        "reason": null,
+        "evidence": null,
+        "reviewer": null
+      },
+      {
+        "id": 4,
+        "title": "指标定义",
+        "criterion": "服务商指标和调整可追源",
+        "selection": null,
+        "reason": null,
+        "evidence": null,
+        "reviewer": null
+      },
+      {
+        "id": 5,
+        "title": "所属期间",
+        "criterion": "明确实际/预测及日期范围",
+        "selection": null,
+        "reason": null,
+        "evidence": null,
+        "reviewer": null
+      },
+      {
+        "id": 6,
+        "title": "可获时间",
+        "criterion": "估值日早于披露的数据不得倒填",
+        "selection": null,
+        "reason": null,
+        "evidence": null,
+        "reviewer": null
+      },
+      {
+        "id": 7,
+        "title": "可比选择",
+        "criterion": "根据业务、客户、成长和风险先筛",
+        "selection": null,
+        "reason": null,
+        "evidence": null,
+        "reviewer": null
+      },
+      {
+        "id": 8,
+        "title": "会计口径",
+        "criterion": "统一总额净额、一次性、租赁、股份支付",
+        "selection": null,
+        "reason": null,
+        "evidence": null,
+        "reviewer": null
+      },
+      {
+        "id": 9,
+        "title": "异常与适用性",
+        "criterion": "分列亏损、零/近零、负EV和缺件",
+        "selection": null,
+        "reason": null,
+        "evidence": null,
+        "reviewer": null
+      },
+      {
+        "id": 10,
+        "title": "样本分布",
+        "criterion": "总数、有效、排除、分位及异常原因",
+        "selection": null,
+        "reason": null,
+        "evidence": null,
+        "reviewer": null
+      },
+      {
+        "id": 11,
+        "title": "聚合市盈率",
+        "criterion": "标所纳股数及加权市值/利润",
+        "selection": null,
+        "reason": null,
+        "evidence": null,
+        "reviewer": null
+      },
+      {
+        "id": 12,
+        "title": "市盈率",
+        "criterion": "检查增长、ROE、分配与风险",
+        "selection": null,
+        "reason": null,
+        "evidence": null,
+        "reviewer": null
+      },
+      {
+        "id": 13,
+        "title": "市净率",
+        "criterion": "检查账面质量、ROE和股权资本成本",
+        "selection": null,
+        "reason": null,
+        "evidence": null,
+        "reviewer": null
+      },
+      {
+        "id": 14,
+        "title": "市销率",
+        "criterion": "检查普通股盈利、总额法和融资",
+        "selection": null,
+        "reason": null,
+        "evidence": null,
+        "reviewer": null
+      },
+      {
+        "id": 15,
+        "title": "EV/Sales",
+        "criterion": "检查经营利润率、新增回报与WACC",
+        "selection": null,
+        "reason": null,
+        "evidence": null,
+        "reviewer": null
+      },
+      {
+        "id": 16,
+        "title": "EV/EBIT(D)A",
+        "criterion": "租赁、维持资本、D&A与现金税配对",
+        "selection": null,
+        "reason": null,
+        "evidence": null,
+        "reviewer": null
+      },
+      {
+        "id": 17,
+        "title": "PEG",
+        "criterion": "起止年、每股口径、百分数及持续期",
+        "selection": null,
+        "reason": null,
+        "evidence": null,
+        "reviewer": null
+      },
+      {
+        "id": 18,
+        "title": "增长和资本",
+        "criterion": "投入与新增回报、阶段与折现相连",
+        "selection": null,
+        "reason": null,
+        "evidence": null,
+        "reviewer": null
+      },
+      {
+        "id": 19,
+        "title": "参考倍数",
+        "criterion": "组的采用与溢折价记录依据",
+        "selection": null,
+        "reason": null,
+        "evidence": null,
+        "reviewer": null
+      },
+      {
+        "id": 20,
+        "title": "SOTP",
+        "criterion": "独立业务、内部抵销、总部费用及集团权益",
+        "selection": null,
+        "reason": null,
+        "evidence": null,
+        "reviewer": null
+      },
+      {
+        "id": 21,
+        "title": "叙事与参数",
+        "criterion": "一条主张对到原证据、驱动和反证",
+        "selection": null,
+        "reason": null,
+        "evidence": null,
+        "reviewer": null
+      },
+      {
+        "id": 22,
+        "title": "结论及触发",
+        "criterion": "情景敏感性、可证伪条件、后续更新动作",
+        "selection": null,
+        "reason": null,
+        "evidence": null,
+        "reviewer": null
+      }
+    ]
+  },
+  {
+    "company": "600298_安琪酵母",
+    "rights": "A股 CNY，普通股范围及少数权益待拆",
+    "multiples": "优先同业务EV/EBIT与正常化PE并行检查。糖业、包材/酵母若无法隔离不开展SOTP。",
+    "peer_screen": "工业酵母及发酵配料，按应用、海外本地化、能源和糖蜜暴露匹配。综合食企或原料商只作分部参考。",
+    "gap": "新厂队列、期初投入资本、海外汇兑及现金税。控股关系、关联交易、新厂投资决策和少数权益。",
+    "status": "已有历史经营与条件预测，待完成证券分析条件",
+    "report_path": "companies/600298_安琪酵母/outputs/research-report/v11-O65d622a19602/report.html",
+    "model_path": "companies/600298_安琪酵母/work/research12/index.html",
+    "methods": [
+      {
+        "id": "U9f5b99589fb5",
+        "version": 1,
+        "association": "未来采用建议，已发布模型/报告无依赖变动"
+      },
+      {
+        "id": "U5e3323f8fafd",
+        "version": 1,
+        "association": "未来采用建议，已发布模型/报告无依赖变动"
+      },
+      {
+        "id": "Ub03f1d7c6cec",
+        "version": 1,
+        "association": "未来采用建议，已发布模型/报告无依赖变动"
+      },
+      {
+        "id": "U78027abe2cc7",
+        "version": 1,
+        "association": "未来采用建议，已发布模型/报告无依赖变动"
+      }
+    ],
+    "valuation_checklist": [
+      {
+        "id": 1,
+        "title": "估值对象",
+        "criterion": "标普通股或经营资产，选择相应倍数",
+        "selection": null,
+        "reason": null,
+        "evidence": null,
+        "reviewer": null
+      },
+      {
+        "id": 2,
+        "title": "分子与分母",
+        "criterion": "匹配权利、业务、币种",
+        "selection": null,
+        "reason": null,
+        "evidence": null,
+        "reviewer": null
+      },
+      {
+        "id": 3,
+        "title": "市场与模型",
+        "criterion": "并列市场定价与模型价值",
+        "selection": null,
+        "reason": null,
+        "evidence": null,
+        "reviewer": null
+      },
+      {
+        "id": 4,
+        "title": "指标定义",
+        "criterion": "服务商指标和调整可追源",
+        "selection": null,
+        "reason": null,
+        "evidence": null,
+        "reviewer": null
+      },
+      {
+        "id": 5,
+        "title": "所属期间",
+        "criterion": "明确实际/预测及日期范围",
+        "selection": null,
+        "reason": null,
+        "evidence": null,
+        "reviewer": null
+      },
+      {
+        "id": 6,
+        "title": "可获时间",
+        "criterion": "估值日早于披露的数据不得倒填",
+        "selection": null,
+        "reason": null,
+        "evidence": null,
+        "reviewer": null
+      },
+      {
+        "id": 7,
+        "title": "可比选择",
+        "criterion": "根据业务、客户、成长和风险先筛",
+        "selection": null,
+        "reason": null,
+        "evidence": null,
+        "reviewer": null
+      },
+      {
+        "id": 8,
+        "title": "会计口径",
+        "criterion": "统一总额净额、一次性、租赁、股份支付",
+        "selection": null,
+        "reason": null,
+        "evidence": null,
+        "reviewer": null
+      },
+      {
+        "id": 9,
+        "title": "异常与适用性",
+        "criterion": "分列亏损、零/近零、负EV和缺件",
+        "selection": null,
+        "reason": null,
+        "evidence": null,
+        "reviewer": null
+      },
+      {
+        "id": 10,
+        "title": "样本分布",
+        "criterion": "总数、有效、排除、分位及异常原因",
+        "selection": null,
+        "reason": null,
+        "evidence": null,
+        "reviewer": null
+      },
+      {
+        "id": 11,
+        "title": "聚合市盈率",
+        "criterion": "标所纳股数及加权市值/利润",
+        "selection": null,
+        "reason": null,
+        "evidence": null,
+        "reviewer": null
+      },
+      {
+        "id": 12,
+        "title": "市盈率",
+        "criterion": "检查增长、ROE、分配与风险",
+        "selection": null,
+        "reason": null,
+        "evidence": null,
+        "reviewer": null
+      },
+      {
+        "id": 13,
+        "title": "市净率",
+        "criterion": "检查账面质量、ROE和股权资本成本",
+        "selection": null,
+        "reason": null,
+        "evidence": null,
+        "reviewer": null
+      },
+      {
+        "id": 14,
+        "title": "市销率",
+        "criterion": "检查普通股盈利、总额法和融资",
+        "selection": null,
+        "reason": null,
+        "evidence": null,
+        "reviewer": null
+      },
+      {
+        "id": 15,
+        "title": "EV/Sales",
+        "criterion": "检查经营利润率、新增回报与WACC",
+        "selection": null,
+        "reason": null,
+        "evidence": null,
+        "reviewer": null
+      },
+      {
+        "id": 16,
+        "title": "EV/EBIT(D)A",
+        "criterion": "租赁、维持资本、D&A与现金税配对",
+        "selection": null,
+        "reason": null,
+        "evidence": null,
+        "reviewer": null
+      },
+      {
+        "id": 17,
+        "title": "PEG",
+        "criterion": "起止年、每股口径、百分数及持续期",
+        "selection": null,
+        "reason": null,
+        "evidence": null,
+        "reviewer": null
+      },
+      {
+        "id": 18,
+        "title": "增长和资本",
+        "criterion": "投入与新增回报、阶段与折现相连",
+        "selection": null,
+        "reason": null,
+        "evidence": null,
+        "reviewer": null
+      },
+      {
+        "id": 19,
+        "title": "参考倍数",
+        "criterion": "组的采用与溢折价记录依据",
+        "selection": null,
+        "reason": null,
+        "evidence": null,
+        "reviewer": null
+      },
+      {
+        "id": 20,
+        "title": "SOTP",
+        "criterion": "独立业务、内部抵销、总部费用及集团权益",
+        "selection": null,
+        "reason": null,
+        "evidence": null,
+        "reviewer": null
+      },
+      {
+        "id": 21,
+        "title": "叙事与参数",
+        "criterion": "一条主张对到原证据、驱动和反证",
+        "selection": null,
+        "reason": null,
+        "evidence": null,
+        "reviewer": null
+      },
+      {
+        "id": 22,
+        "title": "结论及触发",
+        "criterion": "情景敏感性、可证伪条件、后续更新动作",
+        "selection": null,
+        "reason": null,
+        "evidence": null,
+        "reviewer": null
+      }
+    ]
+  },
+  {
+    "company": "688188_柏楚电子",
+    "rights": "A股 CNY，同日普通股权利及股数待核",
+    "multiples": "用去金融收益的经营EBIT及经营EV校验。PE另核净利正常化，P/B可比性受研发与软件资产影响。",
+    "peer_screen": "工业激光控制和工控软硬配套，按收入模式与研发率、集成程度、客户续购选。纯设备或纯软件仅辅助对照。",
+    "gap": "金融资产剥离、研发队列、配套率、硬件库存和经营资本。激励/稀释及资金使用决议。",
+    "status": "已有历史经营与条件预测，待完成证券分析条件",
+    "report_path": "companies/688188_柏楚电子/outputs/research-report/v10-Oc7d782580caa/report.html",
+    "model_path": "companies/688188_柏楚电子/work/research12/index.html",
+    "methods": [
+      {
+        "id": "U9f5b99589fb5",
+        "version": 1,
+        "association": "未来采用建议，已发布模型/报告无依赖变动"
+      },
+      {
+        "id": "U5e3323f8fafd",
+        "version": 1,
+        "association": "未来采用建议，已发布模型/报告无依赖变动"
+      },
+      {
+        "id": "Ub03f1d7c6cec",
+        "version": 1,
+        "association": "未来采用建议，已发布模型/报告无依赖变动"
+      },
+      {
+        "id": "U78027abe2cc7",
+        "version": 1,
+        "association": "未来采用建议，已发布模型/报告无依赖变动"
+      }
+    ],
+    "valuation_checklist": [
+      {
+        "id": 1,
+        "title": "估值对象",
+        "criterion": "标普通股或经营资产，选择相应倍数",
+        "selection": null,
+        "reason": null,
+        "evidence": null,
+        "reviewer": null
+      },
+      {
+        "id": 2,
+        "title": "分子与分母",
+        "criterion": "匹配权利、业务、币种",
+        "selection": null,
+        "reason": null,
+        "evidence": null,
+        "reviewer": null
+      },
+      {
+        "id": 3,
+        "title": "市场与模型",
+        "criterion": "并列市场定价与模型价值",
+        "selection": null,
+        "reason": null,
+        "evidence": null,
+        "reviewer": null
+      },
+      {
+        "id": 4,
+        "title": "指标定义",
+        "criterion": "服务商指标和调整可追源",
+        "selection": null,
+        "reason": null,
+        "evidence": null,
+        "reviewer": null
+      },
+      {
+        "id": 5,
+        "title": "所属期间",
+        "criterion": "明确实际/预测及日期范围",
+        "selection": null,
+        "reason": null,
+        "evidence": null,
+        "reviewer": null
+      },
+      {
+        "id": 6,
+        "title": "可获时间",
+        "criterion": "估值日早于披露的数据不得倒填",
+        "selection": null,
+        "reason": null,
+        "evidence": null,
+        "reviewer": null
+      },
+      {
+        "id": 7,
+        "title": "可比选择",
+        "criterion": "根据业务、客户、成长和风险先筛",
+        "selection": null,
+        "reason": null,
+        "evidence": null,
+        "reviewer": null
+      },
+      {
+        "id": 8,
+        "title": "会计口径",
+        "criterion": "统一总额净额、一次性、租赁、股份支付",
+        "selection": null,
+        "reason": null,
+        "evidence": null,
+        "reviewer": null
+      },
+      {
+        "id": 9,
+        "title": "异常与适用性",
+        "criterion": "分列亏损、零/近零、负EV和缺件",
+        "selection": null,
+        "reason": null,
+        "evidence": null,
+        "reviewer": null
+      },
+      {
+        "id": 10,
+        "title": "样本分布",
+        "criterion": "总数、有效、排除、分位及异常原因",
+        "selection": null,
+        "reason": null,
+        "evidence": null,
+        "reviewer": null
+      },
+      {
+        "id": 11,
+        "title": "聚合市盈率",
+        "criterion": "标所纳股数及加权市值/利润",
+        "selection": null,
+        "reason": null,
+        "evidence": null,
+        "reviewer": null
+      },
+      {
+        "id": 12,
+        "title": "市盈率",
+        "criterion": "检查增长、ROE、分配与风险",
+        "selection": null,
+        "reason": null,
+        "evidence": null,
+        "reviewer": null
+      },
+      {
+        "id": 13,
+        "title": "市净率",
+        "criterion": "检查账面质量、ROE和股权资本成本",
+        "selection": null,
+        "reason": null,
+        "evidence": null,
+        "reviewer": null
+      },
+      {
+        "id": 14,
+        "title": "市销率",
+        "criterion": "检查普通股盈利、总额法和融资",
+        "selection": null,
+        "reason": null,
+        "evidence": null,
+        "reviewer": null
+      },
+      {
+        "id": 15,
+        "title": "EV/Sales",
+        "criterion": "检查经营利润率、新增回报与WACC",
+        "selection": null,
+        "reason": null,
+        "evidence": null,
+        "reviewer": null
+      },
+      {
+        "id": 16,
+        "title": "EV/EBIT(D)A",
+        "criterion": "租赁、维持资本、D&A与现金税配对",
+        "selection": null,
+        "reason": null,
+        "evidence": null,
+        "reviewer": null
+      },
+      {
+        "id": 17,
+        "title": "PEG",
+        "criterion": "起止年、每股口径、百分数及持续期",
+        "selection": null,
+        "reason": null,
+        "evidence": null,
+        "reviewer": null
+      },
+      {
+        "id": 18,
+        "title": "增长和资本",
+        "criterion": "投入与新增回报、阶段与折现相连",
+        "selection": null,
+        "reason": null,
+        "evidence": null,
+        "reviewer": null
+      },
+      {
+        "id": 19,
+        "title": "参考倍数",
+        "criterion": "组的采用与溢折价记录依据",
+        "selection": null,
+        "reason": null,
+        "evidence": null,
+        "reviewer": null
+      },
+      {
+        "id": 20,
+        "title": "SOTP",
+        "criterion": "独立业务、内部抵销、总部费用及集团权益",
+        "selection": null,
+        "reason": null,
+        "evidence": null,
+        "reviewer": null
+      },
+      {
+        "id": 21,
+        "title": "叙事与参数",
+        "criterion": "一条主张对到原证据、驱动和反证",
+        "selection": null,
+        "reason": null,
+        "evidence": null,
+        "reviewer": null
+      },
+      {
+        "id": 22,
+        "title": "结论及触发",
+        "criterion": "情景敏感性、可证伪条件、后续更新动作",
+        "selection": null,
+        "reason": null,
+        "evidence": null,
+        "reviewer": null
+      }
+    ]
+  },
+  {
+    "company": "09992_泡泡玛特",
+    "rights": "港股报价HKD、报表CNY，按基准日汇率和普通股权益配对",
+    "multiples": "PE选择与IP、同店和促销情景绑定。EV/EBITDA要有门店租赁成对调整，EV/Sales需要正常化毛利与运营费。",
+    "peer_screen": "IP授权、品牌收藏品直营和线上履约的经营结构相近。净额平台、人群生命周期不同者单列。",
+    "gap": "Q3为区间，店龄与同店、IP授权/库存龄、租赁和分区税现金尚缺。董事会资本分配、控制权和激励权利待核。",
+    "status": "已有历史经营与条件预测，待完成证券分析条件",
+    "report_path": "companies/09992_泡泡玛特/outputs/research-report/v9-Obd369b921ba3/report.html",
+    "model_path": "companies/09992_泡泡玛特/work/research12/index.html",
+    "methods": [
+      {
+        "id": "U9f5b99589fb5",
+        "version": 1,
+        "association": "未来采用建议，已发布模型/报告无依赖变动"
+      },
+      {
+        "id": "U5e3323f8fafd",
+        "version": 1,
+        "association": "未来采用建议，已发布模型/报告无依赖变动"
+      },
+      {
+        "id": "Ub03f1d7c6cec",
+        "version": 1,
+        "association": "未来采用建议，已发布模型/报告无依赖变动"
+      },
+      {
+        "id": "U78027abe2cc7",
+        "version": 1,
+        "association": "未来采用建议，已发布模型/报告无依赖变动"
+      }
+    ],
+    "valuation_checklist": [
+      {
+        "id": 1,
+        "title": "估值对象",
+        "criterion": "标普通股或经营资产，选择相应倍数",
+        "selection": null,
+        "reason": null,
+        "evidence": null,
+        "reviewer": null
+      },
+      {
+        "id": 2,
+        "title": "分子与分母",
+        "criterion": "匹配权利、业务、币种",
+        "selection": null,
+        "reason": null,
+        "evidence": null,
+        "reviewer": null
+      },
+      {
+        "id": 3,
+        "title": "市场与模型",
+        "criterion": "并列市场定价与模型价值",
+        "selection": null,
+        "reason": null,
+        "evidence": null,
+        "reviewer": null
+      },
+      {
+        "id": 4,
+        "title": "指标定义",
+        "criterion": "服务商指标和调整可追源",
+        "selection": null,
+        "reason": null,
+        "evidence": null,
+        "reviewer": null
+      },
+      {
+        "id": 5,
+        "title": "所属期间",
+        "criterion": "明确实际/预测及日期范围",
+        "selection": null,
+        "reason": null,
+        "evidence": null,
+        "reviewer": null
+      },
+      {
+        "id": 6,
+        "title": "可获时间",
+        "criterion": "估值日早于披露的数据不得倒填",
+        "selection": null,
+        "reason": null,
+        "evidence": null,
+        "reviewer": null
+      },
+      {
+        "id": 7,
+        "title": "可比选择",
+        "criterion": "根据业务、客户、成长和风险先筛",
+        "selection": null,
+        "reason": null,
+        "evidence": null,
+        "reviewer": null
+      },
+      {
+        "id": 8,
+        "title": "会计口径",
+        "criterion": "统一总额净额、一次性、租赁、股份支付",
+        "selection": null,
+        "reason": null,
+        "evidence": null,
+        "reviewer": null
+      },
+      {
+        "id": 9,
+        "title": "异常与适用性",
+        "criterion": "分列亏损、零/近零、负EV和缺件",
+        "selection": null,
+        "reason": null,
+        "evidence": null,
+        "reviewer": null
+      },
+      {
+        "id": 10,
+        "title": "样本分布",
+        "criterion": "总数、有效、排除、分位及异常原因",
+        "selection": null,
+        "reason": null,
+        "evidence": null,
+        "reviewer": null
+      },
+      {
+        "id": 11,
+        "title": "聚合市盈率",
+        "criterion": "标所纳股数及加权市值/利润",
+        "selection": null,
+        "reason": null,
+        "evidence": null,
+        "reviewer": null
+      },
+      {
+        "id": 12,
+        "title": "市盈率",
+        "criterion": "检查增长、ROE、分配与风险",
+        "selection": null,
+        "reason": null,
+        "evidence": null,
+        "reviewer": null
+      },
+      {
+        "id": 13,
+        "title": "市净率",
+        "criterion": "检查账面质量、ROE和股权资本成本",
+        "selection": null,
+        "reason": null,
+        "evidence": null,
+        "reviewer": null
+      },
+      {
+        "id": 14,
+        "title": "市销率",
+        "criterion": "检查普通股盈利、总额法和融资",
+        "selection": null,
+        "reason": null,
+        "evidence": null,
+        "reviewer": null
+      },
+      {
+        "id": 15,
+        "title": "EV/Sales",
+        "criterion": "检查经营利润率、新增回报与WACC",
+        "selection": null,
+        "reason": null,
+        "evidence": null,
+        "reviewer": null
+      },
+      {
+        "id": 16,
+        "title": "EV/EBIT(D)A",
+        "criterion": "租赁、维持资本、D&A与现金税配对",
+        "selection": null,
+        "reason": null,
+        "evidence": null,
+        "reviewer": null
+      },
+      {
+        "id": 17,
+        "title": "PEG",
+        "criterion": "起止年、每股口径、百分数及持续期",
+        "selection": null,
+        "reason": null,
+        "evidence": null,
+        "reviewer": null
+      },
+      {
+        "id": 18,
+        "title": "增长和资本",
+        "criterion": "投入与新增回报、阶段与折现相连",
+        "selection": null,
+        "reason": null,
+        "evidence": null,
+        "reviewer": null
+      },
+      {
+        "id": 19,
+        "title": "参考倍数",
+        "criterion": "组的采用与溢折价记录依据",
+        "selection": null,
+        "reason": null,
+        "evidence": null,
+        "reviewer": null
+      },
+      {
+        "id": 20,
+        "title": "SOTP",
+        "criterion": "独立业务、内部抵销、总部费用及集团权益",
+        "selection": null,
+        "reason": null,
+        "evidence": null,
+        "reviewer": null
+      },
+      {
+        "id": 21,
+        "title": "叙事与参数",
+        "criterion": "一条主张对到原证据、驱动和反证",
+        "selection": null,
+        "reason": null,
+        "evidence": null,
+        "reviewer": null
+      },
+      {
+        "id": 22,
+        "title": "结论及触发",
+        "criterion": "情景敏感性、可证伪条件、后续更新动作",
+        "selection": null,
+        "reason": null,
+        "evidence": null,
+        "reviewer": null
+      }
+    ]
+  },
+  {
+    "company": "US_ISRG_直觉外科",
+    "rights": "NASDAQ USD，期末普通股、EPS加权股数和潜在稀释待同日核",
+    "multiples": "耗材、服务和租赁识别后才选EV/EBIT或PE。和解、受限现金、SBC权利与租赁资产须逐项映射。",
+    "peer_screen": "按机器人商业模式、装机、耗材和服务收入、使用率、医院客户与监管范围筛选。大型医疗设备集团合并倍数只作背景。",
+    "gap": "病例结构、租赁队列、和解批准与现金支付、经营现金税、实际竞争采用。代理申报、议决权、SBC/回购和董事激励。",
+    "status": "已有历史经营与条件预测，待完成证券分析条件",
+    "report_path": "companies/US_ISRG_直觉外科/outputs/research-report/v6-O2abef0afe9b7/report.html",
+    "model_path": "companies/US_ISRG_直觉外科/work/research12/index.html",
+    "methods": [
+      {
+        "id": "U9f5b99589fb5",
+        "version": 1,
+        "association": "未来采用建议，已发布模型/报告无依赖变动"
+      },
+      {
+        "id": "U5e3323f8fafd",
+        "version": 1,
+        "association": "未来采用建议，已发布模型/报告无依赖变动"
+      },
+      {
+        "id": "Ub03f1d7c6cec",
+        "version": 1,
+        "association": "未来采用建议，已发布模型/报告无依赖变动"
+      },
+      {
+        "id": "U78027abe2cc7",
+        "version": 1,
+        "association": "未来采用建议，已发布模型/报告无依赖变动"
+      }
+    ],
+    "valuation_checklist": [
+      {
+        "id": 1,
+        "title": "估值对象",
+        "criterion": "标普通股或经营资产，选择相应倍数",
+        "selection": null,
+        "reason": null,
+        "evidence": null,
+        "reviewer": null
+      },
+      {
+        "id": 2,
+        "title": "分子与分母",
+        "criterion": "匹配权利、业务、币种",
+        "selection": null,
+        "reason": null,
+        "evidence": null,
+        "reviewer": null
+      },
+      {
+        "id": 3,
+        "title": "市场与模型",
+        "criterion": "并列市场定价与模型价值",
+        "selection": null,
+        "reason": null,
+        "evidence": null,
+        "reviewer": null
+      },
+      {
+        "id": 4,
+        "title": "指标定义",
+        "criterion": "服务商指标和调整可追源",
+        "selection": null,
+        "reason": null,
+        "evidence": null,
+        "reviewer": null
+      },
+      {
+        "id": 5,
+        "title": "所属期间",
+        "criterion": "明确实际/预测及日期范围",
+        "selection": null,
+        "reason": null,
+        "evidence": null,
+        "reviewer": null
+      },
+      {
+        "id": 6,
+        "title": "可获时间",
+        "criterion": "估值日早于披露的数据不得倒填",
+        "selection": null,
+        "reason": null,
+        "evidence": null,
+        "reviewer": null
+      },
+      {
+        "id": 7,
+        "title": "可比选择",
+        "criterion": "根据业务、客户、成长和风险先筛",
+        "selection": null,
+        "reason": null,
+        "evidence": null,
+        "reviewer": null
+      },
+      {
+        "id": 8,
+        "title": "会计口径",
+        "criterion": "统一总额净额、一次性、租赁、股份支付",
+        "selection": null,
+        "reason": null,
+        "evidence": null,
+        "reviewer": null
+      },
+      {
+        "id": 9,
+        "title": "异常与适用性",
+        "criterion": "分列亏损、零/近零、负EV和缺件",
+        "selection": null,
+        "reason": null,
+        "evidence": null,
+        "reviewer": null
+      },
+      {
+        "id": 10,
+        "title": "样本分布",
+        "criterion": "总数、有效、排除、分位及异常原因",
+        "selection": null,
+        "reason": null,
+        "evidence": null,
+        "reviewer": null
+      },
+      {
+        "id": 11,
+        "title": "聚合市盈率",
+        "criterion": "标所纳股数及加权市值/利润",
+        "selection": null,
+        "reason": null,
+        "evidence": null,
+        "reviewer": null
+      },
+      {
+        "id": 12,
+        "title": "市盈率",
+        "criterion": "检查增长、ROE、分配与风险",
+        "selection": null,
+        "reason": null,
+        "evidence": null,
+        "reviewer": null
+      },
+      {
+        "id": 13,
+        "title": "市净率",
+        "criterion": "检查账面质量、ROE和股权资本成本",
+        "selection": null,
+        "reason": null,
+        "evidence": null,
+        "reviewer": null
+      },
+      {
+        "id": 14,
+        "title": "市销率",
+        "criterion": "检查普通股盈利、总额法和融资",
+        "selection": null,
+        "reason": null,
+        "evidence": null,
+        "reviewer": null
+      },
+      {
+        "id": 15,
+        "title": "EV/Sales",
+        "criterion": "检查经营利润率、新增回报与WACC",
+        "selection": null,
+        "reason": null,
+        "evidence": null,
+        "reviewer": null
+      },
+      {
+        "id": 16,
+        "title": "EV/EBIT(D)A",
+        "criterion": "租赁、维持资本、D&A与现金税配对",
+        "selection": null,
+        "reason": null,
+        "evidence": null,
+        "reviewer": null
+      },
+      {
+        "id": 17,
+        "title": "PEG",
+        "criterion": "起止年、每股口径、百分数及持续期",
+        "selection": null,
+        "reason": null,
+        "evidence": null,
+        "reviewer": null
+      },
+      {
+        "id": 18,
+        "title": "增长和资本",
+        "criterion": "投入与新增回报、阶段与折现相连",
+        "selection": null,
+        "reason": null,
+        "evidence": null,
+        "reviewer": null
+      },
+      {
+        "id": 19,
+        "title": "参考倍数",
+        "criterion": "组的采用与溢折价记录依据",
+        "selection": null,
+        "reason": null,
+        "evidence": null,
+        "reviewer": null
+      },
+      {
+        "id": 20,
+        "title": "SOTP",
+        "criterion": "独立业务、内部抵销、总部费用及集团权益",
+        "selection": null,
+        "reason": null,
+        "evidence": null,
+        "reviewer": null
+      },
+      {
+        "id": 21,
+        "title": "叙事与参数",
+        "criterion": "一条主张对到原证据、驱动和反证",
+        "selection": null,
+        "reason": null,
+        "evidence": null,
+        "reviewer": null
+      },
+      {
+        "id": 22,
+        "title": "结论及触发",
+        "criterion": "情景敏感性、可证伪条件、后续更新动作",
+        "selection": null,
+        "reason": null,
+        "evidence": null,
+        "reviewer": null
+      }
+    ]
+  }
+]

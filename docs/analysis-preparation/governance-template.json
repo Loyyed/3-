@@ -1,0 +1,34 @@
+{
+  "company": null,
+  "assessment_version": "2026-11-18 draft-for-instructor-review",
+  "ordinary_share_rights": {
+    "security_class": null,
+    "claims": null,
+    "votes": null,
+    "conversion_or_dilution": null,
+    "minority_or_preferred": null,
+    "source": null
+  },
+  "governance": [
+    {
+      "question": "控制权、投票及董事会职责如何影响普通股？",
+      "evidence": null,
+      "cash_or_risk_mechanism": null,
+      "owner": null
+    },
+    {
+      "question": "回购、分红、并购、产能和研发资本的选择依据？",
+      "evidence": null,
+      "cash_or_risk_mechanism": null,
+      "owner": null
+    },
+    {
+      "question": "关联交易、股权激励、稀释和资本成本的关系？",
+      "evidence": null,
+      "cash_or_risk_mechanism": null,
+      "owner": null
+    }
+  ],
+  "coverage": null,
+  "reviewed_by": null
+}

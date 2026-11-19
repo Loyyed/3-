@@ -1,0 +1,79 @@
+{
+  "at": "2026-11-19",
+  "active_versions_before": 73,
+  "active_versions_after": 77,
+  "company_research_cutoff": "2026-11-12",
+  "status": "本轮前瞻关联。原研究卡、报告依赖、经营桥与预测文件保持冻结。",
+  "links": [
+    {
+      "key": "part6-1",
+      "id": "U9f5b99589fb5",
+      "version": 1,
+      "related_cards": [
+        "K05",
+        "K11",
+        "K53",
+        "K57",
+        "E07",
+        "E09"
+      ],
+      "potential_effect": "未来估值环节新增证据检查，旧卡版本保持；采用时记录新依赖与实际上下文。",
+      "current_reports_requiring_recalculation": []
+    },
+    {
+      "key": "part6-2",
+      "id": "U5e3323f8fafd",
+      "version": 1,
+      "related_cards": [
+        "K07",
+        "K12",
+        "K19",
+        "K22",
+        "K33",
+        "K63"
+      ],
+      "potential_effect": "未来估值环节新增证据检查，旧卡版本保持；采用时记录新依赖与实际上下文。",
+      "current_reports_requiring_recalculation": []
+    },
+    {
+      "key": "part6-3",
+      "id": "Ub03f1d7c6cec",
+      "version": 1,
+      "related_cards": [
+        "K04",
+        "K06",
+        "K07",
+        "K10",
+        "K13",
+        "K46",
+        "K48",
+        "K51",
+        "K59",
+        "K60",
+        "K62",
+        "K63"
+      ],
+      "potential_effect": "未来估值环节新增证据检查，旧卡版本保持；采用时记录新依赖与实际上下文。",
+      "current_reports_requiring_recalculation": []
+    },
+    {
+      "key": "part6-4",
+      "id": "U78027abe2cc7",
+      "version": 1,
+      "related_cards": [
+        "K05",
+        "K11",
+        "K53",
+        "K57",
+        "E09"
+      ],
+      "potential_effect": "未来估值环节新增证据检查，旧卡版本保持；采用时记录新依赖与实际上下文。",
+      "current_reports_requiring_recalculation": []
+    }
+  ],
+  "writing": {
+    "previous": "docs/投研写作规范.md",
+    "next": "docs/analysis-preparation/writing-v2.md",
+    "applies_to": "以后新写及导出的报告与演示。已发布报告依然绑定原版写作规范及原指纹。"
+  }
+}

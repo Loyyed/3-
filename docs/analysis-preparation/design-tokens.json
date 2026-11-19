@@ -1,0 +1,25 @@
+{
+  "label": "参考实现 v1，非官方品牌认证",
+  "colors": {
+    "paper": "#EFEAE0",
+    "card": "#E5DFD2",
+    "ink": "#1A1A1A",
+    "body": "#484139",
+    "accent": "#9B4A2D",
+    "terracotta": "#CD6F47",
+    "rule": "#81786A",
+    "sage": "#BDCEC0"
+  },
+  "typography": {
+    "serif": "Georgia, \"Songti SC\", \"Noto Serif CJK SC\", \"Source Han Serif SC\", SimSun, serif",
+    "mono": "\"JetBrains Mono\", Consolas, ui-monospace, monospace",
+    "body_px": 17,
+    "line_height": 1.7
+  },
+  "layout": {
+    "max_width_px": 1100,
+    "readable_line_em": 42,
+    "card_radius_px": 10,
+    "print": "A4 14mm margins"
+  }
+}

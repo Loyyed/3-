@@ -11,3 +11,5 @@
 独立恢复：`python scripts/restore_generic_dependency.py --destination <新目录>`，以`RESEARCH_TOOLKIT`或`--toolkit`选择该目录；原件按`python scripts/restore.py --sample`公开URL抽样恢复并核SHA。原PDF、HTML/XBRL全文、OCR、运行配置与凭据只留本地。
 
 历史07阶段说明保留于Git与docs/stage07-*。
+
+本轮补充材料学习、考核规格、22项相对估值检查与视觉样例见 [完整证券分析准备台](docs/analysis-preparation/index.html)。工作台左侧也可打开。

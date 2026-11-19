@@ -1,0 +1,152 @@
+{
+  "at": "2026-11-19T07:53:28.345Z",
+  "baseline": "15785c6053e6be739b66545aad5bc2753cae23e1",
+  "original_hashes": [
+    {
+      "name": "补充材料8/Anthropic 美学要点.html",
+      "sha256": "4fad2734b72c7c9c860d72672e3844cd81058ba27b9cf944100d4a673086c9dd"
+    },
+    {
+      "name": "补充材料8/lec05_叙事与估值_part6.md",
+      "sha256": "8bac7aa82382b3cccfbd759517fe6eccc70f583dad909475553a32bae8501664"
+    },
+    {
+      "name": "补充材料8/新要求提示词.txt",
+      "sha256": "303b4b5e8343889be7403359acd8a387be68b387cecf6ee5450ba69c9c8c3768"
+    },
+    {
+      "name": "补充材料8/课程考核与结课要求.md",
+      "sha256": "3909d6493d404f1ca5e6e4bc40d45e70427d6e915408f2782b636e9391db54fb"
+    }
+  ],
+  "protected": {
+    "tracked_company_and_output_files": 692,
+    "originals": 1548,
+    "missing": 0,
+    "compared_by_sha256": true
+  },
+  "learning": {
+    "lecture_sections": 16,
+    "design_pages": 30
+  },
+  "teaching": {
+    "matching_published_checks_8_16": 13,
+    "negative_zero_near_zero_missing_and_negative_ev": true,
+    "independent_human_review": null
+  },
+  "registry": {
+    "previous": 73,
+    "current": 77,
+    "duplicate_reimport_no_change": 2,
+    "highlighted_methods_above": true,
+    "revision_and_impact_isolated_test": true
+  },
+  "fixtures": {
+    "course_budget_40": true,
+    "readiness_companies": 5,
+    "sessions_members_received": 0,
+    "redacted_session_intake_fixture": true,
+    "existing_writing_tests_passed": 4
+  },
+  "browser": {
+    "main_nav": true,
+    "prepared_rows": 5,
+    "existing_report_status": 200,
+    "knowledge": [
+      "U9f5b99589fb5",
+      "U5e3323f8fafd",
+      "Ub03f1d7c6cec",
+      "U78027abe2cc7"
+    ],
+    "widths": {
+      "320": {
+        "index.html": [
+          320,
+          320
+        ],
+        "checklist.html": [
+          320,
+          320
+        ],
+        "sandbox.html": [
+          320,
+          320
+        ]
+      },
+      "390": {
+        "index.html": [
+          390,
+          390
+        ],
+        "checklist.html": [
+          390,
+          390
+        ],
+        "sandbox.html": [
+          390,
+          390
+        ]
+      },
+      "1440": {
+        "index.html": [
+          1440,
+          1440
+        ],
+        "checklist.html": [
+          1440,
+          1440
+        ],
+        "sandbox.html": [
+          1440,
+          1440
+        ]
+      }
+    },
+    "checklist_rows": 22,
+    "download_import": true,
+    "keyboard": true,
+    "denied_paths": [
+      404,
+      404,
+      404
+    ],
+    "redirect": [
+      302,
+      "/preparation/"
+    ],
+    "compact_table": [
+      296,
+      296
+    ],
+    "zoom": [
+      320,
+      320
+    ]
+  },
+  "chrome_errors": [],
+  "reference": {
+    "sheets": 30,
+    "details_toc_and_p30_anchor": true,
+    "executed_scripts": 0,
+    "external_requests": 0,
+    "narrow_intro_container_px": 338,
+    "narrow_intro_content_px": 512,
+    "narrow_intro_space": "nowrap"
+  },
+  "print": {
+    "size": "A4",
+    "reference_pages": 30,
+    "sandbox_pages": 2,
+    "all_pages_textful": true,
+    "artifacts": ".local/supplement8/qa/"
+  },
+  "contrast": {
+    "paper_ink": "14.52",
+    "paper_body": "8.38",
+    "paper_accent": "5.13",
+    "card_accent": "4.64"
+  },
+  "restore": {
+    "tested": "独立基线克隆叠加本轮文件，锁定通用依赖恢复后冷启动与浏览器验收；提交后另从Git检验可复算。"
+  }
+}

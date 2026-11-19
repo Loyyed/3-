@@ -1,0 +1,227 @@
+[
+  {
+    "page": 1,
+    "title": "Anthropic 美学要点",
+    "provenance": [],
+    "reading": "纸感及行距支持阅读，封面导语可折行"
+  },
+  {
+    "page": 2,
+    "title": "先建立一条阅读线",
+    "provenance": [],
+    "reading": "先交代阅读路线"
+  },
+  {
+    "page": 3,
+    "title": "把来源说清楚",
+    "provenance": [
+      "[A]",
+      "[R]",
+      "[G]",
+      "[D]"
+    ],
+    "reading": "分开官方引用、参考图、借鉴与作者实现"
+  },
+  {
+    "page": 4,
+    "title": "底色先像一张纸",
+    "provenance": [
+      "[R]",
+      "[D]"
+    ],
+    "reading": "暖纸底色和细线保持连续"
+  },
+  {
+    "page": 5,
+    "title": "两套色板，各有出处",
+    "provenance": [
+      "[A]",
+      "[R]"
+    ],
+    "reading": "参考色与原文所引官方色分别标注"
+  },
+  {
+    "page": 6,
+    "title": "强调色只点到关键词",
+    "provenance": [
+      "[D]"
+    ],
+    "reading": "陶土仅用于强调重点词"
+  },
+  {
+    "page": 7,
+    "title": "绿色让辅助信息退后",
+    "provenance": [
+      "[R]",
+      "[D]"
+    ],
+    "reading": "辅助背景用浅绿，小字用深色"
+  },
+  {
+    "page": 8,
+    "title": "先清楚，再柔和",
+    "provenance": [],
+    "reading": "文字与颜色共同标识分类；测实际对比"
+  },
+  {
+    "page": 9,
+    "title": "三种字，三种职责",
+    "provenance": [
+      "[A]",
+      "[R]"
+    ],
+    "reading": "宋体正文、稳定的数字等宽标签"
+  },
+  {
+    "page": 10,
+    "title": "中文标题，按词组落行",
+    "provenance": [
+      "[D]",
+      "[G]"
+    ],
+    "reading": "中文语义断行，省去合成斜体"
+  },
+  {
+    "page": 11,
+    "title": "英文保留书页气质",
+    "provenance": [
+      "[A]",
+      "[D]"
+    ],
+    "reading": "英文Georgia离线回退"
+  },
+  {
+    "page": 12,
+    "title": "等宽字，负责定位",
+    "provenance": [
+      "[R]",
+      "[D]"
+    ],
+    "reading": "等宽用于短标签、数字与代码"
+  },
+  {
+    "page": 13,
+    "title": "字号形成三个台阶",
+    "provenance": [],
+    "reading": "标题、正文、标签三层"
+  },
+  {
+    "page": 14,
+    "title": "行长和行距一起调",
+    "provenance": [],
+    "reading": "正文17px附近、行高1.7并控制行长"
+  },
+  {
+    "page": 15,
+    "title": "留白是内容之间的距离",
+    "provenance": [],
+    "reading": "按信息关系设置组内与组间距"
+  },
+  {
+    "page": 16,
+    "title": "先找到一条左边线",
+    "provenance": [],
+    "reading": "表、正文、标题与页码共享对齐轴"
+  },
+  {
+    "page": 17,
+    "title": "一页只留一个重心",
+    "provenance": [
+      "[G]",
+      "[D]"
+    ],
+    "reading": "一屏一个经营问题"
+  },
+  {
+    "page": 18,
+    "title": "深色卡片，留给重点",
+    "provenance": [
+      "[R]",
+      "[D]"
+    ],
+    "reading": "少量深色块承载重点"
+  },
+  {
+    "page": 19,
+    "title": "圆角小一点，边界轻一点",
+    "provenance": [],
+    "reading": "相关内容单层，限制嵌套"
+  },
+  {
+    "page": 20,
+    "title": "细线只做分隔",
+    "provenance": [],
+    "reading": "细线用于分组和表格行"
+  },
+  {
+    "page": 21,
+    "title": "图形只解释真实关系",
+    "provenance": [],
+    "reading": "流程仅表示实际顺序；图形按数据关系选"
+  },
+  {
+    "page": 22,
+    "title": "比较时，先统一尺度",
+    "provenance": [],
+    "reading": "比较统一尺度及单位"
+  },
+  {
+    "page": 23,
+    "title": "数字需要单位与解释",
+    "provenance": [],
+    "reading": "数字标字段、期间、口径与来源"
+  },
+  {
+    "page": 24,
+    "title": "插图可以像页边手记",
+    "provenance": [],
+    "reading": "插图解释对象而非填空"
+  },
+  {
+    "page": 25,
+    "title": "纸感主要来自颜色与文字",
+    "provenance": [
+      "[R]",
+      "[D]"
+    ],
+    "reading": "以颜色与字形构成纸感，可无纹理"
+  },
+  {
+    "page": 26,
+    "title": "文案也要克制",
+    "provenance": [],
+    "reading": "明确经营行动者、动作、结果"
+  },
+  {
+    "page": 27,
+    "title": "在手机上，先保证好读",
+    "provenance": [],
+    "reading": "移动单栏、正文折行、可键盘访问"
+  },
+  {
+    "page": 28,
+    "title": "从三种版式开始",
+    "provenance": [
+      "[G]",
+      "[D]"
+    ],
+    "reading": "主张、对照、账页三种版式按内容选"
+  },
+  {
+    "page": 29,
+    "title": "把做法写进提示词",
+    "provenance": [],
+    "reading": "把对象、阅读场景和验收写入作者提示"
+  },
+  {
+    "page": 30,
+    "title": "带着来源，继续使用",
+    "provenance": [
+      "[A]",
+      "[G]",
+      "[R]",
+      "[D]"
+    ],
+    "reading": "出处分级、桌面、窄屏和打印验收"
+  }
+]

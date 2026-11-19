@@ -3,3 +3,6 @@
 
 ## 投研表达
 生成、编辑、导出报告、预测、图册、路演和讲稿前，读取docs/投研写作规范.md与shared/writing-skills.json。正文按投资问题展开，研究卡保留完整依据；重复套话和状态移至必要的整体说明/附录。保护数字、来源、条件和判断强度，实质矛盾另记内容审阅。编辑源与生成器一起维护，旧成果/核验身份不改。
+
+## 后续完整分析
+生成新成果前使用 docs/analysis-preparation/writing-v2.md 与 author-brief.md，沿用 shared/writing-skills.json 和 v2 补充适配。docs/投研写作规范.md 是已发布成果绑定的 v1。完整分析启动检查见 docs/analysis-preparation/index.html。

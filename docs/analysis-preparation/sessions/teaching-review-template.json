@@ -1,0 +1,21 @@
+{
+  "scope": "Part6 8.16虚构教学数据",
+  "student_action": {
+    "name": null,
+    "date": null,
+    "hand_written_work_ref": null,
+    "normalized_PE_Ding": null,
+    "target_EV": null,
+    "notes": null
+  },
+  "independent_reviewer": {
+    "name": null,
+    "date": null,
+    "independent_work_ref": null,
+    "PE_reference_per_share": null,
+    "EV_sales_reference_per_share": null,
+    "differences": null
+  },
+  "student_action_status": "未发生/未提供",
+  "review_action_status": "未发生/未提供"
+}

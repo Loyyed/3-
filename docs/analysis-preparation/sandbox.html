@@ -1,0 +1,49 @@
+<!doctype html><html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>设计验证</title><style>:root{--paper:#EFEAE0;--card:#E5DFD2;--ink:#1A1A1A;--body:#484139;--accent:#9B4A2D;--terracotta:#CD6F47;--rule:#81786A;--sage:#BDCEC0;--serif:Georgia, "Songti SC", "Noto Serif CJK SC", "Source Han Serif SC", SimSun, serif;--mono:"JetBrains Mono", Consolas, ui-monospace, monospace;--size:17px;--line:1.7;--width:1100px;--measure:42em;--radius:10px}*{box-sizing:border-box}
+html{color-scheme:light}
+body{margin:0;background:var(--paper);color:var(--ink);font:var(--size)/var(--line) var(--serif);overflow-wrap:anywhere}
+main{width:min(var(--width),calc(100% - 2rem));margin:auto;padding:2rem 0 4rem}
+p,li{max-width:var(--measure)}
+h1,h2,h3{line-height:1.22}
+h1{font-size:clamp(2rem,5.5vw,3.65rem);margin:.5em 0 .35em}
+h2{font-size:clamp(1.45rem,3vw,2.1rem)}
+section{border-top:1px solid var(--rule);padding:1.1rem 0 1.8rem}
+a{color:var(--accent);text-underline-offset:.2em}
+nav{display:flex;flex-wrap:wrap;gap:.4rem 1.2rem;margin:1rem 0}
+small,.muted{color:var(--body)}
+.tag,.num{font:inherit;font-family:var(--mono);font-variant-numeric:tabular-nums}
+.tag{font-size:.82em}
+:focus-visible{outline:3px solid var(--accent);outline-offset:3px}
+.scroll{max-width:100%;overflow:auto;margin:1rem 0}
+table{border-collapse:collapse;width:100%;min-width:37rem}
+td,th{text-align:left;vertical-align:top;padding:.45rem .7rem;border-bottom:1px solid var(--rule)}
+th{font-size:.87em;background:var(--card)}
+input,select,button,textarea{font:inherit;padding:.35rem;color:var(--ink);background:#fffdf7;border:1px solid var(--rule);border-radius:4px}
+label.control{display:block;margin:.55rem 0}
+label.control :is(select,input){display:block;width:min(100%,34rem)}
+.panel{padding:1rem 1.2rem;background:var(--card);border-radius:var(--radius)}
+.dark{background:var(--ink);color:var(--paper)}
+.chart{margin:1rem 0;max-width:38rem}
+.mark{background:var(--terracotta);color:var(--ink);min-width:2rem;padding:.2rem .45rem}
+.mark.forecast{background:var(--sage);border:2px dashed var(--ink)}
+.empty{border:1px dashed var(--rule);padding:1.1rem}
+figure{margin:1rem 0}
+caption{text-align:left}
+.compact table{min-width:0}
+figcaption{margin-top:.45rem}
+details{margin:.8rem 0}
+summary{cursor:pointer}
+pre{white-space:pre-wrap;line-height:1.5}
+@media(max-width:480px){main{width:calc(100% - 1.5rem);padding:1rem 0 2rem}.panel{padding:.8rem}}
+@media print{
+ @page{size:A4;margin:14mm}
+ body{background:white;color:#1a1a1a;font-size:11pt;print-color-adjust:exact;-webkit-print-color-adjust:exact}
+ main{width:100%;max-width:none;padding:0}
+ nav,.screen-only{display:none}
+ h1,h2,h3{break-after:avoid}
+ .scroll{overflow:visible}
+ table{min-width:0;font-size:10pt}
+ tr,figure,.panel{break-inside:avoid}
+ thead{display:table-header-group}
+ .print-break{break-before:page}
+}
+</style></head><body><main><header><span class="tag">内部准备 · 2026-11-19</span><h1>设计验证</h1></header><nav><a href="index.html">返回准备台</a></nav><p>合成数据，演示三个期间如何呈现在同一尺度。窄屏导语按词组换行，页面保留共同左轴。</p><section id=""><h2>可比数与缺值怎样呈现？</h2><figure><div class="chart"><p>期间 A · 合成实际</p><div class="mark num" style="width:40%">40</div><p>期间 B · 缺值</p><div class="empty">源记录未提供，留空。</div><p>期间 C · 合成预测</p><div class="mark forecast num" style="width:60%">60</div></div><figcaption>图 1｜模拟指数，0—100，合成夹具。 A 和 C 共用尺度。B 没有接线。</figcaption></figure><div class="compact"><div class="scroll" tabindex="0" role="region" aria-label="表 1｜合成教学数据"><table><caption>表 1｜合成教学数据</caption><thead><tr><th scope="col">期间</th><th scope="col">单位</th><th scope="col">值</th><th scope="col">状态</th></tr></thead><tbody><tr><td>A</td><td>指数点</td><td>40</td><td>合成实际</td></tr><tr><td>B</td><td>指数点</td><td>—</td><td>未提供</td></tr><tr><td>C</td><td>指数点</td><td>60</td><td>合成预测</td></tr></tbody></table></div></div><details class="screen-only"><summary>键盘展开图表依据</summary><p>合成数据，不对应公司或市场。</p></details></section><section class="print-break"><h2>没有数据时如何交代？</h2><figure class="panel"><div class="empty">图 2 · 空状态</div><figcaption>数据范围、口径和单位等待真实登记。合成样例没有可引用的业务指标。</figcaption></figure><p class="panel dark">一页聚焦一个问题，来源紧跟图表。</p></section></main></body></html>

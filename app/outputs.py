@@ -58,6 +58,9 @@ def perform(e,d,actor):
  if (p/'work/writing/reader.json').exists():auto_inputs+=['work/writing/reader.json']
  if (e.root/'docs/投研写作规范.md').exists():
   for rel in ['docs/投研写作规范.md','shared/writing-skills.json','app/writing.py']:bindings['shared_dependencies'][rel]=sha(contained(e.root,rel))
+ if a=='export-report':
+  for rel in ['docs/analysis-preparation/writing-v2.md','docs/analysis-preparation/author-brief.md','docs/analysis-preparation/writing-skills-v2.json']:
+   if (e.root/rel).is_file():bindings['shared_dependencies'][rel]=sha(contained(e.root,rel))
  if 'work/research12/calculation.json' in d.get('input_paths',[]):
   bindings['shared_dependencies']['scripts/recalculate_research12.py']=sha(e.root/'scripts/recalculate_research12.py')
  for rel in dict.fromkeys(d.get('input_paths',[])+auto_inputs):

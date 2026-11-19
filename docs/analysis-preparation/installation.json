@@ -1,0 +1,70 @@
+{
+  "material_ids": {
+    "visual": "M90a5563db9bd",
+    "relative": "M6f72e7d2bc4e",
+    "writing": "M4fa810cdc3dc",
+    "assessment": "M4b5e8225907d"
+  },
+  "new_methods": [
+    {
+      "key": "part6-1",
+      "id": "U9f5b99589fb5",
+      "version": 1,
+      "related_cards": [
+        "K05",
+        "K11",
+        "K53",
+        "K57",
+        "E07",
+        "E09"
+      ]
+    },
+    {
+      "key": "part6-2",
+      "id": "U5e3323f8fafd",
+      "version": 1,
+      "related_cards": [
+        "K07",
+        "K12",
+        "K19",
+        "K22",
+        "K33",
+        "K63"
+      ]
+    },
+    {
+      "key": "part6-3",
+      "id": "Ub03f1d7c6cec",
+      "version": 1,
+      "related_cards": [
+        "K04",
+        "K06",
+        "K07",
+        "K10",
+        "K13",
+        "K46",
+        "K48",
+        "K51",
+        "K59",
+        "K60",
+        "K62",
+        "K63"
+      ]
+    },
+    {
+      "key": "part6-4",
+      "id": "U78027abe2cc7",
+      "version": 1,
+      "related_cards": [
+        "K05",
+        "K11",
+        "K53",
+        "K57",
+        "E09"
+      ]
+    }
+  ],
+  "available_method_ids": 77,
+  "version_policy": "新增互补方法，旧版本保持。后续实质修订走Engine revise/adopt及影响复核。",
+  "review_status": "Agent纳入。教师、学生及独立人员审核字段留空。"
+}

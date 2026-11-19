@@ -1,0 +1,52 @@
+{
+  "schema_version": 1,
+  "course": "mf-investments",
+  "coverage": null,
+  "main_subject": null,
+  "report_path": null,
+  "members": [],
+  "member_entry_template": {
+    "name": null,
+    "student_number": null,
+    "leader": null,
+    "responsibility": null,
+    "contribution": null,
+    "member_directory": null,
+    "submitted_by": null,
+    "sessions": [
+      {
+        "session_id": null,
+        "relative_path": null,
+        "sha256": null,
+        "source_tool": null,
+        "window_start": null,
+        "window_end": null,
+        "chapter_or_model": null,
+        "visible_records": {
+          "user_instructions": null,
+          "agent_responses": null,
+          "tool_invocations": null,
+          "student_verification": null,
+          "challenge": null,
+          "correction": null,
+          "decision": null
+        },
+        "redaction": {
+          "reviewed_by": null,
+          "reviewed_at": null,
+          "redacted_copy_sha256": null
+        },
+        "missing": null
+      }
+    ]
+  },
+  "receipt": {
+    "state": "尚无真实会话包接收",
+    "original_export_obtained": false,
+    "at": null
+  },
+  "missing": [
+    "既有对话原始导出和可见工具轨迹包未接收",
+    "真实成员、个人会话、学生核验及贡献未收集"
+  ]
+}
