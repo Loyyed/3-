@@ -1,0 +1,167 @@
+[
+  {
+    "company": "002507_涪陵榨菜",
+    "scenario": "base",
+    "baseline": 14.178341651020835,
+    "long_history_and_forecast_redesign": -0.18541535143988241,
+    "recent_recalibration": -0.013118649976867403,
+    "accounting_adjustment": 0.0,
+    "new": 13.979807649604085,
+    "tag": "算术",
+    "order": "固定顺序，交互效应归入后进入的变更组"
+  },
+  {
+    "company": "002507_涪陵榨菜",
+    "scenario": "stress",
+    "baseline": 9.531474612791637,
+    "long_history_and_forecast_redesign": 0.8552841712951178,
+    "recent_recalibration": -0.04834948284435825,
+    "accounting_adjustment": 0.0,
+    "new": 10.338409301242397,
+    "tag": "算术",
+    "order": "固定顺序，交互效应归入后进入的变更组"
+  },
+  {
+    "company": "002507_涪陵榨菜",
+    "scenario": "improve",
+    "baseline": 19.08530567234615,
+    "long_history_and_forecast_redesign": -0.942273992765319,
+    "recent_recalibration": 0.07285923940385786,
+    "accounting_adjustment": 0.0,
+    "new": 18.215890918984687,
+    "tag": "算术",
+    "order": "固定顺序，交互效应归入后进入的变更组"
+  },
+  {
+    "company": "09992_泡泡玛特",
+    "scenario": "base",
+    "baseline": 234.62611235974788,
+    "long_history_and_forecast_redesign": -3.224581385381981,
+    "recent_recalibration": -19.587810730025552,
+    "accounting_adjustment": 3.2283215740277456,
+    "new": 215.0420418183681,
+    "tag": "算术",
+    "order": "固定顺序，交互效应归入后进入的变更组"
+  },
+  {
+    "company": "09992_泡泡玛特",
+    "scenario": "stress",
+    "baseline": 69.65871636206035,
+    "long_history_and_forecast_redesign": 3.6221523481534916,
+    "recent_recalibration": -9.743405116541751,
+    "accounting_adjustment": 2.597671560382153,
+    "new": 66.13513515405424,
+    "tag": "算术",
+    "order": "固定顺序，交互效应归入后进入的变更组"
+  },
+  {
+    "company": "09992_泡泡玛特",
+    "scenario": "improve",
+    "baseline": 546.8199108606204,
+    "long_history_and_forecast_redesign": 33.05671841056426,
+    "recent_recalibration": -40.07054344342578,
+    "accounting_adjustment": 4.243981702845758,
+    "new": 544.0500675306047,
+    "tag": "算术",
+    "order": "固定顺序，交互效应归入后进入的变更组"
+  },
+  {
+    "company": "600298_安琪酵母",
+    "scenario": "base",
+    "baseline": 108.50017405538888,
+    "long_history_and_forecast_redesign": -12.112779948375575,
+    "recent_recalibration": 1.5208124372885976,
+    "accounting_adjustment": 0.0,
+    "new": 97.9082065443019,
+    "tag": "算术",
+    "order": "固定顺序，交互效应归入后进入的变更组"
+  },
+  {
+    "company": "600298_安琪酵母",
+    "scenario": "stress",
+    "baseline": 34.84524841730178,
+    "long_history_and_forecast_redesign": 0.14454299818124383,
+    "recent_recalibration": 0.17117414986132218,
+    "accounting_adjustment": 0.0,
+    "new": 35.16096556534435,
+    "tag": "算术",
+    "order": "固定顺序，交互效应归入后进入的变更组"
+  },
+  {
+    "company": "600298_安琪酵母",
+    "scenario": "improve",
+    "baseline": 226.50659962080974,
+    "long_history_and_forecast_redesign": -20.547762340759164,
+    "recent_recalibration": 4.87296215218575,
+    "accounting_adjustment": 0.0,
+    "new": 210.83179943223632,
+    "tag": "算术",
+    "order": "固定顺序，交互效应归入后进入的变更组"
+  },
+  {
+    "company": "688188_柏楚电子",
+    "scenario": "base",
+    "baseline": 90.69798755407224,
+    "long_history_and_forecast_redesign": 6.812969058435996,
+    "recent_recalibration": 1.1539859990226518,
+    "accounting_adjustment": 0.0,
+    "new": 98.66494261153089,
+    "tag": "算术",
+    "order": "固定顺序，交互效应归入后进入的变更组"
+  },
+  {
+    "company": "688188_柏楚电子",
+    "scenario": "stress",
+    "baseline": 43.39999517027374,
+    "long_history_and_forecast_redesign": 6.509821842393798,
+    "recent_recalibration": 0.47129161425831256,
+    "accounting_adjustment": 0.0,
+    "new": 50.38110862692585,
+    "tag": "算术",
+    "order": "固定顺序，交互效应归入后进入的变更组"
+  },
+  {
+    "company": "688188_柏楚电子",
+    "scenario": "improve",
+    "baseline": 143.5004120717111,
+    "long_history_and_forecast_redesign": 24.998240800053225,
+    "recent_recalibration": 4.14843128795647,
+    "accounting_adjustment": 0.0,
+    "new": 172.6470841597208,
+    "tag": "算术",
+    "order": "固定顺序，交互效应归入后进入的变更组"
+  },
+  {
+    "company": "US_ISRG_直觉外科",
+    "scenario": "base",
+    "baseline": 179.3827360657388,
+    "long_history_and_forecast_redesign": 9.300611513345615,
+    "recent_recalibration": 0.9902247318178183,
+    "accounting_adjustment": 1.5244077943384298,
+    "new": 191.19798010524067,
+    "tag": "算术",
+    "order": "固定顺序，交互效应归入后进入的变更组"
+  },
+  {
+    "company": "US_ISRG_直觉外科",
+    "scenario": "stress",
+    "baseline": 101.8517499922726,
+    "long_history_and_forecast_redesign": -4.793515342138434,
+    "recent_recalibration": 0.9606965449635823,
+    "accounting_adjustment": 0.7716395459960665,
+    "new": 98.79057074109382,
+    "tag": "算术",
+    "order": "固定顺序，交互效应归入后进入的变更组"
+  },
+  {
+    "company": "US_ISRG_直觉外科",
+    "scenario": "improve",
+    "baseline": 258.0832872295877,
+    "long_history_and_forecast_redesign": 38.096162833827975,
+    "recent_recalibration": 2.263925165631065,
+    "accounting_adjustment": 1.3065848412355763,
+    "new": 299.7499600702823,
+    "tag": "算术",
+    "order": "固定顺序，交互效应归入后进入的变更组"
+  }
+]

@@ -1,0 +1,67 @@
+[
+  {
+    "company": "002507_涪陵榨菜",
+    "tag": "市场观测",
+    "symbol": "002507.SZ",
+    "market_currency": "CNY",
+    "timezone": "Asia/Shanghai",
+    "ts": 1794447000,
+    "date": "2026-11-12",
+    "raw_close": 11.420000076293945,
+    "close_rounded": 11.42,
+    "sha256": "629e6def34989bd691dc3cd010930ed5e194acc45a812b4ae0ee699f05aac86e",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/002507.SZ?period1=1699488000&period2=1794528000&interval=1d&events=div%2Csplits"
+  },
+  {
+    "company": "09992_泡泡玛特",
+    "tag": "市场观测",
+    "symbol": "9992.HK",
+    "market_currency": "HKD",
+    "timezone": "Asia/Hong_Kong",
+    "ts": 1794447000,
+    "date": "2026-11-12",
+    "raw_close": 143.39999389648438,
+    "close_rounded": 143.4,
+    "sha256": "1213e9849b0b4f1878f8601c80b08103c9efa14799a96b96bab0ff6f86ae314a",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/9992.HK?period1=1699488000&period2=1794528000&interval=1d&events=div%2Csplits"
+  },
+  {
+    "company": "600298_安琪酵母",
+    "tag": "市场观测",
+    "symbol": "600298.SS",
+    "market_currency": "CNY",
+    "timezone": "Asia/Shanghai",
+    "ts": 1794447000,
+    "date": "2026-11-12",
+    "raw_close": 36.619998931884766,
+    "close_rounded": 36.62,
+    "sha256": "27197ab0c81c26defa782000fa87cee608b65d71daadc96ca1c26cfbe64b4f24",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/600298.SS?period1=1699488000&period2=1794528000&interval=1d&events=div%2Csplits"
+  },
+  {
+    "company": "688188_柏楚电子",
+    "tag": "市场观测",
+    "symbol": "688188.SS",
+    "market_currency": "CNY",
+    "timezone": "Asia/Shanghai",
+    "ts": 1794447000,
+    "date": "2026-11-12",
+    "raw_close": 96.19999694824219,
+    "close_rounded": 96.2,
+    "sha256": "9536c59ec7e99f68041ac6c0b4b0c629b70923cce236c4b566d577f647820d86",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/688188.SS?period1=1699488000&period2=1794528000&interval=1d&events=div%2Csplits"
+  },
+  {
+    "company": "US_ISRG_直觉外科",
+    "tag": "市场观测",
+    "symbol": "ISRG",
+    "market_currency": "USD",
+    "timezone": "America/New_York",
+    "ts": 1794493800,
+    "date": "2026-11-12",
+    "raw_close": 439.8900146484375,
+    "close_rounded": 439.89,
+    "sha256": "1937effdb51d8fe86886a6a8bba7f5b8f4464be081f0fedba6f562474697cf6f",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/ISRG?period1=1699488000&period2=1794528000&interval=1d&events=div%2Csplits"
+  }
+]

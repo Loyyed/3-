@@ -1,0 +1,632 @@
+[
+  {
+    "company": "002507_涪陵榨菜",
+    "tag": "条件估值",
+    "variable": "WACC -100bp",
+    "field": "rate",
+    "input_value": 0.05551010308118854,
+    "per_share": 16.513007207255935
+  },
+  {
+    "company": "002507_涪陵榨菜",
+    "tag": "条件估值",
+    "variable": "WACC +100bp",
+    "field": "rate",
+    "input_value": 0.07551010308118854,
+    "per_share": 12.358972500086018
+  },
+  {
+    "company": "002507_涪陵榨菜",
+    "tag": "条件估值",
+    "variable": "稳定增长 -50bp",
+    "field": "g",
+    "input_value": 0.015,
+    "per_share": 13.574688826027128
+  },
+  {
+    "company": "002507_涪陵榨菜",
+    "tag": "条件估值",
+    "variable": "稳定增长 +50bp",
+    "field": "g",
+    "input_value": 0.025,
+    "per_share": 14.480684429175472
+  },
+  {
+    "company": "002507_涪陵榨菜",
+    "tag": "条件估值",
+    "variable": "稳定利润率 -3pp",
+    "field": "steady_margin",
+    "input_value": 0.26623205743180633,
+    "per_share": 13.391572156064974
+  },
+  {
+    "company": "002507_涪陵榨菜",
+    "tag": "条件估值",
+    "variable": "稳定利润率 +3pp",
+    "field": "steady_margin",
+    "input_value": 0.3262320574318063,
+    "per_share": 14.545902046513326
+  },
+  {
+    "company": "002507_涪陵榨菜",
+    "tag": "条件估值",
+    "variable": "新增资本回报 -3pp",
+    "field": "roi",
+    "input_value": 0.085,
+    "per_share": 13.436135552197118
+  },
+  {
+    "company": "002507_涪陵榨菜",
+    "tag": "条件估值",
+    "variable": "新增资本回报 +3pp",
+    "field": "roi",
+    "input_value": 0.14500000000000002,
+    "per_share": 14.298511982566792
+  },
+  {
+    "company": "002507_涪陵榨菜",
+    "tag": "条件估值",
+    "variable": "WACC 6%",
+    "field": "rate",
+    "input_value": 0.06,
+    "per_share": 15.219013798359468
+  },
+  {
+    "company": "002507_涪陵榨菜",
+    "tag": "条件估值",
+    "variable": "WACC 8%",
+    "field": "rate",
+    "input_value": 0.08,
+    "per_share": 11.806899091101418
+  },
+  {
+    "company": "002507_涪陵榨菜",
+    "tag": "条件估值",
+    "variable": "WACC 10%",
+    "field": "rate",
+    "input_value": 0.1,
+    "per_share": 10.10019139500499
+  },
+  {
+    "company": "002507_涪陵榨菜",
+    "tag": "条件估值",
+    "variable": "WACC 12%",
+    "field": "rate",
+    "input_value": 0.12,
+    "per_share": 9.075906112306606
+  },
+  {
+    "company": "002507_涪陵榨菜",
+    "tag": "市场反解",
+    "variable": "steady_margin",
+    "domain": [
+      0.04,
+      0.8
+    ],
+    "value": 0.18655907573515956
+  },
+  {
+    "company": "002507_涪陵榨菜",
+    "tag": "市场反解",
+    "variable": "rate",
+    "domain": [
+      0.023,
+      0.22
+    ],
+    "value": 0.08360515621757397
+  },
+  {
+    "company": "002507_涪陵榨菜",
+    "tag": "市场反解",
+    "variable": "volume_shift",
+    "domain": [
+      -0.2,
+      0.4
+    ],
+    "value": -0.07679015619278992
+  },
+  {
+    "company": "09992_泡泡玛特",
+    "tag": "条件估值",
+    "variable": "WACC -100bp",
+    "field": "rate",
+    "input_value": 0.04395836367616964,
+    "per_share": 307.2077484576906
+  },
+  {
+    "company": "09992_泡泡玛特",
+    "tag": "条件估值",
+    "variable": "WACC +100bp",
+    "field": "rate",
+    "input_value": 0.06395836367616964,
+    "per_share": 166.7149433980612
+  },
+  {
+    "company": "09992_泡泡玛特",
+    "tag": "条件估值",
+    "variable": "稳定增长 -50bp",
+    "field": "g",
+    "input_value": 0.016999999999999998,
+    "per_share": 196.03341189434005
+  },
+  {
+    "company": "09992_泡泡玛特",
+    "tag": "条件估值",
+    "variable": "稳定增长 +50bp",
+    "field": "g",
+    "input_value": 0.027,
+    "per_share": 240.8250146886569
+  },
+  {
+    "company": "09992_泡泡玛特",
+    "tag": "条件估值",
+    "variable": "稳定利润率 -3pp",
+    "field": "steady_margin",
+    "input_value": 0.22221204091567123,
+    "per_share": 195.4459953374602
+  },
+  {
+    "company": "09992_泡泡玛特",
+    "tag": "条件估值",
+    "variable": "稳定利润率 +3pp",
+    "field": "steady_margin",
+    "input_value": 0.2822120409156712,
+    "per_share": 233.55932147402442
+  },
+  {
+    "company": "09992_泡泡玛特",
+    "tag": "条件估值",
+    "variable": "新增资本回报 -3pp",
+    "field": "roi",
+    "input_value": 0.14,
+    "per_share": 209.80907997840595
+  },
+  {
+    "company": "09992_泡泡玛特",
+    "tag": "条件估值",
+    "variable": "新增资本回报 +3pp",
+    "field": "roi",
+    "input_value": 0.2,
+    "per_share": 218.70511510634162
+  },
+  {
+    "company": "09992_泡泡玛特",
+    "tag": "条件估值",
+    "variable": "WACC 6%",
+    "field": "rate",
+    "input_value": 0.06,
+    "per_share": 182.81471656252398
+  },
+  {
+    "company": "09992_泡泡玛特",
+    "tag": "条件估值",
+    "variable": "WACC 8%",
+    "field": "rate",
+    "input_value": 0.08,
+    "per_share": 123.8755876325072
+  },
+  {
+    "company": "09992_泡泡玛特",
+    "tag": "条件估值",
+    "variable": "WACC 10%",
+    "field": "rate",
+    "input_value": 0.1,
+    "per_share": 95.01268152178284
+  },
+  {
+    "company": "09992_泡泡玛特",
+    "tag": "条件估值",
+    "variable": "WACC 12%",
+    "field": "rate",
+    "input_value": 0.12,
+    "per_share": 77.83666160761389
+  },
+  {
+    "company": "09992_泡泡玛特",
+    "tag": "市场反解",
+    "variable": "steady_margin",
+    "domain": [
+      0.04,
+      0.8
+    ],
+    "value": 0.14525188548274948
+  },
+  {
+    "company": "09992_泡泡玛特",
+    "tag": "市场反解",
+    "variable": "rate",
+    "domain": [
+      0.024999999999999998,
+      0.22
+    ],
+    "value": 0.07140110246482123
+  },
+  {
+    "company": "09992_泡泡玛特",
+    "tag": "市场反解",
+    "variable": "volume_shift",
+    "domain": [
+      -0.2,
+      0.4
+    ],
+    "value": -0.09421099809840527
+  },
+  {
+    "company": "600298_安琪酵母",
+    "tag": "条件估值",
+    "variable": "WACC -100bp",
+    "field": "rate",
+    "input_value": 0.0340335168532173,
+    "per_share": 192.93418620636004
+  },
+  {
+    "company": "600298_安琪酵母",
+    "tag": "条件估值",
+    "variable": "WACC +100bp",
+    "field": "rate",
+    "input_value": 0.054033516853217306,
+    "per_share": 62.3669725373864
+  },
+  {
+    "company": "600298_安琪酵母",
+    "tag": "条件估值",
+    "variable": "稳定增长 -50bp",
+    "field": "g",
+    "input_value": 0.016999999999999998,
+    "per_share": 83.43316724507609
+  },
+  {
+    "company": "600298_安琪酵母",
+    "tag": "条件估值",
+    "variable": "稳定增长 +50bp",
+    "field": "g",
+    "input_value": 0.027,
+    "per_share": 120.8036013268004
+  },
+  {
+    "company": "600298_安琪酵母",
+    "tag": "条件估值",
+    "variable": "稳定利润率 -3pp",
+    "field": "steady_margin",
+    "input_value": 0.0902932430042876,
+    "per_share": 75.34614810099427
+  },
+  {
+    "company": "600298_安琪酵母",
+    "tag": "条件估值",
+    "variable": "稳定利润率 +3pp",
+    "field": "steady_margin",
+    "input_value": 0.1502932430042876,
+    "per_share": 119.9975150976681
+  },
+  {
+    "company": "600298_安琪酵母",
+    "tag": "条件估值",
+    "variable": "新增资本回报 -3pp",
+    "field": "roi",
+    "input_value": 0.082,
+    "per_share": 88.24686903479233
+  },
+  {
+    "company": "600298_安琪酵母",
+    "tag": "条件估值",
+    "variable": "新增资本回报 +3pp",
+    "field": "roi",
+    "input_value": 0.14200000000000002,
+    "per_share": 103.48728876810321
+  },
+  {
+    "company": "600298_安琪酵母",
+    "tag": "条件估值",
+    "variable": "WACC 6%",
+    "field": "rate",
+    "input_value": 0.06,
+    "per_share": 50.129349539867604
+  },
+  {
+    "company": "600298_安琪酵母",
+    "tag": "条件估值",
+    "variable": "WACC 8%",
+    "field": "rate",
+    "input_value": 0.08,
+    "per_share": 27.660647460024002
+  },
+  {
+    "company": "600298_安琪酵母",
+    "tag": "条件估值",
+    "variable": "WACC 10%",
+    "field": "rate",
+    "input_value": 0.1,
+    "per_share": 16.90365254944356
+  },
+  {
+    "company": "600298_安琪酵母",
+    "tag": "条件估值",
+    "variable": "WACC 12%",
+    "field": "rate",
+    "input_value": 0.12,
+    "per_share": 10.665366663343503
+  },
+  {
+    "company": "600298_安琪酵母",
+    "tag": "市场反解",
+    "variable": "steady_margin",
+    "domain": [
+      0.04,
+      0.8
+    ],
+    "value": 0.04407832542664214
+  },
+  {
+    "company": "600298_安琪酵母",
+    "tag": "市场反解",
+    "variable": "rate",
+    "domain": [
+      0.024999999999999998,
+      0.22
+    ],
+    "value": 0.06990039155264499
+  },
+  {
+    "company": "600298_安琪酵母",
+    "tag": "市场反解",
+    "variable": "volume_shift",
+    "domain": [
+      -0.2,
+      0.4
+    ],
+    "value": -0.16433739530692382
+  },
+  {
+    "company": "688188_柏楚电子",
+    "tag": "条件估值",
+    "variable": "WACC -100bp",
+    "field": "rate",
+    "input_value": 0.059274187472016536,
+    "per_share": 123.45091705737477
+  },
+  {
+    "company": "688188_柏楚电子",
+    "tag": "条件估值",
+    "variable": "WACC +100bp",
+    "field": "rate",
+    "input_value": 0.07927418747201653,
+    "per_share": 82.73015773264066
+  },
+  {
+    "company": "688188_柏楚电子",
+    "tag": "条件估值",
+    "variable": "稳定增长 -50bp",
+    "field": "g",
+    "input_value": 0.018,
+    "per_share": 93.07461425266908
+  },
+  {
+    "company": "688188_柏楚电子",
+    "tag": "条件估值",
+    "variable": "稳定增长 +50bp",
+    "field": "g",
+    "input_value": 0.028,
+    "per_share": 105.58420231977418
+  },
+  {
+    "company": "688188_柏楚电子",
+    "tag": "条件估值",
+    "variable": "稳定利润率 -3pp",
+    "field": "steady_margin",
+    "input_value": 0.4395780861978382,
+    "per_share": 94.72923237465398
+  },
+  {
+    "company": "688188_柏楚电子",
+    "tag": "条件估值",
+    "variable": "稳定利润率 +3pp",
+    "field": "steady_margin",
+    "input_value": 0.49957808619783817,
+    "per_share": 102.60065284840779
+  },
+  {
+    "company": "688188_柏楚电子",
+    "tag": "条件估值",
+    "variable": "新增资本回报 -3pp",
+    "field": "roi",
+    "input_value": 0.205,
+    "per_share": 97.41227734041634
+  },
+  {
+    "company": "688188_柏楚电子",
+    "tag": "条件估值",
+    "variable": "新增资本回报 +3pp",
+    "field": "roi",
+    "input_value": 0.265,
+    "per_share": 99.63398555711005
+  },
+  {
+    "company": "688188_柏楚电子",
+    "tag": "条件估值",
+    "variable": "WACC 6%",
+    "field": "rate",
+    "input_value": 0.06,
+    "per_share": 121.19873190160658
+  },
+  {
+    "company": "688188_柏楚电子",
+    "tag": "条件估值",
+    "variable": "WACC 8%",
+    "field": "rate",
+    "input_value": 0.08,
+    "per_share": 81.79276598929961
+  },
+  {
+    "company": "688188_柏楚电子",
+    "tag": "条件估值",
+    "variable": "WACC 10%",
+    "field": "rate",
+    "input_value": 0.1,
+    "per_share": 62.9716998615247
+  },
+  {
+    "company": "688188_柏楚电子",
+    "tag": "条件估值",
+    "variable": "WACC 12%",
+    "field": "rate",
+    "input_value": 0.12,
+    "per_share": 51.990561947162576
+  },
+  {
+    "company": "688188_柏楚电子",
+    "tag": "市场反解",
+    "variable": "steady_margin",
+    "domain": [
+      0.04,
+      0.8
+    ],
+    "value": 0.45078903062838993
+  },
+  {
+    "company": "688188_柏楚电子",
+    "tag": "市场反解",
+    "variable": "rate",
+    "domain": [
+      0.026,
+      0.22
+    ],
+    "value": 0.0705806468697453
+  },
+  {
+    "company": "688188_柏楚电子",
+    "tag": "市场反解",
+    "variable": "volume_shift",
+    "domain": [
+      -0.2,
+      0.4
+    ],
+    "value": -0.005953269795720938
+  },
+  {
+    "company": "US_ISRG_直觉外科",
+    "tag": "条件估值",
+    "variable": "WACC -100bp",
+    "field": "rate",
+    "input_value": 0.08772241084143635,
+    "per_share": 225.05089289350784
+  },
+  {
+    "company": "US_ISRG_直觉外科",
+    "tag": "条件估值",
+    "variable": "WACC +100bp",
+    "field": "rate",
+    "input_value": 0.10772241084143634,
+    "per_share": 165.99113032580442
+  },
+  {
+    "company": "US_ISRG_直觉外科",
+    "tag": "条件估值",
+    "variable": "稳定增长 -50bp",
+    "field": "g",
+    "input_value": 0.022,
+    "per_share": 185.2575553278086
+  },
+  {
+    "company": "US_ISRG_直觉外科",
+    "tag": "条件估值",
+    "variable": "稳定增长 +50bp",
+    "field": "g",
+    "input_value": 0.032,
+    "per_share": 197.98279393149434
+  },
+  {
+    "company": "US_ISRG_直觉外科",
+    "tag": "条件估值",
+    "variable": "稳定利润率 -3pp",
+    "field": "steady_margin",
+    "input_value": 0.2809141280912496,
+    "per_share": 180.75261287123618
+  },
+  {
+    "company": "US_ISRG_直觉外科",
+    "tag": "条件估值",
+    "variable": "稳定利润率 +3pp",
+    "field": "steady_margin",
+    "input_value": 0.34091412809124966,
+    "per_share": 201.6433473392452
+  },
+  {
+    "company": "US_ISRG_直觉外科",
+    "tag": "条件估值",
+    "variable": "新增资本回报 -3pp",
+    "field": "roi",
+    "input_value": 0.17,
+    "per_share": 186.51708484014407
+  },
+  {
+    "company": "US_ISRG_直觉外科",
+    "tag": "条件估值",
+    "variable": "新增资本回报 +3pp",
+    "field": "roi",
+    "input_value": 0.23,
+    "per_share": 194.6577722577034
+  },
+  {
+    "company": "US_ISRG_直觉外科",
+    "tag": "条件估值",
+    "variable": "WACC 6%",
+    "field": "rate",
+    "input_value": 0.06,
+    "per_share": 429.994117763272
+  },
+  {
+    "company": "US_ISRG_直觉外科",
+    "tag": "条件估值",
+    "variable": "WACC 8%",
+    "field": "rate",
+    "input_value": 0.08,
+    "per_share": 260.22754679673386
+  },
+  {
+    "company": "US_ISRG_直觉外科",
+    "tag": "条件估值",
+    "variable": "WACC 10%",
+    "field": "rate",
+    "input_value": 0.1,
+    "per_share": 184.825318270659
+  },
+  {
+    "company": "US_ISRG_直觉外科",
+    "tag": "条件估值",
+    "variable": "WACC 12%",
+    "field": "rate",
+    "input_value": 0.12,
+    "per_share": 142.7361125153818
+  },
+  {
+    "company": "US_ISRG_直觉外科",
+    "tag": "市场反解",
+    "variable": "steady_margin",
+    "domain": [
+      0.04,
+      0.8
+    ],
+    "value": null
+  },
+  {
+    "company": "US_ISRG_直觉外科",
+    "tag": "市场反解",
+    "variable": "rate",
+    "domain": [
+      0.03,
+      0.22
+    ],
+    "value": 0.059294125528009334
+  },
+  {
+    "company": "US_ISRG_直觉外科",
+    "tag": "市场反解",
+    "variable": "volume_shift",
+    "domain": [
+      -0.2,
+      0.4
+    ],
+    "value": 0.17736771267344886
+  }
+]

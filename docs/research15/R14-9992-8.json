@@ -1,0 +1,896 @@
+[
+  {
+    "company": "09992_泡泡玛特",
+    "group": "R14-9992-8",
+    "index": 1,
+    "id": "2026-H1:revenue:S01b68f6b1c14e53d",
+    "claim": "营业收入",
+    "metric": "revenue",
+    "value": "17172921",
+    "period": "2026-H1",
+    "unit": "千元",
+    "currency": "CNY",
+    "source_id": "S01b68f6b1c14e53d",
+    "sha256": "01b68f6b1c14e53d235bf8cb476d87db1345f00eeeabc10533c820ae00894d44",
+    "path": "sources/raw/S01b68f6b1c14e53d_2026-09-24_2026 INTERIM REPORT_EPORT_3ca5b69bf8.pdf",
+    "location": {
+      "physical_page": 64,
+      "table": "綜合損益/財務狀況/現金流量表",
+      "column": "本期"
+    },
+    "page": 64,
+    "matches": [
+      {
+        "line": 72,
+        "text": "Revenue ϗू 5 17,172,921 13,876,276",
+        "columns": [
+          140
+        ],
+        "tokens": [
+          "5",
+          "17,172,921",
+          "13,876,276"
+        ],
+        "preceding": ""
+      }
+    ],
+    "verdict": "register_and_confirm",
+    "ledger_id": "R14-9992-8-01",
+    "official_period": "2026-01-01至2026-06-30累计",
+    "official_unit": "人民币千元",
+    "official_amount_sign": "17172921",
+    "official_note": "",
+    "current": {
+      "id": "R14-9992-8-01",
+      "kind": "disclosure",
+      "claim": "营业收入",
+      "value": "17172921",
+      "state": "Unknown",
+      "scope": {
+        "period": "2026-01-01至2026-06-30累计",
+        "unit": "人民币千元",
+        "currency": "CNY",
+        "entity": "泡泡玛特",
+        "basis": "綜合損益/財務狀況/現金流量表",
+        "definition": "营业收入"
+      },
+      "sources": [
+        {
+          "source_id": "S01b68f6b1c14e53d",
+          "location": "{\"column\": \"本期\", \"physical_page\": 64, \"table\": \"綜合損益/財務狀況/現金流量表\"}"
+        }
+      ],
+      "support_boundary": "阶段14集中核验裁定所列合并披露。",
+      "effective_state": "Fact",
+      "binding": "b570e2d0f3e2d6e2d18060b7b0fbf725b63a25cf1a64060562c509f071c440e3",
+      "issues": [],
+      "verifier": "agent",
+      "confirmation_event": "E000045",
+      "human_confirmation": false
+    },
+    "tag": "Fact",
+    "disposition": "新登记",
+    "reviewed_value": "17172921",
+    "confirmation_event": "E000045",
+    "actor": "agent",
+    "jump": "current-ledger.html#09992-R14-9992-8-01",
+    "url": "https://prod-out-res.popmart.com/cms/2026_INTERIM_REPORT_3ca5b69bf8.pdf",
+    "event": {
+      "id": "E000045",
+      "time": "2026-11-19T17:14:58+08:00",
+      "action": "record-confirmed",
+      "data": {
+        "record_id": "R14-9992-8-01",
+        "binding": "b570e2d0f3e2d6e2d18060b7b0fbf725b63a25cf1a64060562c509f071c440e3",
+        "actor": "agent",
+        "statement_original": "依阶段14集中核验裁定 c446163a75fd61d6f128aae12d98add9ae2eb9fdd21f88c04cae1848c4989038 对读行列、期间、单位和符号，本轮复核归档原件哈希 01b68f6b1c14e53d235bf8cb476d87db1345f00eeeabc10533c820ae00894d44 与当前绑定。定位 {\"column\": \"本期\", \"physical_page\": 64, \"table\": \"綜合損益/財務狀況/現金流量表\"}",
+        "delegation_id": "D0001",
+        "reviewed_record": {
+          "id": "R14-9992-8-01",
+          "claim": "营业收入",
+          "value": "17172921",
+          "scope": {
+            "period": "2026-01-01至2026-06-30累计",
+            "unit": "人民币千元",
+            "currency": "CNY",
+            "entity": "泡泡玛特",
+            "basis": "綜合損益/財務狀況/現金流量表",
+            "definition": "营业收入"
+          },
+          "sources": [
+            {
+              "source_id": "S01b68f6b1c14e53d",
+              "location": "{\"column\": \"本期\", \"physical_page\": 64, \"table\": \"綜合損益/財務狀況/現金流量表\"}"
+            }
+          ],
+          "formula": null
+        },
+        "reviewer_name": ""
+      },
+      "previous_hash": "82ea190149a655ea2cb71fe913ef4ade30fd37edeba5283a1790152a7ddde743",
+      "hash": "fe6c53fca61d743942fe7b5be1cd4b86d58a2f560a5a686956b43623921dd594"
+    }
+  },
+  {
+    "company": "09992_泡泡玛特",
+    "group": "R14-9992-8",
+    "index": 2,
+    "id": "2026-H1:op:S01b68f6b1c14e53d",
+    "claim": "报告营业利润",
+    "metric": "op",
+    "value": "6724746",
+    "period": "2026-H1",
+    "unit": "千元",
+    "currency": "CNY",
+    "source_id": "S01b68f6b1c14e53d",
+    "sha256": "01b68f6b1c14e53d235bf8cb476d87db1345f00eeeabc10533c820ae00894d44",
+    "path": "sources/raw/S01b68f6b1c14e53d_2026-09-24_2026 INTERIM REPORT_EPORT_3ca5b69bf8.pdf",
+    "location": {
+      "physical_page": 64,
+      "table": "綜合損益/財務狀況/現金流量表",
+      "column": "本期"
+    },
+    "page": 64,
+    "matches": [
+      {
+        "line": 215,
+        "text": "Operating profit 經營溢利 6,724,746 6,043,741",
+        "columns": [
+          141
+        ],
+        "tokens": [
+          "6,724,746",
+          "6,043,741"
+        ],
+        "preceding": ""
+      }
+    ],
+    "verdict": "register_and_confirm",
+    "ledger_id": "R14-9992-8-02",
+    "official_period": "2026-01-01至2026-06-30累计",
+    "official_unit": "人民币千元",
+    "official_amount_sign": "6724746",
+    "official_note": "",
+    "current": {
+      "id": "R14-9992-8-02",
+      "kind": "disclosure",
+      "claim": "报告营业利润",
+      "value": "6724746",
+      "state": "Unknown",
+      "scope": {
+        "period": "2026-01-01至2026-06-30累计",
+        "unit": "人民币千元",
+        "currency": "CNY",
+        "entity": "泡泡玛特",
+        "basis": "綜合損益/財務狀況/現金流量表",
+        "definition": "报告营业利润"
+      },
+      "sources": [
+        {
+          "source_id": "S01b68f6b1c14e53d",
+          "location": "{\"column\": \"本期\", \"physical_page\": 64, \"table\": \"綜合損益/財務狀況/現金流量表\"}"
+        }
+      ],
+      "support_boundary": "阶段14集中核验裁定所列合并披露。",
+      "effective_state": "Fact",
+      "binding": "2dd7aae66a6a9c9ba2285fea6c2dde8cbf999945dd29a110f55f691eebfb4f2f",
+      "issues": [],
+      "verifier": "agent",
+      "confirmation_event": "E000047",
+      "human_confirmation": false
+    },
+    "tag": "Fact",
+    "disposition": "新登记",
+    "reviewed_value": "6724746",
+    "confirmation_event": "E000047",
+    "actor": "agent",
+    "jump": "current-ledger.html#09992-R14-9992-8-02",
+    "url": "https://prod-out-res.popmart.com/cms/2026_INTERIM_REPORT_3ca5b69bf8.pdf",
+    "event": {
+      "id": "E000047",
+      "time": "2026-11-19T17:14:58+08:00",
+      "action": "record-confirmed",
+      "data": {
+        "record_id": "R14-9992-8-02",
+        "binding": "2dd7aae66a6a9c9ba2285fea6c2dde8cbf999945dd29a110f55f691eebfb4f2f",
+        "actor": "agent",
+        "statement_original": "依阶段14集中核验裁定 c446163a75fd61d6f128aae12d98add9ae2eb9fdd21f88c04cae1848c4989038 对读行列、期间、单位和符号，本轮复核归档原件哈希 01b68f6b1c14e53d235bf8cb476d87db1345f00eeeabc10533c820ae00894d44 与当前绑定。定位 {\"column\": \"本期\", \"physical_page\": 64, \"table\": \"綜合損益/財務狀況/現金流量表\"}",
+        "delegation_id": "D0001",
+        "reviewed_record": {
+          "id": "R14-9992-8-02",
+          "claim": "报告营业利润",
+          "value": "6724746",
+          "scope": {
+            "period": "2026-01-01至2026-06-30累计",
+            "unit": "人民币千元",
+            "currency": "CNY",
+            "entity": "泡泡玛特",
+            "basis": "綜合損益/財務狀況/現金流量表",
+            "definition": "报告营业利润"
+          },
+          "sources": [
+            {
+              "source_id": "S01b68f6b1c14e53d",
+              "location": "{\"column\": \"本期\", \"physical_page\": 64, \"table\": \"綜合損益/財務狀況/現金流量表\"}"
+            }
+          ],
+          "formula": null
+        },
+        "reviewer_name": ""
+      },
+      "previous_hash": "fd697f1710667a71b9101bd37c972522036598670ed3a4a6bea9705c2e3b1644",
+      "hash": "b341c564424d9e63f29f28435c63dd471a6cde2fb60a5bcdf621f4cebe31dd31"
+    }
+  },
+  {
+    "company": "09992_泡泡玛特",
+    "group": "R14-9992-8",
+    "index": 3,
+    "id": "2026-H1:cfo:S01b68f6b1c14e53d",
+    "claim": "经营现金净额",
+    "metric": "cfo",
+    "value": "3637324",
+    "period": "2026-H1",
+    "unit": "千元",
+    "currency": "CNY",
+    "source_id": "S01b68f6b1c14e53d",
+    "sha256": "01b68f6b1c14e53d235bf8cb476d87db1345f00eeeabc10533c820ae00894d44",
+    "path": "sources/raw/S01b68f6b1c14e53d_2026-09-24_2026 INTERIM REPORT_EPORT_3ca5b69bf8.pdf",
+    "location": {
+      "physical_page": 70,
+      "table": "綜合損益/財務狀況/現金流量表",
+      "column": "本期"
+    },
+    "page": 70,
+    "matches": [
+      {
+        "line": 109,
+        "text": "activities 3,637,324 5,977,473",
+        "columns": [
+          148
+        ],
+        "tokens": [
+          "3,637,324",
+          "5,977,473"
+        ],
+        "preceding": "Net cash generated from operating 經營活動所得現金淨額"
+      }
+    ],
+    "verdict": "register_and_confirm",
+    "ledger_id": "R14-9992-8-03",
+    "official_period": "2026-01-01至2026-06-30累计",
+    "official_unit": "人民币千元",
+    "official_amount_sign": "3637324",
+    "official_note": "",
+    "current": {
+      "id": "R14-9992-8-03",
+      "kind": "disclosure",
+      "claim": "经营现金净额",
+      "value": "3637324",
+      "state": "Unknown",
+      "scope": {
+        "period": "2026-01-01至2026-06-30累计",
+        "unit": "人民币千元",
+        "currency": "CNY",
+        "entity": "泡泡玛特",
+        "basis": "綜合損益/財務狀況/現金流量表",
+        "definition": "经营现金净额"
+      },
+      "sources": [
+        {
+          "source_id": "S01b68f6b1c14e53d",
+          "location": "{\"column\": \"本期\", \"physical_page\": 70, \"table\": \"綜合損益/財務狀況/現金流量表\"}"
+        }
+      ],
+      "support_boundary": "阶段14集中核验裁定所列合并披露。",
+      "effective_state": "Fact",
+      "binding": "81ebc20894b735c7dc70f6ac360341c5e9849615b2cc3bfa1cc19bdbd6554e60",
+      "issues": [],
+      "verifier": "agent",
+      "confirmation_event": "E000049",
+      "human_confirmation": false
+    },
+    "tag": "Fact",
+    "disposition": "新登记",
+    "reviewed_value": "3637324",
+    "confirmation_event": "E000049",
+    "actor": "agent",
+    "jump": "current-ledger.html#09992-R14-9992-8-03",
+    "url": "https://prod-out-res.popmart.com/cms/2026_INTERIM_REPORT_3ca5b69bf8.pdf",
+    "event": {
+      "id": "E000049",
+      "time": "2026-11-19T17:14:58+08:00",
+      "action": "record-confirmed",
+      "data": {
+        "record_id": "R14-9992-8-03",
+        "binding": "81ebc20894b735c7dc70f6ac360341c5e9849615b2cc3bfa1cc19bdbd6554e60",
+        "actor": "agent",
+        "statement_original": "依阶段14集中核验裁定 c446163a75fd61d6f128aae12d98add9ae2eb9fdd21f88c04cae1848c4989038 对读行列、期间、单位和符号，本轮复核归档原件哈希 01b68f6b1c14e53d235bf8cb476d87db1345f00eeeabc10533c820ae00894d44 与当前绑定。定位 {\"column\": \"本期\", \"physical_page\": 70, \"table\": \"綜合損益/財務狀況/現金流量表\"}",
+        "delegation_id": "D0001",
+        "reviewed_record": {
+          "id": "R14-9992-8-03",
+          "claim": "经营现金净额",
+          "value": "3637324",
+          "scope": {
+            "period": "2026-01-01至2026-06-30累计",
+            "unit": "人民币千元",
+            "currency": "CNY",
+            "entity": "泡泡玛特",
+            "basis": "綜合損益/財務狀況/現金流量表",
+            "definition": "经营现金净额"
+          },
+          "sources": [
+            {
+              "source_id": "S01b68f6b1c14e53d",
+              "location": "{\"column\": \"本期\", \"physical_page\": 70, \"table\": \"綜合損益/財務狀況/現金流量表\"}"
+            }
+          ],
+          "formula": null
+        },
+        "reviewer_name": ""
+      },
+      "previous_hash": "68521a656ce7520a4899d9b69abbf476f5ed8a625de5c0ec12c69a4fa8f905f5",
+      "hash": "943abb521efcc8f0a87d1bc264fac1103368f8f6521bbf9884d11dc96892b966"
+    }
+  },
+  {
+    "company": "09992_泡泡玛特",
+    "group": "R14-9992-8",
+    "index": 4,
+    "id": "2026-H1:cash_income_tax:S01b68f6b1c14e53d",
+    "claim": "已付所得税",
+    "metric": "cash_income_tax",
+    "value": "3219674",
+    "period": "2026-H1",
+    "unit": "千元",
+    "currency": "CNY",
+    "source_id": "S01b68f6b1c14e53d",
+    "sha256": "01b68f6b1c14e53d235bf8cb476d87db1345f00eeeabc10533c820ae00894d44",
+    "path": "sources/raw/S01b68f6b1c14e53d_2026-09-24_2026 INTERIM REPORT_EPORT_3ca5b69bf8.pdf",
+    "location": {
+      "physical_page": 70,
+      "table": "綜合損益/財務狀況/現金流量表",
+      "column": "本期"
+    },
+    "page": 70,
+    "matches": [
+      {
+        "line": 65,
+        "text": "Income tax paid ʊ˹ה੻೼ (3,219,674) (1,189,626)",
+        "columns": [
+          136
+        ],
+        "tokens": [
+          "3,219,674",
+          "1,189,626"
+        ],
+        "preceding": "Interest received ʊϗлࢹ 92,716 191,679"
+      }
+    ],
+    "verdict": "register_and_confirm",
+    "ledger_id": "R14-9992-8-04",
+    "official_period": "2026-01-01至2026-06-30累计",
+    "official_unit": "人民币千元",
+    "official_amount_sign": "-3219674",
+    "official_note": "已付所得税为经营现金流出，原表括号。",
+    "current": {
+      "id": "R14-9992-8-04",
+      "kind": "disclosure",
+      "claim": "已付所得税",
+      "value": "-3219674",
+      "state": "Unknown",
+      "scope": {
+        "period": "2026-01-01至2026-06-30累计",
+        "unit": "人民币千元",
+        "currency": "CNY",
+        "entity": "泡泡玛特",
+        "basis": "綜合損益/財務狀況/現金流量表",
+        "definition": "已付所得税为经营现金流出，原表括号。"
+      },
+      "sources": [
+        {
+          "source_id": "S01b68f6b1c14e53d",
+          "location": "{\"column\": \"本期\", \"physical_page\": 70, \"table\": \"綜合損益/財務狀況/現金流量表\"}"
+        }
+      ],
+      "support_boundary": "阶段14集中核验裁定所列合并披露。",
+      "effective_state": "Fact",
+      "binding": "5724901a26fa1e81825bff3e77c7d5616e99cf2887722b67d08fe5c41867d71c",
+      "issues": [],
+      "verifier": "agent",
+      "confirmation_event": "E000051",
+      "human_confirmation": false
+    },
+    "tag": "Fact",
+    "disposition": "新登记",
+    "reviewed_value": "-3219674",
+    "confirmation_event": "E000051",
+    "actor": "agent",
+    "jump": "current-ledger.html#09992-R14-9992-8-04",
+    "url": "https://prod-out-res.popmart.com/cms/2026_INTERIM_REPORT_3ca5b69bf8.pdf",
+    "event": {
+      "id": "E000051",
+      "time": "2026-11-19T17:14:58+08:00",
+      "action": "record-confirmed",
+      "data": {
+        "record_id": "R14-9992-8-04",
+        "binding": "5724901a26fa1e81825bff3e77c7d5616e99cf2887722b67d08fe5c41867d71c",
+        "actor": "agent",
+        "statement_original": "依阶段14集中核验裁定 c446163a75fd61d6f128aae12d98add9ae2eb9fdd21f88c04cae1848c4989038 对读行列、期间、单位和符号，本轮复核归档原件哈希 01b68f6b1c14e53d235bf8cb476d87db1345f00eeeabc10533c820ae00894d44 与当前绑定。定位 {\"column\": \"本期\", \"physical_page\": 70, \"table\": \"綜合損益/財務狀況/現金流量表\"}",
+        "delegation_id": "D0001",
+        "reviewed_record": {
+          "id": "R14-9992-8-04",
+          "claim": "已付所得税",
+          "value": "-3219674",
+          "scope": {
+            "period": "2026-01-01至2026-06-30累计",
+            "unit": "人民币千元",
+            "currency": "CNY",
+            "entity": "泡泡玛特",
+            "basis": "綜合損益/財務狀況/現金流量表",
+            "definition": "已付所得税为经营现金流出，原表括号。"
+          },
+          "sources": [
+            {
+              "source_id": "S01b68f6b1c14e53d",
+              "location": "{\"column\": \"本期\", \"physical_page\": 70, \"table\": \"綜合損益/財務狀況/現金流量表\"}"
+            }
+          ],
+          "formula": null
+        },
+        "reviewer_name": ""
+      },
+      "previous_hash": "743619391f4e70fe9dd17d7a281f059dd37d8a15ac16bff12ea9518370bb065d",
+      "hash": "2a75a2149f0b3fda2c3f6018c969a14f96551337e4554e1e43a3e35dc6da5482"
+    }
+  },
+  {
+    "company": "09992_泡泡玛特",
+    "group": "R14-9992-8",
+    "index": 5,
+    "id": "2026-H1:lease_payment:S01b68f6b1c14e53d",
+    "claim": "租赁负债支付",
+    "metric": "lease_payment",
+    "value": "502889",
+    "period": "2026-H1",
+    "unit": "千元",
+    "currency": "CNY",
+    "source_id": "S01b68f6b1c14e53d",
+    "sha256": "01b68f6b1c14e53d235bf8cb476d87db1345f00eeeabc10533c820ae00894d44",
+    "path": "sources/raw/S01b68f6b1c14e53d_2026-09-24_2026 INTERIM REPORT_EPORT_3ca5b69bf8.pdf",
+    "location": {
+      "physical_page": 71,
+      "table": "綜合損益/財務狀況/現金流量表",
+      "column": "本期"
+    },
+    "page": 71,
+    "matches": [
+      {
+        "line": 63,
+        "text": "Payment of lease liabilities ॡ༣ࠋව˹ಛ 15 (502,889) (263,592)",
+        "columns": [
+          143
+        ],
+        "tokens": [
+          "༣",
+          "15",
+          "502,889",
+          "263,592"
+        ],
+        "preceding": "Cash flows from financing activities 融資活動產生的現金流量"
+      }
+    ],
+    "verdict": "register_and_confirm",
+    "ledger_id": "R14-9992-8-05",
+    "official_period": "2026-01-01至2026-06-30累计",
+    "official_unit": "人民币千元",
+    "official_amount_sign": "-502889",
+    "official_note": "支付租赁负债为融资现金流出，原表括号。",
+    "current": {
+      "id": "R14-9992-8-05",
+      "kind": "disclosure",
+      "claim": "租赁负债支付",
+      "value": "-502889",
+      "state": "Unknown",
+      "scope": {
+        "period": "2026-01-01至2026-06-30累计",
+        "unit": "人民币千元",
+        "currency": "CNY",
+        "entity": "泡泡玛特",
+        "basis": "綜合損益/財務狀況/現金流量表",
+        "definition": "支付租赁负债为融资现金流出，原表括号。"
+      },
+      "sources": [
+        {
+          "source_id": "S01b68f6b1c14e53d",
+          "location": "{\"column\": \"本期\", \"physical_page\": 71, \"table\": \"綜合損益/財務狀況/現金流量表\"}"
+        }
+      ],
+      "support_boundary": "阶段14集中核验裁定所列合并披露。",
+      "effective_state": "Fact",
+      "binding": "71e09adf9cd2cc74f48447112d4f0b30db35311da55ff886db2f945d1bea0b0e",
+      "issues": [],
+      "verifier": "agent",
+      "confirmation_event": "E000053",
+      "human_confirmation": false
+    },
+    "tag": "Fact",
+    "disposition": "新登记",
+    "reviewed_value": "-502889",
+    "confirmation_event": "E000053",
+    "actor": "agent",
+    "jump": "current-ledger.html#09992-R14-9992-8-05",
+    "url": "https://prod-out-res.popmart.com/cms/2026_INTERIM_REPORT_3ca5b69bf8.pdf",
+    "event": {
+      "id": "E000053",
+      "time": "2026-11-19T17:14:59+08:00",
+      "action": "record-confirmed",
+      "data": {
+        "record_id": "R14-9992-8-05",
+        "binding": "71e09adf9cd2cc74f48447112d4f0b30db35311da55ff886db2f945d1bea0b0e",
+        "actor": "agent",
+        "statement_original": "依阶段14集中核验裁定 c446163a75fd61d6f128aae12d98add9ae2eb9fdd21f88c04cae1848c4989038 对读行列、期间、单位和符号，本轮复核归档原件哈希 01b68f6b1c14e53d235bf8cb476d87db1345f00eeeabc10533c820ae00894d44 与当前绑定。定位 {\"column\": \"本期\", \"physical_page\": 71, \"table\": \"綜合損益/財務狀況/現金流量表\"}",
+        "delegation_id": "D0001",
+        "reviewed_record": {
+          "id": "R14-9992-8-05",
+          "claim": "租赁负债支付",
+          "value": "-502889",
+          "scope": {
+            "period": "2026-01-01至2026-06-30累计",
+            "unit": "人民币千元",
+            "currency": "CNY",
+            "entity": "泡泡玛特",
+            "basis": "綜合損益/財務狀況/現金流量表",
+            "definition": "支付租赁负债为融资现金流出，原表括号。"
+          },
+          "sources": [
+            {
+              "source_id": "S01b68f6b1c14e53d",
+              "location": "{\"column\": \"本期\", \"physical_page\": 71, \"table\": \"綜合損益/財務狀況/現金流量表\"}"
+            }
+          ],
+          "formula": null
+        },
+        "reviewer_name": ""
+      },
+      "previous_hash": "6f29b6482a6c64f932e4740315f523af139bdbf9f1a8cbcf079ed14f31acc38c",
+      "hash": "994baa341735c99ba12281e65773401ea7aa1030e46d6e3e6ed98faed335d89b"
+    }
+  },
+  {
+    "company": "09992_泡泡玛特",
+    "group": "R14-9992-8",
+    "index": 6,
+    "id": "2026-H1:capex:S01b68f6b1c14e53d",
+    "claim": "现金购建支出",
+    "metric": "capex",
+    "value": "673560",
+    "period": "2026-H1",
+    "unit": "千元",
+    "currency": "CNY",
+    "source_id": "S01b68f6b1c14e53d",
+    "sha256": "01b68f6b1c14e53d235bf8cb476d87db1345f00eeeabc10533c820ae00894d44",
+    "path": "sources/raw/S01b68f6b1c14e53d_2026-09-24_2026 INTERIM REPORT_EPORT_3ca5b69bf8.pdf",
+    "location": {
+      "physical_page": 70,
+      "table": "綜合損益/財務狀況/現金流量表",
+      "column": "本期"
+    },
+    "page": 70,
+    "matches": [
+      {
+        "line": 163,
+        "text": "Purchases of property, plant and equipment ᒅ൯يุeᅀגʿண௪ (673,560) (353,623)",
+        "columns": [
+          125
+        ],
+        "tokens": [
+          "൯",
+          "௪",
+          "673,560",
+          "353,623"
+        ],
+        "preceding": "Cash flows from investing activities 投資活動產生的現金流量"
+      }
+    ],
+    "verdict": "register_and_confirm",
+    "ledger_id": "R14-9992-8-06",
+    "official_period": "2026-01-01至2026-06-30累计",
+    "official_unit": "人民币千元",
+    "official_amount_sign": "-673560",
+    "official_note": "仅购买物业、厂房及设备，原表为投资现金流出；无形资产购买独立。",
+    "current": {
+      "id": "R14-9992-8-06",
+      "kind": "disclosure",
+      "claim": "现金购建支出",
+      "value": "-673560",
+      "state": "Unknown",
+      "scope": {
+        "period": "2026-01-01至2026-06-30累计",
+        "unit": "人民币千元",
+        "currency": "CNY",
+        "entity": "泡泡玛特",
+        "basis": "綜合損益/財務狀況/現金流量表",
+        "definition": "仅购买物业、厂房及设备，原表为投资现金流出；无形资产购买独立。"
+      },
+      "sources": [
+        {
+          "source_id": "S01b68f6b1c14e53d",
+          "location": "{\"column\": \"本期\", \"physical_page\": 70, \"table\": \"綜合損益/財務狀況/現金流量表\"}"
+        }
+      ],
+      "support_boundary": "阶段14集中核验裁定所列合并披露。",
+      "effective_state": "Fact",
+      "binding": "a152c535622710af287086d0cf35c3b39cb7527ada00561bb5769442b43f2ab6",
+      "issues": [],
+      "verifier": "agent",
+      "confirmation_event": "E000055",
+      "human_confirmation": false
+    },
+    "tag": "Fact",
+    "disposition": "新登记",
+    "reviewed_value": "-673560",
+    "confirmation_event": "E000055",
+    "actor": "agent",
+    "jump": "current-ledger.html#09992-R14-9992-8-06",
+    "url": "https://prod-out-res.popmart.com/cms/2026_INTERIM_REPORT_3ca5b69bf8.pdf",
+    "event": {
+      "id": "E000055",
+      "time": "2026-11-19T17:14:59+08:00",
+      "action": "record-confirmed",
+      "data": {
+        "record_id": "R14-9992-8-06",
+        "binding": "a152c535622710af287086d0cf35c3b39cb7527ada00561bb5769442b43f2ab6",
+        "actor": "agent",
+        "statement_original": "依阶段14集中核验裁定 c446163a75fd61d6f128aae12d98add9ae2eb9fdd21f88c04cae1848c4989038 对读行列、期间、单位和符号，本轮复核归档原件哈希 01b68f6b1c14e53d235bf8cb476d87db1345f00eeeabc10533c820ae00894d44 与当前绑定。定位 {\"column\": \"本期\", \"physical_page\": 70, \"table\": \"綜合損益/財務狀況/現金流量表\"}",
+        "delegation_id": "D0001",
+        "reviewed_record": {
+          "id": "R14-9992-8-06",
+          "claim": "现金购建支出",
+          "value": "-673560",
+          "scope": {
+            "period": "2026-01-01至2026-06-30累计",
+            "unit": "人民币千元",
+            "currency": "CNY",
+            "entity": "泡泡玛特",
+            "basis": "綜合損益/財務狀況/現金流量表",
+            "definition": "仅购买物业、厂房及设备，原表为投资现金流出；无形资产购买独立。"
+          },
+          "sources": [
+            {
+              "source_id": "S01b68f6b1c14e53d",
+              "location": "{\"column\": \"本期\", \"physical_page\": 70, \"table\": \"綜合損益/財務狀況/現金流量表\"}"
+            }
+          ],
+          "formula": null
+        },
+        "reviewer_name": ""
+      },
+      "previous_hash": "3f55256084da8c08f3492081a178f0af1b385fb139dfdb366ddef402e6bb5c76",
+      "hash": "cc875c0a543b4b04bbf12a61b5d351acd9c73bb22f62a4233e4839121c4a51b3"
+    }
+  },
+  {
+    "company": "09992_泡泡玛特",
+    "group": "R14-9992-8",
+    "index": 7,
+    "id": "2026-H1:parent_income:S01b68f6b1c14e53d",
+    "claim": "归属母公司股东净利",
+    "metric": "parent_income",
+    "value": "5038384",
+    "period": "2026-H1",
+    "unit": "千元",
+    "currency": "CNY",
+    "source_id": "S01b68f6b1c14e53d",
+    "sha256": "01b68f6b1c14e53d235bf8cb476d87db1345f00eeeabc10533c820ae00894d44",
+    "path": "sources/raw/S01b68f6b1c14e53d_2026-09-24_2026 INTERIM REPORT_EPORT_3ca5b69bf8.pdf",
+    "location": {
+      "physical_page": 64,
+      "table": "綜合損益/財務狀況/現金流量表",
+      "column": "本期"
+    },
+    "page": 64,
+    "matches": [
+      {
+        "line": 552,
+        "text": "Owners of the Company ͉ʮ̡ኹϞɛ 5,038,384 4,574,368",
+        "columns": [
+          155
+        ],
+        "tokens": [
+          "5,038,384",
+          "4,574,368"
+        ],
+        "preceding": "Profit for the period attributable to: 以下應佔期內溢利："
+      }
+    ],
+    "verdict": "register_and_confirm",
+    "ledger_id": "R14-9992-8-07",
+    "official_period": "2026-01-01至2026-06-30累计",
+    "official_unit": "人民币千元",
+    "official_amount_sign": "5038384",
+    "official_note": "归属本公司拥有人，非含少数权益的期间溢利。",
+    "current": {
+      "id": "R14-9992-8-07",
+      "kind": "disclosure",
+      "claim": "归属母公司股东净利",
+      "value": "5038384",
+      "state": "Unknown",
+      "scope": {
+        "period": "2026-01-01至2026-06-30累计",
+        "unit": "人民币千元",
+        "currency": "CNY",
+        "entity": "泡泡玛特",
+        "basis": "綜合損益/財務狀況/現金流量表",
+        "definition": "归属本公司拥有人，非含少数权益的期间溢利。"
+      },
+      "sources": [
+        {
+          "source_id": "S01b68f6b1c14e53d",
+          "location": "{\"column\": \"本期\", \"physical_page\": 64, \"table\": \"綜合損益/財務狀況/現金流量表\"}"
+        }
+      ],
+      "support_boundary": "阶段14集中核验裁定所列合并披露。",
+      "effective_state": "Fact",
+      "binding": "14bed58e5f1a3782470c94ac24332278baf8c22ea8ddc2bf54c5d970e1303c24",
+      "issues": [],
+      "verifier": "agent",
+      "confirmation_event": "E000057",
+      "human_confirmation": false
+    },
+    "tag": "Fact",
+    "disposition": "新登记",
+    "reviewed_value": "5038384",
+    "confirmation_event": "E000057",
+    "actor": "agent",
+    "jump": "current-ledger.html#09992-R14-9992-8-07",
+    "url": "https://prod-out-res.popmart.com/cms/2026_INTERIM_REPORT_3ca5b69bf8.pdf",
+    "event": {
+      "id": "E000057",
+      "time": "2026-11-19T17:14:59+08:00",
+      "action": "record-confirmed",
+      "data": {
+        "record_id": "R14-9992-8-07",
+        "binding": "14bed58e5f1a3782470c94ac24332278baf8c22ea8ddc2bf54c5d970e1303c24",
+        "actor": "agent",
+        "statement_original": "依阶段14集中核验裁定 c446163a75fd61d6f128aae12d98add9ae2eb9fdd21f88c04cae1848c4989038 对读行列、期间、单位和符号，本轮复核归档原件哈希 01b68f6b1c14e53d235bf8cb476d87db1345f00eeeabc10533c820ae00894d44 与当前绑定。定位 {\"column\": \"本期\", \"physical_page\": 64, \"table\": \"綜合損益/財務狀況/現金流量表\"}",
+        "delegation_id": "D0001",
+        "reviewed_record": {
+          "id": "R14-9992-8-07",
+          "claim": "归属母公司股东净利",
+          "value": "5038384",
+          "scope": {
+            "period": "2026-01-01至2026-06-30累计",
+            "unit": "人民币千元",
+            "currency": "CNY",
+            "entity": "泡泡玛特",
+            "basis": "綜合損益/財務狀況/現金流量表",
+            "definition": "归属本公司拥有人，非含少数权益的期间溢利。"
+          },
+          "sources": [
+            {
+              "source_id": "S01b68f6b1c14e53d",
+              "location": "{\"column\": \"本期\", \"physical_page\": 64, \"table\": \"綜合損益/財務狀況/現金流量表\"}"
+            }
+          ],
+          "formula": null
+        },
+        "reviewer_name": ""
+      },
+      "previous_hash": "533c8988362e865d9f3c094b318fcd296f7bbae6577a30d0922800b269c94d90",
+      "hash": "0b2a99078068b7cd95b61f94040c54f5ef327a3ef37a0357883ee44951fafdf9"
+    }
+  },
+  {
+    "company": "09992_泡泡玛特",
+    "group": "R14-9992-8",
+    "index": 8,
+    "id": "2026-H1:tax_expense:S01b68f6b1c14e53d",
+    "claim": "所得税费用",
+    "metric": "tax_expense",
+    "value": "1666548",
+    "period": "2026-H1",
+    "unit": "千元",
+    "currency": "CNY",
+    "source_id": "S01b68f6b1c14e53d",
+    "sha256": "01b68f6b1c14e53d235bf8cb476d87db1345f00eeeabc10533c820ae00894d44",
+    "path": "sources/raw/S01b68f6b1c14e53d_2026-09-24_2026 INTERIM REPORT_EPORT_3ca5b69bf8.pdf",
+    "location": {
+      "physical_page": 64,
+      "table": "綜合損益/財務狀況/現金流量表",
+      "column": "本期"
+    },
+    "page": 64,
+    "matches": [
+      {
+        "line": 457,
+        "text": "Income tax expense ה੻೼ක˕ 10 (1,666,548) (1,475,159)",
+        "columns": [
+          130
+        ],
+        "tokens": [
+          "10",
+          "1,666,548",
+          "1,475,159"
+        ],
+        "preceding": ""
+      }
+    ],
+    "verdict": "register_and_confirm",
+    "ledger_id": "R14-9992-8-08",
+    "official_period": "2026-01-01至2026-06-30累计",
+    "official_unit": "人民币千元",
+    "official_amount_sign": "-1666548",
+    "official_note": "原表括号扣减，正数仅可标作费用金额。",
+    "current": {
+      "id": "R14-9992-8-08",
+      "kind": "disclosure",
+      "claim": "所得税费用",
+      "value": "-1666548",
+      "state": "Unknown",
+      "scope": {
+        "period": "2026-01-01至2026-06-30累计",
+        "unit": "人民币千元",
+        "currency": "CNY",
+        "entity": "泡泡玛特",
+        "basis": "綜合損益/財務狀況/現金流量表",
+        "definition": "原表括号扣减，正数仅可标作费用金额。"
+      },
+      "sources": [
+        {
+          "source_id": "S01b68f6b1c14e53d",
+          "location": "{\"column\": \"本期\", \"physical_page\": 64, \"table\": \"綜合損益/財務狀況/現金流量表\"}"
+        }
+      ],
+      "support_boundary": "阶段14集中核验裁定所列合并披露。",
+      "effective_state": "Fact",
+      "binding": "58c0f6e0f1c41637de177f08b5439ec25efd46234b2011c1d52e3399a662dae6",
+      "issues": [],
+      "verifier": "agent",
+      "confirmation_event": "E000059",
+      "human_confirmation": false
+    },
+    "tag": "Fact",
+    "disposition": "新登记",
+    "reviewed_value": "-1666548",
+    "confirmation_event": "E000059",
+    "actor": "agent",
+    "jump": "current-ledger.html#09992-R14-9992-8-08",
+    "url": "https://prod-out-res.popmart.com/cms/2026_INTERIM_REPORT_3ca5b69bf8.pdf",
+    "event": {
+      "id": "E000059",
+      "time": "2026-11-19T17:14:59+08:00",
+      "action": "record-confirmed",
+      "data": {
+        "record_id": "R14-9992-8-08",
+        "binding": "58c0f6e0f1c41637de177f08b5439ec25efd46234b2011c1d52e3399a662dae6",
+        "actor": "agent",
+        "statement_original": "依阶段14集中核验裁定 c446163a75fd61d6f128aae12d98add9ae2eb9fdd21f88c04cae1848c4989038 对读行列、期间、单位和符号，本轮复核归档原件哈希 01b68f6b1c14e53d235bf8cb476d87db1345f00eeeabc10533c820ae00894d44 与当前绑定。定位 {\"column\": \"本期\", \"physical_page\": 64, \"table\": \"綜合損益/財務狀況/現金流量表\"}",
+        "delegation_id": "D0001",
+        "reviewed_record": {
+          "id": "R14-9992-8-08",
+          "claim": "所得税费用",
+          "value": "-1666548",
+          "scope": {
+            "period": "2026-01-01至2026-06-30累计",
+            "unit": "人民币千元",
+            "currency": "CNY",
+            "entity": "泡泡玛特",
+            "basis": "綜合損益/財務狀況/現金流量表",
+            "definition": "原表括号扣减，正数仅可标作费用金额。"
+          },
+          "sources": [
+            {
+              "source_id": "S01b68f6b1c14e53d",
+              "location": "{\"column\": \"本期\", \"physical_page\": 64, \"table\": \"綜合損益/財務狀況/現金流量表\"}"
+            }
+          ],
+          "formula": null
+        },
+        "reviewer_name": ""
+      },
+      "previous_hash": "5da650a76a27cd980d69e786c637024faa42109403e1df3ac474e0f0ce3ab92f",
+      "hash": "66b5d39e3c65e1ead8a5439c68bdb2fb433e7d940488f3ecc1d655fc7909c1a5"
+    }
+  }
+]

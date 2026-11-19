@@ -1,0 +1,890 @@
+[
+  {
+    "company": "600298_安琪酵母",
+    "group": "R14-600298-8",
+    "index": 1,
+    "id": "2026-YTD9:revenue:600298-5c763f656754f15e",
+    "claim": "营业收入",
+    "metric": "revenue",
+    "value": "13607950841.86",
+    "period": "2026-YTD9",
+    "unit": "元",
+    "currency": "CNY",
+    "source_id": "600298-5c763f656754f15e",
+    "sha256": "f4739d889d29da1a9744f1fb9428f75f6e6331572031b3de1daec550113f59d1",
+    "path": "sources/raw/02_定期报告与经营数据/2026-10-30_安琪酵母股份有限公司2026年第三季度报告_1225641080.pdf",
+    "location": {
+      "physical_page": 10,
+      "table": "合并报表/附注",
+      "column": "本期/期末"
+    },
+    "page": 10,
+    "matches": [
+      {
+        "line": 4,
+        "text": "其中：营业收入 13,607,950,841.86 11,786,451,197.65",
+        "columns": [
+          43
+        ],
+        "tokens": [
+          "13,607,950,841.86",
+          "11,786,451,197.65"
+        ],
+        "preceding": ""
+      }
+    ],
+    "verdict": "link_existing",
+    "ledger_id": "B07-Q02",
+    "official_period": "2026-01-01至2026-09-30累计",
+    "official_unit": "人民币元",
+    "official_amount_sign": "13607950841.86",
+    "official_note": "",
+    "current": {
+      "id": "B07-Q02",
+      "kind": "disclosure",
+      "claim": "前九个月营业收入",
+      "scope": {
+        "period": "2026年1—9月",
+        "entity": "安琪酵母",
+        "basis": "集团合并；季度数据未经审计",
+        "definition": "前九个月营业收入；按原表列定位，不把归母/合并净利润混同",
+        "unit": "元",
+        "currency": "CNY"
+      },
+      "sources": [
+        {
+          "source_id": "600298-5c763f656754f15e",
+          "location": "PDF物理第1页，财务摘要/经营更新，行“前九个月营业收入”"
+        }
+      ],
+      "support_boundary": "机器提取候选，尚无人审核准；不单独证明机制或投资价值。",
+      "value": "13607950841.86",
+      "state": "Unknown",
+      "effective_state": "Fact",
+      "binding": "928a8b5f13979d78aa7f94ad770d8dcbf81a9fcb0465f2c3780bf4071a0adb65",
+      "issues": [],
+      "verifier": "agent",
+      "confirmation_event": "E000033",
+      "human_confirmation": false
+    },
+    "tag": "Fact",
+    "disposition": "跳转至已确认披露",
+    "reviewed_value": "13607950841.86",
+    "confirmation_event": "E000033",
+    "actor": "agent",
+    "jump": "current-ledger.html#600298-B07-Q02",
+    "url": "https://static.cninfo.com.cn/finalpage/2026-10-30/1225641080.PDF",
+    "event": {
+      "id": "E000033",
+      "time": "2026-11-19T17:14:55+08:00",
+      "action": "record-confirmed",
+      "data": {
+        "record_id": "B07-Q02",
+        "binding": "928a8b5f13979d78aa7f94ad770d8dcbf81a9fcb0465f2c3780bf4071a0adb65",
+        "actor": "agent",
+        "statement_original": "依阶段14集中核验裁定 c446163a75fd61d6f128aae12d98add9ae2eb9fdd21f88c04cae1848c4989038 对读行列、期间、单位和符号，本轮复核归档原件哈希 f4739d889d29da1a9744f1fb9428f75f6e6331572031b3de1daec550113f59d1 与当前绑定。定位 PDF物理第1页，财务摘要/经营更新，行“前九个月营业收入”",
+        "delegation_id": "D0001",
+        "reviewed_record": {
+          "id": "B07-Q02",
+          "claim": "前九个月营业收入",
+          "value": "13607950841.86",
+          "scope": {
+            "period": "2026年1—9月",
+            "entity": "安琪酵母",
+            "basis": "集团合并；季度数据未经审计",
+            "definition": "前九个月营业收入；按原表列定位，不把归母/合并净利润混同",
+            "unit": "元",
+            "currency": "CNY"
+          },
+          "sources": [
+            {
+              "source_id": "600298-5c763f656754f15e",
+              "location": "PDF物理第1页，财务摘要/经营更新，行“前九个月营业收入”"
+            }
+          ],
+          "formula": null
+        },
+        "reviewer_name": ""
+      },
+      "previous_hash": "fa8ef74781ac56122206af22c9a05f2e64a2ae047fc7028b12f26d7a3f2abeb7",
+      "hash": "ac509e019d84a60b733402aea54b7fab4db91155665f1091ba38cfaf6b43913c"
+    }
+  },
+  {
+    "company": "600298_安琪酵母",
+    "group": "R14-600298-8",
+    "index": 2,
+    "id": "2026-YTD9:finance:600298-5c763f656754f15e",
+    "claim": "财务费用",
+    "metric": "finance",
+    "value": "253133888.32",
+    "period": "2026-YTD9",
+    "unit": "元",
+    "currency": "CNY",
+    "source_id": "600298-5c763f656754f15e",
+    "sha256": "f4739d889d29da1a9744f1fb9428f75f6e6331572031b3de1daec550113f59d1",
+    "path": "sources/raw/02_定期报告与经营数据/2026-10-30_安琪酵母股份有限公司2026年第三季度报告_1225641080.pdf",
+    "location": {
+      "physical_page": 10,
+      "table": "合并报表/附注",
+      "column": "本期/期末"
+    },
+    "page": 10,
+    "matches": [
+      {
+        "line": 21,
+        "text": "财务费用 253,133,888.32 92,890,913.33",
+        "columns": [
+          46
+        ],
+        "tokens": [
+          "253,133,888.32",
+          "92,890,913.33"
+        ],
+        "preceding": "研发费用 546,273,841.28 461,522,088.79"
+      }
+    ],
+    "verdict": "register_and_confirm",
+    "ledger_id": "R14-600298-8-02",
+    "official_period": "2026-01-01至2026-09-30累计",
+    "official_unit": "人民币元",
+    "official_amount_sign": "253133888.32",
+    "official_note": "",
+    "current": {
+      "id": "R14-600298-8-02",
+      "kind": "disclosure",
+      "claim": "财务费用",
+      "value": "253133888.32",
+      "state": "Unknown",
+      "scope": {
+        "period": "2026-01-01至2026-09-30累计",
+        "unit": "人民币元",
+        "currency": "CNY",
+        "entity": "安琪酵母",
+        "basis": "合并报表/附注",
+        "definition": "财务费用"
+      },
+      "sources": [
+        {
+          "source_id": "600298-5c763f656754f15e",
+          "location": "{\"column\": \"本期/期末\", \"physical_page\": 10, \"table\": \"合并报表/附注\"}"
+        }
+      ],
+      "support_boundary": "阶段14集中核验裁定所列合并披露。",
+      "effective_state": "Fact",
+      "binding": "d499fdf26adfe0c29db71386dd29331d1532fae2ebf1dcd9aac7ba943cd308e4",
+      "issues": [],
+      "verifier": "agent",
+      "confirmation_event": "E000039",
+      "human_confirmation": false
+    },
+    "tag": "Fact",
+    "disposition": "新登记",
+    "reviewed_value": "253133888.32",
+    "confirmation_event": "E000039",
+    "actor": "agent",
+    "jump": "current-ledger.html#600298-R14-600298-8-02",
+    "url": "https://static.cninfo.com.cn/finalpage/2026-10-30/1225641080.PDF",
+    "event": {
+      "id": "E000039",
+      "time": "2026-11-19T17:14:55+08:00",
+      "action": "record-confirmed",
+      "data": {
+        "record_id": "R14-600298-8-02",
+        "binding": "d499fdf26adfe0c29db71386dd29331d1532fae2ebf1dcd9aac7ba943cd308e4",
+        "actor": "agent",
+        "statement_original": "依阶段14集中核验裁定 c446163a75fd61d6f128aae12d98add9ae2eb9fdd21f88c04cae1848c4989038 对读行列、期间、单位和符号，本轮复核归档原件哈希 f4739d889d29da1a9744f1fb9428f75f6e6331572031b3de1daec550113f59d1 与当前绑定。定位 {\"column\": \"本期/期末\", \"physical_page\": 10, \"table\": \"合并报表/附注\"}",
+        "delegation_id": "D0001",
+        "reviewed_record": {
+          "id": "R14-600298-8-02",
+          "claim": "财务费用",
+          "value": "253133888.32",
+          "scope": {
+            "period": "2026-01-01至2026-09-30累计",
+            "unit": "人民币元",
+            "currency": "CNY",
+            "entity": "安琪酵母",
+            "basis": "合并报表/附注",
+            "definition": "财务费用"
+          },
+          "sources": [
+            {
+              "source_id": "600298-5c763f656754f15e",
+              "location": "{\"column\": \"本期/期末\", \"physical_page\": 10, \"table\": \"合并报表/附注\"}"
+            }
+          ],
+          "formula": null
+        },
+        "reviewer_name": ""
+      },
+      "previous_hash": "0c44fb335c448ce04c76f517e3af6180cb404002a7317b30eb584ba581b0277b",
+      "hash": "8244ee147f7e287fd738ebe9c4a83dd739b83aaa542af697bd8c6b2c4c4b4b99"
+    }
+  },
+  {
+    "company": "600298_安琪酵母",
+    "group": "R14-600298-8",
+    "index": 3,
+    "id": "2026-YTD9:inventory:600298-5c763f656754f15e",
+    "claim": "存货",
+    "metric": "inventory",
+    "value": "4909507657.67",
+    "period": "2026-YTD9",
+    "unit": "元",
+    "currency": "CNY",
+    "source_id": "600298-5c763f656754f15e",
+    "sha256": "f4739d889d29da1a9744f1fb9428f75f6e6331572031b3de1daec550113f59d1",
+    "path": "sources/raw/02_定期报告与经营数据/2026-10-30_安琪酵母股份有限公司2026年第三季度报告_1225641080.pdf",
+    "location": {
+      "physical_page": 7,
+      "table": "合并报表/附注",
+      "column": "本期/期末"
+    },
+    "page": 7,
+    "matches": [
+      {
+        "line": 35,
+        "text": "存货 4,909,507,657.67 5,105,429,678.33",
+        "columns": [
+          46
+        ],
+        "tokens": [
+          "4,909,507,657.67",
+          "5,105,429,678.33"
+        ],
+        "preceding": "买入返售金融资产"
+      }
+    ],
+    "verdict": "register_and_confirm",
+    "ledger_id": "R14-600298-8-03",
+    "official_period": "截至2026-09-30的合并报表余额",
+    "official_unit": "人民币元",
+    "official_amount_sign": "4909507657.67",
+    "official_note": "",
+    "current": {
+      "id": "R14-600298-8-03",
+      "kind": "disclosure",
+      "claim": "存货",
+      "value": "4909507657.67",
+      "state": "Unknown",
+      "scope": {
+        "period": "截至2026-09-30的合并报表余额",
+        "unit": "人民币元",
+        "currency": "CNY",
+        "entity": "安琪酵母",
+        "basis": "合并报表/附注",
+        "definition": "存货"
+      },
+      "sources": [
+        {
+          "source_id": "600298-5c763f656754f15e",
+          "location": "{\"column\": \"本期/期末\", \"physical_page\": 7, \"table\": \"合并报表/附注\"}"
+        }
+      ],
+      "support_boundary": "阶段14集中核验裁定所列合并披露。",
+      "effective_state": "Fact",
+      "binding": "02c660434827636c5fbaf1b307854680946e0da75ffbee4ec92dd9bf879fcdeb",
+      "issues": [],
+      "verifier": "agent",
+      "confirmation_event": "E000041",
+      "human_confirmation": false
+    },
+    "tag": "Fact",
+    "disposition": "新登记",
+    "reviewed_value": "4909507657.67",
+    "confirmation_event": "E000041",
+    "actor": "agent",
+    "jump": "current-ledger.html#600298-R14-600298-8-03",
+    "url": "https://static.cninfo.com.cn/finalpage/2026-10-30/1225641080.PDF",
+    "event": {
+      "id": "E000041",
+      "time": "2026-11-19T17:14:56+08:00",
+      "action": "record-confirmed",
+      "data": {
+        "record_id": "R14-600298-8-03",
+        "binding": "02c660434827636c5fbaf1b307854680946e0da75ffbee4ec92dd9bf879fcdeb",
+        "actor": "agent",
+        "statement_original": "依阶段14集中核验裁定 c446163a75fd61d6f128aae12d98add9ae2eb9fdd21f88c04cae1848c4989038 对读行列、期间、单位和符号，本轮复核归档原件哈希 f4739d889d29da1a9744f1fb9428f75f6e6331572031b3de1daec550113f59d1 与当前绑定。定位 {\"column\": \"本期/期末\", \"physical_page\": 7, \"table\": \"合并报表/附注\"}",
+        "delegation_id": "D0001",
+        "reviewed_record": {
+          "id": "R14-600298-8-03",
+          "claim": "存货",
+          "value": "4909507657.67",
+          "scope": {
+            "period": "截至2026-09-30的合并报表余额",
+            "unit": "人民币元",
+            "currency": "CNY",
+            "entity": "安琪酵母",
+            "basis": "合并报表/附注",
+            "definition": "存货"
+          },
+          "sources": [
+            {
+              "source_id": "600298-5c763f656754f15e",
+              "location": "{\"column\": \"本期/期末\", \"physical_page\": 7, \"table\": \"合并报表/附注\"}"
+            }
+          ],
+          "formula": null
+        },
+        "reviewer_name": ""
+      },
+      "previous_hash": "ebcf03b85ebed030c1cd355f62ed329e62c1bcac399cc48d84d91d0758f8d14a",
+      "hash": "80535bef4e3d3687e4738443a729bb555c8e319480104b665e1c9bbaae42e294"
+    }
+  },
+  {
+    "company": "600298_安琪酵母",
+    "group": "R14-600298-8",
+    "index": 4,
+    "id": "2026-YTD9:capex:600298-5c763f656754f15e",
+    "claim": "现金购建支出",
+    "metric": "capex",
+    "value": "1305256138.34",
+    "period": "2026-YTD9",
+    "unit": "元",
+    "currency": "CNY",
+    "source_id": "600298-5c763f656754f15e",
+    "sha256": "f4739d889d29da1a9744f1fb9428f75f6e6331572031b3de1daec550113f59d1",
+    "path": "sources/raw/02_定期报告与经营数据/2026-10-30_安琪酵母股份有限公司2026年第三季度报告_1225641080.pdf",
+    "location": {
+      "physical_page": 13,
+      "table": "合并报表/附注",
+      "column": "本期/期末"
+    },
+    "page": 13,
+    "matches": [
+      {
+        "line": 14,
+        "text": "购建固定资产、无形资产和其他长期资 1,305,256,138.34 1,240,509,324.36",
+        "columns": [
+          46
+        ],
+        "tokens": [
+          "1,305,256,138.34",
+          "1,240,509,324.36"
+        ],
+        "preceding": "投资活动现金流入小计 270,740,501.45 334,754,410.63"
+      }
+    ],
+    "verdict": "register_and_confirm",
+    "ledger_id": "R14-600298-8-04",
+    "official_period": "2026-01-01至2026-09-30累计",
+    "official_unit": "人民币元",
+    "official_amount_sign": "1305256138.34",
+    "official_note": "原表按支付额列正；投资现金流出。",
+    "current": {
+      "id": "R14-600298-8-04",
+      "kind": "disclosure",
+      "claim": "现金购建支出",
+      "value": "1305256138.34",
+      "state": "Unknown",
+      "scope": {
+        "period": "2026-01-01至2026-09-30累计",
+        "unit": "人民币元",
+        "currency": "CNY",
+        "entity": "安琪酵母",
+        "basis": "合并报表/附注",
+        "definition": "原表按支付额列正；投资现金流出。"
+      },
+      "sources": [
+        {
+          "source_id": "600298-5c763f656754f15e",
+          "location": "{\"column\": \"本期/期末\", \"physical_page\": 13, \"table\": \"合并报表/附注\"}"
+        }
+      ],
+      "support_boundary": "阶段14集中核验裁定所列合并披露。",
+      "effective_state": "Fact",
+      "binding": "9f84b4252e8d1c69843c4392f7999da3bb3f0d51a98484c9ba620d923615f77a",
+      "issues": [],
+      "verifier": "agent",
+      "confirmation_event": "E000043",
+      "human_confirmation": false
+    },
+    "tag": "Fact",
+    "disposition": "新登记",
+    "reviewed_value": "1305256138.34",
+    "confirmation_event": "E000043",
+    "actor": "agent",
+    "jump": "current-ledger.html#600298-R14-600298-8-04",
+    "url": "https://static.cninfo.com.cn/finalpage/2026-10-30/1225641080.PDF",
+    "event": {
+      "id": "E000043",
+      "time": "2026-11-19T17:14:56+08:00",
+      "action": "record-confirmed",
+      "data": {
+        "record_id": "R14-600298-8-04",
+        "binding": "9f84b4252e8d1c69843c4392f7999da3bb3f0d51a98484c9ba620d923615f77a",
+        "actor": "agent",
+        "statement_original": "依阶段14集中核验裁定 c446163a75fd61d6f128aae12d98add9ae2eb9fdd21f88c04cae1848c4989038 对读行列、期间、单位和符号，本轮复核归档原件哈希 f4739d889d29da1a9744f1fb9428f75f6e6331572031b3de1daec550113f59d1 与当前绑定。定位 {\"column\": \"本期/期末\", \"physical_page\": 13, \"table\": \"合并报表/附注\"}",
+        "delegation_id": "D0001",
+        "reviewed_record": {
+          "id": "R14-600298-8-04",
+          "claim": "现金购建支出",
+          "value": "1305256138.34",
+          "scope": {
+            "period": "2026-01-01至2026-09-30累计",
+            "unit": "人民币元",
+            "currency": "CNY",
+            "entity": "安琪酵母",
+            "basis": "合并报表/附注",
+            "definition": "原表按支付额列正；投资现金流出。"
+          },
+          "sources": [
+            {
+              "source_id": "600298-5c763f656754f15e",
+              "location": "{\"column\": \"本期/期末\", \"physical_page\": 13, \"table\": \"合并报表/附注\"}"
+            }
+          ],
+          "formula": null
+        },
+        "reviewer_name": ""
+      },
+      "previous_hash": "c80157a932dee4320960ea537c0cc7d8643e23ce0be5a300c7523a07c140cb57",
+      "hash": "51d874394e6e5c584f794f6cd2972505d63cd525c2bb57ae3ee35032c96332e2"
+    }
+  },
+  {
+    "company": "600298_安琪酵母",
+    "group": "R14-600298-8",
+    "index": 5,
+    "id": "2026-YTD9:short_borrow:600298-5c763f656754f15e",
+    "claim": "短期借款",
+    "metric": "short_borrow",
+    "value": "3969000588.92",
+    "period": "2026-YTD9",
+    "unit": "元",
+    "currency": "CNY",
+    "source_id": "600298-5c763f656754f15e",
+    "sha256": "f4739d889d29da1a9744f1fb9428f75f6e6331572031b3de1daec550113f59d1",
+    "path": "sources/raw/02_定期报告与经营数据/2026-10-30_安琪酵母股份有限公司2026年第三季度报告_1225641080.pdf",
+    "location": {
+      "physical_page": 8,
+      "table": "合并资产负债表",
+      "column": "本期/期末"
+    },
+    "page": 8,
+    "matches": [
+      {
+        "line": 23,
+        "text": "短期借款 3,969,000,588.92 4,573,269,538.53",
+        "columns": [
+          50
+        ],
+        "tokens": [
+          "3,969,000,588.92",
+          "4,573,269,538.53"
+        ],
+        "preceding": "流动负债："
+      }
+    ],
+    "verdict": "register_and_confirm",
+    "ledger_id": "R14-600298-8-05",
+    "official_period": "截至2026-09-30的合并报表余额",
+    "official_unit": "人民币元",
+    "official_amount_sign": "3969000588.92",
+    "official_note": "",
+    "current": {
+      "id": "R14-600298-8-05",
+      "kind": "disclosure",
+      "claim": "短期借款",
+      "value": "3969000588.92",
+      "state": "Unknown",
+      "scope": {
+        "period": "截至2026-09-30的合并报表余额",
+        "unit": "人民币元",
+        "currency": "CNY",
+        "entity": "安琪酵母",
+        "basis": "合并资产负债表",
+        "definition": "短期借款"
+      },
+      "sources": [
+        {
+          "source_id": "600298-5c763f656754f15e",
+          "location": "{\"column\": \"本期/期末\", \"physical_page\": 8, \"table\": \"合并资产负债表\"}"
+        }
+      ],
+      "support_boundary": "阶段14集中核验裁定所列合并披露。",
+      "effective_state": "Fact",
+      "binding": "0c5bf95b8b7d4ea8d0b00ea825ce99b4338b62c6f81f10630ccd8173e25ca74d",
+      "issues": [],
+      "verifier": "agent",
+      "confirmation_event": "E000045",
+      "human_confirmation": false
+    },
+    "tag": "Fact",
+    "disposition": "新登记",
+    "reviewed_value": "3969000588.92",
+    "confirmation_event": "E000045",
+    "actor": "agent",
+    "jump": "current-ledger.html#600298-R14-600298-8-05",
+    "url": "https://static.cninfo.com.cn/finalpage/2026-10-30/1225641080.PDF",
+    "event": {
+      "id": "E000045",
+      "time": "2026-11-19T17:14:56+08:00",
+      "action": "record-confirmed",
+      "data": {
+        "record_id": "R14-600298-8-05",
+        "binding": "0c5bf95b8b7d4ea8d0b00ea825ce99b4338b62c6f81f10630ccd8173e25ca74d",
+        "actor": "agent",
+        "statement_original": "依阶段14集中核验裁定 c446163a75fd61d6f128aae12d98add9ae2eb9fdd21f88c04cae1848c4989038 对读行列、期间、单位和符号，本轮复核归档原件哈希 f4739d889d29da1a9744f1fb9428f75f6e6331572031b3de1daec550113f59d1 与当前绑定。定位 {\"column\": \"本期/期末\", \"physical_page\": 8, \"table\": \"合并资产负债表\"}",
+        "delegation_id": "D0001",
+        "reviewed_record": {
+          "id": "R14-600298-8-05",
+          "claim": "短期借款",
+          "value": "3969000588.92",
+          "scope": {
+            "period": "截至2026-09-30的合并报表余额",
+            "unit": "人民币元",
+            "currency": "CNY",
+            "entity": "安琪酵母",
+            "basis": "合并资产负债表",
+            "definition": "短期借款"
+          },
+          "sources": [
+            {
+              "source_id": "600298-5c763f656754f15e",
+              "location": "{\"column\": \"本期/期末\", \"physical_page\": 8, \"table\": \"合并资产负债表\"}"
+            }
+          ],
+          "formula": null
+        },
+        "reviewer_name": ""
+      },
+      "previous_hash": "4bbdb74146a575a4cffd5b7724d4348282b385f0ee75bb08c7b1af8805fe31b7",
+      "hash": "b9d031da7e3bd9d16b5d9d1905575ce5e22a768194c66819391ba827a9c2c2fb"
+    }
+  },
+  {
+    "company": "600298_安琪酵母",
+    "group": "R14-600298-8",
+    "index": 6,
+    "id": "2026-YTD9:current_noncurrent_debt:600298-5c763f656754f15e",
+    "claim": "一年内到期的非流动负债",
+    "metric": "current_noncurrent_debt",
+    "value": "507945224.64",
+    "period": "2026-YTD9",
+    "unit": "元",
+    "currency": "CNY",
+    "source_id": "600298-5c763f656754f15e",
+    "sha256": "f4739d889d29da1a9744f1fb9428f75f6e6331572031b3de1daec550113f59d1",
+    "path": "sources/raw/02_定期报告与经营数据/2026-10-30_安琪酵母股份有限公司2026年第三季度报告_1225641080.pdf",
+    "location": {
+      "physical_page": 8,
+      "table": "合并资产负债表",
+      "column": "本期/期末"
+    },
+    "page": 8,
+    "matches": [
+      {
+        "line": 44,
+        "text": "一年内到期的非流动负债 507,945,224.64 1,503,478,981.17",
+        "columns": [
+          51
+        ],
+        "tokens": [
+          "507,945,224.64",
+          "1,503,478,981.17"
+        ],
+        "preceding": "持有待售负债"
+      }
+    ],
+    "verdict": "register_and_confirm",
+    "ledger_id": "R14-600298-8-06",
+    "official_period": "截至2026-09-30的合并报表余额",
+    "official_unit": "人民币元",
+    "official_amount_sign": "507945224.64",
+    "official_note": "一年内到期的非流动负债总额，短债/租赁拆分另证；非短期借款同义项。",
+    "current": {
+      "id": "R14-600298-8-06",
+      "kind": "disclosure",
+      "claim": "一年内到期的非流动负债",
+      "value": "507945224.64",
+      "state": "Unknown",
+      "scope": {
+        "period": "截至2026-09-30的合并报表余额",
+        "unit": "人民币元",
+        "currency": "CNY",
+        "entity": "安琪酵母",
+        "basis": "合并资产负债表",
+        "definition": "一年内到期的非流动负债总额，短债/租赁拆分另证；非短期借款同义项。"
+      },
+      "sources": [
+        {
+          "source_id": "600298-5c763f656754f15e",
+          "location": "{\"column\": \"本期/期末\", \"physical_page\": 8, \"table\": \"合并资产负债表\"}"
+        }
+      ],
+      "support_boundary": "阶段14集中核验裁定所列合并披露。",
+      "effective_state": "Fact",
+      "binding": "afe4bc5d2080cf81a029fb12fac1c131fdcf87a81df2108e2a4cdbe07afb36f8",
+      "issues": [],
+      "verifier": "agent",
+      "confirmation_event": "E000047",
+      "human_confirmation": false
+    },
+    "tag": "Fact",
+    "disposition": "新登记",
+    "reviewed_value": "507945224.64",
+    "confirmation_event": "E000047",
+    "actor": "agent",
+    "jump": "current-ledger.html#600298-R14-600298-8-06",
+    "url": "https://static.cninfo.com.cn/finalpage/2026-10-30/1225641080.PDF",
+    "event": {
+      "id": "E000047",
+      "time": "2026-11-19T17:14:56+08:00",
+      "action": "record-confirmed",
+      "data": {
+        "record_id": "R14-600298-8-06",
+        "binding": "afe4bc5d2080cf81a029fb12fac1c131fdcf87a81df2108e2a4cdbe07afb36f8",
+        "actor": "agent",
+        "statement_original": "依阶段14集中核验裁定 c446163a75fd61d6f128aae12d98add9ae2eb9fdd21f88c04cae1848c4989038 对读行列、期间、单位和符号，本轮复核归档原件哈希 f4739d889d29da1a9744f1fb9428f75f6e6331572031b3de1daec550113f59d1 与当前绑定。定位 {\"column\": \"本期/期末\", \"physical_page\": 8, \"table\": \"合并资产负债表\"}",
+        "delegation_id": "D0001",
+        "reviewed_record": {
+          "id": "R14-600298-8-06",
+          "claim": "一年内到期的非流动负债",
+          "value": "507945224.64",
+          "scope": {
+            "period": "截至2026-09-30的合并报表余额",
+            "unit": "人民币元",
+            "currency": "CNY",
+            "entity": "安琪酵母",
+            "basis": "合并资产负债表",
+            "definition": "一年内到期的非流动负债总额，短债/租赁拆分另证；非短期借款同义项。"
+          },
+          "sources": [
+            {
+              "source_id": "600298-5c763f656754f15e",
+              "location": "{\"column\": \"本期/期末\", \"physical_page\": 8, \"table\": \"合并资产负债表\"}"
+            }
+          ],
+          "formula": null
+        },
+        "reviewer_name": ""
+      },
+      "previous_hash": "b43329400ff0dc5489a65638ccf26416615c16dbce19e98d86e90e217368fd2b",
+      "hash": "19d4ff6bddb7c614e2fbc5b3415d3b03be7ffabedbb38b6179901b57458bf1ab"
+    }
+  },
+  {
+    "company": "600298_安琪酵母",
+    "group": "R14-600298-8",
+    "index": 7,
+    "id": "2026-YTD9:cfo:600298-5c763f656754f15e",
+    "claim": "经营现金净额",
+    "metric": "cfo",
+    "value": "1712444648.30",
+    "period": "2026-YTD9",
+    "unit": "元",
+    "currency": "CNY",
+    "source_id": "600298-5c763f656754f15e",
+    "sha256": "f4739d889d29da1a9744f1fb9428f75f6e6331572031b3de1daec550113f59d1",
+    "path": "sources/raw/02_定期报告与经营数据/2026-10-30_安琪酵母股份有限公司2026年第三季度报告_1225641080.pdf",
+    "location": {
+      "physical_page": 13,
+      "table": "合并报表/附注",
+      "column": "本期/期末"
+    },
+    "page": 13,
+    "matches": [
+      {
+        "line": 4,
+        "text": "经营活动产生的现金流量净额 1,712,444,648.30 2,218,132,355.03",
+        "columns": [
+          46
+        ],
+        "tokens": [
+          "1,712,444,648.30",
+          "2,218,132,355.03"
+        ],
+        "preceding": ""
+      }
+    ],
+    "verdict": "link_existing",
+    "ledger_id": "B07-Q05",
+    "official_period": "2026-01-01至2026-09-30累计",
+    "official_unit": "人民币元",
+    "official_amount_sign": "1712444648.30",
+    "official_note": "",
+    "current": {
+      "id": "B07-Q05",
+      "kind": "disclosure",
+      "claim": "前九个月CFO",
+      "scope": {
+        "period": "2026年1—9月",
+        "entity": "安琪酵母",
+        "basis": "集团合并；季度数据未经审计",
+        "definition": "前九个月CFO；按原表列定位，不把归母/合并净利润混同",
+        "unit": "元",
+        "currency": "CNY"
+      },
+      "sources": [
+        {
+          "source_id": "600298-5c763f656754f15e",
+          "location": "PDF物理第1页，财务摘要/经营更新，行“前九个月CFO”"
+        }
+      ],
+      "support_boundary": "机器提取候选，尚无人审核准；不单独证明机制或投资价值。",
+      "value": "1712444648.30",
+      "state": "Unknown",
+      "effective_state": "Fact",
+      "binding": "a9a1e25ce45c812402385c3c45fc1ab07bdce106c0ac701234bb6a3da8ee7cf1",
+      "issues": [],
+      "verifier": "agent",
+      "confirmation_event": "E000036",
+      "human_confirmation": false
+    },
+    "tag": "Fact",
+    "disposition": "跳转至已确认披露",
+    "reviewed_value": "1712444648.30",
+    "confirmation_event": "E000036",
+    "actor": "agent",
+    "jump": "current-ledger.html#600298-B07-Q05",
+    "url": "https://static.cninfo.com.cn/finalpage/2026-10-30/1225641080.PDF",
+    "event": {
+      "id": "E000036",
+      "time": "2026-11-19T17:14:55+08:00",
+      "action": "record-confirmed",
+      "data": {
+        "record_id": "B07-Q05",
+        "binding": "a9a1e25ce45c812402385c3c45fc1ab07bdce106c0ac701234bb6a3da8ee7cf1",
+        "actor": "agent",
+        "statement_original": "依阶段14集中核验裁定 c446163a75fd61d6f128aae12d98add9ae2eb9fdd21f88c04cae1848c4989038 对读行列、期间、单位和符号，本轮复核归档原件哈希 f4739d889d29da1a9744f1fb9428f75f6e6331572031b3de1daec550113f59d1 与当前绑定。定位 PDF物理第1页，财务摘要/经营更新，行“前九个月CFO”",
+        "delegation_id": "D0001",
+        "reviewed_record": {
+          "id": "B07-Q05",
+          "claim": "前九个月CFO",
+          "value": "1712444648.30",
+          "scope": {
+            "period": "2026年1—9月",
+            "entity": "安琪酵母",
+            "basis": "集团合并；季度数据未经审计",
+            "definition": "前九个月CFO；按原表列定位，不把归母/合并净利润混同",
+            "unit": "元",
+            "currency": "CNY"
+          },
+          "sources": [
+            {
+              "source_id": "600298-5c763f656754f15e",
+              "location": "PDF物理第1页，财务摘要/经营更新，行“前九个月CFO”"
+            }
+          ],
+          "formula": null
+        },
+        "reviewer_name": ""
+      },
+      "previous_hash": "225da4c4206462c041627ce6254b1cce764fa9537d855b2e09fd5534b35e3078",
+      "hash": "f61f217ba089dcab317dfe0856a16bc2d9e7ac19448293e61070723da4120eb6"
+    }
+  },
+  {
+    "company": "600298_安琪酵母",
+    "group": "R14-600298-8",
+    "index": 8,
+    "id": "2026-YTD9:tax_expense:600298-5c763f656754f15e",
+    "claim": "所得税费用",
+    "metric": "tax_expense",
+    "value": "281054685.07",
+    "period": "2026-YTD9",
+    "unit": "元",
+    "currency": "CNY",
+    "source_id": "600298-5c763f656754f15e",
+    "sha256": "f4739d889d29da1a9744f1fb9428f75f6e6331572031b3de1daec550113f59d1",
+    "path": "sources/raw/02_定期报告与经营数据/2026-10-30_安琪酵母股份有限公司2026年第三季度报告_1225641080.pdf",
+    "location": {
+      "physical_page": 11,
+      "table": "合并报表/附注",
+      "column": "本期/期末"
+    },
+    "page": 11,
+    "matches": [
+      {
+        "line": 6,
+        "text": "减：所得税费用 281,054,685.07 240,892,107.84",
+        "columns": [
+          37
+        ],
+        "tokens": [
+          "281,054,685.07",
+          "240,892,107.84"
+        ],
+        "preceding": "列）"
+      }
+    ],
+    "verdict": "register_and_confirm",
+    "ledger_id": "R14-600298-8-08",
+    "official_period": "2026-01-01至2026-09-30累计",
+    "official_unit": "人民币元",
+    "official_amount_sign": "281054685.07",
+    "official_note": "",
+    "current": {
+      "id": "R14-600298-8-08",
+      "kind": "disclosure",
+      "claim": "所得税费用",
+      "value": "281054685.07",
+      "state": "Unknown",
+      "scope": {
+        "period": "2026-01-01至2026-09-30累计",
+        "unit": "人民币元",
+        "currency": "CNY",
+        "entity": "安琪酵母",
+        "basis": "合并报表/附注",
+        "definition": "所得税费用"
+      },
+      "sources": [
+        {
+          "source_id": "600298-5c763f656754f15e",
+          "location": "{\"column\": \"本期/期末\", \"physical_page\": 11, \"table\": \"合并报表/附注\"}"
+        }
+      ],
+      "support_boundary": "阶段14集中核验裁定所列合并披露。",
+      "effective_state": "Fact",
+      "binding": "a0f230540fd979f198efa9f684f3c9f83b3f2df6bc855bdb614ab0d483f4aa1a",
+      "issues": [],
+      "verifier": "agent",
+      "confirmation_event": "E000049",
+      "human_confirmation": false
+    },
+    "tag": "Fact",
+    "disposition": "新登记",
+    "reviewed_value": "281054685.07",
+    "confirmation_event": "E000049",
+    "actor": "agent",
+    "jump": "current-ledger.html#600298-R14-600298-8-08",
+    "url": "https://static.cninfo.com.cn/finalpage/2026-10-30/1225641080.PDF",
+    "event": {
+      "id": "E000049",
+      "time": "2026-11-19T17:14:56+08:00",
+      "action": "record-confirmed",
+      "data": {
+        "record_id": "R14-600298-8-08",
+        "binding": "a0f230540fd979f198efa9f684f3c9f83b3f2df6bc855bdb614ab0d483f4aa1a",
+        "actor": "agent",
+        "statement_original": "依阶段14集中核验裁定 c446163a75fd61d6f128aae12d98add9ae2eb9fdd21f88c04cae1848c4989038 对读行列、期间、单位和符号，本轮复核归档原件哈希 f4739d889d29da1a9744f1fb9428f75f6e6331572031b3de1daec550113f59d1 与当前绑定。定位 {\"column\": \"本期/期末\", \"physical_page\": 11, \"table\": \"合并报表/附注\"}",
+        "delegation_id": "D0001",
+        "reviewed_record": {
+          "id": "R14-600298-8-08",
+          "claim": "所得税费用",
+          "value": "281054685.07",
+          "scope": {
+            "period": "2026-01-01至2026-09-30累计",
+            "unit": "人民币元",
+            "currency": "CNY",
+            "entity": "安琪酵母",
+            "basis": "合并报表/附注",
+            "definition": "所得税费用"
+          },
+          "sources": [
+            {
+              "source_id": "600298-5c763f656754f15e",
+              "location": "{\"column\": \"本期/期末\", \"physical_page\": 11, \"table\": \"合并报表/附注\"}"
+            }
+          ],
+          "formula": null
+        },
+        "reviewer_name": ""
+      },
+      "previous_hash": "7056251f15d503eaf2c667fa527eccb1aef4ce510b136a49f6da283eabaa0030",
+      "hash": "5fbe53465c74f7eee71a2bd443e8e886b463759ec6d5900d9fa6f40effe56723"
+    }
+  }
+]
