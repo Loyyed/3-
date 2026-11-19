@@ -240,5 +240,13 @@
       "id": "R12-FIRST-8",
       "originalRows": 8
     }
-  ]
+  ],
+  "independent_git_restore": {
+    "source_commit": "0ec66a48495601a061f09fd3f5ba1ee96088b595",
+    "isolated_checkout": true,
+    "math_exit": 0,
+    "report_binding_exit": 0,
+    "dependency_impact_isolation_exit": 0,
+    "scope": "复算及报告/模型校验，不含本地原件载荷；正式目录的原件另有指纹记录。"
+  }
 }
