@@ -1,0 +1,70 @@
+{
+  "at": "2026-11-19T07:15:25.791Z",
+  "source_commit": "f630870192f7884c464d09afd85f211e50437db3",
+  "clone_mode": "git clone --no-local",
+  "tests": {
+    "without_originals": "五家公司复算及已发布报告输入/产物指纹通过。原件缺失按清单列出。",
+    "restored_originals_from_local_verified_copies": 33,
+    "restored_originals_hash_match": true,
+    "locked_toolkit_restored_from_git": true,
+    "isolated_host_all_five_company_contexts": true,
+    "online_redownload_performed": false
+  },
+  "results": [
+    {
+      "company": "002507_涪陵榨菜",
+      "bridges": 3,
+      "forecasts": 9,
+      "source_rows": 606,
+      "candidate_audit_rows": 12,
+      "fact_count": 0,
+      "original_payloads_pending": [],
+      "report_version": 11,
+      "report_id": "Od7b0c0d6753f"
+    },
+    {
+      "company": "09992_泡泡玛特",
+      "bridges": 3,
+      "forecasts": 9,
+      "source_rows": 89,
+      "candidate_audit_rows": 13,
+      "fact_count": 0,
+      "original_payloads_pending": [],
+      "report_version": 9,
+      "report_id": "Obd369b921ba3"
+    },
+    {
+      "company": "600298_安琪酵母",
+      "bridges": 3,
+      "forecasts": 9,
+      "source_rows": 633,
+      "candidate_audit_rows": 12,
+      "fact_count": 0,
+      "original_payloads_pending": [],
+      "report_version": 11,
+      "report_id": "O65d622a19602"
+    },
+    {
+      "company": "688188_柏楚电子",
+      "bridges": 3,
+      "forecasts": 9,
+      "source_rows": 614,
+      "candidate_audit_rows": 12,
+      "fact_count": 0,
+      "original_payloads_pending": [],
+      "report_version": 10,
+      "report_id": "Oc7d782580caa"
+    },
+    {
+      "company": "US_ISRG_直觉外科",
+      "bridges": 4,
+      "forecasts": 9,
+      "source_rows": 201,
+      "candidate_audit_rows": 55,
+      "fact_count": 0,
+      "original_payloads_pending": [],
+      "report_version": 6,
+      "report_id": "O2abef0afe9b7"
+    }
+  ]
+}

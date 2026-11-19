@@ -23,7 +23,7 @@ def sha(path):
 def close(a, b, tolerance='0.000001'):
     assert abs(D(str(a))-D(str(b))) <= D(tolerance), (a,b)
 
-def verify(root, baseline=None):
+def verify(root, baseline=None, without_originals=False):
     items = ld(root/'docs/research12-deliverables.json')['items']
     assert len(items) == len({i['company'] for i in items}) == 5
     results = []
@@ -39,7 +39,17 @@ def verify(root, baseline=None):
         authorities = {r['id']:r for r in store.records()}
         audit_rows = [row for batch in audited['batches'] for row in batch['rows']]
         assert len(audit_rows) == sum(k.startswith(('B07-','I09-')) for k in authorities)
-        assert all(row['current_binding']==authorities[row['record_id']].get('binding') for row in audit_rows)
+        manifest = {s['id']:s for s in store.source_rows()}
+        missing_payloads = []
+        for row in audit_rows:
+            source = manifest[row['source_id']]
+            assert source['sha256'] == row['source_sha256']
+            assert source['path'] == row['source_path']
+            if (project/source['path']).is_file():
+                assert row['current_binding'] == authorities[row['record_id']].get('binding')
+            else:
+                assert without_originals, source['path']
+                missing_payloads.append(row['source_id'])
         assert all(row['user_review'] is None for row in audit_rows)
         locked = ['evidence/ledger.json','sources/manifest.json']
         if baseline:
@@ -97,7 +107,7 @@ def verify(root, baseline=None):
             for decline,growth in calc['sensitivity']['ia_fixed_mix_volume_required'].items():
                 close((1+growth)*(1-D(decline)),1)
         results.append({'company':cid,'bridges':len(calc['bridges']),'forecasts':len(calc['forecast']),
-                        'source_rows':len(data['rows']),'candidate_audit_rows':len(audit_rows),'fact_count':len(facts),
+                        'source_rows':len(data['rows']),'candidate_audit_rows':len(audit_rows),'fact_count':len(facts),'original_payloads_pending':sorted(set(missing_payloads)),
                         'report_version':report['version'],'report_id':report['id']})
     return results
 
@@ -105,5 +115,6 @@ if __name__=='__main__':
     parser=argparse.ArgumentParser()
     parser.add_argument('--root',type=Path,default=ROOT)
     parser.add_argument('--baseline')
+    parser.add_argument('--without-originals',action='store_true',help='Verify the Git recovery package while local source restoration is pending')
     args=parser.parse_args()
-    print(json.dumps(verify(args.root,args.baseline),ensure_ascii=False,indent=2))
+    print(json.dumps(verify(args.root,args.baseline,args.without_originals),ensure_ascii=False,indent=2))
