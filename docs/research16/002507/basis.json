@@ -1,0 +1,2742 @@
+{
+  "company": "002507_涪陵榨菜",
+  "issuer_sources": [
+    {
+      "company": "002507_涪陵榨菜",
+      "tag": "原文披露·Agent对读",
+      "period": "2021",
+      "metric": "食品加工销售量",
+      "value": 15.32,
+      "unit": "万吨",
+      "source_id": "002507-bd64672c54804089",
+      "source_sha256": "f6378e5372b32921ab2da5f104c98f25fe3034b04cbdcf0e6fa134a84745e857",
+      "url": "https://static.cninfo.com.cn/finalpage/2022-03-18/1212606350.PDF",
+      "locator": "PDF物理第19页",
+      "disclosed": "2022-03-18",
+      "checked": "2026-11-19",
+      "note": "财年自报当期。2023年报2022比较栏14.02，与2022原披露14.03分列。"
+    },
+    {
+      "company": "002507_涪陵榨菜",
+      "tag": "原文披露·Agent对读",
+      "period": "2022",
+      "metric": "食品加工销售量",
+      "value": 14.03,
+      "unit": "万吨",
+      "source_id": "002507-9ff347d8cbcba4f2",
+      "source_sha256": "d8b49de48f2dbaf14bbc5d4824f1fb3e0b53de0b0bd3c5e4d7a8de12ada5b2a5",
+      "url": "https://static.cninfo.com.cn/finalpage/2023-03-25/1216218389.PDF",
+      "locator": "PDF物理第18页",
+      "disclosed": "2023-03-25",
+      "checked": "2026-11-19",
+      "note": "财年自报当期。2023年报2022比较栏14.02，与2022原披露14.03分列。"
+    },
+    {
+      "company": "002507_涪陵榨菜",
+      "tag": "原文披露·Agent对读",
+      "period": "2023",
+      "metric": "食品加工销售量",
+      "value": 13.45,
+      "unit": "万吨",
+      "source_id": "002507-4b14860c37a05a6b",
+      "source_sha256": "dde763a874456841c3ef85fd0b535903796f97af1fedb88453743bbc72460f64",
+      "url": "https://static.cninfo.com.cn/finalpage/2024-03-30/1219462373.PDF",
+      "locator": "PDF物理第20页",
+      "disclosed": "2024-03-30",
+      "checked": "2026-11-19",
+      "note": "财年自报当期。2023年报2022比较栏14.02，与2022原披露14.03分列。"
+    },
+    {
+      "company": "002507_涪陵榨菜",
+      "tag": "原文披露·Agent对读",
+      "period": "2024",
+      "metric": "食品加工销售量",
+      "value": 13.26,
+      "unit": "万吨",
+      "source_id": "002507-4c6fe783e1b63fd9",
+      "source_sha256": "6a92a481feeefe891c5161e1836d782d6cf673691ec304371325d5e5793bbb87",
+      "url": "https://static.cninfo.com.cn/finalpage/2025-03-29/1222941660.PDF",
+      "locator": "PDF物理第20页",
+      "disclosed": "2025-03-29",
+      "checked": "2026-11-19",
+      "note": "财年自报当期。2023年报2022比较栏14.02，与2022原披露14.03分列。"
+    },
+    {
+      "company": "002507_涪陵榨菜",
+      "tag": "原文披露·Agent对读",
+      "period": "2025",
+      "metric": "食品加工销售量",
+      "value": 13.4,
+      "unit": "万吨",
+      "source_id": "002507-6cd117ea1ac8beee",
+      "source_sha256": "db3af94635933a99c37cccb2b3809267b5e21072563ef12c2a8de93eb721f9b5",
+      "url": "https://static.cninfo.com.cn/finalpage/2026-03-28/1225042838.PDF",
+      "locator": "PDF物理第23页",
+      "disclosed": "2026-03-28",
+      "checked": "2026-11-19",
+      "note": "财年自报当期。2023年报2022比较栏14.02，与2022原披露14.03分列。"
+    },
+    {
+      "company": "002507_涪陵榨菜",
+      "tag": "原文披露·Agent对读",
+      "period": "2026H1",
+      "metric": "直销四品类收入与成本",
+      "value": [
+        [
+          83.20841944,
+          39.37747787,
+          59.05096235,
+          28.45456718
+        ],
+        [
+          5.9114743,
+          4.35889486,
+          4.58963508,
+          3.64784138
+        ],
+        [
+          3.98103781,
+          2.7499959,
+          3.41781063,
+          2.26724219
+        ],
+        [
+          29.15465105,
+          20.76149874,
+          7.00166303,
+          5.77036061
+        ]
+      ],
+      "unit": "人民币百万元",
+      "source_id": "002507-b901d0b919e32cba",
+      "source_sha256": "e85ee9eaacaa3eac2ec2e3940e147cc7941f992f5fd6efb072a88e0438e2bd11",
+      "url": "https://static.cninfo.com.cn/finalpage/2026-08-28/1225517908.PDF",
+      "locator": "物理第13页；本期收入/成本、同期收入/成本",
+      "disclosed": "2026-08-28",
+      "checked": "2026-11-19",
+      "note": "榨菜、萝卜、泡菜、其他。"
+    },
+    {
+      "company": "002507_涪陵榨菜",
+      "tag": "原文披露·Agent对读",
+      "period": "2026H1",
+      "metric": "经销四品类收入与成本",
+      "value": [
+        [
+          1068.21044468,
+          449.915634,
+          1063.58197517,
+          442.14714753
+        ],
+        [
+          20.51597071,
+          17.01296232,
+          28.55963342,
+          22.09242184
+        ],
+        [
+          104.31354494,
+          70.02702538,
+          115.1735306,
+          78.02917756
+        ],
+        [
+          48.24120206,
+          35.86633993,
+          29.54389793,
+          18.61224108
+        ]
+      ],
+      "unit": "人民币百万元",
+      "source_id": "002507-b901d0b919e32cba",
+      "source_sha256": "e85ee9eaacaa3eac2ec2e3940e147cc7941f992f5fd6efb072a88e0438e2bd11",
+      "url": "https://static.cninfo.com.cn/finalpage/2026-08-28/1225517908.PDF",
+      "locator": "物理第13页",
+      "disclosed": "2026-08-28",
+      "checked": "2026-11-19",
+      "note": "同上，毛利尚需扣渠道履约费用。"
+    },
+    {
+      "company": "002507_涪陵榨菜",
+      "tag": "原文披露·Agent对读",
+      "period": "2026H1",
+      "metric": "食品四类销量［榨菜、萝卜、泡菜、其他］",
+      "value": [
+        [
+          6.1,
+          0.19,
+          0.63,
+          0.41
+        ],
+        [
+          5.93,
+          0.2,
+          0.69,
+          0.27
+        ]
+      ],
+      "unit": "万吨",
+      "source_id": "002507-b901d0b919e32cba",
+      "source_sha256": "e85ee9eaacaa3eac2ec2e3940e147cc7941f992f5fd6efb072a88e0438e2bd11",
+      "url": "https://static.cninfo.com.cn/finalpage/2026-08-28/1225517908.PDF",
+      "locator": "物理第17页",
+      "disclosed": "2026-08-28",
+      "checked": "2026-11-19",
+      "note": "本期和同期，各类四舍五入。"
+    },
+    {
+      "company": "002507_涪陵榨菜",
+      "tag": "原文披露·Agent对读",
+      "period": "2026H1",
+      "metric": "绿色智能化一期计划/在建产能",
+      "value": [
+        16,
+        16
+      ],
+      "unit": "万吨",
+      "source_id": "002507-b901d0b919e32cba",
+      "source_sha256": "e85ee9eaacaa3eac2ec2e3940e147cc7941f992f5fd6efb072a88e0438e2bd11",
+      "url": "https://static.cninfo.com.cn/finalpage/2026-08-28/1225517908.PDF",
+      "locator": "物理第17页；产能及产量情况",
+      "disclosed": "2026-08-28",
+      "checked": "2026-11-19",
+      "note": "两列分别为设计和在建，实际产量空白。"
+    },
+    {
+      "company": "002507_涪陵榨菜",
+      "tag": "原文披露·Agent对读",
+      "period": "2026H1",
+      "metric": "旧基地设计年产能和当期产量",
+      "value": [
+        [
+          9.76,
+          4.36
+        ],
+        [
+          1.36,
+          0.45
+        ],
+        [
+          3.08,
+          1.62
+        ],
+        [
+          1.32,
+          0.6
+        ],
+        [
+          1.51,
+          0.35
+        ]
+      ],
+      "unit": "万吨",
+      "source_id": "002507-b901d0b919e32cba",
+      "source_sha256": "e85ee9eaacaa3eac2ec2e3940e147cc7941f992f5fd6efb072a88e0438e2bd11",
+      "url": "https://static.cninfo.com.cn/finalpage/2026-08-28/1225517908.PDF",
+      "locator": "物理第17页",
+      "disclosed": "2026-08-28",
+      "checked": "2026-11-19",
+      "note": "半年产量与全年设计产能。"
+    }
+  ],
+  "current_facts": [
+    {
+      "company": "002507_涪陵榨菜",
+      "tag": "Fact",
+      "id": "B07-A01",
+      "kind": "disclosure",
+      "claim": "营业收入2025",
+      "scope": {
+        "period": "2025年度",
+        "entity": "涪陵榨菜",
+        "basis": "集团合并年度财务摘要",
+        "definition": "营业收入2025；按原表列定位，不把归母/合并净利润混同",
+        "unit": "元",
+        "currency": "CNY"
+      },
+      "sources": [
+        {
+          "source_id": "002507-6cd117ea1ac8beee",
+          "location": "PDF物理第7页，财务摘要/经营更新，行“营业收入2025”"
+        }
+      ],
+      "support_boundary": "机器提取候选，尚无人审核准；不单独证明机制或投资价值。",
+      "value": "2431922780.17",
+      "state": "Unknown",
+      "effective_state": "Fact",
+      "binding": "d2a1b2fce62c9a41a270117d2352beed0a26e0f4defb845e45e0bf3d5353bb9f",
+      "issues": [],
+      "verifier": "agent",
+      "confirmation_event": "E000026",
+      "human_confirmation": false,
+      "period": "2025年度",
+      "url": "https://static.cninfo.com.cn/finalpage/2026-03-28/1225042838.PDF",
+      "event": {
+        "id": "E000026",
+        "time": "2026-11-19T17:14:54+08:00",
+        "action": "record-confirmed",
+        "data": {
+          "record_id": "B07-A01",
+          "binding": "d2a1b2fce62c9a41a270117d2352beed0a26e0f4defb845e45e0bf3d5353bb9f",
+          "actor": "agent",
+          "statement_original": "依阶段14集中核验裁定 c446163a75fd61d6f128aae12d98add9ae2eb9fdd21f88c04cae1848c4989038 对读行列、期间、单位和符号，本轮复核归档原件哈希 db3af94635933a99c37cccb2b3809267b5e21072563ef12c2a8de93eb721f9b5 与当前绑定。定位 PDF物理第7页，财务摘要/经营更新，行“营业收入2025”",
+          "delegation_id": "D0001",
+          "reviewed_record": {
+            "id": "B07-A01",
+            "claim": "营业收入2025",
+            "value": "2431922780.17",
+            "scope": {
+              "period": "2025年度",
+              "entity": "涪陵榨菜",
+              "basis": "集团合并年度财务摘要",
+              "definition": "营业收入2025；按原表列定位，不把归母/合并净利润混同",
+              "unit": "元",
+              "currency": "CNY"
+            },
+            "sources": [
+              {
+                "source_id": "002507-6cd117ea1ac8beee",
+                "location": "PDF物理第7页，财务摘要/经营更新，行“营业收入2025”"
+              }
+            ],
+            "formula": null
+          },
+          "reviewer_name": ""
+        },
+        "previous_hash": "0475217a56574f257923a7ae758aa42147afef68e9cea6829bedf90c81038f94",
+        "hash": "5795fca3f8cc769dd0ee7497506b6cef95cbe4ff704862684612555fa0628d74"
+      }
+    },
+    {
+      "company": "002507_涪陵榨菜",
+      "tag": "Fact",
+      "id": "B07-A02",
+      "kind": "disclosure",
+      "claim": "营业收入2024",
+      "scope": {
+        "period": "2024年度",
+        "entity": "涪陵榨菜",
+        "basis": "集团合并年度财务摘要",
+        "definition": "营业收入2024；按原表列定位，不把归母/合并净利润混同",
+        "unit": "元",
+        "currency": "CNY"
+      },
+      "sources": [
+        {
+          "source_id": "002507-6cd117ea1ac8beee",
+          "location": "PDF物理第7页，财务摘要/经营更新，行“营业收入2024”"
+        }
+      ],
+      "support_boundary": "机器提取候选，尚无人审核准；不单独证明机制或投资价值。",
+      "value": "2387126126.55",
+      "state": "Unknown",
+      "effective_state": "Fact",
+      "binding": "3ba50d87c8fcbbb13550720d1e36b4261a4a4f27d21154bced87de6df3b3d81e",
+      "issues": [],
+      "verifier": "agent",
+      "confirmation_event": "E000027",
+      "human_confirmation": false,
+      "period": "2024年度",
+      "url": "https://static.cninfo.com.cn/finalpage/2026-03-28/1225042838.PDF",
+      "event": {
+        "id": "E000027",
+        "time": "2026-11-19T17:14:54+08:00",
+        "action": "record-confirmed",
+        "data": {
+          "record_id": "B07-A02",
+          "binding": "3ba50d87c8fcbbb13550720d1e36b4261a4a4f27d21154bced87de6df3b3d81e",
+          "actor": "agent",
+          "statement_original": "依阶段14集中核验裁定 c446163a75fd61d6f128aae12d98add9ae2eb9fdd21f88c04cae1848c4989038 对读行列、期间、单位和符号，本轮复核归档原件哈希 db3af94635933a99c37cccb2b3809267b5e21072563ef12c2a8de93eb721f9b5 与当前绑定。定位 PDF物理第7页，财务摘要/经营更新，行“营业收入2024”",
+          "delegation_id": "D0001",
+          "reviewed_record": {
+            "id": "B07-A02",
+            "claim": "营业收入2024",
+            "value": "2387126126.55",
+            "scope": {
+              "period": "2024年度",
+              "entity": "涪陵榨菜",
+              "basis": "集团合并年度财务摘要",
+              "definition": "营业收入2024；按原表列定位，不把归母/合并净利润混同",
+              "unit": "元",
+              "currency": "CNY"
+            },
+            "sources": [
+              {
+                "source_id": "002507-6cd117ea1ac8beee",
+                "location": "PDF物理第7页，财务摘要/经营更新，行“营业收入2024”"
+              }
+            ],
+            "formula": null
+          },
+          "reviewer_name": ""
+        },
+        "previous_hash": "5795fca3f8cc769dd0ee7497506b6cef95cbe4ff704862684612555fa0628d74",
+        "hash": "c5ba5ead7098f12304241c802704da961aa41fbd02148ad8f13379a2023f743f"
+      }
+    },
+    {
+      "company": "002507_涪陵榨菜",
+      "tag": "Fact",
+      "id": "B07-A03",
+      "kind": "disclosure",
+      "claim": "归母净利润2025",
+      "scope": {
+        "period": "2025年度",
+        "entity": "涪陵榨菜",
+        "basis": "集团合并年度财务摘要",
+        "definition": "归母净利润2025；按原表列定位，不把归母/合并净利润混同",
+        "unit": "元",
+        "currency": "CNY"
+      },
+      "sources": [
+        {
+          "source_id": "002507-6cd117ea1ac8beee",
+          "location": "PDF物理第7页，财务摘要/经营更新，行“归母净利润2025”"
+        }
+      ],
+      "support_boundary": "机器提取候选，尚无人审核准；不单独证明机制或投资价值。",
+      "value": "768034038.98",
+      "state": "Unknown",
+      "effective_state": "Fact",
+      "binding": "882a8e850c8a87347f9733e4bef3e4ae5e4cbdbb10360e7ab8d072b84ce48497",
+      "issues": [],
+      "verifier": "agent",
+      "confirmation_event": "E000028",
+      "human_confirmation": false,
+      "period": "2025年度",
+      "url": "https://static.cninfo.com.cn/finalpage/2026-03-28/1225042838.PDF",
+      "event": {
+        "id": "E000028",
+        "time": "2026-11-19T17:14:54+08:00",
+        "action": "record-confirmed",
+        "data": {
+          "record_id": "B07-A03",
+          "binding": "882a8e850c8a87347f9733e4bef3e4ae5e4cbdbb10360e7ab8d072b84ce48497",
+          "actor": "agent",
+          "statement_original": "依阶段14集中核验裁定 c446163a75fd61d6f128aae12d98add9ae2eb9fdd21f88c04cae1848c4989038 对读行列、期间、单位和符号，本轮复核归档原件哈希 db3af94635933a99c37cccb2b3809267b5e21072563ef12c2a8de93eb721f9b5 与当前绑定。定位 PDF物理第7页，财务摘要/经营更新，行“归母净利润2025”",
+          "delegation_id": "D0001",
+          "reviewed_record": {
+            "id": "B07-A03",
+            "claim": "归母净利润2025",
+            "value": "768034038.98",
+            "scope": {
+              "period": "2025年度",
+              "entity": "涪陵榨菜",
+              "basis": "集团合并年度财务摘要",
+              "definition": "归母净利润2025；按原表列定位，不把归母/合并净利润混同",
+              "unit": "元",
+              "currency": "CNY"
+            },
+            "sources": [
+              {
+                "source_id": "002507-6cd117ea1ac8beee",
+                "location": "PDF物理第7页，财务摘要/经营更新，行“归母净利润2025”"
+              }
+            ],
+            "formula": null
+          },
+          "reviewer_name": ""
+        },
+        "previous_hash": "c5ba5ead7098f12304241c802704da961aa41fbd02148ad8f13379a2023f743f",
+        "hash": "bccf0dd4094b2bccc2a939707e90904030ff9baa63a8da4f22e84ec54ebe9d8b"
+      }
+    },
+    {
+      "company": "002507_涪陵榨菜",
+      "tag": "Fact",
+      "id": "B07-A04",
+      "kind": "disclosure",
+      "claim": "归母净利润2024",
+      "scope": {
+        "period": "2024年度",
+        "entity": "涪陵榨菜",
+        "basis": "集团合并年度财务摘要",
+        "definition": "归母净利润2024；按原表列定位，不把归母/合并净利润混同",
+        "unit": "元",
+        "currency": "CNY"
+      },
+      "sources": [
+        {
+          "source_id": "002507-6cd117ea1ac8beee",
+          "location": "PDF物理第7页，财务摘要/经营更新，行“归母净利润2024”"
+        }
+      ],
+      "support_boundary": "机器提取候选，尚无人审核准；不单独证明机制或投资价值。",
+      "value": "799346652.13",
+      "state": "Unknown",
+      "effective_state": "Fact",
+      "binding": "cc064186cd2e892b5847d7896f8e0b3972db5666aaf5a18779393b6644b9fe28",
+      "issues": [],
+      "verifier": "agent",
+      "confirmation_event": "E000029",
+      "human_confirmation": false,
+      "period": "2024年度",
+      "url": "https://static.cninfo.com.cn/finalpage/2026-03-28/1225042838.PDF",
+      "event": {
+        "id": "E000029",
+        "time": "2026-11-19T17:14:54+08:00",
+        "action": "record-confirmed",
+        "data": {
+          "record_id": "B07-A04",
+          "binding": "cc064186cd2e892b5847d7896f8e0b3972db5666aaf5a18779393b6644b9fe28",
+          "actor": "agent",
+          "statement_original": "依阶段14集中核验裁定 c446163a75fd61d6f128aae12d98add9ae2eb9fdd21f88c04cae1848c4989038 对读行列、期间、单位和符号，本轮复核归档原件哈希 db3af94635933a99c37cccb2b3809267b5e21072563ef12c2a8de93eb721f9b5 与当前绑定。定位 PDF物理第7页，财务摘要/经营更新，行“归母净利润2024”",
+          "delegation_id": "D0001",
+          "reviewed_record": {
+            "id": "B07-A04",
+            "claim": "归母净利润2024",
+            "value": "799346652.13",
+            "scope": {
+              "period": "2024年度",
+              "entity": "涪陵榨菜",
+              "basis": "集团合并年度财务摘要",
+              "definition": "归母净利润2024；按原表列定位，不把归母/合并净利润混同",
+              "unit": "元",
+              "currency": "CNY"
+            },
+            "sources": [
+              {
+                "source_id": "002507-6cd117ea1ac8beee",
+                "location": "PDF物理第7页，财务摘要/经营更新，行“归母净利润2024”"
+              }
+            ],
+            "formula": null
+          },
+          "reviewer_name": ""
+        },
+        "previous_hash": "bccf0dd4094b2bccc2a939707e90904030ff9baa63a8da4f22e84ec54ebe9d8b",
+        "hash": "26fc9cdf3839be669e287e9ae80e9c0c393f25aa4c2ddba6901431487919333b"
+      }
+    },
+    {
+      "company": "002507_涪陵榨菜",
+      "tag": "Fact",
+      "id": "B07-A05",
+      "kind": "disclosure",
+      "claim": "CFO2025",
+      "scope": {
+        "period": "2025年度",
+        "entity": "涪陵榨菜",
+        "basis": "集团合并年度财务摘要",
+        "definition": "CFO2025；按原表列定位，不把归母/合并净利润混同",
+        "unit": "元",
+        "currency": "CNY"
+      },
+      "sources": [
+        {
+          "source_id": "002507-6cd117ea1ac8beee",
+          "location": "PDF物理第7页，财务摘要/经营更新，行“CFO2025”"
+        }
+      ],
+      "support_boundary": "机器提取候选，尚无人审核准；不单独证明机制或投资价值。",
+      "value": "657219112.63",
+      "state": "Unknown",
+      "effective_state": "Fact",
+      "binding": "7bd0fefefe54f74092238b5fb15a6865eb33b3acdbf68411238126eb47cfda04",
+      "issues": [],
+      "verifier": "agent",
+      "confirmation_event": "E000030",
+      "human_confirmation": false,
+      "period": "2025年度",
+      "url": "https://static.cninfo.com.cn/finalpage/2026-03-28/1225042838.PDF",
+      "event": {
+        "id": "E000030",
+        "time": "2026-11-19T17:14:54+08:00",
+        "action": "record-confirmed",
+        "data": {
+          "record_id": "B07-A05",
+          "binding": "7bd0fefefe54f74092238b5fb15a6865eb33b3acdbf68411238126eb47cfda04",
+          "actor": "agent",
+          "statement_original": "依阶段14集中核验裁定 c446163a75fd61d6f128aae12d98add9ae2eb9fdd21f88c04cae1848c4989038 对读行列、期间、单位和符号，本轮复核归档原件哈希 db3af94635933a99c37cccb2b3809267b5e21072563ef12c2a8de93eb721f9b5 与当前绑定。定位 PDF物理第7页，财务摘要/经营更新，行“CFO2025”",
+          "delegation_id": "D0001",
+          "reviewed_record": {
+            "id": "B07-A05",
+            "claim": "CFO2025",
+            "value": "657219112.63",
+            "scope": {
+              "period": "2025年度",
+              "entity": "涪陵榨菜",
+              "basis": "集团合并年度财务摘要",
+              "definition": "CFO2025；按原表列定位，不把归母/合并净利润混同",
+              "unit": "元",
+              "currency": "CNY"
+            },
+            "sources": [
+              {
+                "source_id": "002507-6cd117ea1ac8beee",
+                "location": "PDF物理第7页，财务摘要/经营更新，行“CFO2025”"
+              }
+            ],
+            "formula": null
+          },
+          "reviewer_name": ""
+        },
+        "previous_hash": "26fc9cdf3839be669e287e9ae80e9c0c393f25aa4c2ddba6901431487919333b",
+        "hash": "cf412fb22aee4b8bbcb3a9f401823a881854176abab6ade2363fc30bf0d7ce1b"
+      }
+    },
+    {
+      "company": "002507_涪陵榨菜",
+      "tag": "Fact",
+      "id": "B07-A06",
+      "kind": "disclosure",
+      "claim": "CFO2024",
+      "scope": {
+        "period": "2024年度",
+        "entity": "涪陵榨菜",
+        "basis": "集团合并年度财务摘要",
+        "definition": "CFO2024；按原表列定位，不把归母/合并净利润混同",
+        "unit": "元",
+        "currency": "CNY"
+      },
+      "sources": [
+        {
+          "source_id": "002507-6cd117ea1ac8beee",
+          "location": "PDF物理第7页，财务摘要/经营更新，行“CFO2024”"
+        }
+      ],
+      "support_boundary": "机器提取候选，尚无人审核准；不单独证明机制或投资价值。",
+      "value": "816944577.91",
+      "state": "Unknown",
+      "effective_state": "Fact",
+      "binding": "f242910bab92600da684f351fb12ce83163755ef49c457eee79152886d15c18f",
+      "issues": [],
+      "verifier": "agent",
+      "confirmation_event": "E000031",
+      "human_confirmation": false,
+      "period": "2024年度",
+      "url": "https://static.cninfo.com.cn/finalpage/2026-03-28/1225042838.PDF",
+      "event": {
+        "id": "E000031",
+        "time": "2026-11-19T17:14:54+08:00",
+        "action": "record-confirmed",
+        "data": {
+          "record_id": "B07-A06",
+          "binding": "f242910bab92600da684f351fb12ce83163755ef49c457eee79152886d15c18f",
+          "actor": "agent",
+          "statement_original": "依阶段14集中核验裁定 c446163a75fd61d6f128aae12d98add9ae2eb9fdd21f88c04cae1848c4989038 对读行列、期间、单位和符号，本轮复核归档原件哈希 db3af94635933a99c37cccb2b3809267b5e21072563ef12c2a8de93eb721f9b5 与当前绑定。定位 PDF物理第7页，财务摘要/经营更新，行“CFO2024”",
+          "delegation_id": "D0001",
+          "reviewed_record": {
+            "id": "B07-A06",
+            "claim": "CFO2024",
+            "value": "816944577.91",
+            "scope": {
+              "period": "2024年度",
+              "entity": "涪陵榨菜",
+              "basis": "集团合并年度财务摘要",
+              "definition": "CFO2024；按原表列定位，不把归母/合并净利润混同",
+              "unit": "元",
+              "currency": "CNY"
+            },
+            "sources": [
+              {
+                "source_id": "002507-6cd117ea1ac8beee",
+                "location": "PDF物理第7页，财务摘要/经营更新，行“CFO2024”"
+              }
+            ],
+            "formula": null
+          },
+          "reviewer_name": ""
+        },
+        "previous_hash": "cf412fb22aee4b8bbcb3a9f401823a881854176abab6ade2363fc30bf0d7ce1b",
+        "hash": "ca0217384944dd4d13c2d792cb9ef9eba575777dc60ceab9e377225460e8f95c"
+      }
+    },
+    {
+      "company": "002507_涪陵榨菜",
+      "tag": "Fact",
+      "id": "B07-Q01",
+      "kind": "disclosure",
+      "claim": "本季度营业收入",
+      "scope": {
+        "period": "2026Q3单季",
+        "entity": "涪陵榨菜",
+        "basis": "集团合并；季度数据未经审计",
+        "definition": "本季度营业收入；按原表列定位，不把归母/合并净利润混同",
+        "unit": "元",
+        "currency": "CNY"
+      },
+      "sources": [
+        {
+          "source_id": "002507-d45bfdfdec6d4379",
+          "location": "PDF物理第3页，财务摘要/经营更新，行“本季度营业收入”"
+        }
+      ],
+      "support_boundary": "机器提取候选，尚无人审核准；不单独证明机制或投资价值。",
+      "value": "702051582.36",
+      "state": "Unknown",
+      "effective_state": "Fact",
+      "binding": "5e216864b066dc587edc778ed98b7371acdf122aefc9b316afdeaeeb54190036",
+      "issues": [],
+      "verifier": "agent",
+      "confirmation_event": "E000032",
+      "human_confirmation": false,
+      "period": "2026Q3单季",
+      "url": "https://static.cninfo.com.cn/finalpage/2026-10-28/1225628280.PDF",
+      "event": {
+        "id": "E000032",
+        "time": "2026-11-19T17:14:54+08:00",
+        "action": "record-confirmed",
+        "data": {
+          "record_id": "B07-Q01",
+          "binding": "5e216864b066dc587edc778ed98b7371acdf122aefc9b316afdeaeeb54190036",
+          "actor": "agent",
+          "statement_original": "依阶段14集中核验裁定 c446163a75fd61d6f128aae12d98add9ae2eb9fdd21f88c04cae1848c4989038 对读行列、期间、单位和符号，本轮复核归档原件哈希 18eee5ef5d7b63db544c0c855a1ade7c311e914a397245a11873679fc6955b07 与当前绑定。定位 PDF物理第3页，财务摘要/经营更新，行“本季度营业收入”",
+          "delegation_id": "D0001",
+          "reviewed_record": {
+            "id": "B07-Q01",
+            "claim": "本季度营业收入",
+            "value": "702051582.36",
+            "scope": {
+              "period": "2026Q3单季",
+              "entity": "涪陵榨菜",
+              "basis": "集团合并；季度数据未经审计",
+              "definition": "本季度营业收入；按原表列定位，不把归母/合并净利润混同",
+              "unit": "元",
+              "currency": "CNY"
+            },
+            "sources": [
+              {
+                "source_id": "002507-d45bfdfdec6d4379",
+                "location": "PDF物理第3页，财务摘要/经营更新，行“本季度营业收入”"
+              }
+            ],
+            "formula": null
+          },
+          "reviewer_name": ""
+        },
+        "previous_hash": "ca0217384944dd4d13c2d792cb9ef9eba575777dc60ceab9e377225460e8f95c",
+        "hash": "fa5b6530941993cc657a828a18ecf13c494a1f7fc947dc6d802ab1fcaa26b475"
+      }
+    },
+    {
+      "company": "002507_涪陵榨菜",
+      "tag": "Fact",
+      "id": "B07-Q02",
+      "kind": "disclosure",
+      "claim": "前九个月营业收入",
+      "scope": {
+        "period": "2026年1—9月",
+        "entity": "涪陵榨菜",
+        "basis": "集团合并；季度数据未经审计",
+        "definition": "前九个月营业收入；按原表列定位，不把归母/合并净利润混同",
+        "unit": "元",
+        "currency": "CNY"
+      },
+      "sources": [
+        {
+          "source_id": "002507-d45bfdfdec6d4379",
+          "location": "PDF物理第3页，财务摘要/经营更新，行“前九个月营业收入”"
+        }
+      ],
+      "support_boundary": "机器提取候选，尚无人审核准；不单独证明机制或投资价值。",
+      "value": "2067509518.74",
+      "state": "Unknown",
+      "effective_state": "Fact",
+      "binding": "af7abd0d405edf3a5b900e5141dd7545269faa4b034c375aa8dcf242a895ed52",
+      "issues": [],
+      "verifier": "agent",
+      "confirmation_event": "E000033",
+      "human_confirmation": false,
+      "period": "2026年1—9月",
+      "url": "https://static.cninfo.com.cn/finalpage/2026-10-28/1225628280.PDF",
+      "event": {
+        "id": "E000033",
+        "time": "2026-11-19T17:14:54+08:00",
+        "action": "record-confirmed",
+        "data": {
+          "record_id": "B07-Q02",
+          "binding": "af7abd0d405edf3a5b900e5141dd7545269faa4b034c375aa8dcf242a895ed52",
+          "actor": "agent",
+          "statement_original": "依阶段14集中核验裁定 c446163a75fd61d6f128aae12d98add9ae2eb9fdd21f88c04cae1848c4989038 对读行列、期间、单位和符号，本轮复核归档原件哈希 18eee5ef5d7b63db544c0c855a1ade7c311e914a397245a11873679fc6955b07 与当前绑定。定位 PDF物理第3页，财务摘要/经营更新，行“前九个月营业收入”",
+          "delegation_id": "D0001",
+          "reviewed_record": {
+            "id": "B07-Q02",
+            "claim": "前九个月营业收入",
+            "value": "2067509518.74",
+            "scope": {
+              "period": "2026年1—9月",
+              "entity": "涪陵榨菜",
+              "basis": "集团合并；季度数据未经审计",
+              "definition": "前九个月营业收入；按原表列定位，不把归母/合并净利润混同",
+              "unit": "元",
+              "currency": "CNY"
+            },
+            "sources": [
+              {
+                "source_id": "002507-d45bfdfdec6d4379",
+                "location": "PDF物理第3页，财务摘要/经营更新，行“前九个月营业收入”"
+              }
+            ],
+            "formula": null
+          },
+          "reviewer_name": ""
+        },
+        "previous_hash": "fa5b6530941993cc657a828a18ecf13c494a1f7fc947dc6d802ab1fcaa26b475",
+        "hash": "8bfe4c2111aa3498e9b344290c9deafc94373834695bef27aee485019d623b04"
+      }
+    },
+    {
+      "company": "002507_涪陵榨菜",
+      "tag": "Fact",
+      "id": "B07-Q03",
+      "kind": "disclosure",
+      "claim": "本季度归母净利润",
+      "scope": {
+        "period": "2026Q3单季",
+        "entity": "涪陵榨菜",
+        "basis": "集团合并；季度数据未经审计",
+        "definition": "本季度归母净利润；按原表列定位，不把归母/合并净利润混同",
+        "unit": "元",
+        "currency": "CNY"
+      },
+      "sources": [
+        {
+          "source_id": "002507-d45bfdfdec6d4379",
+          "location": "PDF物理第3页，财务摘要/经营更新，行“本季度归母净利润”"
+        }
+      ],
+      "support_boundary": "机器提取候选，尚无人审核准；不单独证明机制或投资价值。",
+      "value": "204890874.95",
+      "state": "Unknown",
+      "effective_state": "Fact",
+      "binding": "a4df1f65358f5734f7459f0b7d7a9503bd76e201ac1b66be9cc07fe5e2ddd55d",
+      "issues": [],
+      "verifier": "agent",
+      "confirmation_event": "E000034",
+      "human_confirmation": false,
+      "period": "2026Q3单季",
+      "url": "https://static.cninfo.com.cn/finalpage/2026-10-28/1225628280.PDF",
+      "event": {
+        "id": "E000034",
+        "time": "2026-11-19T17:14:54+08:00",
+        "action": "record-confirmed",
+        "data": {
+          "record_id": "B07-Q03",
+          "binding": "a4df1f65358f5734f7459f0b7d7a9503bd76e201ac1b66be9cc07fe5e2ddd55d",
+          "actor": "agent",
+          "statement_original": "依阶段14集中核验裁定 c446163a75fd61d6f128aae12d98add9ae2eb9fdd21f88c04cae1848c4989038 对读行列、期间、单位和符号，本轮复核归档原件哈希 18eee5ef5d7b63db544c0c855a1ade7c311e914a397245a11873679fc6955b07 与当前绑定。定位 PDF物理第3页，财务摘要/经营更新，行“本季度归母净利润”",
+          "delegation_id": "D0001",
+          "reviewed_record": {
+            "id": "B07-Q03",
+            "claim": "本季度归母净利润",
+            "value": "204890874.95",
+            "scope": {
+              "period": "2026Q3单季",
+              "entity": "涪陵榨菜",
+              "basis": "集团合并；季度数据未经审计",
+              "definition": "本季度归母净利润；按原表列定位，不把归母/合并净利润混同",
+              "unit": "元",
+              "currency": "CNY"
+            },
+            "sources": [
+              {
+                "source_id": "002507-d45bfdfdec6d4379",
+                "location": "PDF物理第3页，财务摘要/经营更新，行“本季度归母净利润”"
+              }
+            ],
+            "formula": null
+          },
+          "reviewer_name": ""
+        },
+        "previous_hash": "8bfe4c2111aa3498e9b344290c9deafc94373834695bef27aee485019d623b04",
+        "hash": "c12d19b6ab694833d06a534886e3d37a716759f3223b0e9003af3c2145010f13"
+      }
+    },
+    {
+      "company": "002507_涪陵榨菜",
+      "tag": "Fact",
+      "id": "B07-Q04",
+      "kind": "disclosure",
+      "claim": "前九个月归母净利润",
+      "scope": {
+        "period": "2026年1—9月",
+        "entity": "涪陵榨菜",
+        "basis": "集团合并；季度数据未经审计",
+        "definition": "前九个月归母净利润；按原表列定位，不把归母/合并净利润混同",
+        "unit": "元",
+        "currency": "CNY"
+      },
+      "sources": [
+        {
+          "source_id": "002507-d45bfdfdec6d4379",
+          "location": "PDF物理第3页，财务摘要/经营更新，行“前九个月归母净利润”"
+        }
+      ],
+      "support_boundary": "机器提取候选，尚无人审核准；不单独证明机制或投资价值。",
+      "value": "613891650.82",
+      "state": "Unknown",
+      "effective_state": "Fact",
+      "binding": "d70d072b9137f5cdc488d3c4e27655aafcc30b2eb94a4b16793641a256ff9ca2",
+      "issues": [],
+      "verifier": "agent",
+      "confirmation_event": "E000035",
+      "human_confirmation": false,
+      "period": "2026年1—9月",
+      "url": "https://static.cninfo.com.cn/finalpage/2026-10-28/1225628280.PDF",
+      "event": {
+        "id": "E000035",
+        "time": "2026-11-19T17:14:54+08:00",
+        "action": "record-confirmed",
+        "data": {
+          "record_id": "B07-Q04",
+          "binding": "d70d072b9137f5cdc488d3c4e27655aafcc30b2eb94a4b16793641a256ff9ca2",
+          "actor": "agent",
+          "statement_original": "依阶段14集中核验裁定 c446163a75fd61d6f128aae12d98add9ae2eb9fdd21f88c04cae1848c4989038 对读行列、期间、单位和符号，本轮复核归档原件哈希 18eee5ef5d7b63db544c0c855a1ade7c311e914a397245a11873679fc6955b07 与当前绑定。定位 PDF物理第3页，财务摘要/经营更新，行“前九个月归母净利润”",
+          "delegation_id": "D0001",
+          "reviewed_record": {
+            "id": "B07-Q04",
+            "claim": "前九个月归母净利润",
+            "value": "613891650.82",
+            "scope": {
+              "period": "2026年1—9月",
+              "entity": "涪陵榨菜",
+              "basis": "集团合并；季度数据未经审计",
+              "definition": "前九个月归母净利润；按原表列定位，不把归母/合并净利润混同",
+              "unit": "元",
+              "currency": "CNY"
+            },
+            "sources": [
+              {
+                "source_id": "002507-d45bfdfdec6d4379",
+                "location": "PDF物理第3页，财务摘要/经营更新，行“前九个月归母净利润”"
+              }
+            ],
+            "formula": null
+          },
+          "reviewer_name": ""
+        },
+        "previous_hash": "c12d19b6ab694833d06a534886e3d37a716759f3223b0e9003af3c2145010f13",
+        "hash": "2872ad8ca37ee649c7a8c7ddcf9eea557b9e7c87c03350795ea9d3ec6c74c296"
+      }
+    },
+    {
+      "company": "002507_涪陵榨菜",
+      "tag": "Fact",
+      "id": "B07-Q05",
+      "kind": "disclosure",
+      "claim": "前九个月CFO",
+      "scope": {
+        "period": "2026年1—9月",
+        "entity": "涪陵榨菜",
+        "basis": "集团合并；季度数据未经审计",
+        "definition": "前九个月CFO；按原表列定位，不把归母/合并净利润混同",
+        "unit": "元",
+        "currency": "CNY"
+      },
+      "sources": [
+        {
+          "source_id": "002507-d45bfdfdec6d4379",
+          "location": "PDF物理第3页，财务摘要/经营更新，行“前九个月CFO”"
+        }
+      ],
+      "support_boundary": "机器提取候选，尚无人审核准；不单独证明机制或投资价值。",
+      "value": "691282029.56",
+      "state": "Unknown",
+      "effective_state": "Fact",
+      "binding": "fda44764d6d389df739c7fd342caeef69daaa01bf52db3b03eabd51d9ac956ea",
+      "issues": [],
+      "verifier": "agent",
+      "confirmation_event": "E000036",
+      "human_confirmation": false,
+      "period": "2026年1—9月",
+      "url": "https://static.cninfo.com.cn/finalpage/2026-10-28/1225628280.PDF",
+      "event": {
+        "id": "E000036",
+        "time": "2026-11-19T17:14:54+08:00",
+        "action": "record-confirmed",
+        "data": {
+          "record_id": "B07-Q05",
+          "binding": "fda44764d6d389df739c7fd342caeef69daaa01bf52db3b03eabd51d9ac956ea",
+          "actor": "agent",
+          "statement_original": "依阶段14集中核验裁定 c446163a75fd61d6f128aae12d98add9ae2eb9fdd21f88c04cae1848c4989038 对读行列、期间、单位和符号，本轮复核归档原件哈希 18eee5ef5d7b63db544c0c855a1ade7c311e914a397245a11873679fc6955b07 与当前绑定。定位 PDF物理第3页，财务摘要/经营更新，行“前九个月CFO”",
+          "delegation_id": "D0001",
+          "reviewed_record": {
+            "id": "B07-Q05",
+            "claim": "前九个月CFO",
+            "value": "691282029.56",
+            "scope": {
+              "period": "2026年1—9月",
+              "entity": "涪陵榨菜",
+              "basis": "集团合并；季度数据未经审计",
+              "definition": "前九个月CFO；按原表列定位，不把归母/合并净利润混同",
+              "unit": "元",
+              "currency": "CNY"
+            },
+            "sources": [
+              {
+                "source_id": "002507-d45bfdfdec6d4379",
+                "location": "PDF物理第3页，财务摘要/经营更新，行“前九个月CFO”"
+              }
+            ],
+            "formula": null
+          },
+          "reviewer_name": ""
+        },
+        "previous_hash": "2872ad8ca37ee649c7a8c7ddcf9eea557b9e7c87c03350795ea9d3ec6c74c296",
+        "hash": "ec34ce72d0022d658e5e109cc7ba4ad2f5061b70e7d57993ca2d2a63bd80bfb8"
+      }
+    },
+    {
+      "company": "002507_涪陵榨菜",
+      "tag": "Fact",
+      "id": "B07-Q06",
+      "kind": "disclosure",
+      "claim": "前九个月营业收入同比",
+      "scope": {
+        "period": "2026年1—9月",
+        "entity": "涪陵榨菜",
+        "basis": "集团合并；季度数据未经审计",
+        "definition": "前九个月营业收入同比；按原表列定位，不把归母/合并净利润混同",
+        "unit": "%",
+        "currency": "CNY"
+      },
+      "sources": [
+        {
+          "source_id": "002507-d45bfdfdec6d4379",
+          "location": "PDF物理第3页，财务摘要/经营更新，行“前九个月营业收入同比”"
+        }
+      ],
+      "support_boundary": "机器提取候选，尚无人审核准；不单独证明机制或投资价值。",
+      "value": "3.45",
+      "state": "Unknown",
+      "effective_state": "Fact",
+      "binding": "659efd7b8d2d4c127b0451f35bce2560d7eb5de286b64669bd97965480245c8c",
+      "issues": [],
+      "verifier": "agent",
+      "confirmation_event": "E000037",
+      "human_confirmation": false,
+      "period": "2026年1—9月",
+      "url": "https://static.cninfo.com.cn/finalpage/2026-10-28/1225628280.PDF",
+      "event": {
+        "id": "E000037",
+        "time": "2026-11-19T17:14:54+08:00",
+        "action": "record-confirmed",
+        "data": {
+          "record_id": "B07-Q06",
+          "binding": "659efd7b8d2d4c127b0451f35bce2560d7eb5de286b64669bd97965480245c8c",
+          "actor": "agent",
+          "statement_original": "依阶段14集中核验裁定 c446163a75fd61d6f128aae12d98add9ae2eb9fdd21f88c04cae1848c4989038 对读行列、期间、单位和符号，本轮复核归档原件哈希 18eee5ef5d7b63db544c0c855a1ade7c311e914a397245a11873679fc6955b07 与当前绑定。定位 PDF物理第3页，财务摘要/经营更新，行“前九个月营业收入同比”",
+          "delegation_id": "D0001",
+          "reviewed_record": {
+            "id": "B07-Q06",
+            "claim": "前九个月营业收入同比",
+            "value": "3.45",
+            "scope": {
+              "period": "2026年1—9月",
+              "entity": "涪陵榨菜",
+              "basis": "集团合并；季度数据未经审计",
+              "definition": "前九个月营业收入同比；按原表列定位，不把归母/合并净利润混同",
+              "unit": "%",
+              "currency": "CNY"
+            },
+            "sources": [
+              {
+                "source_id": "002507-d45bfdfdec6d4379",
+                "location": "PDF物理第3页，财务摘要/经营更新，行“前九个月营业收入同比”"
+              }
+            ],
+            "formula": null
+          },
+          "reviewer_name": ""
+        },
+        "previous_hash": "ec34ce72d0022d658e5e109cc7ba4ad2f5061b70e7d57993ca2d2a63bd80bfb8",
+        "hash": "d255df0ba5641fcb5a3dfd247516a45d4b75041aa89d101f97017643c75f439c"
+      }
+    },
+    {
+      "company": "002507_涪陵榨菜",
+      "tag": "Fact",
+      "id": "R14-002507-8-02",
+      "kind": "disclosure",
+      "claim": "销售费用",
+      "value": "334204388.24",
+      "state": "Unknown",
+      "scope": {
+        "period": "2026-01-01至2026-09-30累计",
+        "unit": "人民币元",
+        "currency": "CNY",
+        "entity": "涪陵榨菜",
+        "basis": "合并报表/附注",
+        "definition": "销售费用"
+      },
+      "sources": [
+        {
+          "source_id": "002507-d45bfdfdec6d4379",
+          "location": "{\"column\": \"本期/期末\", \"physical_page\": 9, \"table\": \"合并报表/附注\"}"
+        }
+      ],
+      "support_boundary": "阶段14集中核验裁定所列合并披露。",
+      "effective_state": "Fact",
+      "binding": "46eef38fda3652162127ee4b14bf356d4a2145487a40d4fdd8bef974e9b74b5e",
+      "issues": [],
+      "verifier": "agent",
+      "confirmation_event": "E000039",
+      "human_confirmation": false,
+      "period": "2026-01-01至2026-09-30累计",
+      "url": "https://static.cninfo.com.cn/finalpage/2026-10-28/1225628280.PDF",
+      "event": {
+        "id": "E000039",
+        "time": "2026-11-19T17:14:54+08:00",
+        "action": "record-confirmed",
+        "data": {
+          "record_id": "R14-002507-8-02",
+          "binding": "46eef38fda3652162127ee4b14bf356d4a2145487a40d4fdd8bef974e9b74b5e",
+          "actor": "agent",
+          "statement_original": "依阶段14集中核验裁定 c446163a75fd61d6f128aae12d98add9ae2eb9fdd21f88c04cae1848c4989038 对读行列、期间、单位和符号，本轮复核归档原件哈希 18eee5ef5d7b63db544c0c855a1ade7c311e914a397245a11873679fc6955b07 与当前绑定。定位 {\"column\": \"本期/期末\", \"physical_page\": 9, \"table\": \"合并报表/附注\"}",
+          "delegation_id": "D0001",
+          "reviewed_record": {
+            "id": "R14-002507-8-02",
+            "claim": "销售费用",
+            "value": "334204388.24",
+            "scope": {
+              "period": "2026-01-01至2026-09-30累计",
+              "unit": "人民币元",
+              "currency": "CNY",
+              "entity": "涪陵榨菜",
+              "basis": "合并报表/附注",
+              "definition": "销售费用"
+            },
+            "sources": [
+              {
+                "source_id": "002507-d45bfdfdec6d4379",
+                "location": "{\"column\": \"本期/期末\", \"physical_page\": 9, \"table\": \"合并报表/附注\"}"
+              }
+            ],
+            "formula": null
+          },
+          "reviewer_name": ""
+        },
+        "previous_hash": "f6cdb6af82d9f82baec77f0dcb6604673fbfe0a281b11f217a8552113d399e0e",
+        "hash": "d5e7a6cac7e79707bb69625aad5185206830c8b6fdc1ff84b2e77104dc024d90"
+      }
+    },
+    {
+      "company": "002507_涪陵榨菜",
+      "tag": "Fact",
+      "id": "R14-002507-8-03",
+      "kind": "disclosure",
+      "claim": "应收账款净额",
+      "value": "143583620.28",
+      "state": "Unknown",
+      "scope": {
+        "period": "截至2026-09-30的合并报表余额",
+        "unit": "人民币元",
+        "currency": "CNY",
+        "entity": "涪陵榨菜",
+        "basis": "合并报表/附注",
+        "definition": "应收账款净额"
+      },
+      "sources": [
+        {
+          "source_id": "002507-d45bfdfdec6d4379",
+          "location": "{\"column\": \"本期/期末\", \"physical_page\": 7, \"table\": \"合并报表/附注\"}"
+        }
+      ],
+      "support_boundary": "阶段14集中核验裁定所列合并披露。",
+      "effective_state": "Fact",
+      "binding": "4a6cfaae3c48b62673eae504828a826f1e4e2803c1421af435ff8947a2fbb8e1",
+      "issues": [],
+      "verifier": "agent",
+      "confirmation_event": "E000041",
+      "human_confirmation": false,
+      "period": "截至2026-09-30的合并报表余额",
+      "url": "https://static.cninfo.com.cn/finalpage/2026-10-28/1225628280.PDF",
+      "event": {
+        "id": "E000041",
+        "time": "2026-11-19T17:14:54+08:00",
+        "action": "record-confirmed",
+        "data": {
+          "record_id": "R14-002507-8-03",
+          "binding": "4a6cfaae3c48b62673eae504828a826f1e4e2803c1421af435ff8947a2fbb8e1",
+          "actor": "agent",
+          "statement_original": "依阶段14集中核验裁定 c446163a75fd61d6f128aae12d98add9ae2eb9fdd21f88c04cae1848c4989038 对读行列、期间、单位和符号，本轮复核归档原件哈希 18eee5ef5d7b63db544c0c855a1ade7c311e914a397245a11873679fc6955b07 与当前绑定。定位 {\"column\": \"本期/期末\", \"physical_page\": 7, \"table\": \"合并报表/附注\"}",
+          "delegation_id": "D0001",
+          "reviewed_record": {
+            "id": "R14-002507-8-03",
+            "claim": "应收账款净额",
+            "value": "143583620.28",
+            "scope": {
+              "period": "截至2026-09-30的合并报表余额",
+              "unit": "人民币元",
+              "currency": "CNY",
+              "entity": "涪陵榨菜",
+              "basis": "合并报表/附注",
+              "definition": "应收账款净额"
+            },
+            "sources": [
+              {
+                "source_id": "002507-d45bfdfdec6d4379",
+                "location": "{\"column\": \"本期/期末\", \"physical_page\": 7, \"table\": \"合并报表/附注\"}"
+              }
+            ],
+            "formula": null
+          },
+          "reviewer_name": ""
+        },
+        "previous_hash": "aaaee8f0426e7fb6f4ea147745d83002f82acf876236a1ad945538e5040ba401",
+        "hash": "7ac912b27e00f919c5520e8b23075fb0aafe186402234254ffde6bd3503696c4"
+      }
+    },
+    {
+      "company": "002507_涪陵榨菜",
+      "tag": "Fact",
+      "id": "R14-002507-8-04",
+      "kind": "disclosure",
+      "claim": "存货",
+      "value": "485243114.98",
+      "state": "Unknown",
+      "scope": {
+        "period": "截至2026-09-30的合并报表余额",
+        "unit": "人民币元",
+        "currency": "CNY",
+        "entity": "涪陵榨菜",
+        "basis": "合并报表/附注",
+        "definition": "存货"
+      },
+      "sources": [
+        {
+          "source_id": "002507-d45bfdfdec6d4379",
+          "location": "{\"column\": \"本期/期末\", \"physical_page\": 7, \"table\": \"合并报表/附注\"}"
+        }
+      ],
+      "support_boundary": "阶段14集中核验裁定所列合并披露。",
+      "effective_state": "Fact",
+      "binding": "f79d758786d363d7112f914d8ef153b78ea452d383d89d1fbf613edf46ca70a0",
+      "issues": [],
+      "verifier": "agent",
+      "confirmation_event": "E000043",
+      "human_confirmation": false,
+      "period": "截至2026-09-30的合并报表余额",
+      "url": "https://static.cninfo.com.cn/finalpage/2026-10-28/1225628280.PDF",
+      "event": {
+        "id": "E000043",
+        "time": "2026-11-19T17:14:54+08:00",
+        "action": "record-confirmed",
+        "data": {
+          "record_id": "R14-002507-8-04",
+          "binding": "f79d758786d363d7112f914d8ef153b78ea452d383d89d1fbf613edf46ca70a0",
+          "actor": "agent",
+          "statement_original": "依阶段14集中核验裁定 c446163a75fd61d6f128aae12d98add9ae2eb9fdd21f88c04cae1848c4989038 对读行列、期间、单位和符号，本轮复核归档原件哈希 18eee5ef5d7b63db544c0c855a1ade7c311e914a397245a11873679fc6955b07 与当前绑定。定位 {\"column\": \"本期/期末\", \"physical_page\": 7, \"table\": \"合并报表/附注\"}",
+          "delegation_id": "D0001",
+          "reviewed_record": {
+            "id": "R14-002507-8-04",
+            "claim": "存货",
+            "value": "485243114.98",
+            "scope": {
+              "period": "截至2026-09-30的合并报表余额",
+              "unit": "人民币元",
+              "currency": "CNY",
+              "entity": "涪陵榨菜",
+              "basis": "合并报表/附注",
+              "definition": "存货"
+            },
+            "sources": [
+              {
+                "source_id": "002507-d45bfdfdec6d4379",
+                "location": "{\"column\": \"本期/期末\", \"physical_page\": 7, \"table\": \"合并报表/附注\"}"
+              }
+            ],
+            "formula": null
+          },
+          "reviewer_name": ""
+        },
+        "previous_hash": "1f9b39ff2d6d9c31f37ebc57c8b28c64a40767bde5dee26b67d374a517eef4a9",
+        "hash": "cdf65d18372a5b05c6a4b7cd3166b4f29c8e36325b07ee9641befa4127a11241"
+      }
+    },
+    {
+      "company": "002507_涪陵榨菜",
+      "tag": "Fact",
+      "id": "R14-002507-8-05",
+      "kind": "disclosure",
+      "claim": "货币资金",
+      "value": "2900736352.79",
+      "state": "Unknown",
+      "scope": {
+        "period": "截至2026-09-30的合并报表余额",
+        "unit": "人民币元",
+        "currency": "CNY",
+        "entity": "涪陵榨菜",
+        "basis": "合并报表/附注",
+        "definition": "货币资金"
+      },
+      "sources": [
+        {
+          "source_id": "002507-d45bfdfdec6d4379",
+          "location": "{\"column\": \"本期/期末\", \"physical_page\": 7, \"table\": \"合并报表/附注\"}"
+        }
+      ],
+      "support_boundary": "阶段14集中核验裁定所列合并披露。",
+      "effective_state": "Fact",
+      "binding": "22cea9203efdb3dee44aa81cd6ef5135b79259f680426762d9802e2f58884c1a",
+      "issues": [],
+      "verifier": "agent",
+      "confirmation_event": "E000045",
+      "human_confirmation": false,
+      "period": "截至2026-09-30的合并报表余额",
+      "url": "https://static.cninfo.com.cn/finalpage/2026-10-28/1225628280.PDF",
+      "event": {
+        "id": "E000045",
+        "time": "2026-11-19T17:14:55+08:00",
+        "action": "record-confirmed",
+        "data": {
+          "record_id": "R14-002507-8-05",
+          "binding": "22cea9203efdb3dee44aa81cd6ef5135b79259f680426762d9802e2f58884c1a",
+          "actor": "agent",
+          "statement_original": "依阶段14集中核验裁定 c446163a75fd61d6f128aae12d98add9ae2eb9fdd21f88c04cae1848c4989038 对读行列、期间、单位和符号，本轮复核归档原件哈希 18eee5ef5d7b63db544c0c855a1ade7c311e914a397245a11873679fc6955b07 与当前绑定。定位 {\"column\": \"本期/期末\", \"physical_page\": 7, \"table\": \"合并报表/附注\"}",
+          "delegation_id": "D0001",
+          "reviewed_record": {
+            "id": "R14-002507-8-05",
+            "claim": "货币资金",
+            "value": "2900736352.79",
+            "scope": {
+              "period": "截至2026-09-30的合并报表余额",
+              "unit": "人民币元",
+              "currency": "CNY",
+              "entity": "涪陵榨菜",
+              "basis": "合并报表/附注",
+              "definition": "货币资金"
+            },
+            "sources": [
+              {
+                "source_id": "002507-d45bfdfdec6d4379",
+                "location": "{\"column\": \"本期/期末\", \"physical_page\": 7, \"table\": \"合并报表/附注\"}"
+              }
+            ],
+            "formula": null
+          },
+          "reviewer_name": ""
+        },
+        "previous_hash": "c30d1f27ab1dbc8ef13d9ce8da7c8ad99a08cb932b00872a9a4558b0f80a59df",
+        "hash": "3752614d4f9fabda19ef8f5d1fde5a66b656b5c757d4c36695bc7b92f32da80c"
+      }
+    },
+    {
+      "company": "002507_涪陵榨菜",
+      "tag": "Fact",
+      "id": "R14-002507-8-06",
+      "kind": "disclosure",
+      "claim": "交易性金融资产",
+      "value": "3491711152.72",
+      "state": "Unknown",
+      "scope": {
+        "period": "截至2026-09-30的合并报表余额",
+        "unit": "人民币元",
+        "currency": "CNY",
+        "entity": "涪陵榨菜",
+        "basis": "合并资产负债表",
+        "definition": "交易性金融资产"
+      },
+      "sources": [
+        {
+          "source_id": "002507-d45bfdfdec6d4379",
+          "location": "{\"column\": \"本期/期末\", \"physical_page\": 7, \"table\": \"合并资产负债表\"}"
+        }
+      ],
+      "support_boundary": "阶段14集中核验裁定所列合并披露。",
+      "effective_state": "Fact",
+      "binding": "b576f86cadc1e4e49a9d4498d11f6a13d2e5308910e90fbd3511132a33524bb3",
+      "issues": [],
+      "verifier": "agent",
+      "confirmation_event": "E000047",
+      "human_confirmation": false,
+      "period": "截至2026-09-30的合并报表余额",
+      "url": "https://static.cninfo.com.cn/finalpage/2026-10-28/1225628280.PDF",
+      "event": {
+        "id": "E000047",
+        "time": "2026-11-19T17:14:55+08:00",
+        "action": "record-confirmed",
+        "data": {
+          "record_id": "R14-002507-8-06",
+          "binding": "b576f86cadc1e4e49a9d4498d11f6a13d2e5308910e90fbd3511132a33524bb3",
+          "actor": "agent",
+          "statement_original": "依阶段14集中核验裁定 c446163a75fd61d6f128aae12d98add9ae2eb9fdd21f88c04cae1848c4989038 对读行列、期间、单位和符号，本轮复核归档原件哈希 18eee5ef5d7b63db544c0c855a1ade7c311e914a397245a11873679fc6955b07 与当前绑定。定位 {\"column\": \"本期/期末\", \"physical_page\": 7, \"table\": \"合并资产负债表\"}",
+          "delegation_id": "D0001",
+          "reviewed_record": {
+            "id": "R14-002507-8-06",
+            "claim": "交易性金融资产",
+            "value": "3491711152.72",
+            "scope": {
+              "period": "截至2026-09-30的合并报表余额",
+              "unit": "人民币元",
+              "currency": "CNY",
+              "entity": "涪陵榨菜",
+              "basis": "合并资产负债表",
+              "definition": "交易性金融资产"
+            },
+            "sources": [
+              {
+                "source_id": "002507-d45bfdfdec6d4379",
+                "location": "{\"column\": \"本期/期末\", \"physical_page\": 7, \"table\": \"合并资产负债表\"}"
+              }
+            ],
+            "formula": null
+          },
+          "reviewer_name": ""
+        },
+        "previous_hash": "a06046ce6a18cc390031c313da21124fe5da7692c110ef5c0fcdb62c56302508",
+        "hash": "8b87ec044c7ab6803a8efa308033158718d0392267fcc060a9680116d9d61a05"
+      }
+    },
+    {
+      "company": "002507_涪陵榨菜",
+      "tag": "Fact",
+      "id": "R14-002507-8-07",
+      "kind": "disclosure",
+      "claim": "现金购建支出",
+      "value": "398688469.66",
+      "state": "Unknown",
+      "scope": {
+        "period": "2026-01-01至2026-09-30累计",
+        "unit": "人民币元",
+        "currency": "CNY",
+        "entity": "涪陵榨菜",
+        "basis": "合并报表/附注",
+        "definition": "原表按支付额列正；投资现金流出。"
+      },
+      "sources": [
+        {
+          "source_id": "002507-d45bfdfdec6d4379",
+          "location": "{\"column\": \"本期/期末\", \"physical_page\": 11, \"table\": \"合并报表/附注\"}"
+        }
+      ],
+      "support_boundary": "阶段14集中核验裁定所列合并披露。",
+      "effective_state": "Fact",
+      "binding": "9f32606c6e015302683faf7be32e46d6ad9be67a6b45f2cadc81d8d673640137",
+      "issues": [],
+      "verifier": "agent",
+      "confirmation_event": "E000049",
+      "human_confirmation": false,
+      "period": "2026-01-01至2026-09-30累计",
+      "url": "https://static.cninfo.com.cn/finalpage/2026-10-28/1225628280.PDF",
+      "event": {
+        "id": "E000049",
+        "time": "2026-11-19T17:14:55+08:00",
+        "action": "record-confirmed",
+        "data": {
+          "record_id": "R14-002507-8-07",
+          "binding": "9f32606c6e015302683faf7be32e46d6ad9be67a6b45f2cadc81d8d673640137",
+          "actor": "agent",
+          "statement_original": "依阶段14集中核验裁定 c446163a75fd61d6f128aae12d98add9ae2eb9fdd21f88c04cae1848c4989038 对读行列、期间、单位和符号，本轮复核归档原件哈希 18eee5ef5d7b63db544c0c855a1ade7c311e914a397245a11873679fc6955b07 与当前绑定。定位 {\"column\": \"本期/期末\", \"physical_page\": 11, \"table\": \"合并报表/附注\"}",
+          "delegation_id": "D0001",
+          "reviewed_record": {
+            "id": "R14-002507-8-07",
+            "claim": "现金购建支出",
+            "value": "398688469.66",
+            "scope": {
+              "period": "2026-01-01至2026-09-30累计",
+              "unit": "人民币元",
+              "currency": "CNY",
+              "entity": "涪陵榨菜",
+              "basis": "合并报表/附注",
+              "definition": "原表按支付额列正；投资现金流出。"
+            },
+            "sources": [
+              {
+                "source_id": "002507-d45bfdfdec6d4379",
+                "location": "{\"column\": \"本期/期末\", \"physical_page\": 11, \"table\": \"合并报表/附注\"}"
+              }
+            ],
+            "formula": null
+          },
+          "reviewer_name": ""
+        },
+        "previous_hash": "7d99083f9a3416a0b85a32a7b60000cfffa401f200ba32703c1a2bc26605c6ac",
+        "hash": "cc3c031c4acf509b8fc9019516f36d712cd108ebeae6bf5b0990b475b3514aff"
+      }
+    },
+    {
+      "company": "002507_涪陵榨菜",
+      "tag": "Fact",
+      "id": "R14-002507-8-08",
+      "kind": "disclosure",
+      "claim": "所得税费用",
+      "value": "114152510.89",
+      "state": "Unknown",
+      "scope": {
+        "period": "2026-01-01至2026-09-30累计",
+        "unit": "人民币元",
+        "currency": "CNY",
+        "entity": "涪陵榨菜",
+        "basis": "合并报表/附注",
+        "definition": "所得税费用"
+      },
+      "sources": [
+        {
+          "source_id": "002507-d45bfdfdec6d4379",
+          "location": "{\"column\": \"本期/期末\", \"physical_page\": 10, \"table\": \"合并报表/附注\"}"
+        }
+      ],
+      "support_boundary": "阶段14集中核验裁定所列合并披露。",
+      "effective_state": "Fact",
+      "binding": "42175bef245dd21d3ef1681ca029e7cce7e52b95e6aedae10403858b922c1706",
+      "issues": [],
+      "verifier": "agent",
+      "confirmation_event": "E000051",
+      "human_confirmation": false,
+      "period": "2026-01-01至2026-09-30累计",
+      "url": "https://static.cninfo.com.cn/finalpage/2026-10-28/1225628280.PDF",
+      "event": {
+        "id": "E000051",
+        "time": "2026-11-19T17:14:55+08:00",
+        "action": "record-confirmed",
+        "data": {
+          "record_id": "R14-002507-8-08",
+          "binding": "42175bef245dd21d3ef1681ca029e7cce7e52b95e6aedae10403858b922c1706",
+          "actor": "agent",
+          "statement_original": "依阶段14集中核验裁定 c446163a75fd61d6f128aae12d98add9ae2eb9fdd21f88c04cae1848c4989038 对读行列、期间、单位和符号，本轮复核归档原件哈希 18eee5ef5d7b63db544c0c855a1ade7c311e914a397245a11873679fc6955b07 与当前绑定。定位 {\"column\": \"本期/期末\", \"physical_page\": 10, \"table\": \"合并报表/附注\"}",
+          "delegation_id": "D0001",
+          "reviewed_record": {
+            "id": "R14-002507-8-08",
+            "claim": "所得税费用",
+            "value": "114152510.89",
+            "scope": {
+              "period": "2026-01-01至2026-09-30累计",
+              "unit": "人民币元",
+              "currency": "CNY",
+              "entity": "涪陵榨菜",
+              "basis": "合并报表/附注",
+              "definition": "所得税费用"
+            },
+            "sources": [
+              {
+                "source_id": "002507-d45bfdfdec6d4379",
+                "location": "{\"column\": \"本期/期末\", \"physical_page\": 10, \"table\": \"合并报表/附注\"}"
+              }
+            ],
+            "formula": null
+          },
+          "reviewer_name": ""
+        },
+        "previous_hash": "8b172c8e53c0f8c6859261e038328b2364aff0f5e2c295fb326f64bff99bdeb2",
+        "hash": "e7aa8c632b7a304a9e1a2e393887ebe3f1b19a7487b629034df9703ea278c4d6"
+      }
+    },
+    {
+      "company": "002507_涪陵榨菜",
+      "tag": "Fact",
+      "id": "R15-2010-REV",
+      "kind": "disclosure",
+      "state": "Unknown",
+      "value": "545036255.18",
+      "claim": "年度集团合并收入",
+      "scope": {
+        "period": "2010-FY",
+        "entity": "涪陵榨菜",
+        "basis": "年度集团合并收入",
+        "definition": "营业总收入",
+        "unit": "人民币元",
+        "currency": "CNY"
+      },
+      "sources": [
+        {
+          "source_id": "002507-319521e01aa69d9a",
+          "location": "PDF物理第75页，IS，营业总收入，第1数值列，文本行28"
+        },
+        {
+          "source_id": "002507-b747f4e7fbf9e082",
+          "location": "PDF物理第77页，合并收入比较栏第2数值列，文本行7"
+        }
+      ],
+      "support_boundary": "两份同范围原件的年度收入列核对一致。早期主营业务收入按当时列名保留。",
+      "effective_state": "Fact",
+      "binding": "d962570bd3f2ad1c25daae69cce54938c329cd5dfcf4b3c50429caaab03c3ac1",
+      "issues": [],
+      "verifier": "agent",
+      "confirmation_event": "E000053",
+      "human_confirmation": false,
+      "period": "2010-FY",
+      "url": "https://static.cninfo.com.cn/finalpage/2011-04-20/59296593.PDF",
+      "event": {
+        "id": "E000053",
+        "time": "2026-11-19T21:37:40+08:00",
+        "action": "record-confirmed",
+        "data": {
+          "record_id": "R15-2010-REV",
+          "binding": "d962570bd3f2ad1c25daae69cce54938c329cd5dfcf4b3c50429caaab03c3ac1",
+          "actor": "agent",
+          "statement_original": "回核当年报告和后续比较栏数值一致，原表值 545036255.18 人民币元。历期原件指纹均由 ReviewStore 校验。",
+          "delegation_id": "D0001",
+          "reviewed_record": {
+            "id": "R15-2010-REV",
+            "claim": "年度集团合并收入",
+            "value": "545036255.18",
+            "scope": {
+              "period": "2010-FY",
+              "entity": "涪陵榨菜",
+              "basis": "年度集团合并收入",
+              "definition": "营业总收入",
+              "unit": "人民币元",
+              "currency": "CNY"
+            },
+            "sources": [
+              {
+                "source_id": "002507-319521e01aa69d9a",
+                "location": "PDF物理第75页，IS，营业总收入，第1数值列，文本行28"
+              },
+              {
+                "source_id": "002507-b747f4e7fbf9e082",
+                "location": "PDF物理第77页，合并收入比较栏第2数值列，文本行7"
+              }
+            ],
+            "formula": null
+          },
+          "reviewer_name": ""
+        },
+        "previous_hash": "da8e75b64eb9d01039b6dd71ea20da06f6e86d6dd72401f3a6842e2ddd7f4a94",
+        "hash": "2d18c5c15d9eae4d472831889c6f748b8fa5c13d9d410547b83b875382608ace"
+      }
+    },
+    {
+      "company": "002507_涪陵榨菜",
+      "tag": "Fact",
+      "id": "R15-2011-REV",
+      "kind": "disclosure",
+      "state": "Unknown",
+      "value": "704660272.02",
+      "claim": "年度集团合并收入",
+      "scope": {
+        "period": "2011-FY",
+        "entity": "涪陵榨菜",
+        "basis": "年度集团合并收入",
+        "definition": "营业总收入",
+        "unit": "人民币元",
+        "currency": "CNY"
+      },
+      "sources": [
+        {
+          "source_id": "002507-b747f4e7fbf9e082",
+          "location": "PDF物理第77页，IS，营业总收入，第1数值列，文本行7"
+        },
+        {
+          "source_id": "002507-9141063bb85e238e",
+          "location": "PDF物理第57页，合并收入比较栏第2数值列，文本行7"
+        }
+      ],
+      "support_boundary": "两份同范围原件的年度收入列核对一致。早期主营业务收入按当时列名保留。",
+      "effective_state": "Fact",
+      "binding": "16b9cc0122983d440040bd6fa5687ed864640918c6ac6a414719112b9e74ad9e",
+      "issues": [],
+      "verifier": "agent",
+      "confirmation_event": "E000055",
+      "human_confirmation": false,
+      "period": "2011-FY",
+      "url": "https://static.cninfo.com.cn/finalpage/2012-03-29/60748835.PDF",
+      "event": {
+        "id": "E000055",
+        "time": "2026-11-19T21:37:40+08:00",
+        "action": "record-confirmed",
+        "data": {
+          "record_id": "R15-2011-REV",
+          "binding": "16b9cc0122983d440040bd6fa5687ed864640918c6ac6a414719112b9e74ad9e",
+          "actor": "agent",
+          "statement_original": "回核当年报告和后续比较栏数值一致，原表值 704660272.02 人民币元。历期原件指纹均由 ReviewStore 校验。",
+          "delegation_id": "D0001",
+          "reviewed_record": {
+            "id": "R15-2011-REV",
+            "claim": "年度集团合并收入",
+            "value": "704660272.02",
+            "scope": {
+              "period": "2011-FY",
+              "entity": "涪陵榨菜",
+              "basis": "年度集团合并收入",
+              "definition": "营业总收入",
+              "unit": "人民币元",
+              "currency": "CNY"
+            },
+            "sources": [
+              {
+                "source_id": "002507-b747f4e7fbf9e082",
+                "location": "PDF物理第77页，IS，营业总收入，第1数值列，文本行7"
+              },
+              {
+                "source_id": "002507-9141063bb85e238e",
+                "location": "PDF物理第57页，合并收入比较栏第2数值列，文本行7"
+              }
+            ],
+            "formula": null
+          },
+          "reviewer_name": ""
+        },
+        "previous_hash": "4cda40bc452561be5702164c020de1347259fbc69c13e8a20321d3ed929381c4",
+        "hash": "959767c7afdb1826397d5287946309232ad550fa2fd00a795a1153db98244d4c"
+      }
+    },
+    {
+      "company": "002507_涪陵榨菜",
+      "tag": "Fact",
+      "id": "R15-2012-REV",
+      "kind": "disclosure",
+      "state": "Unknown",
+      "value": "712658503.43",
+      "claim": "年度集团合并收入",
+      "scope": {
+        "period": "2012-FY",
+        "entity": "涪陵榨菜",
+        "basis": "年度集团合并收入",
+        "definition": "营业总收入",
+        "unit": "人民币元",
+        "currency": "CNY"
+      },
+      "sources": [
+        {
+          "source_id": "002507-9141063bb85e238e",
+          "location": "PDF物理第57页，IS，营业总收入，第1数值列，文本行7"
+        },
+        {
+          "source_id": "002507-f2f477a52c17ddfb",
+          "location": "PDF物理第53页，合并收入比较栏第2数值列，文本行25"
+        }
+      ],
+      "support_boundary": "两份同范围原件的年度收入列核对一致。早期主营业务收入按当时列名保留。",
+      "effective_state": "Fact",
+      "binding": "aa46fdcfedefb7180e1f8e4b31c1194e37ae706439fd3308c763aa144a2937e4",
+      "issues": [],
+      "verifier": "agent",
+      "confirmation_event": "E000057",
+      "human_confirmation": false,
+      "period": "2012-FY",
+      "url": "https://static.cninfo.com.cn/finalpage/2013-03-29/62295818.PDF",
+      "event": {
+        "id": "E000057",
+        "time": "2026-11-19T21:37:40+08:00",
+        "action": "record-confirmed",
+        "data": {
+          "record_id": "R15-2012-REV",
+          "binding": "aa46fdcfedefb7180e1f8e4b31c1194e37ae706439fd3308c763aa144a2937e4",
+          "actor": "agent",
+          "statement_original": "回核当年报告和后续比较栏数值一致，原表值 712658503.43 人民币元。历期原件指纹均由 ReviewStore 校验。",
+          "delegation_id": "D0001",
+          "reviewed_record": {
+            "id": "R15-2012-REV",
+            "claim": "年度集团合并收入",
+            "value": "712658503.43",
+            "scope": {
+              "period": "2012-FY",
+              "entity": "涪陵榨菜",
+              "basis": "年度集团合并收入",
+              "definition": "营业总收入",
+              "unit": "人民币元",
+              "currency": "CNY"
+            },
+            "sources": [
+              {
+                "source_id": "002507-9141063bb85e238e",
+                "location": "PDF物理第57页，IS，营业总收入，第1数值列，文本行7"
+              },
+              {
+                "source_id": "002507-f2f477a52c17ddfb",
+                "location": "PDF物理第53页，合并收入比较栏第2数值列，文本行25"
+              }
+            ],
+            "formula": null
+          },
+          "reviewer_name": ""
+        },
+        "previous_hash": "c9468d826c011171ec6ade9022113343e0a85b0f18fa79bcab2048f636f4e6d1",
+        "hash": "0c73783f56b0214b6feafb135b8f15436c39b27a8078e7a72bc4e1ba5503a0f6"
+      }
+    },
+    {
+      "company": "002507_涪陵榨菜",
+      "tag": "Fact",
+      "id": "R15-2013-REV",
+      "kind": "disclosure",
+      "state": "Unknown",
+      "value": "846216441.51",
+      "claim": "年度集团合并收入",
+      "scope": {
+        "period": "2013-FY",
+        "entity": "涪陵榨菜",
+        "basis": "年度集团合并收入",
+        "definition": "营业总收入",
+        "unit": "人民币元",
+        "currency": "CNY"
+      },
+      "sources": [
+        {
+          "source_id": "002507-f2f477a52c17ddfb",
+          "location": "PDF物理第53页，IS，营业总收入，第1数值列，文本行25"
+        },
+        {
+          "source_id": "002507-562773801583d947",
+          "location": "PDF物理第66页，合并收入比较栏第2数值列，文本行17"
+        }
+      ],
+      "support_boundary": "两份同范围原件的年度收入列核对一致。早期主营业务收入按当时列名保留。",
+      "effective_state": "Fact",
+      "binding": "b1ecde0e7301f14eff9ef1a486dd5bcb516f10d2977ce90ff152964ef44a5ed2",
+      "issues": [],
+      "verifier": "agent",
+      "confirmation_event": "E000059",
+      "human_confirmation": false,
+      "period": "2013-FY",
+      "url": "https://static.cninfo.com.cn/finalpage/2014-03-29/63755337.PDF",
+      "event": {
+        "id": "E000059",
+        "time": "2026-11-19T21:37:40+08:00",
+        "action": "record-confirmed",
+        "data": {
+          "record_id": "R15-2013-REV",
+          "binding": "b1ecde0e7301f14eff9ef1a486dd5bcb516f10d2977ce90ff152964ef44a5ed2",
+          "actor": "agent",
+          "statement_original": "回核当年报告和后续比较栏数值一致，原表值 846216441.51 人民币元。历期原件指纹均由 ReviewStore 校验。",
+          "delegation_id": "D0001",
+          "reviewed_record": {
+            "id": "R15-2013-REV",
+            "claim": "年度集团合并收入",
+            "value": "846216441.51",
+            "scope": {
+              "period": "2013-FY",
+              "entity": "涪陵榨菜",
+              "basis": "年度集团合并收入",
+              "definition": "营业总收入",
+              "unit": "人民币元",
+              "currency": "CNY"
+            },
+            "sources": [
+              {
+                "source_id": "002507-f2f477a52c17ddfb",
+                "location": "PDF物理第53页，IS，营业总收入，第1数值列，文本行25"
+              },
+              {
+                "source_id": "002507-562773801583d947",
+                "location": "PDF物理第66页，合并收入比较栏第2数值列，文本行17"
+              }
+            ],
+            "formula": null
+          },
+          "reviewer_name": ""
+        },
+        "previous_hash": "2ae1fa64abf929ed237f06c44c7c5f858443068e70fcf701ffd2823da870fb7e",
+        "hash": "a8d9a369c685d6c84a73a1d02b1df74a6301137584bee405c9a7c3c70494710e"
+      }
+    },
+    {
+      "company": "002507_涪陵榨菜",
+      "tag": "Fact",
+      "id": "R15-2014-REV",
+      "kind": "disclosure",
+      "state": "Unknown",
+      "value": "906428723.56",
+      "claim": "年度集团合并收入",
+      "scope": {
+        "period": "2014-FY",
+        "entity": "涪陵榨菜",
+        "basis": "年度集团合并收入",
+        "definition": "营业总收入",
+        "unit": "人民币元",
+        "currency": "CNY"
+      },
+      "sources": [
+        {
+          "source_id": "002507-562773801583d947",
+          "location": "PDF物理第66页，IS，营业总收入，第1数值列，文本行17"
+        },
+        {
+          "source_id": "002507-f216724f26bcd171",
+          "location": "PDF物理第70页，合并收入比较栏第2数值列，文本行23"
+        }
+      ],
+      "support_boundary": "两份同范围原件的年度收入列核对一致。早期主营业务收入按当时列名保留。",
+      "effective_state": "Fact",
+      "binding": "ea35d8365f582dcacad353fe7cb246e8e1f9529383710145867da47df1a4bc6c",
+      "issues": [],
+      "verifier": "agent",
+      "confirmation_event": "E000061",
+      "human_confirmation": false,
+      "period": "2014-FY",
+      "url": "https://static.cninfo.com.cn/finalpage/2015-03-28/1200753843.PDF",
+      "event": {
+        "id": "E000061",
+        "time": "2026-11-19T21:37:40+08:00",
+        "action": "record-confirmed",
+        "data": {
+          "record_id": "R15-2014-REV",
+          "binding": "ea35d8365f582dcacad353fe7cb246e8e1f9529383710145867da47df1a4bc6c",
+          "actor": "agent",
+          "statement_original": "回核当年报告和后续比较栏数值一致，原表值 906428723.56 人民币元。历期原件指纹均由 ReviewStore 校验。",
+          "delegation_id": "D0001",
+          "reviewed_record": {
+            "id": "R15-2014-REV",
+            "claim": "年度集团合并收入",
+            "value": "906428723.56",
+            "scope": {
+              "period": "2014-FY",
+              "entity": "涪陵榨菜",
+              "basis": "年度集团合并收入",
+              "definition": "营业总收入",
+              "unit": "人民币元",
+              "currency": "CNY"
+            },
+            "sources": [
+              {
+                "source_id": "002507-562773801583d947",
+                "location": "PDF物理第66页，IS，营业总收入，第1数值列，文本行17"
+              },
+              {
+                "source_id": "002507-f216724f26bcd171",
+                "location": "PDF物理第70页，合并收入比较栏第2数值列，文本行23"
+              }
+            ],
+            "formula": null
+          },
+          "reviewer_name": ""
+        },
+        "previous_hash": "541d09d7c405a828fcd8b3889cf8ebfebc51a8d50bda5b6b3ebb569889d21900",
+        "hash": "aaff13ec8209a7357f9e49b1741e36538bc15b34f0747aa00401f448ff45fbf6"
+      }
+    },
+    {
+      "company": "002507_涪陵榨菜",
+      "tag": "Fact",
+      "id": "R15-2015-REV",
+      "kind": "disclosure",
+      "state": "Unknown",
+      "value": "930658889.10",
+      "claim": "年度集团合并收入",
+      "scope": {
+        "period": "2015-FY",
+        "entity": "涪陵榨菜",
+        "basis": "年度集团合并收入",
+        "definition": "营业总收入",
+        "unit": "人民币元",
+        "currency": "CNY"
+      },
+      "sources": [
+        {
+          "source_id": "002507-f216724f26bcd171",
+          "location": "PDF物理第70页，IS，营业总收入，第1数值列，文本行23"
+        },
+        {
+          "source_id": "002507-c8ae2367cd041b60",
+          "location": "PDF物理第73页，合并收入比较栏第2数值列，文本行21"
+        }
+      ],
+      "support_boundary": "两份同范围原件的年度收入列核对一致。早期主营业务收入按当时列名保留。",
+      "effective_state": "Fact",
+      "binding": "7e565a7ca629af3a1decfe5ac64bdca3e4f4c0c80c298eb16cca1ee19f29462a",
+      "issues": [],
+      "verifier": "agent",
+      "confirmation_event": "E000063",
+      "human_confirmation": false,
+      "period": "2015-FY",
+      "url": "https://static.cninfo.com.cn/finalpage/2016-03-31/1202111613.PDF",
+      "event": {
+        "id": "E000063",
+        "time": "2026-11-19T21:37:41+08:00",
+        "action": "record-confirmed",
+        "data": {
+          "record_id": "R15-2015-REV",
+          "binding": "7e565a7ca629af3a1decfe5ac64bdca3e4f4c0c80c298eb16cca1ee19f29462a",
+          "actor": "agent",
+          "statement_original": "回核当年报告和后续比较栏数值一致，原表值 930658889.10 人民币元。历期原件指纹均由 ReviewStore 校验。",
+          "delegation_id": "D0001",
+          "reviewed_record": {
+            "id": "R15-2015-REV",
+            "claim": "年度集团合并收入",
+            "value": "930658889.10",
+            "scope": {
+              "period": "2015-FY",
+              "entity": "涪陵榨菜",
+              "basis": "年度集团合并收入",
+              "definition": "营业总收入",
+              "unit": "人民币元",
+              "currency": "CNY"
+            },
+            "sources": [
+              {
+                "source_id": "002507-f216724f26bcd171",
+                "location": "PDF物理第70页，IS，营业总收入，第1数值列，文本行23"
+              },
+              {
+                "source_id": "002507-c8ae2367cd041b60",
+                "location": "PDF物理第73页，合并收入比较栏第2数值列，文本行21"
+              }
+            ],
+            "formula": null
+          },
+          "reviewer_name": ""
+        },
+        "previous_hash": "1455d53a40ec8806e9f91fa0bee2f0404c50be767eead781c64b4531be6267f0",
+        "hash": "134a7241185180a25c87b5ff97703162a46c8e4d1f5a4748a3a16fda4732b1bf"
+      }
+    },
+    {
+      "company": "002507_涪陵榨菜",
+      "tag": "Fact",
+      "id": "R15-2016-REV",
+      "kind": "disclosure",
+      "state": "Unknown",
+      "value": "1120805953.02",
+      "claim": "年度集团合并收入",
+      "scope": {
+        "period": "2016-FY",
+        "entity": "涪陵榨菜",
+        "basis": "年度集团合并收入",
+        "definition": "营业总收入",
+        "unit": "人民币元",
+        "currency": "CNY"
+      },
+      "sources": [
+        {
+          "source_id": "002507-c8ae2367cd041b60",
+          "location": "PDF物理第73页，IS，营业总收入，第1数值列，文本行21"
+        },
+        {
+          "source_id": "002507-134249b41ba41fe2",
+          "location": "PDF物理第72页，合并收入比较栏第2数值列，文本行6"
+        }
+      ],
+      "support_boundary": "两份同范围原件的年度收入列核对一致。早期主营业务收入按当时列名保留。",
+      "effective_state": "Fact",
+      "binding": "fd761449e49f0c50b8d8bf6801d54d6a33da1a2de7baa3a3b9da7421e66942df",
+      "issues": [],
+      "verifier": "agent",
+      "confirmation_event": "E000065",
+      "human_confirmation": false,
+      "period": "2016-FY",
+      "url": "https://static.cninfo.com.cn/finalpage/2017-04-05/1203248580.PDF",
+      "event": {
+        "id": "E000065",
+        "time": "2026-11-19T21:37:41+08:00",
+        "action": "record-confirmed",
+        "data": {
+          "record_id": "R15-2016-REV",
+          "binding": "fd761449e49f0c50b8d8bf6801d54d6a33da1a2de7baa3a3b9da7421e66942df",
+          "actor": "agent",
+          "statement_original": "回核当年报告和后续比较栏数值一致，原表值 1120805953.02 人民币元。历期原件指纹均由 ReviewStore 校验。",
+          "delegation_id": "D0001",
+          "reviewed_record": {
+            "id": "R15-2016-REV",
+            "claim": "年度集团合并收入",
+            "value": "1120805953.02",
+            "scope": {
+              "period": "2016-FY",
+              "entity": "涪陵榨菜",
+              "basis": "年度集团合并收入",
+              "definition": "营业总收入",
+              "unit": "人民币元",
+              "currency": "CNY"
+            },
+            "sources": [
+              {
+                "source_id": "002507-c8ae2367cd041b60",
+                "location": "PDF物理第73页，IS，营业总收入，第1数值列，文本行21"
+              },
+              {
+                "source_id": "002507-134249b41ba41fe2",
+                "location": "PDF物理第72页，合并收入比较栏第2数值列，文本行6"
+              }
+            ],
+            "formula": null
+          },
+          "reviewer_name": ""
+        },
+        "previous_hash": "e9bd86c2151107c24c433ee14a89357547d53a38458d85cc8a6b3973ae39c4c6",
+        "hash": "6d922ab77e49845abbf2c10ad88429ad211a373ea53cffa8c36b76b7e6e14db6"
+      }
+    },
+    {
+      "company": "002507_涪陵榨菜",
+      "tag": "Fact",
+      "id": "R15-2017-REV",
+      "kind": "disclosure",
+      "state": "Unknown",
+      "value": "1520238658.64",
+      "claim": "年度集团合并收入",
+      "scope": {
+        "period": "2017-FY",
+        "entity": "涪陵榨菜",
+        "basis": "年度集团合并收入",
+        "definition": "营业总收入",
+        "unit": "人民币元",
+        "currency": "CNY"
+      },
+      "sources": [
+        {
+          "source_id": "002507-134249b41ba41fe2",
+          "location": "PDF物理第72页，IS，营业总收入，第1数值列，文本行6"
+        },
+        {
+          "source_id": "002507-aede9bb96ffd4d2c",
+          "location": "PDF物理第72页，合并收入比较栏第2数值列，文本行6"
+        }
+      ],
+      "support_boundary": "两份同范围原件的年度收入列核对一致。早期主营业务收入按当时列名保留。",
+      "effective_state": "Fact",
+      "binding": "7b2a4a0db38d597b61657676291bea5b87e4988931dde9c2270dc58bfe6283cd",
+      "issues": [],
+      "verifier": "agent",
+      "confirmation_event": "E000067",
+      "human_confirmation": false,
+      "period": "2017-FY",
+      "url": "https://static.cninfo.com.cn/finalpage/2018-03-17/1204486280.PDF",
+      "event": {
+        "id": "E000067",
+        "time": "2026-11-19T21:37:41+08:00",
+        "action": "record-confirmed",
+        "data": {
+          "record_id": "R15-2017-REV",
+          "binding": "7b2a4a0db38d597b61657676291bea5b87e4988931dde9c2270dc58bfe6283cd",
+          "actor": "agent",
+          "statement_original": "回核当年报告和后续比较栏数值一致，原表值 1520238658.64 人民币元。历期原件指纹均由 ReviewStore 校验。",
+          "delegation_id": "D0001",
+          "reviewed_record": {
+            "id": "R15-2017-REV",
+            "claim": "年度集团合并收入",
+            "value": "1520238658.64",
+            "scope": {
+              "period": "2017-FY",
+              "entity": "涪陵榨菜",
+              "basis": "年度集团合并收入",
+              "definition": "营业总收入",
+              "unit": "人民币元",
+              "currency": "CNY"
+            },
+            "sources": [
+              {
+                "source_id": "002507-134249b41ba41fe2",
+                "location": "PDF物理第72页，IS，营业总收入，第1数值列，文本行6"
+              },
+              {
+                "source_id": "002507-aede9bb96ffd4d2c",
+                "location": "PDF物理第72页，合并收入比较栏第2数值列，文本行6"
+              }
+            ],
+            "formula": null
+          },
+          "reviewer_name": ""
+        },
+        "previous_hash": "5dd92ccaa73950d48f3bb47576fb0612617cca8c1aff963c6477418162817211",
+        "hash": "8a29391934195ba29fbc5374990993ca497d65768eaa21ef10f28133f06732c9"
+      }
+    },
+    {
+      "company": "002507_涪陵榨菜",
+      "tag": "Fact",
+      "id": "R15-2018-REV",
+      "kind": "disclosure",
+      "state": "Unknown",
+      "value": "1914353929.10",
+      "claim": "年度集团合并收入",
+      "scope": {
+        "period": "2018-FY",
+        "entity": "涪陵榨菜",
+        "basis": "年度集团合并收入",
+        "definition": "营业总收入",
+        "unit": "人民币元",
+        "currency": "CNY"
+      },
+      "sources": [
+        {
+          "source_id": "002507-aede9bb96ffd4d2c",
+          "location": "PDF物理第72页，IS，营业总收入，第1数值列，文本行6"
+        },
+        {
+          "source_id": "002507-5ef1479bfef2901f",
+          "location": "PDF物理第68页，合并收入比较栏第2数值列，文本行35"
+        }
+      ],
+      "support_boundary": "两份同范围原件的年度收入列核对一致。早期主营业务收入按当时列名保留。",
+      "effective_state": "Fact",
+      "binding": "2e9b94df215bdf2e5066c602216e8b5a5cd2e116254b27560e8d661f69dbcbd5",
+      "issues": [],
+      "verifier": "agent",
+      "confirmation_event": "E000069",
+      "human_confirmation": false,
+      "period": "2018-FY",
+      "url": "https://static.cninfo.com.cn/finalpage/2019-03-22/1205923892.PDF",
+      "event": {
+        "id": "E000069",
+        "time": "2026-11-19T21:37:41+08:00",
+        "action": "record-confirmed",
+        "data": {
+          "record_id": "R15-2018-REV",
+          "binding": "2e9b94df215bdf2e5066c602216e8b5a5cd2e116254b27560e8d661f69dbcbd5",
+          "actor": "agent",
+          "statement_original": "回核当年报告和后续比较栏数值一致，原表值 1914353929.10 人民币元。历期原件指纹均由 ReviewStore 校验。",
+          "delegation_id": "D0001",
+          "reviewed_record": {
+            "id": "R15-2018-REV",
+            "claim": "年度集团合并收入",
+            "value": "1914353929.10",
+            "scope": {
+              "period": "2018-FY",
+              "entity": "涪陵榨菜",
+              "basis": "年度集团合并收入",
+              "definition": "营业总收入",
+              "unit": "人民币元",
+              "currency": "CNY"
+            },
+            "sources": [
+              {
+                "source_id": "002507-aede9bb96ffd4d2c",
+                "location": "PDF物理第72页，IS，营业总收入，第1数值列，文本行6"
+              },
+              {
+                "source_id": "002507-5ef1479bfef2901f",
+                "location": "PDF物理第68页，合并收入比较栏第2数值列，文本行35"
+              }
+            ],
+            "formula": null
+          },
+          "reviewer_name": ""
+        },
+        "previous_hash": "25612490816e33cb0adee4b16cbe0c54026b5803e709ab9254ad2838df8616ad",
+        "hash": "c93f93bee6410a55ab1373c0df0943b7bdacaa2eefaa95ed86c9d51480ffb348"
+      }
+    },
+    {
+      "company": "002507_涪陵榨菜",
+      "tag": "Fact",
+      "id": "R15-2019-REV",
+      "kind": "disclosure",
+      "state": "Unknown",
+      "value": "1989593123.12",
+      "claim": "年度集团合并收入",
+      "scope": {
+        "period": "2019-FY",
+        "entity": "涪陵榨菜",
+        "basis": "年度集团合并收入",
+        "definition": "营业总收入",
+        "unit": "人民币元",
+        "currency": "CNY"
+      },
+      "sources": [
+        {
+          "source_id": "002507-5ef1479bfef2901f",
+          "location": "PDF物理第68页，IS，营业总收入，第1数值列，文本行35"
+        },
+        {
+          "source_id": "002507-d42572d6119a3a9d",
+          "location": "PDF物理第77页，合并收入比较栏第2数值列，文本行32"
+        }
+      ],
+      "support_boundary": "两份同范围原件的年度收入列核对一致。早期主营业务收入按当时列名保留。",
+      "effective_state": "Fact",
+      "binding": "be2e3185775ea8a1dfcd647f16c227860388ddb67b269793482ac320f02dd975",
+      "issues": [],
+      "verifier": "agent",
+      "confirmation_event": "E000071",
+      "human_confirmation": false,
+      "period": "2019-FY",
+      "url": "https://static.cninfo.com.cn/finalpage/2020-03-17/1207377743.PDF",
+      "event": {
+        "id": "E000071",
+        "time": "2026-11-19T21:37:42+08:00",
+        "action": "record-confirmed",
+        "data": {
+          "record_id": "R15-2019-REV",
+          "binding": "be2e3185775ea8a1dfcd647f16c227860388ddb67b269793482ac320f02dd975",
+          "actor": "agent",
+          "statement_original": "回核当年报告和后续比较栏数值一致，原表值 1989593123.12 人民币元。历期原件指纹均由 ReviewStore 校验。",
+          "delegation_id": "D0001",
+          "reviewed_record": {
+            "id": "R15-2019-REV",
+            "claim": "年度集团合并收入",
+            "value": "1989593123.12",
+            "scope": {
+              "period": "2019-FY",
+              "entity": "涪陵榨菜",
+              "basis": "年度集团合并收入",
+              "definition": "营业总收入",
+              "unit": "人民币元",
+              "currency": "CNY"
+            },
+            "sources": [
+              {
+                "source_id": "002507-5ef1479bfef2901f",
+                "location": "PDF物理第68页，IS，营业总收入，第1数值列，文本行35"
+              },
+              {
+                "source_id": "002507-d42572d6119a3a9d",
+                "location": "PDF物理第77页，合并收入比较栏第2数值列，文本行32"
+              }
+            ],
+            "formula": null
+          },
+          "reviewer_name": ""
+        },
+        "previous_hash": "099bfc6c2d5fdcf48ed8b8d53445ce38426e31303fe721bdab3aedd8272085c7",
+        "hash": "e3d528397c6fb3b074f22c0a348a28d802ab9511b1a29083555f28e123af9cef"
+      }
+    },
+    {
+      "company": "002507_涪陵榨菜",
+      "tag": "Fact",
+      "id": "R15-2020-REV",
+      "kind": "disclosure",
+      "state": "Unknown",
+      "value": "2272746598.51",
+      "claim": "年度集团合并收入",
+      "scope": {
+        "period": "2020-FY",
+        "entity": "涪陵榨菜",
+        "basis": "年度集团合并收入",
+        "definition": "营业总收入",
+        "unit": "人民币元",
+        "currency": "CNY"
+      },
+      "sources": [
+        {
+          "source_id": "002507-d42572d6119a3a9d",
+          "location": "PDF物理第77页，IS，营业总收入，第1数值列，文本行32"
+        },
+        {
+          "source_id": "002507-bd64672c54804089",
+          "location": "PDF物理第91页，合并收入比较栏第2数值列，文本行23"
+        }
+      ],
+      "support_boundary": "两份同范围原件的年度收入列核对一致。早期主营业务收入按当时列名保留。",
+      "effective_state": "Fact",
+      "binding": "7c48c748fb63b5c84dd8eea19db5def477296d8b889ee0652d555ddac5a07bb6",
+      "issues": [],
+      "verifier": "agent",
+      "confirmation_event": "E000073",
+      "human_confirmation": false,
+      "period": "2020-FY",
+      "url": "https://static.cninfo.com.cn/finalpage/2021-04-29/1209847174.PDF",
+      "event": {
+        "id": "E000073",
+        "time": "2026-11-19T21:37:42+08:00",
+        "action": "record-confirmed",
+        "data": {
+          "record_id": "R15-2020-REV",
+          "binding": "7c48c748fb63b5c84dd8eea19db5def477296d8b889ee0652d555ddac5a07bb6",
+          "actor": "agent",
+          "statement_original": "回核当年报告和后续比较栏数值一致，原表值 2272746598.51 人民币元。历期原件指纹均由 ReviewStore 校验。",
+          "delegation_id": "D0001",
+          "reviewed_record": {
+            "id": "R15-2020-REV",
+            "claim": "年度集团合并收入",
+            "value": "2272746598.51",
+            "scope": {
+              "period": "2020-FY",
+              "entity": "涪陵榨菜",
+              "basis": "年度集团合并收入",
+              "definition": "营业总收入",
+              "unit": "人民币元",
+              "currency": "CNY"
+            },
+            "sources": [
+              {
+                "source_id": "002507-d42572d6119a3a9d",
+                "location": "PDF物理第77页，IS，营业总收入，第1数值列，文本行32"
+              },
+              {
+                "source_id": "002507-bd64672c54804089",
+                "location": "PDF物理第91页，合并收入比较栏第2数值列，文本行23"
+              }
+            ],
+            "formula": null
+          },
+          "reviewer_name": ""
+        },
+        "previous_hash": "88fa147633f977a2c1ef024cded0429130228b385a97ee48ce9d26e8a2fb519a",
+        "hash": "da20775bf184844a281bbe63410781ce42a8633d5760be384ec4e6bdc364fbff"
+      }
+    },
+    {
+      "company": "002507_涪陵榨菜",
+      "tag": "Fact",
+      "id": "R15-2021-REV",
+      "kind": "disclosure",
+      "state": "Unknown",
+      "value": "2518647389.14",
+      "claim": "年度集团合并收入",
+      "scope": {
+        "period": "2021-FY",
+        "entity": "涪陵榨菜",
+        "basis": "年度集团合并收入",
+        "definition": "营业总收入",
+        "unit": "人民币元",
+        "currency": "CNY"
+      },
+      "sources": [
+        {
+          "source_id": "002507-bd64672c54804089",
+          "location": "PDF物理第91页，IS，营业总收入，第1数值列，文本行23"
+        },
+        {
+          "source_id": "002507-9ff347d8cbcba4f2",
+          "location": "PDF物理第78页，合并收入比较栏第2数值列，文本行29"
+        }
+      ],
+      "support_boundary": "两份同范围原件的年度收入列核对一致。早期主营业务收入按当时列名保留。",
+      "effective_state": "Fact",
+      "binding": "4e46ec973d72bf2d45d2cd954c072a4cf2360b995e834715cd4bfef7ffa47f04",
+      "issues": [],
+      "verifier": "agent",
+      "confirmation_event": "E000075",
+      "human_confirmation": false,
+      "period": "2021-FY",
+      "url": "https://static.cninfo.com.cn/finalpage/2022-03-18/1212606350.PDF",
+      "event": {
+        "id": "E000075",
+        "time": "2026-11-19T21:37:42+08:00",
+        "action": "record-confirmed",
+        "data": {
+          "record_id": "R15-2021-REV",
+          "binding": "4e46ec973d72bf2d45d2cd954c072a4cf2360b995e834715cd4bfef7ffa47f04",
+          "actor": "agent",
+          "statement_original": "回核当年报告和后续比较栏数值一致，原表值 2518647389.14 人民币元。历期原件指纹均由 ReviewStore 校验。",
+          "delegation_id": "D0001",
+          "reviewed_record": {
+            "id": "R15-2021-REV",
+            "claim": "年度集团合并收入",
+            "value": "2518647389.14",
+            "scope": {
+              "period": "2021-FY",
+              "entity": "涪陵榨菜",
+              "basis": "年度集团合并收入",
+              "definition": "营业总收入",
+              "unit": "人民币元",
+              "currency": "CNY"
+            },
+            "sources": [
+              {
+                "source_id": "002507-bd64672c54804089",
+                "location": "PDF物理第91页，IS，营业总收入，第1数值列，文本行23"
+              },
+              {
+                "source_id": "002507-9ff347d8cbcba4f2",
+                "location": "PDF物理第78页，合并收入比较栏第2数值列，文本行29"
+              }
+            ],
+            "formula": null
+          },
+          "reviewer_name": ""
+        },
+        "previous_hash": "f1a4de121093e6f7cf88cca3c01ff5987dded89a993d0d815eea0a198808bc0f",
+        "hash": "f5cd6e65e772f721321dbcfd987e6a1531f06eec7bdd31ceaf9f597feb695851"
+      }
+    },
+    {
+      "company": "002507_涪陵榨菜",
+      "tag": "Fact",
+      "id": "R15-2022-REV",
+      "kind": "disclosure",
+      "state": "Unknown",
+      "value": "2548315095.90",
+      "claim": "年度集团合并收入",
+      "scope": {
+        "period": "2022-FY",
+        "entity": "涪陵榨菜",
+        "basis": "年度集团合并收入",
+        "definition": "营业总收入",
+        "unit": "人民币元",
+        "currency": "CNY"
+      },
+      "sources": [
+        {
+          "source_id": "002507-9ff347d8cbcba4f2",
+          "location": "PDF物理第78页，IS，营业总收入，第1数值列，文本行29"
+        },
+        {
+          "source_id": "002507-4b14860c37a05a6b",
+          "location": "PDF物理第79页，合并收入比较栏第2数值列，文本行30"
+        }
+      ],
+      "support_boundary": "两份同范围原件的年度收入列核对一致。早期主营业务收入按当时列名保留。",
+      "effective_state": "Fact",
+      "binding": "583a6194d2bc872f026bddafe883257f8978c5baee7cbe3e14ac6bc71bf9c9b6",
+      "issues": [],
+      "verifier": "agent",
+      "confirmation_event": "E000077",
+      "human_confirmation": false,
+      "period": "2022-FY",
+      "url": "https://static.cninfo.com.cn/finalpage/2023-03-25/1216218389.PDF",
+      "event": {
+        "id": "E000077",
+        "time": "2026-11-19T21:37:42+08:00",
+        "action": "record-confirmed",
+        "data": {
+          "record_id": "R15-2022-REV",
+          "binding": "583a6194d2bc872f026bddafe883257f8978c5baee7cbe3e14ac6bc71bf9c9b6",
+          "actor": "agent",
+          "statement_original": "回核当年报告和后续比较栏数值一致，原表值 2548315095.90 人民币元。历期原件指纹均由 ReviewStore 校验。",
+          "delegation_id": "D0001",
+          "reviewed_record": {
+            "id": "R15-2022-REV",
+            "claim": "年度集团合并收入",
+            "value": "2548315095.90",
+            "scope": {
+              "period": "2022-FY",
+              "entity": "涪陵榨菜",
+              "basis": "年度集团合并收入",
+              "definition": "营业总收入",
+              "unit": "人民币元",
+              "currency": "CNY"
+            },
+            "sources": [
+              {
+                "source_id": "002507-9ff347d8cbcba4f2",
+                "location": "PDF物理第78页，IS，营业总收入，第1数值列，文本行29"
+              },
+              {
+                "source_id": "002507-4b14860c37a05a6b",
+                "location": "PDF物理第79页，合并收入比较栏第2数值列，文本行30"
+              }
+            ],
+            "formula": null
+          },
+          "reviewer_name": ""
+        },
+        "previous_hash": "f200f93626236216d9296484dac672d723a44c9fae3b69ab7782bd6ac353de01",
+        "hash": "9e56aba96518c1d38a0102a68b487c09545b4315e69db16f66c5c22f2a949e7d"
+      }
+    }
+  ],
+  "research_basis": {
+    "margin": {
+      "search": [
+        0.02,
+        0.8
+      ],
+      "fixed": "显式期起点、成长因子、WACC及权益桥固定；仅变稳定利润率和过渡路径",
+      "roots": [
+        0.15860665200454505
+      ],
+      "gap_at_ends": [
+        -3.930145771838439,
+        14.537108106948152
+      ],
+      "gap_min_max": [
+        -3.930145771838439,
+        14.537108106948152
+      ],
+      "status": "有解",
+      "tag": "模型反解"
+    },
+    "wc": {
+      "search": [
+        0.01,
+        0.65
+      ],
+      "fixed": "其余阶段16基准固定；只变经营营运资本需求占收入比例",
+      "roots": [],
+      "gap_at_ends": [
+        3.7966048041024827,
+        2.913047945096057
+      ],
+      "gap_min_max": [
+        2.913047945096057,
+        3.7966048041024827
+      ],
+      "status": "搜索区间无交点",
+      "tag": "模型反解"
+    },
+    "rate": {
+      "search": [
+        0.026,
+        0.22
+      ],
+      "fixed": "阶段16基准经营、现金和权益桥固定，只变WACC",
+      "roots": [
+        0.090811994072799
+      ],
+      "gap_at_ends": [
+        71.55199216017473,
+        -4.23430010684658
+      ],
+      "gap_min_max": [
+        -4.23430010684658,
+        71.55199216017473
+      ],
+      "status": "有解",
+      "tag": "模型反解"
+    },
+    "required_cash_scalar": 0.6321747964033044,
+    "normalized_ebit_if_scaled": 604.1053645910908,
+    "normalized_fcff_if_scaled": 394.2444140222728,
+    "normalized_ebit_if_margin_root": 511.6404331153857,
+    "normalized_fcff_if_margin_root": 333.90099569834524,
+    "year_2031_base_revenue": 3005.458180575143,
+    "discount_clock": "2026-11-12",
+    "note": "按统一比例缩放企业经营现金价值且固定权益桥。给出该比例下的稳定期利润和FCFF量级。",
+    "channel_h1_bridge": [
+      {
+        "channel": "直销",
+        "revenue": 122.2555826,
+        "cost": 67.24786737,
+        "revenue_0": 74.06007109,
+        "cost_0": 40.14001136,
+        "gross_change": 21.08765550000001,
+        "margin": 0.4499403140548283,
+        "margin_0": 0.4580073882021978,
+        "max_incremental_attributed_cash_cost": 21.08765550000001,
+        "total_group_selling_cost_change": 34.35092620999998,
+        "tag": "算术",
+        "source": "002507-b901d0b919e32cba 物理第13页和合并利润表"
+      },
+      {
+        "channel": "经销",
+        "revenue": 1241.28116239,
+        "cost": 572.82196163,
+        "revenue_0": 1236.85903712,
+        "cost_0": 560.88098801,
+        "gross_change": -7.518848350000098,
+        "margin": 0.5385236004652875,
+        "margin_0": 0.546527962219527,
+        "max_incremental_attributed_cash_cost": -7.518848350000098,
+        "total_group_selling_cost_change": 34.35092620999998,
+        "tag": "算术",
+        "source": "002507-b901d0b919e32cba 物理第13页和合并利润表"
+      }
+    ],
+    "collections": {
+      "q3_ytd_cash_goods_received": 2156.74439113,
+      "q3_prior_ytd_cash_goods_received": 2117.1304425,
+      "receivables": 143.58362028,
+      "prior_sept_ar": 120.87533419,
+      "begin_2026_ar": 29.16903848,
+      "cfo_less_capex": 292.59355989999995,
+      "source": [
+        "002507-d45bfdfdec6d4379 第4、7、9–11页",
+        "002507-6cd117ea1ac8beee 合并资产负债表"
+      ],
+      "scope": "收现含销项税及期差。集团收现和费用无法归属渠道。"
+    },
+    "plant_scenarios": [
+      {
+        "design_tonnes": 160000,
+        "utilisation": 0.35,
+        "replaced_volume_fraction": 0.5,
+        "incremental_tonnes": 28000.0,
+        "unit_price_proxy": 18117.688015000003,
+        "gross_contribution": 253.64763221000004,
+        "additional_selling_cash": 76.094289663,
+        "incremental_fixed_cash_cost": 70,
+        "pretax_increment_before_new_asset_depreciation": 107.55334254700006,
+        "maintenance_capex_proxy": 30,
+        "incremental_cash_before_working_capital_and_any_existing_site_savings": 77.55334254700006,
+        "tag": "情景",
+        "source": "2026中报物理第17页、2025年报物理第22–23页",
+        "fixed_conditions": "单位毛利50%、渠道费15%、每年固定现金70百万元、维持性购建30百万元均为情景。旧产能替代节省缺项。"
+      },
+      {
+        "design_tonnes": 160000,
+        "utilisation": 0.35,
+        "replaced_volume_fraction": 0.8,
+        "incremental_tonnes": 11199.999999999998,
+        "unit_price_proxy": 18117.688015000003,
+        "gross_contribution": 101.459052884,
+        "additional_selling_cash": 30.437715865199998,
+        "incremental_fixed_cash_cost": 70,
+        "pretax_increment_before_new_asset_depreciation": 1.0213370188000113,
+        "maintenance_capex_proxy": 30,
+        "incremental_cash_before_working_capital_and_any_existing_site_savings": -28.97866298119999,
+        "tag": "情景",
+        "source": "2026中报物理第17页、2025年报物理第22–23页",
+        "fixed_conditions": "单位毛利50%、渠道费15%、每年固定现金70百万元、维持性购建30百万元均为情景。旧产能替代节省缺项。"
+      },
+      {
+        "design_tonnes": 160000,
+        "utilisation": 0.55,
+        "replaced_volume_fraction": 0.5,
+        "incremental_tonnes": 44000.0,
+        "unit_price_proxy": 18117.688015000003,
+        "gross_contribution": 398.5891363300001,
+        "additional_selling_cash": 119.57674089900003,
+        "incremental_fixed_cash_cost": 70,
+        "pretax_increment_before_new_asset_depreciation": 209.01239543100007,
+        "maintenance_capex_proxy": 30,
+        "incremental_cash_before_working_capital_and_any_existing_site_savings": 179.01239543100007,
+        "tag": "情景",
+        "source": "2026中报物理第17页、2025年报物理第22–23页",
+        "fixed_conditions": "单位毛利50%、渠道费15%、每年固定现金70百万元、维持性购建30百万元均为情景。旧产能替代节省缺项。"
+      },
+      {
+        "design_tonnes": 160000,
+        "utilisation": 0.55,
+        "replaced_volume_fraction": 0.8,
+        "incremental_tonnes": 17599.999999999996,
+        "unit_price_proxy": 18117.688015000003,
+        "gross_contribution": 159.435654532,
+        "additional_selling_cash": 47.8306963596,
+        "incremental_fixed_cash_cost": 70,
+        "pretax_increment_before_new_asset_depreciation": 41.6049581724,
+        "maintenance_capex_proxy": 30,
+        "incremental_cash_before_working_capital_and_any_existing_site_savings": 11.604958172400003,
+        "tag": "情景",
+        "source": "2026中报物理第17页、2025年报物理第22–23页",
+        "fixed_conditions": "单位毛利50%、渠道费15%、每年固定现金70百万元、维持性购建30百万元均为情景。旧产能替代节省缺项。"
+      },
+      {
+        "design_tonnes": 160000,
+        "utilisation": 0.75,
+        "replaced_volume_fraction": 0.5,
+        "incremental_tonnes": 60000.0,
+        "unit_price_proxy": 18117.688015000003,
+        "gross_contribution": 543.5306404500001,
+        "additional_selling_cash": 163.05919213500002,
+        "incremental_fixed_cash_cost": 70,
+        "pretax_increment_before_new_asset_depreciation": 310.4714483150001,
+        "maintenance_capex_proxy": 30,
+        "incremental_cash_before_working_capital_and_any_existing_site_savings": 280.4714483150001,
+        "tag": "情景",
+        "source": "2026中报物理第17页、2025年报物理第22–23页",
+        "fixed_conditions": "单位毛利50%、渠道费15%、每年固定现金70百万元、维持性购建30百万元均为情景。旧产能替代节省缺项。"
+      },
+      {
+        "design_tonnes": 160000,
+        "utilisation": 0.75,
+        "replaced_volume_fraction": 0.8,
+        "incremental_tonnes": 23999.999999999996,
+        "unit_price_proxy": 18117.688015000003,
+        "gross_contribution": 217.41225618,
+        "additional_selling_cash": 65.223676854,
+        "incremental_fixed_cash_cost": 70,
+        "pretax_increment_before_new_asset_depreciation": 82.18857932600002,
+        "maintenance_capex_proxy": 30,
+        "incremental_cash_before_working_capital_and_any_existing_site_savings": 52.188579326000024,
+        "tag": "情景",
+        "source": "2026中报物理第17页、2025年报物理第22–23页",
+        "fixed_conditions": "单位毛利50%、渠道费15%、每年固定现金70百万元、维持性购建30百万元均为情景。旧产能替代节省缺项。"
+      }
+    ],
+    "discount_sensitivity": [
+      {
+        "wacc": 0.05551010308118854,
+        "price": 17.992749523792625,
+        "shift": -0.01,
+        "scope": "保持阶段16基准业务、资本及权益桥(诉讼现值重折现)",
+        "tag": "估值情景"
+      },
+      {
+        "wacc": 0.060510103081188545,
+        "price": 16.363953581355947,
+        "shift": -0.005,
+        "scope": "保持阶段16基准业务、资本及权益桥(诉讼现值重折现)",
+        "tag": "估值情景"
+      },
+      {
+        "wacc": 0.06551010308118854,
+        "price": 15.093513086746889,
+        "shift": 0,
+        "scope": "保持阶段16基准业务、资本及权益桥(诉讼现值重折现)",
+        "tag": "估值情景"
+      },
+      {
+        "wacc": 0.07051010308118855,
+        "price": 14.075000126885836,
+        "shift": 0.005,
+        "scope": "保持阶段16基准业务、资本及权益桥(诉讼现值重折现)",
+        "tag": "估值情景"
+      },
+      {
+        "wacc": 0.07551010308118854,
+        "price": 13.24033234617032,
+        "shift": 0.01,
+        "scope": "保持阶段16基准业务、资本及权益桥(诉讼现值重折现)",
+        "tag": "估值情景"
+      }
+    ]
+  },
+  "stage15_model_sha": "2da80e496dc22cea48f464de10b9ea0c0a45e952d1c495278e11ebc619269310",
+  "report_sha": "3dfc5b0fbf853d30d57ed11d8f779e251a1f5268e1a44bdd53b7a225c0a66ae3",
+  "writing_standard_sha": "0feef00ee9ab2355d700d2aa9f3c3782947237ad4a5b69135a8974960a25572d",
+  "board_postcut": []
+}

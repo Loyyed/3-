@@ -1,0 +1,94 @@
+<!doctype html><html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>涪陵渠道、回款及新基地</title><style>
+:root{font-family:system-ui,'Microsoft YaHei',sans-serif;color:#172624;background:#f8f9f5;color-scheme:light}
+body{max-width:1220px;margin:auto;padding:clamp(12px,3vw,36px);line-height:1.62}
+header{border-bottom:1px solid #c9d5ce;margin-bottom:20px;padding-bottom:14px}
+a{color:#005852;text-underline-offset:3px} h1{line-height:1.16;margin:.5em 0} h2{margin-top:1.6rem}
+nav,.controls{display:flex;gap:10px 18px;flex-wrap:wrap;align-items:end}
+input,select,button{font:inherit;border:1px solid #9cb2a3;border-radius:5px;padding:6px 8px;background:white;color:#172624}
+button{cursor:pointer} .status{margin:.8em 0;color:#354e49}
+.scroll{overflow:auto;max-height:72vh;border:1px solid #c9d5ce;border-radius:6px;background:#fff}
+table{border-collapse:collapse;width:100%;font-size:.9rem}
+th,td{padding:8px 12px;border-bottom:1px solid #e0e7e1;text-align:left;vertical-align:top}
+thead th{position:sticky;top:0;background:#e7efe9;white-space:nowrap}
+td{min-width:90px;max-width:360px;overflow-wrap:anywhere}
+pre{max-width:420px;white-space:pre-wrap;overflow-wrap:anywhere;font-size:.8rem}
+article{max-width:82ch} article p{line-height:1.8} .grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:12px}
+.tile{padding:13px 16px;border:1px solid #d6e1d9;border-radius:6px;background:white}
+@media print{.controls,nav{display:none}.scroll{max-height:none;overflow:visible}thead th{position:static}}
+</style></head><body><header><nav><a href="index.html">阶段16总览</a></nav><h1>涪陵渠道、回款及新基地</h1></header><nav><a href="fuling-channel-plant.csv" download>完整 CSV</a><a href="fuling-channel-plant.json" download>完整 JSON</a></nav>
+    <section class="controls"><label>公司<br><select><option value="">全部</option></select></label>
+    <label>标签<br><select><option value="">全部</option></select></label>
+    <label>情景<br><select><option value="">全部</option></select></label>
+    <label>搜索期间、指标、原件或事件<br><input type="search" placeholder="例如 2026-Q3"></label></section>
+    <div class="status" id="status" aria-live="polite"></div><nav><button id="prev">上一页</button>
+    <button id="next">下一页</button></nav><div class="scroll"><table><thead><tr><th scope="col">company</th><th scope="col">category</th><th scope="col">channel</th><th scope="col">revenue</th><th scope="col">cost</th><th scope="col">revenue_0</th><th scope="col">cost_0</th><th scope="col">gross_change</th><th scope="col">margin</th><th scope="col">margin_0</th><th scope="col">max_incremental_attributed_cash_cost</th><th scope="col">total_group_selling_cost_change</th><th scope="col">tag</th><th scope="col">source</th><th scope="col">design_tonnes</th></tr></thead>
+    <tbody></tbody></table></div><script type="application/json" id="data">[{"company":"002507_涪陵榨菜","category":"渠道","channel":"直销","revenue":122.2555826,"cost":67.24786737,"revenue_0":74.06007109,"cost_0":40.14001136,"gross_change":21.08765550000001,"margin":0.4499403140548283,"margin_0":0.4580073882021978,"max_incremental_attributed_cash_cost":21.08765550000001,"total_group_selling_cost_change":34.35092620999998,"tag":"算术","source":"002507-b901d0b919e32cba 物理第13页和合并利润表"},{"company":"002507_涪陵榨菜","category":"渠道","channel":"经销","revenue":1241.28116239,"cost":572.82196163,"revenue_0":1236.85903712,"cost_0":560.88098801,"gross_change":-7.518848350000098,"margin":0.5385236004652875,"margin_0":0.546527962219527,"max_incremental_attributed_cash_cost":-7.518848350000098,"total_group_selling_cost_change":34.35092620999998,"tag":"算术","source":"002507-b901d0b919e32cba 物理第13页和合并利润表"},{"company":"002507_涪陵榨菜","category":"基地","design_tonnes":160000,"utilisation":0.35,"replaced_volume_fraction":0.5,"incremental_tonnes":28000.0,"unit_price_proxy":18117.688015000003,"gross_contribution":253.64763221000004,"additional_selling_cash":76.094289663,"incremental_fixed_cash_cost":70,"pretax_increment_before_new_asset_depreciation":107.55334254700006,"maintenance_capex_proxy":30,"incremental_cash_before_working_capital_and_any_existing_site_savings":77.55334254700006,"tag":"情景","source":"2026中报物理第17页、2025年报物理第22–23页","fixed_conditions":"单位毛利50%、渠道费15%、每年固定现金70百万元、维持性购建30百万元均为情景。旧产能替代节省缺项。"},{"company":"002507_涪陵榨菜","category":"基地","design_tonnes":160000,"utilisation":0.35,"replaced_volume_fraction":0.8,"incremental_tonnes":11199.999999999998,"unit_price_proxy":18117.688015000003,"gross_contribution":101.459052884,"additional_selling_cash":30.437715865199998,"incremental_fixed_cash_cost":70,"pretax_increment_before_new_asset_depreciation":1.0213370188000113,"maintenance_capex_proxy":30,"incremental_cash_before_working_capital_and_any_existing_site_savings":-28.97866298119999,"tag":"情景","source":"2026中报物理第17页、2025年报物理第22–23页","fixed_conditions":"单位毛利50%、渠道费15%、每年固定现金70百万元、维持性购建30百万元均为情景。旧产能替代节省缺项。"},{"company":"002507_涪陵榨菜","category":"基地","design_tonnes":160000,"utilisation":0.55,"replaced_volume_fraction":0.5,"incremental_tonnes":44000.0,"unit_price_proxy":18117.688015000003,"gross_contribution":398.5891363300001,"additional_selling_cash":119.57674089900003,"incremental_fixed_cash_cost":70,"pretax_increment_before_new_asset_depreciation":209.01239543100007,"maintenance_capex_proxy":30,"incremental_cash_before_working_capital_and_any_existing_site_savings":179.01239543100007,"tag":"情景","source":"2026中报物理第17页、2025年报物理第22–23页","fixed_conditions":"单位毛利50%、渠道费15%、每年固定现金70百万元、维持性购建30百万元均为情景。旧产能替代节省缺项。"},{"company":"002507_涪陵榨菜","category":"基地","design_tonnes":160000,"utilisation":0.55,"replaced_volume_fraction":0.8,"incremental_tonnes":17599.999999999996,"unit_price_proxy":18117.688015000003,"gross_contribution":159.435654532,"additional_selling_cash":47.8306963596,"incremental_fixed_cash_cost":70,"pretax_increment_before_new_asset_depreciation":41.6049581724,"maintenance_capex_proxy":30,"incremental_cash_before_working_capital_and_any_existing_site_savings":11.604958172400003,"tag":"情景","source":"2026中报物理第17页、2025年报物理第22–23页","fixed_conditions":"单位毛利50%、渠道费15%、每年固定现金70百万元、维持性购建30百万元均为情景。旧产能替代节省缺项。"},{"company":"002507_涪陵榨菜","category":"基地","design_tonnes":160000,"utilisation":0.75,"replaced_volume_fraction":0.5,"incremental_tonnes":60000.0,"unit_price_proxy":18117.688015000003,"gross_contribution":543.5306404500001,"additional_selling_cash":163.05919213500002,"incremental_fixed_cash_cost":70,"pretax_increment_before_new_asset_depreciation":310.4714483150001,"maintenance_capex_proxy":30,"incremental_cash_before_working_capital_and_any_existing_site_savings":280.4714483150001,"tag":"情景","source":"2026中报物理第17页、2025年报物理第22–23页","fixed_conditions":"单位毛利50%、渠道费15%、每年固定现金70百万元、维持性购建30百万元均为情景。旧产能替代节省缺项。"},{"company":"002507_涪陵榨菜","category":"基地","design_tonnes":160000,"utilisation":0.75,"replaced_volume_fraction":0.8,"incremental_tonnes":23999.999999999996,"unit_price_proxy":18117.688015000003,"gross_contribution":217.41225618,"additional_selling_cash":65.223676854,"incremental_fixed_cash_cost":70,"pretax_increment_before_new_asset_depreciation":82.18857932600002,"maintenance_capex_proxy":30,"incremental_cash_before_working_capital_and_any_existing_site_savings":52.188579326000024,"tag":"情景","source":"2026中报物理第17页、2025年报物理第22–23页","fixed_conditions":"单位毛利50%、渠道费15%、每年固定现金70百万元、维持性购建30百万元均为情景。旧产能替代节省缺项。"},{"company":"002507_涪陵榨菜","category":"收现","q3_ytd_cash_goods_received":2156.74439113,"q3_prior_ytd_cash_goods_received":2117.1304425,"receivables":143.58362028,"prior_sept_ar":120.87533419,"begin_2026_ar":29.16903848,"cfo_less_capex":292.59355989999995,"source":["002507-d45bfdfdec6d4379 第4、7、9–11页","002507-6cd117ea1ac8beee 合并资产负债表"],"scope":"收现含销项税及期差。集团收现和费用无法归属渠道。"},{"company":"002507_涪陵榨菜","category":"反解","parameter":"margin","search":[0.02,0.8],"fixed":"显式期起点、成长因子、WACC及权益桥固定；仅变稳定利润率和过渡路径","roots":[0.15860665200454505],"gap_at_ends":[-3.930145771838439,14.537108106948152],"gap_min_max":[-3.930145771838439,14.537108106948152],"status":"有解","tag":"模型反解"},{"company":"002507_涪陵榨菜","category":"反解","parameter":"wc","search":[0.01,0.65],"fixed":"其余阶段16基准固定；只变经营营运资本需求占收入比例","roots":[],"gap_at_ends":[3.7966048041024827,2.913047945096057],"gap_min_max":[2.913047945096057,3.7966048041024827],"status":"搜索区间无交点","tag":"模型反解"},{"company":"002507_涪陵榨菜","category":"反解","parameter":"rate","search":[0.026,0.22],"fixed":"阶段16基准经营、现金和权益桥固定，只变WACC","roots":[0.090811994072799],"gap_at_ends":[71.55199216017473,-4.23430010684658],"gap_min_max":[-4.23430010684658,71.55199216017473],"status":"有解","tag":"模型反解"}]</script>
+    <script type="application/json" id="columns">["company","category","channel","revenue","cost","revenue_0","cost_0","gross_change","margin","margin_0","max_incremental_attributed_cash_cost","total_group_selling_cost_change","tag","source","design_tonnes"]</script><script>
+const rows = JSON.parse(document.querySelector('#data').textContent);
+const columns = JSON.parse(document.querySelector('#columns').textContent);
+const selector = [...document.querySelectorAll('select')];
+const body = document.querySelector('tbody');
+const search = document.querySelector('input[type=search]');
+const status = document.querySelector('#status');
+const filters = ['company','tag','scenario'];
+let page = 0;
+const size = 60;
+selector.forEach((select, i) => {
+  [...new Set(rows.map(row => row[filters[i]]).filter(Boolean))].sort().forEach(value => {
+    const option = document.createElement('option');
+    option.value = value;
+    option.textContent = value;
+    select.append(option);
+  });
+});
+const index = rows.map(row => JSON.stringify(row).toLowerCase());
+function render() {
+  const terms = search.value.toLowerCase().trim().split(/\s+/);
+  const result = rows.filter((row, i) => selector.every((s, n) => !s.value || row[filters[n]] === s.value) &&
+                                         terms.every(term => index[i].includes(term)));
+  const maxPage = Math.max(0, Math.ceil(result.length / size) - 1);
+  page = Math.min(maxPage, Math.max(0, page));
+  status.textContent = '共 ' + result.length + ' 行 · 第 ' + (page+1) + ' / ' + (maxPage+1) + ' 页';
+  body.replaceChildren();
+  for (const row of result.slice(page * size, (page+1)*size)) {
+    const tr = document.createElement('tr');
+    if (row.anchor) tr.id = row.anchor;
+    columns.forEach(key => {
+      const td = document.createElement('td');
+      const value = row[key];
+      if (key === 'url' && value && /^https?:/.test(value)) {
+        const a = document.createElement('a');
+        a.textContent = '发行人或监管原件';
+        a.href = value;
+        td.append(a);
+      } else if (key === 'jump' && value) {
+        const a = document.createElement('a');
+        a.textContent = '当前账本条目';
+        a.href = value;
+        td.append(a);
+      } else if (value != null && typeof value === 'object') {
+        const details = document.createElement('details');
+        const summary = document.createElement('summary');
+        const pre = document.createElement('pre');
+        summary.textContent = '展开';
+        pre.textContent = JSON.stringify(value,null,2);
+        details.append(summary,pre);
+        td.append(details);
+      } else {
+        td.textContent = value ?? '—';
+      }
+      tr.append(td);
+    });
+    body.append(tr);
+  }
+}
+document.querySelector('.controls').addEventListener('input', () => { page=0; render(); });
+document.querySelector('#prev').onclick=()=>{page--; render();};
+document.querySelector('#next').onclick=()=>{page++; render();};
+if (location.hash) {
+  const anchor = decodeURIComponent(location.hash.substring(1));
+  const match = rows.find(x => x.anchor === anchor);
+  if (match) search.value = match.anchor;
+}
+render();
+</script></body></html>

@@ -1,0 +1,246 @@
+[
+  {
+    "company": "US_ISRG_直觉外科",
+    "category": "参数组合",
+    "installation_growth": 0.09816350228915138,
+    "ia_per_case_growth": 0.003,
+    "wacc": 0.09772241084143635,
+    "utilisation_growth": null,
+    "reverse": {
+      "search": [
+        -0.03,
+        0.12
+      ],
+      "fixed": "安装、耗材单价增速、折现率、服务、租赁构成、制造现金和终值固定为本行条件；仅解利用率",
+      "roots": [],
+      "gap_at_ends": [
+        -284.84542274609,
+        -172.37653088867415
+      ],
+      "gap_min_max": [
+        -284.84542274609,
+        -172.37653088867415
+      ],
+      "status": "搜索区间无交点",
+      "tag": "模型反解"
+    },
+    "year_2031": null,
+    "tag": "模型反解"
+  },
+  {
+    "company": "US_ISRG_直觉外科",
+    "category": "参数组合",
+    "installation_growth": 0.13,
+    "ia_per_case_growth": 0.015,
+    "wacc": 0.09772241084143635,
+    "utilisation_growth": null,
+    "reverse": {
+      "search": [
+        -0.03,
+        0.12
+      ],
+      "fixed": "安装、耗材单价增速、折现率、服务、租赁构成、制造现金和终值固定为本行条件；仅解利用率",
+      "roots": [],
+      "gap_at_ends": [
+        -255.36222802958355,
+        -109.90285857479876
+      ],
+      "gap_min_max": [
+        -255.36222802958355,
+        -109.90285857479876
+      ],
+      "status": "搜索区间无交点",
+      "tag": "模型反解"
+    },
+    "year_2031": null,
+    "tag": "模型反解"
+  },
+  {
+    "company": "US_ISRG_直觉外科",
+    "category": "参数组合",
+    "installation_growth": 0.16,
+    "ia_per_case_growth": 0.02,
+    "wacc": 0.09772241084143635,
+    "utilisation_growth": null,
+    "reverse": {
+      "search": [
+        -0.03,
+        0.12
+      ],
+      "fixed": "安装、耗材单价增速、折现率、服务、租赁构成、制造现金和终值固定为本行条件；仅解利用率",
+      "roots": [],
+      "gap_at_ends": [
+        -225.92854231929113,
+        -48.23466161481525
+      ],
+      "gap_min_max": [
+        -225.92854231929113,
+        -48.23466161481525
+      ],
+      "status": "搜索区间无交点",
+      "tag": "模型反解"
+    },
+    "year_2031": null,
+    "tag": "模型反解"
+  },
+  {
+    "company": "US_ISRG_直觉外科",
+    "category": "参数组合",
+    "installation_growth": 0.13,
+    "ia_per_case_growth": 0.015,
+    "wacc": 0.08,
+    "utilisation_growth": 0.10617140467605812,
+    "reverse": {
+      "search": [
+        -0.03,
+        0.12
+      ],
+      "fixed": "安装、耗材单价增速、折现率、服务、租赁构成、制造现金和终值固定为本行条件；仅解利用率",
+      "roots": [
+        0.10617140467605812
+      ],
+      "gap_at_ends": [
+        -186.54688783949626,
+        27.887261980327423
+      ],
+      "gap_min_max": [
+        -186.54688783949626,
+        27.887261980327423
+      ],
+      "status": "有解",
+      "tag": "模型反解"
+    },
+    "year_2031": {
+      "year": 2031,
+      "revenue": 31449.230810174617,
+      "segments": {
+        "ia": 21604.909392052523,
+        "service": 3527.7455149934945,
+        "sale_and_buyout": 3492.88776584874,
+        "fixed_lease_proxy": 729.8946140516804,
+        "usage_lease_proxy": 2093.7935232281798
+      },
+      "installed_end": 22246.07773630034,
+      "average_active": 20323.144995160157,
+      "active_fraction": 0.96,
+      "procedures_per_average_active": 511.9844836673471,
+      "da_vinci_procedures": 10405134.896843702,
+      "ion_cases": 334137.8744327842,
+      "ia_per_total_procedure": 2011.7665182913997,
+      "sold_equivalent": 2129.8096133224026,
+      "leased_placements": 1707.9626729860656,
+      "cash_manufacturing": 1451.7682720381558,
+      "cost_per_lease_placement": 0.85,
+      "usage_lease_revenue_per_eligible_procedure": 1232.8463480188866,
+      "fixed_lease_revenue_per_installed": 274730.7916983494,
+      "service_per_active_proxy": 173582.6574003978,
+      "cash_capex": 1926.2653871231953,
+      "depreciation": 1541.0123096985562,
+      "wc": 8491.292318747148,
+      "delta_wc": 1353.6349771479072,
+      "raw_reinvestment": 3190.656326610702,
+      "margin": 0.3140920284647221,
+      "nopat": 8099.921213034845,
+      "cash_tax": 1778.0314857881365,
+      "operating_profit": 9877.95269882298,
+      "fade": 0,
+      "tag": "Forecast",
+      "net_reinvestment": 3190.656326610702,
+      "model_cash_after_date": 4909.264886424144,
+      "t": 5.134246575342559,
+      "present_value": 3306.820821929359
+    },
+    "tag": "模型反解"
+  },
+  {
+    "company": "US_ISRG_直觉外科",
+    "category": "参数组合",
+    "installation_growth": 0.16,
+    "ia_per_case_growth": 0.02,
+    "wacc": 0.08,
+    "utilisation_growth": 0.06553223287197774,
+    "reverse": {
+      "search": [
+        -0.03,
+        0.12
+      ],
+      "fixed": "安装、耗材单价增速、折现率、服务、租赁构成、制造现金和终值固定为本行条件；仅解利用率",
+      "roots": [
+        0.06553223287197774
+      ],
+      "gap_at_ends": [
+        -141.85073102126478,
+        121.53237946920399
+      ],
+      "gap_min_max": [
+        -141.85073102126478,
+        121.53237946920399
+      ],
+      "status": "有解",
+      "tag": "模型反解"
+    },
+    "year_2031": {
+      "year": 2031,
+      "revenue": 31595.08774284115,
+      "segments": {
+        "ia": 20902.78774385277,
+        "service": 3950.4891145236966,
+        "sale_and_buyout": 3911.454224402547,
+        "fixed_lease_proxy": 817.3607521590046,
+        "usage_lease_proxy": 2012.995907903133
+      },
+      "installed_end": 25158.358972795962,
+      "average_active": 22758.54727475006,
+      "active_fraction": 0.96,
+      "procedures_per_average_active": 429.5789071073195,
+      "da_vinci_procedures": 9776591.865637396,
+      "ion_cases": 377880.57252312003,
+      "ia_per_total_procedure": 2058.4809177579796,
+      "sold_equivalent": 2385.0330636600897,
+      "leased_placements": 2057.5190957560962,
+      "cash_manufacturing": 1748.8912313926817,
+      "cost_per_lease_placement": 0.85,
+      "usage_lease_revenue_per_eligible_procedure": 1261.473763903699,
+      "fixed_lease_revenue_per_installed": 274730.7916983494,
+      "service_per_active_proxy": 173582.6574003978,
+      "cash_capex": 1935.1991242490205,
+      "depreciation": 1548.1592993992165,
+      "wc": 8530.673690567111,
+      "delta_wc": 1372.0103847704058,
+      "raw_reinvestment": 3507.9414410128916,
+      "margin": 0.3140920284647221,
+      "nopat": 8137.487462909283,
+      "cash_tax": 1786.2777357605742,
+      "operating_profit": 9923.765198669857,
+      "fade": 0,
+      "tag": "Forecast",
+      "net_reinvestment": 3507.9414410128916,
+      "model_cash_after_date": 4629.546021896391,
+      "t": 5.134246575342559,
+      "present_value": 3118.405613765565
+    },
+    "tag": "模型反解"
+  },
+  {
+    "company": "US_ISRG_直觉外科",
+    "category": "贴现率反解",
+    "search": [
+      0.03,
+      0.22
+    ],
+    "fixed": "阶段16基准安装、每台术量、耗材每例、制造与其他投入固定",
+    "roots": [
+      0.05732255862908364
+    ],
+    "gap_at_ends": [
+      4261.2384717500645,
+      -376.16613409463434
+    ],
+    "gap_min_max": [
+      -376.16613409463434,
+      4261.2384717500645
+    ],
+    "status": "有解",
+    "tag": "模型反解"
+  }
+]

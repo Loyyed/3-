@@ -1,0 +1,22 @@
+[
+  {
+    "company": "600298_安琪酵母",
+    "tag": "期后披露·Agent对读",
+    "period": "2026-11-17",
+    "metric": "6万吨食品原料项目预算调整",
+    "disclosed": "2026-11-17",
+    "checked": "2026-11-19",
+    "source_id": "600298 2026-090",
+    "locator": "公司公告PDF物理第1、3页",
+    "source_sha256": "c9765ab61b6940fdb8c10e941fb4fa022e95f5ebc0e6faf5332cd602d8436b5b",
+    "url": "https://file.finance.sina.com.cn/211.154.219.97:9494/MRGG/CNSESH_STOCK/2026/2026-11/2026-11-17/12708521.PDF",
+    "hosting": "发行人签章公告原始PDF的第三方镜像。上交所端请求未返回PDF。",
+    "original_capture": ".local/research16/anqi-post.pdf",
+    "used_in_asof_valuation": false,
+    "old_plan_million": 215.24,
+    "revised_plan_million": 236.53,
+    "budget_delta_million": 21.29,
+    "stated_initial_roi": 0.1369,
+    "note": "董事会审议的预算调整，尚待股东会及有关部门批准。期后证据支持继续检验资本预算弹性，13.69%为预计项目收益率。"
+  }
+]

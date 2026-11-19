@@ -1,0 +1,224 @@
+[
+  {
+    "company": "002507_涪陵榨菜",
+    "category": "渠道",
+    "channel": "直销",
+    "revenue": 122.2555826,
+    "cost": 67.24786737,
+    "revenue_0": 74.06007109,
+    "cost_0": 40.14001136,
+    "gross_change": 21.08765550000001,
+    "margin": 0.4499403140548283,
+    "margin_0": 0.4580073882021978,
+    "max_incremental_attributed_cash_cost": 21.08765550000001,
+    "total_group_selling_cost_change": 34.35092620999998,
+    "tag": "算术",
+    "source": "002507-b901d0b919e32cba 物理第13页和合并利润表"
+  },
+  {
+    "company": "002507_涪陵榨菜",
+    "category": "渠道",
+    "channel": "经销",
+    "revenue": 1241.28116239,
+    "cost": 572.82196163,
+    "revenue_0": 1236.85903712,
+    "cost_0": 560.88098801,
+    "gross_change": -7.518848350000098,
+    "margin": 0.5385236004652875,
+    "margin_0": 0.546527962219527,
+    "max_incremental_attributed_cash_cost": -7.518848350000098,
+    "total_group_selling_cost_change": 34.35092620999998,
+    "tag": "算术",
+    "source": "002507-b901d0b919e32cba 物理第13页和合并利润表"
+  },
+  {
+    "company": "002507_涪陵榨菜",
+    "category": "基地",
+    "design_tonnes": 160000,
+    "utilisation": 0.35,
+    "replaced_volume_fraction": 0.5,
+    "incremental_tonnes": 28000.0,
+    "unit_price_proxy": 18117.688015000003,
+    "gross_contribution": 253.64763221000004,
+    "additional_selling_cash": 76.094289663,
+    "incremental_fixed_cash_cost": 70,
+    "pretax_increment_before_new_asset_depreciation": 107.55334254700006,
+    "maintenance_capex_proxy": 30,
+    "incremental_cash_before_working_capital_and_any_existing_site_savings": 77.55334254700006,
+    "tag": "情景",
+    "source": "2026中报物理第17页、2025年报物理第22–23页",
+    "fixed_conditions": "单位毛利50%、渠道费15%、每年固定现金70百万元、维持性购建30百万元均为情景。旧产能替代节省缺项。"
+  },
+  {
+    "company": "002507_涪陵榨菜",
+    "category": "基地",
+    "design_tonnes": 160000,
+    "utilisation": 0.35,
+    "replaced_volume_fraction": 0.8,
+    "incremental_tonnes": 11199.999999999998,
+    "unit_price_proxy": 18117.688015000003,
+    "gross_contribution": 101.459052884,
+    "additional_selling_cash": 30.437715865199998,
+    "incremental_fixed_cash_cost": 70,
+    "pretax_increment_before_new_asset_depreciation": 1.0213370188000113,
+    "maintenance_capex_proxy": 30,
+    "incremental_cash_before_working_capital_and_any_existing_site_savings": -28.97866298119999,
+    "tag": "情景",
+    "source": "2026中报物理第17页、2025年报物理第22–23页",
+    "fixed_conditions": "单位毛利50%、渠道费15%、每年固定现金70百万元、维持性购建30百万元均为情景。旧产能替代节省缺项。"
+  },
+  {
+    "company": "002507_涪陵榨菜",
+    "category": "基地",
+    "design_tonnes": 160000,
+    "utilisation": 0.55,
+    "replaced_volume_fraction": 0.5,
+    "incremental_tonnes": 44000.0,
+    "unit_price_proxy": 18117.688015000003,
+    "gross_contribution": 398.5891363300001,
+    "additional_selling_cash": 119.57674089900003,
+    "incremental_fixed_cash_cost": 70,
+    "pretax_increment_before_new_asset_depreciation": 209.01239543100007,
+    "maintenance_capex_proxy": 30,
+    "incremental_cash_before_working_capital_and_any_existing_site_savings": 179.01239543100007,
+    "tag": "情景",
+    "source": "2026中报物理第17页、2025年报物理第22–23页",
+    "fixed_conditions": "单位毛利50%、渠道费15%、每年固定现金70百万元、维持性购建30百万元均为情景。旧产能替代节省缺项。"
+  },
+  {
+    "company": "002507_涪陵榨菜",
+    "category": "基地",
+    "design_tonnes": 160000,
+    "utilisation": 0.55,
+    "replaced_volume_fraction": 0.8,
+    "incremental_tonnes": 17599.999999999996,
+    "unit_price_proxy": 18117.688015000003,
+    "gross_contribution": 159.435654532,
+    "additional_selling_cash": 47.8306963596,
+    "incremental_fixed_cash_cost": 70,
+    "pretax_increment_before_new_asset_depreciation": 41.6049581724,
+    "maintenance_capex_proxy": 30,
+    "incremental_cash_before_working_capital_and_any_existing_site_savings": 11.604958172400003,
+    "tag": "情景",
+    "source": "2026中报物理第17页、2025年报物理第22–23页",
+    "fixed_conditions": "单位毛利50%、渠道费15%、每年固定现金70百万元、维持性购建30百万元均为情景。旧产能替代节省缺项。"
+  },
+  {
+    "company": "002507_涪陵榨菜",
+    "category": "基地",
+    "design_tonnes": 160000,
+    "utilisation": 0.75,
+    "replaced_volume_fraction": 0.5,
+    "incremental_tonnes": 60000.0,
+    "unit_price_proxy": 18117.688015000003,
+    "gross_contribution": 543.5306404500001,
+    "additional_selling_cash": 163.05919213500002,
+    "incremental_fixed_cash_cost": 70,
+    "pretax_increment_before_new_asset_depreciation": 310.4714483150001,
+    "maintenance_capex_proxy": 30,
+    "incremental_cash_before_working_capital_and_any_existing_site_savings": 280.4714483150001,
+    "tag": "情景",
+    "source": "2026中报物理第17页、2025年报物理第22–23页",
+    "fixed_conditions": "单位毛利50%、渠道费15%、每年固定现金70百万元、维持性购建30百万元均为情景。旧产能替代节省缺项。"
+  },
+  {
+    "company": "002507_涪陵榨菜",
+    "category": "基地",
+    "design_tonnes": 160000,
+    "utilisation": 0.75,
+    "replaced_volume_fraction": 0.8,
+    "incremental_tonnes": 23999.999999999996,
+    "unit_price_proxy": 18117.688015000003,
+    "gross_contribution": 217.41225618,
+    "additional_selling_cash": 65.223676854,
+    "incremental_fixed_cash_cost": 70,
+    "pretax_increment_before_new_asset_depreciation": 82.18857932600002,
+    "maintenance_capex_proxy": 30,
+    "incremental_cash_before_working_capital_and_any_existing_site_savings": 52.188579326000024,
+    "tag": "情景",
+    "source": "2026中报物理第17页、2025年报物理第22–23页",
+    "fixed_conditions": "单位毛利50%、渠道费15%、每年固定现金70百万元、维持性购建30百万元均为情景。旧产能替代节省缺项。"
+  },
+  {
+    "company": "002507_涪陵榨菜",
+    "category": "收现",
+    "q3_ytd_cash_goods_received": 2156.74439113,
+    "q3_prior_ytd_cash_goods_received": 2117.1304425,
+    "receivables": 143.58362028,
+    "prior_sept_ar": 120.87533419,
+    "begin_2026_ar": 29.16903848,
+    "cfo_less_capex": 292.59355989999995,
+    "source": [
+      "002507-d45bfdfdec6d4379 第4、7、9–11页",
+      "002507-6cd117ea1ac8beee 合并资产负债表"
+    ],
+    "scope": "收现含销项税及期差。集团收现和费用无法归属渠道。"
+  },
+  {
+    "company": "002507_涪陵榨菜",
+    "category": "反解",
+    "parameter": "margin",
+    "search": [
+      0.02,
+      0.8
+    ],
+    "fixed": "显式期起点、成长因子、WACC及权益桥固定；仅变稳定利润率和过渡路径",
+    "roots": [
+      0.15860665200454505
+    ],
+    "gap_at_ends": [
+      -3.930145771838439,
+      14.537108106948152
+    ],
+    "gap_min_max": [
+      -3.930145771838439,
+      14.537108106948152
+    ],
+    "status": "有解",
+    "tag": "模型反解"
+  },
+  {
+    "company": "002507_涪陵榨菜",
+    "category": "反解",
+    "parameter": "wc",
+    "search": [
+      0.01,
+      0.65
+    ],
+    "fixed": "其余阶段16基准固定；只变经营营运资本需求占收入比例",
+    "roots": [],
+    "gap_at_ends": [
+      3.7966048041024827,
+      2.913047945096057
+    ],
+    "gap_min_max": [
+      2.913047945096057,
+      3.7966048041024827
+    ],
+    "status": "搜索区间无交点",
+    "tag": "模型反解"
+  },
+  {
+    "company": "002507_涪陵榨菜",
+    "category": "反解",
+    "parameter": "rate",
+    "search": [
+      0.026,
+      0.22
+    ],
+    "fixed": "阶段16基准经营、现金和权益桥固定，只变WACC",
+    "roots": [
+      0.090811994072799
+    ],
+    "gap_at_ends": [
+      71.55199216017473,
+      -4.23430010684658
+    ],
+    "gap_min_max": [
+      -4.23430010684658,
+      71.55199216017473
+    ],
+    "status": "有解",
+    "tag": "模型反解"
+  }
+]

@@ -1,0 +1,94 @@
+<!doctype html><html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>安琪β、融资成本和临界线</title><style>
+:root{font-family:system-ui,'Microsoft YaHei',sans-serif;color:#172624;background:#f8f9f5;color-scheme:light}
+body{max-width:1220px;margin:auto;padding:clamp(12px,3vw,36px);line-height:1.62}
+header{border-bottom:1px solid #c9d5ce;margin-bottom:20px;padding-bottom:14px}
+a{color:#005852;text-underline-offset:3px} h1{line-height:1.16;margin:.5em 0} h2{margin-top:1.6rem}
+nav,.controls{display:flex;gap:10px 18px;flex-wrap:wrap;align-items:end}
+input,select,button{font:inherit;border:1px solid #9cb2a3;border-radius:5px;padding:6px 8px;background:white;color:#172624}
+button{cursor:pointer} .status{margin:.8em 0;color:#354e49}
+.scroll{overflow:auto;max-height:72vh;border:1px solid #c9d5ce;border-radius:6px;background:#fff}
+table{border-collapse:collapse;width:100%;font-size:.9rem}
+th,td{padding:8px 12px;border-bottom:1px solid #e0e7e1;text-align:left;vertical-align:top}
+thead th{position:sticky;top:0;background:#e7efe9;white-space:nowrap}
+td{min-width:90px;max-width:360px;overflow-wrap:anywhere}
+pre{max-width:420px;white-space:pre-wrap;overflow-wrap:anywhere;font-size:.8rem}
+article{max-width:82ch} article p{line-height:1.8} .grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:12px}
+.tile{padding:13px 16px;border:1px solid #d6e1d9;border-radius:6px;background:white}
+@media print{.controls,nav{display:none}.scroll{max-height:none;overflow:visible}thead th{position:static}}
+</style></head><body><header><nav><a href="index.html">阶段16总览</a></nav><h1>安琪β、融资成本和临界线</h1></header><nav><a href="anqi-risk.csv" download>完整 CSV</a><a href="anqi-risk.json" download>完整 JSON</a></nav>
+    <section class="controls"><label>公司<br><select><option value="">全部</option></select></label>
+    <label>标签<br><select><option value="">全部</option></select></label>
+    <label>情景<br><select><option value="">全部</option></select></label>
+    <label>搜索期间、指标、原件或事件<br><input type="search" placeholder="例如 2026-Q3"></label></section>
+    <div class="status" id="status" aria-live="polite"></div><nav><button id="prev">上一页</button>
+    <button id="next">下一页</button></nav><div class="scroll"><table><thead><tr><th scope="col">company</th><th scope="col">category</th><th scope="col">n</th><th scope="col">beta</th><th scope="col">r2</th><th scope="col">parameter</th><th scope="col">value</th><th scope="col">critical_wacc</th><th scope="col">value_at_16_wacc</th><th scope="col">wacc</th><th scope="col">per_share</th><th scope="col">scope</th><th scope="col">roots</th><th scope="col">status</th></tr></thead>
+    <tbody></tbody></table></div><script type="application/json" id="data">[{"company":"600298_安琪酵母","category":"窗口回归","n":52,"dates":["2025-11-07","2026-11-12"],"beta":-0.17447541513963216,"r2":0.005566061173768201,"se":0.32980954434556,"approximate_95":[-0.8261790747664587,0.47722824448719436]},{"company":"600298_安琪酵母","category":"窗口回归","n":104,"dates":["2024-11-08","2026-11-12"],"beta":0.27777136482663245,"r2":0.019143843097884954,"se":0.19686816126172857,"approximate_95":[-0.11124012182654319,0.6667828514798081]},{"company":"600298_安琪酵母","category":"窗口回归","n":155,"dates":["2023-11-10","2026-11-12"],"beta":0.4370862017677655,"r2":0.07680304378911253,"se":0.12251220238766261,"approximate_95":[0.1950020898497442,0.6791703136857868]},{"company":"600298_安琪酵母","category":"价格临界","parameter":"新增资本回报","value":0.08,"critical_wacc":{"search":[0.025,0.16],"fixed":"阶段16基准经营、稳定增长和权益桥；新增资本回报固定为本行","roots":[0.06968257707513323],"gap_at_ends":[812.940964900365,-33.49488864020206],"gap_min_max":[-33.49488864020206,812.940964900365],"status":"有解","tag":"模型反解"},"value_at_16_wacc":50.78452558377168},{"company":"600298_安琪酵母","category":"价格临界","parameter":"新增资本回报","value":0.1,"critical_wacc":{"search":[0.025,0.16],"fixed":"阶段16基准经营、稳定增长和权益桥；新增资本回报固定为本行","roots":[0.07302391111112824],"gap_at_ends":[878.5014105616834,-32.45866814879133],"gap_min_max":[-32.45866814879133,878.5014105616834],"status":"有解","tag":"模型反解"},"value_at_16_wacc":55.63331026783343},{"company":"600298_安琪酵母","category":"价格临界","parameter":"新增资本回报","value":0.112,"critical_wacc":{"search":[0.025,0.16],"fixed":"阶段16基准经营、稳定增长和权益桥；新增资本回报固定为本行","roots":[0.07444367461130719],"gap_at_ends":[906.5987444165343,-32.01457365247245],"gap_min_max":[-32.01457365247245,906.5987444165343],"status":"有解","tag":"模型反解"},"value_at_16_wacc":57.71136084671705},{"company":"600298_安琪酵母","category":"价格临界","parameter":"新增资本回报","value":0.13,"critical_wacc":{"search":[0.025,0.16],"fixed":"阶段16基准经营、稳定增长和权益桥；新增资本回报固定为本行","roots":[0.07607277390759981],"gap_at_ends":[939.0187450182849,-31.502156925950665],"gap_min_max":[-31.502156925950665,939.0187450182849],"status":"有解","tag":"模型反解"},"value_at_16_wacc":60.109111514659695},{"company":"600298_安琪酵母","category":"价格临界","parameter":"新增资本回报","value":0.15,"critical_wacc":{"search":[0.025,0.16],"fixed":"阶段16基准经营、稳定增长和权益桥；新增资本回报固定为本行","roots":[0.07741695451472907],"gap_at_ends":[965.915338110108,-31.077040826910366],"gap_min_max":[-31.077040826910366,965.915338110108],"status":"有解","tag":"模型反解"},"value_at_16_wacc":62.09835651324913},{"company":"600298_安琪酵母","category":"价格临界","parameter":"新增资本回报","value":0.18,"critical_wacc":{"search":[0.025,0.16],"fixed":"阶段16基准经营、稳定增长和权益桥；新增资本回报固定为本行","roots":[0.07886563554119694],"gap_at_ends":[995.0533139595831,-30.61649838628337],"gap_min_max":[-30.61649838628337,995.0533139595831],"status":"有解","tag":"模型反解"},"value_at_16_wacc":64.2533719283877},{"company":"600298_安琪酵母","category":"价格临界","parameter":"营运资本比率","value":0.22,"critical_wacc":{"search":[0.025,0.16],"fixed":"阶段16基准经营、稳定增长和权益桥；营运资本比率固定为本行","roots":[0.07551417414902481],"gap_at_ends":[907.7708043369303,-31.070789429489157],"gap_min_max":[-31.070789429489157,907.7708043369303],"status":"有解","tag":"模型反解"},"value_at_16_wacc":58.810026961011985},{"company":"600298_安琪酵母","category":"价格临界","parameter":"营运资本比率","value":0.25,"critical_wacc":{"search":[0.025,0.16],"fixed":"阶段16基准经营、稳定增长和权益桥；营运资本比率固定为本行","roots":[0.07479601742443609],"gap_at_ends":[906.9894310566661,-31.69997891147802],"gap_min_max":[-31.69997891147802,906.9894310566661],"status":"有解","tag":"模型反解"},"value_at_16_wacc":58.07758288481536},{"company":"600298_安琪酵母","category":"价格临界","parameter":"营运资本比率","value":0.265,"critical_wacc":{"search":[0.025,0.16],"fixed":"阶段16基准经营、稳定增长和权益桥；营运资本比率固定为本行","roots":[0.07444367461130719],"gap_at_ends":[906.5987444165343,-32.01457365247245],"gap_min_max":[-32.01457365247245,906.5987444165343],"status":"有解","tag":"模型反解"},"value_at_16_wacc":57.71136084671705},{"company":"600298_安琪酵母","category":"价格临界","parameter":"营运资本比率","value":0.3,"critical_wacc":{"search":[0.025,0.16],"fixed":"阶段16基准经营、稳定增长和权益桥；营运资本比率固定为本行","roots":[0.07363846568922675],"gap_at_ends":[905.6871422562261,-32.74862804812613],"gap_min_max":[-32.74862804812613,905.6871422562261],"status":"有解","tag":"模型反解"},"value_at_16_wacc":56.85684275782099},{"company":"600298_安琪酵母","category":"价格临界","parameter":"营运资本比率","value":0.35,"critical_wacc":{"search":[0.025,0.16],"fixed":"阶段16基准经营、稳定增长和权益桥；营运资本比率固定为本行","roots":[0.07252771020781529],"gap_at_ends":[904.384853455786,-33.79727718477424],"gap_min_max":[-33.79727718477424,904.384853455786],"status":"有解","tag":"模型反解"},"value_at_16_wacc":55.63610263082662},{"company":"600298_安琪酵母","category":"双参数估值","beta":0.6,"cost":0.025,"wacc":0.04181661394379553,"per_share":126.24780093180038},{"company":"600298_安琪酵母","category":"双参数估值","beta":0.6,"cost":0.032,"wacc":0.04300191545921676,"per_share":118.06001651765959},{"company":"600298_安琪酵母","category":"双参数估值","beta":0.6,"cost":0.042,"wacc":0.04469520333838993,"per_share":107.8542826915946},{"company":"600298_安琪酵母","category":"双参数估值","beta":0.8,"cost":0.025,"wacc":0.050161507824763356,"per_share":83.3314359691939},{"company":"600298_安琪酵母","category":"双参数估值","beta":0.8,"cost":0.032,"wacc":0.05134680934018458,"per_share":79.22814272369511},{"company":"600298_安琪酵母","category":"双参数估值","beta":0.8,"cost":0.042,"wacc":0.053040097219357756,"per_share":73.9150183379328},{"company":"600298_安琪酵母","category":"双参数估值","beta":1,"cost":0.025,"wacc":0.05850640170573117,"per_share":60.160957455563775},{"company":"600298_安琪酵母","category":"双参数估值","beta":1,"cost":0.032,"wacc":0.059691703221152394,"per_share":57.71136084671705},{"company":"600298_安琪酵母","category":"双参数估值","beta":1,"cost":0.042,"wacc":0.06138499110032557,"per_share":54.47145278313612},{"company":"600298_安琪酵母","category":"双参数估值","beta":1.2,"cost":0.025,"wacc":0.06685129558669899,"per_share":45.707716050671344},{"company":"600298_安琪酵母","category":"双参数估值","beta":1.2,"cost":0.032,"wacc":0.0680365971021202,"per_share":44.08692051966087},{"company":"600298_安琪酵母","category":"双参数估值","beta":1.2,"cost":0.042,"wacc":0.06972988498129339,"per_share":41.91402284084739},{"company":"600298_安琪酵母","category":"双参数估值","beta":1.4,"cost":0.025,"wacc":0.0751961894676668,"per_share":35.863794328582756},{"company":"600298_安琪酵母","category":"双参数估值","beta":1.4,"cost":0.032,"wacc":0.07638149098308802,"per_share":34.71624560180118},{"company":"600298_安琪酵母","category":"双参数估值","beta":1.4,"cost":0.042,"wacc":0.0780747788622612,"per_share":33.163332964090266},{"company":"600298_安琪酵母","category":"资金与原价锚","loan_and_bond_2025_end":8145.833093950001,"loan_and_bond_2026Q3_end":8634.031726640002,"average":8389.932410295001,"expense_2026YTD":142.35444363,"apparent_annual_expense_ratio":0.022623057678878983,"scope":"期初期末债务近似均值，包含一年内到期非流动负债大项。费用不含资本化，存量借款和近期边际不等价。3.2%保留作为报价未获时的条件。","source":["600298-a14b53fefcfc0356物理第75页","600298-5c763f656754f15e物理第8–10页"]},{"company":"600298_安琪酵母","category":"资金与原价锚","search":[0.025,0.22],"fixed":"阶段15基准全部经营假设和权益桥固定","roots":[0.06990039155264499],"gap_at_ends":[788.3341650930353,-37.56706295285023],"gap_min_max":[-37.56706295285023,788.3341650930353],"status":"有解","tag":"模型反解"}]</script>
+    <script type="application/json" id="columns">["company","category","n","beta","r2","parameter","value","critical_wacc","value_at_16_wacc","wacc","per_share","scope","roots","status"]</script><script>
+const rows = JSON.parse(document.querySelector('#data').textContent);
+const columns = JSON.parse(document.querySelector('#columns').textContent);
+const selector = [...document.querySelectorAll('select')];
+const body = document.querySelector('tbody');
+const search = document.querySelector('input[type=search]');
+const status = document.querySelector('#status');
+const filters = ['company','tag','scenario'];
+let page = 0;
+const size = 60;
+selector.forEach((select, i) => {
+  [...new Set(rows.map(row => row[filters[i]]).filter(Boolean))].sort().forEach(value => {
+    const option = document.createElement('option');
+    option.value = value;
+    option.textContent = value;
+    select.append(option);
+  });
+});
+const index = rows.map(row => JSON.stringify(row).toLowerCase());
+function render() {
+  const terms = search.value.toLowerCase().trim().split(/\s+/);
+  const result = rows.filter((row, i) => selector.every((s, n) => !s.value || row[filters[n]] === s.value) &&
+                                         terms.every(term => index[i].includes(term)));
+  const maxPage = Math.max(0, Math.ceil(result.length / size) - 1);
+  page = Math.min(maxPage, Math.max(0, page));
+  status.textContent = '共 ' + result.length + ' 行 · 第 ' + (page+1) + ' / ' + (maxPage+1) + ' 页';
+  body.replaceChildren();
+  for (const row of result.slice(page * size, (page+1)*size)) {
+    const tr = document.createElement('tr');
+    if (row.anchor) tr.id = row.anchor;
+    columns.forEach(key => {
+      const td = document.createElement('td');
+      const value = row[key];
+      if (key === 'url' && value && /^https?:/.test(value)) {
+        const a = document.createElement('a');
+        a.textContent = '发行人或监管原件';
+        a.href = value;
+        td.append(a);
+      } else if (key === 'jump' && value) {
+        const a = document.createElement('a');
+        a.textContent = '当前账本条目';
+        a.href = value;
+        td.append(a);
+      } else if (value != null && typeof value === 'object') {
+        const details = document.createElement('details');
+        const summary = document.createElement('summary');
+        const pre = document.createElement('pre');
+        summary.textContent = '展开';
+        pre.textContent = JSON.stringify(value,null,2);
+        details.append(summary,pre);
+        td.append(details);
+      } else {
+        td.textContent = value ?? '—';
+      }
+      tr.append(td);
+    });
+    body.append(tr);
+  }
+}
+document.querySelector('.controls').addEventListener('input', () => { page=0; render(); });
+document.querySelector('#prev').onclick=()=>{page--; render();};
+document.querySelector('#next').onclick=()=>{page++; render();};
+if (location.hash) {
+  const anchor = decodeURIComponent(location.hash.substring(1));
+  const match = rows.find(x => x.anchor === anchor);
+  if (match) search.value = match.anchor;
+}
+render();
+</script></body></html>

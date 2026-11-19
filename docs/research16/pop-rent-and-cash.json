@@ -1,0 +1,190 @@
+[
+  {
+    "company": "09992_泡泡玛特",
+    "category": "历史重算",
+    "period": "2024-FY",
+    "revenue": 13037.749,
+    "ifrs_core": 4110.208,
+    "rou_depreciation": 452.318,
+    "expensed_short_variable": 457.906,
+    "lease_operating_cash": 424.926,
+    "lease_financing_cash": 505.104,
+    "cash_scope_ebit": 4090.4019999999996,
+    "cash_scope_margin": 0.3137352928024615,
+    "calculated_delta": -19.80600000000004,
+    "source": "S47095a39c6425b11，第301页附注16",
+    "tag": "算术",
+    "scope": "税前现金租金代理。以报告现金分类替换，已含费用的短租和可变租金先加回，现金全扣一次。"
+  },
+  {
+    "company": "09992_泡泡玛特",
+    "category": "历史重算",
+    "period": "2025-FY",
+    "revenue": 37120.052,
+    "ifrs_core": 16912.369,
+    "rou_depreciation": 592.713,
+    "expensed_short_variable": 1338.24,
+    "lease_operating_cash": 1284.337,
+    "lease_financing_cash": 608.288,
+    "cash_scope_ebit": 16950.697,
+    "cash_scope_margin": 0.4566452924149998,
+    "calculated_delta": 38.32800000000134,
+    "source": "S47095a39c6425b11，第301页附注16",
+    "tag": "算术",
+    "scope": "税前现金租金代理。以报告现金分类替换，已含费用的短租和可变租金先加回，现金全扣一次。"
+  },
+  {
+    "company": "09992_泡泡玛特",
+    "category": "历史重算",
+    "period": "2025-H1",
+    "revenue": 13876.276,
+    "ifrs_core": 5798.068999999999,
+    "rou_depreciation": 254.184,
+    "expensed_short_variable": 513.331,
+    "lease_operating_cash": 433.149,
+    "lease_financing_cash": 263.592,
+    "cash_scope_ebit": 5868.842999999999,
+    "cash_scope_margin": 0.4229407803649912,
+    "calculated_delta": 70.77400000000034,
+    "source": "S01b68f6b1c14e53d，第102页附注15",
+    "tag": "算术",
+    "scope": "税前现金租金代理。以报告现金分类替换，已含费用的短租和可变租金先加回，现金全扣一次。"
+  },
+  {
+    "company": "09992_泡泡玛特",
+    "category": "历史重算",
+    "period": "2026-H1",
+    "revenue": 17172.921,
+    "ifrs_core": 7108.0909999999985,
+    "rou_depreciation": 451.934,
+    "expensed_short_variable": 673.12,
+    "lease_operating_cash": 708.255,
+    "lease_financing_cash": 502.889,
+    "cash_scope_ebit": 7022.000999999998,
+    "cash_scope_margin": 0.40889962750076114,
+    "calculated_delta": -86.09000000000015,
+    "source": "S01b68f6b1c14e53d，第102页附注15",
+    "tag": "算术",
+    "scope": "税前现金租金代理。以报告现金分类替换，已含费用的短租和可变租金先加回，现金全扣一次。"
+  },
+  {
+    "company": "09992_泡泡玛特",
+    "category": "联合情景",
+    "h2_factor": 0.43,
+    "rent_multiplier": 0.9,
+    "wc": 0.11,
+    "price": 131.88272146395096,
+    "cash_conditions": "改善现金条件"
+  },
+  {
+    "company": "09992_泡泡玛特",
+    "category": "联合情景",
+    "h2_factor": 0.43,
+    "rent_multiplier": 1,
+    "wc": 0.135,
+    "price": 126.50665804061703,
+    "cash_conditions": "基准现金条件"
+  },
+  {
+    "company": "09992_泡泡玛特",
+    "category": "联合情景",
+    "h2_factor": 0.43,
+    "rent_multiplier": 1.15,
+    "wc": 0.185,
+    "price": 118.07943867118796,
+    "cash_conditions": "压力现金条件"
+  },
+  {
+    "company": "09992_泡泡玛特",
+    "category": "联合情景",
+    "h2_factor": 0.53,
+    "rent_multiplier": 0.9,
+    "wc": 0.11,
+    "price": 172.39019196364833,
+    "cash_conditions": "改善现金条件"
+  },
+  {
+    "company": "09992_泡泡玛特",
+    "category": "联合情景",
+    "h2_factor": 0.53,
+    "rent_multiplier": 1,
+    "wc": 0.135,
+    "price": 166.65471957516075,
+    "cash_conditions": "基准现金条件"
+  },
+  {
+    "company": "09992_泡泡玛特",
+    "category": "联合情景",
+    "h2_factor": 0.53,
+    "rent_multiplier": 1.15,
+    "wc": 0.185,
+    "price": 157.93858263960007,
+    "cash_conditions": "压力现金条件"
+  },
+  {
+    "company": "09992_泡泡玛特",
+    "category": "联合情景",
+    "h2_factor": 0.63,
+    "rent_multiplier": 0.9,
+    "wc": 0.11,
+    "price": 204.52281606229025,
+    "cash_conditions": "改善现金条件"
+  },
+  {
+    "company": "09992_泡泡玛特",
+    "category": "联合情景",
+    "h2_factor": 0.63,
+    "rent_multiplier": 1,
+    "wc": 0.135,
+    "price": 198.44092268887456,
+    "cash_conditions": "基准现金条件"
+  },
+  {
+    "company": "09992_泡泡玛特",
+    "category": "联合情景",
+    "h2_factor": 0.63,
+    "rent_multiplier": 1.15,
+    "wc": 0.185,
+    "price": 189.43472527133318,
+    "cash_conditions": "压力现金条件"
+  },
+  {
+    "company": "09992_泡泡玛特",
+    "category": "验证及现价反解",
+    "group_yoy": 0.23757418777199302,
+    "ex_monsters_yoy": 0.403464632824994,
+    "china_store_avg_25": 437.0,
+    "china_store_avg_26": 450.0,
+    "china_store_per_mean_25": 10.082260869565218,
+    "china_store_per_mean_26": 13.532635555555554,
+    "china_store_proxy_yoy": 0.3422223180522732,
+    "group_store_growth": 0.07301587301587298,
+    "gp_margin_26": 0.6967795403006862,
+    "gp_margin_25": 0.7034354173987314,
+    "inventory_turn_25": 4.33384129163933,
+    "inventory_turn_26": 1.7995558980364286,
+    "cohort_and_post_discount_margin": "成熟店同店、折扣及促销毛利分拆未锁定。期初期末平均店数及集团毛利为代理。"
+  },
+  {
+    "company": "09992_泡泡玛特",
+    "category": "验证及现价反解",
+    "search": [
+      0.25,
+      0.85
+    ],
+    "fixed": "折现率、2027起门店和店效、租金、营运资本比例固定，各年收入随2026基数传递",
+    "roots": [
+      0.3651816695688762
+    ],
+    "gap_at_ends": [
+      -16.27416726628573,
+      68.42217356716543
+    ],
+    "gap_min_max": [
+      -16.27416726628573,
+      68.42217356716543
+    ],
+    "status": "有解",
+    "tag": "模型反解"
+  }
+]

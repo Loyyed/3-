@@ -1,0 +1,94 @@
+<!doctype html><html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>ISRG收入、租赁回报和现金分类</title><style>
+:root{font-family:system-ui,'Microsoft YaHei',sans-serif;color:#172624;background:#f8f9f5;color-scheme:light}
+body{max-width:1220px;margin:auto;padding:clamp(12px,3vw,36px);line-height:1.62}
+header{border-bottom:1px solid #c9d5ce;margin-bottom:20px;padding-bottom:14px}
+a{color:#005852;text-underline-offset:3px} h1{line-height:1.16;margin:.5em 0} h2{margin-top:1.6rem}
+nav,.controls{display:flex;gap:10px 18px;flex-wrap:wrap;align-items:end}
+input,select,button{font:inherit;border:1px solid #9cb2a3;border-radius:5px;padding:6px 8px;background:white;color:#172624}
+button{cursor:pointer} .status{margin:.8em 0;color:#354e49}
+.scroll{overflow:auto;max-height:72vh;border:1px solid #c9d5ce;border-radius:6px;background:#fff}
+table{border-collapse:collapse;width:100%;font-size:.9rem}
+th,td{padding:8px 12px;border-bottom:1px solid #e0e7e1;text-align:left;vertical-align:top}
+thead th{position:sticky;top:0;background:#e7efe9;white-space:nowrap}
+td{min-width:90px;max-width:360px;overflow-wrap:anywhere}
+pre{max-width:420px;white-space:pre-wrap;overflow-wrap:anywhere;font-size:.8rem}
+article{max-width:82ch} article p{line-height:1.8} .grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:12px}
+.tile{padding:13px 16px;border:1px solid #d6e1d9;border-radius:6px;background:white}
+@media print{.controls,nav{display:none}.scroll{max-height:none;overflow:visible}thead th{position:static}}
+</style></head><body><header><nav><a href="index.html">阶段16总览</a></nav><h1>ISRG收入、租赁回报和现金分类</h1></header><nav><a href="isrg-operating.csv" download>完整 CSV</a><a href="isrg-operating.json" download>完整 JSON</a></nav>
+    <section class="controls"><label>公司<br><select><option value="">全部</option></select></label>
+    <label>标签<br><select><option value="">全部</option></select></label>
+    <label>情景<br><select><option value="">全部</option></select></label>
+    <label>搜索期间、指标、原件或事件<br><input type="search" placeholder="例如 2026-Q3"></label></section>
+    <div class="status" id="status" aria-live="polite"></div><nav><button id="prev">上一页</button>
+    <button id="next">下一页</button></nav><div class="scroll"><table><thead><tr><th scope="col">company</th><th scope="col">category</th><th scope="col">period</th><th scope="col">year</th><th scope="col">ia</th><th scope="col">service</th><th scope="col">sale_and_buyout</th><th scope="col">fixed_lease_proxy</th><th scope="col">usage_lease_proxy</th><th scope="col">per_average_installed</th><th scope="col">ia_per_total_procedure</th><th scope="col">cash_cost</th><th scope="col">payback_years</th><th scope="col">non_cash_transfer</th><th scope="col">cash_capex</th><th scope="col">note</th></tr></thead>
+    <tbody></tbody></table></div><script type="application/json" id="data">[{"company":"US_ISRG_直觉外科","category":"收入拆分","period":"2025YTD9","ia":4360.6,"service":1150.1,"systems":1687.8,"sale_and_buyout":1055.8,"buyout_in_sale":91,"fixed_lease_proxy":252,"usage_lease_proxy":380,"total":7198.500000000001,"tag":"披露及算术","note":"设备非经营租赁余额含销售型租赁、买断和Ion；固定及按量以总经营租赁减可变和可变额代理。"},{"company":"US_ISRG_直觉外科","category":"收入拆分","period":"2026YTD9","ia":5218.7,"service":1388.3,"systems":2104.8,"sale_and_buyout":1317.8000000000002,"buyout_in_sale":153,"fixed_lease_proxy":283,"usage_lease_proxy":504,"total":8711.8,"tag":"披露及算术","note":"设备非经营租赁余额含销售型租赁、买断和Ion；固定及按量以总经营租赁减可变和可变额代理。"},{"company":"US_ISRG_直觉外科","category":"收入拆分","period":"2025FY","ia":6018.9,"service":1572.1,"systems":2473.7,"sale_and_buyout":1599.6999999999998,"buyout_in_sale":null,"fixed_lease_proxy":343,"usage_lease_proxy":531,"total":10064.7,"tag":"披露及算术","note":"设备非经营租赁余额含销售型租赁、买断和Ion；固定及按量以总经营租赁减可变和可变额代理。"},{"company":"US_ISRG_直觉外科","category":"租赁回报","channel":"固定租赁","annual_revenue_per_install_proxy":0.23866751001475858,"cash_cost":0.7,"initial_contribution_margin":0.45,"payback_years":6.517667844522968,"pretax_yield_before_shared_cost":0.15342911358091624,"tag":"情景","note":"2026前三季年化并除期末da Vinci租赁数量，收入包括Ion；贡献率和制造成本是情景。"},{"company":"US_ISRG_直觉外科","category":"租赁回报","channel":"按量租赁","annual_revenue_per_install_proxy":0.3404255319148936,"cash_cost":0.7,"initial_contribution_margin":0.45,"payback_years":4.569444444444444,"pretax_yield_before_shared_cost":0.2188449848024316,"tag":"情景","note":"2026前三季年化并除期末da Vinci租赁数量，收入包括Ion；贡献率和制造成本是情景。"},{"company":"US_ISRG_直觉外科","category":"租赁回报","channel":"固定租赁","annual_revenue_per_install_proxy":0.23866751001475858,"cash_cost":0.7,"initial_contribution_margin":0.6,"payback_years":4.888250883392226,"pretax_yield_before_shared_cost":0.20457215144122165,"tag":"情景","note":"2026前三季年化并除期末da Vinci租赁数量，收入包括Ion；贡献率和制造成本是情景。"},{"company":"US_ISRG_直觉外科","category":"租赁回报","channel":"按量租赁","annual_revenue_per_install_proxy":0.3404255319148936,"cash_cost":0.7,"initial_contribution_margin":0.6,"payback_years":3.4270833333333335,"pretax_yield_before_shared_cost":0.2917933130699088,"tag":"情景","note":"2026前三季年化并除期末da Vinci租赁数量，收入包括Ion；贡献率和制造成本是情景。"},{"company":"US_ISRG_直觉外科","category":"租赁回报","channel":"固定租赁","annual_revenue_per_install_proxy":0.23866751001475858,"cash_cost":0.85,"initial_contribution_margin":0.45,"payback_years":7.9143109540636045,"pretax_yield_before_shared_cost":0.1263533876548722,"tag":"情景","note":"2026前三季年化并除期末da Vinci租赁数量，收入包括Ion；贡献率和制造成本是情景。"},{"company":"US_ISRG_直觉外科","category":"租赁回报","channel":"按量租赁","annual_revenue_per_install_proxy":0.3404255319148936,"cash_cost":0.85,"initial_contribution_margin":0.45,"payback_years":5.548611111111111,"pretax_yield_before_shared_cost":0.18022528160200252,"tag":"情景","note":"2026前三季年化并除期末da Vinci租赁数量，收入包括Ion；贡献率和制造成本是情景。"},{"company":"US_ISRG_直觉外科","category":"租赁回报","channel":"固定租赁","annual_revenue_per_install_proxy":0.23866751001475858,"cash_cost":0.85,"initial_contribution_margin":0.6,"payback_years":5.935733215547703,"pretax_yield_before_shared_cost":0.1684711835398296,"tag":"情景","note":"2026前三季年化并除期末da Vinci租赁数量，收入包括Ion；贡献率和制造成本是情景。"},{"company":"US_ISRG_直觉外科","category":"租赁回报","channel":"按量租赁","annual_revenue_per_install_proxy":0.3404255319148936,"cash_cost":0.85,"initial_contribution_margin":0.6,"payback_years":4.161458333333333,"pretax_yield_before_shared_cost":0.24030037546933666,"tag":"情景","note":"2026前三季年化并除期末da Vinci租赁数量，收入包括Ion；贡献率和制造成本是情景。"},{"company":"US_ISRG_直觉外科","category":"租赁回报","channel":"固定租赁","annual_revenue_per_install_proxy":0.23866751001475858,"cash_cost":1.03,"initial_contribution_margin":0.45,"payback_years":9.590282685512369,"pretax_yield_before_shared_cost":0.10427221311324403,"tag":"情景","note":"2026前三季年化并除期末da Vinci租赁数量，收入包括Ion；贡献率和制造成本是情景。"},{"company":"US_ISRG_直觉外科","category":"租赁回报","channel":"按量租赁","annual_revenue_per_install_proxy":0.3404255319148936,"cash_cost":1.03,"initial_contribution_margin":0.45,"payback_years":6.723611111111111,"pretax_yield_before_shared_cost":0.14872960132204088,"tag":"情景","note":"2026前三季年化并除期末da Vinci租赁数量，收入包括Ion；贡献率和制造成本是情景。"},{"company":"US_ISRG_直觉外科","category":"租赁回报","channel":"固定租赁","annual_revenue_per_install_proxy":0.23866751001475858,"cash_cost":1.03,"initial_contribution_margin":0.6,"payback_years":7.192712014134276,"pretax_yield_before_shared_cost":0.13902961748432538,"tag":"情景","note":"2026前三季年化并除期末da Vinci租赁数量，收入包括Ion；贡献率和制造成本是情景。"},{"company":"US_ISRG_直觉外科","category":"租赁回报","channel":"按量租赁","annual_revenue_per_install_proxy":0.3404255319148936,"cash_cost":1.03,"initial_contribution_margin":0.6,"payback_years":5.042708333333334,"pretax_yield_before_shared_cost":0.19830613509605452,"tag":"情景","note":"2026前三季年化并除期末da Vinci租赁数量，收入包括Ion；贡献率和制造成本是情景。"},{"company":"US_ISRG_直觉外科","category":"历史驱动","year":2021,"procedures":1594000.0,"installed_initial":5989,"installed_end":6730,"per_average_installed":250.64863589904866,"ia_per_total_procedure":1936.1183964031472,"tag":"算术"},{"company":"US_ISRG_直觉外科","category":"历史驱动","year":2022,"procedures":1875000.0,"installed_initial":6730,"installed_end":7544,"per_average_installed":262.7154266498529,"ia_per_total_procedure":null,"tag":"算术"},{"company":"US_ISRG_直觉外科","category":"历史驱动","year":2023,"procedures":2286000.0,"installed_initial":7544,"installed_end":8606,"per_average_installed":283.09597523219816,"ia_per_total_procedure":1827.7630566715106,"tag":"算术"},{"company":"US_ISRG_直觉外科","category":"历史驱动","year":2024,"procedures":2683000.0,"installed_initial":8606,"installed_end":9902,"per_average_installed":289.9286794899503,"ia_per_total_procedure":1827.9647291704157,"tag":"算术"},{"company":"US_ISRG_直觉外科","category":"历史驱动","year":2025,"procedures":3153000.0,"installed_initial":9902,"installed_end":11106,"per_average_installed":300.1713632901752,"ia_per_total_procedure":1825.5133298959693,"tag":"算术"},{"company":"US_ISRG_直觉外科","category":"留出核查","metric":"per_average_installed","year":2023,"prediction":275.36313992792884,"actual":283.09597523219816,"error":-0.027315242818011676,"training_years":[2021,2022],"tag":"留出算术"},{"company":"US_ISRG_直觉外科","category":"留出核查","metric":"per_average_installed","year":2024,"prediction":305.0575758517767,"actual":289.9286794899503,"error":0.05218144127183799,"training_years":[2022,2023],"tag":"留出算术"},{"company":"US_ISRG_直觉外科","category":"留出核查","metric":"per_average_installed","year":2025,"prediction":296.9262954792649,"actual":300.1713632901752,"error":-0.01081071750263285,"training_years":[2023,2024],"tag":"留出算术"},{"company":"US_ISRG_直觉外科","category":"留出核查","metric":"ia_per_total_procedure","year":2025,"prediction":1828.1664239215468,"actual":1825.5133298959693,"error":0.001453341360004634,"training_years":[2023,2024],"tag":"留出算术"},{"company":"US_ISRG_直觉外科","category":"现金与和解","non_cash_transfer":670.5,"cash_capex":329.0,"inventory_cfo_use":822.0,"other_liabilities_cfo":631.8,"litigation_accrual":450.0,"cash_paid_at_cutoff":null,"lease_equipment_actual_cash":null,"normalized_cfo_ex_assumed_accrual":2747.0,"note":"2700级别为减除协议应付对CFO影响的条件剥离；其他负债631.8含其他项。本币百万美元。"}]</script>
+    <script type="application/json" id="columns">["company","category","period","year","ia","service","sale_and_buyout","fixed_lease_proxy","usage_lease_proxy","per_average_installed","ia_per_total_procedure","cash_cost","payback_years","non_cash_transfer","cash_capex","note"]</script><script>
+const rows = JSON.parse(document.querySelector('#data').textContent);
+const columns = JSON.parse(document.querySelector('#columns').textContent);
+const selector = [...document.querySelectorAll('select')];
+const body = document.querySelector('tbody');
+const search = document.querySelector('input[type=search]');
+const status = document.querySelector('#status');
+const filters = ['company','tag','scenario'];
+let page = 0;
+const size = 60;
+selector.forEach((select, i) => {
+  [...new Set(rows.map(row => row[filters[i]]).filter(Boolean))].sort().forEach(value => {
+    const option = document.createElement('option');
+    option.value = value;
+    option.textContent = value;
+    select.append(option);
+  });
+});
+const index = rows.map(row => JSON.stringify(row).toLowerCase());
+function render() {
+  const terms = search.value.toLowerCase().trim().split(/\s+/);
+  const result = rows.filter((row, i) => selector.every((s, n) => !s.value || row[filters[n]] === s.value) &&
+                                         terms.every(term => index[i].includes(term)));
+  const maxPage = Math.max(0, Math.ceil(result.length / size) - 1);
+  page = Math.min(maxPage, Math.max(0, page));
+  status.textContent = '共 ' + result.length + ' 行 · 第 ' + (page+1) + ' / ' + (maxPage+1) + ' 页';
+  body.replaceChildren();
+  for (const row of result.slice(page * size, (page+1)*size)) {
+    const tr = document.createElement('tr');
+    if (row.anchor) tr.id = row.anchor;
+    columns.forEach(key => {
+      const td = document.createElement('td');
+      const value = row[key];
+      if (key === 'url' && value && /^https?:/.test(value)) {
+        const a = document.createElement('a');
+        a.textContent = '发行人或监管原件';
+        a.href = value;
+        td.append(a);
+      } else if (key === 'jump' && value) {
+        const a = document.createElement('a');
+        a.textContent = '当前账本条目';
+        a.href = value;
+        td.append(a);
+      } else if (value != null && typeof value === 'object') {
+        const details = document.createElement('details');
+        const summary = document.createElement('summary');
+        const pre = document.createElement('pre');
+        summary.textContent = '展开';
+        pre.textContent = JSON.stringify(value,null,2);
+        details.append(summary,pre);
+        td.append(details);
+      } else {
+        td.textContent = value ?? '—';
+      }
+      tr.append(td);
+    });
+    body.append(tr);
+  }
+}
+document.querySelector('.controls').addEventListener('input', () => { page=0; render(); });
+document.querySelector('#prev').onclick=()=>{page--; render();};
+document.querySelector('#next').onclick=()=>{page++; render();};
+if (location.hash) {
+  const anchor = decodeURIComponent(location.hash.substring(1));
+  const match = rows.find(x => x.anchor === anchor);
+  if (match) search.value = match.anchor;
+}
+render();
+</script></body></html>

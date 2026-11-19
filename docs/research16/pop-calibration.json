@@ -1,0 +1,44 @@
+[
+  {
+    "company": "09992_泡泡玛特",
+    "category": "方法并列",
+    "method": "阶段15校正",
+    "driver_1": 0.125,
+    "store_adjustment": 0.024999999999999994,
+    "driver_2": -0.025,
+    "h2_revenue_factor": 0.53,
+    "wacc": 0.05395836367616964,
+    "per_share": 215.0420418183681,
+    "delta_vs_stage15": 0.0,
+    "evidence": "阶段15总收入留出表",
+    "tag": "估值情景"
+  },
+  {
+    "company": "09992_泡泡玛特",
+    "category": "方法并列",
+    "method": "移除校正",
+    "driver_1": 0.1,
+    "store_adjustment": 0.0,
+    "driver_2": -0.025,
+    "h2_revenue_factor": 0.53,
+    "wacc": 0.05395836367616964,
+    "per_share": 193.44906882490505,
+    "delta_vs_stage15": -21.592972993463036,
+    "evidence": "冻结阶段15所有其他条件，误差校正设零",
+    "tag": "估值情景"
+  },
+  {
+    "company": "09992_泡泡玛特",
+    "category": "方法并列",
+    "method": "渠道证据校正",
+    "driver_1": 0.07500000000000001,
+    "store_adjustment": -0.024999999999999994,
+    "driver_2": -0.025,
+    "h2_revenue_factor": 0.53,
+    "wacc": 0.05395836367616964,
+    "per_share": 173.87888597429995,
+    "delta_vs_stage15": -41.16315584406814,
+    "evidence": "Sae0f1e1845c9aa8f第12页；S1312bd4fec38932f第14页；S9b89a4686ffb5fe8第15页；S01b68f6b1c14e53d第12–13页作近端对照",
+    "tag": "估值情景"
+  }
+]

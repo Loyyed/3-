@@ -20,7 +20,7 @@ def start(root,kit,port):
  class Handler(Base):
   def send(self,data,*args,**kwargs):
    if self.path.split('?')[0]=='/' and isinstance(data,str):
-    data=data.replace('最终展示图册</a></nav>','最终展示图册</a><a href="/preparation/">完整证券分析准备</a><a href="/security-analysis/">五家公司证券分析（阶段14）</a><a href="/stage15/">五家公司证券分析（阶段15）</a></nav>')
+    data=data.replace('最终展示图册</a></nav>','最终展示图册</a><a href="/preparation/">完整证券分析准备</a><a href="/security-analysis/">五家公司证券分析（阶段14）</a><a href="/stage15/">五家公司证券分析（阶段15）</a><a href="/stage16/">五家公司证券分析（阶段16）</a></nav>')
     data=data.replace('</body>','<script nonce="'+server.workbench_token+'" src="/assets/project-adapter.js"></script></body>')
    return super().send(data,*args,**kwargs)
   def do_GET(self):
@@ -32,13 +32,14 @@ def start(root,kit,port):
    if route.path.startswith('/preparation/'):
     from preparation import serve
     return serve(self,root,route.path,mapping,server.workbench_token)
-   if route.path.startswith('/stage15/'):
+   if route.path.startswith(('/stage15/','/stage16/')):
     from urllib.parse import unquote
-    suffix=unquote(route.path.removeprefix('/stage15/')) or 'index.html'
-    published=(root/'docs/research15').resolve()
+    _,stage,suffix=route.path.split('/',2)
+    suffix=unquote(suffix) or 'index.html'
+    published=(root/'docs'/('research'+stage[5:])).resolve()
     target=(published/suffix).resolve()
     if not target.is_relative_to(published) or not target.is_file():
-     return self.send({'error':'找不到阶段15成果'},404)
+     return self.send({'error':'找不到阶段研究成果'},404)
     types={'.html':'text/html; charset=utf-8','.csv':'text/csv; charset=utf-8',
            '.json':'application/json; charset=utf-8','.md':'text/markdown; charset=utf-8'}
     if target.suffix not in types:return self.send({'error':'未发布文件类型'},404)

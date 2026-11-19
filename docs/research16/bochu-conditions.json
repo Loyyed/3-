@@ -1,0 +1,311 @@
+[
+  {
+    "company": "688188_柏楚电子",
+    "category": "经营敏感性",
+    "input": "控制销量增速",
+    "delta": -0.03,
+    "price": 81.73049390615061,
+    "tag": "估值情景"
+  },
+  {
+    "company": "688188_柏楚电子",
+    "category": "经营敏感性",
+    "input": "控制销量增速",
+    "delta": -0.015,
+    "price": 87.0564038454264,
+    "tag": "估值情景"
+  },
+  {
+    "company": "688188_柏楚电子",
+    "category": "经营敏感性",
+    "input": "控制销量增速",
+    "delta": 0.015,
+    "price": 98.85732219529199,
+    "tag": "估值情景"
+  },
+  {
+    "company": "688188_柏楚电子",
+    "category": "经营敏感性",
+    "input": "控制销量增速",
+    "delta": 0.03,
+    "price": 105.3790756113353,
+    "tag": "估值情景"
+  },
+  {
+    "company": "688188_柏楚电子",
+    "category": "经营敏感性",
+    "input": "组合利润率",
+    "delta": -0.03,
+    "price": 89.12581223700491,
+    "tag": "估值情景"
+  },
+  {
+    "company": "688188_柏楚电子",
+    "category": "经营敏感性",
+    "input": "组合利润率",
+    "delta": -0.015,
+    "price": 90.94177980743054,
+    "tag": "估值情景"
+  },
+  {
+    "company": "688188_柏楚电子",
+    "category": "经营敏感性",
+    "input": "组合利润率",
+    "delta": 0.015,
+    "price": 94.57371494828182,
+    "tag": "估值情景"
+  },
+  {
+    "company": "688188_柏楚电子",
+    "category": "经营敏感性",
+    "input": "组合利润率",
+    "delta": 0.03,
+    "price": 96.38968251870747,
+    "tag": "估值情景"
+  },
+  {
+    "company": "688188_柏楚电子",
+    "category": "经营敏感性",
+    "input": "经营占用占收入",
+    "delta": 0.1,
+    "price": 92.94202722840001,
+    "tag": "估值情景"
+  },
+  {
+    "company": "688188_柏楚电子",
+    "category": "经营敏感性",
+    "input": "经营占用占收入",
+    "delta": 0.14,
+    "price": 92.63823677467057,
+    "tag": "估值情景"
+  },
+  {
+    "company": "688188_柏楚电子",
+    "category": "经营敏感性",
+    "input": "经营占用占收入",
+    "delta": 0.18,
+    "price": 92.3726576564803,
+    "tag": "估值情景"
+  },
+  {
+    "company": "688188_柏楚电子",
+    "category": "经营敏感性",
+    "input": "经营占用占收入",
+    "delta": 0.24,
+    "price": 91.97428897919488,
+    "tag": "估值情景"
+  },
+  {
+    "company": "688188_柏楚电子",
+    "category": "阶段15价差",
+    "parameter": "原阶段15稳定利润率",
+    "before": 0.4695780861978382,
+    "reverse": {
+      "domain": [
+        0.04,
+        0.8
+      ],
+      "value": 0.45078903062838993
+    },
+    "tag": "模型反解"
+  },
+  {
+    "company": "688188_柏楚电子",
+    "category": "阶段15价差",
+    "parameter": "原阶段15首项销量增长的平移",
+    "before": 0,
+    "reverse": {
+      "domain": [
+        -0.2,
+        0.4
+      ],
+      "value": -0.005953269795720938
+    },
+    "tag": "模型反解"
+  },
+  {
+    "company": "688188_柏楚电子",
+    "category": "阶段15价差",
+    "parameter": "原阶段15 WACC",
+    "before": 0.06927418747201654,
+    "reverse": {
+      "domain": [
+        0.026,
+        0.22
+      ],
+      "value": 0.0705806468697453
+    },
+    "tag": "模型反解"
+  },
+  {
+    "company": "688188_柏楚电子",
+    "category": "利润桥",
+    "reported_op": 1226.03103942,
+    "core_op": 938.19389727,
+    "difference": 287.8371421500001,
+    "three_financial_lines": {
+      "interest_income": 91.06114144,
+      "investment": 17.06413621,
+      "fair_value": 46.96535593
+    },
+    "source": [
+      {
+        "id": "2026-YTD9:interest_income:688188-fed67b607fa475a7",
+        "metric": "interest_income",
+        "period": "2026-YTD9",
+        "value": "91061141.44",
+        "unit": "元",
+        "currency": "CNY",
+        "entity": "688188_柏楚电子",
+        "scope": "合并",
+        "cumulative": true,
+        "source_id": "688188-fed67b607fa475a7",
+        "source_sha256": "33f3c5e4de011f9858e98a1034e672104e0435fda3bdeec651a04c83fd6887ef",
+        "source_path": "sources/raw/02_定期报告与经营数据/2026-10-27_2026年第三季度报告_1225622322.pdf",
+        "url": "https://static.cninfo.com.cn/finalpage/2026-10-27/1225622322.PDF",
+        "published_at": null,
+        "retrieved_at": null,
+        "locator": {
+          "physical_page": 9,
+          "table": "合并报表/附注",
+          "column": "本期/期末"
+        },
+        "original_excerpt": "利息收入                           91,061,141.44           27,573,938.00",
+        "classification": "披露数",
+        "checked_by": "Machine: pypdf/HTML原表提取",
+        "checked_at": "2026-11-12T06:01:25.937361+00:00",
+        "check": "正文表行候选；Agent实质对读范围另见agent-read-batches.json，不将整库机器提取计作核准",
+        "selection_reason": "同范围合并报表本期/比较列；原值保留，不按摘要或标签替代"
+      },
+      {
+        "id": "2026-YTD9:investment:688188-fed67b607fa475a7",
+        "metric": "investment",
+        "period": "2026-YTD9",
+        "value": "17064136.21",
+        "unit": "元",
+        "currency": "CNY",
+        "entity": "688188_柏楚电子",
+        "scope": "合并",
+        "cumulative": true,
+        "source_id": "688188-fed67b607fa475a7",
+        "source_sha256": "33f3c5e4de011f9858e98a1034e672104e0435fda3bdeec651a04c83fd6887ef",
+        "source_path": "sources/raw/02_定期报告与经营数据/2026-10-27_2026年第三季度报告_1225622322.pdf",
+        "url": "https://static.cninfo.com.cn/finalpage/2026-10-27/1225622322.PDF",
+        "published_at": null,
+        "retrieved_at": null,
+        "locator": {
+          "physical_page": 9,
+          "table": "合并报表/附注",
+          "column": "本期/期末"
+        },
+        "original_excerpt": "投资收益（损失以“-”号填                         17,064,136.21           18,685,630.60",
+        "classification": "披露数",
+        "checked_by": "Machine: pypdf/HTML原表提取",
+        "checked_at": "2026-11-12T06:01:25.937361+00:00",
+        "check": "正文表行候选；Agent实质对读范围另见agent-read-batches.json，不将整库机器提取计作核准",
+        "selection_reason": "同范围合并报表本期/比较列；原值保留，不按摘要或标签替代"
+      },
+      {
+        "id": "2026-YTD9:fair_value:688188-fed67b607fa475a7",
+        "metric": "fair_value",
+        "period": "2026-YTD9",
+        "value": "46965355.93",
+        "unit": "元",
+        "currency": "CNY",
+        "entity": "688188_柏楚电子",
+        "scope": "合并",
+        "cumulative": true,
+        "source_id": "688188-fed67b607fa475a7",
+        "source_sha256": "33f3c5e4de011f9858e98a1034e672104e0435fda3bdeec651a04c83fd6887ef",
+        "source_path": "sources/raw/02_定期报告与经营数据/2026-10-27_2026年第三季度报告_1225622322.pdf",
+        "url": "https://static.cninfo.com.cn/finalpage/2026-10-27/1225622322.PDF",
+        "published_at": null,
+        "retrieved_at": null,
+        "locator": {
+          "physical_page": 9,
+          "table": "合并报表/附注",
+          "column": "本期/期末"
+        },
+        "original_excerpt": "公允价值变动收益（损失以                          46,965,355.93           31,449,900.73",
+        "classification": "披露数",
+        "checked_by": "Machine: pypdf/HTML原表提取",
+        "checked_at": "2026-11-12T06:01:25.937361+00:00",
+        "check": "正文表行候选；Agent实质对读范围另见agent-read-batches.json，不将整库机器提取计作核准",
+        "selection_reason": "同范围合并报表本期/比较列；原值保留，不按摘要或标签替代"
+      }
+    ],
+    "inventory": 403.39055477999995,
+    "inventory_prior_sep": 216.22528205,
+    "cash_cfo": 843.40970006,
+    "cash_cfo_prior_sep": 784.60738638,
+    "unit": "人民币百万元",
+    "note": "核心利润为期内收入减成本、销售、管理、研发及税金附加。三项金融原数无法解释全部差额。"
+  },
+  {
+    "company": "688188_柏楚电子",
+    "category": "反解",
+    "parameter": "margin",
+    "search": [
+      0.02,
+      0.8
+    ],
+    "fixed": "显式期起点、成长因子、WACC及权益桥固定；仅变稳定利润率和过渡路径",
+    "roots": [
+      0.49801129732619265
+    ],
+    "gap_at_ends": [
+      -63.24167714631775,
+      36.56011271270309
+    ],
+    "gap_min_max": [
+      -63.24167714631775,
+      36.56011271270309
+    ],
+    "status": "有解",
+    "tag": "模型反解"
+  },
+  {
+    "company": "688188_柏楚电子",
+    "category": "反解",
+    "parameter": "wc",
+    "search": [
+      0.01,
+      0.65
+    ],
+    "fixed": "其余阶段16基准固定；只变经营营运资本需求占收入比例",
+    "roots": [],
+    "gap_at_ends": [
+      -2.781018165954819,
+      -6.947896982255358
+    ],
+    "gap_min_max": [
+      -6.947896982255358,
+      -2.781018165954819
+    ],
+    "status": "搜索区间无交点",
+    "tag": "模型反解"
+  },
+  {
+    "company": "688188_柏楚电子",
+    "category": "反解",
+    "parameter": "rate",
+    "search": [
+      0.026,
+      0.22
+    ],
+    "fixed": "阶段16基准经营、现金和权益桥固定，只变WACC",
+    "roots": [
+      0.06742851708692255
+    ],
+    "gap_at_ends": [
+      1197.5075099603173,
+      -66.10688991973166
+    ],
+    "gap_min_max": [
+      -66.10688991973166,
+      1197.5075099603173
+    ],
+    "status": "有解",
+    "tag": "模型反解"
+  }
+]

@@ -1,0 +1,137 @@
+[
+  {
+    "company": "002507_涪陵榨菜",
+    "comparable": "603027.SH 千禾味业",
+    "exclusion": "家庭调味需求与通路相近，产品结构及渠道费用差异，留待核同口径。",
+    "scope": "需同日净债务、租赁资本化和归属于同权普通股的利润",
+    "equity_right": "人民币普通股 A股",
+    "value_effect": "缺相符样本，区间保留为DCF情景宽度。",
+    "tag": "样本筛选"
+  },
+  {
+    "company": "002507_涪陵榨菜",
+    "comparable": "603288.SH 海天味业",
+    "exclusion": "经销网络有参考性，B端暴露和品类宽度使集团倍数不能直接赋给榨菜。",
+    "scope": "需同日净债务、租赁资本化和归属于同权普通股的利润",
+    "equity_right": "人民币普通股 A股",
+    "value_effect": "缺相符样本，区间保留为DCF情景宽度。",
+    "tag": "样本筛选"
+  },
+  {
+    "company": "002507_涪陵榨菜",
+    "comparable": "0300.HK 颐海国际",
+    "exclusion": "零售调味与餐饮/关联方客户混合，排除集团倍数直接定标。",
+    "scope": "需同日净债务、租赁资本化和归属于同权普通股的利润",
+    "equity_right": "人民币普通股 A股",
+    "value_effect": "缺相符样本，区间保留为DCF情景宽度。",
+    "tag": "样本筛选"
+  },
+  {
+    "company": "09992_泡泡玛特",
+    "comparable": "9896.HK 名创优品",
+    "exclusion": "TOP TOY是候选业务锚；分部权益、租金和资本不能由合并倍数代填。",
+    "scope": "对照营业现金租金口径和经营租赁负债的扣减分类",
+    "equity_right": "普通股",
+    "value_effect": "缺相符样本，区间保留为DCF情景宽度。",
+    "tag": "样本筛选"
+  },
+  {
+    "company": "09992_泡泡玛特",
+    "comparable": "HAS Hasbro",
+    "exclusion": "IP许可利润的持续性可辅助；数字游戏、影视与玩具的集团范围排除直接比较。",
+    "scope": "对照营业现金租金口径和经营租赁负债的扣减分类",
+    "equity_right": "普通股",
+    "value_effect": "缺相符样本，区间保留为DCF情景宽度。",
+    "tag": "样本筛选"
+  },
+  {
+    "company": "09992_泡泡玛特",
+    "comparable": "MAT Mattel",
+    "exclusion": "IP和传统供货成本可跟踪，地区、门店租赁与渠道模式不可直接对照。",
+    "scope": "对照营业现金租金口径和经营租赁负债的扣减分类",
+    "equity_right": "普通股",
+    "value_effect": "缺相符样本，区间保留为DCF情景宽度。",
+    "tag": "样本筛选"
+  },
+  {
+    "company": "600298_安琪酵母",
+    "comparable": "ABF.L Associated British Foods",
+    "exclusion": "酵母及烘焙配料为部分业务；零售及其他食品排除集团倍数。",
+    "scope": "需同日净债务、租赁资本化和归属于同权普通股的利润",
+    "equity_right": "人民币普通股 A股",
+    "value_effect": "缺相符样本，区间保留为DCF情景宽度。",
+    "tag": "样本筛选"
+  },
+  {
+    "company": "600298_安琪酵母",
+    "comparable": "1331.TW 大统益",
+    "exclusion": "原料、加工与区域成本可作交叉对照，油脂行业不列入酵母可比倍数组。",
+    "scope": "需同日净债务、租赁资本化和归属于同权普通股的利润",
+    "equity_right": "人民币普通股 A股",
+    "value_effect": "缺相符样本，区间保留为DCF情景宽度。",
+    "tag": "样本筛选"
+  },
+  {
+    "company": "600298_安琪酵母",
+    "comparable": "Lesaffre（非上市）",
+    "exclusion": "生意与本地化组织结构可核，公开无普通股收盘价。",
+    "scope": "需同日净债务、租赁资本化和归属于同权普通股的利润",
+    "equity_right": "人民币普通股 A股",
+    "value_effect": "缺相符样本，区间保留为DCF情景宽度。",
+    "tag": "样本筛选"
+  },
+  {
+    "company": "688188_柏楚电子",
+    "comparable": "300124.SZ 汇川技术",
+    "exclusion": "控制系统及客户切换可作行业交叉对照，但新能源、驱动与电梯排除集团直比。",
+    "scope": "需同日净债务、租赁资本化和归属于同权普通股的利润",
+    "equity_right": "人民币普通股 A股",
+    "value_effect": "缺相符样本，区间保留为DCF情景宽度。",
+    "tag": "样本筛选"
+  },
+  {
+    "company": "688188_柏楚电子",
+    "comparable": "300747.SZ 锐科激光",
+    "exclusion": "上游激光器设备周期可作反证，产品权利及利润率不同。",
+    "scope": "需同日净债务、租赁资本化和归属于同权普通股的利润",
+    "equity_right": "人民币普通股 A股",
+    "value_effect": "缺相符样本，区间保留为DCF情景宽度。",
+    "tag": "样本筛选"
+  },
+  {
+    "company": "688188_柏楚电子",
+    "comparable": "002008.SZ 大族激光",
+    "exclusion": "设备端订单参考，多业务设备集团不作直接倍数。",
+    "scope": "需同日净债务、租赁资本化和归属于同权普通股的利润",
+    "equity_right": "人民币普通股 A股",
+    "value_effect": "缺相符样本，区间保留为DCF情景宽度。",
+    "tag": "样本筛选"
+  },
+  {
+    "company": "US_ISRG_直觉外科",
+    "comparable": "MDT Medtronic",
+    "exclusion": "Hugo有FDA许可，但机器人独立收入、投入及普通股权利未分拆。集团倍数排除。",
+    "scope": "需同日净债务、租赁资本化和归属于同权普通股的利润",
+    "equity_right": "普通股，每股面值0.001美元",
+    "value_effect": "缺相符样本，区间保留为DCF情景宽度。",
+    "tag": "样本筛选"
+  },
+  {
+    "company": "US_ISRG_直觉外科",
+    "comparable": "SYK Stryker",
+    "exclusion": "Mako适应证与骨科植入绑定，手术量及耗材范围不可直接比。",
+    "scope": "需同日净债务、租赁资本化和归属于同权普通股的利润",
+    "equity_right": "普通股，每股面值0.001美元",
+    "value_effect": "缺相符样本，区间保留为DCF情景宽度。",
+    "tag": "样本筛选"
+  },
+  {
+    "company": "US_ISRG_直觉外科",
+    "comparable": "CMR Surgical（非上市）",
+    "exclusion": "Versius提供产品竞争边界，没有同日公开普通股交易倍数。",
+    "scope": "需同日净债务、租赁资本化和归属于同权普通股的利润",
+    "equity_right": "普通股，每股面值0.001美元",
+    "value_effect": "缺相符样本，区间保留为DCF情景宽度。",
+    "tag": "样本筛选"
+  }
+]

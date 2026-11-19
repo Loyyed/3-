@@ -1,0 +1,94 @@
+<!doctype html><html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>柏楚利润、硬件与反解</title><style>
+:root{font-family:system-ui,'Microsoft YaHei',sans-serif;color:#172624;background:#f8f9f5;color-scheme:light}
+body{max-width:1220px;margin:auto;padding:clamp(12px,3vw,36px);line-height:1.62}
+header{border-bottom:1px solid #c9d5ce;margin-bottom:20px;padding-bottom:14px}
+a{color:#005852;text-underline-offset:3px} h1{line-height:1.16;margin:.5em 0} h2{margin-top:1.6rem}
+nav,.controls{display:flex;gap:10px 18px;flex-wrap:wrap;align-items:end}
+input,select,button{font:inherit;border:1px solid #9cb2a3;border-radius:5px;padding:6px 8px;background:white;color:#172624}
+button{cursor:pointer} .status{margin:.8em 0;color:#354e49}
+.scroll{overflow:auto;max-height:72vh;border:1px solid #c9d5ce;border-radius:6px;background:#fff}
+table{border-collapse:collapse;width:100%;font-size:.9rem}
+th,td{padding:8px 12px;border-bottom:1px solid #e0e7e1;text-align:left;vertical-align:top}
+thead th{position:sticky;top:0;background:#e7efe9;white-space:nowrap}
+td{min-width:90px;max-width:360px;overflow-wrap:anywhere}
+pre{max-width:420px;white-space:pre-wrap;overflow-wrap:anywhere;font-size:.8rem}
+article{max-width:82ch} article p{line-height:1.8} .grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:12px}
+.tile{padding:13px 16px;border:1px solid #d6e1d9;border-radius:6px;background:white}
+@media print{.controls,nav{display:none}.scroll{max-height:none;overflow:visible}thead th{position:static}}
+</style></head><body><header><nav><a href="index.html">阶段16总览</a></nav><h1>柏楚利润、硬件与反解</h1></header><nav><a href="bochu-conditions.csv" download>完整 CSV</a><a href="bochu-conditions.json" download>完整 JSON</a></nav>
+    <section class="controls"><label>公司<br><select><option value="">全部</option></select></label>
+    <label>标签<br><select><option value="">全部</option></select></label>
+    <label>情景<br><select><option value="">全部</option></select></label>
+    <label>搜索期间、指标、原件或事件<br><input type="search" placeholder="例如 2026-Q3"></label></section>
+    <div class="status" id="status" aria-live="polite"></div><nav><button id="prev">上一页</button>
+    <button id="next">下一页</button></nav><div class="scroll"><table><thead><tr><th scope="col">company</th><th scope="col">category</th><th scope="col">input</th><th scope="col">delta</th><th scope="col">price</th><th scope="col">tag</th><th scope="col">parameter</th><th scope="col">before</th><th scope="col">reverse</th><th scope="col">reported_op</th><th scope="col">core_op</th><th scope="col">difference</th><th scope="col">three_financial_lines</th><th scope="col">source</th><th scope="col">inventory</th></tr></thead>
+    <tbody></tbody></table></div><script type="application/json" id="data">[{"company":"688188_柏楚电子","category":"经营敏感性","input":"控制销量增速","delta":-0.03,"price":81.73049390615061,"tag":"估值情景"},{"company":"688188_柏楚电子","category":"经营敏感性","input":"控制销量增速","delta":-0.015,"price":87.0564038454264,"tag":"估值情景"},{"company":"688188_柏楚电子","category":"经营敏感性","input":"控制销量增速","delta":0.015,"price":98.85732219529199,"tag":"估值情景"},{"company":"688188_柏楚电子","category":"经营敏感性","input":"控制销量增速","delta":0.03,"price":105.3790756113353,"tag":"估值情景"},{"company":"688188_柏楚电子","category":"经营敏感性","input":"组合利润率","delta":-0.03,"price":89.12581223700491,"tag":"估值情景"},{"company":"688188_柏楚电子","category":"经营敏感性","input":"组合利润率","delta":-0.015,"price":90.94177980743054,"tag":"估值情景"},{"company":"688188_柏楚电子","category":"经营敏感性","input":"组合利润率","delta":0.015,"price":94.57371494828182,"tag":"估值情景"},{"company":"688188_柏楚电子","category":"经营敏感性","input":"组合利润率","delta":0.03,"price":96.38968251870747,"tag":"估值情景"},{"company":"688188_柏楚电子","category":"经营敏感性","input":"经营占用占收入","delta":0.1,"price":92.94202722840001,"tag":"估值情景"},{"company":"688188_柏楚电子","category":"经营敏感性","input":"经营占用占收入","delta":0.14,"price":92.63823677467057,"tag":"估值情景"},{"company":"688188_柏楚电子","category":"经营敏感性","input":"经营占用占收入","delta":0.18,"price":92.3726576564803,"tag":"估值情景"},{"company":"688188_柏楚电子","category":"经营敏感性","input":"经营占用占收入","delta":0.24,"price":91.97428897919488,"tag":"估值情景"},{"company":"688188_柏楚电子","category":"阶段15价差","parameter":"原阶段15稳定利润率","before":0.4695780861978382,"reverse":{"domain":[0.04,0.8],"value":0.45078903062838993},"tag":"模型反解"},{"company":"688188_柏楚电子","category":"阶段15价差","parameter":"原阶段15首项销量增长的平移","before":0,"reverse":{"domain":[-0.2,0.4],"value":-0.005953269795720938},"tag":"模型反解"},{"company":"688188_柏楚电子","category":"阶段15价差","parameter":"原阶段15 WACC","before":0.06927418747201654,"reverse":{"domain":[0.026,0.22],"value":0.0705806468697453},"tag":"模型反解"},{"company":"688188_柏楚电子","category":"利润桥","reported_op":1226.03103942,"core_op":938.19389727,"difference":287.8371421500001,"three_financial_lines":{"interest_income":91.06114144,"investment":17.06413621,"fair_value":46.96535593},"source":[{"id":"2026-YTD9:interest_income:688188-fed67b607fa475a7","metric":"interest_income","period":"2026-YTD9","value":"91061141.44","unit":"元","currency":"CNY","entity":"688188_柏楚电子","scope":"合并","cumulative":true,"source_id":"688188-fed67b607fa475a7","source_sha256":"33f3c5e4de011f9858e98a1034e672104e0435fda3bdeec651a04c83fd6887ef","source_path":"sources/raw/02_定期报告与经营数据/2026-10-27_2026年第三季度报告_1225622322.pdf","url":"https://static.cninfo.com.cn/finalpage/2026-10-27/1225622322.PDF","published_at":null,"retrieved_at":null,"locator":{"physical_page":9,"table":"合并报表/附注","column":"本期/期末"},"original_excerpt":"利息收入                           91,061,141.44           27,573,938.00","classification":"披露数","checked_by":"Machine: pypdf/HTML原表提取","checked_at":"2026-11-12T06:01:25.937361+00:00","check":"正文表行候选；Agent实质对读范围另见agent-read-batches.json，不将整库机器提取计作核准","selection_reason":"同范围合并报表本期/比较列；原值保留，不按摘要或标签替代"},{"id":"2026-YTD9:investment:688188-fed67b607fa475a7","metric":"investment","period":"2026-YTD9","value":"17064136.21","unit":"元","currency":"CNY","entity":"688188_柏楚电子","scope":"合并","cumulative":true,"source_id":"688188-fed67b607fa475a7","source_sha256":"33f3c5e4de011f9858e98a1034e672104e0435fda3bdeec651a04c83fd6887ef","source_path":"sources/raw/02_定期报告与经营数据/2026-10-27_2026年第三季度报告_1225622322.pdf","url":"https://static.cninfo.com.cn/finalpage/2026-10-27/1225622322.PDF","published_at":null,"retrieved_at":null,"locator":{"physical_page":9,"table":"合并报表/附注","column":"本期/期末"},"original_excerpt":"投资收益（损失以“-”号填                         17,064,136.21           18,685,630.60","classification":"披露数","checked_by":"Machine: pypdf/HTML原表提取","checked_at":"2026-11-12T06:01:25.937361+00:00","check":"正文表行候选；Agent实质对读范围另见agent-read-batches.json，不将整库机器提取计作核准","selection_reason":"同范围合并报表本期/比较列；原值保留，不按摘要或标签替代"},{"id":"2026-YTD9:fair_value:688188-fed67b607fa475a7","metric":"fair_value","period":"2026-YTD9","value":"46965355.93","unit":"元","currency":"CNY","entity":"688188_柏楚电子","scope":"合并","cumulative":true,"source_id":"688188-fed67b607fa475a7","source_sha256":"33f3c5e4de011f9858e98a1034e672104e0435fda3bdeec651a04c83fd6887ef","source_path":"sources/raw/02_定期报告与经营数据/2026-10-27_2026年第三季度报告_1225622322.pdf","url":"https://static.cninfo.com.cn/finalpage/2026-10-27/1225622322.PDF","published_at":null,"retrieved_at":null,"locator":{"physical_page":9,"table":"合并报表/附注","column":"本期/期末"},"original_excerpt":"公允价值变动收益（损失以                          46,965,355.93           31,449,900.73","classification":"披露数","checked_by":"Machine: pypdf/HTML原表提取","checked_at":"2026-11-12T06:01:25.937361+00:00","check":"正文表行候选；Agent实质对读范围另见agent-read-batches.json，不将整库机器提取计作核准","selection_reason":"同范围合并报表本期/比较列；原值保留，不按摘要或标签替代"}],"inventory":403.39055477999995,"inventory_prior_sep":216.22528205,"cash_cfo":843.40970006,"cash_cfo_prior_sep":784.60738638,"unit":"人民币百万元","note":"核心利润为期内收入减成本、销售、管理、研发及税金附加。三项金融原数无法解释全部差额。"},{"company":"688188_柏楚电子","category":"反解","parameter":"margin","search":[0.02,0.8],"fixed":"显式期起点、成长因子、WACC及权益桥固定；仅变稳定利润率和过渡路径","roots":[0.49801129732619265],"gap_at_ends":[-63.24167714631775,36.56011271270309],"gap_min_max":[-63.24167714631775,36.56011271270309],"status":"有解","tag":"模型反解"},{"company":"688188_柏楚电子","category":"反解","parameter":"wc","search":[0.01,0.65],"fixed":"其余阶段16基准固定；只变经营营运资本需求占收入比例","roots":[],"gap_at_ends":[-2.781018165954819,-6.947896982255358],"gap_min_max":[-6.947896982255358,-2.781018165954819],"status":"搜索区间无交点","tag":"模型反解"},{"company":"688188_柏楚电子","category":"反解","parameter":"rate","search":[0.026,0.22],"fixed":"阶段16基准经营、现金和权益桥固定，只变WACC","roots":[0.06742851708692255],"gap_at_ends":[1197.5075099603173,-66.10688991973166],"gap_min_max":[-66.10688991973166,1197.5075099603173],"status":"有解","tag":"模型反解"}]</script>
+    <script type="application/json" id="columns">["company","category","input","delta","price","tag","parameter","before","reverse","reported_op","core_op","difference","three_financial_lines","source","inventory"]</script><script>
+const rows = JSON.parse(document.querySelector('#data').textContent);
+const columns = JSON.parse(document.querySelector('#columns').textContent);
+const selector = [...document.querySelectorAll('select')];
+const body = document.querySelector('tbody');
+const search = document.querySelector('input[type=search]');
+const status = document.querySelector('#status');
+const filters = ['company','tag','scenario'];
+let page = 0;
+const size = 60;
+selector.forEach((select, i) => {
+  [...new Set(rows.map(row => row[filters[i]]).filter(Boolean))].sort().forEach(value => {
+    const option = document.createElement('option');
+    option.value = value;
+    option.textContent = value;
+    select.append(option);
+  });
+});
+const index = rows.map(row => JSON.stringify(row).toLowerCase());
+function render() {
+  const terms = search.value.toLowerCase().trim().split(/\s+/);
+  const result = rows.filter((row, i) => selector.every((s, n) => !s.value || row[filters[n]] === s.value) &&
+                                         terms.every(term => index[i].includes(term)));
+  const maxPage = Math.max(0, Math.ceil(result.length / size) - 1);
+  page = Math.min(maxPage, Math.max(0, page));
+  status.textContent = '共 ' + result.length + ' 行 · 第 ' + (page+1) + ' / ' + (maxPage+1) + ' 页';
+  body.replaceChildren();
+  for (const row of result.slice(page * size, (page+1)*size)) {
+    const tr = document.createElement('tr');
+    if (row.anchor) tr.id = row.anchor;
+    columns.forEach(key => {
+      const td = document.createElement('td');
+      const value = row[key];
+      if (key === 'url' && value && /^https?:/.test(value)) {
+        const a = document.createElement('a');
+        a.textContent = '发行人或监管原件';
+        a.href = value;
+        td.append(a);
+      } else if (key === 'jump' && value) {
+        const a = document.createElement('a');
+        a.textContent = '当前账本条目';
+        a.href = value;
+        td.append(a);
+      } else if (value != null && typeof value === 'object') {
+        const details = document.createElement('details');
+        const summary = document.createElement('summary');
+        const pre = document.createElement('pre');
+        summary.textContent = '展开';
+        pre.textContent = JSON.stringify(value,null,2);
+        details.append(summary,pre);
+        td.append(details);
+      } else {
+        td.textContent = value ?? '—';
+      }
+      tr.append(td);
+    });
+    body.append(tr);
+  }
+}
+document.querySelector('.controls').addEventListener('input', () => { page=0; render(); });
+document.querySelector('#prev').onclick=()=>{page--; render();};
+document.querySelector('#next').onclick=()=>{page++; render();};
+if (location.hash) {
+  const anchor = decodeURIComponent(location.hash.substring(1));
+  const match = rows.find(x => x.anchor === anchor);
+  if (match) search.value = match.anchor;
+}
+render();
+</script></body></html>
