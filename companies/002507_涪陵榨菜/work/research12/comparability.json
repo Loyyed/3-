@@ -1,0 +1,5 @@
+{
+  "conflicts": [],
+  "specific_note": "报告原值与比较列均保留；本轮不静默覆盖。",
+  "annual_changes_fact": "当前普通ReviewStore无change_facts接口；变化为候选算术，无独立聊天确认事件"
+}

@@ -1,0 +1,56 @@
+{
+  "conflicts": [
+    {
+      "period": "2023-FY",
+      "metric": "cost",
+      "versions": [
+        {
+          "value": "281140773.82",
+          "source_id": "688188-4daf701c6095d460",
+          "location": {
+            "physical_page": 112,
+            "table": "合并报表/附注",
+            "column": "比较/期初"
+          }
+        },
+        {
+          "value": "276714081.20",
+          "source_id": "688188-d931e02dd1c67f13",
+          "location": {
+            "physical_page": 105,
+            "table": "合并报表/附注",
+            "column": "本期/期末"
+          }
+        }
+      ],
+      "treatment": "原始披露和后续比较数分别保存；年度变化选同报告比较列，不混用；原因按下列专门说明"
+    },
+    {
+      "period": "2023-FY",
+      "metric": "sales",
+      "versions": [
+        {
+          "value": "86607900.23",
+          "source_id": "688188-4daf701c6095d460",
+          "location": {
+            "physical_page": 112,
+            "table": "合并报表/附注",
+            "column": "比较/期初"
+          }
+        },
+        {
+          "value": "91034592.85",
+          "source_id": "688188-d931e02dd1c67f13",
+          "location": {
+            "physical_page": 105,
+            "table": "合并报表/附注",
+            "column": "本期/期末"
+          }
+        }
+      ],
+      "treatment": "原始披露和后续比较数分别保存；年度变化选同报告比较列，不混用；原因按下列专门说明"
+    }
+  ],
+  "specific_note": "2024年报2023成本比较列281140773.82，原披露276714081.20；销售费用86607900.23，原披露91034592.85，反向差4426692.62，营业利润不变。具体费用分类解释尚须定位，暂不命名运输费。",
+  "annual_changes_fact": "当前普通ReviewStore无change_facts接口；变化为候选算术，无独立聊天确认事件"
+}

@@ -1,0 +1,230 @@
+{
+  "schema_version": 1,
+  "research_window": "2026-11-12",
+  "actor": "Agent",
+  "status": "Forecast，条件预测非指引/共识/Fact",
+  "no_probability": true,
+  "actual_cutoff": "2026-H1及Q3收入区间",
+  "q4_method": "H1实际+2025H2收入×[预测的Q3占比×已披露Q3收入变化系数+(1-Q3占比)×条件Q4系数]。Q3绝对额与利润现金均未披露。",
+  "driver_definitions": [
+    "IP/同店售出指数",
+    "新增渠道/供给与净价组合"
+  ],
+  "volume_basis": "2026Q3只有同比下降45%—50%的收入区间；模型Q3占2025H2份额0.55是Forecast，区间0.45—0.65，不作历史季度收入",
+  "years": [
+    2026,
+    2027,
+    2028
+  ],
+  "tax_method": "FY2025合并所得税费用/利润总额作为预测税率锚，Pop同；不代表经营现金税",
+  "cash_definition": "税后分析经营利润+D&A-资本开支-应收库存应付预收子集的增量（Pop再扣租赁本金）。仅部分现金段，非FCFF或实际CFO；SBC/递延税/其他经营余额/租赁资本及现金税待闭合",
+  "scenarios": {
+    "base": {
+      "driver_volume": 0.07,
+      "driver_price_mix": 0.01,
+      "gross_margin": 0.69,
+      "selling_ratio": 0.26,
+      "admin_ratio": 0.055,
+      "rd_ratio": 0,
+      "surcharge_ratio": 0,
+      "capex_ratio": 0.035,
+      "ncwc_extra_days": 0,
+      "trigger": "新品接续部分抵消高基数；H2毛利69%",
+      "q4_volume_2026": 1.07,
+      "q4_price_mix_2026": 1.01,
+      "q3_2025_share_of_h2": 0.55,
+      "q3_2026_revenue_factor": 0.525,
+      "q4_2026_revenue_factor": 0.8,
+      "systems_growth": 0.12,
+      "service_growth": 0.14,
+      "ia_pricing_exposure": 0.9,
+      "noncore_run_rate_factor": 0.8,
+      "pop_h2_lease_factor": 1.0
+    },
+    "stress": {
+      "driver_volume": -0.12,
+      "driver_price_mix": -0.04,
+      "gross_margin": 0.64,
+      "selling_ratio": 0.3,
+      "admin_ratio": 0.06,
+      "rd_ratio": 0,
+      "surcharge_ratio": 0,
+      "capex_ratio": 0.04025,
+      "ncwc_extra_days": 20,
+      "trigger": "折扣、滞销及店租刚性延续",
+      "q4_volume_2026": 0.88,
+      "q4_price_mix_2026": 0.96,
+      "q3_2025_share_of_h2": 0.55,
+      "q3_2026_revenue_factor": 0.5,
+      "q4_2026_revenue_factor": 0.6,
+      "systems_growth": 0.03,
+      "service_growth": 0.08,
+      "ia_pricing_exposure": 1.0,
+      "noncore_run_rate_factor": 0.5,
+      "pop_h2_lease_factor": 1.15
+    },
+    "improve": {
+      "driver_volume": 0.18,
+      "driver_price_mix": 0.025,
+      "gross_margin": 0.715,
+      "selling_ratio": 0.245,
+      "admin_ratio": 0.05,
+      "rd_ratio": 0,
+      "surcharge_ratio": 0,
+      "capex_ratio": 0.03325,
+      "ncwc_extra_days": -10,
+      "trigger": "新品接续和成熟店回报恢复",
+      "q4_volume_2026": 1.18,
+      "q4_price_mix_2026": 1.025,
+      "q3_2025_share_of_h2": 0.55,
+      "q3_2026_revenue_factor": 0.55,
+      "q4_2026_revenue_factor": 1.0,
+      "systems_growth": 0.18,
+      "service_growth": 0.18,
+      "ia_pricing_exposure": 0.85,
+      "noncore_run_rate_factor": 1.0,
+      "pop_h2_lease_factor": 1.0
+    }
+  },
+  "parameter_basis": {
+    "driver_volume": {
+      "classification": "Forecast",
+      "basis": "经营驱动/情景判断，非披露值；历史金额锚见source-data及calculation.history",
+      "historical_anchor": "FY2025、2026累计同口径收入成本费用；2025同季剩余基数",
+      "reason": [
+        "IP/同店售出指数",
+        "新增渠道/供给与净价组合"
+      ],
+      "sensitivity": "每个百分点经营利润率及10天经营余额敏感性见calculation.sensitivity；未赋概率"
+    },
+    "driver_price_mix": {
+      "classification": "Forecast",
+      "basis": "经营驱动/情景判断，非披露值；历史金额锚见source-data及calculation.history",
+      "historical_anchor": "FY2025、2026累计同口径收入成本费用；2025同季剩余基数",
+      "reason": [
+        "IP/同店售出指数",
+        "新增渠道/供给与净价组合"
+      ],
+      "sensitivity": "每个百分点经营利润率及10天经营余额敏感性见calculation.sensitivity；未赋概率"
+    },
+    "gross_margin": {
+      "classification": "Forecast",
+      "basis": "经营驱动/情景判断，非披露值；历史金额锚见source-data及calculation.history",
+      "historical_anchor": "FY2025、2026累计同口径收入成本费用；2025同季剩余基数",
+      "reason": "毛利/费用率取现有经营结构附近，压力路径体现费用刚性与成本/折扣，上行情景体现利用率及组合改善；参见各情景trigger",
+      "sensitivity": "每个百分点经营利润率及10天经营余额敏感性见calculation.sensitivity；未赋概率"
+    },
+    "selling_ratio": {
+      "classification": "Forecast",
+      "basis": "经营驱动/情景判断，非披露值；历史金额锚见source-data及calculation.history",
+      "historical_anchor": "FY2025、2026累计同口径收入成本费用；2025同季剩余基数",
+      "reason": "毛利/费用率取现有经营结构附近，压力路径体现费用刚性与成本/折扣，上行情景体现利用率及组合改善；参见各情景trigger",
+      "sensitivity": "每个百分点经营利润率及10天经营余额敏感性见calculation.sensitivity；未赋概率"
+    },
+    "admin_ratio": {
+      "classification": "Forecast",
+      "basis": "经营驱动/情景判断，非披露值；历史金额锚见source-data及calculation.history",
+      "historical_anchor": "FY2025、2026累计同口径收入成本费用；2025同季剩余基数",
+      "reason": "毛利/费用率取现有经营结构附近，压力路径体现费用刚性与成本/折扣，上行情景体现利用率及组合改善；参见各情景trigger",
+      "sensitivity": "每个百分点经营利润率及10天经营余额敏感性见calculation.sensitivity；未赋概率"
+    },
+    "rd_ratio": {
+      "classification": "Forecast",
+      "basis": "经营驱动/情景判断，非披露值；历史金额锚见source-data及calculation.history",
+      "historical_anchor": "FY2025、2026累计同口径收入成本费用；2025同季剩余基数",
+      "reason": "毛利/费用率取现有经营结构附近，压力路径体现费用刚性与成本/折扣，上行情景体现利用率及组合改善；参见各情景trigger",
+      "sensitivity": "每个百分点经营利润率及10天经营余额敏感性见calculation.sensitivity；未赋概率"
+    },
+    "surcharge_ratio": {
+      "classification": "Forecast",
+      "basis": "经营驱动/情景判断，非披露值；历史金额锚见source-data及calculation.history",
+      "historical_anchor": "FY2025、2026累计同口径收入成本费用；2025同季剩余基数",
+      "reason": "毛利/费用率取现有经营结构附近，压力路径体现费用刚性与成本/折扣，上行情景体现利用率及组合改善；参见各情景trigger",
+      "sensitivity": "每个百分点经营利润率及10天经营余额敏感性见calculation.sensitivity；未赋概率"
+    },
+    "capex_ratio": {
+      "classification": "Forecast",
+      "basis": "经营驱动/情景判断，非披露值；历史金额锚见source-data及calculation.history",
+      "historical_anchor": "FY2025、2026累计同口径收入成本费用；2025同季剩余基数",
+      "reason": "毛利/费用率取现有经营结构附近，压力路径体现费用刚性与成本/折扣，上行情景体现利用率及组合改善；参见各情景trigger",
+      "sensitivity": "每个百分点经营利润率及10天经营余额敏感性见calculation.sensitivity；未赋概率"
+    },
+    "ncwc_extra_days": {
+      "classification": "Forecast",
+      "basis": "经营驱动/情景判断，非披露值；历史金额锚见source-data及calculation.history",
+      "historical_anchor": "FY2025、2026累计同口径收入成本费用；2025同季剩余基数",
+      "reason": "毛利/费用率取现有经营结构附近，压力路径体现费用刚性与成本/折扣，上行情景体现利用率及组合改善；参见各情景trigger",
+      "sensitivity": "每个百分点经营利润率及10天经营余额敏感性见calculation.sensitivity；未赋概率"
+    },
+    "q4_volume_2026": {
+      "classification": "Forecast",
+      "basis": "经营驱动/情景判断，非披露值；历史金额锚见source-data及calculation.history",
+      "historical_anchor": "FY2025、2026累计同口径收入成本费用；2025同季剩余基数",
+      "reason": "H1实际+2025H2收入×[预测的Q3占比×已披露Q3收入变化系数+(1-Q3占比)×条件Q4系数]。Q3绝对额与利润现金均未披露。",
+      "sensitivity": "每个百分点经营利润率及10天经营余额敏感性见calculation.sensitivity；未赋概率"
+    },
+    "q4_price_mix_2026": {
+      "classification": "Forecast",
+      "basis": "经营驱动/情景判断，非披露值；历史金额锚见source-data及calculation.history",
+      "historical_anchor": "FY2025、2026累计同口径收入成本费用；2025同季剩余基数",
+      "reason": "H1实际+2025H2收入×[预测的Q3占比×已披露Q3收入变化系数+(1-Q3占比)×条件Q4系数]。Q3绝对额与利润现金均未披露。",
+      "sensitivity": "每个百分点经营利润率及10天经营余额敏感性见calculation.sensitivity；未赋概率"
+    },
+    "q3_2025_share_of_h2": {
+      "classification": "Forecast",
+      "basis": "经营驱动/情景判断，非披露值；历史金额锚见source-data及calculation.history",
+      "historical_anchor": "FY2025、2026累计同口径收入成本费用；2025同季剩余基数",
+      "reason": "H1实际+2025H2收入×[预测的Q3占比×已披露Q3收入变化系数+(1-Q3占比)×条件Q4系数]。Q3绝对额与利润现金均未披露。",
+      "sensitivity": "每个百分点经营利润率及10天经营余额敏感性见calculation.sensitivity；未赋概率"
+    },
+    "q3_2026_revenue_factor": {
+      "classification": "Forecast",
+      "basis": "经营驱动/情景判断，非披露值；历史金额锚见source-data及calculation.history",
+      "historical_anchor": "FY2025、2026累计同口径收入成本费用；2025同季剩余基数",
+      "reason": "H1实际+2025H2收入×[预测的Q3占比×已披露Q3收入变化系数+(1-Q3占比)×条件Q4系数]。Q3绝对额与利润现金均未披露。",
+      "sensitivity": "每个百分点经营利润率及10天经营余额敏感性见calculation.sensitivity；未赋概率"
+    },
+    "q4_2026_revenue_factor": {
+      "classification": "Forecast",
+      "basis": "经营驱动/情景判断，非披露值；历史金额锚见source-data及calculation.history",
+      "historical_anchor": "FY2025、2026累计同口径收入成本费用；2025同季剩余基数",
+      "reason": "H1实际+2025H2收入×[预测的Q3占比×已披露Q3收入变化系数+(1-Q3占比)×条件Q4系数]。Q3绝对额与利润现金均未披露。",
+      "sensitivity": "每个百分点经营利润率及10天经营余额敏感性见calculation.sensitivity；未赋概率"
+    },
+    "systems_growth": {
+      "classification": "Forecast",
+      "basis": "经营驱动/情景判断，非披露值；历史金额锚见source-data及calculation.history",
+      "historical_anchor": "FY2025、2026累计同口径收入成本费用；2025同季剩余基数",
+      "reason": "毛利/费用率取现有经营结构附近，压力路径体现费用刚性与成本/折扣，上行情景体现利用率及组合改善；参见各情景trigger",
+      "sensitivity": "每个百分点经营利润率及10天经营余额敏感性见calculation.sensitivity；未赋概率"
+    },
+    "service_growth": {
+      "classification": "Forecast",
+      "basis": "经营驱动/情景判断，非披露值；历史金额锚见source-data及calculation.history",
+      "historical_anchor": "FY2025、2026累计同口径收入成本费用；2025同季剩余基数",
+      "reason": "毛利/费用率取现有经营结构附近，压力路径体现费用刚性与成本/折扣，上行情景体现利用率及组合改善；参见各情景trigger",
+      "sensitivity": "每个百分点经营利润率及10天经营余额敏感性见calculation.sensitivity；未赋概率"
+    },
+    "ia_pricing_exposure": {
+      "classification": "Forecast",
+      "basis": "经营驱动/情景判断，非披露值；历史金额锚见source-data及calculation.history",
+      "historical_anchor": "FY2025、2026累计同口径收入成本费用；2025同季剩余基数",
+      "reason": "毛利/费用率取现有经营结构附近，压力路径体现费用刚性与成本/折扣，上行情景体现利用率及组合改善；参见各情景trigger",
+      "sensitivity": "每个百分点经营利润率及10天经营余额敏感性见calculation.sensitivity；未赋概率"
+    },
+    "noncore_run_rate_factor": {
+      "classification": "Forecast",
+      "basis": "经营驱动/情景判断，非披露值；历史金额锚见source-data及calculation.history",
+      "historical_anchor": "FY2025、2026累计同口径收入成本费用；2025同季剩余基数",
+      "reason": "毛利/费用率取现有经营结构附近，压力路径体现费用刚性与成本/折扣，上行情景体现利用率及组合改善；参见各情景trigger",
+      "sensitivity": "每个百分点经营利润率及10天经营余额敏感性见calculation.sensitivity；未赋概率"
+    },
+    "pop_h2_lease_factor": {
+      "classification": "Forecast",
+      "basis": "经营驱动/情景判断，非披露值；历史金额锚见source-data及calculation.history",
+      "historical_anchor": "FY2025、2026累计同口径收入成本费用；2025同季剩余基数",
+      "reason": "毛利/费用率取现有经营结构附近，压力路径体现费用刚性与成本/折扣，上行情景体现利用率及组合改善；参见各情景trigger",
+      "sensitivity": "每个百分点经营利润率及10天经营余额敏感性见calculation.sensitivity；未赋概率"
+    }
+  }
+}

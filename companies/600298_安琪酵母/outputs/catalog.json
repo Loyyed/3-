@@ -601,9 +601,18 @@
           "bytes": 19669
         }
       ],
-      "needs_review": false,
+      "needs_review": true,
       "imported": false,
-      "impact_reasons": [],
+      "impact_reasons": [
+        "研究卡变化:R6911ffac3797",
+        "研究卡变化:Re0aacfad8631",
+        "研究卡变化:Ra9f2c23c0275",
+        "研究卡变化:R29373d7bc0f1",
+        "研究卡变化:R2660b3bfa732",
+        "研究卡变化:R21f6d6590f9f",
+        "研究卡变化:Rd60b7456dc65",
+        "研究卡变化:Rc307bcec6202"
+      ],
       "file_integrity": true
     },
     {
@@ -751,6 +760,14 @@
       "needs_review": true,
       "imported": false,
       "impact_reasons": [
+        "研究卡变化:R6911ffac3797",
+        "研究卡变化:Re0aacfad8631",
+        "研究卡变化:Ra9f2c23c0275",
+        "研究卡变化:R29373d7bc0f1",
+        "研究卡变化:R2660b3bfa732",
+        "研究卡变化:R21f6d6590f9f",
+        "研究卡变化:Rd60b7456dc65",
+        "研究卡变化:Rc307bcec6202",
         "输入文件变化:work/writing/authority-snapshot.json",
         "输入文件变化:work/writing/reader.json"
       ],
@@ -765,7 +782,7 @@
       "at": "2026-11-12T04:41:15.885187+00:00",
       "actor": "Agent/test-or-api",
       "actual_user_review": null,
-      "historical": false,
+      "historical": true,
       "bindings": {
         "selection_ids": [
           "R21f6d6590f9f",
@@ -896,6 +913,563 @@
           "format": "md",
           "sha256": "a96e1c62c7a4afca7a3ab3c0f00067bb77bbd88ec79f0d6512b4534e79aef063",
           "bytes": 6472
+        }
+      ],
+      "needs_review": true,
+      "imported": false,
+      "impact_reasons": [
+        "研究卡变化:R6911ffac3797",
+        "研究卡变化:Re0aacfad8631",
+        "研究卡变化:Ra9f2c23c0275",
+        "研究卡变化:R29373d7bc0f1",
+        "研究卡变化:R2660b3bfa732",
+        "研究卡变化:R21f6d6590f9f",
+        "研究卡变化:Rd60b7456dc65",
+        "研究卡变化:Rc307bcec6202",
+        "输入文件变化:work/writing/reader.json"
+      ],
+      "file_integrity": true
+    },
+    {
+      "id": "Oa588c52bd1b6",
+      "group": "research-report",
+      "title": "安琪酵母：历史经营分析与首版条件预测（2026-11-12）",
+      "kind": "报告草稿",
+      "version": 9,
+      "at": "2026-11-12T06:19:27.714646+00:00",
+      "actor": "Agent/test-or-api",
+      "actual_user_review": null,
+      "historical": true,
+      "bindings": {
+        "selection_ids": [
+          "R21f6d6590f9f",
+          "R2660b3bfa732",
+          "R29373d7bc0f1",
+          "R6911ffac3797",
+          "Ra9f2c23c0275",
+          "Rc307bcec6202",
+          "Rd60b7456dc65",
+          "Re0aacfad8631"
+        ],
+        "selection_scope": "all-eight-lanes",
+        "cards": {
+          "R6911ffac3797": "77dbe0fae5400100cae319aff192c99bfc52d5f99b48f3d460db3d36709b4ab8",
+          "Re0aacfad8631": "6034f7e676c42f15a7157d560c8968dcd7b23ab9b2ad02e6704ddccfb87eb492",
+          "Ra9f2c23c0275": "c26561c4626186258071e94f2bff0d7b4836f795c82ecd4edd04543e8e8767b7",
+          "Rc307bcec6202": "a4559c74f3aace4488598f272f68b5c679401ff6ca1e3e274ff458967d2a579d",
+          "R29373d7bc0f1": "c3b0d1a485b051ddb45a5ebf769a7ac636c36fbd3be9e7058c4ad248795c7d04",
+          "R2660b3bfa732": "6ba16038f88399b4990f74f5a0ee07b269f8866ff6094b457b93ba4b0eb894fa",
+          "R21f6d6590f9f": "d94370884c094c1731b2373ce1a80326a9badd84dd006d45dafe8cfc2d68b19b",
+          "Rd60b7456dc65": "b0120e59ed521b7ef5ea5fb1d458fe53c5c42d135873f6df456796eac378536c"
+        },
+        "methods": [
+          {
+            "id": "K03",
+            "version": 1
+          },
+          {
+            "id": "K11",
+            "version": 1
+          },
+          {
+            "id": "E03",
+            "version": 1
+          },
+          {
+            "id": "E06",
+            "version": 1
+          },
+          {
+            "id": "K46",
+            "version": 1
+          },
+          {
+            "id": "K52",
+            "version": 1
+          },
+          {
+            "id": "K63",
+            "version": 1
+          },
+          {
+            "id": "K48",
+            "version": 1
+          },
+          {
+            "id": "K50",
+            "version": 1
+          },
+          {
+            "id": "K54",
+            "version": 1
+          },
+          {
+            "id": "K55",
+            "version": 1
+          },
+          {
+            "id": "K58",
+            "version": 1
+          },
+          {
+            "id": "K59",
+            "version": 1
+          }
+        ],
+        "inputs": {
+          "work/research12/source-data.json": "1d9957434b7bb4250f583844d1cd4f97bf9a946ae7c3ddc25992ecde96f1a765",
+          "work/research12/agent-read-batches.json": "6da0192c6a7d77466aa837b026b8f102085fa143f24f17755b42a4e1cfdd7cdd",
+          "work/research12/comparability.json": "bd794012c278f2da53ac53af0b40af3c6b5f7eb36ba7092e9d92e523876d06a9",
+          "work/research12/forecast-input.json": "be48da9beb2452cb599964bf90268f8caa187988c00ab8bee87ebba4d7deb33b",
+          "work/research12/calculation.json": "354385b90886b44032b4d02d3c2feb1a5fc4dbf1120fd914911c0f4fa47e56b0",
+          "work/research12/forecast.csv": "1203f771a1144d7a1b023723341b8f1ccb71d013eaecdf40dce210381f95d0f4",
+          "work/research12/claim-review.json": "043ad46eab7cbbe5526727d4a89712d19228aebf356177d3174ad496aba5eaee",
+          "work/research12/authority.json": "604530036793661fc350bc95fc31cde3ebe3ad3fac886ac7efb1d118e088236b",
+          "work/valuation/index.json": "b5855ba8f1999bdb1bbadfeed49c324a459c68545465afd0207134801f3d0850",
+          "work/valuation/v1-V2cc086959eb0.json": "675da54b224ad8421abf826241a5011fa56bc798af58f5b6134f808089cc7de8",
+          "work/writing/reader.json": "ca7d034e367a270ac6929d74f7148b919cfdfc5f318f84444d4daf61f15a7b82"
+        },
+        "sources": [
+          {
+            "id": "600298-e14665c0175d59df",
+            "path": "sources/raw/01_年报/2025-04-10_安琪酵母股份有限公司2024年年度报告_1223046779.pdf",
+            "sha256": "9bf55c16321d41dc6ba7a7b980dfad4a76f291cdba5fb0bd447433028de31f46"
+          },
+          {
+            "id": "600298-7a9cbdaf728861fa",
+            "path": "sources/raw/02_定期报告与经营数据/2025-10-30_安琪酵母股份有限公司2025年第三季度报告_1224759133.pdf",
+            "sha256": "05deb79b5ce1807d0d507a1759c78289dd6644d7ff1566513e52fb79211a89eb"
+          },
+          {
+            "id": "600298-5c763f656754f15e",
+            "path": "sources/raw/02_定期报告与经营数据/2026-10-30_安琪酵母股份有限公司2026年第三季度报告_1225641080.pdf",
+            "sha256": "f4739d889d29da1a9744f1fb9428f75f6e6331572031b3de1daec550113f59d1"
+          },
+          {
+            "id": "600298-174439da1375f513",
+            "path": "sources/raw/01_年报/2024-03-19_安琪酵母股份有限公司2023年年度报告_1219331681.pdf",
+            "sha256": "a155225d4d63153d916fb1dee854bba75b8d5c0352a7738d4eaf926454528308"
+          },
+          {
+            "id": "600298-d5b6bb897b9dc0d3",
+            "path": "sources/raw/01_年报/2025-08-15_安琪酵母股份有限公司2025年半年度报告_1224486290.pdf",
+            "sha256": "d1fd851febf46edfce4cb4a301dbf88af68227796e79d078e39ecb1da6419145"
+          },
+          {
+            "id": "600298-48dbfbb4962cfdb9",
+            "path": "sources/raw/01_年报/2026-08-15_安琪酵母股份有限公司2026年半年度报告_1225474683.pdf",
+            "sha256": "5a4940bc351e4d8c4c222857f896065044c944d7d9d149c1ccf598fb44bc968b"
+          },
+          {
+            "id": "600298-a14b53fefcfc0356",
+            "path": "sources/raw/01_年报/2026-03-31_安琪酵母股份有限公司2025年年度报告_1225056953.pdf",
+            "sha256": "7bee6f0f30a5da24746dd431f1947f15c8189fa9fbf5db75df4d3ba3c512c800"
+          }
+        ],
+        "shared_dependencies": {
+          "shared/runtime/companybench/valuation_chain.py": "0155df03fa6ff2dd86a6a4c92f51f277f88e1edd45bfd972d191796276ac23ca",
+          "shared/runtime/companybench/research_depth.py": "bb364cd41336a0d3fe62d0d0663f7e8557570aeff2d201c21517259ae1404a41",
+          "scripts/recalculate_valuation.py": "711a5a9c153a834a2c28d133d24b0aec0cd93153c0baa4f1358a8b22ef4cc727",
+          "docs/投研写作规范.md": "e4cf87afffc67976148eab1d4f2aba00056a5825ba0c7ac64d7ccab1122cfb60",
+          "shared/writing-skills.json": "cad001177fa60de41d782dfbdb8d3ffbfa1ffb81a959472130c85925b6d2ab2a",
+          "app/writing.py": "083ceb8239ce4c1f76b50ead42c52d2e73068d6a564f25f6f288eb4697e947d8",
+          "scripts/recalculate_research12.py": "6f6b1fd983d8eb8361452ce975f8257bff2338cdb91070ef42c1721c4a02642a"
+        }
+      },
+      "files": [
+        {
+          "path": "outputs/research-report/v9-Oa588c52bd1b6/basis.json",
+          "format": "json",
+          "sha256": "da74b00cadc9bbfba0518659b15a10d046c0f663733e73ca1736630bb25e3bca",
+          "bytes": 412280
+        },
+        {
+          "path": "outputs/research-report/v9-Oa588c52bd1b6/report.html",
+          "format": "html",
+          "sha256": "e27e8b020d819c0a2d68d01a422ce3a320bb9db12a7539f443908ec9c5ab4520",
+          "bytes": 13069
+        },
+        {
+          "path": "outputs/research-report/v9-Oa588c52bd1b6/report.md",
+          "format": "md",
+          "sha256": "9878583cb7bfe7c8ff76f22288d1201902c28f4a2833e4e933c677350e76499c",
+          "bytes": 10575
+        }
+      ],
+      "needs_review": true,
+      "imported": false,
+      "impact_reasons": [
+        "研究卡变化:R6911ffac3797",
+        "研究卡变化:Re0aacfad8631",
+        "研究卡变化:Ra9f2c23c0275",
+        "研究卡变化:Rc307bcec6202",
+        "研究卡变化:R29373d7bc0f1",
+        "研究卡变化:R2660b3bfa732",
+        "研究卡变化:R21f6d6590f9f",
+        "研究卡变化:Rd60b7456dc65",
+        "共享计算依赖变化:scripts/recalculate_research12.py",
+        "输入文件变化:work/research12/source-data.json",
+        "输入文件变化:work/research12/calculation.json",
+        "输入文件变化:work/research12/claim-review.json",
+        "输入文件变化:work/research12/authority.json",
+        "输入文件变化:work/writing/reader.json"
+      ],
+      "file_integrity": true
+    },
+    {
+      "id": "Ob6118bfc47bf",
+      "group": "research-report",
+      "title": "安琪酵母：历史经营分析与首版条件预测（2026-11-12）",
+      "kind": "报告草稿",
+      "version": 10,
+      "at": "2026-11-12T06:27:32.178500+00:00",
+      "actor": "Agent/test-or-api",
+      "actual_user_review": null,
+      "historical": true,
+      "bindings": {
+        "selection_ids": [
+          "R21f6d6590f9f",
+          "R2660b3bfa732",
+          "R29373d7bc0f1",
+          "R6911ffac3797",
+          "Ra9f2c23c0275",
+          "Rc307bcec6202",
+          "Rd60b7456dc65",
+          "Re0aacfad8631"
+        ],
+        "selection_scope": "all-eight-lanes",
+        "cards": {
+          "R6911ffac3797": "2a23d42ac37ebfb4d2277bb862308a42030a17c984e6ebe68030c481febe9ac7",
+          "Re0aacfad8631": "42155c394054613d4d1a45ff442f549426b6e8d73d9fc2ee28d43f0d0bf0954a",
+          "Ra9f2c23c0275": "365da6088d82a2431c4349ce71e15cd774593bd0252caebedc3f608155aaaa5f",
+          "Rc307bcec6202": "7a2cd5912c625e96ddab506a82be371f3a708c7a8602ebc9fc7bf5db04fd9dae",
+          "R29373d7bc0f1": "e87857b351455f57a29f6acb55b3f4404d1efc8d6416bb37a8b3de1d9bfa5606",
+          "R2660b3bfa732": "71ddda4044bdd3fef54ec2a30e7d8ecfceba64add6fde686cdc2279056dca5f1",
+          "R21f6d6590f9f": "7aa2eef624b3da389a5851c9caad747f04de4b6c698dcd016bdbf8eafc6c44f4",
+          "Rd60b7456dc65": "d88d630c4753a561c278c1e9f400dc6bbc257620e387045ffb7f0c8eaedcf3f2"
+        },
+        "methods": [
+          {
+            "id": "K03",
+            "version": 1
+          },
+          {
+            "id": "K11",
+            "version": 1
+          },
+          {
+            "id": "E03",
+            "version": 1
+          },
+          {
+            "id": "E06",
+            "version": 1
+          },
+          {
+            "id": "K46",
+            "version": 1
+          },
+          {
+            "id": "K52",
+            "version": 1
+          },
+          {
+            "id": "K63",
+            "version": 1
+          },
+          {
+            "id": "K48",
+            "version": 1
+          },
+          {
+            "id": "K50",
+            "version": 1
+          },
+          {
+            "id": "K54",
+            "version": 1
+          },
+          {
+            "id": "K55",
+            "version": 1
+          },
+          {
+            "id": "K58",
+            "version": 1
+          },
+          {
+            "id": "K59",
+            "version": 1
+          }
+        ],
+        "inputs": {
+          "work/research12/source-data.json": "3ea9287476fd7f1809d4b7f09ab564be10abf941339f49d5d93502457a765a15",
+          "work/research12/agent-read-batches.json": "6da0192c6a7d77466aa837b026b8f102085fa143f24f17755b42a4e1cfdd7cdd",
+          "work/research12/comparability.json": "bd794012c278f2da53ac53af0b40af3c6b5f7eb36ba7092e9d92e523876d06a9",
+          "work/research12/forecast-input.json": "be48da9beb2452cb599964bf90268f8caa187988c00ab8bee87ebba4d7deb33b",
+          "work/research12/calculation.json": "8b63477a173004b43c29c08c0bf65aa85b0b1a68796b268afcb2bfab086111e2",
+          "work/research12/forecast.csv": "1203f771a1144d7a1b023723341b8f1ccb71d013eaecdf40dce210381f95d0f4",
+          "work/research12/claim-review.json": "cf3f5414f68fb16ba53937d4ad8373023638c78ef31ffcefbaa3665dfab3b4f3",
+          "work/research12/authority.json": "4801a29e40f575590e53a2abcd90730b0267c44fa105a5915eba165d333d8534",
+          "work/research12/coverage-and-gaps.json": "3a50299c83e1731713fb1f130826db60e514ca55218ae8955d13dc7f98738979",
+          "work/research12/candidate-crosswalk.json": "43ff4123bd4449fbed961760f150ce8a999ce3645c9e45f5dfc03a740735ab7f",
+          "work/valuation/index.json": "b5855ba8f1999bdb1bbadfeed49c324a459c68545465afd0207134801f3d0850",
+          "work/valuation/v1-V2cc086959eb0.json": "675da54b224ad8421abf826241a5011fa56bc798af58f5b6134f808089cc7de8",
+          "work/writing/reader.json": "2051977d599a6abd91034dbb2dea352f05d81cae49c0385a4fdef18e70a27470"
+        },
+        "sources": [
+          {
+            "id": "600298-174439da1375f513",
+            "path": "sources/raw/01_年报/2024-03-19_安琪酵母股份有限公司2023年年度报告_1219331681.pdf",
+            "sha256": "a155225d4d63153d916fb1dee854bba75b8d5c0352a7738d4eaf926454528308"
+          },
+          {
+            "id": "600298-a14b53fefcfc0356",
+            "path": "sources/raw/01_年报/2026-03-31_安琪酵母股份有限公司2025年年度报告_1225056953.pdf",
+            "sha256": "7bee6f0f30a5da24746dd431f1947f15c8189fa9fbf5db75df4d3ba3c512c800"
+          },
+          {
+            "id": "600298-d5b6bb897b9dc0d3",
+            "path": "sources/raw/01_年报/2025-08-15_安琪酵母股份有限公司2025年半年度报告_1224486290.pdf",
+            "sha256": "d1fd851febf46edfce4cb4a301dbf88af68227796e79d078e39ecb1da6419145"
+          },
+          {
+            "id": "600298-5c763f656754f15e",
+            "path": "sources/raw/02_定期报告与经营数据/2026-10-30_安琪酵母股份有限公司2026年第三季度报告_1225641080.pdf",
+            "sha256": "f4739d889d29da1a9744f1fb9428f75f6e6331572031b3de1daec550113f59d1"
+          },
+          {
+            "id": "600298-7a9cbdaf728861fa",
+            "path": "sources/raw/02_定期报告与经营数据/2025-10-30_安琪酵母股份有限公司2025年第三季度报告_1224759133.pdf",
+            "sha256": "05deb79b5ce1807d0d507a1759c78289dd6644d7ff1566513e52fb79211a89eb"
+          },
+          {
+            "id": "600298-e14665c0175d59df",
+            "path": "sources/raw/01_年报/2025-04-10_安琪酵母股份有限公司2024年年度报告_1223046779.pdf",
+            "sha256": "9bf55c16321d41dc6ba7a7b980dfad4a76f291cdba5fb0bd447433028de31f46"
+          },
+          {
+            "id": "600298-48dbfbb4962cfdb9",
+            "path": "sources/raw/01_年报/2026-08-15_安琪酵母股份有限公司2026年半年度报告_1225474683.pdf",
+            "sha256": "5a4940bc351e4d8c4c222857f896065044c944d7d9d149c1ccf598fb44bc968b"
+          }
+        ],
+        "shared_dependencies": {
+          "shared/runtime/companybench/valuation_chain.py": "0155df03fa6ff2dd86a6a4c92f51f277f88e1edd45bfd972d191796276ac23ca",
+          "shared/runtime/companybench/research_depth.py": "bb364cd41336a0d3fe62d0d0663f7e8557570aeff2d201c21517259ae1404a41",
+          "scripts/recalculate_valuation.py": "711a5a9c153a834a2c28d133d24b0aec0cd93153c0baa4f1358a8b22ef4cc727",
+          "docs/投研写作规范.md": "e4cf87afffc67976148eab1d4f2aba00056a5825ba0c7ac64d7ccab1122cfb60",
+          "shared/writing-skills.json": "cad001177fa60de41d782dfbdb8d3ffbfa1ffb81a959472130c85925b6d2ab2a",
+          "app/writing.py": "083ceb8239ce4c1f76b50ead42c52d2e73068d6a564f25f6f288eb4697e947d8",
+          "scripts/recalculate_research12.py": "6f6b1fd983d8eb8361452ce975f8257bff2338cdb91070ef42c1721c4a02642a"
+        }
+      },
+      "files": [
+        {
+          "path": "outputs/research-report/v10-Ob6118bfc47bf/basis.json",
+          "format": "json",
+          "sha256": "8e609ef8bfeeead6e6c2c1bccea279ea2a2c1719a61c8c4f0457673dba97db4b",
+          "bytes": 437722
+        },
+        {
+          "path": "outputs/research-report/v10-Ob6118bfc47bf/report.html",
+          "format": "html",
+          "sha256": "d735e1529517c6e97565f53cc8c6d26aea0e1748bdbf8183bc23333741e25f87",
+          "bytes": 13407
+        },
+        {
+          "path": "outputs/research-report/v10-Ob6118bfc47bf/report.md",
+          "format": "md",
+          "sha256": "409ae5c605db3c352d2f7651a24d92a26f1fbeceed5caea9313b8646ef3c762e",
+          "bytes": 10909
+        }
+      ],
+      "needs_review": true,
+      "imported": false,
+      "impact_reasons": [
+        "研究卡变化:R6911ffac3797",
+        "研究卡变化:Re0aacfad8631",
+        "研究卡变化:Ra9f2c23c0275",
+        "研究卡变化:Rc307bcec6202",
+        "研究卡变化:R29373d7bc0f1",
+        "研究卡变化:R2660b3bfa732",
+        "研究卡变化:R21f6d6590f9f",
+        "研究卡变化:Rd60b7456dc65",
+        "共享计算依赖变化:scripts/recalculate_research12.py",
+        "输入文件变化:work/research12/calculation.json",
+        "输入文件变化:work/research12/claim-review.json",
+        "输入文件变化:work/research12/authority.json",
+        "输入文件变化:work/writing/reader.json"
+      ],
+      "file_integrity": true
+    },
+    {
+      "id": "O65d622a19602",
+      "group": "research-report",
+      "title": "安琪酵母：历史经营分析与首版条件预测（2026-11-12）",
+      "kind": "报告草稿",
+      "version": 11,
+      "at": "2026-11-19T07:06:47.454625+00:00",
+      "actor": "Agent/test-or-api",
+      "actual_user_review": null,
+      "historical": false,
+      "bindings": {
+        "selection_ids": [
+          "R21f6d6590f9f",
+          "R2660b3bfa732",
+          "R29373d7bc0f1",
+          "R6911ffac3797",
+          "Ra9f2c23c0275",
+          "Rc307bcec6202",
+          "Rd60b7456dc65",
+          "Re0aacfad8631"
+        ],
+        "selection_scope": "all-eight-lanes",
+        "cards": {
+          "R6911ffac3797": "8545db159b5f17f7757cc937f1c4eabc6c7a4ff04efc0ba62a1b9a0d7b6579f8",
+          "Re0aacfad8631": "f77d4c68411e9cc59037a8b62c7f24c5815a9026d894a27da6bce05b0fd82d96",
+          "Ra9f2c23c0275": "8e156d142c5d73b2b829491518b6b8215a5433337b6947da795dc854aeebea6d",
+          "Rc307bcec6202": "9e6444d216c560391d00cb29bbf30f9d63b176a86b0bef480d2553d2fb7d7731",
+          "R29373d7bc0f1": "e0caadf9b1086be6880eca1a438ed33d05c402864783962f7e0dc8819323940e",
+          "R2660b3bfa732": "9b890e2d40dbf64fb7fadb95cf020c83d167f3c53b2e2f865941552dbaf95915",
+          "R21f6d6590f9f": "abecf68398243b20a1dcc082d440ec9896394e285ec5e575491cbf3642fca7f7",
+          "Rd60b7456dc65": "6c0b737110c4e5511d1d2d90bf626b9577683ecf981c5d7476c1a8ec1d930f2a"
+        },
+        "methods": [
+          {
+            "id": "K03",
+            "version": 1
+          },
+          {
+            "id": "K11",
+            "version": 1
+          },
+          {
+            "id": "E03",
+            "version": 1
+          },
+          {
+            "id": "E06",
+            "version": 1
+          },
+          {
+            "id": "K46",
+            "version": 1
+          },
+          {
+            "id": "K52",
+            "version": 1
+          },
+          {
+            "id": "K63",
+            "version": 1
+          },
+          {
+            "id": "K48",
+            "version": 1
+          },
+          {
+            "id": "K50",
+            "version": 1
+          },
+          {
+            "id": "K54",
+            "version": 1
+          },
+          {
+            "id": "K55",
+            "version": 1
+          },
+          {
+            "id": "K58",
+            "version": 1
+          },
+          {
+            "id": "K59",
+            "version": 1
+          }
+        ],
+        "inputs": {
+          "work/research12/source-data.json": "3ea9287476fd7f1809d4b7f09ab564be10abf941339f49d5d93502457a765a15",
+          "work/research12/agent-read-batches.json": "6da0192c6a7d77466aa837b026b8f102085fa143f24f17755b42a4e1cfdd7cdd",
+          "work/research12/comparability.json": "bd794012c278f2da53ac53af0b40af3c6b5f7eb36ba7092e9d92e523876d06a9",
+          "work/research12/forecast-input.json": "be48da9beb2452cb599964bf90268f8caa187988c00ab8bee87ebba4d7deb33b",
+          "work/research12/calculation.json": "6a2f2df52e887eb7bcdaf8e8cb17b7609b3ae32895a635e5760f5944f91558f3",
+          "work/research12/forecast.csv": "1203f771a1144d7a1b023723341b8f1ccb71d013eaecdf40dce210381f95d0f4",
+          "work/research12/claim-review.json": "253b0d0da4310769e2ef54cfa51e31a636d13e6f126f43de328e532e5b25d3d8",
+          "work/research12/original-batch-audit.json": "60c6297092e1250b54a31ba71a03001d76b27bb4b560d83c5332e2d6afc1921d",
+          "work/research12/authority.json": "c7a6389866e91d91b97ce0782be87f9027522816acb3b02952ea1c51dade9630",
+          "work/research12/coverage-and-gaps.json": "3a50299c83e1731713fb1f130826db60e514ca55218ae8955d13dc7f98738979",
+          "work/research12/candidate-crosswalk.json": "43ff4123bd4449fbed961760f150ce8a999ce3645c9e45f5dfc03a740735ab7f",
+          "work/valuation/index.json": "b5855ba8f1999bdb1bbadfeed49c324a459c68545465afd0207134801f3d0850",
+          "work/valuation/v1-V2cc086959eb0.json": "675da54b224ad8421abf826241a5011fa56bc798af58f5b6134f808089cc7de8",
+          "work/writing/reader.json": "89e3755737c3bda276dc545e927f94c580bc967786fbd07ded5a289aaae7417d"
+        },
+        "sources": [
+          {
+            "id": "600298-5c763f656754f15e",
+            "path": "sources/raw/02_定期报告与经营数据/2026-10-30_安琪酵母股份有限公司2026年第三季度报告_1225641080.pdf",
+            "sha256": "f4739d889d29da1a9744f1fb9428f75f6e6331572031b3de1daec550113f59d1"
+          },
+          {
+            "id": "600298-48dbfbb4962cfdb9",
+            "path": "sources/raw/01_年报/2026-08-15_安琪酵母股份有限公司2026年半年度报告_1225474683.pdf",
+            "sha256": "5a4940bc351e4d8c4c222857f896065044c944d7d9d149c1ccf598fb44bc968b"
+          },
+          {
+            "id": "600298-174439da1375f513",
+            "path": "sources/raw/01_年报/2024-03-19_安琪酵母股份有限公司2023年年度报告_1219331681.pdf",
+            "sha256": "a155225d4d63153d916fb1dee854bba75b8d5c0352a7738d4eaf926454528308"
+          },
+          {
+            "id": "600298-e14665c0175d59df",
+            "path": "sources/raw/01_年报/2025-04-10_安琪酵母股份有限公司2024年年度报告_1223046779.pdf",
+            "sha256": "9bf55c16321d41dc6ba7a7b980dfad4a76f291cdba5fb0bd447433028de31f46"
+          },
+          {
+            "id": "600298-d5b6bb897b9dc0d3",
+            "path": "sources/raw/01_年报/2025-08-15_安琪酵母股份有限公司2025年半年度报告_1224486290.pdf",
+            "sha256": "d1fd851febf46edfce4cb4a301dbf88af68227796e79d078e39ecb1da6419145"
+          },
+          {
+            "id": "600298-7a9cbdaf728861fa",
+            "path": "sources/raw/02_定期报告与经营数据/2025-10-30_安琪酵母股份有限公司2025年第三季度报告_1224759133.pdf",
+            "sha256": "05deb79b5ce1807d0d507a1759c78289dd6644d7ff1566513e52fb79211a89eb"
+          },
+          {
+            "id": "600298-a14b53fefcfc0356",
+            "path": "sources/raw/01_年报/2026-03-31_安琪酵母股份有限公司2025年年度报告_1225056953.pdf",
+            "sha256": "7bee6f0f30a5da24746dd431f1947f15c8189fa9fbf5db75df4d3ba3c512c800"
+          }
+        ],
+        "shared_dependencies": {
+          "shared/runtime/companybench/valuation_chain.py": "0155df03fa6ff2dd86a6a4c92f51f277f88e1edd45bfd972d191796276ac23ca",
+          "shared/runtime/companybench/research_depth.py": "bb364cd41336a0d3fe62d0d0663f7e8557570aeff2d201c21517259ae1404a41",
+          "scripts/recalculate_valuation.py": "711a5a9c153a834a2c28d133d24b0aec0cd93153c0baa4f1358a8b22ef4cc727",
+          "docs/投研写作规范.md": "e4cf87afffc67976148eab1d4f2aba00056a5825ba0c7ac64d7ccab1122cfb60",
+          "shared/writing-skills.json": "cad001177fa60de41d782dfbdb8d3ffbfa1ffb81a959472130c85925b6d2ab2a",
+          "app/writing.py": "083ceb8239ce4c1f76b50ead42c52d2e73068d6a564f25f6f288eb4697e947d8",
+          "scripts/recalculate_research12.py": "86555de90ecba93866e5d0c05dd7521237fd0d5f3628a56eeca9b556e7e1015f"
+        }
+      },
+      "files": [
+        {
+          "path": "outputs/research-report/v11-O65d622a19602/basis.json",
+          "format": "json",
+          "sha256": "0b09a35faf9a035f3a4784e305f333b75a32cdca4b86f99b9583172eb5269044",
+          "bytes": 454371
+        },
+        {
+          "path": "outputs/research-report/v11-O65d622a19602/report.html",
+          "format": "html",
+          "sha256": "cb7357c28ac58aa1dca84170bf35d642875dfa8f702aee28965713a4eb82469c",
+          "bytes": 13776
+        },
+        {
+          "path": "outputs/research-report/v11-O65d622a19602/report.md",
+          "format": "md",
+          "sha256": "d9d09a7dbeeb834355a59f59a50cd9d3050c586ec9fc9f7973ecf1b6e0015568",
+          "bytes": 11271
         }
       ],
       "needs_review": false,

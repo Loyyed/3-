@@ -1,0 +1,375 @@
+{
+  "period_metric_source_ids": {
+    "2023-FY": {
+      "revenue": [
+        "2023-FY:revenue:002507-4b14860c37a05a6b",
+        "2023-FY:revenue:002507-4c6fe783e1b63fd9"
+      ],
+      "cost": [
+        "2023-FY:cost:002507-4b14860c37a05a6b",
+        "2023-FY:cost:002507-4c6fe783e1b63fd9"
+      ],
+      "sales": [
+        "2023-FY:sales:002507-4b14860c37a05a6b",
+        "2023-FY:sales:002507-4c6fe783e1b63fd9"
+      ],
+      "admin": [
+        "2023-FY:admin:002507-4b14860c37a05a6b",
+        "2023-FY:admin:002507-4c6fe783e1b63fd9"
+      ],
+      "rd": [
+        "2023-FY:rd:002507-4b14860c37a05a6b",
+        "2023-FY:rd:002507-4c6fe783e1b63fd9"
+      ],
+      "op": [
+        "2023-FY:op:002507-4b14860c37a05a6b",
+        "2023-FY:op:002507-4c6fe783e1b63fd9"
+      ],
+      "parent_income": [
+        "2023-FY:parent_income:002507-4b14860c37a05a6b",
+        "2023-FY:parent_income:002507-4c6fe783e1b63fd9"
+      ],
+      "cfo": [
+        "2023-FY:cfo:002507-4b14860c37a05a6b",
+        "2023-FY:cfo:002507-4c6fe783e1b63fd9"
+      ],
+      "capex": [
+        "2023-FY:capex:002507-4b14860c37a05a6b",
+        "2023-FY:capex:002507-4c6fe783e1b63fd9"
+      ],
+      "depreciation_disclosed": [
+        "2023-FY:depreciation_disclosed:002507-4b14860c37a05a6b"
+      ],
+      "receivable": [
+        "2023-FY:receivable:002507-4b14860c37a05a6b",
+        "2023-FY:receivable:002507-4c6fe783e1b63fd9"
+      ],
+      "inventory": [
+        "2023-FY:inventory:002507-4b14860c37a05a6b",
+        "2023-FY:inventory:002507-4c6fe783e1b63fd9"
+      ],
+      "payable": [
+        "2023-FY:payable:002507-4b14860c37a05a6b",
+        "2023-FY:payable:002507-4c6fe783e1b63fd9"
+      ],
+      "advance": [
+        "2023-FY:advance:002507-4b14860c37a05a6b",
+        "2023-FY:advance:002507-4c6fe783e1b63fd9"
+      ],
+      "cash": [
+        "2023-FY:cash:002507-4b14860c37a05a6b",
+        "2023-FY:cash:002507-4c6fe783e1b63fd9"
+      ],
+      "trading_financial_assets": [
+        "2023-FY:trading_financial_assets:002507-4b14860c37a05a6b"
+      ],
+      "short_borrow": [],
+      "long_borrow": [],
+      "lease": [
+        "2023-FY:lease:002507-4b14860c37a05a6b",
+        "2023-FY:lease:002507-4c6fe783e1b63fd9"
+      ],
+      "shares": [
+        "2023-FY:shares:002507-4b14860c37a05a6b",
+        "2023-FY:shares:002507-4c6fe783e1b63fd9"
+      ]
+    },
+    "2024-FY": {
+      "revenue": [
+        "2024-FY:revenue:002507-4c6fe783e1b63fd9",
+        "2024-FY:revenue:002507-6cd117ea1ac8beee"
+      ],
+      "cost": [
+        "2024-FY:cost:002507-4c6fe783e1b63fd9",
+        "2024-FY:cost:002507-6cd117ea1ac8beee"
+      ],
+      "sales": [
+        "2024-FY:sales:002507-4c6fe783e1b63fd9",
+        "2024-FY:sales:002507-6cd117ea1ac8beee"
+      ],
+      "admin": [
+        "2024-FY:admin:002507-4c6fe783e1b63fd9",
+        "2024-FY:admin:002507-6cd117ea1ac8beee"
+      ],
+      "rd": [
+        "2024-FY:rd:002507-4c6fe783e1b63fd9",
+        "2024-FY:rd:002507-6cd117ea1ac8beee"
+      ],
+      "op": [
+        "2024-FY:op:002507-4c6fe783e1b63fd9",
+        "2024-FY:op:002507-6cd117ea1ac8beee"
+      ],
+      "parent_income": [
+        "2024-FY:parent_income:002507-4c6fe783e1b63fd9",
+        "2024-FY:parent_income:002507-6cd117ea1ac8beee"
+      ],
+      "cfo": [
+        "2024-FY:cfo:002507-4c6fe783e1b63fd9",
+        "2024-FY:cfo:002507-6cd117ea1ac8beee"
+      ],
+      "capex": [
+        "2024-FY:capex:002507-4c6fe783e1b63fd9",
+        "2024-FY:capex:002507-6cd117ea1ac8beee"
+      ],
+      "depreciation_disclosed": [
+        "2024-FY:depreciation_disclosed:002507-4c6fe783e1b63fd9"
+      ],
+      "receivable": [
+        "2024-FY:receivable:002507-2400e7c98a00f701",
+        "2024-FY:receivable:002507-4c6fe783e1b63fd9",
+        "2024-FY:receivable:002507-6cd117ea1ac8beee",
+        "2024-FY:receivable:002507-dee598028c74bbc4"
+      ],
+      "inventory": [
+        "2024-FY:inventory:002507-2400e7c98a00f701",
+        "2024-FY:inventory:002507-4c6fe783e1b63fd9",
+        "2024-FY:inventory:002507-6cd117ea1ac8beee",
+        "2024-FY:inventory:002507-dee598028c74bbc4"
+      ],
+      "payable": [
+        "2024-FY:payable:002507-2400e7c98a00f701",
+        "2024-FY:payable:002507-4c6fe783e1b63fd9",
+        "2024-FY:payable:002507-6cd117ea1ac8beee",
+        "2024-FY:payable:002507-dee598028c74bbc4"
+      ],
+      "advance": [
+        "2024-FY:advance:002507-2400e7c98a00f701",
+        "2024-FY:advance:002507-4c6fe783e1b63fd9",
+        "2024-FY:advance:002507-6cd117ea1ac8beee",
+        "2024-FY:advance:002507-dee598028c74bbc4"
+      ],
+      "cash": [
+        "2024-FY:cash:002507-2400e7c98a00f701",
+        "2024-FY:cash:002507-4c6fe783e1b63fd9",
+        "2024-FY:cash:002507-6cd117ea1ac8beee",
+        "2024-FY:cash:002507-dee598028c74bbc4"
+      ],
+      "trading_financial_assets": [
+        "2024-FY:trading_financial_assets:002507-4c6fe783e1b63fd9"
+      ],
+      "short_borrow": [],
+      "long_borrow": [],
+      "lease": [
+        "2024-FY:lease:002507-2400e7c98a00f701",
+        "2024-FY:lease:002507-4c6fe783e1b63fd9",
+        "2024-FY:lease:002507-6cd117ea1ac8beee",
+        "2024-FY:lease:002507-dee598028c74bbc4"
+      ],
+      "shares": [
+        "2024-FY:shares:002507-2400e7c98a00f701",
+        "2024-FY:shares:002507-4c6fe783e1b63fd9",
+        "2024-FY:shares:002507-6cd117ea1ac8beee",
+        "2024-FY:shares:002507-dee598028c74bbc4"
+      ]
+    },
+    "2025-FY": {
+      "revenue": [
+        "2025-FY:revenue:002507-6cd117ea1ac8beee"
+      ],
+      "cost": [
+        "2025-FY:cost:002507-6cd117ea1ac8beee"
+      ],
+      "sales": [
+        "2025-FY:sales:002507-6cd117ea1ac8beee"
+      ],
+      "admin": [
+        "2025-FY:admin:002507-6cd117ea1ac8beee"
+      ],
+      "rd": [
+        "2025-FY:rd:002507-6cd117ea1ac8beee"
+      ],
+      "op": [
+        "2025-FY:op:002507-6cd117ea1ac8beee"
+      ],
+      "parent_income": [
+        "2025-FY:parent_income:002507-6cd117ea1ac8beee"
+      ],
+      "cfo": [
+        "2025-FY:cfo:002507-6cd117ea1ac8beee"
+      ],
+      "capex": [
+        "2025-FY:capex:002507-6cd117ea1ac8beee"
+      ],
+      "depreciation_disclosed": [
+        "2025-FY:depreciation_disclosed:002507-6cd117ea1ac8beee"
+      ],
+      "receivable": [
+        "2025-FY:receivable:002507-6cd117ea1ac8beee",
+        "2025-FY:receivable:002507-b901d0b919e32cba",
+        "2025-FY:receivable:002507-d45bfdfdec6d4379"
+      ],
+      "inventory": [
+        "2025-FY:inventory:002507-6cd117ea1ac8beee",
+        "2025-FY:inventory:002507-b901d0b919e32cba",
+        "2025-FY:inventory:002507-d45bfdfdec6d4379"
+      ],
+      "payable": [
+        "2025-FY:payable:002507-6cd117ea1ac8beee",
+        "2025-FY:payable:002507-b901d0b919e32cba",
+        "2025-FY:payable:002507-d45bfdfdec6d4379"
+      ],
+      "advance": [
+        "2025-FY:advance:002507-6cd117ea1ac8beee",
+        "2025-FY:advance:002507-b901d0b919e32cba",
+        "2025-FY:advance:002507-d45bfdfdec6d4379"
+      ],
+      "cash": [
+        "2025-FY:cash:002507-6cd117ea1ac8beee",
+        "2025-FY:cash:002507-b901d0b919e32cba",
+        "2025-FY:cash:002507-d45bfdfdec6d4379"
+      ],
+      "trading_financial_assets": [
+        "2025-FY:trading_financial_assets:002507-6cd117ea1ac8beee"
+      ],
+      "short_borrow": [],
+      "long_borrow": [],
+      "lease": [
+        "2025-FY:lease:002507-6cd117ea1ac8beee",
+        "2025-FY:lease:002507-b901d0b919e32cba"
+      ],
+      "shares": [
+        "2025-FY:shares:002507-6cd117ea1ac8beee",
+        "2025-FY:shares:002507-b901d0b919e32cba",
+        "2025-FY:shares:002507-d45bfdfdec6d4379"
+      ]
+    },
+    "2026-H1": {
+      "revenue": [
+        "2026-H1:revenue:002507-b901d0b919e32cba"
+      ],
+      "cost": [
+        "2026-H1:cost:002507-b901d0b919e32cba"
+      ],
+      "sales": [
+        "2026-H1:sales:002507-b901d0b919e32cba"
+      ],
+      "admin": [
+        "2026-H1:admin:002507-b901d0b919e32cba"
+      ],
+      "rd": [
+        "2026-H1:rd:002507-b901d0b919e32cba"
+      ],
+      "op": [
+        "2026-H1:op:002507-b901d0b919e32cba"
+      ],
+      "parent_income": [
+        "2026-H1:parent_income:002507-b901d0b919e32cba"
+      ],
+      "cfo": [
+        "2026-H1:cfo:002507-b901d0b919e32cba"
+      ],
+      "capex": [
+        "2026-H1:capex:002507-b901d0b919e32cba"
+      ],
+      "depreciation_disclosed": [
+        "2026-H1:depreciation_disclosed:002507-b901d0b919e32cba"
+      ],
+      "receivable": [
+        "2026-H1:receivable:002507-b901d0b919e32cba"
+      ],
+      "inventory": [
+        "2026-H1:inventory:002507-b901d0b919e32cba"
+      ],
+      "payable": [
+        "2026-H1:payable:002507-b901d0b919e32cba"
+      ],
+      "advance": [
+        "2026-H1:advance:002507-b901d0b919e32cba"
+      ],
+      "cash": [
+        "2026-H1:cash:002507-b901d0b919e32cba"
+      ],
+      "trading_financial_assets": [
+        "2026-H1:trading_financial_assets:002507-b901d0b919e32cba"
+      ],
+      "short_borrow": [],
+      "long_borrow": [],
+      "lease": [
+        "2026-H1:lease:002507-b901d0b919e32cba"
+      ],
+      "shares": [
+        "2026-H1:shares:002507-b901d0b919e32cba"
+      ]
+    },
+    "2026-YTD9": {
+      "revenue": [
+        "2026-YTD9:revenue:002507-d45bfdfdec6d4379"
+      ],
+      "cost": [
+        "2026-YTD9:cost:002507-d45bfdfdec6d4379"
+      ],
+      "sales": [
+        "2026-YTD9:sales:002507-d45bfdfdec6d4379"
+      ],
+      "admin": [
+        "2026-YTD9:admin:002507-d45bfdfdec6d4379"
+      ],
+      "rd": [
+        "2026-YTD9:rd:002507-d45bfdfdec6d4379"
+      ],
+      "op": [
+        "2026-YTD9:op:002507-d45bfdfdec6d4379"
+      ],
+      "parent_income": [
+        "2026-YTD9:parent_income:002507-d45bfdfdec6d4379"
+      ],
+      "cfo": [
+        "2026-YTD9:cfo:002507-d45bfdfdec6d4379"
+      ],
+      "capex": [
+        "2026-YTD9:capex:002507-d45bfdfdec6d4379"
+      ],
+      "depreciation_disclosed": [],
+      "receivable": [
+        "2026-YTD9:receivable:002507-d45bfdfdec6d4379"
+      ],
+      "inventory": [
+        "2026-YTD9:inventory:002507-d45bfdfdec6d4379"
+      ],
+      "payable": [
+        "2026-YTD9:payable:002507-d45bfdfdec6d4379"
+      ],
+      "advance": [
+        "2026-YTD9:advance:002507-d45bfdfdec6d4379"
+      ],
+      "cash": [
+        "2026-YTD9:cash:002507-d45bfdfdec6d4379"
+      ],
+      "trading_financial_assets": [
+        "2026-YTD9:trading_financial_assets:002507-d45bfdfdec6d4379"
+      ],
+      "short_borrow": [],
+      "long_borrow": [],
+      "lease": [
+        "2026-YTD9:lease:002507-d45bfdfdec6d4379"
+      ],
+      "shares": [
+        "2026-YTD9:shares:002507-d45bfdfdec6d4379"
+      ]
+    }
+  },
+  "empty_cell_meaning": "未提取/不单独列示，须按公司口径识别；空不等于0。Pop没有完整2026YTD报表",
+  "scope": "核心收入利润CFO和2025详细现金桥已形成；逐期D&A/租赁/SBC/股数及分部范围仍有具体未完成项，不称完整最小数据集已全部完成",
+  "gaps": [
+    {
+      "missing_evidence": "同SKU扣促销净价与终端销售/经销库存：现有年报及季度报未按此口径披露，不能区分品牌提价与组合/补货",
+      "impact": "见本条具体口径及报告对应判断；不补零",
+      "next_action": "优先继续现有完整附注/原始监管及IR材料逐表对读，按字段补原值；不改Fact身份",
+      "availability": "本轮未提取/公司未按所需口径披露，非下载失败"
+    },
+    {
+      "missing_evidence": "新基地分期利用率及同范围投资、在建转固：本轮取得合并在建及现金购建；未完成项目队列，阻止项目新增ROIC",
+      "impact": "见本条具体口径及报告对应判断；不补零",
+      "next_action": "优先继续现有完整附注/原始监管及IR材料逐表对读，按字段补原值；不改Fact身份",
+      "availability": "本轮未提取/公司未按所需口径披露，非下载失败"
+    },
+    {
+      "missing_evidence": "完整经营现金税、经营NCWC非现金变动、租赁/研发/SBC一致调整",
+      "impact": "现金段不能升格FCFF，无法输出完整条件估值",
+      "next_action": "沿现金流附注及租赁/税/股份支付附注补分项与范围；保留原报和分析调整并排",
+      "availability": "现有附注尚未完成全范围闭合"
+    }
+  ],
+  "download_failures_this_round": [],
+  "download_note": "本轮复用本地完整披露，未执行新增下载；未把提取缺口称资料不存在"
+}

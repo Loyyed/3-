@@ -1,0 +1,56 @@
+{
+  "at": "2026-11-19T07:10:39.831Z",
+  "browser": "Chromium via Playwright",
+  "desktop_width": 1420,
+  "narrow_width": 390,
+  "companies": [
+    {
+      "company": "002507_涪陵榨菜",
+      "model_rows_after_filter": 48,
+      "review_rows": 7,
+      "source_http": 200,
+      "report_title": "涪陵榨菜：历史经营分析与首版条件预测（2026-11-12）",
+      "forecast_download": "forecast.csv"
+    },
+    {
+      "company": "09992_泡泡玛特",
+      "model_rows_after_filter": 16,
+      "review_rows": 7,
+      "source_http": 200,
+      "report_title": "泡泡玛特：历史经营分析与首版条件预测（2026-11-12）",
+      "forecast_download": "forecast.csv"
+    },
+    {
+      "company": "600298_安琪酵母",
+      "model_rows_after_filter": 55,
+      "review_rows": 7,
+      "source_http": 200,
+      "report_title": "安琪酵母：历史经营分析与首版条件预测（2026-11-12）",
+      "forecast_download": "forecast.csv"
+    },
+    {
+      "company": "688188_柏楚电子",
+      "model_rows_after_filter": 51,
+      "review_rows": 7,
+      "source_http": 200,
+      "report_title": "柏楚电子：历史经营分析与首版条件预测（2026-11-12）",
+      "forecast_download": "forecast.csv"
+    },
+    {
+      "company": "US_ISRG_直觉外科",
+      "model_rows_after_filter": 20,
+      "review_rows": 8,
+      "source_http": 200,
+      "report_title": "Intuitive Surgical（ISRG）：历史经营分析与首版条件预测（2026-11-12）",
+      "forecast_download": "forecast.csv"
+    }
+  ],
+  "page_errors": [],
+  "reported_md_download_sha256": "77bb050a13dd339884c748ae7fadbbcff04477e89141e9e5b51c7bcdacff3bdd",
+  "analysis_entry": true,
+  "restart": {
+    "first_pid": 16828,
+    "second_pid": 24864,
+    "latest_isrg_report_restored": true
+  }
+}

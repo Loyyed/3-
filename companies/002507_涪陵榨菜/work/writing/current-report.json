@@ -1,10 +1,10 @@
 {
-  "id": "O315df3a0d64f",
+  "id": "Od7b0c0d6753f",
   "group": "research-report",
-  "title": "涪陵榨菜：收入恢复之后，利润与现金如何跟上",
+  "title": "涪陵榨菜：历史经营分析与首版条件预测（2026-11-12）",
   "kind": "报告草稿",
-  "version": 8,
-  "at": "2026-11-12T04:40:29.515884+00:00",
+  "version": 11,
+  "at": "2026-11-19T07:06:45.504975+00:00",
   "actor": "Agent/test-or-api",
   "actual_user_review": null,
   "historical": false,
@@ -21,14 +21,14 @@
     ],
     "selection_scope": "all-eight-lanes",
     "cards": {
-      "R3a8ec12bc38f": "b2c22eca8e6659d1cae6f4a14f7d41c213eeb66bcd1ea7e63ff0bc21fa8ecdc3",
-      "R09e06cc7c1a8": "10688bbc4e9f06915e412b8f80645d6d7ab5fee410c975ed0866803eb35700f6",
-      "R0b427d7dd7fe": "6e2d11f60d28bac78d60f7709ff1f40456f87d75645c7cad6e609ea84e818273",
-      "R48ccbb2a4ad6": "937bab55f96a97a4810dda169975a883da617684e6930fe770fb64e355a7884d",
-      "R1572b24923fd": "70762eed47310a6c145c1c068a60a65b4ebf7d3970c35a4078b5e41f3065e07c",
-      "R8bff8d9f729a": "14add837442794f72984b2a72ec44475774c713558ca8197391448e1b9e57dd7",
-      "R8c5f7065f343": "e22f166c3a1d96cf2700a689ead779e5af36d5a7cd067f6861d657a6efdf3b8e",
-      "R69074d027896": "08942ef05bccf89f633b93e8a2c25d5919832ead36651d160c0e1e89a98516f1"
+      "R3a8ec12bc38f": "d84313b891397eb80d46b665e05bb784ea500da5e8aa52422d0ceadbeac963f9",
+      "R09e06cc7c1a8": "dce0de06b8711ce1d3f4f2cef01edd9200f739f793c731791177c7f53a93dd00",
+      "R0b427d7dd7fe": "af4a01d109758a5a17496466ae9bb0b5eb2aa1bf711fe9f281d819607fcee921",
+      "R69074d027896": "f4a85167cd5aa70b6d7d97dd5b70451b0d10e6f2b78acfa56c737ede42b9772d",
+      "R48ccbb2a4ad6": "55bcc7b5e0644b7fe1d2069d2254848d94eecc1d5908462d574777cf727a84d3",
+      "R1572b24923fd": "935360ac922f9ab6a38db67d01e9aa4e528191788a184982e2f149f58c48d606",
+      "R8bff8d9f729a": "45e515822b1a1de6eb324e372648e4f7264c8bae4ebb623b58a6c25dcf582441",
+      "R8c5f7065f343": "025232d58e252bef2f2ad86f34f9a2fb218a0721a4b103b047bff283c6a5ee44"
     },
     "methods": [
       {
@@ -85,20 +85,41 @@
       }
     ],
     "inputs": {
-      "work/research09/evidence-map.json": "e9782ef46dac32ab1b5e8d52ecd570e828d765581b9d2a9cd25dc1fd96a20e8a",
-      "work/research09/parameter-register.json": "ba5b50301dbc97043a52d6dd1fee7217b35aa88be5d1df517bc3120933bf3f48",
-      "work/research09/利润资本现金与估值准备.md": "5fc00d1b228fd0e7f903c2d657b2eda64e96728ce39763496034bb2a0487b5da",
-      "work/research07/source-field-map.json": "e6cf65a2d041fc7c74cc95b6da672ab9cfdea12deacd5b056634b417b4191ac8",
+      "work/research12/source-data.json": "cc9e8f962541396c1c006e309497880774f935c802ce93ef013045bb922a80f3",
+      "work/research12/agent-read-batches.json": "d91b08c3bddf4fb6d850966db6c599681dc8f67dbd8b9d1edd2afaf4bdf8c0ed",
+      "work/research12/comparability.json": "7c1943d2908193b4622084380a7577d90d5bcc149f9886fb7522cd64a8789312",
+      "work/research12/forecast-input.json": "d1e5685849d902ce56a8f32dfd0b76530b7fc89c678d24e0a2e57da7ba7182b4",
+      "work/research12/calculation.json": "16b709a382052f4065380fedc787baf06d5d48fa90954de0f6b866b2dcf9d16d",
+      "work/research12/forecast.csv": "f5a2689e5f4581ce21b43f111f559debea9c98441f0d922ae70722aae3b58416",
+      "work/research12/claim-review.json": "75369098b377bf4c4561809c3a31a45b08a8557e3b476c499a500c8bec6cd5da",
+      "work/research12/original-batch-audit.json": "8fcab9406a59df261ee3452df06a0c8a2e15ff8a835b6cdfda865969d4eeac05",
+      "work/research12/authority.json": "dd19be53f4ac5afc783ed2e82a9ff56de2affff89e06b1536b7607afea2f68b6",
+      "work/research12/coverage-and-gaps.json": "8dc975ada30e8d39b6312cc96c4925780f7bd899aeeb067c53498849a5c4b87c",
+      "work/research12/candidate-crosswalk.json": "15fc3bc644b336413a1611d3f5e79c8b706c4ab600b93ffc1a18b63b6acb244a",
       "work/valuation/index.json": "1d62b040b5016e95ad10be36bc9f8bed839605e873056d63331f8aef01d080f0",
       "work/valuation/v1-V15d4e40ce069.json": "305ba8000413a16028173270f0fe6fb4ebec2bf9c688749e03f71edbc97abe9f",
-      "work/writing/authority-snapshot.json": "92d6a6be4dc28b4356df9595f5c249c5eda3dcbdb01ca105e6749e3e2dbf9019",
-      "work/writing/reader.json": "c4a12fd492772b3953edcb4c995ba24edefa801c6a0b3dfedc11d975131f0859"
+      "work/writing/reader.json": "6ea6c4f50853d61237aaceb9baec0d0475697ecc3c51d63f788d7bf274827263"
     },
     "sources": [
       {
-        "id": "002507-d45bfdfdec6d4379",
-        "path": "sources/raw/02_定期报告与经营数据/2026-10-28_2026年三季度报告_1225628280.pdf",
-        "sha256": "18eee5ef5d7b63db544c0c855a1ade7c311e914a397245a11873679fc6955b07"
+        "id": "002507-2400e7c98a00f701",
+        "path": "sources/raw/01_年报/2025-08-27_2025年半年度报告_1224575332.pdf",
+        "sha256": "bbe9ba44671f85504dcfba354148e2206d00ef0a70bb433cb35e5df4440e0653"
+      },
+      {
+        "id": "002507-b901d0b919e32cba",
+        "path": "sources/raw/01_年报/2026-08-28_2026年半年度报告_1225517908.pdf",
+        "sha256": "e85ee9eaacaa3eac2ec2e3940e147cc7941f992f5fd6efb072a88e0438e2bd11"
+      },
+      {
+        "id": "002507-dee598028c74bbc4",
+        "path": "sources/raw/02_定期报告与经营数据/2025-10-25_2025年三季度报告_1224735801.pdf",
+        "sha256": "e7e3544b04770aa9fce6a484d06dab3d5b5645afa961eb04bee2b75786f2c734"
+      },
+      {
+        "id": "002507-4c6fe783e1b63fd9",
+        "path": "sources/raw/01_年报/2025-03-29_2024年年度报告_1222941660.pdf",
+        "sha256": "6a92a481feeefe891c5161e1836d782d6cf673691ec304371325d5e5793bbb87"
       },
       {
         "id": "002507-6cd117ea1ac8beee",
@@ -106,9 +127,14 @@
         "sha256": "db3af94635933a99c37cccb2b3809267b5e21072563ef12c2a8de93eb721f9b5"
       },
       {
-        "id": "002507-b901d0b919e32cba",
-        "path": "sources/raw/01_年报/2026-08-28_2026年半年度报告_1225517908.pdf",
-        "sha256": "e85ee9eaacaa3eac2ec2e3940e147cc7941f992f5fd6efb072a88e0438e2bd11"
+        "id": "002507-4b14860c37a05a6b",
+        "path": "sources/raw/01_年报/2024-03-30_2023年年度报告_1219462373.pdf",
+        "sha256": "dde763a874456841c3ef85fd0b535903796f97af1fedb88453743bbc72460f64"
+      },
+      {
+        "id": "002507-d45bfdfdec6d4379",
+        "path": "sources/raw/02_定期报告与经营数据/2026-10-28_2026年三季度报告_1225628280.pdf",
+        "sha256": "18eee5ef5d7b63db544c0c855a1ade7c311e914a397245a11873679fc6955b07"
       }
     ],
     "shared_dependencies": {
@@ -117,27 +143,28 @@
       "scripts/recalculate_valuation.py": "711a5a9c153a834a2c28d133d24b0aec0cd93153c0baa4f1358a8b22ef4cc727",
       "docs/投研写作规范.md": "e4cf87afffc67976148eab1d4f2aba00056a5825ba0c7ac64d7ccab1122cfb60",
       "shared/writing-skills.json": "cad001177fa60de41d782dfbdb8d3ffbfa1ffb81a959472130c85925b6d2ab2a",
-      "app/writing.py": "083ceb8239ce4c1f76b50ead42c52d2e73068d6a564f25f6f288eb4697e947d8"
+      "app/writing.py": "083ceb8239ce4c1f76b50ead42c52d2e73068d6a564f25f6f288eb4697e947d8",
+      "scripts/recalculate_research12.py": "86555de90ecba93866e5d0c05dd7521237fd0d5f3628a56eeca9b556e7e1015f"
     }
   },
   "files": [
     {
-      "path": "outputs/research-report/v8-O315df3a0d64f/basis.json",
+      "path": "outputs/research-report/v11-Od7b0c0d6753f/basis.json",
       "format": "json",
-      "sha256": "0f9a38bff94aaaa3ec7f05f0e9e65febb6f34084a10064f4cea97806a6dccd88",
-      "bytes": 109035
+      "sha256": "6473a87cc92df0e109d465352e53b94272e7928f49e01358ee130cdacc5407c9",
+      "bytes": 430214
     },
     {
-      "path": "outputs/research-report/v8-O315df3a0d64f/report.html",
+      "path": "outputs/research-report/v11-Od7b0c0d6753f/report.html",
       "format": "html",
-      "sha256": "382a35c27db0b5111da80ddb272a7b6c98f8b953e8087d39bdf2a61d3f38e58c",
-      "bytes": 8091
+      "sha256": "63dbae2553746768aaf0c3584c1bcf705ada724c48f18b33e5d61dc4085ea8bd",
+      "bytes": 12961
     },
     {
-      "path": "outputs/research-report/v8-O315df3a0d64f/report.md",
+      "path": "outputs/research-report/v11-Od7b0c0d6753f/report.md",
       "format": "md",
-      "sha256": "a0fad53a48f5080fcc0e97e8c5de983030404ecb102c9207edfd9fbf1e08f70d",
-      "bytes": 6326
+      "sha256": "e2dc21875c816d798443046f2dc399e3e68c1515ea2d1c9578235a7096c1f47d",
+      "bytes": 10672
     }
   ],
   "needs_review": false,

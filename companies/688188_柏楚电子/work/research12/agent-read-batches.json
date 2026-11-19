@@ -1,0 +1,161 @@
+{
+  "events": [
+    {
+      "id": "A12-001",
+      "actor": "Agent",
+      "at": "2026-11-12T06:10:32.805338+00:00",
+      "source_id": "688188-a343f0dc3c27d114",
+      "rows": [
+        "2025-FY:tax_surcharge:688188-a343f0dc3c27d114",
+        "2024-FY:tax_surcharge:688188-a343f0dc3c27d114",
+        "2025-FY:revenue:688188-a343f0dc3c27d114",
+        "2024-FY:revenue:688188-a343f0dc3c27d114",
+        "2025-FY:cost:688188-a343f0dc3c27d114",
+        "2024-FY:cost:688188-a343f0dc3c27d114",
+        "2025-FY:sales:688188-a343f0dc3c27d114",
+        "2024-FY:sales:688188-a343f0dc3c27d114"
+      ],
+      "result": "原表正文、列头、期间、单位及相邻表行对读；列值写入候选；不升级Fact",
+      "human_answer": null
+    },
+    {
+      "id": "A12-002",
+      "actor": "Agent",
+      "at": "2026-11-12T06:10:32.805338+00:00",
+      "source_id": "688188-a343f0dc3c27d114",
+      "rows": [
+        "2025-FY:admin:688188-a343f0dc3c27d114",
+        "2024-FY:admin:688188-a343f0dc3c27d114",
+        "2025-FY:rd:688188-a343f0dc3c27d114",
+        "2024-FY:rd:688188-a343f0dc3c27d114",
+        "2025-FY:finance:688188-a343f0dc3c27d114",
+        "2024-FY:finance:688188-a343f0dc3c27d114",
+        "2025-FY:interest_income:688188-a343f0dc3c27d114",
+        "2024-FY:interest_income:688188-a343f0dc3c27d114"
+      ],
+      "result": "原表正文、列头、期间、单位及相邻表行对读；列值写入候选；不升级Fact",
+      "human_answer": null
+    },
+    {
+      "id": "A12-003",
+      "actor": "Agent",
+      "at": "2026-11-12T06:10:32.805338+00:00",
+      "source_id": "688188-a343f0dc3c27d114",
+      "rows": [
+        "2025-FY:investment:688188-a343f0dc3c27d114",
+        "2024-FY:investment:688188-a343f0dc3c27d114",
+        "2025-FY:fair_value:688188-a343f0dc3c27d114",
+        "2024-FY:fair_value:688188-a343f0dc3c27d114",
+        "2025-FY:other_income:688188-a343f0dc3c27d114",
+        "2024-FY:other_income:688188-a343f0dc3c27d114",
+        "2025-FY:credit:688188-a343f0dc3c27d114",
+        "2024-FY:credit:688188-a343f0dc3c27d114"
+      ],
+      "result": "原表正文、列头、期间、单位及相邻表行对读；列值写入候选；不升级Fact",
+      "human_answer": null
+    },
+    {
+      "id": "A12-004",
+      "actor": "Agent",
+      "at": "2026-11-12T06:10:32.805338+00:00",
+      "source_id": "688188-a343f0dc3c27d114",
+      "rows": [
+        "2025-FY:impairment:688188-a343f0dc3c27d114",
+        "2024-FY:impairment:688188-a343f0dc3c27d114",
+        "2025-FY:disposal:688188-a343f0dc3c27d114",
+        "2024-FY:disposal:688188-a343f0dc3c27d114",
+        "2025-FY:op:688188-a343f0dc3c27d114",
+        "2024-FY:op:688188-a343f0dc3c27d114",
+        "2025-FY:pretax:688188-a343f0dc3c27d114",
+        "2024-FY:pretax:688188-a343f0dc3c27d114"
+      ],
+      "result": "原表正文、列头、期间、单位及相邻表行对读；列值写入候选；不升级Fact",
+      "human_answer": null
+    },
+    {
+      "id": "A12-005",
+      "actor": "Agent",
+      "at": "2026-11-12T06:10:32.805338+00:00",
+      "source_id": "688188-a343f0dc3c27d114",
+      "rows": [
+        "2025-FY:tax_expense:688188-a343f0dc3c27d114",
+        "2024-FY:tax_expense:688188-a343f0dc3c27d114",
+        "2025-FY:net_income:688188-a343f0dc3c27d114",
+        "2024-FY:net_income:688188-a343f0dc3c27d114",
+        "2025-FY:parent_income:688188-a343f0dc3c27d114",
+        "2024-FY:parent_income:688188-a343f0dc3c27d114",
+        "2025-FY:cfo:688188-a343f0dc3c27d114",
+        "2024-FY:cfo:688188-a343f0dc3c27d114"
+      ],
+      "result": "原表正文、列头、期间、单位及相邻表行对读；列值写入候选；不升级Fact",
+      "human_answer": null
+    },
+    {
+      "id": "A12-006",
+      "actor": "Agent",
+      "at": "2026-11-12T06:10:32.805338+00:00",
+      "source_id": "688188-a343f0dc3c27d114",
+      "rows": [
+        "2025-FY:recon_net_income:688188-a343f0dc3c27d114",
+        "2025-FY:recon_asset_loss:688188-a343f0dc3c27d114",
+        "2025-FY:recon_credit_loss:688188-a343f0dc3c27d114",
+        "2025-FY:recon_depreciation:688188-a343f0dc3c27d114",
+        "2025-FY:recon_rou_depr:688188-a343f0dc3c27d114",
+        "2025-FY:recon_amortization:688188-a343f0dc3c27d114",
+        "2025-FY:recon_long_amort:688188-a343f0dc3c27d114",
+        "2025-FY:recon_disposal_adjust:688188-a343f0dc3c27d114"
+      ],
+      "result": "原表正文、列头、期间、单位及相邻表行对读；列值写入候选；不升级Fact",
+      "human_answer": null
+    },
+    {
+      "id": "A12-007",
+      "actor": "Agent",
+      "at": "2026-11-12T06:10:32.805338+00:00",
+      "source_id": "688188-a343f0dc3c27d114",
+      "rows": [
+        "2025-FY:recon_retirement:688188-a343f0dc3c27d114",
+        "2025-FY:recon_fair_adjust:688188-a343f0dc3c27d114",
+        "2025-FY:recon_finance_adjust:688188-a343f0dc3c27d114",
+        "2025-FY:recon_investment_adjust:688188-a343f0dc3c27d114",
+        "2025-FY:recon_dta_adjust:688188-a343f0dc3c27d114",
+        "2025-FY:recon_dtl_adjust:688188-a343f0dc3c27d114",
+        "2025-FY:recon_inventory_change:688188-a343f0dc3c27d114",
+        "2025-FY:recon_operating_ar_change:688188-a343f0dc3c27d114"
+      ],
+      "result": "原表正文、列头、期间、单位及相邻表行对读；列值写入候选；不升级Fact",
+      "human_answer": null
+    },
+    {
+      "id": "A12-008",
+      "actor": "Agent",
+      "at": "2026-11-12T06:10:32.805338+00:00",
+      "source_id": "688188-a343f0dc3c27d114",
+      "rows": [
+        "2025-FY:recon_operating_ap_change:688188-a343f0dc3c27d114",
+        "2025-FY:recon_other_adjust:688188-a343f0dc3c27d114",
+        "2025-FY:plane_revenue:688188-a343f0dc3c27d114",
+        "2025-FY:pipe_revenue:688188-a343f0dc3c27d114",
+        "2025-FY:three_d_revenue:688188-a343f0dc3c27d114",
+        "2025-FY:other_main_revenue:688188-a343f0dc3c27d114"
+      ],
+      "result": "原表正文、列头、期间、单位及相邻表行对读；列值写入候选；不升级Fact",
+      "human_answer": null
+    },
+    {
+      "id": "A12-009",
+      "actor": "Agent",
+      "at": "2026-11-12T06:10:32.805338+00:00",
+      "source_id": "688188-4daf701c6095d460",
+      "rows": [
+        "2024-FY:plane_revenue:688188-4daf701c6095d460",
+        "2024-FY:pipe_revenue:688188-4daf701c6095d460",
+        "2024-FY:three_d_revenue:688188-4daf701c6095d460",
+        "2024-FY:other_main_revenue:688188-4daf701c6095d460"
+      ],
+      "result": "原表正文、列头、期间、单位及相邻表行对读；列值写入候选；不升级Fact",
+      "human_answer": null
+    }
+  ],
+  "protection": "原ReviewStore及人审事件未修改；本记录为研究对读，不是新的事实权威"
+}

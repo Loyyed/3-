@@ -30,11 +30,28 @@ def start(root,kit,port):
    if route.path in ['/api/project-download','/api/project-preview']:
     try:
      from companybench.core import contained
-     base=engine.companies()[mapping[q['project'][0]]];rel=q['path'][0];assert rel.startswith('outputs/'),'仅允许成果路径';path=contained(base,rel);assert path.is_file()
+     base=engine.companies()[mapping[q['project'][0]]];rel=q['path'][0]
+     research_page=rel in {'work/research12/index.html','work/research12/review-batch.html'} and route.path.endswith('preview')
+     forecast_csv=rel=='work/research12/forecast.csv' and route.path.endswith('download')
+     assert rel.startswith('outputs/') or research_page or forecast_csv,'仅允许成果和已发布研究入口'
+     path=contained(base,rel);assert path.is_file()
      if route.path.endswith('preview') and path.suffix=='.html':
       import re,html
       from urllib.parse import urlencode
-      body=path.read_text(encoding='utf-8');body=re.sub(r'data-company-path="([^"]+)" href="[^"]*"',lambda m:'href="/file?'+html.escape(urlencode({'project':q['project'][0],'path':html.unescape(m.group(1))}),quote=True)+'"',body);return self.send(body,content='text/html; charset=utf-8',interactive=True)
+      body=path.read_text(encoding='utf-8')
+      if research_page:
+       from urllib.parse import urlsplit
+       def local_link(match):
+        target=urlsplit(html.unescape(match.group(1)))
+        resolved=(path.parent/target.path).resolve().relative_to(base).as_posix()
+        endpoint='/api/project-preview' if resolved.endswith('.html') and (resolved.startswith('outputs/') or resolved.startswith('work/research12/')) else '/api/project-download' if resolved=='work/research12/forecast.csv' else '/file'
+        url=endpoint+'?'+urlencode({'project':q['project'][0],'path':resolved})
+        if target.fragment:url+='#'+target.fragment
+        return 'href="'+html.escape(url,quote=True)+'"'
+       body=re.sub(r'href="([^"]+)"',local_link,body)
+       body=body.replace('<script>','<script nonce="'+server.workbench_token+'">')
+       return self.send(body,content='text/html; charset=utf-8',interactive=True,downloadable=True)
+      body=re.sub(r'data-company-path="([^"]+)" href="[^"]*"',lambda m:'href="/file?'+html.escape(urlencode({'project':q['project'][0],'path':html.unescape(m.group(1))}),quote=True)+'"',body);return self.send(body,content='text/html; charset=utf-8',interactive=True)
      if route.path.endswith('preview'):
       import html
       return self.send('<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><style>pre{white-space:pre-wrap;overflow-wrap:anywhere;font:16px/1.7 system-ui;padding:20px}</style><pre>'+html.escape(path.read_text(encoding='utf-8'))+'</pre>',content='text/html; charset=utf-8')
@@ -50,7 +67,10 @@ def start(root,kit,port):
     except Exception as e:return self.send({'error':str(e)},400)
    if route.path=='/api/project-state':
     try:
-     key=q['project'][0];cid=mapping[key];value=engine.state();value['selected_company']=cid;value['connection_map']=mapping;return self.send(value)
+     key=q['project'][0];cid=mapping[key];value=engine.state();value['selected_company']=cid;value['connection_map']=mapping
+     for company in value['companies']:
+      company['core_analysis']=(engine.companies()[company['id']]/'work/research12/index.html').is_file()
+     return self.send(value)
     except Exception as e:return self.send({'error':str(e)},400)
    return super().do_GET()
   def do_POST(self):

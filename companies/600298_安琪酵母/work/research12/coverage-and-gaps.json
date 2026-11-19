@@ -1,0 +1,392 @@
+{
+  "period_metric_source_ids": {
+    "2023-FY": {
+      "revenue": [
+        "2023-FY:revenue:600298-174439da1375f513",
+        "2023-FY:revenue:600298-e14665c0175d59df"
+      ],
+      "cost": [
+        "2023-FY:cost:600298-174439da1375f513",
+        "2023-FY:cost:600298-e14665c0175d59df"
+      ],
+      "sales": [
+        "2023-FY:sales:600298-174439da1375f513",
+        "2023-FY:sales:600298-e14665c0175d59df"
+      ],
+      "admin": [
+        "2023-FY:admin:600298-174439da1375f513",
+        "2023-FY:admin:600298-e14665c0175d59df"
+      ],
+      "rd": [
+        "2023-FY:rd:600298-174439da1375f513",
+        "2023-FY:rd:600298-e14665c0175d59df"
+      ],
+      "op": [
+        "2023-FY:op:600298-174439da1375f513",
+        "2023-FY:op:600298-e14665c0175d59df"
+      ],
+      "parent_income": [
+        "2023-FY:parent_income:600298-174439da1375f513",
+        "2023-FY:parent_income:600298-e14665c0175d59df"
+      ],
+      "cfo": [
+        "2023-FY:cfo:600298-174439da1375f513",
+        "2023-FY:cfo:600298-e14665c0175d59df"
+      ],
+      "capex": [
+        "2023-FY:capex:600298-174439da1375f513",
+        "2023-FY:capex:600298-e14665c0175d59df"
+      ],
+      "depreciation_disclosed": [
+        "2023-FY:depreciation_disclosed:600298-174439da1375f513"
+      ],
+      "receivable": [
+        "2023-FY:receivable:600298-174439da1375f513",
+        "2023-FY:receivable:600298-e14665c0175d59df"
+      ],
+      "inventory": [
+        "2023-FY:inventory:600298-174439da1375f513",
+        "2023-FY:inventory:600298-e14665c0175d59df"
+      ],
+      "payable": [
+        "2023-FY:payable:600298-174439da1375f513",
+        "2023-FY:payable:600298-e14665c0175d59df"
+      ],
+      "advance": [
+        "2023-FY:advance:600298-174439da1375f513",
+        "2023-FY:advance:600298-e14665c0175d59df"
+      ],
+      "cash": [
+        "2023-FY:cash:600298-174439da1375f513",
+        "2023-FY:cash:600298-e14665c0175d59df"
+      ],
+      "trading_financial_assets": [],
+      "short_borrow": [
+        "2023-FY:short_borrow:600298-174439da1375f513"
+      ],
+      "long_borrow": [
+        "2023-FY:long_borrow:600298-174439da1375f513"
+      ],
+      "lease": [
+        "2023-FY:lease:600298-174439da1375f513",
+        "2023-FY:lease:600298-e14665c0175d59df"
+      ],
+      "shares": [
+        "2023-FY:shares:600298-174439da1375f513",
+        "2023-FY:shares:600298-e14665c0175d59df"
+      ]
+    },
+    "2024-FY": {
+      "revenue": [
+        "2024-FY:revenue:600298-a14b53fefcfc0356",
+        "2024-FY:revenue:600298-e14665c0175d59df"
+      ],
+      "cost": [
+        "2024-FY:cost:600298-a14b53fefcfc0356",
+        "2024-FY:cost:600298-e14665c0175d59df"
+      ],
+      "sales": [
+        "2024-FY:sales:600298-a14b53fefcfc0356",
+        "2024-FY:sales:600298-e14665c0175d59df"
+      ],
+      "admin": [
+        "2024-FY:admin:600298-a14b53fefcfc0356",
+        "2024-FY:admin:600298-e14665c0175d59df"
+      ],
+      "rd": [
+        "2024-FY:rd:600298-a14b53fefcfc0356",
+        "2024-FY:rd:600298-e14665c0175d59df"
+      ],
+      "op": [
+        "2024-FY:op:600298-a14b53fefcfc0356",
+        "2024-FY:op:600298-e14665c0175d59df"
+      ],
+      "parent_income": [
+        "2024-FY:parent_income:600298-a14b53fefcfc0356",
+        "2024-FY:parent_income:600298-e14665c0175d59df"
+      ],
+      "cfo": [
+        "2024-FY:cfo:600298-a14b53fefcfc0356",
+        "2024-FY:cfo:600298-e14665c0175d59df"
+      ],
+      "capex": [
+        "2024-FY:capex:600298-a14b53fefcfc0356",
+        "2024-FY:capex:600298-e14665c0175d59df"
+      ],
+      "depreciation_disclosed": [
+        "2024-FY:depreciation_disclosed:600298-e14665c0175d59df"
+      ],
+      "receivable": [
+        "2024-FY:receivable:600298-7a9cbdaf728861fa",
+        "2024-FY:receivable:600298-a14b53fefcfc0356",
+        "2024-FY:receivable:600298-d5b6bb897b9dc0d3",
+        "2024-FY:receivable:600298-e14665c0175d59df"
+      ],
+      "inventory": [
+        "2024-FY:inventory:600298-7a9cbdaf728861fa",
+        "2024-FY:inventory:600298-a14b53fefcfc0356",
+        "2024-FY:inventory:600298-d5b6bb897b9dc0d3",
+        "2024-FY:inventory:600298-e14665c0175d59df"
+      ],
+      "payable": [
+        "2024-FY:payable:600298-7a9cbdaf728861fa",
+        "2024-FY:payable:600298-a14b53fefcfc0356",
+        "2024-FY:payable:600298-d5b6bb897b9dc0d3",
+        "2024-FY:payable:600298-e14665c0175d59df"
+      ],
+      "advance": [
+        "2024-FY:advance:600298-7a9cbdaf728861fa",
+        "2024-FY:advance:600298-a14b53fefcfc0356",
+        "2024-FY:advance:600298-d5b6bb897b9dc0d3",
+        "2024-FY:advance:600298-e14665c0175d59df"
+      ],
+      "cash": [
+        "2024-FY:cash:600298-7a9cbdaf728861fa",
+        "2024-FY:cash:600298-a14b53fefcfc0356",
+        "2024-FY:cash:600298-d5b6bb897b9dc0d3",
+        "2024-FY:cash:600298-e14665c0175d59df"
+      ],
+      "trading_financial_assets": [],
+      "short_borrow": [
+        "2024-FY:short_borrow:600298-e14665c0175d59df"
+      ],
+      "long_borrow": [
+        "2024-FY:long_borrow:600298-e14665c0175d59df"
+      ],
+      "lease": [
+        "2024-FY:lease:600298-7a9cbdaf728861fa",
+        "2024-FY:lease:600298-a14b53fefcfc0356",
+        "2024-FY:lease:600298-d5b6bb897b9dc0d3",
+        "2024-FY:lease:600298-e14665c0175d59df"
+      ],
+      "shares": [
+        "2024-FY:shares:600298-7a9cbdaf728861fa",
+        "2024-FY:shares:600298-a14b53fefcfc0356",
+        "2024-FY:shares:600298-d5b6bb897b9dc0d3",
+        "2024-FY:shares:600298-e14665c0175d59df"
+      ]
+    },
+    "2025-FY": {
+      "revenue": [
+        "2025-FY:revenue:600298-a14b53fefcfc0356"
+      ],
+      "cost": [
+        "2025-FY:cost:600298-a14b53fefcfc0356"
+      ],
+      "sales": [
+        "2025-FY:sales:600298-a14b53fefcfc0356"
+      ],
+      "admin": [
+        "2025-FY:admin:600298-a14b53fefcfc0356"
+      ],
+      "rd": [
+        "2025-FY:rd:600298-a14b53fefcfc0356"
+      ],
+      "op": [
+        "2025-FY:op:600298-a14b53fefcfc0356"
+      ],
+      "parent_income": [
+        "2025-FY:parent_income:600298-a14b53fefcfc0356"
+      ],
+      "cfo": [
+        "2025-FY:cfo:600298-a14b53fefcfc0356"
+      ],
+      "capex": [
+        "2025-FY:capex:600298-a14b53fefcfc0356"
+      ],
+      "depreciation_disclosed": [
+        "2025-FY:depreciation_disclosed:600298-a14b53fefcfc0356"
+      ],
+      "receivable": [
+        "2025-FY:receivable:600298-48dbfbb4962cfdb9",
+        "2025-FY:receivable:600298-5c763f656754f15e",
+        "2025-FY:receivable:600298-a14b53fefcfc0356"
+      ],
+      "inventory": [
+        "2025-FY:inventory:600298-48dbfbb4962cfdb9",
+        "2025-FY:inventory:600298-5c763f656754f15e",
+        "2025-FY:inventory:600298-a14b53fefcfc0356"
+      ],
+      "payable": [
+        "2025-FY:payable:600298-48dbfbb4962cfdb9",
+        "2025-FY:payable:600298-5c763f656754f15e",
+        "2025-FY:payable:600298-a14b53fefcfc0356"
+      ],
+      "advance": [
+        "2025-FY:advance:600298-48dbfbb4962cfdb9",
+        "2025-FY:advance:600298-5c763f656754f15e",
+        "2025-FY:advance:600298-a14b53fefcfc0356"
+      ],
+      "cash": [
+        "2025-FY:cash:600298-48dbfbb4962cfdb9",
+        "2025-FY:cash:600298-5c763f656754f15e",
+        "2025-FY:cash:600298-a14b53fefcfc0356"
+      ],
+      "trading_financial_assets": [
+        "2025-FY:trading_financial_assets:600298-a14b53fefcfc0356"
+      ],
+      "short_borrow": [
+        "2025-FY:short_borrow:600298-a14b53fefcfc0356"
+      ],
+      "long_borrow": [
+        "2025-FY:long_borrow:600298-a14b53fefcfc0356"
+      ],
+      "lease": [
+        "2025-FY:lease:600298-48dbfbb4962cfdb9",
+        "2025-FY:lease:600298-5c763f656754f15e",
+        "2025-FY:lease:600298-a14b53fefcfc0356"
+      ],
+      "shares": [
+        "2025-FY:shares:600298-48dbfbb4962cfdb9",
+        "2025-FY:shares:600298-5c763f656754f15e",
+        "2025-FY:shares:600298-a14b53fefcfc0356"
+      ]
+    },
+    "2026-H1": {
+      "revenue": [
+        "2026-H1:revenue:600298-48dbfbb4962cfdb9"
+      ],
+      "cost": [
+        "2026-H1:cost:600298-48dbfbb4962cfdb9"
+      ],
+      "sales": [
+        "2026-H1:sales:600298-48dbfbb4962cfdb9"
+      ],
+      "admin": [
+        "2026-H1:admin:600298-48dbfbb4962cfdb9"
+      ],
+      "rd": [
+        "2026-H1:rd:600298-48dbfbb4962cfdb9"
+      ],
+      "op": [
+        "2026-H1:op:600298-48dbfbb4962cfdb9"
+      ],
+      "parent_income": [
+        "2026-H1:parent_income:600298-48dbfbb4962cfdb9"
+      ],
+      "cfo": [
+        "2026-H1:cfo:600298-48dbfbb4962cfdb9"
+      ],
+      "capex": [
+        "2026-H1:capex:600298-48dbfbb4962cfdb9"
+      ],
+      "depreciation_disclosed": [
+        "2026-H1:depreciation_disclosed:600298-48dbfbb4962cfdb9"
+      ],
+      "receivable": [
+        "2026-H1:receivable:600298-48dbfbb4962cfdb9"
+      ],
+      "inventory": [
+        "2026-H1:inventory:600298-48dbfbb4962cfdb9"
+      ],
+      "payable": [
+        "2026-H1:payable:600298-48dbfbb4962cfdb9"
+      ],
+      "advance": [
+        "2026-H1:advance:600298-48dbfbb4962cfdb9"
+      ],
+      "cash": [
+        "2026-H1:cash:600298-48dbfbb4962cfdb9"
+      ],
+      "trading_financial_assets": [
+        "2026-H1:trading_financial_assets:600298-48dbfbb4962cfdb9"
+      ],
+      "short_borrow": [
+        "2026-H1:short_borrow:600298-48dbfbb4962cfdb9"
+      ],
+      "long_borrow": [
+        "2026-H1:long_borrow:600298-48dbfbb4962cfdb9"
+      ],
+      "lease": [
+        "2026-H1:lease:600298-48dbfbb4962cfdb9"
+      ],
+      "shares": [
+        "2026-H1:shares:600298-48dbfbb4962cfdb9"
+      ]
+    },
+    "2026-YTD9": {
+      "revenue": [
+        "2026-YTD9:revenue:600298-5c763f656754f15e"
+      ],
+      "cost": [
+        "2026-YTD9:cost:600298-5c763f656754f15e"
+      ],
+      "sales": [
+        "2026-YTD9:sales:600298-5c763f656754f15e"
+      ],
+      "admin": [
+        "2026-YTD9:admin:600298-5c763f656754f15e"
+      ],
+      "rd": [
+        "2026-YTD9:rd:600298-5c763f656754f15e"
+      ],
+      "op": [
+        "2026-YTD9:op:600298-5c763f656754f15e"
+      ],
+      "parent_income": [
+        "2026-YTD9:parent_income:600298-5c763f656754f15e"
+      ],
+      "cfo": [
+        "2026-YTD9:cfo:600298-5c763f656754f15e"
+      ],
+      "capex": [
+        "2026-YTD9:capex:600298-5c763f656754f15e"
+      ],
+      "depreciation_disclosed": [],
+      "receivable": [
+        "2026-YTD9:receivable:600298-5c763f656754f15e"
+      ],
+      "inventory": [
+        "2026-YTD9:inventory:600298-5c763f656754f15e"
+      ],
+      "payable": [
+        "2026-YTD9:payable:600298-5c763f656754f15e"
+      ],
+      "advance": [
+        "2026-YTD9:advance:600298-5c763f656754f15e"
+      ],
+      "cash": [
+        "2026-YTD9:cash:600298-5c763f656754f15e"
+      ],
+      "trading_financial_assets": [
+        "2026-YTD9:trading_financial_assets:600298-5c763f656754f15e"
+      ],
+      "short_borrow": [
+        "2026-YTD9:short_borrow:600298-5c763f656754f15e"
+      ],
+      "long_borrow": [
+        "2026-YTD9:long_borrow:600298-5c763f656754f15e"
+      ],
+      "lease": [
+        "2026-YTD9:lease:600298-5c763f656754f15e"
+      ],
+      "shares": [
+        "2026-YTD9:shares:600298-5c763f656754f15e"
+      ]
+    }
+  },
+  "empty_cell_meaning": "未提取/不单独列示，须按公司口径识别；空不等于0。Pop没有完整2026YTD报表",
+  "scope": "核心收入利润CFO和2025详细现金桥已形成；逐期D&A/租赁/SBC/股数及分部范围仍有具体未完成项，不称完整最小数据集已全部完成",
+  "gaps": [
+    {
+      "missing_evidence": "2023追溯比较与原披露分别保存；年度变化需选同源比较列",
+      "impact": "见本条具体口径及报告对应判断；不补零",
+      "next_action": "优先继续现有完整附注/原始监管及IR材料逐表对读，按字段补原值；不改Fact身份",
+      "availability": "本轮未提取/公司未按所需口径披露，非下载失败"
+    },
+    {
+      "missing_evidence": "新厂认证/产销率、存量厂和新厂投入及利润队列未分开；糖蜜/能源同单位成本和汇兑组成尚待附注逐表分解",
+      "impact": "见本条具体口径及报告对应判断；不补零",
+      "next_action": "优先继续现有完整附注/原始监管及IR材料逐表对读，按字段补原值；不改Fact身份",
+      "availability": "本轮未提取/公司未按所需口径披露，非下载失败"
+    },
+    {
+      "missing_evidence": "完整经营现金税、经营NCWC非现金变动、租赁/研发/SBC一致调整",
+      "impact": "现金段不能升格FCFF，无法输出完整条件估值",
+      "next_action": "沿现金流附注及租赁/税/股份支付附注补分项与范围；保留原报和分析调整并排",
+      "availability": "现有附注尚未完成全范围闭合"
+    }
+  ],
+  "download_failures_this_round": [],
+  "download_note": "本轮复用本地完整披露，未执行新增下载；未把提取缺口称资料不存在"
+}

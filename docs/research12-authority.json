@@ -1,0 +1,1186 @@
+{
+  "002507_涪陵榨菜": {
+    "at": "2026-11-12T06:04:08.249177+00:00",
+    "fact_ids": [],
+    "states": [
+      {
+        "id": "B07-A01",
+        "state": "Unknown",
+        "sources": [
+          {
+            "source_id": "002507-6cd117ea1ac8beee",
+            "location": "PDF物理第7页，财务摘要/经营更新，行“营业收入2025”"
+          }
+        ],
+        "binding": "d2a1b2fce62c9a41a270117d2352beed0a26e0f4defb845e45e0bf3d5353bb9f"
+      },
+      {
+        "id": "B07-A02",
+        "state": "Unknown",
+        "sources": [
+          {
+            "source_id": "002507-6cd117ea1ac8beee",
+            "location": "PDF物理第7页，财务摘要/经营更新，行“营业收入2024”"
+          }
+        ],
+        "binding": "3ba50d87c8fcbbb13550720d1e36b4261a4a4f27d21154bced87de6df3b3d81e"
+      },
+      {
+        "id": "B07-A03",
+        "state": "Unknown",
+        "sources": [
+          {
+            "source_id": "002507-6cd117ea1ac8beee",
+            "location": "PDF物理第7页，财务摘要/经营更新，行“归母净利润2025”"
+          }
+        ],
+        "binding": "882a8e850c8a87347f9733e4bef3e4ae5e4cbdbb10360e7ab8d072b84ce48497"
+      },
+      {
+        "id": "B07-A04",
+        "state": "Unknown",
+        "sources": [
+          {
+            "source_id": "002507-6cd117ea1ac8beee",
+            "location": "PDF物理第7页，财务摘要/经营更新，行“归母净利润2024”"
+          }
+        ],
+        "binding": "cc064186cd2e892b5847d7896f8e0b3972db5666aaf5a18779393b6644b9fe28"
+      },
+      {
+        "id": "B07-A05",
+        "state": "Unknown",
+        "sources": [
+          {
+            "source_id": "002507-6cd117ea1ac8beee",
+            "location": "PDF物理第7页，财务摘要/经营更新，行“CFO2025”"
+          }
+        ],
+        "binding": "7bd0fefefe54f74092238b5fb15a6865eb33b3acdbf68411238126eb47cfda04"
+      },
+      {
+        "id": "B07-A06",
+        "state": "Unknown",
+        "sources": [
+          {
+            "source_id": "002507-6cd117ea1ac8beee",
+            "location": "PDF物理第7页，财务摘要/经营更新，行“CFO2024”"
+          }
+        ],
+        "binding": "f242910bab92600da684f351fb12ce83163755ef49c457eee79152886d15c18f"
+      },
+      {
+        "id": "B07-Q01",
+        "state": "Unknown",
+        "sources": [
+          {
+            "source_id": "002507-d45bfdfdec6d4379",
+            "location": "PDF物理第3页，财务摘要/经营更新，行“本季度营业收入”"
+          }
+        ],
+        "binding": "5e216864b066dc587edc778ed98b7371acdf122aefc9b316afdeaeeb54190036"
+      },
+      {
+        "id": "B07-Q02",
+        "state": "Unknown",
+        "sources": [
+          {
+            "source_id": "002507-d45bfdfdec6d4379",
+            "location": "PDF物理第3页，财务摘要/经营更新，行“前九个月营业收入”"
+          }
+        ],
+        "binding": "af7abd0d405edf3a5b900e5141dd7545269faa4b034c375aa8dcf242a895ed52"
+      },
+      {
+        "id": "B07-Q03",
+        "state": "Unknown",
+        "sources": [
+          {
+            "source_id": "002507-d45bfdfdec6d4379",
+            "location": "PDF物理第3页，财务摘要/经营更新，行“本季度归母净利润”"
+          }
+        ],
+        "binding": "a4df1f65358f5734f7459f0b7d7a9503bd76e201ac1b66be9cc07fe5e2ddd55d"
+      },
+      {
+        "id": "B07-Q04",
+        "state": "Unknown",
+        "sources": [
+          {
+            "source_id": "002507-d45bfdfdec6d4379",
+            "location": "PDF物理第3页，财务摘要/经营更新，行“前九个月归母净利润”"
+          }
+        ],
+        "binding": "d70d072b9137f5cdc488d3c4e27655aafcc30b2eb94a4b16793641a256ff9ca2"
+      },
+      {
+        "id": "B07-Q05",
+        "state": "Unknown",
+        "sources": [
+          {
+            "source_id": "002507-d45bfdfdec6d4379",
+            "location": "PDF物理第3页，财务摘要/经营更新，行“前九个月CFO”"
+          }
+        ],
+        "binding": "fda44764d6d389df739c7fd342caeef69daaa01bf52db3b03eabd51d9ac956ea"
+      },
+      {
+        "id": "B07-Q06",
+        "state": "Unknown",
+        "sources": [
+          {
+            "source_id": "002507-d45bfdfdec6d4379",
+            "location": "PDF物理第3页，财务摘要/经营更新，行“前九个月营业收入同比”"
+          }
+        ],
+        "binding": "659efd7b8d2d4c127b0451f35bce2560d7eb5de286b64669bd97965480245c8c"
+      }
+    ],
+    "history_valid": true,
+    "change_facts": "not provided by this ordinary ReviewStore"
+  },
+  "09992_泡泡玛特": {
+    "at": "2026-11-12T06:04:08.279641+00:00",
+    "fact_ids": [],
+    "states": [
+      {
+        "id": "B07-A01",
+        "state": "Unknown",
+        "sources": [
+          {
+            "source_id": "S47095a39c6425b11",
+            "location": "PDF物理第7页，财务摘要/经营更新，行“收入2025”"
+          }
+        ],
+        "binding": "5879e3c54b2bd719b84b35c0c7a41ab454b0f1bc8b26a3cde7525257cdbb452d"
+      },
+      {
+        "id": "B07-A02",
+        "state": "Unknown",
+        "sources": [
+          {
+            "source_id": "S47095a39c6425b11",
+            "location": "PDF物理第7页，财务摘要/经营更新，行“收入2024”"
+          }
+        ],
+        "binding": "eb1302b95c18a111b770211ca94ce8ae03360349b512683ff8bb5e7c6f9cd54c"
+      },
+      {
+        "id": "B07-A03",
+        "state": "Unknown",
+        "sources": [
+          {
+            "source_id": "S47095a39c6425b11",
+            "location": "PDF物理第7页，财务摘要/经营更新，行“毛利2025”"
+          }
+        ],
+        "binding": "8dbd7bcd8e4c5d574e963fed92cb139f4517b7eed3d0e71951571f3fbb085ce5"
+      },
+      {
+        "id": "B07-A04",
+        "state": "Unknown",
+        "sources": [
+          {
+            "source_id": "S47095a39c6425b11",
+            "location": "PDF物理第7页，财务摘要/经营更新，行“毛利2024”"
+          }
+        ],
+        "binding": "9260f2573b6ce888033a1421805a5b46bd03a6ee80645500139580ca62f6cf88"
+      },
+      {
+        "id": "B07-A05",
+        "state": "Unknown",
+        "sources": [
+          {
+            "source_id": "S47095a39c6425b11",
+            "location": "PDF物理第7页，财务摘要/经营更新，行“年内溢利2025（含非控股）”"
+          }
+        ],
+        "binding": "ba6fe17bd055461637fe81d382fb8044d21fdc6cf1f15fcafc645eaefd079ef3"
+      },
+      {
+        "id": "B07-A06",
+        "state": "Unknown",
+        "sources": [
+          {
+            "source_id": "S47095a39c6425b11",
+            "location": "PDF物理第7页，财务摘要/经营更新，行“年内溢利2024（含非控股）”"
+          }
+        ],
+        "binding": "0286cde2c57053ce613664dd4b7247d7674e4f2db938235ae4d86817cec63276"
+      },
+      {
+        "id": "B07-Q01",
+        "state": "Unknown",
+        "sources": [
+          {
+            "source_id": "S92234424087f455a",
+            "location": "PDF物理第1页，财务摘要/经营更新，行“集团收入同比”"
+          }
+        ],
+        "binding": "f4a56c4cf9f69c72f7a2252c17ac0cf0c08d8337195ee411166b0e6c33ef5dab"
+      },
+      {
+        "id": "B07-Q02",
+        "state": "Unknown",
+        "sources": [
+          {
+            "source_id": "S92234424087f455a",
+            "location": "PDF物理第1页，财务摘要/经营更新，行“中国收入同比”"
+          }
+        ],
+        "binding": "66206ec53704ae7a2955e73641b32346b23f82aa052de74a7a640ded8a18f3c6"
+      },
+      {
+        "id": "B07-Q03",
+        "state": "Unknown",
+        "sources": [
+          {
+            "source_id": "S92234424087f455a",
+            "location": "PDF物理第1页，财务摘要/经营更新，行“亚太收入同比”"
+          }
+        ],
+        "binding": "0240ea4ef4ed8fc6fb11f65077a58a56bfb7a8073b534291db4ffff9198d3048"
+      },
+      {
+        "id": "B07-Q04",
+        "state": "Unknown",
+        "sources": [
+          {
+            "source_id": "S92234424087f455a",
+            "location": "PDF物理第1页，财务摘要/经营更新，行“美洲收入同比”"
+          }
+        ],
+        "binding": "5d13638d54e56a644699d42df21fd1628989b71d3787d1c03c9ec1f1be9a1104"
+      },
+      {
+        "id": "B07-Q05",
+        "state": "Unknown",
+        "sources": [
+          {
+            "source_id": "S92234424087f455a",
+            "location": "PDF物理第1页，财务摘要/经营更新，行“欧洲及其他收入同比”"
+          }
+        ],
+        "binding": "967e7f916ca355fa82f4b00cd03d81346827be158bdfc2dde3cfcc2acd03681e"
+      },
+      {
+        "id": "B07-Q06",
+        "state": "Unknown",
+        "sources": [
+          {
+            "source_id": "S92234424087f455a",
+            "location": "PDF物理第1页，财务摘要/经营更新，行“中国线下收入同比”"
+          }
+        ],
+        "binding": "8b0c9cd849b01fe21b1452afce0fd6ace124423c831180859ed022639a5f08cf"
+      },
+      {
+        "id": "B07-Q07",
+        "state": "Unknown",
+        "sources": [
+          {
+            "source_id": "S92234424087f455a",
+            "location": "PDF物理第1页，财务摘要/经营更新，行“中国线上收入同比”"
+          }
+        ],
+        "binding": "706dd6b0a82d7cc4375b187588a256eb667196d5e11870cae688a40f03438863"
+      }
+    ],
+    "history_valid": true,
+    "change_facts": "not provided by this ordinary ReviewStore"
+  },
+  "600298_安琪酵母": {
+    "at": "2026-11-12T06:04:08.306550+00:00",
+    "fact_ids": [],
+    "states": [
+      {
+        "id": "B07-A01",
+        "state": "Unknown",
+        "sources": [
+          {
+            "source_id": "600298-a14b53fefcfc0356",
+            "location": "PDF物理第6页，财务摘要/经营更新，行“营业收入2025”"
+          }
+        ],
+        "binding": "a5528b9f98d1c924f9f9c1a0b8102cdbff9aefe2a21f9a328aa30323fc8ef917"
+      },
+      {
+        "id": "B07-A02",
+        "state": "Unknown",
+        "sources": [
+          {
+            "source_id": "600298-a14b53fefcfc0356",
+            "location": "PDF物理第6页，财务摘要/经营更新，行“营业收入2024”"
+          }
+        ],
+        "binding": "eeadb88ad916ce02f57ce7d550edbd80dc792aa066a8e8ec3cfc8a68cd3a5c7a"
+      },
+      {
+        "id": "B07-A03",
+        "state": "Unknown",
+        "sources": [
+          {
+            "source_id": "600298-a14b53fefcfc0356",
+            "location": "PDF物理第6页，财务摘要/经营更新，行“归母净利润2025”"
+          }
+        ],
+        "binding": "b701a862aba13d89974ae4b577c32ba3ac2b615f568dd39110ae2a2b65cfe230"
+      },
+      {
+        "id": "B07-A04",
+        "state": "Unknown",
+        "sources": [
+          {
+            "source_id": "600298-a14b53fefcfc0356",
+            "location": "PDF物理第6页，财务摘要/经营更新，行“归母净利润2024”"
+          }
+        ],
+        "binding": "345b35ec9f4f0b7c6afe0b84e90fcd634d8f40fd7fa95facffddcf47d0f9bca5"
+      },
+      {
+        "id": "B07-A05",
+        "state": "Unknown",
+        "sources": [
+          {
+            "source_id": "600298-a14b53fefcfc0356",
+            "location": "PDF物理第6页，财务摘要/经营更新，行“CFO2025”"
+          }
+        ],
+        "binding": "ba538f75d44631d492b792e7013d78246485616141cf93797a1a3811476309cb"
+      },
+      {
+        "id": "B07-A06",
+        "state": "Unknown",
+        "sources": [
+          {
+            "source_id": "600298-a14b53fefcfc0356",
+            "location": "PDF物理第6页，财务摘要/经营更新，行“CFO2024”"
+          }
+        ],
+        "binding": "0bd1789fc60197015a974f11d68b306d87fe8582d168c707d495eb24f4165c6e"
+      },
+      {
+        "id": "B07-Q01",
+        "state": "Unknown",
+        "sources": [
+          {
+            "source_id": "600298-5c763f656754f15e",
+            "location": "PDF物理第1页，财务摘要/经营更新，行“本季度营业收入”"
+          }
+        ],
+        "binding": "2576d64e8a3db4c929c660b7ae714047990226476f639d67f52de88ff9ff1478"
+      },
+      {
+        "id": "B07-Q02",
+        "state": "Unknown",
+        "sources": [
+          {
+            "source_id": "600298-5c763f656754f15e",
+            "location": "PDF物理第1页，财务摘要/经营更新，行“前九个月营业收入”"
+          }
+        ],
+        "binding": "928a8b5f13979d78aa7f94ad770d8dcbf81a9fcb0465f2c3780bf4071a0adb65"
+      },
+      {
+        "id": "B07-Q03",
+        "state": "Unknown",
+        "sources": [
+          {
+            "source_id": "600298-5c763f656754f15e",
+            "location": "PDF物理第1页，财务摘要/经营更新，行“本季度归母净利润”"
+          }
+        ],
+        "binding": "a4c42b8ccb947731cb1fe4e417b2f4ac5f9100251bde2408454cdd364c4b8f51"
+      },
+      {
+        "id": "B07-Q04",
+        "state": "Unknown",
+        "sources": [
+          {
+            "source_id": "600298-5c763f656754f15e",
+            "location": "PDF物理第1页，财务摘要/经营更新，行“前九个月归母净利润”"
+          }
+        ],
+        "binding": "c50f6f040197bfdf6deb1aa7a34e2029aff8035abba62d228c3db778a4c6b672"
+      },
+      {
+        "id": "B07-Q05",
+        "state": "Unknown",
+        "sources": [
+          {
+            "source_id": "600298-5c763f656754f15e",
+            "location": "PDF物理第1页，财务摘要/经营更新，行“前九个月CFO”"
+          }
+        ],
+        "binding": "a9a1e25ce45c812402385c3c45fc1ab07bdce106c0ac701234bb6a3da8ee7cf1"
+      },
+      {
+        "id": "B07-Q06",
+        "state": "Unknown",
+        "sources": [
+          {
+            "source_id": "600298-5c763f656754f15e",
+            "location": "PDF物理第1页，财务摘要/经营更新，行“前九个月营业收入同比”"
+          }
+        ],
+        "binding": "e6200fde1a3e8324bcef22bb1af1a243986c735001c4fd36287d133b8f574d80"
+      }
+    ],
+    "history_valid": true,
+    "change_facts": "not provided by this ordinary ReviewStore"
+  },
+  "688188_柏楚电子": {
+    "at": "2026-11-12T06:04:08.331430+00:00",
+    "fact_ids": [],
+    "states": [
+      {
+        "id": "B07-A01",
+        "state": "Unknown",
+        "sources": [
+          {
+            "source_id": "688188-a343f0dc3c27d114",
+            "location": "PDF物理第8页，财务摘要/经营更新，行“营业收入2025”"
+          }
+        ],
+        "binding": "f97938a604e88689803ff948275314454e6ea905762bdcbda8595049501cc65c"
+      },
+      {
+        "id": "B07-A02",
+        "state": "Unknown",
+        "sources": [
+          {
+            "source_id": "688188-a343f0dc3c27d114",
+            "location": "PDF物理第8页，财务摘要/经营更新，行“营业收入2024”"
+          }
+        ],
+        "binding": "3d8c21c76554467dbe0da73a46a475dd64af0cd6ba03099b0fbf1b7cc68ddced"
+      },
+      {
+        "id": "B07-A03",
+        "state": "Unknown",
+        "sources": [
+          {
+            "source_id": "688188-a343f0dc3c27d114",
+            "location": "PDF物理第8页，财务摘要/经营更新，行“归母净利润2025”"
+          }
+        ],
+        "binding": "b4cf1bfb35cadddc1cc27b82f020b4d428d25c6b1546c7caa63f0fc9794cf93f"
+      },
+      {
+        "id": "B07-A04",
+        "state": "Unknown",
+        "sources": [
+          {
+            "source_id": "688188-a343f0dc3c27d114",
+            "location": "PDF物理第8页，财务摘要/经营更新，行“归母净利润2024”"
+          }
+        ],
+        "binding": "cb5d3dd440ea084d77c6df1c7ee3a4c29391ff847c48eb8c578bcd41b11764d6"
+      },
+      {
+        "id": "B07-A05",
+        "state": "Unknown",
+        "sources": [
+          {
+            "source_id": "688188-a343f0dc3c27d114",
+            "location": "PDF物理第8页，财务摘要/经营更新，行“CFO2025”"
+          }
+        ],
+        "binding": "09b7c461441f344b0bffa44a3e8d6098b370ba3c9e66fe5d3a31cbb0559faa86"
+      },
+      {
+        "id": "B07-A06",
+        "state": "Unknown",
+        "sources": [
+          {
+            "source_id": "688188-a343f0dc3c27d114",
+            "location": "PDF物理第8页，财务摘要/经营更新，行“CFO2024”"
+          }
+        ],
+        "binding": "d93a570d49d5bfe52213d50d148becb558294c10261a14ea2ab1dca0c3516b0a"
+      },
+      {
+        "id": "B07-Q01",
+        "state": "Unknown",
+        "sources": [
+          {
+            "source_id": "688188-fed67b607fa475a7",
+            "location": "PDF物理第1页，财务摘要/经营更新，行“本季度营业收入”"
+          }
+        ],
+        "binding": "998654384875b7b66295e99596e7159b5829dd0ca03bf99f00d83ef2091ae663"
+      },
+      {
+        "id": "B07-Q02",
+        "state": "Unknown",
+        "sources": [
+          {
+            "source_id": "688188-fed67b607fa475a7",
+            "location": "PDF物理第1页，财务摘要/经营更新，行“前九个月营业收入”"
+          }
+        ],
+        "binding": "1159c50260575c36051083a9947aae5d6f96da3f7d2ebed018474f2b2cf27c13"
+      },
+      {
+        "id": "B07-Q03",
+        "state": "Unknown",
+        "sources": [
+          {
+            "source_id": "688188-fed67b607fa475a7",
+            "location": "PDF物理第1页，财务摘要/经营更新，行“本季度归母净利润”"
+          }
+        ],
+        "binding": "fe903cf5b41e3fe356e1060b92ad2ba6ec9a5d948eccaf8a91e8a9c13d1abc40"
+      },
+      {
+        "id": "B07-Q04",
+        "state": "Unknown",
+        "sources": [
+          {
+            "source_id": "688188-fed67b607fa475a7",
+            "location": "PDF物理第1页，财务摘要/经营更新，行“前九个月归母净利润”"
+          }
+        ],
+        "binding": "322232b0b348242f7d89f28fff457c611f282feb98fecbc97c7a4c79be05193b"
+      },
+      {
+        "id": "B07-Q05",
+        "state": "Unknown",
+        "sources": [
+          {
+            "source_id": "688188-fed67b607fa475a7",
+            "location": "PDF物理第1页，财务摘要/经营更新，行“前九个月CFO”"
+          }
+        ],
+        "binding": "78b0d04c790f707aa932d8d799bb9fda04ccb93703a8155996f5dbe11c6d46e3"
+      },
+      {
+        "id": "B07-Q06",
+        "state": "Unknown",
+        "sources": [
+          {
+            "source_id": "688188-fed67b607fa475a7",
+            "location": "PDF物理第1页，财务摘要/经营更新，行“前九个月营业收入同比”"
+          }
+        ],
+        "binding": "57b5da437777e58856294d5566d60aec7dfa9a4f68257ff3953b151afbd985b9"
+      }
+    ],
+    "history_valid": true,
+    "change_facts": "not provided by this ordinary ReviewStore"
+  },
+  "US_ISRG_直觉外科": {
+    "at": "2026-11-12T06:04:08.415529+00:00",
+    "fact_ids": [],
+    "states": [
+      {
+        "id": "I09-001",
+        "state": "Unknown",
+        "sources": [
+          {
+            "source_id": "Sf92ee8eb3f06a597",
+            "location": "官方HTML iXBRL #f-47 contextRef=c-5；context=0001035267    2023-12-31"
+          }
+        ],
+        "binding": "5889565e77bcb99fd8e26335bfaf7e78f10eaecc78da5e295df630aabf9fbc5a"
+      },
+      {
+        "id": "I09-002",
+        "state": "Unknown",
+        "sources": [
+          {
+            "source_id": "Sf92ee8eb3f06a597",
+            "location": "官方HTML iXBRL #f-49 contextRef=c-5；context=0001035267    2023-12-31"
+          }
+        ],
+        "binding": "901b3406517f1793ab38bde7d3e0f742b2da01bfe0702605846c9a18678d7b5f"
+      },
+      {
+        "id": "I09-003",
+        "state": "Unknown",
+        "sources": [
+          {
+            "source_id": "Sf92ee8eb3f06a597",
+            "location": "官方HTML iXBRL #f-68 contextRef=c-5；context=0001035267    2023-12-31"
+          }
+        ],
+        "binding": "1d640c844d32eed1cf69368f9fe9ad642524e0ea5bc9b63c7f29efdc5049c152"
+      },
+      {
+        "id": "I09-004",
+        "state": "Unknown",
+        "sources": [
+          {
+            "source_id": "Sf92ee8eb3f06a597",
+            "location": "官方HTML iXBRL #f-124 contextRef=c-1；context=0001035267    2023-01-01  2023-12-31"
+          }
+        ],
+        "binding": "21f66973d5892a1d9e7867dfb2f779bb412523d8dbe53f5eab7da2090ab867b4"
+      },
+      {
+        "id": "I09-005",
+        "state": "Unknown",
+        "sources": [
+          {
+            "source_id": "Sf92ee8eb3f06a597",
+            "location": "官方HTML iXBRL #f-142 contextRef=c-1；context=0001035267    2023-01-01  2023-12-31"
+          }
+        ],
+        "binding": "ca991dbec90ae9d533ebf9a63607a81c945f9b1cd462e902f0628a040cbcc528"
+      },
+      {
+        "id": "I09-006",
+        "state": "Unknown",
+        "sources": [
+          {
+            "source_id": "Sf92ee8eb3f06a597",
+            "location": "官方HTML iXBRL #f-148 contextRef=c-1；context=0001035267    2023-01-01  2023-12-31"
+          }
+        ],
+        "binding": "f31add833878b39ceed4d474b38fb134cafcc4aa0617c8052d1c6f689ae4667f"
+      },
+      {
+        "id": "I09-007",
+        "state": "Unknown",
+        "sources": [
+          {
+            "source_id": "Sf92ee8eb3f06a597",
+            "location": "官方HTML iXBRL #f-166 contextRef=c-1；context=0001035267    2023-01-01  2023-12-31"
+          }
+        ],
+        "binding": "847cbc62b1c0c98f18d6934d42065d3eb714160187c7adb631ea6c51549802c3"
+      },
+      {
+        "id": "I09-008",
+        "state": "Unknown",
+        "sources": [
+          {
+            "source_id": "Sf92ee8eb3f06a597",
+            "location": "官方HTML iXBRL #f-349 contextRef=c-1；context=0001035267    2023-01-01  2023-12-31"
+          }
+        ],
+        "binding": "2cbd4f2c18953e00789be2d3742c1a943427de9b505e477f56a8a433d7d0179a"
+      },
+      {
+        "id": "I09-009",
+        "state": "Unknown",
+        "sources": [
+          {
+            "source_id": "Sf92ee8eb3f06a597",
+            "location": "官方HTML iXBRL #f-376 contextRef=c-1；context=0001035267    2023-01-01  2023-12-31"
+          }
+        ],
+        "binding": "e90d62832308389d5a4e62b1d3a481dd39d5a00b614b2da311b3e3c87d208c98"
+      },
+      {
+        "id": "I09-010",
+        "state": "Unknown",
+        "sources": [
+          {
+            "source_id": "Se4905bffbdcd3611",
+            "location": "官方HTML iXBRL #f-62 contextRef=c-5；context=0001035267    2024-12-31"
+          }
+        ],
+        "binding": "c44e1b63577b3e87cb24acdb2447b784771fd98b4a19f30c9f831d9a02e7aadb"
+      },
+      {
+        "id": "I09-011",
+        "state": "Unknown",
+        "sources": [
+          {
+            "source_id": "Se4905bffbdcd3611",
+            "location": "官方HTML iXBRL #f-64 contextRef=c-5；context=0001035267    2024-12-31"
+          }
+        ],
+        "binding": "1c80c8ac5354f03fbaf31df639879850954dca63189a1d295bce545e3b04565a"
+      },
+      {
+        "id": "I09-012",
+        "state": "Unknown",
+        "sources": [
+          {
+            "source_id": "Se4905bffbdcd3611",
+            "location": "官方HTML iXBRL #f-83 contextRef=c-5；context=0001035267    2024-12-31"
+          }
+        ],
+        "binding": "722c7afefac82fe21c3513aff1a35f9b1c34c1790c80a12fdd259db8d57e19fb"
+      },
+      {
+        "id": "I09-013",
+        "state": "Unknown",
+        "sources": [
+          {
+            "source_id": "Se4905bffbdcd3611",
+            "location": "官方HTML iXBRL #f-115 contextRef=c-6；context=0001035267    2023-12-31"
+          }
+        ],
+        "binding": "757118083dd2efeb83c4befa03cfb51ba5ed37945e4d8501b789e6fa659be247"
+      },
+      {
+        "id": "I09-014",
+        "state": "Unknown",
+        "sources": [
+          {
+            "source_id": "Se4905bffbdcd3611",
+            "location": "官方HTML iXBRL #f-139 contextRef=c-1；context=0001035267    2024-01-01  2024-12-31"
+          }
+        ],
+        "binding": "041c340fbe2204ef42b9ac03071f46b9b3bf6dd49425dcd8fe35e4c5998ba350"
+      },
+      {
+        "id": "I09-015",
+        "state": "Unknown",
+        "sources": [
+          {
+            "source_id": "Se4905bffbdcd3611",
+            "location": "官方HTML iXBRL #f-157 contextRef=c-1；context=0001035267    2024-01-01  2024-12-31"
+          }
+        ],
+        "binding": "4625efbf648748d77075e23b1d6152d2b509d53fe0225cde66e4bfb76e14ecfc"
+      },
+      {
+        "id": "I09-016",
+        "state": "Unknown",
+        "sources": [
+          {
+            "source_id": "Se4905bffbdcd3611",
+            "location": "官方HTML iXBRL #f-163 contextRef=c-1；context=0001035267    2024-01-01  2024-12-31"
+          }
+        ],
+        "binding": "359febd8b0ce4eb2147ca4aee7d2ba7525fdcd62b14524d4a0fc9bc4689f7250"
+      },
+      {
+        "id": "I09-017",
+        "state": "Unknown",
+        "sources": [
+          {
+            "source_id": "Se4905bffbdcd3611",
+            "location": "官方HTML iXBRL #f-181 contextRef=c-1；context=0001035267    2024-01-01  2024-12-31"
+          }
+        ],
+        "binding": "d6854aa70ce53c4825bda3fb4b743aeecb7f24d06fdf39fc266b37ecaea00fd3"
+      },
+      {
+        "id": "I09-018",
+        "state": "Unknown",
+        "sources": [
+          {
+            "source_id": "Se4905bffbdcd3611",
+            "location": "官方HTML iXBRL #f-366 contextRef=c-1；context=0001035267    2024-01-01  2024-12-31"
+          }
+        ],
+        "binding": "4662fe1a2ab7554bbff2a19bd453fe9c1c5825628a67ff5e93748b02f54000b9"
+      },
+      {
+        "id": "I09-019",
+        "state": "Unknown",
+        "sources": [
+          {
+            "source_id": "Se4905bffbdcd3611",
+            "location": "官方HTML iXBRL #f-393 contextRef=c-1；context=0001035267    2024-01-01  2024-12-31"
+          }
+        ],
+        "binding": "3d431a28653b26eb92ce2aaa731f03521cb96019dbfcad39a8938b8a67c43685"
+      },
+      {
+        "id": "I09-020",
+        "state": "Unknown",
+        "sources": [
+          {
+            "source_id": "Se7f95d2f97642180",
+            "location": "官方HTML iXBRL #f-62 contextRef=c-5；context=0001035267    2025-12-31"
+          }
+        ],
+        "binding": "ec16b48c7f8d7746e5ba3d153d6932100245e5c2242a69872116dc09d4e7f138"
+      },
+      {
+        "id": "I09-021",
+        "state": "Unknown",
+        "sources": [
+          {
+            "source_id": "Se7f95d2f97642180",
+            "location": "官方HTML iXBRL #f-64 contextRef=c-5；context=0001035267    2025-12-31"
+          }
+        ],
+        "binding": "3e10349cbb963ba75bf9fb48942684c9594b320223555f0ce0b33057c71c1765"
+      },
+      {
+        "id": "I09-022",
+        "state": "Unknown",
+        "sources": [
+          {
+            "source_id": "Se7f95d2f97642180",
+            "location": "官方HTML iXBRL #f-83 contextRef=c-5；context=0001035267    2025-12-31"
+          }
+        ],
+        "binding": "f794261a7dd0f0825c143edef73fd4d21d1c025788806a581491702a277bfd3c"
+      },
+      {
+        "id": "I09-023",
+        "state": "Unknown",
+        "sources": [
+          {
+            "source_id": "Se7f95d2f97642180",
+            "location": "官方HTML iXBRL #f-113 contextRef=c-5；context=0001035267    2025-12-31"
+          }
+        ],
+        "binding": "a8878d976d4e45007b9ea93b0165f6f42ee83ba9f8841be4fdecf9867cf6af80"
+      },
+      {
+        "id": "I09-024",
+        "state": "Unknown",
+        "sources": [
+          {
+            "source_id": "Se7f95d2f97642180",
+            "location": "官方HTML iXBRL #f-115 contextRef=c-6；context=0001035267    2024-12-31"
+          }
+        ],
+        "binding": "f38efd2478dcc73694e8f1629780eaa6ebdeb0d9fff5c01a9028e74c10c3adbd"
+      },
+      {
+        "id": "I09-025",
+        "state": "Unknown",
+        "sources": [
+          {
+            "source_id": "Se7f95d2f97642180",
+            "location": "官方HTML iXBRL #f-139 contextRef=c-1；context=0001035267    2025-01-01  2025-12-31"
+          }
+        ],
+        "binding": "055a5ec9f523fa032ff439f89646d19a1a4b80f717066a5b18fc2507c080a7f6"
+      },
+      {
+        "id": "I09-026",
+        "state": "Unknown",
+        "sources": [
+          {
+            "source_id": "Se7f95d2f97642180",
+            "location": "官方HTML iXBRL #f-157 contextRef=c-1；context=0001035267    2025-01-01  2025-12-31"
+          }
+        ],
+        "binding": "69a0d780f68b39bfdc46009203f9ffdd48b4e38cdd93a6c99d75d773c47a7876"
+      },
+      {
+        "id": "I09-027",
+        "state": "Unknown",
+        "sources": [
+          {
+            "source_id": "Se7f95d2f97642180",
+            "location": "官方HTML iXBRL #f-163 contextRef=c-1；context=0001035267    2025-01-01  2025-12-31"
+          }
+        ],
+        "binding": "32045838c36b760d0b51b3dfcdcd634cedf014c57b27552fbeee234555f97179"
+      },
+      {
+        "id": "I09-028",
+        "state": "Unknown",
+        "sources": [
+          {
+            "source_id": "Se7f95d2f97642180",
+            "location": "官方HTML iXBRL #f-181 contextRef=c-1；context=0001035267    2025-01-01  2025-12-31"
+          }
+        ],
+        "binding": "649d4ed25dc70b12beaec02bf77e9df001e9ded7ee9ce07011c7b1e240d03512"
+      },
+      {
+        "id": "I09-029",
+        "state": "Unknown",
+        "sources": [
+          {
+            "source_id": "Se7f95d2f97642180",
+            "location": "官方HTML iXBRL #f-371 contextRef=c-1；context=0001035267    2025-01-01  2025-12-31"
+          }
+        ],
+        "binding": "79cfc52a97e53ae2666a4af35fcded89c0c0d8ab197dd73273ef7c619fb75a1a"
+      },
+      {
+        "id": "I09-030",
+        "state": "Unknown",
+        "sources": [
+          {
+            "source_id": "Se7f95d2f97642180",
+            "location": "官方HTML iXBRL #f-395 contextRef=c-1；context=0001035267    2025-01-01  2025-12-31"
+          }
+        ],
+        "binding": "5e381635e6bf10189e8db28e37ad80a85891afc0122df49de4dac7b6a99a69d4"
+      },
+      {
+        "id": "I09-031",
+        "state": "Unknown",
+        "sources": [
+          {
+            "source_id": "Se7f95d2f97642180",
+            "location": "官方HTML iXBRL #f-1533 contextRef=c-1；context=0001035267    2025-01-01  2025-12-31"
+          }
+        ],
+        "binding": "bbf74cf752f436f8bb22d75442218a55dc7c72ff7ef796ca01d1abf41018763f"
+      },
+      {
+        "id": "I09-032",
+        "state": "Unknown",
+        "sources": [
+          {
+            "source_id": "S83c179dfd93521d4",
+            "location": "官方HTML iXBRL #f-34 contextRef=c-3；context=0001035267    2026-09-30"
+          }
+        ],
+        "binding": "f5997503c927fb1e1e81f64a1fef8aa687c68335104b6f7c42f8a05c2fd5a8a9"
+      },
+      {
+        "id": "I09-033",
+        "state": "Unknown",
+        "sources": [
+          {
+            "source_id": "S83c179dfd93521d4",
+            "location": "官方HTML iXBRL #f-36 contextRef=c-3；context=0001035267    2026-09-30"
+          }
+        ],
+        "binding": "4eeeef090f045d7a2e5ef3b6751bde9ca401635bea7530fd8101080d1fbbccf9"
+      },
+      {
+        "id": "I09-034",
+        "state": "Unknown",
+        "sources": [
+          {
+            "source_id": "S83c179dfd93521d4",
+            "location": "官方HTML iXBRL #f-54 contextRef=c-3；context=0001035267    2026-09-30"
+          }
+        ],
+        "binding": "7e1992f120471c905f44ba55d296475ad6a2f1876dda9f8f9f0c8ff947c45b49"
+      },
+      {
+        "id": "I09-035",
+        "state": "Unknown",
+        "sources": [
+          {
+            "source_id": "S83c179dfd93521d4",
+            "location": "官方HTML iXBRL #f-84 contextRef=c-3；context=0001035267    2026-09-30"
+          }
+        ],
+        "binding": "96b412b53eeba087e8315d58e71568b749421a40d823d5a12c32eeb703be01de"
+      },
+      {
+        "id": "I09-036",
+        "state": "Unknown",
+        "sources": [
+          {
+            "source_id": "S83c179dfd93521d4",
+            "location": "官方HTML iXBRL #f-112 contextRef=c-13；context=0001035267    2026-07-01  2026-09-30"
+          }
+        ],
+        "binding": "2380cdf87c36720c8369ac7646180adaa3a45adbc6ccb7ad50ec0128cdb3475d"
+      },
+      {
+        "id": "I09-037",
+        "state": "Unknown",
+        "sources": [
+          {
+            "source_id": "S83c179dfd93521d4",
+            "location": "官方HTML iXBRL #f-113 contextRef=c-14；context=0001035267    2025-07-01  2025-09-30"
+          }
+        ],
+        "binding": "044830908692a320522fed5a7e62b61bea26c3bbc3281557529564c06dece458"
+      },
+      {
+        "id": "I09-038",
+        "state": "Unknown",
+        "sources": [
+          {
+            "source_id": "S83c179dfd93521d4",
+            "location": "官方HTML iXBRL #f-114 contextRef=c-1；context=0001035267    2026-01-01  2026-09-30"
+          }
+        ],
+        "binding": "2c677cb95d6b35690110574d9d98321557bde274a88324f3e78f576509cb7a4b"
+      },
+      {
+        "id": "I09-039",
+        "state": "Unknown",
+        "sources": [
+          {
+            "source_id": "S83c179dfd93521d4",
+            "location": "官方HTML iXBRL #f-115 contextRef=c-15；context=0001035267    2025-01-01  2025-09-30"
+          }
+        ],
+        "binding": "d0226705601160c16d3f72f883f520f5a7665911fda161e4b169602f89e4d43b"
+      },
+      {
+        "id": "I09-040",
+        "state": "Unknown",
+        "sources": [
+          {
+            "source_id": "S83c179dfd93521d4",
+            "location": "官方HTML iXBRL #f-140 contextRef=c-13；context=0001035267    2026-07-01  2026-09-30"
+          }
+        ],
+        "binding": "f332cf0c550d695123aa16e8126454130d5ec500bdceb387136e271c446d57a0"
+      },
+      {
+        "id": "I09-041",
+        "state": "Unknown",
+        "sources": [
+          {
+            "source_id": "S83c179dfd93521d4",
+            "location": "官方HTML iXBRL #f-141 contextRef=c-14；context=0001035267    2025-07-01  2025-09-30"
+          }
+        ],
+        "binding": "e70b47df2bf4cddbdbfc67173bb4a3e578ddc33eaba208e6948ba6539d6456c4"
+      },
+      {
+        "id": "I09-042",
+        "state": "Unknown",
+        "sources": [
+          {
+            "source_id": "S83c179dfd93521d4",
+            "location": "官方HTML iXBRL #f-142 contextRef=c-1；context=0001035267    2026-01-01  2026-09-30"
+          }
+        ],
+        "binding": "f085e2ba052c901347b43f2e58fd0870f4cf7674aa45928199bb69d0ec27a40d"
+      },
+      {
+        "id": "I09-043",
+        "state": "Unknown",
+        "sources": [
+          {
+            "source_id": "S83c179dfd93521d4",
+            "location": "官方HTML iXBRL #f-143 contextRef=c-15；context=0001035267    2025-01-01  2025-09-30"
+          }
+        ],
+        "binding": "fb556dc59ea87969e7251ca93847d646e2fb42f00dcf479e8027dbebefede0cc"
+      },
+      {
+        "id": "I09-044",
+        "state": "Unknown",
+        "sources": [
+          {
+            "source_id": "S83c179dfd93521d4",
+            "location": "官方HTML iXBRL #f-148 contextRef=c-13；context=0001035267    2026-07-01  2026-09-30"
+          }
+        ],
+        "binding": "ef722b46c98627b2bf1dcb474b5bfdda2565d0ab9accc45b65d4420cf0deb6ce"
+      },
+      {
+        "id": "I09-045",
+        "state": "Unknown",
+        "sources": [
+          {
+            "source_id": "S83c179dfd93521d4",
+            "location": "官方HTML iXBRL #f-149 contextRef=c-14；context=0001035267    2025-07-01  2025-09-30"
+          }
+        ],
+        "binding": "59bc96991b4b52af3974c84631970d5749def993f318ba5233e522021ad22c66"
+      },
+      {
+        "id": "I09-046",
+        "state": "Unknown",
+        "sources": [
+          {
+            "source_id": "S83c179dfd93521d4",
+            "location": "官方HTML iXBRL #f-150 contextRef=c-1；context=0001035267    2026-01-01  2026-09-30"
+          }
+        ],
+        "binding": "448fbe29c1405c9772875e79649fc4901f6413a41298599135722acf9144f659"
+      },
+      {
+        "id": "I09-047",
+        "state": "Unknown",
+        "sources": [
+          {
+            "source_id": "S83c179dfd93521d4",
+            "location": "官方HTML iXBRL #f-151 contextRef=c-15；context=0001035267    2025-01-01  2025-09-30"
+          }
+        ],
+        "binding": "c941197f7a6be6414b0da4fd6baaaae364e1b390547a89434f50bcf4b85ac2ac"
+      },
+      {
+        "id": "I09-048",
+        "state": "Unknown",
+        "sources": [
+          {
+            "source_id": "S83c179dfd93521d4",
+            "location": "官方HTML iXBRL #f-172 contextRef=c-13；context=0001035267    2026-07-01  2026-09-30"
+          }
+        ],
+        "binding": "a375a41f83eba537d45674ff812ac7ea2ff089ad98644a707301b3d3e0b247fe"
+      },
+      {
+        "id": "I09-049",
+        "state": "Unknown",
+        "sources": [
+          {
+            "source_id": "S83c179dfd93521d4",
+            "location": "官方HTML iXBRL #f-173 contextRef=c-14；context=0001035267    2025-07-01  2025-09-30"
+          }
+        ],
+        "binding": "b0f332f9b4d1a7effb332b7c30f350d46a3b0d5926e32f0b0d20f2711038c251"
+      },
+      {
+        "id": "I09-050",
+        "state": "Unknown",
+        "sources": [
+          {
+            "source_id": "S83c179dfd93521d4",
+            "location": "官方HTML iXBRL #f-174 contextRef=c-1；context=0001035267    2026-01-01  2026-09-30"
+          }
+        ],
+        "binding": "2678f3f7fcff186bd17ec239873e47f59e0693b574cb39965e062aae132b3c1c"
+      },
+      {
+        "id": "I09-051",
+        "state": "Unknown",
+        "sources": [
+          {
+            "source_id": "S83c179dfd93521d4",
+            "location": "官方HTML iXBRL #f-175 contextRef=c-15；context=0001035267    2025-01-01  2025-09-30"
+          }
+        ],
+        "binding": "1f1048a58ae1a08ad01178c93aea111adfa49f8e5662f4a6f233d4ddf9341679"
+      },
+      {
+        "id": "I09-052",
+        "state": "Unknown",
+        "sources": [
+          {
+            "source_id": "S83c179dfd93521d4",
+            "location": "官方HTML iXBRL #f-236 contextRef=c-1；context=0001035267    2026-01-01  2026-09-30"
+          }
+        ],
+        "binding": "c4dd9dfa42c9922f90c99132fd800ec08d044f0b0bc807bf0c2c89122fb9a959"
+      },
+      {
+        "id": "I09-053",
+        "state": "Unknown",
+        "sources": [
+          {
+            "source_id": "S83c179dfd93521d4",
+            "location": "官方HTML iXBRL #f-237 contextRef=c-15；context=0001035267    2025-01-01  2025-09-30"
+          }
+        ],
+        "binding": "a0917ffff2cfbc9ffa2d88e4d8ee0b6978ffd5055d836613a72748750b3005b7"
+      },
+      {
+        "id": "I09-054",
+        "state": "Unknown",
+        "sources": [
+          {
+            "source_id": "S83c179dfd93521d4",
+            "location": "官方HTML iXBRL #f-252 contextRef=c-1；context=0001035267    2026-01-01  2026-09-30"
+          }
+        ],
+        "binding": "4ade5c141cba16dd62c49a8cccfd24c226bb78fa1acc542ab22695cdb25560a6"
+      },
+      {
+        "id": "I09-055",
+        "state": "Unknown",
+        "sources": [
+          {
+            "source_id": "S83c179dfd93521d4",
+            "location": "官方HTML iXBRL #f-253 contextRef=c-15；context=0001035267    2025-01-01  2025-09-30"
+          }
+        ],
+        "binding": "a8677f3f8b03fad27362b0127e3cf5e1ead0860ee59c8299f9e68799247a5fa7"
+      }
+    ],
+    "history_valid": true,
+    "change_facts": "not provided by this ordinary ReviewStore"
+  }
+}

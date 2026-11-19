@@ -1,0 +1,75 @@
+{
+  "items": [
+    {
+      "source": {
+        "id": "Se0c87c58c13b5968",
+        "company": "Intuitive Surgical, Inc.",
+        "code": "ISRG",
+        "title": "Hugo K250725 原许可及行政修正",
+        "type": "FDA",
+        "period": "",
+        "published_at": "2025-12-04",
+        "retrieved_at": "2026-11-12T03:57:18.619063+00:00",
+        "url": "https://www.accessdata.fda.gov/cdrh_docs/pdf25/K250725.pdf",
+        "final_url": "https://www.accessdata.fda.gov/cdrh_docs/pdf25/K250725.pdf",
+        "path": "sources/raw/Se0c87c58c13b5968.pdf",
+        "sha256": "efc6f3341193bffa4671bdbdcb547a86c04f675f65c15b37522437fc8acb30f2",
+        "pages": 20,
+        "parse_status": "readable",
+        "identity_check": {
+          "checked_by": "Agent",
+          "at": "2026-11-12T03:57:18.619063+00:00",
+          "company_text_present": false,
+          "period_text_present": null,
+          "boundary": "正文身份命中仅校验文档身份，不等于全部数据核验"
+        },
+        "original_name": "K250725.pdf",
+        "accession": "",
+        "revises": null,
+        "duplicates": []
+      },
+      "location": "PDF物理1—2页",
+      "short_excerpt": "FDA administrative correction; submission was not re-reviewed.",
+      "interpretation": "Hugo原许可及行政修正：首两页实际对读，原许可2025-12-03；行政修正不重新审评",
+      "classification": "监管原始来源，独立于发行人自述；仅许可范围",
+      "actor": "Agent",
+      "at": "2026-11-12T06:26:22.018948+00:00"
+    },
+    {
+      "source": {
+        "id": "Sedbd7176dea63afe",
+        "company": "Intuitive Surgical, Inc.",
+        "code": "ISRG",
+        "title": "Versius De Novo",
+        "type": "FDA",
+        "period": "",
+        "published_at": "2024-10-11",
+        "retrieved_at": "2026-11-12T03:57:21.479207+00:00",
+        "url": "https://www.accessdata.fda.gov/cdrh_docs/pdf23/DEN230078.pdf",
+        "final_url": "https://www.accessdata.fda.gov/cdrh_docs/pdf23/DEN230078.pdf",
+        "path": "sources/raw/Sedbd7176dea63afe.pdf",
+        "sha256": "31929da0811422dc806b07dc678cfc16616b986337a21a0afcd67256ca098f8d",
+        "pages": 7,
+        "parse_status": "readable",
+        "identity_check": {
+          "checked_by": "Agent",
+          "at": "2026-11-12T03:57:21.479207+00:00",
+          "company_text_present": false,
+          "period_text_present": null,
+          "boundary": "正文身份命中仅校验文档身份，不等于全部数据核验"
+        },
+        "original_name": "DEN230078.pdf",
+        "accession": "",
+        "revises": null,
+        "duplicates": []
+      },
+      "location": "PDF物理1—2页",
+      "short_excerpt": "Indicated for adult patients 22 years of age and older, for cholecystectomy.",
+      "interpretation": "Versius De Novo p1：22岁及以上成人胆囊切除适应证；后续版本须另查",
+      "classification": "监管原始来源，独立于发行人自述；仅许可范围",
+      "actor": "Agent",
+      "at": "2026-11-12T06:26:22.018948+00:00"
+    }
+  ],
+  "limits": "无市场份额/分母或医院净回报结论"
+}

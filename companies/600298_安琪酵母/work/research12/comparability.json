@@ -1,0 +1,581 @@
+{
+  "conflicts": [
+    {
+      "period": "2023-FY",
+      "metric": "tax_surcharge",
+      "versions": [
+        {
+          "value": "106538203.65",
+          "source_id": "600298-174439da1375f513",
+          "location": {
+            "physical_page": 86,
+            "table": "合并报表/附注",
+            "column": "本期/期末"
+          }
+        },
+        {
+          "value": "106665468.77",
+          "source_id": "600298-e14665c0175d59df",
+          "location": {
+            "physical_page": 85,
+            "table": "合并报表/附注",
+            "column": "比较/期初"
+          }
+        }
+      ],
+      "treatment": "原始披露和后续比较数分别保存；年度变化选同报告比较列，不混用；原因按下列专门说明"
+    },
+    {
+      "period": "2023-FY",
+      "metric": "revenue",
+      "versions": [
+        {
+          "value": "13581131635.82",
+          "source_id": "600298-174439da1375f513",
+          "location": {
+            "physical_page": 86,
+            "table": "合并报表/附注",
+            "column": "本期/期末"
+          }
+        },
+        {
+          "value": "13585284359.06",
+          "source_id": "600298-e14665c0175d59df",
+          "location": {
+            "physical_page": 85,
+            "table": "合并报表/附注",
+            "column": "比较/期初"
+          }
+        }
+      ],
+      "treatment": "原始披露和后续比较数分别保存；年度变化选同报告比较列，不混用；原因按下列专门说明"
+    },
+    {
+      "period": "2023-FY",
+      "metric": "cost",
+      "versions": [
+        {
+          "value": "10295750635.13",
+          "source_id": "600298-174439da1375f513",
+          "location": {
+            "physical_page": 86,
+            "table": "合并报表/附注",
+            "column": "本期/期末"
+          }
+        },
+        {
+          "value": "10298477957.62",
+          "source_id": "600298-e14665c0175d59df",
+          "location": {
+            "physical_page": 85,
+            "table": "合并报表/附注",
+            "column": "比较/期初"
+          }
+        }
+      ],
+      "treatment": "原始披露和后续比较数分别保存；年度变化选同报告比较列，不混用；原因按下列专门说明"
+    },
+    {
+      "period": "2023-FY",
+      "metric": "admin",
+      "versions": [
+        {
+          "value": "458915095.48",
+          "source_id": "600298-174439da1375f513",
+          "location": {
+            "physical_page": 86,
+            "table": "合并报表/附注",
+            "column": "本期/期末"
+          }
+        },
+        {
+          "value": "460957802.55",
+          "source_id": "600298-e14665c0175d59df",
+          "location": {
+            "physical_page": 85,
+            "table": "合并报表/附注",
+            "column": "比较/期初"
+          }
+        }
+      ],
+      "treatment": "原始披露和后续比较数分别保存；年度变化选同报告比较列，不混用；原因按下列专门说明"
+    },
+    {
+      "period": "2023-FY",
+      "metric": "rd",
+      "versions": [
+        {
+          "value": "603429621.50",
+          "source_id": "600298-174439da1375f513",
+          "location": {
+            "physical_page": 86,
+            "table": "合并报表/附注",
+            "column": "本期/期末"
+          }
+        },
+        {
+          "value": "601404117.79",
+          "source_id": "600298-e14665c0175d59df",
+          "location": {
+            "physical_page": 85,
+            "table": "合并报表/附注",
+            "column": "比较/期初"
+          }
+        }
+      ],
+      "treatment": "原始披露和后续比较数分别保存；年度变化选同报告比较列，不混用；原因按下列专门说明"
+    },
+    {
+      "period": "2023-FY",
+      "metric": "finance",
+      "versions": [
+        {
+          "value": "15794454.44",
+          "source_id": "600298-174439da1375f513",
+          "location": {
+            "physical_page": 86,
+            "table": "合并报表/附注",
+            "column": "本期/期末"
+          }
+        },
+        {
+          "value": "15782223.62",
+          "source_id": "600298-e14665c0175d59df",
+          "location": {
+            "physical_page": 85,
+            "table": "合并报表/附注",
+            "column": "比较/期初"
+          }
+        }
+      ],
+      "treatment": "原始披露和后续比较数分别保存；年度变化选同报告比较列，不混用；原因按下列专门说明"
+    },
+    {
+      "period": "2023-FY",
+      "metric": "interest_income",
+      "versions": [
+        {
+          "value": "27858593.45",
+          "source_id": "600298-174439da1375f513",
+          "location": {
+            "physical_page": 86,
+            "table": "合并报表/附注",
+            "column": "本期/期末"
+          }
+        },
+        {
+          "value": "27873644.06",
+          "source_id": "600298-e14665c0175d59df",
+          "location": {
+            "physical_page": 85,
+            "table": "合并报表/附注",
+            "column": "比较/期初"
+          }
+        }
+      ],
+      "treatment": "原始披露和后续比较数分别保存；年度变化选同报告比较列，不混用；原因按下列专门说明"
+    },
+    {
+      "period": "2023-FY",
+      "metric": "other_income",
+      "versions": [
+        {
+          "value": "136304468.44",
+          "source_id": "600298-174439da1375f513",
+          "location": {
+            "physical_page": 86,
+            "table": "合并报表/附注",
+            "column": "本期/期末"
+          }
+        },
+        {
+          "value": "137607978.16",
+          "source_id": "600298-e14665c0175d59df",
+          "location": {
+            "physical_page": 85,
+            "table": "合并报表/附注",
+            "column": "比较/期初"
+          }
+        }
+      ],
+      "treatment": "原始披露和后续比较数分别保存；年度变化选同报告比较列，不混用；原因按下列专门说明"
+    },
+    {
+      "period": "2023-FY",
+      "metric": "op",
+      "versions": [
+        {
+          "value": "1508861182.95",
+          "source_id": "600298-174439da1375f513",
+          "location": {
+            "physical_page": 86,
+            "table": "合并报表/附注",
+            "column": "本期/期末"
+          }
+        },
+        {
+          "value": "1511457855.76",
+          "source_id": "600298-e14665c0175d59df",
+          "location": {
+            "physical_page": 85,
+            "table": "合并报表/附注",
+            "column": "比较/期初"
+          }
+        }
+      ],
+      "treatment": "原始披露和后续比较数分别保存；年度变化选同报告比较列，不混用；原因按下列专门说明"
+    },
+    {
+      "period": "2023-FY",
+      "metric": "pretax",
+      "versions": [
+        {
+          "value": "1526445865.24",
+          "source_id": "600298-174439da1375f513",
+          "location": {
+            "physical_page": 87,
+            "table": "合并报表/附注",
+            "column": "本期/期末"
+          }
+        },
+        {
+          "value": "1529067079.96",
+          "source_id": "600298-e14665c0175d59df",
+          "location": {
+            "physical_page": 85,
+            "table": "合并报表/附注",
+            "column": "比较/期初"
+          }
+        }
+      ],
+      "treatment": "原始披露和后续比较数分别保存；年度变化选同报告比较列，不混用；原因按下列专门说明"
+    },
+    {
+      "period": "2023-FY",
+      "metric": "tax_expense",
+      "versions": [
+        {
+          "value": "214753308.68",
+          "source_id": "600298-174439da1375f513",
+          "location": {
+            "physical_page": 87,
+            "table": "合并报表/附注",
+            "column": "本期/期末"
+          }
+        },
+        {
+          "value": "214819725.66",
+          "source_id": "600298-e14665c0175d59df",
+          "location": {
+            "physical_page": 86,
+            "table": "合并报表/附注",
+            "column": "比较/期初"
+          }
+        }
+      ],
+      "treatment": "原始披露和后续比较数分别保存；年度变化选同报告比较列，不混用；原因按下列专门说明"
+    },
+    {
+      "period": "2023-FY",
+      "metric": "net_income",
+      "versions": [
+        {
+          "value": "1311692556.56",
+          "source_id": "600298-174439da1375f513",
+          "location": {
+            "physical_page": 87,
+            "table": "合并报表/附注",
+            "column": "本期/期末"
+          }
+        },
+        {
+          "value": "1314247354.30",
+          "source_id": "600298-e14665c0175d59df",
+          "location": {
+            "physical_page": 86,
+            "table": "合并报表/附注",
+            "column": "比较/期初"
+          }
+        }
+      ],
+      "treatment": "原始披露和后续比较数分别保存；年度变化选同报告比较列，不混用；原因按下列专门说明"
+    },
+    {
+      "period": "2023-FY",
+      "metric": "parent_income",
+      "versions": [
+        {
+          "value": "1270164997.63",
+          "source_id": "600298-174439da1375f513",
+          "location": {
+            "physical_page": 87,
+            "table": "合并报表/附注",
+            "column": "本期/期末"
+          }
+        },
+        {
+          "value": "1272719795.37",
+          "source_id": "600298-e14665c0175d59df",
+          "location": {
+            "physical_page": 86,
+            "table": "合并报表/附注",
+            "column": "比较/期初"
+          }
+        }
+      ],
+      "treatment": "原始披露和后续比较数分别保存；年度变化选同报告比较列，不混用；原因按下列专门说明"
+    },
+    {
+      "period": "2023-FY",
+      "metric": "capex",
+      "versions": [
+        {
+          "value": "1706889840.60",
+          "source_id": "600298-174439da1375f513",
+          "location": {
+            "physical_page": 90,
+            "table": "合并报表/附注",
+            "column": "本期/期末"
+          }
+        },
+        {
+          "value": "1708636174.37",
+          "source_id": "600298-e14665c0175d59df",
+          "location": {
+            "physical_page": 89,
+            "table": "合并报表/附注",
+            "column": "比较/期初"
+          }
+        }
+      ],
+      "treatment": "原始披露和后续比较数分别保存；年度变化选同报告比较列，不混用；原因按下列专门说明"
+    },
+    {
+      "period": "2023-FY",
+      "metric": "cash",
+      "versions": [
+        {
+          "value": "1192824771.07",
+          "source_id": "600298-174439da1375f513",
+          "location": {
+            "physical_page": 81,
+            "table": "合并报表/附注",
+            "column": "本期/期末"
+          }
+        },
+        {
+          "value": "1193658292.40",
+          "source_id": "600298-e14665c0175d59df",
+          "location": {
+            "physical_page": 80,
+            "table": "合并报表/附注",
+            "column": "比较/期初"
+          }
+        }
+      ],
+      "treatment": "原始披露和后续比较数分别保存；年度变化选同报告比较列，不混用；原因按下列专门说明"
+    },
+    {
+      "period": "2023-FY",
+      "metric": "inventory",
+      "versions": [
+        {
+          "value": "3817815921.32",
+          "source_id": "600298-174439da1375f513",
+          "location": {
+            "physical_page": 82,
+            "table": "合并报表/附注",
+            "column": "本期/期末"
+          }
+        },
+        {
+          "value": "3818401138.06",
+          "source_id": "600298-e14665c0175d59df",
+          "location": {
+            "physical_page": 81,
+            "table": "合并报表/附注",
+            "column": "比较/期初"
+          }
+        }
+      ],
+      "treatment": "原始披露和后续比较数分别保存；年度变化选同报告比较列，不混用；原因按下列专门说明"
+    },
+    {
+      "period": "2023-FY",
+      "metric": "payable",
+      "versions": [
+        {
+          "value": "1678567597.03",
+          "source_id": "600298-174439da1375f513",
+          "location": {
+            "physical_page": 83,
+            "table": "合并报表/附注",
+            "column": "本期/期末"
+          }
+        },
+        {
+          "value": "1685683050.31",
+          "source_id": "600298-e14665c0175d59df",
+          "location": {
+            "physical_page": 81,
+            "table": "合并报表/附注",
+            "column": "比较/期初"
+          }
+        }
+      ],
+      "treatment": "原始披露和后续比较数分别保存；年度变化选同报告比较列，不混用；原因按下列专门说明"
+    },
+    {
+      "period": "2023-FY",
+      "metric": "fixed_assets",
+      "versions": [
+        {
+          "value": "8614994131.07",
+          "source_id": "600298-174439da1375f513",
+          "location": {
+            "physical_page": 82,
+            "table": "合并报表/附注",
+            "column": "本期/期末"
+          }
+        },
+        {
+          "value": "8643084907.99",
+          "source_id": "600298-e14665c0175d59df",
+          "location": {
+            "physical_page": 81,
+            "table": "合并报表/附注",
+            "column": "比较/期初"
+          }
+        }
+      ],
+      "treatment": "原始披露和后续比较数分别保存；年度变化选同报告比较列，不混用；原因按下列专门说明"
+    },
+    {
+      "period": "2023-FY",
+      "metric": "cash_employee",
+      "versions": [
+        {
+          "value": "1537062528.32",
+          "source_id": "600298-174439da1375f513",
+          "location": {
+            "physical_page": 90,
+            "table": "合并报表/附注",
+            "column": "本期/期末"
+          }
+        },
+        {
+          "value": "1538856714.24",
+          "source_id": "600298-e14665c0175d59df",
+          "location": {
+            "physical_page": 89,
+            "table": "合并报表/附注",
+            "column": "比较/期初"
+          }
+        }
+      ],
+      "treatment": "原始披露和后续比较数分别保存；年度变化选同报告比较列，不混用；原因按下列专门说明"
+    },
+    {
+      "period": "2023-FY",
+      "metric": "cash_tax",
+      "versions": [
+        {
+          "value": "594690639.02",
+          "source_id": "600298-174439da1375f513",
+          "location": {
+            "physical_page": 90,
+            "table": "合并报表/附注",
+            "column": "本期/期末"
+          }
+        },
+        {
+          "value": "595236722.48",
+          "source_id": "600298-e14665c0175d59df",
+          "location": {
+            "physical_page": 89,
+            "table": "合并报表/附注",
+            "column": "比较/期初"
+          }
+        }
+      ],
+      "treatment": "原始披露和后续比较数分别保存；年度变化选同报告比较列，不混用；原因按下列专门说明"
+    },
+    {
+      "period": "2023-FY",
+      "metric": "cash_goods",
+      "versions": [
+        {
+          "value": "12304228655.07",
+          "source_id": "600298-174439da1375f513",
+          "location": {
+            "physical_page": 90,
+            "table": "合并报表/附注",
+            "column": "本期/期末"
+          }
+        },
+        {
+          "value": "12302780872.41",
+          "source_id": "600298-e14665c0175d59df",
+          "location": {
+            "physical_page": 88,
+            "table": "合并报表/附注",
+            "column": "比较/期初"
+          }
+        }
+      ],
+      "treatment": "原始披露和后续比较数分别保存；年度变化选同报告比较列，不混用；原因按下列专门说明"
+    },
+    {
+      "period": "2023-FY",
+      "metric": "cash_refund",
+      "versions": [
+        {
+          "value": "371171704.39",
+          "source_id": "600298-174439da1375f513",
+          "location": {
+            "physical_page": 90,
+            "table": "合并报表/附注",
+            "column": "本期/期末"
+          }
+        },
+        {
+          "value": "373012342.52",
+          "source_id": "600298-e14665c0175d59df",
+          "location": {
+            "physical_page": 88,
+            "table": "合并报表/附注",
+            "column": "比较/期初"
+          }
+        }
+      ],
+      "treatment": "原始披露和后续比较数分别保存；年度变化选同报告比较列，不混用；原因按下列专门说明"
+    },
+    {
+      "period": "2023-FY",
+      "metric": "cfo",
+      "versions": [
+        {
+          "value": "1320869622.10",
+          "source_id": "600298-174439da1375f513",
+          "location": {
+            "physical_page": 177,
+            "table": "合并报表/附注",
+            "column": "本期/期末"
+          }
+        },
+        {
+          "value": "1326513986.39",
+          "source_id": "600298-e14665c0175d59df",
+          "location": {
+            "physical_page": 192,
+            "table": "合并报表/附注",
+            "column": "比较/期初"
+          }
+        }
+      ],
+      "treatment": "原始披露和后续比较数分别保存；年度变化选同报告比较列，不混用；原因按下列专门说明"
+    }
+  ],
+  "specific_note": "2024年报p86共同控制下合并的比较列与2023原披露不同；2023原披露收入13581131635.82，2024比较列13585284359.06；净利润1311692556.56与1314247354.30。",
+  "annual_changes_fact": "当前普通ReviewStore无change_facts接口；变化为候选算术，无独立聊天确认事件"
+}

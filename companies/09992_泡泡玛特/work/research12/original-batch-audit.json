@@ -1,0 +1,255 @@
+{
+  "at": "2026-11-19T07:06:02.314991+00:00",
+  "actor": "Agent",
+  "research_window": "2026-11-12",
+  "fact_ids": [],
+  "scope": "回到当前绑定原件表行/经营公告定位金额或区间，保留原期间与权威状态。核对没有写入或授权Fact。",
+  "batches": [
+    {
+      "source_id": "S47095a39c6425b11",
+      "rows": [
+        {
+          "physical_page": 7,
+          "short_excerpt": "Revenue                   收入                                               37,120,052          13,037,749            6,301,002            4,617,324            4,490,651 | Gross profit                毛利                                               26,764,916            8,707,765            3,864,071            2,654,543            2,758,624",
+          "amount_in_original": "37120052",
+          "original_unit": "人民币千元",
+          "record_id": "B07-A01",
+          "claim": "收入2025",
+          "period": "2025年度",
+          "state": "Unknown",
+          "current_binding": "5879e3c54b2bd719b84b35c0c7a41ab454b0f1bc8b26a3cde7525257cdbb452d",
+          "source_id": "S47095a39c6425b11",
+          "source_sha256": "47095a39c6425b11e5aaa091f456e178498d20a77d4ff6a969e351e4f5dfaaf7",
+          "source_path": "sources/raw/S47095a39c6425b11_2026-04-21_ANNUAL REPORT 2025__2025_bd4e173872.pdf",
+          "authority_amount": "37120052",
+          "user_review": null
+        },
+        {
+          "physical_page": 7,
+          "short_excerpt": "Revenue                   收入                                               37,120,052          13,037,749            6,301,002            4,617,324            4,490,651 | Gross profit                毛利                                               26,764,916            8,707,765            3,864,071            2,654,543            2,758,624",
+          "amount_in_original": "13037749",
+          "original_unit": "人民币千元",
+          "record_id": "B07-A02",
+          "claim": "收入2024",
+          "period": "2024年度",
+          "state": "Unknown",
+          "current_binding": "eb1302b95c18a111b770211ca94ce8ae03360349b512683ff8bb5e7c6f9cd54c",
+          "source_id": "S47095a39c6425b11",
+          "source_sha256": "47095a39c6425b11e5aaa091f456e178498d20a77d4ff6a969e351e4f5dfaaf7",
+          "source_path": "sources/raw/S47095a39c6425b11_2026-04-21_ANNUAL REPORT 2025__2025_bd4e173872.pdf",
+          "authority_amount": "13037749",
+          "user_review": null
+        },
+        {
+          "physical_page": 7,
+          "short_excerpt": "Revenue                   收入                                               37,120,052          13,037,749            6,301,002            4,617,324            4,490,651 | Gross profit                毛利                                               26,764,916            8,707,765            3,864,071            2,654,543            2,758,624 | Operating profit             經營溢利  ",
+          "amount_in_original": "26764916",
+          "original_unit": "人民币千元",
+          "record_id": "B07-A03",
+          "claim": "毛利2025",
+          "period": "2025年度",
+          "state": "Unknown",
+          "current_binding": "8dbd7bcd8e4c5d574e963fed92cb139f4517b7eed3d0e71951571f3fbb085ce5",
+          "source_id": "S47095a39c6425b11",
+          "source_sha256": "47095a39c6425b11e5aaa091f456e178498d20a77d4ff6a969e351e4f5dfaaf7",
+          "source_path": "sources/raw/S47095a39c6425b11_2026-04-21_ANNUAL REPORT 2025__2025_bd4e173872.pdf",
+          "authority_amount": "26764916",
+          "user_review": null
+        },
+        {
+          "physical_page": 7,
+          "short_excerpt": "Revenue                   收入                                               37,120,052          13,037,749            6,301,002            4,617,324            4,490,651 | Gross profit                毛利                                               26,764,916            8,707,765            3,864,071            2,654,543            2,758,624 | Operating profit             經營溢利  ",
+          "amount_in_original": "8707765",
+          "original_unit": "人民币千元",
+          "record_id": "B07-A04",
+          "claim": "毛利2024",
+          "period": "2024年度",
+          "state": "Unknown",
+          "current_binding": "9260f2573b6ce888033a1421805a5b46bd03a6ee80645500139580ca62f6cf88",
+          "source_id": "S47095a39c6425b11",
+          "source_sha256": "47095a39c6425b11e5aaa091f456e178498d20a77d4ff6a969e351e4f5dfaaf7",
+          "source_path": "sources/raw/S47095a39c6425b11_2026-04-21_ANNUAL REPORT 2025__2025_bd4e173872.pdf",
+          "authority_amount": "8707765",
+          "user_review": null
+        },
+        {
+          "physical_page": 7,
+          "short_excerpt": "Profit before income tax      除所得稅前溢利                      17,036,622            4,365,812            1,415,755                639,529            1,171,191 | Profit for the year            年內溢利                                     13,012,042            3,308,345            1,088,771                475,801                854,567 | Profit attributable to                         本公",
+          "amount_in_original": "13012042",
+          "original_unit": "人民币千元",
+          "record_id": "B07-A05",
+          "claim": "年内溢利2025（含非控股）",
+          "period": "2025年度",
+          "state": "Unknown",
+          "current_binding": "ba6fe17bd055461637fe81d382fb8044d21fdc6cf1f15fcafc645eaefd079ef3",
+          "source_id": "S47095a39c6425b11",
+          "source_sha256": "47095a39c6425b11e5aaa091f456e178498d20a77d4ff6a969e351e4f5dfaaf7",
+          "source_path": "sources/raw/S47095a39c6425b11_2026-04-21_ANNUAL REPORT 2025__2025_bd4e173872.pdf",
+          "authority_amount": "13012042",
+          "user_review": null
+        },
+        {
+          "physical_page": 7,
+          "short_excerpt": "Profit before income tax      除所得稅前溢利                      17,036,622            4,365,812            1,415,755                639,529            1,171,191 | Profit for the year            年內溢利                                     13,012,042            3,308,345            1,088,771                475,801                854,567 | Profit attributable to                         本公",
+          "amount_in_original": "3308345",
+          "original_unit": "人民币千元",
+          "record_id": "B07-A06",
+          "claim": "年内溢利2024（含非控股）",
+          "period": "2024年度",
+          "state": "Unknown",
+          "current_binding": "0286cde2c57053ce613664dd4b7247d7674e4f2db938235ae4d86817cec63276",
+          "source_id": "S47095a39c6425b11",
+          "source_sha256": "47095a39c6425b11e5aaa091f456e178498d20a77d4ff6a969e351e4f5dfaaf7",
+          "source_path": "sources/raw/S47095a39c6425b11_2026-04-21_ANNUAL REPORT 2025__2025_bd4e173872.pdf",
+          "authority_amount": "3308345",
+          "user_review": null
+        }
+      ]
+    },
+    {
+      "source_id": "S92234424087f455a",
+      "rows": [
+        {
+          "physical_page": 1,
+          "section": "Overall and Regional Revenue Performance",
+          "interval": [
+            -50,
+            -45
+          ],
+          "original_unit": "%",
+          "short_excerpt": "of 45%-50% as compared to the third quarter of 2025, among which, revenue attributed from",
+          "record_id": "B07-Q01",
+          "claim": "集团收入同比",
+          "period": "2026Q3相对2025Q3",
+          "state": "Unknown",
+          "current_binding": "f4a56c4cf9f69c72f7a2252c17ac0cf0c08d8337195ee411166b0e6c33ef5dab",
+          "source_id": "S92234424087f455a",
+          "source_sha256": "92234424087f455a786558f9a9c6c900573392160a63f4720371b07ee3197490",
+          "source_path": "sources/raw/S92234424087f455a_2026-10-27_LATEST BUSINESS UPDATE FOR THE THIRD QUARTER OF 2026__2026_c437e22e46.pdf",
+          "authority_amount": null,
+          "user_review": null
+        },
+        {
+          "physical_page": 1,
+          "section": "Overall and Regional Revenue Performance",
+          "interval": [
+            -30,
+            -25
+          ],
+          "original_unit": "%",
+          "short_excerpt": "operations in the PRC recorded a period-on-period decrease of 25%-30%, revenue attributed from",
+          "record_id": "B07-Q02",
+          "claim": "中国收入同比",
+          "period": "2026Q3相对2025Q3",
+          "state": "Unknown",
+          "current_binding": "66206ec53704ae7a2955e73641b32346b23f82aa052de74a7a640ded8a18f3c6",
+          "source_id": "S92234424087f455a",
+          "source_sha256": "92234424087f455a786558f9a9c6c900573392160a63f4720371b07ee3197490",
+          "source_path": "sources/raw/S92234424087f455a_2026-10-27_LATEST BUSINESS UPDATE FOR THE THIRD QUARTER OF 2026__2026_c437e22e46.pdf",
+          "authority_amount": null,
+          "user_review": null
+        },
+        {
+          "physical_page": 1,
+          "section": "Overall and Regional Revenue Performance",
+          "interval": [
+            -70,
+            -65
+          ],
+          "original_unit": "%",
+          "short_excerpt": "operations in Asia-Pacific1 recorded a period-on-period decrease of 65%-70%, revenue attributed",
+          "record_id": "B07-Q03",
+          "claim": "亚太收入同比",
+          "period": "2026Q3相对2025Q3",
+          "state": "Unknown",
+          "current_binding": "0240ea4ef4ed8fc6fb11f65077a58a56bfb7a8073b534291db4ffff9198d3048",
+          "source_id": "S92234424087f455a",
+          "source_sha256": "92234424087f455a786558f9a9c6c900573392160a63f4720371b07ee3197490",
+          "source_path": "sources/raw/S92234424087f455a_2026-10-27_LATEST BUSINESS UPDATE FOR THE THIRD QUARTER OF 2026__2026_c437e22e46.pdf",
+          "authority_amount": null,
+          "user_review": null
+        },
+        {
+          "physical_page": 1,
+          "section": "Overall and Regional Revenue Performance",
+          "interval": [
+            -75,
+            -70
+          ],
+          "original_unit": "%",
+          "short_excerpt": "from operations in America recorded a period-on-period decrease of 70%-75%, and revenue",
+          "record_id": "B07-Q04",
+          "claim": "美洲收入同比",
+          "period": "2026Q3相对2025Q3",
+          "state": "Unknown",
+          "current_binding": "5d13638d54e56a644699d42df21fd1628989b71d3787d1c03c9ec1f1be9a1104",
+          "source_id": "S92234424087f455a",
+          "source_sha256": "92234424087f455a786558f9a9c6c900573392160a63f4720371b07ee3197490",
+          "source_path": "sources/raw/S92234424087f455a_2026-10-27_LATEST BUSINESS UPDATE FOR THE THIRD QUARTER OF 2026__2026_c437e22e46.pdf",
+          "authority_amount": null,
+          "user_review": null
+        },
+        {
+          "physical_page": 1,
+          "section": "Overall and Regional Revenue Performance",
+          "interval": [
+            -55,
+            -50
+          ],
+          "original_unit": "%",
+          "short_excerpt": "50%-55%.",
+          "record_id": "B07-Q05",
+          "claim": "欧洲及其他收入同比",
+          "period": "2026Q3相对2025Q3",
+          "state": "Unknown",
+          "current_binding": "967e7f916ca355fa82f4b00cd03d81346827be158bdfc2dde3cfcc2acd03681e",
+          "source_id": "S92234424087f455a",
+          "source_sha256": "92234424087f455a786558f9a9c6c900573392160a63f4720371b07ee3197490",
+          "source_path": "sources/raw/S92234424087f455a_2026-10-27_LATEST BUSINESS UPDATE FOR THE THIRD QUARTER OF 2026__2026_c437e22e46.pdf",
+          "authority_amount": null,
+          "user_review": null
+        },
+        {
+          "physical_page": 1,
+          "section": "Revenue Performance by Channel",
+          "interval": [
+            -10,
+            -5
+          ],
+          "original_unit": "%",
+          "short_excerpt": "(1) for offline channels, a period-on-period decrease of 5%-10% was recorded; and",
+          "record_id": "B07-Q06",
+          "claim": "中国线下收入同比",
+          "period": "2026Q3相对2025Q3",
+          "state": "Unknown",
+          "current_binding": "8b0c9cd849b01fe21b1452afce0fd6ace124423c831180859ed022639a5f08cf",
+          "source_id": "S92234424087f455a",
+          "source_sha256": "92234424087f455a786558f9a9c6c900573392160a63f4720371b07ee3197490",
+          "source_path": "sources/raw/S92234424087f455a_2026-10-27_LATEST BUSINESS UPDATE FOR THE THIRD QUARTER OF 2026__2026_c437e22e46.pdf",
+          "authority_amount": null,
+          "user_review": null
+        },
+        {
+          "physical_page": 1,
+          "section": "Revenue Performance by Channel",
+          "interval": [
+            -50,
+            -45
+          ],
+          "original_unit": "%",
+          "short_excerpt": "(2) for online channels, a period-on-period decrease of 45%-50% was recorded.",
+          "record_id": "B07-Q07",
+          "claim": "中国线上收入同比",
+          "period": "2026Q3相对2025Q3",
+          "state": "Unknown",
+          "current_binding": "706dd6b0a82d7cc4375b187588a256eb667196d5e11870cae688a40f03438863",
+          "source_id": "S92234424087f455a",
+          "source_sha256": "92234424087f455a786558f9a9c6c900573392160a63f4720371b07ee3197490",
+          "source_path": "sources/raw/S92234424087f455a_2026-10-27_LATEST BUSINESS UPDATE FOR THE THIRD QUARTER OF 2026__2026_c437e22e46.pdf",
+          "authority_amount": null,
+          "user_review": null
+        }
+      ]
+    }
+  ]
+}

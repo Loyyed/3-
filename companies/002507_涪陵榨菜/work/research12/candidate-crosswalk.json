@@ -1,0 +1,292 @@
+{
+  "at": "2026-11-12T06:26:21.979591+00:00",
+  "rows": [
+    {
+      "record_id": "B07-A01",
+      "claim": "营业收入2025",
+      "value": "2431922780.17",
+      "scope": {
+        "period": "2025年度",
+        "entity": "涪陵榨菜",
+        "basis": "集团合并年度财务摘要",
+        "definition": "营业收入2025；按原表列定位，不把归母/合并净利润混同",
+        "unit": "元",
+        "currency": "CNY"
+      },
+      "original_binding_sources": [
+        {
+          "source_id": "002507-6cd117ea1ac8beee",
+          "location": "PDF物理第7页，财务摘要/经营更新，行“营业收入2025”"
+        }
+      ],
+      "matched_source_rows": [
+        "2025-FY:revenue:002507-6cd117ea1ac8beee"
+      ],
+      "result": "命中同来源同金额原表候选；须同时核期间、主体及行定义",
+      "actual_user_review": null
+    },
+    {
+      "record_id": "B07-A02",
+      "claim": "营业收入2024",
+      "value": "2387126126.55",
+      "scope": {
+        "period": "2024年度",
+        "entity": "涪陵榨菜",
+        "basis": "集团合并年度财务摘要",
+        "definition": "营业收入2024；按原表列定位，不把归母/合并净利润混同",
+        "unit": "元",
+        "currency": "CNY"
+      },
+      "original_binding_sources": [
+        {
+          "source_id": "002507-6cd117ea1ac8beee",
+          "location": "PDF物理第7页，财务摘要/经营更新，行“营业收入2024”"
+        }
+      ],
+      "matched_source_rows": [
+        "2024-FY:revenue:002507-6cd117ea1ac8beee"
+      ],
+      "result": "命中同来源同金额原表候选；须同时核期间、主体及行定义",
+      "actual_user_review": null
+    },
+    {
+      "record_id": "B07-A03",
+      "claim": "归母净利润2025",
+      "value": "768034038.98",
+      "scope": {
+        "period": "2025年度",
+        "entity": "涪陵榨菜",
+        "basis": "集团合并年度财务摘要",
+        "definition": "归母净利润2025；按原表列定位，不把归母/合并净利润混同",
+        "unit": "元",
+        "currency": "CNY"
+      },
+      "original_binding_sources": [
+        {
+          "source_id": "002507-6cd117ea1ac8beee",
+          "location": "PDF物理第7页，财务摘要/经营更新，行“归母净利润2025”"
+        }
+      ],
+      "matched_source_rows": [
+        "2025-FY:net_income:002507-6cd117ea1ac8beee",
+        "2025-FY:parent_income:002507-6cd117ea1ac8beee",
+        "2025-FY:recon_net_income:002507-6cd117ea1ac8beee"
+      ],
+      "result": "命中同来源同金额原表候选；须同时核期间、主体及行定义",
+      "actual_user_review": null
+    },
+    {
+      "record_id": "B07-A04",
+      "claim": "归母净利润2024",
+      "value": "799346652.13",
+      "scope": {
+        "period": "2024年度",
+        "entity": "涪陵榨菜",
+        "basis": "集团合并年度财务摘要",
+        "definition": "归母净利润2024；按原表列定位，不把归母/合并净利润混同",
+        "unit": "元",
+        "currency": "CNY"
+      },
+      "original_binding_sources": [
+        {
+          "source_id": "002507-6cd117ea1ac8beee",
+          "location": "PDF物理第7页，财务摘要/经营更新，行“归母净利润2024”"
+        }
+      ],
+      "matched_source_rows": [
+        "2024-FY:net_income:002507-6cd117ea1ac8beee",
+        "2024-FY:parent_income:002507-6cd117ea1ac8beee"
+      ],
+      "result": "命中同来源同金额原表候选；须同时核期间、主体及行定义",
+      "actual_user_review": null
+    },
+    {
+      "record_id": "B07-A05",
+      "claim": "CFO2025",
+      "value": "657219112.63",
+      "scope": {
+        "period": "2025年度",
+        "entity": "涪陵榨菜",
+        "basis": "集团合并年度财务摘要",
+        "definition": "CFO2025；按原表列定位，不把归母/合并净利润混同",
+        "unit": "元",
+        "currency": "CNY"
+      },
+      "original_binding_sources": [
+        {
+          "source_id": "002507-6cd117ea1ac8beee",
+          "location": "PDF物理第7页，财务摘要/经营更新，行“CFO2025”"
+        }
+      ],
+      "matched_source_rows": [
+        "2025-FY:cfo:002507-6cd117ea1ac8beee"
+      ],
+      "result": "命中同来源同金额原表候选；须同时核期间、主体及行定义",
+      "actual_user_review": null
+    },
+    {
+      "record_id": "B07-A06",
+      "claim": "CFO2024",
+      "value": "816944577.91",
+      "scope": {
+        "period": "2024年度",
+        "entity": "涪陵榨菜",
+        "basis": "集团合并年度财务摘要",
+        "definition": "CFO2024；按原表列定位，不把归母/合并净利润混同",
+        "unit": "元",
+        "currency": "CNY"
+      },
+      "original_binding_sources": [
+        {
+          "source_id": "002507-6cd117ea1ac8beee",
+          "location": "PDF物理第7页，财务摘要/经营更新，行“CFO2024”"
+        }
+      ],
+      "matched_source_rows": [
+        "2024-FY:cfo:002507-6cd117ea1ac8beee"
+      ],
+      "result": "命中同来源同金额原表候选；须同时核期间、主体及行定义",
+      "actual_user_review": null
+    },
+    {
+      "record_id": "B07-Q01",
+      "claim": "本季度营业收入",
+      "value": "702051582.36",
+      "scope": {
+        "period": "2026Q3单季",
+        "entity": "涪陵榨菜",
+        "basis": "集团合并；季度数据未经审计",
+        "definition": "本季度营业收入；按原表列定位，不把归母/合并净利润混同",
+        "unit": "元",
+        "currency": "CNY"
+      },
+      "original_binding_sources": [
+        {
+          "source_id": "002507-d45bfdfdec6d4379",
+          "location": "PDF物理第3页，财务摘要/经营更新，行“本季度营业收入”"
+        }
+      ],
+      "matched_source_rows": [],
+      "result": "本轮底表未覆盖该候选同来源字段；保留原绑定，不由金额搜索判核准",
+      "actual_user_review": null
+    },
+    {
+      "record_id": "B07-Q02",
+      "claim": "前九个月营业收入",
+      "value": "2067509518.74",
+      "scope": {
+        "period": "2026年1—9月",
+        "entity": "涪陵榨菜",
+        "basis": "集团合并；季度数据未经审计",
+        "definition": "前九个月营业收入；按原表列定位，不把归母/合并净利润混同",
+        "unit": "元",
+        "currency": "CNY"
+      },
+      "original_binding_sources": [
+        {
+          "source_id": "002507-d45bfdfdec6d4379",
+          "location": "PDF物理第3页，财务摘要/经营更新，行“前九个月营业收入”"
+        }
+      ],
+      "matched_source_rows": [
+        "2026-YTD9:revenue:002507-d45bfdfdec6d4379"
+      ],
+      "result": "命中同来源同金额原表候选；须同时核期间、主体及行定义",
+      "actual_user_review": null
+    },
+    {
+      "record_id": "B07-Q03",
+      "claim": "本季度归母净利润",
+      "value": "204890874.95",
+      "scope": {
+        "period": "2026Q3单季",
+        "entity": "涪陵榨菜",
+        "basis": "集团合并；季度数据未经审计",
+        "definition": "本季度归母净利润；按原表列定位，不把归母/合并净利润混同",
+        "unit": "元",
+        "currency": "CNY"
+      },
+      "original_binding_sources": [
+        {
+          "source_id": "002507-d45bfdfdec6d4379",
+          "location": "PDF物理第3页，财务摘要/经营更新，行“本季度归母净利润”"
+        }
+      ],
+      "matched_source_rows": [],
+      "result": "本轮底表未覆盖该候选同来源字段；保留原绑定，不由金额搜索判核准",
+      "actual_user_review": null
+    },
+    {
+      "record_id": "B07-Q04",
+      "claim": "前九个月归母净利润",
+      "value": "613891650.82",
+      "scope": {
+        "period": "2026年1—9月",
+        "entity": "涪陵榨菜",
+        "basis": "集团合并；季度数据未经审计",
+        "definition": "前九个月归母净利润；按原表列定位，不把归母/合并净利润混同",
+        "unit": "元",
+        "currency": "CNY"
+      },
+      "original_binding_sources": [
+        {
+          "source_id": "002507-d45bfdfdec6d4379",
+          "location": "PDF物理第3页，财务摘要/经营更新，行“前九个月归母净利润”"
+        }
+      ],
+      "matched_source_rows": [
+        "2026-YTD9:net_income:002507-d45bfdfdec6d4379",
+        "2026-YTD9:parent_income:002507-d45bfdfdec6d4379"
+      ],
+      "result": "命中同来源同金额原表候选；须同时核期间、主体及行定义",
+      "actual_user_review": null
+    },
+    {
+      "record_id": "B07-Q05",
+      "claim": "前九个月CFO",
+      "value": "691282029.56",
+      "scope": {
+        "period": "2026年1—9月",
+        "entity": "涪陵榨菜",
+        "basis": "集团合并；季度数据未经审计",
+        "definition": "前九个月CFO；按原表列定位，不把归母/合并净利润混同",
+        "unit": "元",
+        "currency": "CNY"
+      },
+      "original_binding_sources": [
+        {
+          "source_id": "002507-d45bfdfdec6d4379",
+          "location": "PDF物理第3页，财务摘要/经营更新，行“前九个月CFO”"
+        }
+      ],
+      "matched_source_rows": [
+        "2026-YTD9:cfo:002507-d45bfdfdec6d4379"
+      ],
+      "result": "命中同来源同金额原表候选；须同时核期间、主体及行定义",
+      "actual_user_review": null
+    },
+    {
+      "record_id": "B07-Q06",
+      "claim": "前九个月营业收入同比",
+      "value": "3.45",
+      "scope": {
+        "period": "2026年1—9月",
+        "entity": "涪陵榨菜",
+        "basis": "集团合并；季度数据未经审计",
+        "definition": "前九个月营业收入同比；按原表列定位，不把归母/合并净利润混同",
+        "unit": "%",
+        "currency": "CNY"
+      },
+      "original_binding_sources": [
+        {
+          "source_id": "002507-d45bfdfdec6d4379",
+          "location": "PDF物理第3页，财务摘要/经营更新，行“前九个月营业收入同比”"
+        }
+      ],
+      "matched_source_rows": [],
+      "result": "本轮底表未覆盖该候选同来源字段；保留原绑定，不由金额搜索判核准",
+      "actual_user_review": null
+    }
+  ],
+  "boundary": "机器匹配线索与Agent定义核对分开；不升级旧候选、不修改账本"
+}

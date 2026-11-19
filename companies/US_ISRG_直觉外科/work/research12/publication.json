@@ -1,0 +1,143 @@
+{
+  "id": "O2abef0afe9b7",
+  "group": "research-report",
+  "title": "Intuitive Surgical（ISRG）：历史经营分析与首版条件预测（2026-11-12）",
+  "kind": "报告草稿",
+  "version": 6,
+  "at": "2026-11-19T07:06:49.337325+00:00",
+  "actor": "Agent/test-or-api",
+  "actual_user_review": null,
+  "historical": false,
+  "bindings": {
+    "selection_ids": [
+      "R13e68bc03271",
+      "R143dc49386bb",
+      "R1879b1d90070",
+      "R3fe807f7f8f2",
+      "R4257c7215539",
+      "R93279d7b4123",
+      "Rc4f28a3b6f14",
+      "Re4a5d5334869"
+    ],
+    "selection_scope": "all-eight-lanes",
+    "cards": {
+      "Re4a5d5334869": "321157b0975c0fd26149de49ee6a7a1713a3059e352492b3d40709f3015148b2",
+      "R4257c7215539": "9cbd1f741ce3d469550010e2b684a307ea72eca2bffd21e65fc765914baf643c",
+      "R13e68bc03271": "5ab3c4213c14022dc8f0bd4dba1a48a44941ff9df1ec8f4656a9d7aac34f0383",
+      "R143dc49386bb": "0d7def972705e3e7814eec56b3af8b26ea40c321bc6f1dad91eb9919f1b28f48",
+      "R3fe807f7f8f2": "fff497cad81a3b13256f1b2f6dd940cf5b8c503f6c6705e9ed2d464872a36f3a",
+      "Rc4f28a3b6f14": "a73f10ad46d5a7076b325623071aad5c8e2fc440e5aa582b0563d94cf990dcf6",
+      "R93279d7b4123": "b161d22c55dbe3e1a25c6370f8eb4f2e20eee224cd9579841eddb3a68237af68",
+      "R1879b1d90070": "f9958256c14858e00838733195934dabd19032534b8591fa0d28f1871b0206f6"
+    },
+    "methods": [
+      {
+        "id": "K46",
+        "version": 1
+      },
+      {
+        "id": "K48",
+        "version": 1
+      },
+      {
+        "id": "K50",
+        "version": 1
+      },
+      {
+        "id": "K53",
+        "version": 1
+      },
+      {
+        "id": "K57",
+        "version": 1
+      },
+      {
+        "id": "K58",
+        "version": 1
+      },
+      {
+        "id": "K59",
+        "version": 1
+      },
+      {
+        "id": "K63",
+        "version": 1
+      }
+    ],
+    "inputs": {
+      "work/research12/source-data.json": "b9412b1d181b0585fdd95cd227b225494f51ba380b54d6213c6c7203d131f6e5",
+      "work/research12/agent-read-batches.json": "a6f426038dd6bde0f3f230e60f7851de0181e3a45dbbcbbd226487d0c302cd16",
+      "work/research12/comparability.json": "7c1943d2908193b4622084380a7577d90d5bcc149f9886fb7522cd64a8789312",
+      "work/research12/forecast-input.json": "5e36d8adc460a53b0e152c4bddae63a9b5da19216ee7e3432e3837b69fb1a3e1",
+      "work/research12/calculation.json": "c8e7415ac69f717b351dd5f8a8484a8eb673a8bb0f79722e6a1307fb6ba12c89",
+      "work/research12/forecast.csv": "0c0c78a326d7b95a1aa00a7f948bcf4e95ccabb216925497f57aca59f8173612",
+      "work/research12/claim-review.json": "f9a592949c130608d6de324fae2bc912c6ed8ef702d282c6c21c7459e26c5801",
+      "work/research12/original-batch-audit.json": "3d549142efeb8914c6da250a64793e5e9722b348814355aec9735c6dcc76cfca",
+      "work/research12/authority.json": "217bd8432190d55d7bc89b0d589470babf7c7bbea30298b528b8782f9c017f9a",
+      "work/research12/coverage-and-gaps.json": "8efc57d3786c8c76a7d5612c0cd47629bb39cc33dc69b0342daff187a880ca8f",
+      "work/research12/candidate-crosswalk.json": "cc0d9e1a1d93a692c7943c1f87130c7b37a4e9d391bac6ae5feb55a01055e5a6",
+      "work/research12/competition-evidence.json": "ea06c86fd9c8741836a4dadc002e4f81d8e1cfec53ff6f5dde37eb28a3098b4f",
+      "work/valuation/index.json": "304a5f3d53b4ab02d733fc359a74ab2a19cd25d6e7207c8752caeb737c31b43b",
+      "work/valuation/v1-Vd4916286e592.json": "cf9328453ab77bcab35d531773fab094b988aa908358dd6c39a4ffc951d4e606",
+      "work/writing/reader.json": "f52d32d493e14c042553264127ca5e60134a1e070c8173e20daa77241ebf1268"
+    },
+    "sources": [
+      {
+        "id": "Se0c87c58c13b5968",
+        "path": "sources/raw/Se0c87c58c13b5968.pdf",
+        "sha256": "efc6f3341193bffa4671bdbdcb547a86c04f675f65c15b37522437fc8acb30f2"
+      },
+      {
+        "id": "Se7f95d2f97642180",
+        "path": "sources/raw/Se7f95d2f97642180.html",
+        "sha256": "bdcd15add5b70b03a8342ffe169b54530d4805c9e4c12796985d3245993ac991"
+      },
+      {
+        "id": "S83c179dfd93521d4",
+        "path": "sources/raw/S83c179dfd93521d4.html",
+        "sha256": "df5b434e5ae926551c12632ba637d5d182aa1fdf3eab00b5668983bc86c3ac61"
+      },
+      {
+        "id": "S62ee221f79d393a3",
+        "path": "sources/raw/S62ee221f79d393a3.html",
+        "sha256": "2fa78f70f69bc2c0fbe7979860d040d8eb86c2d7e4bf48894230ccd0e1aafc09"
+      },
+      {
+        "id": "Sedbd7176dea63afe",
+        "path": "sources/raw/Sedbd7176dea63afe.pdf",
+        "sha256": "31929da0811422dc806b07dc678cfc16616b986337a21a0afcd67256ca098f8d"
+      }
+    ],
+    "shared_dependencies": {
+      "shared/runtime/companybench/valuation_chain.py": "0155df03fa6ff2dd86a6a4c92f51f277f88e1edd45bfd972d191796276ac23ca",
+      "shared/runtime/companybench/research_depth.py": "bb364cd41336a0d3fe62d0d0663f7e8557570aeff2d201c21517259ae1404a41",
+      "scripts/recalculate_valuation.py": "711a5a9c153a834a2c28d133d24b0aec0cd93153c0baa4f1358a8b22ef4cc727",
+      "docs/投研写作规范.md": "e4cf87afffc67976148eab1d4f2aba00056a5825ba0c7ac64d7ccab1122cfb60",
+      "shared/writing-skills.json": "cad001177fa60de41d782dfbdb8d3ffbfa1ffb81a959472130c85925b6d2ab2a",
+      "app/writing.py": "083ceb8239ce4c1f76b50ead42c52d2e73068d6a564f25f6f288eb4697e947d8",
+      "scripts/recalculate_research12.py": "86555de90ecba93866e5d0c05dd7521237fd0d5f3628a56eeca9b556e7e1015f"
+    }
+  },
+  "files": [
+    {
+      "path": "outputs/research-report/v6-O2abef0afe9b7/basis.json",
+      "format": "json",
+      "sha256": "58e3916a7963707626e36c517204b53b247812599835d78b5fa360b15961fad4",
+      "bytes": 530067
+    },
+    {
+      "path": "outputs/research-report/v6-O2abef0afe9b7/report.html",
+      "format": "html",
+      "sha256": "aa75d7da48945321e93135ff5ae8edce07a0c02b8f9f7285fe4b601bec730329",
+      "bytes": 12117
+    },
+    {
+      "path": "outputs/research-report/v6-O2abef0afe9b7/report.md",
+      "format": "md",
+      "sha256": "77bb050a13dd339884c748ae7fadbbcff04477e89141e9e5b51c7bcdacff3bdd",
+      "bytes": 10416
+    }
+  ],
+  "needs_review": false,
+  "imported": false
+}

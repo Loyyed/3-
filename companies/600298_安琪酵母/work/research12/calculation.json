@@ -1,0 +1,678 @@
+{
+  "company": "600298_安琪酵母",
+  "unit": "CNY million",
+  "status": "Agent对读候选上的算术与Forecast，无新人审，无目标价",
+  "input_sha256": {
+    "work/research12/source-data.json": "3ea9287476fd7f1809d4b7f09ab564be10abf941339f49d5d93502457a765a15",
+    "work/research12/forecast-input.json": "be48da9beb2452cb599964bf90268f8caa187988c00ab8bee87ebba4d7deb33b"
+  },
+  "history": [
+    {
+      "period": "2023-FY",
+      "revenue": "13581.13163582",
+      "cost": "10295.75063513",
+      "reported_op": "1508.86118295",
+      "net_income": "1311.69255656",
+      "parent_income": "1270.16499763",
+      "cfo": "1320.8696221",
+      "capex": "1706.8898406",
+      "core_ebit": "1413.14052085",
+      "cfo_less_capex": "-386.0202185"
+    },
+    {
+      "period": "2024-FY",
+      "revenue": "15196.91319779",
+      "cost": "11622.05094437",
+      "reported_op": "1564.52549547",
+      "net_income": "1352.91600043",
+      "parent_income": "1324.56913628",
+      "cfo": "1649.85692718",
+      "capex": "1716.99166084",
+      "core_ebit": "1506.51218519",
+      "cfo_less_capex": "-67.13473366"
+    },
+    {
+      "period": "2025-FY",
+      "revenue": "16728.84277037",
+      "cost": "12595.74771627",
+      "reported_op": "1873.62529276",
+      "net_income": "1588.90877146",
+      "parent_income": "1544.40906894",
+      "cfo": "2477.95955634",
+      "capex": "1700.51229757",
+      "core_ebit": "1834.40034683",
+      "cfo_less_capex": "777.44725877"
+    },
+    {
+      "period": "2025-H1",
+      "revenue": "7899.29754676",
+      "cost": "5838.73828223",
+      "reported_op": "1010.71343488",
+      "net_income": "831.02288673",
+      "parent_income": "799.35800992",
+      "cfo": "262.26002203",
+      "capex": "835.37301701",
+      "core_ebit": "993.98537599",
+      "cfo_less_capex": "-573.11299498"
+    },
+    {
+      "period": "2026-H1",
+      "revenue": "9186.9227839",
+      "cost": "6725.01676252",
+      "reported_op": "1105.46968109",
+      "net_income": "906.03115248",
+      "parent_income": "880.94719863",
+      "cfo": "199.8581575",
+      "capex": "743.22660055",
+      "core_ebit": "1248.92019782",
+      "cfo_less_capex": "-543.36844305"
+    },
+    {
+      "period": "2025-YTD9",
+      "revenue": "11786.45119765",
+      "cost": "8776.2702738",
+      "reported_op": "1393.25545132",
+      "net_income": "1151.13621692",
+      "parent_income": "1116.4321804",
+      "cfo": "2218.13235503",
+      "capex": "1240.50932436",
+      "core_ebit": "1362.48464323",
+      "cfo_less_capex": "977.62303067"
+    },
+    {
+      "period": "2026-YTD9",
+      "revenue": "13607.95084186",
+      "cost": "10161.78147484",
+      "reported_op": "1468.78426047",
+      "net_income": "1194.19150798",
+      "parent_income": "1171.18308493",
+      "cfo": "1712.4446483",
+      "capex": "1305.25613834",
+      "core_ebit": "1620.31797880",
+      "cfo_less_capex": "407.18850996"
+    },
+    {
+      "period": "2026-Q3",
+      "classification": "Agent计算",
+      "formula": "2026YTD9-2026H1",
+      "revenue": "4421.02805796",
+      "net_income": "288.16035550",
+      "cfo": "1512.5864908"
+    }
+  ],
+  "capital_balances": [
+    {
+      "period": "2023-FY",
+      "receivable": "1546.64621335",
+      "inventory": "3817.81592132",
+      "payable": "1678.56759703",
+      "advance": "217.91875249",
+      "fixed_assets": "8614.99413107",
+      "construction": "758.00480538",
+      "lease": "10.80596933",
+      "cash": "1192.82477107",
+      "ncwc_subset": "3467.97578515"
+    },
+    {
+      "period": "2024-FY",
+      "receivable": "1830.66140076",
+      "inventory": "4281.84411373",
+      "payable": "2080.61681597",
+      "advance": "225.62887245",
+      "fixed_assets": "9816.4216476",
+      "construction": "823.35628149",
+      "lease": "6.17233992",
+      "cash": "1378.40389458",
+      "ncwc_subset": "3806.25982607"
+    },
+    {
+      "period": "2025-FY",
+      "receivable": "1843.54835408",
+      "inventory": "5105.42967833",
+      "payable": "2203.40890657",
+      "advance": "320.29733954",
+      "fixed_assets": "11223.41069044",
+      "construction": "682.07358025",
+      "lease": "8.28888187",
+      "cash": "2811.72697428",
+      "ncwc_subset": "4425.27178630"
+    },
+    {
+      "period": "2026-H1",
+      "receivable": "2200.82598317",
+      "inventory": "5062.12925031",
+      "payable": "1758.75365439",
+      "advance": "260.71135171",
+      "fixed_assets": "11626.05764173",
+      "construction": "466.7449137",
+      "lease": "109.05520689",
+      "cash": "2318.47531821",
+      "ncwc_subset": "5243.49022738"
+    },
+    {
+      "period": "2026-YTD9",
+      "receivable": "1858.29387484",
+      "inventory": "4909.50765767",
+      "payable": "1939.28764685",
+      "advance": "266.02654684",
+      "fixed_assets": "11618.15439787",
+      "construction": "521.16658548",
+      "lease": "106.29728136",
+      "cash": "3141.66520181",
+      "ncwc_subset": "4562.48733882"
+    }
+  ],
+  "bridges": [
+    {
+      "name": "2024→2025报告经营利润变化",
+      "unit": "百万元CNY",
+      "start": "1564.52549547",
+      "end": "1873.62529276",
+      "steps": [
+        {
+          "metric": "revenue",
+          "start_input": "15196.91319779",
+          "end_input": "16728.84277037",
+          "contribution": "1531.92957258",
+          "sign": 1
+        },
+        {
+          "metric": "cost",
+          "start_input": "11622.05094437",
+          "end_input": "12595.74771627",
+          "contribution": "-973.69677190",
+          "sign": -1
+        },
+        {
+          "metric": "sales",
+          "start_input": "828.30904701",
+          "end_input": "940.63962939",
+          "contribution": "-112.33058238",
+          "sign": -1
+        },
+        {
+          "metric": "admin",
+          "start_input": "491.78155452",
+          "end_input": "548.67780188",
+          "contribution": "-56.89624736",
+          "sign": -1
+        },
+        {
+          "metric": "rd",
+          "start_input": "631.66721629",
+          "end_input": "676.83037516",
+          "contribution": "-45.16315887",
+          "sign": -1
+        },
+        {
+          "metric": "tax_surcharge",
+          "start_input": "116.59225041",
+          "end_input": "132.54690084",
+          "contribution": "-15.95465043",
+          "sign": -1
+        },
+        {
+          "metric": "finance",
+          "start_input": "63.47711439",
+          "end_input": "135.37066425",
+          "contribution": "-71.89354986",
+          "sign": -1
+        },
+        {
+          "metric": "other_income",
+          "start_input": "184.3595071",
+          "end_input": "245.89250467",
+          "contribution": "61.53299757",
+          "sign": 1
+        },
+        {
+          "metric": "investment",
+          "start_input": "-4.08794858",
+          "end_input": "-5.34449662",
+          "contribution": "-1.25654804",
+          "sign": 1
+        },
+        {
+          "metric": "fair_value",
+          "start_input": "-0.00845981",
+          "end_input": "-0.60871003",
+          "contribution": "-0.60025022",
+          "sign": 1
+        },
+        {
+          "metric": "credit",
+          "start_input": "2.75987885",
+          "end_input": "5.96612225",
+          "contribution": "3.20624340",
+          "sign": 1
+        },
+        {
+          "metric": "impairment",
+          "start_input": "-62.16643681",
+          "end_input": "-70.43229239",
+          "contribution": "-8.26585558",
+          "sign": 1
+        },
+        {
+          "metric": "disposal",
+          "start_input": "0.63388392",
+          "end_input": "-0.8775177",
+          "contribution": "-1.51140162",
+          "sign": 1
+        }
+      ],
+      "residual": "0E-8",
+      "residual_meaning": "未展开的其他经营损益；保留，不归因于主营效率",
+      "formula": "start+sum(contributions)+residual=end"
+    },
+    {
+      "name": "2025净利润→CFO",
+      "start": "1588.90877146",
+      "end": "2477.95955634",
+      "steps": [
+        {
+          "metric": "recon_asset_loss",
+          "value": "70.43229239",
+          "source_row": "2025-FY:recon_asset_loss:600298-a14b53fefcfc0356"
+        },
+        {
+          "metric": "recon_credit_loss",
+          "value": "-5.96612225",
+          "source_row": "2025-FY:recon_credit_loss:600298-a14b53fefcfc0356"
+        },
+        {
+          "metric": "recon_depreciation",
+          "value": "888.75148036",
+          "source_row": "2025-FY:recon_depreciation:600298-a14b53fefcfc0356"
+        },
+        {
+          "metric": "recon_rou_depr",
+          "value": "17.06730429",
+          "source_row": "2025-FY:recon_rou_depr:600298-a14b53fefcfc0356"
+        },
+        {
+          "metric": "recon_amortization",
+          "value": "25.43337678",
+          "source_row": "2025-FY:recon_amortization:600298-a14b53fefcfc0356"
+        },
+        {
+          "metric": "recon_long_amort",
+          "value": "2.02435407",
+          "source_row": "2025-FY:recon_long_amort:600298-a14b53fefcfc0356"
+        },
+        {
+          "metric": "recon_disposal_adjust",
+          "value": "0.8775177",
+          "source_row": "2025-FY:recon_disposal_adjust:600298-a14b53fefcfc0356"
+        },
+        {
+          "metric": "recon_retirement",
+          "value": "17.20239272",
+          "source_row": "2025-FY:recon_retirement:600298-a14b53fefcfc0356"
+        },
+        {
+          "metric": "recon_fair_adjust",
+          "value": "0.60871003",
+          "source_row": "2025-FY:recon_fair_adjust:600298-a14b53fefcfc0356"
+        },
+        {
+          "metric": "recon_finance_adjust",
+          "value": "166.99262393",
+          "source_row": "2025-FY:recon_finance_adjust:600298-a14b53fefcfc0356"
+        },
+        {
+          "metric": "recon_investment_adjust",
+          "value": "5.34449662",
+          "source_row": "2025-FY:recon_investment_adjust:600298-a14b53fefcfc0356"
+        },
+        {
+          "metric": "recon_dta_adjust",
+          "value": "-9.33927995",
+          "source_row": "2025-FY:recon_dta_adjust:600298-a14b53fefcfc0356"
+        },
+        {
+          "metric": "recon_dtl_adjust",
+          "value": "-7.15079504",
+          "source_row": "2025-FY:recon_dtl_adjust:600298-a14b53fefcfc0356"
+        },
+        {
+          "metric": "recon_inventory_change",
+          "value": "-789.90375313",
+          "source_row": "2025-FY:recon_inventory_change:600298-a14b53fefcfc0356"
+        },
+        {
+          "metric": "recon_operating_ar_change",
+          "value": "217.53636865",
+          "source_row": "2025-FY:recon_operating_ar_change:600298-a14b53fefcfc0356"
+        },
+        {
+          "metric": "recon_operating_ap_change",
+          "value": "216.26549216",
+          "source_row": "2025-FY:recon_operating_ap_change:600298-a14b53fefcfc0356"
+        },
+        {
+          "metric": "recon_other_adjust",
+          "value": "72.87432555",
+          "source_row": "2025-FY:recon_other_adjust:600298-a14b53fefcfc0356"
+        }
+      ],
+      "residual": "0E-8",
+      "formula": "净利润+补充资料各项调节=CFO"
+    },
+    {
+      "name": "2024→2025酵母及深加工收入量与组均价/结构桥",
+      "start": "10854.14144729",
+      "end": "11948.83615368",
+      "steps": [
+        {
+          "metric": "销量贡献，中点法",
+          "contribution": "1675.988159632983518798278650"
+        },
+        {
+          "metric": "组均价/结构贡献，中点法",
+          "contribution": "-581.293453242983518798278648"
+        }
+      ],
+      "residual": "-2E-24",
+      "q0": "403914.67000000",
+      "q1": "467870.07000000",
+      "price0_million_per_disclosed_unit": "0.02687236253956807263276671778",
+      "price1_million_per_disclosed_unit": "0.02553879147191441418768249057",
+      "volume_growth": "0.158338888755884999175692232",
+      "asp_mix_growth": "-0.0496261192401690976930991636",
+      "formula": "ΔQ×(P0+P1)/2+ΔP×(Q0+Q1)/2=ΔR；交互均分",
+      "boundary": "披露量有舍入；价格是整个产品组收入/销量，包含品类客户地区结构，非固定SKU价格；仅解释该产品组"
+    }
+  ],
+  "forecast": [
+    {
+      "scenario": "base",
+      "year": 2026,
+      "classification": "Forecast",
+      "actual_period": "2026-YTD9",
+      "actual_revenue": "13607.95084186",
+      "remaining_period_revenue": "5176.53737347761000",
+      "revenue": "18784.48821533761000",
+      "cost": "14044.1845049482075000",
+      "gross_profit": "4740.3037103894025000",
+      "selling_sga": "1039.73699639822377000",
+      "admin": "609.37948846823874000",
+      "rd": "758.51187359258201000",
+      "surcharge": "142.93826204782088000",
+      "core_ebit_before_settlement": "2189.73708988253710000",
+      "other_operating": "-144.770408058",
+      "settlement_expense": "0",
+      "reported_scope_operating_profit_forecast": "2044.96668182453710000",
+      "nonoperating": "-2.232052585081452738463856247",
+      "tax_rate_assumption": "0.1508340892977136226218306410",
+      "total_net_income_forecast": "1734.620611761219665324996565",
+      "DandA_proxy": "1045.684719021518381072836188",
+      "capex_cash": "1673.258516908",
+      "ncwc_subset_balance": "4969.050570948716959638309621",
+      "delta_ncwc_subset": "543.778784648716959638309621",
+      "lease_cash": null,
+      "partial_cash_segment_not_FCFF": "688.097507593480359329009374",
+      "revenue_segments": null,
+      "trigger": "海外放量但低毛利业务和爬坡仍占资源"
+    },
+    {
+      "scenario": "base",
+      "year": 2027,
+      "classification": "Forecast",
+      "actual_period": null,
+      "actual_revenue": null,
+      "remaining_period_revenue": null,
+      "revenue": "20559.622351687014145000",
+      "cost": "15419.71676376526060875000",
+      "gross_profit": "5139.90558792175353625000",
+      "selling_sga": "1171.898474046159806265000",
+      "admin": "699.027159957358480930000",
+      "rd": "842.944516419167579945000",
+      "surcharge": "164.476978813496113160000",
+      "core_ebit_before_settlement": "2261.558458685571555950000",
+      "other_operating": "31.379956744",
+      "settlement_expense": "0",
+      "reported_scope_operating_profit_forecast": "2292.938415429571555950000",
+      "nonoperating": "-2.442981554371650022248690663",
+      "tax_rate_assumption": "0.1508340892977136226218306410",
+      "total_net_income_forecast": "1945.010641066062695206505737",
+      "DandA_proxy": "1144.501924969051868084219207",
+      "capex_cash": "2055.9622351687014145000",
+      "ncwc_subset_balance": "5438.625849903370712324129880",
+      "delta_ncwc_subset": "469.575278954653752685820259",
+      "lease_cash": null,
+      "partial_cash_segment_not_FCFF": "539.402759021889172256042955",
+      "revenue_segments": null,
+      "trigger": "海外放量但低毛利业务和爬坡仍占资源"
+    },
+    {
+      "scenario": "base",
+      "year": 2028,
+      "classification": "Forecast",
+      "actual_period": null,
+      "actual_revenue": null,
+      "remaining_period_revenue": null,
+      "revenue": "22502.5066639214369817025000",
+      "cost": "16876.87999794107773627687500",
+      "gross_profit": "5625.62666598035924542562500",
+      "selling_sga": "1282.642879843521907957042500",
+      "admin": "765.0852265733288573778850000",
+      "rd": "922.6027732207789162498025000",
+      "surcharge": "180.0200533113714958536200000",
+      "core_ebit_before_settlement": "2475.275733031358067987275000",
+      "other_operating": "31.379956744",
+      "settlement_expense": "0",
+      "reported_scope_operating_profit_forecast": "2506.655689775358067987275000",
+      "nonoperating": "-2.673843311259770949351191930",
+      "tax_rate_assumption": "0.1508340892977136226218306410",
+      "total_net_income_forecast": "2126.296025034678652707629938",
+      "DandA_proxy": "1252.657356878627269618177923",
+      "capex_cash": "2250.25066639214369817025000",
+      "ncwc_subset_balance": "5952.575992719239244638760154",
+      "delta_ncwc_subset": "513.950142815868532314630274",
+      "lease_cash": null,
+      "partial_cash_segment_not_FCFF": "590.376319749457699034239015",
+      "revenue_segments": null,
+      "trigger": "海外放量但低毛利业务和爬坡仍占资源"
+    },
+    {
+      "scenario": "stress",
+      "year": 2026,
+      "classification": "Forecast",
+      "actual_period": "2026-YTD9",
+      "actual_revenue": "13607.95084186",
+      "remaining_period_revenue": "4978.22391162222000",
+      "revenue": "18586.17475348222000",
+      "cost": "13995.0138867891094000",
+      "gross_profit": "4591.1608666931106000",
+      "selling_sga": "1043.3678008073332000",
+      "admin": "612.59327858839992000",
+      "rd": "760.33746947975546000",
+      "surcharge": "141.35175435297776000",
+      "core_ebit_before_settlement": "2033.51056346464426000",
+      "other_operating": "-147.306649410",
+      "settlement_expense": "0",
+      "reported_scope_operating_profit_forecast": "1886.20391405464426000",
+      "nonoperating": "-1.380305086360188002779981322",
+      "tax_rate_assumption": "0.1508340892977136226218306410",
+      "total_net_income_forecast": "1600.527956422723049475208320",
+      "DandA_proxy": "1034.645112604713428268477332",
+      "capex_cash": "1535.257624945",
+      "ncwc_subset_balance": "5680.406218305549692682895443",
+      "delta_ncwc_subset": "1255.134432005549692682895443",
+      "lease_cash": null,
+      "partial_cash_segment_not_FCFF": "-28.959094798662101569416540",
+      "revenue_segments": null,
+      "trigger": "糖蜜/能源回升、客户认证延后且净价受压"
+    },
+    {
+      "scenario": "stress",
+      "year": 2027,
+      "classification": "Forecast",
+      "actual_period": null,
+      "actual_revenue": null,
+      "remaining_period_revenue": null,
+      "revenue": "18846.3812000309710800000",
+      "cost": "14511.713524023847731600000",
+      "gross_profit": "4334.667676007123348400000",
+      "selling_sga": "1130.782872001858264800000",
+      "admin": "678.4697232011149588800000",
+      "rd": "810.3943916013317564400000",
+      "surcharge": "150.7710496002477686400000",
+      "core_ebit_before_settlement": "1564.2496396025705996400000",
+      "other_operating": "19.612472965",
+      "settlement_expense": "0",
+      "reported_scope_operating_profit_forecast": "1583.8621125675705996400000",
+      "nonoperating": "-1.399629357569230634818901060",
+      "tax_rate_assumption": "0.1508340892977136226218306410",
+      "total_net_income_forecast": "1343.773195707222378282944417",
+      "DandA_proxy": "1049.130144181179416264236014",
+      "capex_cash": "2167.333838003561485736188000",
+      "ncwc_subset_balance": "5759.931905361827388380455979",
+      "delta_ncwc_subset": "79.525687056277695697560536",
+      "lease_cash": null,
+      "partial_cash_segment_not_FCFF": "130.578088900180349124630060",
+      "revenue_segments": null,
+      "trigger": "糖蜜/能源回升、客户认证延后且净价受压"
+    },
+    {
+      "scenario": "stress",
+      "year": 2028,
+      "classification": "Forecast",
+      "actual_period": null,
+      "actual_revenue": null,
+      "remaining_period_revenue": null,
+      "revenue": "19110.23053683140467512000000",
+      "cost": "14714.87751336018159984240000",
+      "gross_profit": "4395.35302347122307527760000",
+      "selling_sga": "1146.613832209884280507200000",
+      "admin": "687.9682993259305683043200000",
+      "rd": "821.7399130837504010301600000",
+      "surcharge": "152.8818442946512374009600000",
+      "core_ebit_before_settlement": "1586.149134557006588034960000",
+      "other_operating": "19.612472965",
+      "settlement_expense": "0",
+      "reported_scope_operating_profit_forecast": "1605.761607522006588034960000",
+      "nonoperating": "-1.419224168575199863706365676",
+      "tax_rate_assumption": "0.1508340892977136226218306410",
+      "total_net_income_forecast": "1362.352861038593216838545399",
+      "DandA_proxy": "1063.817966199715928091935318",
+      "capex_cash": "2197.676511735611346536494632",
+      "ncwc_subset_balance": "5840.570952036892971817782362",
+      "delta_ncwc_subset": "80.639046675065583437326383",
+      "lease_cash": null,
+      "partial_cash_segment_not_FCFF": "132.406182144782874012374881",
+      "revenue_segments": null,
+      "trigger": "糖蜜/能源回升、客户认证延后且净价受压"
+    },
+    {
+      "scenario": "improve",
+      "year": 2026,
+      "classification": "Forecast",
+      "actual_period": "2026-YTD9",
+      "actual_revenue": "13607.95084186",
+      "remaining_period_revenue": "5301.57988026742600",
+      "revenue": "18909.53072212742600",
+      "cost": "14031.9347874352209800",
+      "gross_profit": "4877.5959346922050200",
+      "selling_sga": "1036.26125952470843000",
+      "admin": "608.32935381882505800",
+      "rd": "758.3370364906970400",
+      "surcharge": "143.93860210213940800",
+      "core_ebit_before_settlement": "2330.72968275583508400",
+      "other_operating": "-143.079580490",
+      "settlement_expense": "0",
+      "reported_scope_operating_profit_forecast": "2187.65010226583508400",
+      "nonoperating": "-2.808638332806655297864926825",
+      "tax_rate_assumption": "0.1508340892977136226218306410",
+      "total_net_income_forecast": "1855.292891460806661565861450",
+      "DandA_proxy": "1052.645517584637765644805759",
+      "capex_cash": "1765.259111550",
+      "ncwc_subset_balance": "4639.479463662567671980717148",
+      "delta_ncwc_subset": "214.207677362567671980717148",
+      "lease_cash": null,
+      "partial_cash_segment_not_FCFF": "1052.354922330279806129240398",
+      "revenue_segments": null,
+      "trigger": "产能爬坡与存量效率同时改善"
+    },
+    {
+      "scenario": "improve",
+      "year": 2027,
+      "classification": "Forecast",
+      "actual_period": null,
+      "actual_revenue": null,
+      "remaining_period_revenue": null,
+      "revenue": "21664.6493483413919682000",
+      "cost": "15815.194024289216136786000",
+      "gross_profit": "5849.455324052175831414000",
+      "selling_sga": "1191.5557141587765582510000",
+      "admin": "714.9334284952659349506000",
+      "rd": "866.585973933655678728000",
+      "surcharge": "173.3171947867311357456000",
+      "core_ebit_before_settlement": "2903.0630126777465237388000",
+      "other_operating": "39.224945930",
+      "settlement_expense": "0",
+      "reported_scope_operating_profit_forecast": "2942.2879586077465237388000",
+      "nonoperating": "-3.217856937896584974763846664",
+      "tax_rate_assumption": "0.1508340892977136226218306410",
+      "total_net_income_forecast": "2495.758139502339537376213855",
+      "DandA_proxy": "1206.015969496719488099253958",
+      "capex_cash": "2058.1416880924322369790000",
+      "ncwc_subset_balance": "5315.451621518203781788307637",
+      "delta_ncwc_subset": "675.972157855636109807590489",
+      "lease_cash": null,
+      "partial_cash_segment_not_FCFF": "937.084270535272911366667327",
+      "revenue_segments": null,
+      "trigger": "产能爬坡与存量效率同时改善"
+    },
+    {
+      "scenario": "improve",
+      "year": 2028,
+      "classification": "Forecast",
+      "actual_period": null,
+      "actual_revenue": null,
+      "remaining_period_revenue": null,
+      "revenue": "24821.18875839473277796674000",
+      "cost": "18119.46779362815492791572020",
+      "gross_profit": "6701.72096476657785005101980",
+      "selling_sga": "1365.165381711710302788170700",
+      "admin": "819.0992290270261816729024200",
+      "rd": "992.8475503357893111186696000",
+      "surcharge": "198.5695100671578622237339200",
+      "core_ebit_before_settlement": "3326.039293624894192247543160",
+      "other_operating": "39.224945930",
+      "settlement_expense": "0",
+      "reported_scope_operating_profit_forecast": "3365.264239554894192247543160",
+      "nonoperating": "-3.686698693748117405586939122",
+      "tax_rate_assumption": "0.1508340892977136226218306410",
+      "total_net_income_forecast": "2854.537053881707403733287221",
+      "DandA_proxy": "1381.732496252391517515315260",
+      "capex_cash": "2358.012932047499613906840300",
+      "ncwc_subset_balance": "6089.912922773406072794864060",
+      "delta_ncwc_subset": "774.461301255202291006556423",
+      "lease_cash": null,
+      "partial_cash_segment_not_FCFF": "1073.617448752262174552790757",
+      "revenue_segments": null,
+      "trigger": "产能爬坡与存量效率同时改善"
+    }
+  ],
+  "sensitivity": {
+    "one_pp_operating_margin_million": "187.8448821533761000",
+    "ten_days_wc_cash_million": "514.6435127489756164383561644",
+    "scope": "固定收入及其他经营条件，利润率1个百分点对经营利润、营运余额10天对现金的机械影响，非因果预测",
+    "net_price_uplift_offset_one_pp_cogs": "0.01",
+    "price_boundary": "固定量、成本与其他费用绝对额，新增成本等于原收入1%时，组净实现价升1%抵消同额；产品组实际采购暴露另核。"
+  },
+  "missing_cash_closure": [
+    "同范围经营现金所得税与非经营税剥离",
+    "完整经营NCWC及并购/汇率/减值/重分类桥",
+    "租赁资本/现金与SBC稀释及研发调整的一致处理",
+    "新增项目投产队列及单独回报口径"
+  ],
+  "formulas": {
+    "core": "收入-成本-销售/SGA-管理-研发-税金附加（按各公司适用项）",
+    "forecast_revenue": "见公司forecast-input及分流预测；2026实际+剩余期间，2027—28复合经营驱动",
+    "cash": "core EBIT×(1-税率假设)+D&A-现金CapEx-ΔNCWC子集-Pop租赁现金；非FCFF",
+    "NI": "(预测报告范围营业利润+非经营项目假设)×(1-税率假设)，为合并净利润，非归母"
+  }
+}

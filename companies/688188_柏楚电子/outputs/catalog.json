@@ -601,9 +601,18 @@
           "bytes": 19505
         }
       ],
-      "needs_review": false,
+      "needs_review": true,
       "imported": false,
-      "impact_reasons": [],
+      "impact_reasons": [
+        "研究卡变化:Rc91d3bad8c35",
+        "研究卡变化:R42383f58e180",
+        "研究卡变化:Re652de68ca00",
+        "研究卡变化:R9b91e4658392",
+        "研究卡变化:Rd192d88d9be7",
+        "研究卡变化:R6ef717bb11b9",
+        "研究卡变化:Rd3892afbfc24",
+        "研究卡变化:R1622b2e65098"
+      ],
       "file_integrity": true
     },
     {
@@ -615,7 +624,7 @@
       "at": "2026-11-12T04:33:22.265972+00:00",
       "actor": "Agent/test-or-api",
       "actual_user_review": null,
-      "historical": false,
+      "historical": true,
       "bindings": {
         "selection_ids": [
           "R1622b2e65098",
@@ -746,6 +755,563 @@
           "format": "md",
           "sha256": "77157f86546106a826f2920671c7e3913c12be1cf66164da415fba58b11720b7",
           "bytes": 6239
+        }
+      ],
+      "needs_review": true,
+      "imported": false,
+      "impact_reasons": [
+        "研究卡变化:Rc91d3bad8c35",
+        "研究卡变化:R42383f58e180",
+        "研究卡变化:Re652de68ca00",
+        "研究卡变化:R9b91e4658392",
+        "研究卡变化:Rd192d88d9be7",
+        "研究卡变化:R6ef717bb11b9",
+        "研究卡变化:Rd3892afbfc24",
+        "研究卡变化:R1622b2e65098",
+        "输入文件变化:work/writing/reader.json"
+      ],
+      "file_integrity": true
+    },
+    {
+      "id": "O020b1c992546",
+      "group": "research-report",
+      "title": "柏楚电子：历史经营分析与首版条件预测（2026-11-12）",
+      "kind": "报告草稿",
+      "version": 8,
+      "at": "2026-11-12T06:19:28.322619+00:00",
+      "actor": "Agent/test-or-api",
+      "actual_user_review": null,
+      "historical": true,
+      "bindings": {
+        "selection_ids": [
+          "R1622b2e65098",
+          "R42383f58e180",
+          "R6ef717bb11b9",
+          "R9b91e4658392",
+          "Rc91d3bad8c35",
+          "Rd192d88d9be7",
+          "Rd3892afbfc24",
+          "Re652de68ca00"
+        ],
+        "selection_scope": "all-eight-lanes",
+        "cards": {
+          "Rc91d3bad8c35": "03f2c5e5ede26ac60a7bbe8b266f8c3190001a8b3d02dab965299714ae1e5cf5",
+          "R42383f58e180": "634b7ae402294ba3e1da77036882ba41db21f549e9622c00ae6cac984c851021",
+          "Re652de68ca00": "bcb2d9c81d535f633f5591117d0fcd2732c944df55fcaeb5ac3251bc5d605f3c",
+          "R1622b2e65098": "7e47e55a7f200dc43c62c5474db18c2cf3961610e6748b417e9a2da1613fcaf9",
+          "R9b91e4658392": "65cceb289435e5eab97ce312e8ddd72078768be9b1c59d7bcb31670a55601c91",
+          "Rd192d88d9be7": "a323aa8a5571ab7f9030eb1f7f9953ed7c8a714de29d8d8c6224a1b4ea32cb11",
+          "R6ef717bb11b9": "cfb05f8d9cd2f5dfd2ee7b7422f5b9a51582018b5811055cb44fbd926998c766",
+          "Rd3892afbfc24": "23ad52ca3b73281c054c9e97601d2a7be0705f79129e1527bbfdf8abf2152602"
+        },
+        "methods": [
+          {
+            "id": "K02",
+            "version": 1
+          },
+          {
+            "id": "E02",
+            "version": 1
+          },
+          {
+            "id": "E03",
+            "version": 1
+          },
+          {
+            "id": "E07",
+            "version": 1
+          },
+          {
+            "id": "K46",
+            "version": 1
+          },
+          {
+            "id": "K52",
+            "version": 1
+          },
+          {
+            "id": "K63",
+            "version": 1
+          },
+          {
+            "id": "K48",
+            "version": 1
+          },
+          {
+            "id": "K53",
+            "version": 1
+          },
+          {
+            "id": "K50",
+            "version": 1
+          },
+          {
+            "id": "K57",
+            "version": 1
+          },
+          {
+            "id": "K59",
+            "version": 1
+          },
+          {
+            "id": "K62",
+            "version": 1
+          }
+        ],
+        "inputs": {
+          "work/research12/source-data.json": "278a2e6c5a3c8cc1ba63fd9b179bdcd563057d7e54ccc8e3b8aa2e82d0791f1e",
+          "work/research12/agent-read-batches.json": "d99a4b38812b02d3966d4a65eaf6ae2806a5fee37f56e54b1212287c534ebbc4",
+          "work/research12/comparability.json": "b36d671d12b3d74dc3607533ebc85f40fe5106baf983da1354231d636aa6b425",
+          "work/research12/forecast-input.json": "2fbf791b5cbcd2cbd72419ba7e6015035eb4e7dca6e6dadc469bb814d792e095",
+          "work/research12/calculation.json": "299dbe8571daf5e7138d5e072671b0f78e538f71a34c5de58e842d85e7092157",
+          "work/research12/forecast.csv": "d1826485b44d0a8d8a0ef7457a1b47462c4480004c237555afd8b78fbc044547",
+          "work/research12/claim-review.json": "8f50296f515a7ea87c409d287ed17c10e261d88d81052d7564f3be3c097cdf8e",
+          "work/research12/authority.json": "a4a69b83af3831dd0a2569b4178ba1ac54c46fe856384aa19e7dd660f758f01f",
+          "work/valuation/index.json": "5becdf6a6504467898eae0deaa648b49a7d092fb7ed0f3b5d34cd48e19eccf0b",
+          "work/valuation/v1-V8fb3181b10d1.json": "e0827fa29a13f73fd0ce57f0e735a1824af4242b8801f31db5fa491ebf4a6498",
+          "work/writing/reader.json": "ae7e8849132fa5753e833bac5f4660ceb9c65fcc3b4d0fd7dc43bd2273df88d5"
+        },
+        "sources": [
+          {
+            "id": "688188-d931e02dd1c67f13",
+            "path": "sources/raw/01_年报/2024-03-20_2023年年度报告_1219348501.pdf",
+            "sha256": "93fdca19fb7b31a44ef6ba2351e98bec41188f89831c1107ee6964a9f50dff85"
+          },
+          {
+            "id": "688188-20b73bb3528dbdbe",
+            "path": "sources/raw/02_定期报告与经营数据/2026-08-18_2026年半年度报告_1225477071.pdf",
+            "sha256": "caa94577eda863f238933d192305884ec05c01cf6aad7a2ba89fe96ef8259eb1"
+          },
+          {
+            "id": "688188-a343f0dc3c27d114",
+            "path": "sources/raw/01_年报/2026-04-10_2025年年度报告_1225091045.pdf",
+            "sha256": "e12688b3c2e80e63fae0008983426c644a0ca5bc0da6bed30f9b45f635ecfed2"
+          },
+          {
+            "id": "688188-fed67b607fa475a7",
+            "path": "sources/raw/02_定期报告与经营数据/2026-10-27_2026年第三季度报告_1225622322.pdf",
+            "sha256": "33f3c5e4de011f9858e98a1034e672104e0435fda3bdeec651a04c83fd6887ef"
+          },
+          {
+            "id": "688188-4daf701c6095d460",
+            "path": "sources/raw/01_年报/2025-04-03_2024年年度报告_1222993275.pdf",
+            "sha256": "fdba15e44169cf958098ed9e88faf42452ebd3eb190a52c61caa69ee0609e629"
+          },
+          {
+            "id": "688188-11b75f99cd3e9d88",
+            "path": "sources/raw/02_定期报告与经营数据/2025-08-22_2025年半年度报告_1224531818.pdf",
+            "sha256": "e274c8b6ef5b570fad2f31b60bc07a11b179e8efb97842b4a89fc09e6121f58d"
+          },
+          {
+            "id": "688188-1b8da0c258b17633",
+            "path": "sources/raw/02_定期报告与经营数据/2025-10-28_2025年第三季度报告_1224745509.pdf",
+            "sha256": "cf6ef6e1bee2c6db9373dd434c4f8774e9f634066fcd0e8c3f7170dde43b4fe0"
+          }
+        ],
+        "shared_dependencies": {
+          "shared/runtime/companybench/valuation_chain.py": "0155df03fa6ff2dd86a6a4c92f51f277f88e1edd45bfd972d191796276ac23ca",
+          "shared/runtime/companybench/research_depth.py": "bb364cd41336a0d3fe62d0d0663f7e8557570aeff2d201c21517259ae1404a41",
+          "scripts/recalculate_valuation.py": "711a5a9c153a834a2c28d133d24b0aec0cd93153c0baa4f1358a8b22ef4cc727",
+          "docs/投研写作规范.md": "e4cf87afffc67976148eab1d4f2aba00056a5825ba0c7ac64d7ccab1122cfb60",
+          "shared/writing-skills.json": "cad001177fa60de41d782dfbdb8d3ffbfa1ffb81a959472130c85925b6d2ab2a",
+          "app/writing.py": "083ceb8239ce4c1f76b50ead42c52d2e73068d6a564f25f6f288eb4697e947d8",
+          "scripts/recalculate_research12.py": "6f6b1fd983d8eb8361452ce975f8257bff2338cdb91070ef42c1721c4a02642a"
+        }
+      },
+      "files": [
+        {
+          "path": "outputs/research-report/v8-O020b1c992546/basis.json",
+          "format": "json",
+          "sha256": "a2afeb1c5c92256fe16a0a11d409baaa9e683ac943dadf0761776acdc3daf860",
+          "bytes": 391402
+        },
+        {
+          "path": "outputs/research-report/v8-O020b1c992546/report.html",
+          "format": "html",
+          "sha256": "056f974afa03dcbea4ff39f029914ad3ca9afff527cdd8fa526de5712cb45567",
+          "bytes": 12256
+        },
+        {
+          "path": "outputs/research-report/v8-O020b1c992546/report.md",
+          "format": "md",
+          "sha256": "b8cff79c2cd813dbcccd5c74ada67bec3dc65da4e631910e1563ab1228b8e009",
+          "bytes": 9930
+        }
+      ],
+      "needs_review": true,
+      "imported": false,
+      "impact_reasons": [
+        "研究卡变化:Rc91d3bad8c35",
+        "研究卡变化:R42383f58e180",
+        "研究卡变化:Re652de68ca00",
+        "研究卡变化:R1622b2e65098",
+        "研究卡变化:R9b91e4658392",
+        "研究卡变化:Rd192d88d9be7",
+        "研究卡变化:R6ef717bb11b9",
+        "研究卡变化:Rd3892afbfc24",
+        "共享计算依赖变化:scripts/recalculate_research12.py",
+        "输入文件变化:work/research12/source-data.json",
+        "输入文件变化:work/research12/calculation.json",
+        "输入文件变化:work/research12/claim-review.json",
+        "输入文件变化:work/research12/authority.json",
+        "输入文件变化:work/writing/reader.json"
+      ],
+      "file_integrity": true
+    },
+    {
+      "id": "O0868932205da",
+      "group": "research-report",
+      "title": "柏楚电子：历史经营分析与首版条件预测（2026-11-12）",
+      "kind": "报告草稿",
+      "version": 9,
+      "at": "2026-11-12T06:27:32.930569+00:00",
+      "actor": "Agent/test-or-api",
+      "actual_user_review": null,
+      "historical": true,
+      "bindings": {
+        "selection_ids": [
+          "R1622b2e65098",
+          "R42383f58e180",
+          "R6ef717bb11b9",
+          "R9b91e4658392",
+          "Rc91d3bad8c35",
+          "Rd192d88d9be7",
+          "Rd3892afbfc24",
+          "Re652de68ca00"
+        ],
+        "selection_scope": "all-eight-lanes",
+        "cards": {
+          "Rc91d3bad8c35": "f5d32caea2347345f3ab524cf05907a6a7394d4d99ce27261e16838f8de72a6c",
+          "R42383f58e180": "c3bcab4a71ff8d2dd515016a825a6f152b4fc29f99fe32cc31cdee71da6b6cdb",
+          "Re652de68ca00": "62efe48fd72ea45b6f6726cb75fb81a33770f520efb7aa0f895030aafdcc80fb",
+          "R1622b2e65098": "f4903f1a84f8cd6f6905ff2676ca7382a8d13d9a4cb16dd761a07d50bd836e97",
+          "R9b91e4658392": "f286c18d080b70c6760c1c882da05772679101ba9abd01ecf3c57f40c6bd72dc",
+          "Rd192d88d9be7": "9462f2bd1640fc86b68e900f88926e1829afcb8c670247a342d68204438c32a0",
+          "R6ef717bb11b9": "48f64e27578aa67970346de98fd555411f35ba80ff7b1078c3bb3cbd98b596dd",
+          "Rd3892afbfc24": "c785e87b63e41289cd22e7493fd10ecafe4f7a9db835e6f4bea87e8db15d1acb"
+        },
+        "methods": [
+          {
+            "id": "K02",
+            "version": 1
+          },
+          {
+            "id": "E02",
+            "version": 1
+          },
+          {
+            "id": "E03",
+            "version": 1
+          },
+          {
+            "id": "E07",
+            "version": 1
+          },
+          {
+            "id": "K46",
+            "version": 1
+          },
+          {
+            "id": "K52",
+            "version": 1
+          },
+          {
+            "id": "K63",
+            "version": 1
+          },
+          {
+            "id": "K48",
+            "version": 1
+          },
+          {
+            "id": "K53",
+            "version": 1
+          },
+          {
+            "id": "K50",
+            "version": 1
+          },
+          {
+            "id": "K57",
+            "version": 1
+          },
+          {
+            "id": "K59",
+            "version": 1
+          },
+          {
+            "id": "K62",
+            "version": 1
+          }
+        ],
+        "inputs": {
+          "work/research12/source-data.json": "84f0b1b85033f7ce4b7d40593645e38b3f8cae6299ef3c89d55f1b7f90a0569b",
+          "work/research12/agent-read-batches.json": "d99a4b38812b02d3966d4a65eaf6ae2806a5fee37f56e54b1212287c534ebbc4",
+          "work/research12/comparability.json": "b36d671d12b3d74dc3607533ebc85f40fe5106baf983da1354231d636aa6b425",
+          "work/research12/forecast-input.json": "2fbf791b5cbcd2cbd72419ba7e6015035eb4e7dca6e6dadc469bb814d792e095",
+          "work/research12/calculation.json": "d3da875780f3c5713492b62313411df072882e978e66655c2a026fd5236e11b6",
+          "work/research12/forecast.csv": "d1826485b44d0a8d8a0ef7457a1b47462c4480004c237555afd8b78fbc044547",
+          "work/research12/claim-review.json": "fda18c0babf85ea7c5a6103bbc8219b08194d9284f86edbf4f7baa1e971c8eb2",
+          "work/research12/authority.json": "efbbbe025f8ad06b478d3cb240472d44e5374cf6165a30dd0b2010bf013b53f0",
+          "work/research12/coverage-and-gaps.json": "91ccd705baf41f9b60f1ff7396d68eeb6a3f5b50179ebb9669ab11c064c262f2",
+          "work/research12/candidate-crosswalk.json": "a0fb874f8080c8246e3ce4ae19fdc5902876af75be1e6d8b51a91f351889184e",
+          "work/valuation/index.json": "5becdf6a6504467898eae0deaa648b49a7d092fb7ed0f3b5d34cd48e19eccf0b",
+          "work/valuation/v1-V8fb3181b10d1.json": "e0827fa29a13f73fd0ce57f0e735a1824af4242b8801f31db5fa491ebf4a6498",
+          "work/writing/reader.json": "aad4aa425c41185fdabe57f986af7a7f69c89f83b1f53c556c327a1affeabbd9"
+        },
+        "sources": [
+          {
+            "id": "688188-1b8da0c258b17633",
+            "path": "sources/raw/02_定期报告与经营数据/2025-10-28_2025年第三季度报告_1224745509.pdf",
+            "sha256": "cf6ef6e1bee2c6db9373dd434c4f8774e9f634066fcd0e8c3f7170dde43b4fe0"
+          },
+          {
+            "id": "688188-a343f0dc3c27d114",
+            "path": "sources/raw/01_年报/2026-04-10_2025年年度报告_1225091045.pdf",
+            "sha256": "e12688b3c2e80e63fae0008983426c644a0ca5bc0da6bed30f9b45f635ecfed2"
+          },
+          {
+            "id": "688188-d931e02dd1c67f13",
+            "path": "sources/raw/01_年报/2024-03-20_2023年年度报告_1219348501.pdf",
+            "sha256": "93fdca19fb7b31a44ef6ba2351e98bec41188f89831c1107ee6964a9f50dff85"
+          },
+          {
+            "id": "688188-11b75f99cd3e9d88",
+            "path": "sources/raw/02_定期报告与经营数据/2025-08-22_2025年半年度报告_1224531818.pdf",
+            "sha256": "e274c8b6ef5b570fad2f31b60bc07a11b179e8efb97842b4a89fc09e6121f58d"
+          },
+          {
+            "id": "688188-20b73bb3528dbdbe",
+            "path": "sources/raw/02_定期报告与经营数据/2026-08-18_2026年半年度报告_1225477071.pdf",
+            "sha256": "caa94577eda863f238933d192305884ec05c01cf6aad7a2ba89fe96ef8259eb1"
+          },
+          {
+            "id": "688188-4daf701c6095d460",
+            "path": "sources/raw/01_年报/2025-04-03_2024年年度报告_1222993275.pdf",
+            "sha256": "fdba15e44169cf958098ed9e88faf42452ebd3eb190a52c61caa69ee0609e629"
+          },
+          {
+            "id": "688188-fed67b607fa475a7",
+            "path": "sources/raw/02_定期报告与经营数据/2026-10-27_2026年第三季度报告_1225622322.pdf",
+            "sha256": "33f3c5e4de011f9858e98a1034e672104e0435fda3bdeec651a04c83fd6887ef"
+          }
+        ],
+        "shared_dependencies": {
+          "shared/runtime/companybench/valuation_chain.py": "0155df03fa6ff2dd86a6a4c92f51f277f88e1edd45bfd972d191796276ac23ca",
+          "shared/runtime/companybench/research_depth.py": "bb364cd41336a0d3fe62d0d0663f7e8557570aeff2d201c21517259ae1404a41",
+          "scripts/recalculate_valuation.py": "711a5a9c153a834a2c28d133d24b0aec0cd93153c0baa4f1358a8b22ef4cc727",
+          "docs/投研写作规范.md": "e4cf87afffc67976148eab1d4f2aba00056a5825ba0c7ac64d7ccab1122cfb60",
+          "shared/writing-skills.json": "cad001177fa60de41d782dfbdb8d3ffbfa1ffb81a959472130c85925b6d2ab2a",
+          "app/writing.py": "083ceb8239ce4c1f76b50ead42c52d2e73068d6a564f25f6f288eb4697e947d8",
+          "scripts/recalculate_research12.py": "6f6b1fd983d8eb8361452ce975f8257bff2338cdb91070ef42c1721c4a02642a"
+        }
+      },
+      "files": [
+        {
+          "path": "outputs/research-report/v9-O0868932205da/basis.json",
+          "format": "json",
+          "sha256": "5146fe98a26f71412a736b423cd8b39d68173c3ff83c9699d37158d0433113f3",
+          "bytes": 416569
+        },
+        {
+          "path": "outputs/research-report/v9-O0868932205da/report.html",
+          "format": "html",
+          "sha256": "5a6394a9652d072f4e36f5b289a47b34c78e85708936f314c2d8103ff18d1f19",
+          "bytes": 12594
+        },
+        {
+          "path": "outputs/research-report/v9-O0868932205da/report.md",
+          "format": "md",
+          "sha256": "5a0bcad8650aa47d7793f626b155b3178c546275cc2dd1542b86f384e71cac6c",
+          "bytes": 10264
+        }
+      ],
+      "needs_review": true,
+      "imported": false,
+      "impact_reasons": [
+        "研究卡变化:Rc91d3bad8c35",
+        "研究卡变化:R42383f58e180",
+        "研究卡变化:Re652de68ca00",
+        "研究卡变化:R1622b2e65098",
+        "研究卡变化:R9b91e4658392",
+        "研究卡变化:Rd192d88d9be7",
+        "研究卡变化:R6ef717bb11b9",
+        "研究卡变化:Rd3892afbfc24",
+        "共享计算依赖变化:scripts/recalculate_research12.py",
+        "输入文件变化:work/research12/calculation.json",
+        "输入文件变化:work/research12/claim-review.json",
+        "输入文件变化:work/research12/authority.json",
+        "输入文件变化:work/writing/reader.json"
+      ],
+      "file_integrity": true
+    },
+    {
+      "id": "Oc7d782580caa",
+      "group": "research-report",
+      "title": "柏楚电子：历史经营分析与首版条件预测（2026-11-12）",
+      "kind": "报告草稿",
+      "version": 10,
+      "at": "2026-11-19T07:06:48.359068+00:00",
+      "actor": "Agent/test-or-api",
+      "actual_user_review": null,
+      "historical": false,
+      "bindings": {
+        "selection_ids": [
+          "R1622b2e65098",
+          "R42383f58e180",
+          "R6ef717bb11b9",
+          "R9b91e4658392",
+          "Rc91d3bad8c35",
+          "Rd192d88d9be7",
+          "Rd3892afbfc24",
+          "Re652de68ca00"
+        ],
+        "selection_scope": "all-eight-lanes",
+        "cards": {
+          "Rc91d3bad8c35": "e7c8070436ebf26e2d3cda0463fb82bbde2648717923340a2c7b13cd712e8064",
+          "R42383f58e180": "128ebd54b43a5f1ce4cdc5115ccb07656f392a6e97bacaef1d27b30b14282850",
+          "Re652de68ca00": "f530f94190171f0f15b7104600cb7071432bd13d82f3238758cefce3926633c3",
+          "R1622b2e65098": "7e8534db58d882b2cc5050bb232b70bf7f401402750d2420f8c2b70df3178bf6",
+          "R9b91e4658392": "a8cd08363d07be8879cfbb4352a514ad77bb76f2494ca94b4d5853f50298c27a",
+          "Rd192d88d9be7": "072b49e301d2e0c0b8c64c27155091173fec95ce7b64f69f0ec7cd50ab6ab607",
+          "R6ef717bb11b9": "6db31be7ce91bc85a1b9c93787ab097ae287d79566430fe708a2698256ded92c",
+          "Rd3892afbfc24": "3055dd478806ce01b3bf9387a4edadf3fc1edfb63b7cd5f5be1b83dc62a437e6"
+        },
+        "methods": [
+          {
+            "id": "K02",
+            "version": 1
+          },
+          {
+            "id": "E02",
+            "version": 1
+          },
+          {
+            "id": "E03",
+            "version": 1
+          },
+          {
+            "id": "E07",
+            "version": 1
+          },
+          {
+            "id": "K46",
+            "version": 1
+          },
+          {
+            "id": "K52",
+            "version": 1
+          },
+          {
+            "id": "K63",
+            "version": 1
+          },
+          {
+            "id": "K48",
+            "version": 1
+          },
+          {
+            "id": "K53",
+            "version": 1
+          },
+          {
+            "id": "K50",
+            "version": 1
+          },
+          {
+            "id": "K57",
+            "version": 1
+          },
+          {
+            "id": "K59",
+            "version": 1
+          },
+          {
+            "id": "K62",
+            "version": 1
+          }
+        ],
+        "inputs": {
+          "work/research12/source-data.json": "84f0b1b85033f7ce4b7d40593645e38b3f8cae6299ef3c89d55f1b7f90a0569b",
+          "work/research12/agent-read-batches.json": "d99a4b38812b02d3966d4a65eaf6ae2806a5fee37f56e54b1212287c534ebbc4",
+          "work/research12/comparability.json": "b36d671d12b3d74dc3607533ebc85f40fe5106baf983da1354231d636aa6b425",
+          "work/research12/forecast-input.json": "2fbf791b5cbcd2cbd72419ba7e6015035eb4e7dca6e6dadc469bb814d792e095",
+          "work/research12/calculation.json": "74a3c5b017168997200fbf07ce53274397c6ee6f2c3f04be860d53974088dc84",
+          "work/research12/forecast.csv": "d1826485b44d0a8d8a0ef7457a1b47462c4480004c237555afd8b78fbc044547",
+          "work/research12/claim-review.json": "10eb611dc9e06232d268b9c2ed0b1c07e4c22f6431b870b3bc49f0005286c97d",
+          "work/research12/original-batch-audit.json": "9ba8112f177dbe1059ae62fe1f4a7c18729b5217f3ac0406ed6f0da70809e23a",
+          "work/research12/authority.json": "b3dd5eeef40232be415ffcedf5e0bfa854e18a190e717de7f21403d854a4eecd",
+          "work/research12/coverage-and-gaps.json": "91ccd705baf41f9b60f1ff7396d68eeb6a3f5b50179ebb9669ab11c064c262f2",
+          "work/research12/candidate-crosswalk.json": "a0fb874f8080c8246e3ce4ae19fdc5902876af75be1e6d8b51a91f351889184e",
+          "work/valuation/index.json": "5becdf6a6504467898eae0deaa648b49a7d092fb7ed0f3b5d34cd48e19eccf0b",
+          "work/valuation/v1-V8fb3181b10d1.json": "e0827fa29a13f73fd0ce57f0e735a1824af4242b8801f31db5fa491ebf4a6498",
+          "work/writing/reader.json": "295e45ff396954f3eed9ccec19213a4b262b2d0509378d354940f5eddb46fe80"
+        },
+        "sources": [
+          {
+            "id": "688188-d931e02dd1c67f13",
+            "path": "sources/raw/01_年报/2024-03-20_2023年年度报告_1219348501.pdf",
+            "sha256": "93fdca19fb7b31a44ef6ba2351e98bec41188f89831c1107ee6964a9f50dff85"
+          },
+          {
+            "id": "688188-fed67b607fa475a7",
+            "path": "sources/raw/02_定期报告与经营数据/2026-10-27_2026年第三季度报告_1225622322.pdf",
+            "sha256": "33f3c5e4de011f9858e98a1034e672104e0435fda3bdeec651a04c83fd6887ef"
+          },
+          {
+            "id": "688188-11b75f99cd3e9d88",
+            "path": "sources/raw/02_定期报告与经营数据/2025-08-22_2025年半年度报告_1224531818.pdf",
+            "sha256": "e274c8b6ef5b570fad2f31b60bc07a11b179e8efb97842b4a89fc09e6121f58d"
+          },
+          {
+            "id": "688188-1b8da0c258b17633",
+            "path": "sources/raw/02_定期报告与经营数据/2025-10-28_2025年第三季度报告_1224745509.pdf",
+            "sha256": "cf6ef6e1bee2c6db9373dd434c4f8774e9f634066fcd0e8c3f7170dde43b4fe0"
+          },
+          {
+            "id": "688188-4daf701c6095d460",
+            "path": "sources/raw/01_年报/2025-04-03_2024年年度报告_1222993275.pdf",
+            "sha256": "fdba15e44169cf958098ed9e88faf42452ebd3eb190a52c61caa69ee0609e629"
+          },
+          {
+            "id": "688188-20b73bb3528dbdbe",
+            "path": "sources/raw/02_定期报告与经营数据/2026-08-18_2026年半年度报告_1225477071.pdf",
+            "sha256": "caa94577eda863f238933d192305884ec05c01cf6aad7a2ba89fe96ef8259eb1"
+          },
+          {
+            "id": "688188-a343f0dc3c27d114",
+            "path": "sources/raw/01_年报/2026-04-10_2025年年度报告_1225091045.pdf",
+            "sha256": "e12688b3c2e80e63fae0008983426c644a0ca5bc0da6bed30f9b45f635ecfed2"
+          }
+        ],
+        "shared_dependencies": {
+          "shared/runtime/companybench/valuation_chain.py": "0155df03fa6ff2dd86a6a4c92f51f277f88e1edd45bfd972d191796276ac23ca",
+          "shared/runtime/companybench/research_depth.py": "bb364cd41336a0d3fe62d0d0663f7e8557570aeff2d201c21517259ae1404a41",
+          "scripts/recalculate_valuation.py": "711a5a9c153a834a2c28d133d24b0aec0cd93153c0baa4f1358a8b22ef4cc727",
+          "docs/投研写作规范.md": "e4cf87afffc67976148eab1d4f2aba00056a5825ba0c7ac64d7ccab1122cfb60",
+          "shared/writing-skills.json": "cad001177fa60de41d782dfbdb8d3ffbfa1ffb81a959472130c85925b6d2ab2a",
+          "app/writing.py": "083ceb8239ce4c1f76b50ead42c52d2e73068d6a564f25f6f288eb4697e947d8",
+          "scripts/recalculate_research12.py": "86555de90ecba93866e5d0c05dd7521237fd0d5f3628a56eeca9b556e7e1015f"
+        }
+      },
+      "files": [
+        {
+          "path": "outputs/research-report/v10-Oc7d782580caa/basis.json",
+          "format": "json",
+          "sha256": "5df277e9f784240d591df3b887ada11a58efd50a9403f18bed6d1f8b67150bfd",
+          "bytes": 432418
+        },
+        {
+          "path": "outputs/research-report/v10-Oc7d782580caa/report.html",
+          "format": "html",
+          "sha256": "da2a3917300aba6bd87c6738592e9dce278af4ddd47f021db2af9550d5e198cc",
+          "bytes": 12769
+        },
+        {
+          "path": "outputs/research-report/v10-Oc7d782580caa/report.md",
+          "format": "md",
+          "sha256": "021b9da070217b354e1a4ae701727f6c439685e40fec564a43daec144073ef46",
+          "bytes": 10435
         }
       ],
       "needs_review": false,

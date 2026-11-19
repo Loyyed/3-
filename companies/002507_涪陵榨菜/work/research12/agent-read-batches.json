@@ -1,0 +1,181 @@
+{
+  "events": [
+    {
+      "id": "A12-001",
+      "actor": "Agent",
+      "at": "2026-11-12T06:10:32.768429+00:00",
+      "source_id": "002507-6cd117ea1ac8beee",
+      "rows": [
+        "2025-FY:tax_surcharge:002507-6cd117ea1ac8beee",
+        "2024-FY:tax_surcharge:002507-6cd117ea1ac8beee",
+        "2025-FY:cost:002507-6cd117ea1ac8beee",
+        "2024-FY:cost:002507-6cd117ea1ac8beee",
+        "2025-FY:sales:002507-6cd117ea1ac8beee",
+        "2024-FY:sales:002507-6cd117ea1ac8beee",
+        "2025-FY:admin:002507-6cd117ea1ac8beee",
+        "2024-FY:admin:002507-6cd117ea1ac8beee"
+      ],
+      "result": "原表正文、列头、期间、单位及相邻表行对读；列值写入候选；不升级Fact",
+      "human_answer": null
+    },
+    {
+      "id": "A12-002",
+      "actor": "Agent",
+      "at": "2026-11-12T06:10:32.768429+00:00",
+      "source_id": "002507-6cd117ea1ac8beee",
+      "rows": [
+        "2025-FY:rd:002507-6cd117ea1ac8beee",
+        "2024-FY:rd:002507-6cd117ea1ac8beee",
+        "2025-FY:finance:002507-6cd117ea1ac8beee",
+        "2024-FY:finance:002507-6cd117ea1ac8beee",
+        "2025-FY:interest_income:002507-6cd117ea1ac8beee",
+        "2024-FY:interest_income:002507-6cd117ea1ac8beee",
+        "2025-FY:investment:002507-6cd117ea1ac8beee",
+        "2024-FY:investment:002507-6cd117ea1ac8beee"
+      ],
+      "result": "原表正文、列头、期间、单位及相邻表行对读；列值写入候选；不升级Fact",
+      "human_answer": null
+    },
+    {
+      "id": "A12-003",
+      "actor": "Agent",
+      "at": "2026-11-12T06:10:32.768429+00:00",
+      "source_id": "002507-6cd117ea1ac8beee",
+      "rows": [
+        "2025-FY:fair_value:002507-6cd117ea1ac8beee",
+        "2024-FY:fair_value:002507-6cd117ea1ac8beee",
+        "2025-FY:other_income:002507-6cd117ea1ac8beee",
+        "2024-FY:other_income:002507-6cd117ea1ac8beee",
+        "2025-FY:credit:002507-6cd117ea1ac8beee",
+        "2024-FY:credit:002507-6cd117ea1ac8beee",
+        "2025-FY:impairment:002507-6cd117ea1ac8beee",
+        "2024-FY:impairment:002507-6cd117ea1ac8beee"
+      ],
+      "result": "原表正文、列头、期间、单位及相邻表行对读；列值写入候选；不升级Fact",
+      "human_answer": null
+    },
+    {
+      "id": "A12-004",
+      "actor": "Agent",
+      "at": "2026-11-12T06:10:32.768429+00:00",
+      "source_id": "002507-6cd117ea1ac8beee",
+      "rows": [
+        "2025-FY:disposal:002507-6cd117ea1ac8beee",
+        "2024-FY:disposal:002507-6cd117ea1ac8beee",
+        "2025-FY:op:002507-6cd117ea1ac8beee",
+        "2024-FY:op:002507-6cd117ea1ac8beee",
+        "2025-FY:pretax:002507-6cd117ea1ac8beee",
+        "2024-FY:pretax:002507-6cd117ea1ac8beee",
+        "2025-FY:tax_expense:002507-6cd117ea1ac8beee",
+        "2024-FY:tax_expense:002507-6cd117ea1ac8beee"
+      ],
+      "result": "原表正文、列头、期间、单位及相邻表行对读；列值写入候选；不升级Fact",
+      "human_answer": null
+    },
+    {
+      "id": "A12-005",
+      "actor": "Agent",
+      "at": "2026-11-12T06:10:32.768429+00:00",
+      "source_id": "002507-6cd117ea1ac8beee",
+      "rows": [
+        "2025-FY:net_income:002507-6cd117ea1ac8beee",
+        "2024-FY:net_income:002507-6cd117ea1ac8beee",
+        "2025-FY:parent_income:002507-6cd117ea1ac8beee",
+        "2024-FY:parent_income:002507-6cd117ea1ac8beee",
+        "2025-FY:cfo:002507-6cd117ea1ac8beee",
+        "2024-FY:cfo:002507-6cd117ea1ac8beee",
+        "2025-FY:capex:002507-6cd117ea1ac8beee",
+        "2024-FY:capex:002507-6cd117ea1ac8beee"
+      ],
+      "result": "原表正文、列头、期间、单位及相邻表行对读；列值写入候选；不升级Fact",
+      "human_answer": null
+    },
+    {
+      "id": "A12-006",
+      "actor": "Agent",
+      "at": "2026-11-12T06:10:32.768429+00:00",
+      "source_id": "002507-6cd117ea1ac8beee",
+      "rows": [
+        "2025-FY:cash_other_paid:002507-6cd117ea1ac8beee",
+        "2024-FY:cash_other_paid:002507-6cd117ea1ac8beee",
+        "2025-FY:cash_employee:002507-6cd117ea1ac8beee",
+        "2024-FY:cash_employee:002507-6cd117ea1ac8beee",
+        "2025-FY:cash_tax:002507-6cd117ea1ac8beee",
+        "2024-FY:cash_tax:002507-6cd117ea1ac8beee",
+        "2025-FY:cash_goods:002507-6cd117ea1ac8beee",
+        "2024-FY:cash_goods:002507-6cd117ea1ac8beee"
+      ],
+      "result": "原表正文、列头、期间、单位及相邻表行对读；列值写入候选；不升级Fact",
+      "human_answer": null
+    },
+    {
+      "id": "A12-007",
+      "actor": "Agent",
+      "at": "2026-11-12T06:10:32.768429+00:00",
+      "source_id": "002507-6cd117ea1ac8beee",
+      "rows": [
+        "2025-FY:cash_other_received:002507-6cd117ea1ac8beee",
+        "2024-FY:cash_other_received:002507-6cd117ea1ac8beee",
+        "2025-FY:cash_refund:002507-6cd117ea1ac8beee",
+        "2024-FY:cash_refund:002507-6cd117ea1ac8beee",
+        "2025-FY:recon_net_income:002507-6cd117ea1ac8beee",
+        "2025-FY:recon_asset_loss:002507-6cd117ea1ac8beee",
+        "2025-FY:recon_credit_loss:002507-6cd117ea1ac8beee",
+        "2025-FY:recon_depreciation:002507-6cd117ea1ac8beee"
+      ],
+      "result": "原表正文、列头、期间、单位及相邻表行对读；列值写入候选；不升级Fact",
+      "human_answer": null
+    },
+    {
+      "id": "A12-008",
+      "actor": "Agent",
+      "at": "2026-11-12T06:10:32.768429+00:00",
+      "source_id": "002507-6cd117ea1ac8beee",
+      "rows": [
+        "2025-FY:recon_rou_depr:002507-6cd117ea1ac8beee",
+        "2025-FY:recon_amortization:002507-6cd117ea1ac8beee",
+        "2025-FY:recon_disposal_adjust:002507-6cd117ea1ac8beee",
+        "2025-FY:recon_retirement:002507-6cd117ea1ac8beee",
+        "2025-FY:recon_fair_adjust:002507-6cd117ea1ac8beee",
+        "2025-FY:recon_finance_adjust:002507-6cd117ea1ac8beee",
+        "2025-FY:recon_investment_adjust:002507-6cd117ea1ac8beee",
+        "2025-FY:recon_dta_adjust:002507-6cd117ea1ac8beee"
+      ],
+      "result": "原表正文、列头、期间、单位及相邻表行对读；列值写入候选；不升级Fact",
+      "human_answer": null
+    },
+    {
+      "id": "A12-009",
+      "actor": "Agent",
+      "at": "2026-11-12T06:10:32.768429+00:00",
+      "source_id": "002507-6cd117ea1ac8beee",
+      "rows": [
+        "2025-FY:recon_dtl_adjust:002507-6cd117ea1ac8beee",
+        "2025-FY:recon_inventory_change:002507-6cd117ea1ac8beee",
+        "2025-FY:recon_operating_ar_change:002507-6cd117ea1ac8beee",
+        "2025-FY:recon_operating_ap_change:002507-6cd117ea1ac8beee",
+        "2025-FY:food_revenue:002507-6cd117ea1ac8beee",
+        "2024-FY:food_revenue:002507-6cd117ea1ac8beee",
+        "2025-FY:food_volume:002507-6cd117ea1ac8beee",
+        "2024-FY:food_volume:002507-6cd117ea1ac8beee"
+      ],
+      "result": "原表正文、列头、期间、单位及相邻表行对读；列值写入候选；不升级Fact",
+      "human_answer": null
+    },
+    {
+      "id": "A12-010",
+      "actor": "Agent",
+      "at": "2026-11-12T06:10:32.768429+00:00",
+      "source_id": "002507-6cd117ea1ac8beee",
+      "rows": [
+        "2025-FY:dealer_revenue:002507-6cd117ea1ac8beee",
+        "2024-FY:dealer_revenue:002507-6cd117ea1ac8beee",
+        "2025-FY:direct_revenue:002507-6cd117ea1ac8beee",
+        "2024-FY:direct_revenue:002507-6cd117ea1ac8beee"
+      ],
+      "result": "原表正文、列头、期间、单位及相邻表行对读；列值写入候选；不升级Fact",
+      "human_answer": null
+    }
+  ],
+  "protection": "原ReviewStore及人审事件未修改；本记录为研究对读，不是新的事实权威"
+}

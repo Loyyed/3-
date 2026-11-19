@@ -1,10 +1,10 @@
 {
-  "id": "O58646fce0ace",
+  "id": "O65d622a19602",
   "group": "research-report",
-  "title": "安琪酵母：海外扩张的收入，何时成为资本回报",
+  "title": "安琪酵母：历史经营分析与首版条件预测（2026-11-12）",
   "kind": "报告草稿",
-  "version": 8,
-  "at": "2026-11-12T04:41:15.885187+00:00",
+  "version": 11,
+  "at": "2026-11-19T07:06:47.454625+00:00",
   "actor": "Agent/test-or-api",
   "actual_user_review": null,
   "historical": false,
@@ -21,14 +21,14 @@
     ],
     "selection_scope": "all-eight-lanes",
     "cards": {
-      "R6911ffac3797": "8a818cf5adb299fdfde53e98cfd028bd75940bcca289da43beae43f9a90ae5a4",
-      "Re0aacfad8631": "8a549c0baddaa88d5ba799a081be77b99d8b0ea48f69a112af67c7726a5f0cb3",
-      "Ra9f2c23c0275": "a62aa0bb0dc16983998da7255e62467c30015122ded3e3835d6b3e0c2f14723a",
-      "R29373d7bc0f1": "7f01fad15ce0da29415d165de419da101c8e12deb394329868dd9615e8b9efb5",
-      "R2660b3bfa732": "227f4234338251ead11c2ac25a727d701ff414058930a3aa5a35a0e28e6aaa44",
-      "R21f6d6590f9f": "8eb1fc79ed9544739fd70f0e35c9a634f8178c946d52f79f719c3f7c5db12c80",
-      "Rd60b7456dc65": "fb60d1150cdc25d5181dea544a3d8f6ef67be5f30ddfdc7b49268307bd4da502",
-      "Rc307bcec6202": "dfb9eb553ae6114f5494b5c816301c2dfc6938f96f2224e01b0994507d2f2a04"
+      "R6911ffac3797": "8545db159b5f17f7757cc937f1c4eabc6c7a4ff04efc0ba62a1b9a0d7b6579f8",
+      "Re0aacfad8631": "f77d4c68411e9cc59037a8b62c7f24c5815a9026d894a27da6bce05b0fd82d96",
+      "Ra9f2c23c0275": "8e156d142c5d73b2b829491518b6b8215a5433337b6947da795dc854aeebea6d",
+      "Rc307bcec6202": "9e6444d216c560391d00cb29bbf30f9d63b176a86b0bef480d2553d2fb7d7731",
+      "R29373d7bc0f1": "e0caadf9b1086be6880eca1a438ed33d05c402864783962f7e0dc8819323940e",
+      "R2660b3bfa732": "9b890e2d40dbf64fb7fadb95cf020c83d167f3c53b2e2f865941552dbaf95915",
+      "R21f6d6590f9f": "abecf68398243b20a1dcc082d440ec9896394e285ec5e575491cbf3642fca7f7",
+      "Rd60b7456dc65": "6c0b737110c4e5511d1d2d90bf626b9577683ecf981c5d7476c1a8ec1d930f2a"
     },
     "methods": [
       {
@@ -85,14 +85,20 @@
       }
     ],
     "inputs": {
-      "work/research09/evidence-map.json": "323c7b8ec891adee4cb21e6f5848f49f1bce6dd8513142ea19d3dd8ac2c2e7fd",
-      "work/research09/parameter-register.json": "39e4a383d3f9bb5cfdc82614c2f791d288eeffce04f1f87404444592d9c24c00",
-      "work/research09/利润资本现金与估值准备.md": "d0d66fe87d485ed2d9728eda6a89e4ee07f6577fa76ad2c2d33aa4a7c413e0b4",
-      "work/research07/source-field-map.json": "014674ca79ef6b2fdab2de541060518b35e84048b8acd578c872a8d46592f6c1",
+      "work/research12/source-data.json": "3ea9287476fd7f1809d4b7f09ab564be10abf941339f49d5d93502457a765a15",
+      "work/research12/agent-read-batches.json": "6da0192c6a7d77466aa837b026b8f102085fa143f24f17755b42a4e1cfdd7cdd",
+      "work/research12/comparability.json": "bd794012c278f2da53ac53af0b40af3c6b5f7eb36ba7092e9d92e523876d06a9",
+      "work/research12/forecast-input.json": "be48da9beb2452cb599964bf90268f8caa187988c00ab8bee87ebba4d7deb33b",
+      "work/research12/calculation.json": "6a2f2df52e887eb7bcdaf8e8cb17b7609b3ae32895a635e5760f5944f91558f3",
+      "work/research12/forecast.csv": "1203f771a1144d7a1b023723341b8f1ccb71d013eaecdf40dce210381f95d0f4",
+      "work/research12/claim-review.json": "253b0d0da4310769e2ef54cfa51e31a636d13e6f126f43de328e532e5b25d3d8",
+      "work/research12/original-batch-audit.json": "60c6297092e1250b54a31ba71a03001d76b27bb4b560d83c5332e2d6afc1921d",
+      "work/research12/authority.json": "c7a6389866e91d91b97ce0782be87f9027522816acb3b02952ea1c51dade9630",
+      "work/research12/coverage-and-gaps.json": "3a50299c83e1731713fb1f130826db60e514ca55218ae8955d13dc7f98738979",
+      "work/research12/candidate-crosswalk.json": "43ff4123bd4449fbed961760f150ce8a999ce3645c9e45f5dfc03a740735ab7f",
       "work/valuation/index.json": "b5855ba8f1999bdb1bbadfeed49c324a459c68545465afd0207134801f3d0850",
       "work/valuation/v1-V2cc086959eb0.json": "675da54b224ad8421abf826241a5011fa56bc798af58f5b6134f808089cc7de8",
-      "work/writing/authority-snapshot.json": "5b367d44b619f6b6f76b3b379b5bbdee3d7cb57f7a98d20dbfe474c8536257c6",
-      "work/writing/reader.json": "15f32ccdd8accbd458219732adaaa18a67b17629981f2aefd8b2a4bdd8ebc588"
+      "work/writing/reader.json": "89e3755737c3bda276dc545e927f94c580bc967786fbd07ded5a289aaae7417d"
     },
     "sources": [
       {
@@ -106,6 +112,26 @@
         "sha256": "5a4940bc351e4d8c4c222857f896065044c944d7d9d149c1ccf598fb44bc968b"
       },
       {
+        "id": "600298-174439da1375f513",
+        "path": "sources/raw/01_年报/2024-03-19_安琪酵母股份有限公司2023年年度报告_1219331681.pdf",
+        "sha256": "a155225d4d63153d916fb1dee854bba75b8d5c0352a7738d4eaf926454528308"
+      },
+      {
+        "id": "600298-e14665c0175d59df",
+        "path": "sources/raw/01_年报/2025-04-10_安琪酵母股份有限公司2024年年度报告_1223046779.pdf",
+        "sha256": "9bf55c16321d41dc6ba7a7b980dfad4a76f291cdba5fb0bd447433028de31f46"
+      },
+      {
+        "id": "600298-d5b6bb897b9dc0d3",
+        "path": "sources/raw/01_年报/2025-08-15_安琪酵母股份有限公司2025年半年度报告_1224486290.pdf",
+        "sha256": "d1fd851febf46edfce4cb4a301dbf88af68227796e79d078e39ecb1da6419145"
+      },
+      {
+        "id": "600298-7a9cbdaf728861fa",
+        "path": "sources/raw/02_定期报告与经营数据/2025-10-30_安琪酵母股份有限公司2025年第三季度报告_1224759133.pdf",
+        "sha256": "05deb79b5ce1807d0d507a1759c78289dd6644d7ff1566513e52fb79211a89eb"
+      },
+      {
         "id": "600298-a14b53fefcfc0356",
         "path": "sources/raw/01_年报/2026-03-31_安琪酵母股份有限公司2025年年度报告_1225056953.pdf",
         "sha256": "7bee6f0f30a5da24746dd431f1947f15c8189fa9fbf5db75df4d3ba3c512c800"
@@ -117,27 +143,28 @@
       "scripts/recalculate_valuation.py": "711a5a9c153a834a2c28d133d24b0aec0cd93153c0baa4f1358a8b22ef4cc727",
       "docs/投研写作规范.md": "e4cf87afffc67976148eab1d4f2aba00056a5825ba0c7ac64d7ccab1122cfb60",
       "shared/writing-skills.json": "cad001177fa60de41d782dfbdb8d3ffbfa1ffb81a959472130c85925b6d2ab2a",
-      "app/writing.py": "083ceb8239ce4c1f76b50ead42c52d2e73068d6a564f25f6f288eb4697e947d8"
+      "app/writing.py": "083ceb8239ce4c1f76b50ead42c52d2e73068d6a564f25f6f288eb4697e947d8",
+      "scripts/recalculate_research12.py": "86555de90ecba93866e5d0c05dd7521237fd0d5f3628a56eeca9b556e7e1015f"
     }
   },
   "files": [
     {
-      "path": "outputs/research-report/v8-O58646fce0ace/basis.json",
+      "path": "outputs/research-report/v11-O65d622a19602/basis.json",
       "format": "json",
-      "sha256": "0cbbeb232f109e07391b55e8c1f9ae98c3c9bf668ca3c7e4a201997a6c131118",
-      "bytes": 111734
+      "sha256": "0b09a35faf9a035f3a4784e305f333b75a32cdca4b86f99b9583172eb5269044",
+      "bytes": 454371
     },
     {
-      "path": "outputs/research-report/v8-O58646fce0ace/report.html",
+      "path": "outputs/research-report/v11-O65d622a19602/report.html",
       "format": "html",
-      "sha256": "e7a87a6bb80010def37cc9354316f6ffe0774b41d8c94520d6ca26ab66d02caf",
-      "bytes": 8326
+      "sha256": "cb7357c28ac58aa1dca84170bf35d642875dfa8f702aee28965713a4eb82469c",
+      "bytes": 13776
     },
     {
-      "path": "outputs/research-report/v8-O58646fce0ace/report.md",
+      "path": "outputs/research-report/v11-O65d622a19602/report.md",
       "format": "md",
-      "sha256": "a96e1c62c7a4afca7a3ab3c0f00067bb77bbd88ec79f0d6512b4534e79aef063",
-      "bytes": 6472
+      "sha256": "d9d09a7dbeeb834355a59f59a50cd9d3050c586ec9fc9f7973ecf1b6e0015568",
+      "bytes": 11271
     }
   ],
   "needs_review": false,

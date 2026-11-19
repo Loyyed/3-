@@ -1,0 +1,238 @@
+{
+  "period_metric_source_ids": {
+    "2023-FY": {
+      "revenue": [
+        "2023-FY:revenue:Se7f95d2f97642180"
+      ],
+      "cost": [
+        "2023-FY:cost:Se7f95d2f97642180"
+      ],
+      "sales": [],
+      "admin": [],
+      "rd": [
+        "2023-FY:rd:Se7f95d2f97642180"
+      ],
+      "op": [
+        "2023-FY:op:Se7f95d2f97642180"
+      ],
+      "parent_income": [
+        "2023-FY:parent_income:Se7f95d2f97642180"
+      ],
+      "cfo": [
+        "2023-FY:cfo:Se7f95d2f97642180"
+      ],
+      "capex": [
+        "2023-FY:capex:Se7f95d2f97642180"
+      ],
+      "depreciation_disclosed": [],
+      "receivable": [],
+      "inventory": [],
+      "payable": [],
+      "advance": [],
+      "cash": [],
+      "trading_financial_assets": [],
+      "short_borrow": [],
+      "long_borrow": [],
+      "lease": [],
+      "shares": []
+    },
+    "2024-FY": {
+      "revenue": [
+        "2024-FY:revenue:Se7f95d2f97642180"
+      ],
+      "cost": [
+        "2024-FY:cost:Se7f95d2f97642180"
+      ],
+      "sales": [],
+      "admin": [],
+      "rd": [
+        "2024-FY:rd:Se7f95d2f97642180"
+      ],
+      "op": [
+        "2024-FY:op:Se7f95d2f97642180"
+      ],
+      "parent_income": [
+        "2024-FY:parent_income:Se7f95d2f97642180"
+      ],
+      "cfo": [
+        "2024-FY:cfo:Se7f95d2f97642180"
+      ],
+      "capex": [
+        "2024-FY:capex:Se7f95d2f97642180"
+      ],
+      "depreciation_disclosed": [],
+      "receivable": [
+        "2024-FY:receivable:Se7f95d2f97642180"
+      ],
+      "inventory": [
+        "2024-FY:inventory:Se7f95d2f97642180"
+      ],
+      "payable": [
+        "2024-FY:payable:Se7f95d2f97642180"
+      ],
+      "advance": [
+        "2024-FY:advance:Se7f95d2f97642180"
+      ],
+      "cash": [],
+      "trading_financial_assets": [],
+      "short_borrow": [],
+      "long_borrow": [],
+      "lease": [],
+      "shares": []
+    },
+    "2025-FY": {
+      "revenue": [
+        "2025-FY:revenue:Se7f95d2f97642180"
+      ],
+      "cost": [
+        "2025-FY:cost:Se7f95d2f97642180"
+      ],
+      "sales": [],
+      "admin": [],
+      "rd": [
+        "2025-FY:rd:Se7f95d2f97642180"
+      ],
+      "op": [
+        "2025-FY:op:Se7f95d2f97642180"
+      ],
+      "parent_income": [
+        "2025-FY:parent_income:Se7f95d2f97642180"
+      ],
+      "cfo": [
+        "2025-FY:cfo:Se7f95d2f97642180"
+      ],
+      "capex": [
+        "2025-FY:capex:Se7f95d2f97642180"
+      ],
+      "depreciation_disclosed": [],
+      "receivable": [
+        "2025-FY:receivable:Se7f95d2f97642180"
+      ],
+      "inventory": [
+        "2025-FY:inventory:Se7f95d2f97642180"
+      ],
+      "payable": [
+        "2025-FY:payable:Se7f95d2f97642180"
+      ],
+      "advance": [
+        "2025-FY:advance:Se7f95d2f97642180"
+      ],
+      "cash": [],
+      "trading_financial_assets": [],
+      "short_borrow": [],
+      "long_borrow": [],
+      "lease": [],
+      "shares": []
+    },
+    "2026-H1": {
+      "revenue": [
+        "2026-H1:revenue:S62ee221f79d393a3"
+      ],
+      "cost": [
+        "2026-H1:cost:S62ee221f79d393a3"
+      ],
+      "sales": [],
+      "admin": [],
+      "rd": [
+        "2026-H1:rd:S62ee221f79d393a3"
+      ],
+      "op": [
+        "2026-H1:op:S62ee221f79d393a3"
+      ],
+      "parent_income": [
+        "2026-H1:parent_income:S62ee221f79d393a3"
+      ],
+      "cfo": [
+        "2026-H1:cfo:S62ee221f79d393a3"
+      ],
+      "capex": [
+        "2026-H1:capex:S62ee221f79d393a3"
+      ],
+      "depreciation_disclosed": [],
+      "receivable": [],
+      "inventory": [],
+      "payable": [],
+      "advance": [],
+      "cash": [],
+      "trading_financial_assets": [],
+      "short_borrow": [],
+      "long_borrow": [],
+      "lease": [],
+      "shares": []
+    },
+    "2026-YTD9": {
+      "revenue": [
+        "2026-YTD9:revenue:S83c179dfd93521d4"
+      ],
+      "cost": [
+        "2026-YTD9:cost:S83c179dfd93521d4"
+      ],
+      "sales": [],
+      "admin": [],
+      "rd": [
+        "2026-YTD9:rd:S83c179dfd93521d4"
+      ],
+      "op": [
+        "2026-YTD9:op:S83c179dfd93521d4"
+      ],
+      "parent_income": [
+        "2026-YTD9:parent_income:S83c179dfd93521d4"
+      ],
+      "cfo": [
+        "2026-YTD9:cfo:S83c179dfd93521d4"
+      ],
+      "capex": [
+        "2026-YTD9:capex:S83c179dfd93521d4"
+      ],
+      "depreciation_disclosed": [],
+      "receivable": [
+        "2026-YTD9:receivable:S83c179dfd93521d4"
+      ],
+      "inventory": [
+        "2026-YTD9:inventory:S83c179dfd93521d4"
+      ],
+      "payable": [
+        "2026-YTD9:payable:S83c179dfd93521d4"
+      ],
+      "advance": [
+        "2026-YTD9:advance:S83c179dfd93521d4"
+      ],
+      "cash": [],
+      "trading_financial_assets": [],
+      "short_borrow": [],
+      "long_borrow": [],
+      "lease": [],
+      "shares": []
+    }
+  },
+  "empty_cell_meaning": "未提取/不单独列示，须按公司口径识别；空不等于0。Pop没有完整2026YTD报表",
+  "scope": "核心收入利润CFO和2025详细现金桥已形成；逐期D&A/租赁/SBC/股数及分部范围仍有具体未完成项，不称完整最小数据集已全部完成",
+  "gaps": [
+    {
+      "missing_evidence": "总器械含Ion；da Vinci定价暴露比例未直接披露，模型90%为敏感估计",
+      "impact": "见本条具体口径及报告对应判断；不补零",
+      "next_action": "优先继续现有完整附注/原始监管及IR材料逐表对读，按字段补原值；不改Fact身份",
+      "availability": "本轮未提取/公司未按所需口径披露，非下载失败"
+    },
+    {
+      "missing_evidence": "独立临床/医院全成本未配对，FDA许可仅支持进入范围；不证实医院净收益或竞争份额",
+      "impact": "见本条具体口径及报告对应判断；不补零",
+      "next_action": "优先继续现有完整附注/原始监管及IR材料逐表对读，按字段补原值；不改Fact身份",
+      "availability": "本轮未提取/公司未按所需口径披露，非下载失败"
+    },
+    {
+      "missing_evidence": "经营租赁队列及库存转设备的成本/折旧分配、诉讼付款/税务/批准时间尚不闭合",
+      "impact": "见本条具体口径及报告对应判断；不补零",
+      "next_action": "优先继续现有完整附注/原始监管及IR材料逐表对读，按字段补原值；不改Fact身份",
+      "availability": "本轮未提取/公司未按所需口径披露，非下载失败"
+    },
+    {
+      "missing_evidence": "完整经营现金税、经营NCWC非现金变动、租赁/研发/SBC一致调整",
+      "impact": "现金段不能升格FCFF，无法输出完整条件估值",
+      "next_action": "沿现金流附注及租赁/税/股份支付附注补分项与范围；保留原报和分析调整并排",
+      "availability": "现有附注尚未完成全范围闭合"
+    }
+  ],
+  "download_failures_this_round": [],
+  "download_note": "本轮复用本地完整披露，未执行新增下载；未把提取缺口称资料不存在"
+}

@@ -58,6 +58,8 @@ def perform(e,d,actor):
  if (p/'work/writing/reader.json').exists():auto_inputs+=['work/writing/reader.json']
  if (e.root/'docs/投研写作规范.md').exists():
   for rel in ['docs/投研写作规范.md','shared/writing-skills.json','app/writing.py']:bindings['shared_dependencies'][rel]=sha(contained(e.root,rel))
+ if 'work/research12/calculation.json' in d.get('input_paths',[]):
+  bindings['shared_dependencies']['scripts/recalculate_research12.py']=sha(e.root/'scripts/recalculate_research12.py')
  for rel in dict.fromkeys(d.get('input_paths',[])+auto_inputs):
   q=contained(p,rel);assert not rel.startswith(('sources/raw/','evidence/')),'输入应为公司模型或计算文件';assert q.is_file(),'输入不存在';bindings['inputs'][rel]=sha(q)
  sources=load(p/'sources/manifest.json',{'sources':[]})['sources'];wanted=set(d.get('source_ids',[])+[i for c in cards for i in c.get('source_ids',[])])

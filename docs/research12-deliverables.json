@@ -1,0 +1,848 @@
+{
+  "at": "2026-11-19T07:06:50.167633+00:00",
+  "items": [
+    {
+      "company": "002507_涪陵榨菜",
+      "report": {
+        "id": "Od7b0c0d6753f",
+        "group": "research-report",
+        "title": "涪陵榨菜：历史经营分析与首版条件预测（2026-11-12）",
+        "kind": "报告草稿",
+        "version": 11,
+        "at": "2026-11-19T07:06:45.504975+00:00",
+        "actor": "Agent/test-or-api",
+        "actual_user_review": null,
+        "historical": false,
+        "bindings": {
+          "selection_ids": [
+            "R09e06cc7c1a8",
+            "R0b427d7dd7fe",
+            "R1572b24923fd",
+            "R3a8ec12bc38f",
+            "R48ccbb2a4ad6",
+            "R69074d027896",
+            "R8bff8d9f729a",
+            "R8c5f7065f343"
+          ],
+          "selection_scope": "all-eight-lanes",
+          "cards": {
+            "R3a8ec12bc38f": "d84313b891397eb80d46b665e05bb784ea500da5e8aa52422d0ceadbeac963f9",
+            "R09e06cc7c1a8": "dce0de06b8711ce1d3f4f2cef01edd9200f739f793c731791177c7f53a93dd00",
+            "R0b427d7dd7fe": "af4a01d109758a5a17496466ae9bb0b5eb2aa1bf711fe9f281d819607fcee921",
+            "R69074d027896": "f4a85167cd5aa70b6d7d97dd5b70451b0d10e6f2b78acfa56c737ede42b9772d",
+            "R48ccbb2a4ad6": "55bcc7b5e0644b7fe1d2069d2254848d94eecc1d5908462d574777cf727a84d3",
+            "R1572b24923fd": "935360ac922f9ab6a38db67d01e9aa4e528191788a184982e2f149f58c48d606",
+            "R8bff8d9f729a": "45e515822b1a1de6eb324e372648e4f7264c8bae4ebb623b58a6c25dcf582441",
+            "R8c5f7065f343": "025232d58e252bef2f2ad86f34f9a2fb218a0721a4b103b047bff283c6a5ee44"
+          },
+          "methods": [
+            {
+              "id": "K02",
+              "version": 1
+            },
+            {
+              "id": "E05",
+              "version": 1
+            },
+            {
+              "id": "E06",
+              "version": 1
+            },
+            {
+              "id": "E08",
+              "version": 1
+            },
+            {
+              "id": "K46",
+              "version": 1
+            },
+            {
+              "id": "K52",
+              "version": 1
+            },
+            {
+              "id": "K63",
+              "version": 1
+            },
+            {
+              "id": "K49",
+              "version": 1
+            },
+            {
+              "id": "K64",
+              "version": 1
+            },
+            {
+              "id": "K48",
+              "version": 1
+            },
+            {
+              "id": "K55",
+              "version": 1
+            },
+            {
+              "id": "K58",
+              "version": 1
+            },
+            {
+              "id": "K59",
+              "version": 1
+            }
+          ],
+          "inputs": {
+            "work/research12/source-data.json": "cc9e8f962541396c1c006e309497880774f935c802ce93ef013045bb922a80f3",
+            "work/research12/agent-read-batches.json": "d91b08c3bddf4fb6d850966db6c599681dc8f67dbd8b9d1edd2afaf4bdf8c0ed",
+            "work/research12/comparability.json": "7c1943d2908193b4622084380a7577d90d5bcc149f9886fb7522cd64a8789312",
+            "work/research12/forecast-input.json": "d1e5685849d902ce56a8f32dfd0b76530b7fc89c678d24e0a2e57da7ba7182b4",
+            "work/research12/calculation.json": "16b709a382052f4065380fedc787baf06d5d48fa90954de0f6b866b2dcf9d16d",
+            "work/research12/forecast.csv": "f5a2689e5f4581ce21b43f111f559debea9c98441f0d922ae70722aae3b58416",
+            "work/research12/claim-review.json": "75369098b377bf4c4561809c3a31a45b08a8557e3b476c499a500c8bec6cd5da",
+            "work/research12/original-batch-audit.json": "8fcab9406a59df261ee3452df06a0c8a2e15ff8a835b6cdfda865969d4eeac05",
+            "work/research12/authority.json": "dd19be53f4ac5afc783ed2e82a9ff56de2affff89e06b1536b7607afea2f68b6",
+            "work/research12/coverage-and-gaps.json": "8dc975ada30e8d39b6312cc96c4925780f7bd899aeeb067c53498849a5c4b87c",
+            "work/research12/candidate-crosswalk.json": "15fc3bc644b336413a1611d3f5e79c8b706c4ab600b93ffc1a18b63b6acb244a",
+            "work/valuation/index.json": "1d62b040b5016e95ad10be36bc9f8bed839605e873056d63331f8aef01d080f0",
+            "work/valuation/v1-V15d4e40ce069.json": "305ba8000413a16028173270f0fe6fb4ebec2bf9c688749e03f71edbc97abe9f",
+            "work/writing/reader.json": "6ea6c4f50853d61237aaceb9baec0d0475697ecc3c51d63f788d7bf274827263"
+          },
+          "sources": [
+            {
+              "id": "002507-2400e7c98a00f701",
+              "path": "sources/raw/01_年报/2025-08-27_2025年半年度报告_1224575332.pdf",
+              "sha256": "bbe9ba44671f85504dcfba354148e2206d00ef0a70bb433cb35e5df4440e0653"
+            },
+            {
+              "id": "002507-b901d0b919e32cba",
+              "path": "sources/raw/01_年报/2026-08-28_2026年半年度报告_1225517908.pdf",
+              "sha256": "e85ee9eaacaa3eac2ec2e3940e147cc7941f992f5fd6efb072a88e0438e2bd11"
+            },
+            {
+              "id": "002507-dee598028c74bbc4",
+              "path": "sources/raw/02_定期报告与经营数据/2025-10-25_2025年三季度报告_1224735801.pdf",
+              "sha256": "e7e3544b04770aa9fce6a484d06dab3d5b5645afa961eb04bee2b75786f2c734"
+            },
+            {
+              "id": "002507-4c6fe783e1b63fd9",
+              "path": "sources/raw/01_年报/2025-03-29_2024年年度报告_1222941660.pdf",
+              "sha256": "6a92a481feeefe891c5161e1836d782d6cf673691ec304371325d5e5793bbb87"
+            },
+            {
+              "id": "002507-6cd117ea1ac8beee",
+              "path": "sources/raw/01_年报/2026-03-28_2025年年度报告_1225042838.pdf",
+              "sha256": "db3af94635933a99c37cccb2b3809267b5e21072563ef12c2a8de93eb721f9b5"
+            },
+            {
+              "id": "002507-4b14860c37a05a6b",
+              "path": "sources/raw/01_年报/2024-03-30_2023年年度报告_1219462373.pdf",
+              "sha256": "dde763a874456841c3ef85fd0b535903796f97af1fedb88453743bbc72460f64"
+            },
+            {
+              "id": "002507-d45bfdfdec6d4379",
+              "path": "sources/raw/02_定期报告与经营数据/2026-10-28_2026年三季度报告_1225628280.pdf",
+              "sha256": "18eee5ef5d7b63db544c0c855a1ade7c311e914a397245a11873679fc6955b07"
+            }
+          ],
+          "shared_dependencies": {
+            "shared/runtime/companybench/valuation_chain.py": "0155df03fa6ff2dd86a6a4c92f51f277f88e1edd45bfd972d191796276ac23ca",
+            "shared/runtime/companybench/research_depth.py": "bb364cd41336a0d3fe62d0d0663f7e8557570aeff2d201c21517259ae1404a41",
+            "scripts/recalculate_valuation.py": "711a5a9c153a834a2c28d133d24b0aec0cd93153c0baa4f1358a8b22ef4cc727",
+            "docs/投研写作规范.md": "e4cf87afffc67976148eab1d4f2aba00056a5825ba0c7ac64d7ccab1122cfb60",
+            "shared/writing-skills.json": "cad001177fa60de41d782dfbdb8d3ffbfa1ffb81a959472130c85925b6d2ab2a",
+            "app/writing.py": "083ceb8239ce4c1f76b50ead42c52d2e73068d6a564f25f6f288eb4697e947d8",
+            "scripts/recalculate_research12.py": "86555de90ecba93866e5d0c05dd7521237fd0d5f3628a56eeca9b556e7e1015f"
+          }
+        },
+        "files": [
+          {
+            "path": "outputs/research-report/v11-Od7b0c0d6753f/basis.json",
+            "format": "json",
+            "sha256": "6473a87cc92df0e109d465352e53b94272e7928f49e01358ee130cdacc5407c9",
+            "bytes": 430214
+          },
+          {
+            "path": "outputs/research-report/v11-Od7b0c0d6753f/report.html",
+            "format": "html",
+            "sha256": "63dbae2553746768aaf0c3584c1bcf705ada724c48f18b33e5d61dc4085ea8bd",
+            "bytes": 12961
+          },
+          {
+            "path": "outputs/research-report/v11-Od7b0c0d6753f/report.md",
+            "format": "md",
+            "sha256": "e2dc21875c816d798443046f2dc399e3e68c1515ea2d1c9578235a7096c1f47d",
+            "bytes": 10672
+          }
+        ],
+        "needs_review": false,
+        "imported": false
+      },
+      "research_entry": "companies/002507_涪陵榨菜/work/research12/index.html",
+      "first_batch": "companies/002507_涪陵榨菜/work/research12/review-batch.html"
+    },
+    {
+      "company": "09992_泡泡玛特",
+      "report": {
+        "id": "Obd369b921ba3",
+        "group": "research-report",
+        "title": "泡泡玛特：历史经营分析与首版条件预测（2026-11-12）",
+        "kind": "报告草稿",
+        "version": 9,
+        "at": "2026-11-19T07:06:46.546414+00:00",
+        "actor": "Agent/test-or-api",
+        "actual_user_review": null,
+        "historical": false,
+        "bindings": {
+          "selection_ids": [
+            "R14c10b3a792a",
+            "R58b870a4ee64",
+            "R7bfc89d395aa",
+            "R7d8112e87a58",
+            "R8c387d2da2f6",
+            "Ra42a6324bb1c",
+            "Rad6660d577af",
+            "Rbd733d44d823"
+          ],
+          "selection_scope": "all-eight-lanes",
+          "cards": {
+            "R7d8112e87a58": "f7e47d4bf93015e974cb55309d7ef81b2f881a35e32fe81f1b4dd3f95a6e83b3",
+            "R7bfc89d395aa": "8f371e25657df89f58635f8e26baf57c5dbeee5da1bfe2e0d58019e5c0cf2774",
+            "R58b870a4ee64": "091ff1bf84a445ee9c17f478980efabf4be0e8d65d97b0c774c6e8baea2f4a23",
+            "Rad6660d577af": "9f6e0f28805502d235919fca97e3c346e217313b008808dbf73e1102440f34b3",
+            "R8c387d2da2f6": "ae4fabc89a8cef3bb8148675d280ba30282a01bfa31ce9887e0f098bc8454356",
+            "R14c10b3a792a": "cd23d6acba45cfa0110cb30506cbb0b4fb4f9920a3fbc93f9d244cf4d84f0bc9",
+            "Rbd733d44d823": "eec6f83e2bbb2dad786c709b5ac43bb52927d80cec965ac48d57c844b3be4389",
+            "Ra42a6324bb1c": "c7ef8570891ecd13cc51d469bfaaf6a6049d94eead307ee27363f297bfb4005c"
+          },
+          "methods": [
+            {
+              "id": "K03",
+              "version": 1
+            },
+            {
+              "id": "K09",
+              "version": 1
+            },
+            {
+              "id": "E04",
+              "version": 1
+            },
+            {
+              "id": "E08",
+              "version": 1
+            },
+            {
+              "id": "K46",
+              "version": 1
+            },
+            {
+              "id": "K52",
+              "version": 1
+            },
+            {
+              "id": "K63",
+              "version": 1
+            },
+            {
+              "id": "K49",
+              "version": 1
+            },
+            {
+              "id": "K53",
+              "version": 1
+            },
+            {
+              "id": "K55",
+              "version": 1
+            },
+            {
+              "id": "K57",
+              "version": 1
+            },
+            {
+              "id": "K59",
+              "version": 1
+            }
+          ],
+          "inputs": {
+            "work/research12/source-data.json": "3dbdbbe707ccdebf807b3e729821bb615093b6b93b572e1e869fea9055fe1d11",
+            "work/research12/agent-read-batches.json": "98114016b5c60c5ef325b3dd9052cba7b2c25a26392f46396e68e6e3a5be51e0",
+            "work/research12/comparability.json": "7c1943d2908193b4622084380a7577d90d5bcc149f9886fb7522cd64a8789312",
+            "work/research12/forecast-input.json": "86a9242561ec63ee2e692e25ac6791a17c0b7bd92c7c06179dbcc4d57b237aa9",
+            "work/research12/calculation.json": "4b13a57582c85fa7f16fd51a501f1d36d2276229bc5883550cbbbb793328fe81",
+            "work/research12/forecast.csv": "13ab8ba5efd062618e6eab4b174128e8b927b6f258e85caad95a4e4ca9f3aaf5",
+            "work/research12/claim-review.json": "e024ce7518e37a043b2f15dd8098d94e723ef922cd92fcced8eb87e86544c9c6",
+            "work/research12/original-batch-audit.json": "92f645ee497d246427667af289a311d9b5b8b7a65b0fe203b714038f6ce19a0b",
+            "work/research12/authority.json": "e15e739990901c4e17131c404e2ff8b4d959c4aabdcd0c1639b33ea22b71461b",
+            "work/research12/coverage-and-gaps.json": "9e8f928c71dd3adb8cff48194d9ee3b08674c6d8bd418c493ddca3e3b8eb06d0",
+            "work/research12/candidate-crosswalk.json": "95437fcc9f08e7f29b929af3ad21df4efb3f7667235b1cd06db5d5646a32bf0e",
+            "work/valuation/index.json": "9ea379ecae2e3d53d409bc24d3e0a9320ba394cdf5876c1767d43cfc282d8f56",
+            "work/valuation/v1-V641d287771d9.json": "c07916fa7a6f18a11c14b5cd949cf6ab89d16ff5cf7c237d07b52b95c2b70e14",
+            "work/writing/reader.json": "95d0e1b333045cd25f0bf7979ffc8f44729860c7df18b8f6391fe3df20b1e247"
+          },
+          "sources": [
+            {
+              "id": "S92234424087f455a",
+              "path": "sources/raw/S92234424087f455a_2026-10-27_LATEST BUSINESS UPDATE FOR THE THIRD QUARTER OF 2026__2026_c437e22e46.pdf",
+              "sha256": "92234424087f455a786558f9a9c6c900573392160a63f4720371b07ee3197490"
+            },
+            {
+              "id": "S01b68f6b1c14e53d",
+              "path": "sources/raw/S01b68f6b1c14e53d_2026-09-24_2026 INTERIM REPORT_EPORT_3ca5b69bf8.pdf",
+              "sha256": "01b68f6b1c14e53d235bf8cb476d87db1345f00eeeabc10533c820ae00894d44"
+            },
+            {
+              "id": "S1312bd4fec38932f",
+              "path": "sources/raw/S1312bd4fec38932f_披露日期未核_ANNUAL REPORT 2023__2023_c2e4bab1ae.pdf",
+              "sha256": "1312bd4fec38932f30608c7cec35ec19cc31a6cbaccb36aba9efe2b6dc8d6afa"
+            },
+            {
+              "id": "S47095a39c6425b11",
+              "path": "sources/raw/S47095a39c6425b11_2026-04-21_ANNUAL REPORT 2025__2025_bd4e173872.pdf",
+              "sha256": "47095a39c6425b11e5aaa091f456e178498d20a77d4ff6a969e351e4f5dfaaf7"
+            },
+            {
+              "id": "S9b89a4686ffb5fe8",
+              "path": "sources/raw/S9b89a4686ffb5fe8_2025-04-23_ANNUAL REPORT 2024__2024_976e7e443e.pdf",
+              "sha256": "9b89a4686ffb5fe838abd5ae8df9e7683b1de2019480e112420e49154fcfde19"
+            }
+          ],
+          "shared_dependencies": {
+            "shared/runtime/companybench/valuation_chain.py": "0155df03fa6ff2dd86a6a4c92f51f277f88e1edd45bfd972d191796276ac23ca",
+            "shared/runtime/companybench/research_depth.py": "bb364cd41336a0d3fe62d0d0663f7e8557570aeff2d201c21517259ae1404a41",
+            "scripts/recalculate_valuation.py": "711a5a9c153a834a2c28d133d24b0aec0cd93153c0baa4f1358a8b22ef4cc727",
+            "docs/投研写作规范.md": "e4cf87afffc67976148eab1d4f2aba00056a5825ba0c7ac64d7ccab1122cfb60",
+            "shared/writing-skills.json": "cad001177fa60de41d782dfbdb8d3ffbfa1ffb81a959472130c85925b6d2ab2a",
+            "app/writing.py": "083ceb8239ce4c1f76b50ead42c52d2e73068d6a564f25f6f288eb4697e947d8",
+            "scripts/recalculate_research12.py": "86555de90ecba93866e5d0c05dd7521237fd0d5f3628a56eeca9b556e7e1015f"
+          }
+        },
+        "files": [
+          {
+            "path": "outputs/research-report/v9-Obd369b921ba3/basis.json",
+            "format": "json",
+            "sha256": "5b6905f45619d8a8aaf9c3cd20cf2e66cf453bfd51e8b1867f34e665b2cee818",
+            "bytes": 308164
+          },
+          {
+            "path": "outputs/research-report/v9-Obd369b921ba3/report.html",
+            "format": "html",
+            "sha256": "8e46635332048461c900cacb92e1d7cc561ee45fd9af9eca295824f5b1bcc7fd",
+            "bytes": 12090
+          },
+          {
+            "path": "outputs/research-report/v9-Obd369b921ba3/report.md",
+            "format": "md",
+            "sha256": "346f3b22213c63b0845c0143ee6a106af1c7d6e8130e6fcc35f336380b3d7c13",
+            "bytes": 10011
+          }
+        ],
+        "needs_review": false,
+        "imported": false
+      },
+      "research_entry": "companies/09992_泡泡玛特/work/research12/index.html",
+      "first_batch": "companies/09992_泡泡玛特/work/research12/review-batch.html"
+    },
+    {
+      "company": "600298_安琪酵母",
+      "report": {
+        "id": "O65d622a19602",
+        "group": "research-report",
+        "title": "安琪酵母：历史经营分析与首版条件预测（2026-11-12）",
+        "kind": "报告草稿",
+        "version": 11,
+        "at": "2026-11-19T07:06:47.454625+00:00",
+        "actor": "Agent/test-or-api",
+        "actual_user_review": null,
+        "historical": false,
+        "bindings": {
+          "selection_ids": [
+            "R21f6d6590f9f",
+            "R2660b3bfa732",
+            "R29373d7bc0f1",
+            "R6911ffac3797",
+            "Ra9f2c23c0275",
+            "Rc307bcec6202",
+            "Rd60b7456dc65",
+            "Re0aacfad8631"
+          ],
+          "selection_scope": "all-eight-lanes",
+          "cards": {
+            "R6911ffac3797": "8545db159b5f17f7757cc937f1c4eabc6c7a4ff04efc0ba62a1b9a0d7b6579f8",
+            "Re0aacfad8631": "f77d4c68411e9cc59037a8b62c7f24c5815a9026d894a27da6bce05b0fd82d96",
+            "Ra9f2c23c0275": "8e156d142c5d73b2b829491518b6b8215a5433337b6947da795dc854aeebea6d",
+            "Rc307bcec6202": "9e6444d216c560391d00cb29bbf30f9d63b176a86b0bef480d2553d2fb7d7731",
+            "R29373d7bc0f1": "e0caadf9b1086be6880eca1a438ed33d05c402864783962f7e0dc8819323940e",
+            "R2660b3bfa732": "9b890e2d40dbf64fb7fadb95cf020c83d167f3c53b2e2f865941552dbaf95915",
+            "R21f6d6590f9f": "abecf68398243b20a1dcc082d440ec9896394e285ec5e575491cbf3642fca7f7",
+            "Rd60b7456dc65": "6c0b737110c4e5511d1d2d90bf626b9577683ecf981c5d7476c1a8ec1d930f2a"
+          },
+          "methods": [
+            {
+              "id": "K03",
+              "version": 1
+            },
+            {
+              "id": "K11",
+              "version": 1
+            },
+            {
+              "id": "E03",
+              "version": 1
+            },
+            {
+              "id": "E06",
+              "version": 1
+            },
+            {
+              "id": "K46",
+              "version": 1
+            },
+            {
+              "id": "K52",
+              "version": 1
+            },
+            {
+              "id": "K63",
+              "version": 1
+            },
+            {
+              "id": "K48",
+              "version": 1
+            },
+            {
+              "id": "K50",
+              "version": 1
+            },
+            {
+              "id": "K54",
+              "version": 1
+            },
+            {
+              "id": "K55",
+              "version": 1
+            },
+            {
+              "id": "K58",
+              "version": 1
+            },
+            {
+              "id": "K59",
+              "version": 1
+            }
+          ],
+          "inputs": {
+            "work/research12/source-data.json": "3ea9287476fd7f1809d4b7f09ab564be10abf941339f49d5d93502457a765a15",
+            "work/research12/agent-read-batches.json": "6da0192c6a7d77466aa837b026b8f102085fa143f24f17755b42a4e1cfdd7cdd",
+            "work/research12/comparability.json": "bd794012c278f2da53ac53af0b40af3c6b5f7eb36ba7092e9d92e523876d06a9",
+            "work/research12/forecast-input.json": "be48da9beb2452cb599964bf90268f8caa187988c00ab8bee87ebba4d7deb33b",
+            "work/research12/calculation.json": "6a2f2df52e887eb7bcdaf8e8cb17b7609b3ae32895a635e5760f5944f91558f3",
+            "work/research12/forecast.csv": "1203f771a1144d7a1b023723341b8f1ccb71d013eaecdf40dce210381f95d0f4",
+            "work/research12/claim-review.json": "253b0d0da4310769e2ef54cfa51e31a636d13e6f126f43de328e532e5b25d3d8",
+            "work/research12/original-batch-audit.json": "60c6297092e1250b54a31ba71a03001d76b27bb4b560d83c5332e2d6afc1921d",
+            "work/research12/authority.json": "c7a6389866e91d91b97ce0782be87f9027522816acb3b02952ea1c51dade9630",
+            "work/research12/coverage-and-gaps.json": "3a50299c83e1731713fb1f130826db60e514ca55218ae8955d13dc7f98738979",
+            "work/research12/candidate-crosswalk.json": "43ff4123bd4449fbed961760f150ce8a999ce3645c9e45f5dfc03a740735ab7f",
+            "work/valuation/index.json": "b5855ba8f1999bdb1bbadfeed49c324a459c68545465afd0207134801f3d0850",
+            "work/valuation/v1-V2cc086959eb0.json": "675da54b224ad8421abf826241a5011fa56bc798af58f5b6134f808089cc7de8",
+            "work/writing/reader.json": "89e3755737c3bda276dc545e927f94c580bc967786fbd07ded5a289aaae7417d"
+          },
+          "sources": [
+            {
+              "id": "600298-5c763f656754f15e",
+              "path": "sources/raw/02_定期报告与经营数据/2026-10-30_安琪酵母股份有限公司2026年第三季度报告_1225641080.pdf",
+              "sha256": "f4739d889d29da1a9744f1fb9428f75f6e6331572031b3de1daec550113f59d1"
+            },
+            {
+              "id": "600298-48dbfbb4962cfdb9",
+              "path": "sources/raw/01_年报/2026-08-15_安琪酵母股份有限公司2026年半年度报告_1225474683.pdf",
+              "sha256": "5a4940bc351e4d8c4c222857f896065044c944d7d9d149c1ccf598fb44bc968b"
+            },
+            {
+              "id": "600298-174439da1375f513",
+              "path": "sources/raw/01_年报/2024-03-19_安琪酵母股份有限公司2023年年度报告_1219331681.pdf",
+              "sha256": "a155225d4d63153d916fb1dee854bba75b8d5c0352a7738d4eaf926454528308"
+            },
+            {
+              "id": "600298-e14665c0175d59df",
+              "path": "sources/raw/01_年报/2025-04-10_安琪酵母股份有限公司2024年年度报告_1223046779.pdf",
+              "sha256": "9bf55c16321d41dc6ba7a7b980dfad4a76f291cdba5fb0bd447433028de31f46"
+            },
+            {
+              "id": "600298-d5b6bb897b9dc0d3",
+              "path": "sources/raw/01_年报/2025-08-15_安琪酵母股份有限公司2025年半年度报告_1224486290.pdf",
+              "sha256": "d1fd851febf46edfce4cb4a301dbf88af68227796e79d078e39ecb1da6419145"
+            },
+            {
+              "id": "600298-7a9cbdaf728861fa",
+              "path": "sources/raw/02_定期报告与经营数据/2025-10-30_安琪酵母股份有限公司2025年第三季度报告_1224759133.pdf",
+              "sha256": "05deb79b5ce1807d0d507a1759c78289dd6644d7ff1566513e52fb79211a89eb"
+            },
+            {
+              "id": "600298-a14b53fefcfc0356",
+              "path": "sources/raw/01_年报/2026-03-31_安琪酵母股份有限公司2025年年度报告_1225056953.pdf",
+              "sha256": "7bee6f0f30a5da24746dd431f1947f15c8189fa9fbf5db75df4d3ba3c512c800"
+            }
+          ],
+          "shared_dependencies": {
+            "shared/runtime/companybench/valuation_chain.py": "0155df03fa6ff2dd86a6a4c92f51f277f88e1edd45bfd972d191796276ac23ca",
+            "shared/runtime/companybench/research_depth.py": "bb364cd41336a0d3fe62d0d0663f7e8557570aeff2d201c21517259ae1404a41",
+            "scripts/recalculate_valuation.py": "711a5a9c153a834a2c28d133d24b0aec0cd93153c0baa4f1358a8b22ef4cc727",
+            "docs/投研写作规范.md": "e4cf87afffc67976148eab1d4f2aba00056a5825ba0c7ac64d7ccab1122cfb60",
+            "shared/writing-skills.json": "cad001177fa60de41d782dfbdb8d3ffbfa1ffb81a959472130c85925b6d2ab2a",
+            "app/writing.py": "083ceb8239ce4c1f76b50ead42c52d2e73068d6a564f25f6f288eb4697e947d8",
+            "scripts/recalculate_research12.py": "86555de90ecba93866e5d0c05dd7521237fd0d5f3628a56eeca9b556e7e1015f"
+          }
+        },
+        "files": [
+          {
+            "path": "outputs/research-report/v11-O65d622a19602/basis.json",
+            "format": "json",
+            "sha256": "0b09a35faf9a035f3a4784e305f333b75a32cdca4b86f99b9583172eb5269044",
+            "bytes": 454371
+          },
+          {
+            "path": "outputs/research-report/v11-O65d622a19602/report.html",
+            "format": "html",
+            "sha256": "cb7357c28ac58aa1dca84170bf35d642875dfa8f702aee28965713a4eb82469c",
+            "bytes": 13776
+          },
+          {
+            "path": "outputs/research-report/v11-O65d622a19602/report.md",
+            "format": "md",
+            "sha256": "d9d09a7dbeeb834355a59f59a50cd9d3050c586ec9fc9f7973ecf1b6e0015568",
+            "bytes": 11271
+          }
+        ],
+        "needs_review": false,
+        "imported": false
+      },
+      "research_entry": "companies/600298_安琪酵母/work/research12/index.html",
+      "first_batch": "companies/600298_安琪酵母/work/research12/review-batch.html"
+    },
+    {
+      "company": "688188_柏楚电子",
+      "report": {
+        "id": "Oc7d782580caa",
+        "group": "research-report",
+        "title": "柏楚电子：历史经营分析与首版条件预测（2026-11-12）",
+        "kind": "报告草稿",
+        "version": 10,
+        "at": "2026-11-19T07:06:48.359068+00:00",
+        "actor": "Agent/test-or-api",
+        "actual_user_review": null,
+        "historical": false,
+        "bindings": {
+          "selection_ids": [
+            "R1622b2e65098",
+            "R42383f58e180",
+            "R6ef717bb11b9",
+            "R9b91e4658392",
+            "Rc91d3bad8c35",
+            "Rd192d88d9be7",
+            "Rd3892afbfc24",
+            "Re652de68ca00"
+          ],
+          "selection_scope": "all-eight-lanes",
+          "cards": {
+            "Rc91d3bad8c35": "e7c8070436ebf26e2d3cda0463fb82bbde2648717923340a2c7b13cd712e8064",
+            "R42383f58e180": "128ebd54b43a5f1ce4cdc5115ccb07656f392a6e97bacaef1d27b30b14282850",
+            "Re652de68ca00": "f530f94190171f0f15b7104600cb7071432bd13d82f3238758cefce3926633c3",
+            "R1622b2e65098": "7e8534db58d882b2cc5050bb232b70bf7f401402750d2420f8c2b70df3178bf6",
+            "R9b91e4658392": "a8cd08363d07be8879cfbb4352a514ad77bb76f2494ca94b4d5853f50298c27a",
+            "Rd192d88d9be7": "072b49e301d2e0c0b8c64c27155091173fec95ce7b64f69f0ec7cd50ab6ab607",
+            "R6ef717bb11b9": "6db31be7ce91bc85a1b9c93787ab097ae287d79566430fe708a2698256ded92c",
+            "Rd3892afbfc24": "3055dd478806ce01b3bf9387a4edadf3fc1edfb63b7cd5f5be1b83dc62a437e6"
+          },
+          "methods": [
+            {
+              "id": "K02",
+              "version": 1
+            },
+            {
+              "id": "E02",
+              "version": 1
+            },
+            {
+              "id": "E03",
+              "version": 1
+            },
+            {
+              "id": "E07",
+              "version": 1
+            },
+            {
+              "id": "K46",
+              "version": 1
+            },
+            {
+              "id": "K52",
+              "version": 1
+            },
+            {
+              "id": "K63",
+              "version": 1
+            },
+            {
+              "id": "K48",
+              "version": 1
+            },
+            {
+              "id": "K53",
+              "version": 1
+            },
+            {
+              "id": "K50",
+              "version": 1
+            },
+            {
+              "id": "K57",
+              "version": 1
+            },
+            {
+              "id": "K59",
+              "version": 1
+            },
+            {
+              "id": "K62",
+              "version": 1
+            }
+          ],
+          "inputs": {
+            "work/research12/source-data.json": "84f0b1b85033f7ce4b7d40593645e38b3f8cae6299ef3c89d55f1b7f90a0569b",
+            "work/research12/agent-read-batches.json": "d99a4b38812b02d3966d4a65eaf6ae2806a5fee37f56e54b1212287c534ebbc4",
+            "work/research12/comparability.json": "b36d671d12b3d74dc3607533ebc85f40fe5106baf983da1354231d636aa6b425",
+            "work/research12/forecast-input.json": "2fbf791b5cbcd2cbd72419ba7e6015035eb4e7dca6e6dadc469bb814d792e095",
+            "work/research12/calculation.json": "74a3c5b017168997200fbf07ce53274397c6ee6f2c3f04be860d53974088dc84",
+            "work/research12/forecast.csv": "d1826485b44d0a8d8a0ef7457a1b47462c4480004c237555afd8b78fbc044547",
+            "work/research12/claim-review.json": "10eb611dc9e06232d268b9c2ed0b1c07e4c22f6431b870b3bc49f0005286c97d",
+            "work/research12/original-batch-audit.json": "9ba8112f177dbe1059ae62fe1f4a7c18729b5217f3ac0406ed6f0da70809e23a",
+            "work/research12/authority.json": "b3dd5eeef40232be415ffcedf5e0bfa854e18a190e717de7f21403d854a4eecd",
+            "work/research12/coverage-and-gaps.json": "91ccd705baf41f9b60f1ff7396d68eeb6a3f5b50179ebb9669ab11c064c262f2",
+            "work/research12/candidate-crosswalk.json": "a0fb874f8080c8246e3ce4ae19fdc5902876af75be1e6d8b51a91f351889184e",
+            "work/valuation/index.json": "5becdf6a6504467898eae0deaa648b49a7d092fb7ed0f3b5d34cd48e19eccf0b",
+            "work/valuation/v1-V8fb3181b10d1.json": "e0827fa29a13f73fd0ce57f0e735a1824af4242b8801f31db5fa491ebf4a6498",
+            "work/writing/reader.json": "295e45ff396954f3eed9ccec19213a4b262b2d0509378d354940f5eddb46fe80"
+          },
+          "sources": [
+            {
+              "id": "688188-d931e02dd1c67f13",
+              "path": "sources/raw/01_年报/2024-03-20_2023年年度报告_1219348501.pdf",
+              "sha256": "93fdca19fb7b31a44ef6ba2351e98bec41188f89831c1107ee6964a9f50dff85"
+            },
+            {
+              "id": "688188-fed67b607fa475a7",
+              "path": "sources/raw/02_定期报告与经营数据/2026-10-27_2026年第三季度报告_1225622322.pdf",
+              "sha256": "33f3c5e4de011f9858e98a1034e672104e0435fda3bdeec651a04c83fd6887ef"
+            },
+            {
+              "id": "688188-11b75f99cd3e9d88",
+              "path": "sources/raw/02_定期报告与经营数据/2025-08-22_2025年半年度报告_1224531818.pdf",
+              "sha256": "e274c8b6ef5b570fad2f31b60bc07a11b179e8efb97842b4a89fc09e6121f58d"
+            },
+            {
+              "id": "688188-1b8da0c258b17633",
+              "path": "sources/raw/02_定期报告与经营数据/2025-10-28_2025年第三季度报告_1224745509.pdf",
+              "sha256": "cf6ef6e1bee2c6db9373dd434c4f8774e9f634066fcd0e8c3f7170dde43b4fe0"
+            },
+            {
+              "id": "688188-4daf701c6095d460",
+              "path": "sources/raw/01_年报/2025-04-03_2024年年度报告_1222993275.pdf",
+              "sha256": "fdba15e44169cf958098ed9e88faf42452ebd3eb190a52c61caa69ee0609e629"
+            },
+            {
+              "id": "688188-20b73bb3528dbdbe",
+              "path": "sources/raw/02_定期报告与经营数据/2026-08-18_2026年半年度报告_1225477071.pdf",
+              "sha256": "caa94577eda863f238933d192305884ec05c01cf6aad7a2ba89fe96ef8259eb1"
+            },
+            {
+              "id": "688188-a343f0dc3c27d114",
+              "path": "sources/raw/01_年报/2026-04-10_2025年年度报告_1225091045.pdf",
+              "sha256": "e12688b3c2e80e63fae0008983426c644a0ca5bc0da6bed30f9b45f635ecfed2"
+            }
+          ],
+          "shared_dependencies": {
+            "shared/runtime/companybench/valuation_chain.py": "0155df03fa6ff2dd86a6a4c92f51f277f88e1edd45bfd972d191796276ac23ca",
+            "shared/runtime/companybench/research_depth.py": "bb364cd41336a0d3fe62d0d0663f7e8557570aeff2d201c21517259ae1404a41",
+            "scripts/recalculate_valuation.py": "711a5a9c153a834a2c28d133d24b0aec0cd93153c0baa4f1358a8b22ef4cc727",
+            "docs/投研写作规范.md": "e4cf87afffc67976148eab1d4f2aba00056a5825ba0c7ac64d7ccab1122cfb60",
+            "shared/writing-skills.json": "cad001177fa60de41d782dfbdb8d3ffbfa1ffb81a959472130c85925b6d2ab2a",
+            "app/writing.py": "083ceb8239ce4c1f76b50ead42c52d2e73068d6a564f25f6f288eb4697e947d8",
+            "scripts/recalculate_research12.py": "86555de90ecba93866e5d0c05dd7521237fd0d5f3628a56eeca9b556e7e1015f"
+          }
+        },
+        "files": [
+          {
+            "path": "outputs/research-report/v10-Oc7d782580caa/basis.json",
+            "format": "json",
+            "sha256": "5df277e9f784240d591df3b887ada11a58efd50a9403f18bed6d1f8b67150bfd",
+            "bytes": 432418
+          },
+          {
+            "path": "outputs/research-report/v10-Oc7d782580caa/report.html",
+            "format": "html",
+            "sha256": "da2a3917300aba6bd87c6738592e9dce278af4ddd47f021db2af9550d5e198cc",
+            "bytes": 12769
+          },
+          {
+            "path": "outputs/research-report/v10-Oc7d782580caa/report.md",
+            "format": "md",
+            "sha256": "021b9da070217b354e1a4ae701727f6c439685e40fec564a43daec144073ef46",
+            "bytes": 10435
+          }
+        ],
+        "needs_review": false,
+        "imported": false
+      },
+      "research_entry": "companies/688188_柏楚电子/work/research12/index.html",
+      "first_batch": "companies/688188_柏楚电子/work/research12/review-batch.html"
+    },
+    {
+      "company": "US_ISRG_直觉外科",
+      "report": {
+        "id": "O2abef0afe9b7",
+        "group": "research-report",
+        "title": "Intuitive Surgical（ISRG）：历史经营分析与首版条件预测（2026-11-12）",
+        "kind": "报告草稿",
+        "version": 6,
+        "at": "2026-11-19T07:06:49.337325+00:00",
+        "actor": "Agent/test-or-api",
+        "actual_user_review": null,
+        "historical": false,
+        "bindings": {
+          "selection_ids": [
+            "R13e68bc03271",
+            "R143dc49386bb",
+            "R1879b1d90070",
+            "R3fe807f7f8f2",
+            "R4257c7215539",
+            "R93279d7b4123",
+            "Rc4f28a3b6f14",
+            "Re4a5d5334869"
+          ],
+          "selection_scope": "all-eight-lanes",
+          "cards": {
+            "Re4a5d5334869": "321157b0975c0fd26149de49ee6a7a1713a3059e352492b3d40709f3015148b2",
+            "R4257c7215539": "9cbd1f741ce3d469550010e2b684a307ea72eca2bffd21e65fc765914baf643c",
+            "R13e68bc03271": "5ab3c4213c14022dc8f0bd4dba1a48a44941ff9df1ec8f4656a9d7aac34f0383",
+            "R143dc49386bb": "0d7def972705e3e7814eec56b3af8b26ea40c321bc6f1dad91eb9919f1b28f48",
+            "R3fe807f7f8f2": "fff497cad81a3b13256f1b2f6dd940cf5b8c503f6c6705e9ed2d464872a36f3a",
+            "Rc4f28a3b6f14": "a73f10ad46d5a7076b325623071aad5c8e2fc440e5aa582b0563d94cf990dcf6",
+            "R93279d7b4123": "b161d22c55dbe3e1a25c6370f8eb4f2e20eee224cd9579841eddb3a68237af68",
+            "R1879b1d90070": "f9958256c14858e00838733195934dabd19032534b8591fa0d28f1871b0206f6"
+          },
+          "methods": [
+            {
+              "id": "K46",
+              "version": 1
+            },
+            {
+              "id": "K48",
+              "version": 1
+            },
+            {
+              "id": "K50",
+              "version": 1
+            },
+            {
+              "id": "K53",
+              "version": 1
+            },
+            {
+              "id": "K57",
+              "version": 1
+            },
+            {
+              "id": "K58",
+              "version": 1
+            },
+            {
+              "id": "K59",
+              "version": 1
+            },
+            {
+              "id": "K63",
+              "version": 1
+            }
+          ],
+          "inputs": {
+            "work/research12/source-data.json": "b9412b1d181b0585fdd95cd227b225494f51ba380b54d6213c6c7203d131f6e5",
+            "work/research12/agent-read-batches.json": "a6f426038dd6bde0f3f230e60f7851de0181e3a45dbbcbbd226487d0c302cd16",
+            "work/research12/comparability.json": "7c1943d2908193b4622084380a7577d90d5bcc149f9886fb7522cd64a8789312",
+            "work/research12/forecast-input.json": "5e36d8adc460a53b0e152c4bddae63a9b5da19216ee7e3432e3837b69fb1a3e1",
+            "work/research12/calculation.json": "c8e7415ac69f717b351dd5f8a8484a8eb673a8bb0f79722e6a1307fb6ba12c89",
+            "work/research12/forecast.csv": "0c0c78a326d7b95a1aa00a7f948bcf4e95ccabb216925497f57aca59f8173612",
+            "work/research12/claim-review.json": "f9a592949c130608d6de324fae2bc912c6ed8ef702d282c6c21c7459e26c5801",
+            "work/research12/original-batch-audit.json": "3d549142efeb8914c6da250a64793e5e9722b348814355aec9735c6dcc76cfca",
+            "work/research12/authority.json": "217bd8432190d55d7bc89b0d589470babf7c7bbea30298b528b8782f9c017f9a",
+            "work/research12/coverage-and-gaps.json": "8efc57d3786c8c76a7d5612c0cd47629bb39cc33dc69b0342daff187a880ca8f",
+            "work/research12/candidate-crosswalk.json": "cc0d9e1a1d93a692c7943c1f87130c7b37a4e9d391bac6ae5feb55a01055e5a6",
+            "work/research12/competition-evidence.json": "ea06c86fd9c8741836a4dadc002e4f81d8e1cfec53ff6f5dde37eb28a3098b4f",
+            "work/valuation/index.json": "304a5f3d53b4ab02d733fc359a74ab2a19cd25d6e7207c8752caeb737c31b43b",
+            "work/valuation/v1-Vd4916286e592.json": "cf9328453ab77bcab35d531773fab094b988aa908358dd6c39a4ffc951d4e606",
+            "work/writing/reader.json": "f52d32d493e14c042553264127ca5e60134a1e070c8173e20daa77241ebf1268"
+          },
+          "sources": [
+            {
+              "id": "Se0c87c58c13b5968",
+              "path": "sources/raw/Se0c87c58c13b5968.pdf",
+              "sha256": "efc6f3341193bffa4671bdbdcb547a86c04f675f65c15b37522437fc8acb30f2"
+            },
+            {
+              "id": "Se7f95d2f97642180",
+              "path": "sources/raw/Se7f95d2f97642180.html",
+              "sha256": "bdcd15add5b70b03a8342ffe169b54530d4805c9e4c12796985d3245993ac991"
+            },
+            {
+              "id": "S83c179dfd93521d4",
+              "path": "sources/raw/S83c179dfd93521d4.html",
+              "sha256": "df5b434e5ae926551c12632ba637d5d182aa1fdf3eab00b5668983bc86c3ac61"
+            },
+            {
+              "id": "S62ee221f79d393a3",
+              "path": "sources/raw/S62ee221f79d393a3.html",
+              "sha256": "2fa78f70f69bc2c0fbe7979860d040d8eb86c2d7e4bf48894230ccd0e1aafc09"
+            },
+            {
+              "id": "Sedbd7176dea63afe",
+              "path": "sources/raw/Sedbd7176dea63afe.pdf",
+              "sha256": "31929da0811422dc806b07dc678cfc16616b986337a21a0afcd67256ca098f8d"
+            }
+          ],
+          "shared_dependencies": {
+            "shared/runtime/companybench/valuation_chain.py": "0155df03fa6ff2dd86a6a4c92f51f277f88e1edd45bfd972d191796276ac23ca",
+            "shared/runtime/companybench/research_depth.py": "bb364cd41336a0d3fe62d0d0663f7e8557570aeff2d201c21517259ae1404a41",
+            "scripts/recalculate_valuation.py": "711a5a9c153a834a2c28d133d24b0aec0cd93153c0baa4f1358a8b22ef4cc727",
+            "docs/投研写作规范.md": "e4cf87afffc67976148eab1d4f2aba00056a5825ba0c7ac64d7ccab1122cfb60",
+            "shared/writing-skills.json": "cad001177fa60de41d782dfbdb8d3ffbfa1ffb81a959472130c85925b6d2ab2a",
+            "app/writing.py": "083ceb8239ce4c1f76b50ead42c52d2e73068d6a564f25f6f288eb4697e947d8",
+            "scripts/recalculate_research12.py": "86555de90ecba93866e5d0c05dd7521237fd0d5f3628a56eeca9b556e7e1015f"
+          }
+        },
+        "files": [
+          {
+            "path": "outputs/research-report/v6-O2abef0afe9b7/basis.json",
+            "format": "json",
+            "sha256": "58e3916a7963707626e36c517204b53b247812599835d78b5fa360b15961fad4",
+            "bytes": 530067
+          },
+          {
+            "path": "outputs/research-report/v6-O2abef0afe9b7/report.html",
+            "format": "html",
+            "sha256": "aa75d7da48945321e93135ff5ae8edce07a0c02b8f9f7285fe4b601bec730329",
+            "bytes": 12117
+          },
+          {
+            "path": "outputs/research-report/v6-O2abef0afe9b7/report.md",
+            "format": "md",
+            "sha256": "77bb050a13dd339884c748ae7fadbbcff04477e89141e9e5b51c7bcdacff3bdd",
+            "bytes": 10416
+          }
+        ],
+        "needs_review": false,
+        "imported": false
+      },
+      "research_entry": "companies/US_ISRG_直觉外科/work/research12/index.html",
+      "first_batch": "companies/US_ISRG_直觉外科/work/research12/review-batch.html"
+    }
+  ],
+  "actual_user_review": null
+}

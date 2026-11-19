@@ -494,9 +494,18 @@
           "bytes": 20463
         }
       ],
-      "needs_review": false,
+      "needs_review": true,
       "imported": false,
-      "impact_reasons": [],
+      "impact_reasons": [
+        "研究卡变化:R7d8112e87a58",
+        "研究卡变化:R7bfc89d395aa",
+        "研究卡变化:R58b870a4ee64",
+        "研究卡变化:R8c387d2da2f6",
+        "研究卡变化:R14c10b3a792a",
+        "研究卡变化:Rbd733d44d823",
+        "研究卡变化:Ra42a6324bb1c",
+        "研究卡变化:Rad6660d577af"
+      ],
       "file_integrity": true
     },
     {
@@ -508,7 +517,7 @@
       "at": "2026-11-12T04:33:21.285969+00:00",
       "actor": "Agent/test-or-api",
       "actual_user_review": null,
-      "historical": false,
+      "historical": true,
       "bindings": {
         "selection_ids": [
           "R14c10b3a792a",
@@ -635,6 +644,517 @@
           "format": "md",
           "sha256": "b6c1b8f213906a442a8793f3df3e13f73c1d708ddd974bc77f17f6db5a1300bd",
           "bytes": 6117
+        }
+      ],
+      "needs_review": true,
+      "imported": false,
+      "impact_reasons": [
+        "研究卡变化:R7d8112e87a58",
+        "研究卡变化:R7bfc89d395aa",
+        "研究卡变化:R58b870a4ee64",
+        "研究卡变化:R8c387d2da2f6",
+        "研究卡变化:R14c10b3a792a",
+        "研究卡变化:Rbd733d44d823",
+        "研究卡变化:Ra42a6324bb1c",
+        "研究卡变化:Rad6660d577af",
+        "输入文件变化:work/writing/reader.json"
+      ],
+      "file_integrity": true
+    },
+    {
+      "id": "O2a3c0286ba17",
+      "group": "research-report",
+      "title": "泡泡玛特：历史经营分析与首版条件预测（2026-11-12）",
+      "kind": "报告草稿",
+      "version": 7,
+      "at": "2026-11-12T06:19:09.917001+00:00",
+      "actor": "Agent/test-or-api",
+      "actual_user_review": null,
+      "historical": true,
+      "bindings": {
+        "selection_ids": [
+          "R14c10b3a792a",
+          "R58b870a4ee64",
+          "R7bfc89d395aa",
+          "R7d8112e87a58",
+          "R8c387d2da2f6",
+          "Ra42a6324bb1c",
+          "Rad6660d577af",
+          "Rbd733d44d823"
+        ],
+        "selection_scope": "all-eight-lanes",
+        "cards": {
+          "R7d8112e87a58": "d162c079bc0ca6203122cf9568943a3acbfc4cfe1dbfa2882a1c50c792563b3d",
+          "R7bfc89d395aa": "d8bcd0c29a158e0297f716417890391e245784d6700480183a5594096f55239a",
+          "R58b870a4ee64": "19a8e5c895a68d7cfd4b207817fdcad4f981af0c4dc079083ea78b212cb1f2ce",
+          "Rad6660d577af": "d0494669e36a65aebfa04b8d55adb88852ba5acbb1f032a0e5488d79f3d1eca9",
+          "R8c387d2da2f6": "e71f28952324ad9351afda413d62accdd046c8b50e545081153d89a7b76c151f",
+          "R14c10b3a792a": "aa6a35bbffc854779af982a3382087e6043ba5f3e666222e246af3f6285d9f28",
+          "Rbd733d44d823": "535bde5a063411269ea5b5ab9a277da0470c4598ddaaa1eb18c3d87657955a45",
+          "Ra42a6324bb1c": "a960db5e740112ab246d47f37df900ea9a8b5bf280c76d3303f79d12e55864be"
+        },
+        "methods": [
+          {
+            "id": "K03",
+            "version": 1
+          },
+          {
+            "id": "K09",
+            "version": 1
+          },
+          {
+            "id": "E04",
+            "version": 1
+          },
+          {
+            "id": "E08",
+            "version": 1
+          },
+          {
+            "id": "K46",
+            "version": 1
+          },
+          {
+            "id": "K52",
+            "version": 1
+          },
+          {
+            "id": "K63",
+            "version": 1
+          },
+          {
+            "id": "K49",
+            "version": 1
+          },
+          {
+            "id": "K53",
+            "version": 1
+          },
+          {
+            "id": "K55",
+            "version": 1
+          },
+          {
+            "id": "K57",
+            "version": 1
+          },
+          {
+            "id": "K59",
+            "version": 1
+          }
+        ],
+        "inputs": {
+          "work/research12/source-data.json": "48bd8646666fea5bfb256748bef102dfa7d03347cc6bd630547343ed68d5ce38",
+          "work/research12/agent-read-batches.json": "98114016b5c60c5ef325b3dd9052cba7b2c25a26392f46396e68e6e3a5be51e0",
+          "work/research12/comparability.json": "7c1943d2908193b4622084380a7577d90d5bcc149f9886fb7522cd64a8789312",
+          "work/research12/forecast-input.json": "86a9242561ec63ee2e692e25ac6791a17c0b7bd92c7c06179dbcc4d57b237aa9",
+          "work/research12/calculation.json": "77d3da366a965eeb2a313fc59719b6a11e688f9556fe14e5102a4f95d04d2950",
+          "work/research12/forecast.csv": "13ab8ba5efd062618e6eab4b174128e8b927b6f258e85caad95a4e4ca9f3aaf5",
+          "work/research12/claim-review.json": "2d270707ed2e259c5ee969e0c39cb241d0ef94de1c6bbebfd99dae377af5d4c4",
+          "work/research12/authority.json": "a3f946cbabbc5e9bb2d14bb3287c27de24a2a7d63547f65e3ab8314fa637e32c",
+          "work/valuation/index.json": "9ea379ecae2e3d53d409bc24d3e0a9320ba394cdf5876c1767d43cfc282d8f56",
+          "work/valuation/v1-V641d287771d9.json": "c07916fa7a6f18a11c14b5cd949cf6ab89d16ff5cf7c237d07b52b95c2b70e14",
+          "work/writing/reader.json": "98c3d8a22dfa5c86eb5e23662f7b659b46c0cdbfe501052f25103bb40b56e8c2"
+        },
+        "sources": [
+          {
+            "id": "S9b89a4686ffb5fe8",
+            "path": "sources/raw/S9b89a4686ffb5fe8_2025-04-23_ANNUAL REPORT 2024__2024_976e7e443e.pdf",
+            "sha256": "9b89a4686ffb5fe838abd5ae8df9e7683b1de2019480e112420e49154fcfde19"
+          },
+          {
+            "id": "S01b68f6b1c14e53d",
+            "path": "sources/raw/S01b68f6b1c14e53d_2026-09-24_2026 INTERIM REPORT_EPORT_3ca5b69bf8.pdf",
+            "sha256": "01b68f6b1c14e53d235bf8cb476d87db1345f00eeeabc10533c820ae00894d44"
+          },
+          {
+            "id": "S47095a39c6425b11",
+            "path": "sources/raw/S47095a39c6425b11_2026-04-21_ANNUAL REPORT 2025__2025_bd4e173872.pdf",
+            "sha256": "47095a39c6425b11e5aaa091f456e178498d20a77d4ff6a969e351e4f5dfaaf7"
+          },
+          {
+            "id": "S1312bd4fec38932f",
+            "path": "sources/raw/S1312bd4fec38932f_披露日期未核_ANNUAL REPORT 2023__2023_c2e4bab1ae.pdf",
+            "sha256": "1312bd4fec38932f30608c7cec35ec19cc31a6cbaccb36aba9efe2b6dc8d6afa"
+          }
+        ],
+        "shared_dependencies": {
+          "shared/runtime/companybench/valuation_chain.py": "0155df03fa6ff2dd86a6a4c92f51f277f88e1edd45bfd972d191796276ac23ca",
+          "shared/runtime/companybench/research_depth.py": "bb364cd41336a0d3fe62d0d0663f7e8557570aeff2d201c21517259ae1404a41",
+          "scripts/recalculate_valuation.py": "711a5a9c153a834a2c28d133d24b0aec0cd93153c0baa4f1358a8b22ef4cc727",
+          "docs/投研写作规范.md": "e4cf87afffc67976148eab1d4f2aba00056a5825ba0c7ac64d7ccab1122cfb60",
+          "shared/writing-skills.json": "cad001177fa60de41d782dfbdb8d3ffbfa1ffb81a959472130c85925b6d2ab2a",
+          "app/writing.py": "083ceb8239ce4c1f76b50ead42c52d2e73068d6a564f25f6f288eb4697e947d8",
+          "scripts/recalculate_research12.py": "6f6b1fd983d8eb8361452ce975f8257bff2338cdb91070ef42c1721c4a02642a"
+        }
+      },
+      "files": [
+        {
+          "path": "outputs/research-report/v7-O2a3c0286ba17/basis.json",
+          "format": "json",
+          "sha256": "ccdaf83d1dedfdf83b60f2e3478b568b4702dbbee8a99402423a75b57381af20",
+          "bytes": 259637
+        },
+        {
+          "path": "outputs/research-report/v7-O2a3c0286ba17/report.html",
+          "format": "html",
+          "sha256": "035f70e5c3d729bfff0bcd17e9545cab9b45b58a5b7a4173ea35a2e2ad114b3c",
+          "bytes": 11121
+        },
+        {
+          "path": "outputs/research-report/v7-O2a3c0286ba17/report.md",
+          "format": "md",
+          "sha256": "01d6df8e0da1666090c92db198df6b313db4f67805a8ea653b3a0323cd56de21",
+          "bytes": 9214
+        }
+      ],
+      "needs_review": true,
+      "imported": false,
+      "impact_reasons": [
+        "研究卡变化:R7d8112e87a58",
+        "研究卡变化:R7bfc89d395aa",
+        "研究卡变化:R58b870a4ee64",
+        "研究卡变化:Rad6660d577af",
+        "研究卡变化:R8c387d2da2f6",
+        "研究卡变化:R14c10b3a792a",
+        "研究卡变化:Rbd733d44d823",
+        "研究卡变化:Ra42a6324bb1c",
+        "共享计算依赖变化:scripts/recalculate_research12.py",
+        "输入文件变化:work/research12/source-data.json",
+        "输入文件变化:work/research12/calculation.json",
+        "输入文件变化:work/research12/claim-review.json",
+        "输入文件变化:work/research12/authority.json",
+        "输入文件变化:work/writing/reader.json"
+      ],
+      "file_integrity": true
+    },
+    {
+      "id": "O67be89b2f896",
+      "group": "research-report",
+      "title": "泡泡玛特：历史经营分析与首版条件预测（2026-11-12）",
+      "kind": "报告草稿",
+      "version": 8,
+      "at": "2026-11-12T06:27:31.448056+00:00",
+      "actor": "Agent/test-or-api",
+      "actual_user_review": null,
+      "historical": true,
+      "bindings": {
+        "selection_ids": [
+          "R14c10b3a792a",
+          "R58b870a4ee64",
+          "R7bfc89d395aa",
+          "R7d8112e87a58",
+          "R8c387d2da2f6",
+          "Ra42a6324bb1c",
+          "Rad6660d577af",
+          "Rbd733d44d823"
+        ],
+        "selection_scope": "all-eight-lanes",
+        "cards": {
+          "R7d8112e87a58": "e85f6eb5dc56edd8f39f90faaeb2b58d3a91ed9733fceb8639706fd4394872ae",
+          "R7bfc89d395aa": "2a5d4b1aa250a44c0b75b80c4a5f58152a1351b343f0b4b5d677b19cbc500274",
+          "R58b870a4ee64": "786707d05ac61cc25ff168369c5c465edf97c89e4ca5b3a23c23a47ff4e733fa",
+          "Rad6660d577af": "51d36aff9e401393b98cbdf36f35afc7bda794852c10f49061c9b9347944c6a9",
+          "R8c387d2da2f6": "3a6db7f19d6fcca8471c115fbe0bdf7ad89d00e67c0b1a6c1106d34a296bdc92",
+          "R14c10b3a792a": "df70bedf1f5ffc83e1dcd668e9334fdee0e8e9181f06e53c2656673cba9a069d",
+          "Rbd733d44d823": "1d8ad21b42153245a0e92d78fd5cc50d8723d279a7151487f5c2878e01227a00",
+          "Ra42a6324bb1c": "7f21d00d4e37d6b24158c9d58ee4f5f1782ac31cee90295d378034b719da86ab"
+        },
+        "methods": [
+          {
+            "id": "K03",
+            "version": 1
+          },
+          {
+            "id": "K09",
+            "version": 1
+          },
+          {
+            "id": "E04",
+            "version": 1
+          },
+          {
+            "id": "E08",
+            "version": 1
+          },
+          {
+            "id": "K46",
+            "version": 1
+          },
+          {
+            "id": "K52",
+            "version": 1
+          },
+          {
+            "id": "K63",
+            "version": 1
+          },
+          {
+            "id": "K49",
+            "version": 1
+          },
+          {
+            "id": "K53",
+            "version": 1
+          },
+          {
+            "id": "K55",
+            "version": 1
+          },
+          {
+            "id": "K57",
+            "version": 1
+          },
+          {
+            "id": "K59",
+            "version": 1
+          }
+        ],
+        "inputs": {
+          "work/research12/source-data.json": "94f6dd956beb84898f5bc084805a6ff59b2e41fbb5e9b00c4bd28b3b25af6c67",
+          "work/research12/agent-read-batches.json": "98114016b5c60c5ef325b3dd9052cba7b2c25a26392f46396e68e6e3a5be51e0",
+          "work/research12/comparability.json": "7c1943d2908193b4622084380a7577d90d5bcc149f9886fb7522cd64a8789312",
+          "work/research12/forecast-input.json": "86a9242561ec63ee2e692e25ac6791a17c0b7bd92c7c06179dbcc4d57b237aa9",
+          "work/research12/calculation.json": "d9bdc68984bc939967f4b8e5a1626a83e7bc8c04d6898611dff3e18a7f4964a0",
+          "work/research12/forecast.csv": "13ab8ba5efd062618e6eab4b174128e8b927b6f258e85caad95a4e4ca9f3aaf5",
+          "work/research12/claim-review.json": "9dbb7bf38ccb04e2c0dd05a437855f95e58ddef37680e7fadaff47a8ba01188f",
+          "work/research12/authority.json": "d1aa903f1a91c1aab21d544a25761257b1d54abe6f3cca046ce5834f1f7efb27",
+          "work/research12/coverage-and-gaps.json": "9e8f928c71dd3adb8cff48194d9ee3b08674c6d8bd418c493ddca3e3b8eb06d0",
+          "work/research12/candidate-crosswalk.json": "95437fcc9f08e7f29b929af3ad21df4efb3f7667235b1cd06db5d5646a32bf0e",
+          "work/valuation/index.json": "9ea379ecae2e3d53d409bc24d3e0a9320ba394cdf5876c1767d43cfc282d8f56",
+          "work/valuation/v1-V641d287771d9.json": "c07916fa7a6f18a11c14b5cd949cf6ab89d16ff5cf7c237d07b52b95c2b70e14",
+          "work/writing/reader.json": "da2a645e1854d478dfb6b4fa127eb5056d7ad5d95d4d650086c7392c6d06b4b4"
+        },
+        "sources": [
+          {
+            "id": "S92234424087f455a",
+            "path": "sources/raw/S92234424087f455a_2026-10-27_LATEST BUSINESS UPDATE FOR THE THIRD QUARTER OF 2026__2026_c437e22e46.pdf",
+            "sha256": "92234424087f455a786558f9a9c6c900573392160a63f4720371b07ee3197490"
+          },
+          {
+            "id": "S1312bd4fec38932f",
+            "path": "sources/raw/S1312bd4fec38932f_披露日期未核_ANNUAL REPORT 2023__2023_c2e4bab1ae.pdf",
+            "sha256": "1312bd4fec38932f30608c7cec35ec19cc31a6cbaccb36aba9efe2b6dc8d6afa"
+          },
+          {
+            "id": "S47095a39c6425b11",
+            "path": "sources/raw/S47095a39c6425b11_2026-04-21_ANNUAL REPORT 2025__2025_bd4e173872.pdf",
+            "sha256": "47095a39c6425b11e5aaa091f456e178498d20a77d4ff6a969e351e4f5dfaaf7"
+          },
+          {
+            "id": "S01b68f6b1c14e53d",
+            "path": "sources/raw/S01b68f6b1c14e53d_2026-09-24_2026 INTERIM REPORT_EPORT_3ca5b69bf8.pdf",
+            "sha256": "01b68f6b1c14e53d235bf8cb476d87db1345f00eeeabc10533c820ae00894d44"
+          },
+          {
+            "id": "S9b89a4686ffb5fe8",
+            "path": "sources/raw/S9b89a4686ffb5fe8_2025-04-23_ANNUAL REPORT 2024__2024_976e7e443e.pdf",
+            "sha256": "9b89a4686ffb5fe838abd5ae8df9e7683b1de2019480e112420e49154fcfde19"
+          }
+        ],
+        "shared_dependencies": {
+          "shared/runtime/companybench/valuation_chain.py": "0155df03fa6ff2dd86a6a4c92f51f277f88e1edd45bfd972d191796276ac23ca",
+          "shared/runtime/companybench/research_depth.py": "bb364cd41336a0d3fe62d0d0663f7e8557570aeff2d201c21517259ae1404a41",
+          "scripts/recalculate_valuation.py": "711a5a9c153a834a2c28d133d24b0aec0cd93153c0baa4f1358a8b22ef4cc727",
+          "docs/投研写作规范.md": "e4cf87afffc67976148eab1d4f2aba00056a5825ba0c7ac64d7ccab1122cfb60",
+          "shared/writing-skills.json": "cad001177fa60de41d782dfbdb8d3ffbfa1ffb81a959472130c85925b6d2ab2a",
+          "app/writing.py": "083ceb8239ce4c1f76b50ead42c52d2e73068d6a564f25f6f288eb4697e947d8",
+          "scripts/recalculate_research12.py": "6f6b1fd983d8eb8361452ce975f8257bff2338cdb91070ef42c1721c4a02642a"
+        }
+      },
+      "files": [
+        {
+          "path": "outputs/research-report/v8-O67be89b2f896/basis.json",
+          "format": "json",
+          "sha256": "21a315be0479bc5899ff27d1c617640863c423a6961af0920e14a2d8b2964ae2",
+          "bytes": 283044
+        },
+        {
+          "path": "outputs/research-report/v8-O67be89b2f896/report.html",
+          "format": "html",
+          "sha256": "b6be582bd90103568457b09e76c189bcb09931501df9f90b13cdd0192d05e79a",
+          "bytes": 11915
+        },
+        {
+          "path": "outputs/research-report/v8-O67be89b2f896/report.md",
+          "format": "md",
+          "sha256": "2f5adabb898fb842c4de0a31354c4a56cf2e1a52924cd7e467d94fbf8e69e738",
+          "bytes": 9840
+        }
+      ],
+      "needs_review": true,
+      "imported": false,
+      "impact_reasons": [
+        "研究卡变化:R7d8112e87a58",
+        "研究卡变化:R7bfc89d395aa",
+        "研究卡变化:R58b870a4ee64",
+        "研究卡变化:Rad6660d577af",
+        "研究卡变化:R8c387d2da2f6",
+        "研究卡变化:R14c10b3a792a",
+        "研究卡变化:Rbd733d44d823",
+        "研究卡变化:Ra42a6324bb1c",
+        "共享计算依赖变化:scripts/recalculate_research12.py",
+        "输入文件变化:work/research12/source-data.json",
+        "输入文件变化:work/research12/calculation.json",
+        "输入文件变化:work/research12/claim-review.json",
+        "输入文件变化:work/research12/authority.json",
+        "输入文件变化:work/writing/reader.json"
+      ],
+      "file_integrity": true
+    },
+    {
+      "id": "Obd369b921ba3",
+      "group": "research-report",
+      "title": "泡泡玛特：历史经营分析与首版条件预测（2026-11-12）",
+      "kind": "报告草稿",
+      "version": 9,
+      "at": "2026-11-19T07:06:46.546414+00:00",
+      "actor": "Agent/test-or-api",
+      "actual_user_review": null,
+      "historical": false,
+      "bindings": {
+        "selection_ids": [
+          "R14c10b3a792a",
+          "R58b870a4ee64",
+          "R7bfc89d395aa",
+          "R7d8112e87a58",
+          "R8c387d2da2f6",
+          "Ra42a6324bb1c",
+          "Rad6660d577af",
+          "Rbd733d44d823"
+        ],
+        "selection_scope": "all-eight-lanes",
+        "cards": {
+          "R7d8112e87a58": "f7e47d4bf93015e974cb55309d7ef81b2f881a35e32fe81f1b4dd3f95a6e83b3",
+          "R7bfc89d395aa": "8f371e25657df89f58635f8e26baf57c5dbeee5da1bfe2e0d58019e5c0cf2774",
+          "R58b870a4ee64": "091ff1bf84a445ee9c17f478980efabf4be0e8d65d97b0c774c6e8baea2f4a23",
+          "Rad6660d577af": "9f6e0f28805502d235919fca97e3c346e217313b008808dbf73e1102440f34b3",
+          "R8c387d2da2f6": "ae4fabc89a8cef3bb8148675d280ba30282a01bfa31ce9887e0f098bc8454356",
+          "R14c10b3a792a": "cd23d6acba45cfa0110cb30506cbb0b4fb4f9920a3fbc93f9d244cf4d84f0bc9",
+          "Rbd733d44d823": "eec6f83e2bbb2dad786c709b5ac43bb52927d80cec965ac48d57c844b3be4389",
+          "Ra42a6324bb1c": "c7ef8570891ecd13cc51d469bfaaf6a6049d94eead307ee27363f297bfb4005c"
+        },
+        "methods": [
+          {
+            "id": "K03",
+            "version": 1
+          },
+          {
+            "id": "K09",
+            "version": 1
+          },
+          {
+            "id": "E04",
+            "version": 1
+          },
+          {
+            "id": "E08",
+            "version": 1
+          },
+          {
+            "id": "K46",
+            "version": 1
+          },
+          {
+            "id": "K52",
+            "version": 1
+          },
+          {
+            "id": "K63",
+            "version": 1
+          },
+          {
+            "id": "K49",
+            "version": 1
+          },
+          {
+            "id": "K53",
+            "version": 1
+          },
+          {
+            "id": "K55",
+            "version": 1
+          },
+          {
+            "id": "K57",
+            "version": 1
+          },
+          {
+            "id": "K59",
+            "version": 1
+          }
+        ],
+        "inputs": {
+          "work/research12/source-data.json": "3dbdbbe707ccdebf807b3e729821bb615093b6b93b572e1e869fea9055fe1d11",
+          "work/research12/agent-read-batches.json": "98114016b5c60c5ef325b3dd9052cba7b2c25a26392f46396e68e6e3a5be51e0",
+          "work/research12/comparability.json": "7c1943d2908193b4622084380a7577d90d5bcc149f9886fb7522cd64a8789312",
+          "work/research12/forecast-input.json": "86a9242561ec63ee2e692e25ac6791a17c0b7bd92c7c06179dbcc4d57b237aa9",
+          "work/research12/calculation.json": "4b13a57582c85fa7f16fd51a501f1d36d2276229bc5883550cbbbb793328fe81",
+          "work/research12/forecast.csv": "13ab8ba5efd062618e6eab4b174128e8b927b6f258e85caad95a4e4ca9f3aaf5",
+          "work/research12/claim-review.json": "e024ce7518e37a043b2f15dd8098d94e723ef922cd92fcced8eb87e86544c9c6",
+          "work/research12/original-batch-audit.json": "92f645ee497d246427667af289a311d9b5b8b7a65b0fe203b714038f6ce19a0b",
+          "work/research12/authority.json": "e15e739990901c4e17131c404e2ff8b4d959c4aabdcd0c1639b33ea22b71461b",
+          "work/research12/coverage-and-gaps.json": "9e8f928c71dd3adb8cff48194d9ee3b08674c6d8bd418c493ddca3e3b8eb06d0",
+          "work/research12/candidate-crosswalk.json": "95437fcc9f08e7f29b929af3ad21df4efb3f7667235b1cd06db5d5646a32bf0e",
+          "work/valuation/index.json": "9ea379ecae2e3d53d409bc24d3e0a9320ba394cdf5876c1767d43cfc282d8f56",
+          "work/valuation/v1-V641d287771d9.json": "c07916fa7a6f18a11c14b5cd949cf6ab89d16ff5cf7c237d07b52b95c2b70e14",
+          "work/writing/reader.json": "95d0e1b333045cd25f0bf7979ffc8f44729860c7df18b8f6391fe3df20b1e247"
+        },
+        "sources": [
+          {
+            "id": "S92234424087f455a",
+            "path": "sources/raw/S92234424087f455a_2026-10-27_LATEST BUSINESS UPDATE FOR THE THIRD QUARTER OF 2026__2026_c437e22e46.pdf",
+            "sha256": "92234424087f455a786558f9a9c6c900573392160a63f4720371b07ee3197490"
+          },
+          {
+            "id": "S01b68f6b1c14e53d",
+            "path": "sources/raw/S01b68f6b1c14e53d_2026-09-24_2026 INTERIM REPORT_EPORT_3ca5b69bf8.pdf",
+            "sha256": "01b68f6b1c14e53d235bf8cb476d87db1345f00eeeabc10533c820ae00894d44"
+          },
+          {
+            "id": "S1312bd4fec38932f",
+            "path": "sources/raw/S1312bd4fec38932f_披露日期未核_ANNUAL REPORT 2023__2023_c2e4bab1ae.pdf",
+            "sha256": "1312bd4fec38932f30608c7cec35ec19cc31a6cbaccb36aba9efe2b6dc8d6afa"
+          },
+          {
+            "id": "S47095a39c6425b11",
+            "path": "sources/raw/S47095a39c6425b11_2026-04-21_ANNUAL REPORT 2025__2025_bd4e173872.pdf",
+            "sha256": "47095a39c6425b11e5aaa091f456e178498d20a77d4ff6a969e351e4f5dfaaf7"
+          },
+          {
+            "id": "S9b89a4686ffb5fe8",
+            "path": "sources/raw/S9b89a4686ffb5fe8_2025-04-23_ANNUAL REPORT 2024__2024_976e7e443e.pdf",
+            "sha256": "9b89a4686ffb5fe838abd5ae8df9e7683b1de2019480e112420e49154fcfde19"
+          }
+        ],
+        "shared_dependencies": {
+          "shared/runtime/companybench/valuation_chain.py": "0155df03fa6ff2dd86a6a4c92f51f277f88e1edd45bfd972d191796276ac23ca",
+          "shared/runtime/companybench/research_depth.py": "bb364cd41336a0d3fe62d0d0663f7e8557570aeff2d201c21517259ae1404a41",
+          "scripts/recalculate_valuation.py": "711a5a9c153a834a2c28d133d24b0aec0cd93153c0baa4f1358a8b22ef4cc727",
+          "docs/投研写作规范.md": "e4cf87afffc67976148eab1d4f2aba00056a5825ba0c7ac64d7ccab1122cfb60",
+          "shared/writing-skills.json": "cad001177fa60de41d782dfbdb8d3ffbfa1ffb81a959472130c85925b6d2ab2a",
+          "app/writing.py": "083ceb8239ce4c1f76b50ead42c52d2e73068d6a564f25f6f288eb4697e947d8",
+          "scripts/recalculate_research12.py": "86555de90ecba93866e5d0c05dd7521237fd0d5f3628a56eeca9b556e7e1015f"
+        }
+      },
+      "files": [
+        {
+          "path": "outputs/research-report/v9-Obd369b921ba3/basis.json",
+          "format": "json",
+          "sha256": "5b6905f45619d8a8aaf9c3cd20cf2e66cf453bfd51e8b1867f34e665b2cee818",
+          "bytes": 308164
+        },
+        {
+          "path": "outputs/research-report/v9-Obd369b921ba3/report.html",
+          "format": "html",
+          "sha256": "8e46635332048461c900cacb92e1d7cc561ee45fd9af9eca295824f5b1bcc7fd",
+          "bytes": 12090
+        },
+        {
+          "path": "outputs/research-report/v9-Obd369b921ba3/report.md",
+          "format": "md",
+          "sha256": "346f3b22213c63b0845c0143ee6a106af1c7d6e8130e6fcc35f336380b3d7c13",
+          "bytes": 10011
         }
       ],
       "needs_review": false,
