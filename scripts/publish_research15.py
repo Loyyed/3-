@@ -21,7 +21,7 @@ TITLES = {
  'business-disclosures':'业务原数与来源', 'operating-bridges':'经营桥和滞后兑现',
  'forecast-parameters':'预测及估值参数', 'cashflows':'逐年三情景现金流',
  'valuation-summary':'估值结果和权益桥','valuation-attribution':'同日旧新差额',
- 'relative':'相对估值证券权利和样本','sensitivities':'敏感性与市场反解','backtests':'历史留出误差',
+ 'capital-actions':'股数、派息和回购','relative':'相对估值证券权利和样本','sensitivities':'敏感性与市场反解','backtests':'历史留出误差',
  'market':'同日市场观测','gaps':'缺项、口径断点和实际决定标签',
  'research-judgments':'研究解释、反证与取舍',
 }
@@ -149,7 +149,7 @@ BREAKS = {
  '600298':'2001—2006旧准则主营口径与2007新准则分段。2005更正及2007重述保留。部分早期合并/母公司混排仅锁定财务摘要。不同报告的产量、产能与外售量不可互代。',
  '688188':'IPO前财务归报表及招股书专块。产品切面重新分类，比较栏作为桥的同范围输入。股票股本、授予和每股口径分开。',
  '09992':'招股书为重组集团及比较边界。中国及海外渠道口径与报告时期一致。使用权资产、折旧及支付租金分列，公司股本货币额与实际股数分开。',
- 'US':'2017/2020拆股和现金流重述留比较列。2017会计披露及现金流同列比较须核。部分旧购建含知识产权。期末股数与加权平均数必须分开。',
+ 'US':'2017和2021各一拆三，现金流重述留比较列。2017会计披露及现金流同列比较须核。部分旧购建含知识产权。期末股数与加权平均数必须分开。',
 }
 
 
@@ -276,7 +276,7 @@ def build():
     tables.update(audit=audit_rows, **{'current-ledger':current})
     tables['market']=[dict(company=k,tag='市场观测',**row) for k,row in audit['price_observations'].items()]
     tables.update({k:[] for k in ('cashflows','forecast-parameters','valuation-summary','valuation-attribution','sensitivities',
-        'operating-bridges','business-disclosures','gaps','research-judgments','relative','stage-metrics')})
+        'operating-bridges','business-disclosures','gaps','research-judgments','relative','stage-metrics','capital-actions')})
     for m in models:
         company=m['company']; code=company_name[company]
         company_dir=ROOT/'companies'/company
@@ -302,6 +302,20 @@ def build():
             tables['relative'].append(dict(company=company,symbol=symbol,screen=reason,
                 issuer_rights=m['security']['right'], own_market=m['relative']['stage14_market'],
                 conditional_sample=m['relative']['sample'], tag='比较区间与缺项'))
+        for r in series:
+            year=int(r['period'][:4]); vs=r['values']
+            factor=(9 if year<=2016 else 3 if year<=2020 else 1) if code=='US' else None
+            tables['capital-actions'].append(dict(company=company,period=r['period'],source=r['source'],
+                 share_capital_millions=vs.get('share_capital'), original_average_basic_million_shares=vs.get('shares_basic'),
+                 original_average_diluted_million_shares=vs.get('shares_diluted'), share_conversion=factor,
+                 basic_at_2021_share_basis=vs['shares_basic']*factor if factor and 'shares_basic' in vs else None,
+                 diluted_at_2021_share_basis=vs['shares_diluted']*factor if factor and 'shares_diluted' in vs else None,
+                 dividends=vs.get('dividends'),repurchases=vs.get('repurchases'),
+                 combined_distributions_including_interest=vs.get('combined_distribution'),
+                 locators={k:v for k,v in r['locators'].items() if k in ('share_capital','shares_basic','shares_diluted','dividends','repurchases','combined_distribution')},
+                 split_sources=['https://www.sec.gov/Archives/edgar/data/1035267/000103526717000139/a20170930ex-991.htm',
+                                'https://www.sec.gov/Archives/edgar/data/1035267/000103526721000174/a20210930ex-991.htm'] if factor else [],
+                 tag='原数及股数桥',basis='加权平均百万股；股本是报表货币额。空白表示所选表未锁定该项。'))
         for r in ref:
             p=r['period']
             metric=r['metric']
@@ -319,6 +333,23 @@ def build():
                 dict(metric='除该IP外',contribution=(17172.921-4454.361)-(13876.276-4814.017))],
                 residual=0,sources=['S01b68f6b1c14e53d物理第26页及第64页'],
                 note='其余含新老IP、渠道和地区共同变化。'))
+        if code=='US':
+            bridges.append(dict(name='2025术量与装机强度',period='2025-FY',
+                da_vinci_procedures=3153000, prior_da_vinci_procedures=2683000,
+                da_vinci_end_systems=11106, prior_da_vinci_end_systems=9902, new_placements=1721,
+                procedures_per_average_installed_system=3153000/((11106+9902)/2),
+                total_procedures_including_ion=3153000+144100,
+                company_ia_per_total_procedure_proxy=6018.9e6/(3153000+144100),
+                service_per_average_da_vinci_and_ion_installed=1572.1e6/((11106+9902+995+805)/2),
+                sources=['Se7f95d2f97642180 HTML 第20表及经营讨论文本933、937、938、941、977'],
+                note='公司耗材/服务覆盖不同术种、装机和产品。平均年末数量代替按日激活数量，代理用于跟踪而非单位合同价。'))
+        if code=='600298':
+            bridges.append(dict(name='2025酵母及深加工吨经济性',period='2025-FY',
+                ton=467870.07, revenue_per_ton=11948836153.68/467870.07,
+                cost_per_ton=8100224665.91/467870.07,
+                gross_per_ton=(11948836153.68-8100224665.91)/467870.07,
+                sources=['600298-a14b53fefcfc0356 物理第14—15页'],
+                note='集团分部均值含产品、地区、汇率和客户组合。回收仍需新厂的实际吨出货与现金。'))
         if code=='600298':
             bridges.append(dict(name='2012→2013年主营地区桥',period='2013-FY',start=2704.50960997,
                 end=3082.37931446,steps=[dict(metric='国内',contribution=2087.89623483-1823.86361099),

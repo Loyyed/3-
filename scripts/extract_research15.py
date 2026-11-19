@@ -1,5 +1,4 @@
 """Build the source-bound Stage 15 report panel from archived filing bytes."""
-import hashlib
 import re
 from concurrent.futures import ProcessPoolExecutor
 from decimal import Decimal
@@ -308,6 +307,8 @@ def build():
         for row in raw:
             cells.append({**{k:source[k] for k in ('company', 'id', 'report', 'filed', 'unit', 'scale', 'sha256', 'url', 'path')},
                           **row, 'tag':'原表提取待交叉核验'})
+            if row['metric'] in ('shares_basic','shares_diluted'):
+                cells[-1]['unit'] = '百万股'
         for row in extracts:
             snippets.append({**{k:source[k] for k in ('company', 'id', 'report', 'filed', 'sha256', 'url', 'path')},
                              **row, 'tag':'经营披露定位'})

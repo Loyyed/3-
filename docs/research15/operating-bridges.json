@@ -971,6 +971,21 @@
     "company": "600298_安琪酵母",
     "tag": "算术",
     "basis": "阶段12原表桥或阶段15年报同范围比较",
+    "name": "2025酵母及深加工吨经济性",
+    "period": "2025-FY",
+    "ton": 467870.07,
+    "revenue_per_ton": 25538.791471914414,
+    "cost_per_ton": 17312.978934322513,
+    "gross_per_ton": 8225.8125375919,
+    "sources": [
+      "600298-a14b53fefcfc0356 物理第14—15页"
+    ],
+    "note": "集团分部均值含产品、地区、汇率和客户组合。回收仍需新厂的实际吨出货与现金。"
+  },
+  {
+    "company": "600298_安琪酵母",
+    "tag": "算术",
+    "basis": "阶段12原表桥或阶段15年报同范围比较",
     "name": "2012→2013年主营地区桥",
     "period": "2013-FY",
     "start": 2704.50960997,
@@ -2019,6 +2034,26 @@
     "residual": "0.0",
     "residual_meaning": "柏楚为其他业务收入增量；其余理论为0",
     "formula": "分产品/地区增量相加；三种切面不交叉重复加"
+  },
+  {
+    "company": "US_ISRG_直觉外科",
+    "tag": "算术",
+    "basis": "阶段12原表桥或阶段15年报同范围比较",
+    "name": "2025术量与装机强度",
+    "period": "2025-FY",
+    "da_vinci_procedures": 3153000,
+    "prior_da_vinci_procedures": 2683000,
+    "da_vinci_end_systems": 11106,
+    "prior_da_vinci_end_systems": 9902,
+    "new_placements": 1721,
+    "procedures_per_average_installed_system": 300.1713632901752,
+    "total_procedures_including_ion": 3297100,
+    "company_ia_per_total_procedure_proxy": 1825.5133298959693,
+    "service_per_average_da_vinci_and_ion_installed": 137855.13854787793,
+    "sources": [
+      "Se7f95d2f97642180 HTML 第20表及经营讨论文本933、937、938、941、977"
+    ],
+    "note": "公司耗材/服务覆盖不同术种、装机和产品。平均年末数量代替按日激活数量，代理用于跟踪而非单位合同价。"
   },
   {
     "company": "US_ISRG_直觉外科",
