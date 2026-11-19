@@ -1,0 +1,56 @@
+{
+  "platform": "Chromium",
+  "chapters": 10,
+  "charts": 34,
+  "widths": [
+    1440,
+    390,
+    320
+  ],
+  "downloads": [
+    "coverage.csv",
+    "coverage.json",
+    "五家公司证券投资超级图册.html",
+    "super-atlas.json"
+  ],
+  "companies": [
+    "002507",
+    "600298",
+    "688188",
+    "09992",
+    "US"
+  ],
+  "originals": [
+    "002507-d45bfdfdec6d4379",
+    "600298-5c763f656754f15e",
+    "688188-a09095ca338561b9",
+    "Sc1d7caacd670f3de",
+    "Sf92ee8eb3f06a597"
+  ],
+  "offline": true,
+  "isolated_edit": {
+    "saved_and_reopened": true,
+    "archive_revision": 2,
+    "restore_revision": 3,
+    "json_import_revision": 4,
+    "edit_history": [
+      3,
+      2,
+      1,
+      0
+    ],
+    "full_edited_offline_download": "五家公司证券投资超级图册.html",
+    "native_mind_map": true,
+    "live_revision_untouched": 0,
+    "byte_identical_files": [
+      "atlas.html",
+      "atlas-editable.json",
+      "coverage.csv",
+      "coverage.json",
+      "follow-up.csv",
+      "follow-up.json",
+      "version.json",
+      "seeds/atlas-2026-11-20.1.json"
+    ]
+  }
+}

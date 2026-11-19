@@ -1,0 +1,13 @@
+{
+  "valuation_date": "2026-11-12",
+  "baseline": "98d1d2e0fd31aa4031cc83e51638fafb38d7c22e",
+  "company_reconciliations": 5,
+  "current_facts": 188,
+  "batch_positions": 48,
+  "followup_rows": 9,
+  "local_followup_fingerprints": 8,
+  "通过": 394,
+  "checked_at": "2026-11-20",
+  "coverage_items": 394,
+  "coverage_downloads": 571
+}

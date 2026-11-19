@@ -17,15 +17,34 @@ def start(root,kit,port):
  engine=Engine(root);mapping={}
  for cid,p in sorted(engine.companies().items()):mapping[link_project(root,p,'')]=cid
  server=portal.make_server(root,port);Base=server.RequestHandlerClass
+ from atlas_registry import OUT as ATLAS_OUT
+ from atlas_service import ResearchHost
+ research_host=ResearchHost(root,kit,mapping,server.workbench_token) if (root/ATLAS_OUT/'coverage.json').is_file() else None
  class Handler(Base):
   def send(self,data,*args,**kwargs):
    if self.path.split('?')[0]=='/' and isinstance(data,str):
     data=data.replace('最终展示图册</a></nav>','最终展示图册</a><a href="/preparation/">完整证券分析准备</a><a href="/security-analysis/">五家公司证券分析（阶段14）</a><a href="/stage15/">五家公司证券分析（阶段15）</a><a href="/stage16/">五家公司证券分析（阶段16）</a><a href="/stage17/">五家公司证券研究定稿</a></nav>')
+    if research_host:
+     data=data.replace('五家公司证券研究定稿</a></nav>','五家公司证券研究定稿</a><a href="/research/">五家公司成果总览</a><a href="/atlas/">五家公司证券投资超级图册</a></nav>')
+     safe_mapping=json.dumps(mapping,ensure_ascii=False).replace('<',chr(92)+'u003c')
+     data=data.replace('</body>','<script type="application/json" id="project-research-map">'+safe_mapping+'</script></body>')
     data=data.replace('</body>','<script nonce="'+server.workbench_token+'" src="/assets/project-adapter.js"></script></body>')
+   if research_host and self.path=='/showcase' and isinstance(data,str):
+    data=data.replace('◇ 原方法知识库 ↗</a>','◇ 原方法知识库 ↗</a><a href="/atlas/">五家公司证券投资超级图册</a>')
    return super().send(data,*args,**kwargs)
+  def do_HEAD(self):
+   route=urlparse(self.path)
+   if not self.host_ok():return self.send(b'',403)
+   if research_host and route.path in ('/research-file','/research-source'):
+    research_host.get(self,route.path,parse_qs(route.query));return
+   return self.send(b'',405)
   def do_GET(self):
    if not self.host_ok():return self.send({'error':'不允许的Host'},403)
    route=urlparse(self.path);q=parse_qs(route.query)
+   if research_host:
+    try:
+     if research_host.get(self,route.path,q):return
+    except (ValueError,KeyError,OSError) as e:return self.send({'error':str(e)},400)
    if route.path=='/assets/project-adapter.js':return self.send((root/'app/project-adapter.js').read_bytes(),content='text/javascript; charset=utf-8')
    if route.path=='/preparation':
     self.send_response(302);self.send_header('Location','/preparation/');self.end_headers();return
@@ -45,6 +64,8 @@ def start(root,kit,port):
     if target.suffix not in types:return self.send({'error':'未发布文件类型'},404)
     if target.suffix=='.html':
      body=target.read_text(encoding='utf-8').replace('<script>', '<script nonce="'+server.workbench_token+'">')
+     if suffix in ('current-ledger.html','facts-view.html','fact-view.html'):
+      body=body.replace('<body>','<body><p>此页保留该阶段发布时的审核快照。 <a href="/research/facts.html">打开当前 ReviewStore</a></p>',1)
      if stage=='stage17':
       for prior in ('15','16'):
        body=body.replace(f'href="../../research{prior}/',f'href="/stage{prior}/')
@@ -121,11 +142,12 @@ def start(root,kit,port):
    return super().do_GET()
   def do_POST(self):
    action=urlparse(self.path).path
-   if action not in ['/api/project-action','/api/new','/api/link']:return super().do_POST()
+   if action not in ['/api/project-action','/api/new','/api/link','/api/atlas-edit']:return super().do_POST()
    allowed={'http://127.0.0.1:'+str(port),'http://localhost:'+str(port),None}
    if not self.host_ok() or self.headers.get('X-Workbench-Token')!=server.workbench_token or self.headers.get('Origin') not in allowed:return self.send({'error':'请求身份或来源不符'},403)
    try:
     n=int(self.headers.get('Content-Length','0'));assert 0<n<2500000;d=json.loads(self.rfile.read(n))
+    if action=='/api/atlas-edit' and research_host:return self.send(research_host.save_edit(d))
     if action=='/api/new':return self.send({'error':'本宿主只连接已有公司，不在此新建或复制公司。请使用连接已有空间。'},400)
     if action=='/api/link':
      p=Path(d['path']).resolve();assert p in engine.companies().values(),'仅允许连接本工程已有公司';key=link_project(root,p,d.get('label',''));mapping[key]=p.name;return self.send({'project':key})

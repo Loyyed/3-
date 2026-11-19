@@ -1,0 +1,20 @@
+{
+  "version": "atlas-2026-11-20.1",
+  "baseline": "98d1d2e0fd31aa4031cc83e51638fafb38d7c22e",
+  "valuation_date": "2026-11-12",
+  "seed": "seeds/atlas-2026-11-20.1.json",
+  "seed_sha256": "3c2c10d5a314cb6302042c31aafd1105ad1e255cf0020c83ea5241c259a990f4",
+  "original_context": "阶段17定稿及2026-11-19首轮跟踪",
+  "version_rule": "提高发布版本后重新生成。旧种子仍在 seeds，已有原生编辑及历史留在本地。",
+  "sources": {
+    "docs/research15/annual.json": "f0f4c6f56afacac90b1b16085fff457a71418f0c237f31aa73988f434db5fec1",
+    "docs/research15/interim.json": "06c0e759f901c889c86340ba42d202f8eeda84e3598e25a357e35e920daa2137",
+    "docs/research15/operating-bridges.json": "79f2ea275958a315610bb301760105ed56630a194429406b03242add5ec0f60b",
+    "docs/research17/valuation.json": "2a800cb436952b127c7d499d3c85541dcccfb72b32b19bb8099709267ff1e821",
+    "docs/research17/same-date.json": "1ea33be3a3331860a2ff99c47370e77254945835735c09518b59458a0eed26b1",
+    "docs/research17/critical-points.json": "ab6a9fa7f369c2cdc7b23ab26c30bebe44c90c169b7ce343b8d99055a717609f",
+    "docs/research17/post-cutoff.json": "a26a27f3743d92a11ec5a2cbb949cd365d0583c0052bab005369041277883991",
+    "docs/analysis-preparation/writing-v2.md": "0feef00ee9ab2355d700d2aa9f3c3782947237ad4a5b69135a8974960a25572d",
+    "shared/runtime/companybench/result_features.js": "cbf71a98b837d044bbadb7efaea67a96b56cc382d01d19e8731419d9539cd6a5"
+  }
+}
