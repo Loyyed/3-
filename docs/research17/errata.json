@@ -1,0 +1,112 @@
+[
+  {
+    "company": "002507_涪陵榨菜",
+    "errata": "E17-01",
+    "original_baseline_field": "cases.base.baseline_per_share",
+    "frozen_baseline_field": "cases.base.per_share",
+    "incorrect_stage15": 14.178341651020835,
+    "incorrect_delta": 0.9151714357260534,
+    "corrected_stage15": 13.979807649604085,
+    "corrected_delta": 1.1137054371428032,
+    "changed": true,
+    "valuation_date": "2026-11-12",
+    "retained_snapshot": "4bf7bf66dd6722bd0250fb9e7c9264f645606f1f",
+    "corrected_release": "docs/research17",
+    "diagnosis": "阶段16发布出口读取了各情景的阶段14参照字段，价值桥已经使用阶段15冻结基准。",
+    "verification_outlets": [
+      "价值桥",
+      "单页对照HTML/CSV/JSON",
+      "报告MD/HTML",
+      "公司模型与依据JSON"
+    ],
+    "tag": "发布纠错"
+  },
+  {
+    "company": "600298_安琪酵母",
+    "errata": "E17-01",
+    "original_baseline_field": "cases.base.baseline_per_share",
+    "frozen_baseline_field": "cases.base.per_share",
+    "incorrect_stage15": 108.50017405538888,
+    "incorrect_delta": -50.78881320867183,
+    "corrected_stage15": 97.9082065443019,
+    "corrected_delta": -40.196845697584855,
+    "changed": true,
+    "valuation_date": "2026-11-12",
+    "retained_snapshot": "4bf7bf66dd6722bd0250fb9e7c9264f645606f1f",
+    "corrected_release": "docs/research17",
+    "diagnosis": "阶段16发布出口读取了各情景的阶段14参照字段，价值桥已经使用阶段15冻结基准。",
+    "verification_outlets": [
+      "价值桥",
+      "单页对照HTML/CSV/JSON",
+      "报告MD/HTML",
+      "公司模型与依据JSON"
+    ],
+    "tag": "发布纠错"
+  },
+  {
+    "company": "688188_柏楚电子",
+    "errata": "E17-01",
+    "original_baseline_field": "cases.base.baseline_per_share",
+    "frozen_baseline_field": "cases.base.per_share",
+    "incorrect_stage15": 90.69798755407224,
+    "incorrect_delta": 2.059759823783935,
+    "corrected_stage15": 98.66494261153089,
+    "corrected_delta": -5.907195233674713,
+    "changed": true,
+    "valuation_date": "2026-11-12",
+    "retained_snapshot": "4bf7bf66dd6722bd0250fb9e7c9264f645606f1f",
+    "corrected_release": "docs/research17",
+    "diagnosis": "阶段16发布出口读取了各情景的阶段14参照字段，价值桥已经使用阶段15冻结基准。",
+    "verification_outlets": [
+      "价值桥",
+      "单页对照HTML/CSV/JSON",
+      "报告MD/HTML",
+      "公司模型与依据JSON"
+    ],
+    "tag": "发布纠错"
+  },
+  {
+    "company": "09992_泡泡玛特",
+    "errata": "E17-01",
+    "original_baseline_field": "cases.base.baseline_per_share",
+    "frozen_baseline_field": "cases.base.per_share",
+    "incorrect_stage15": 215.0420418183681,
+    "incorrect_delta": -48.387322243207336,
+    "corrected_stage15": 215.0420418183681,
+    "corrected_delta": -48.387322243207336,
+    "changed": false,
+    "valuation_date": "2026-11-12",
+    "retained_snapshot": "4bf7bf66dd6722bd0250fb9e7c9264f645606f1f",
+    "corrected_release": "docs/research17",
+    "diagnosis": "阶段16发布出口读取了各情景的阶段14参照字段，价值桥已经使用阶段15冻结基准。",
+    "verification_outlets": [
+      "价值桥",
+      "单页对照HTML/CSV/JSON",
+      "报告MD/HTML",
+      "公司模型与依据JSON"
+    ],
+    "tag": "发布纠错"
+  },
+  {
+    "company": "US_ISRG_直觉外科",
+    "errata": "E17-01",
+    "original_baseline_field": "cases.base.baseline_per_share",
+    "frozen_baseline_field": "cases.base.per_share",
+    "incorrect_stage15": 191.19798010524067,
+    "incorrect_delta": -12.505379362119157,
+    "corrected_stage15": 191.19798010524067,
+    "corrected_delta": -12.505379362119157,
+    "changed": false,
+    "valuation_date": "2026-11-12",
+    "retained_snapshot": "4bf7bf66dd6722bd0250fb9e7c9264f645606f1f",
+    "corrected_release": "docs/research17",
+    "diagnosis": "阶段16发布出口读取了各情景的阶段14参照字段，价值桥已经使用阶段15冻结基准。",
+    "verification_outlets": [
+      "价值桥",
+      "单页对照HTML/CSV/JSON",
+      "报告MD/HTML",
+      "公司模型与依据JSON"
+    ],
+    "tag": "发布纠错"
+  }
+]

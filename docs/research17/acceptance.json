@@ -1,0 +1,22 @@
+{
+  "status": "通过",
+  "valuation_date": "2026-11-12",
+  "stage_15": "769e6e443aba87c7a94704f4da5efb876d7ba65f",
+  "stage_16": "4bf7bf66dd6722bd0250fb9e7c9264f645606f1f",
+  "previous_snapshots": "Git 对照无差异",
+  "valuation_recalculated": 15,
+  "companies": 5,
+  "cross_format_tables": 10,
+  "model_price_roundtrips": 62,
+  "critical_rows": 143,
+  "reviewstore_facts": 188,
+  "reviewstore_counts": {
+    "002507_涪陵榨菜": 32,
+    "09992_泡泡玛特": 24,
+    "600298_安琪酵母": 38,
+    "688188_柏楚电子": 24,
+    "US_ISRG_直觉外科": 70
+  },
+  "post_cutoff_materials": 1,
+  "bochu_direction": "98.66 > 96.20 > 92.76; full-precision delta < 0"
+}

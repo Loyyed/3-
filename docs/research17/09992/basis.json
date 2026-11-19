@@ -1,0 +1,1139 @@
+{
+  "comparison": {
+    "company": "09992_泡泡玛特",
+    "code": "09992",
+    "market_close": 143.4,
+    "quote": "HKD",
+    "as_of": "2026-11-12",
+    "stage15": 215.0420418183681,
+    "stage16": 166.65471957516075,
+    "delta": -48.387322243207336,
+    "stage15_vs_market": 71.64204181836809,
+    "stage16_vs_market": 23.25471957516075,
+    "stage15_commit": "769e6e443aba87c7a94704f4da5efb876d7ba65f",
+    "stage16_commit": "4bf7bf66dd6722bd0250fb9e7c9264f645606f1f",
+    "stage15_sha256": "a7c0ca72654bff155828c5ee652c121ce0901c16ef43593a045f2e4712f48b55",
+    "stage16_sha256": "aa2aab89d37c169a6eead395370d64dd6ff4bef8e1458988db7332e583d58ac5",
+    "tag": "条件估值与全精度差额"
+  },
+  "judgments": [
+    {
+      "question": "首选判断",
+      "judgment": "IP 接续已有集团层面的证据，选品、渠道和授权生态仍可能支撑复购。2026H1 集团剔除 THE MONSTERS 后同口径收入增长 40.35%。暂时保留 166.65 港元条件基准，现金安全垫须经下半年联合检验。",
+      "tag": "研究判断"
+    },
+    {
+      "question": "最强反方",
+      "judgment": "爆款之外的增长可能来自新区域、新门店和高铺货。中国区门店销售除以平均门店数增长 34.22%，成熟店的同门店同周期销售仍缺批次证据。集团上半年披露毛利率由 70.34% 降至 69.68%，折扣与促销后的同款和同店毛利待拆。上半年年化平均库存周转从 4.33 降至 1.80，现金租金 12.11 亿元人民币。扩张若伴随打折、租金和库存累积，会同时压低价值。",
+      "tag": "研究判断"
+    },
+    {
+      "question": "现价对应的经营预期",
+      "judgment": "Q3 公告原文为「集团整体收入（未经审计）同比下降 45%–50%」。在 2025Q3 占当年 H2 的情景权重 50%、库存周转 1.80 次、H2 现金租金约 8.53 亿元时，143.40 港元要求 Q4 收入 20.96–26.77 亿元人民币。绝对 Q3、Q4 收入仍需披露。固定折现率、扩店及基础毛利，搜索 H2 同比收入倍数 0.25–0.85。",
+      "tag": "研究判断"
+    },
+    {
+      "question": "翻转条件",
+      "judgment": "当周转降至 1.35 次、H2 现金租金约 10.51 亿元，Q4 门槛抬至 35.64–41.45 亿元。低于所观察租金与周转组合的临界 Q4，将条件基准降至现价以下。现金租赁口径沿用阶段 16 历史、显式期和终值联动，并保留期初营运资本底线。高 Q3 权重下若推算 Q3 已越过临界 H2，该行出现非负 Q4 无等值解。",
+      "tag": "研究判断"
+    },
+    {
+      "question": "下次可核对的公开指标",
+      "judgment": "全年业绩公告的H2绝对收入及存货、租赁现金附注。成熟开店批次同店销量仍需同覆盖期披露，中国区总店销售除以平均门店数是独立代理指标。",
+      "tag": "研究判断"
+    }
+  ],
+  "evidence": [
+    {
+      "company": "09992_泡泡玛特",
+      "tag": "原文披露·Agent对读",
+      "period": "2020",
+      "metric": "中国内地年末实体门店",
+      "value": 187,
+      "unit": "家",
+      "source_id": "Sae0f1e1845c9aa8f",
+      "source_sha256": "ae0f1e1845c9aa8fae5109d4feaf5febc59dcc12ed5bb8fa51a6d93a108021a2",
+      "url": "https://prod-out-res.popmart.com/cms/ANNUAL_REPORT_2021_f37dfccf93.pdf",
+      "locator": "PDF物理第12页",
+      "disclosed": "2022-04-27",
+      "checked": "2026-11-19",
+      "note": "内地旧口径，2025起中国区重述分列。仅校正扩店情景。"
+    },
+    {
+      "company": "09992_泡泡玛特",
+      "tag": "原文披露·Agent对读",
+      "period": "2021",
+      "metric": "中国内地年末实体门店",
+      "value": 288,
+      "unit": "家",
+      "source_id": "Sae0f1e1845c9aa8f",
+      "source_sha256": "ae0f1e1845c9aa8fae5109d4feaf5febc59dcc12ed5bb8fa51a6d93a108021a2",
+      "url": "https://prod-out-res.popmart.com/cms/ANNUAL_REPORT_2021_f37dfccf93.pdf",
+      "locator": "PDF物理第12页",
+      "disclosed": "2022-04-27",
+      "checked": "2026-11-19",
+      "note": "内地旧口径，2025起中国区重述分列。仅校正扩店情景。"
+    },
+    {
+      "company": "09992_泡泡玛特",
+      "tag": "原文披露·Agent对读",
+      "period": "2022",
+      "metric": "中国内地年末实体门店",
+      "value": 329,
+      "unit": "家",
+      "source_id": "S1312bd4fec38932f",
+      "source_sha256": "1312bd4fec38932f30608c7cec35ec19cc31a6cbaccb36aba9efe2b6dc8d6afa",
+      "url": "https://prod-out-res.popmart.com/cms/ANNUAL_REPORT_2023_c2e4bab1ae.pdf",
+      "locator": "PDF物理第14页",
+      "disclosed": "2024-04-25",
+      "checked": "2026-11-19",
+      "note": "内地旧口径，2025起中国区重述分列。仅校正扩店情景。"
+    },
+    {
+      "company": "09992_泡泡玛特",
+      "tag": "原文披露·Agent对读",
+      "period": "2023",
+      "metric": "中国内地年末实体门店",
+      "value": 363,
+      "unit": "家",
+      "source_id": "S1312bd4fec38932f",
+      "source_sha256": "1312bd4fec38932f30608c7cec35ec19cc31a6cbaccb36aba9efe2b6dc8d6afa",
+      "url": "https://prod-out-res.popmart.com/cms/ANNUAL_REPORT_2023_c2e4bab1ae.pdf",
+      "locator": "PDF物理第14页",
+      "disclosed": "2024-04-25",
+      "checked": "2026-11-19",
+      "note": "内地旧口径，2025起中国区重述分列。仅校正扩店情景。"
+    },
+    {
+      "company": "09992_泡泡玛特",
+      "tag": "原文披露·Agent对读",
+      "period": "2024",
+      "metric": "中国内地年末实体门店",
+      "value": 401,
+      "unit": "家",
+      "source_id": "S9b89a4686ffb5fe8",
+      "source_sha256": "9b89a4686ffb5fe838abd5ae8df9e7683b1de2019480e112420e49154fcfde19",
+      "url": "https://prod-out-res.popmart.com/cms/ANNUAL_REPORT_2024_976e7e443e.pdf",
+      "locator": "PDF物理第15页",
+      "disclosed": "2025-04-23",
+      "checked": "2026-11-19",
+      "note": "内地旧口径，2025起中国区重述分列。仅校正扩店情景。"
+    },
+    {
+      "company": "09992_泡泡玛特",
+      "tag": "原文披露·Agent对读",
+      "period": "2026Q3",
+      "metric": "集团收入同比下滑区间",
+      "value": [
+        0.45,
+        0.5
+      ],
+      "unit": "比例",
+      "source_id": "S92234424087f455a",
+      "source_sha256": "92234424087f455a786558f9a9c6c900573392160a63f4720371b07ee3197490",
+      "url": "https://prod-out-res.popmart.com/cms/LATEST_BUSINESS_UPDATE_FOR_THE_THIRD_QUARTER_OF_2026_c437e22e46.pdf",
+      "locator": "物理第1页，Overall and Regional Revenue Performance",
+      "disclosed": "2026-10-27",
+      "checked": "2026-11-19",
+      "note": "未经审计，集团整体。"
+    },
+    {
+      "company": "09992_泡泡玛特",
+      "tag": "原文披露·Agent对读",
+      "period": "2025Q3",
+      "metric": "集团收入同比增长区间",
+      "value": [
+        2.45,
+        2.5
+      ],
+      "unit": "比例",
+      "source_id": "S94301d078620d7a6",
+      "source_sha256": "94301d078620d7a6dfc4d303310ac6c01d79588ecc5401d99a567554e93b958a",
+      "url": "https://prod-out-res.popmart.com/cms/LATEST_BUSINESS_UPDATE_FOR_THE_THIRD_QUARTER_OF_2025_7810df8cc8.pdf",
+      "locator": "物理第1页，Overall and Regional Revenue Performance",
+      "disclosed": "2025-10-21",
+      "checked": "2026-11-19",
+      "note": "与2024Q3对比，缺金额。"
+    },
+    {
+      "company": "09992_泡泡玛特",
+      "tag": "原文披露·Agent对读",
+      "period": "2025FY",
+      "metric": "中国区、亚太、美洲、欧洲与其他期末门店",
+      "value": [
+        445,
+        85,
+        64,
+        36
+      ],
+      "unit": "家",
+      "source_id": "S47095a39c6425b11",
+      "source_sha256": "47095a39c6425b11e5aaa091f456e178498d20a77d4ff6a969e351e4f5dfaaf7",
+      "url": "https://prod-out-res.popmart.com/cms/ANNUAL_REPORT_2025_bd4e173872.pdf",
+      "locator": "物理第16–17页；区域门店",
+      "disclosed": "2026-04-21",
+      "checked": "2026-11-19",
+      "note": "中国区含范围调整；集团630。"
+    },
+    {
+      "company": "09992_泡泡玛特",
+      "tag": "原文披露·Agent对读",
+      "period": "2026H1",
+      "metric": "中国区、亚太、美洲、欧洲与其他期末门店",
+      "value": [
+        455,
+        90,
+        86,
+        45
+      ],
+      "unit": "家",
+      "source_id": "S01b68f6b1c14e53d",
+      "source_sha256": "01b68f6b1c14e53d235bf8cb476d87db1345f00eeeabc10533c820ae00894d44",
+      "url": "https://prod-out-res.popmart.com/cms/2026_INTERIM_REPORT_3ca5b69bf8.pdf",
+      "locator": "物理第12–13页；区域门店",
+      "disclosed": "2026-09-24",
+      "checked": "2026-11-19",
+      "note": "集团676。"
+    },
+    {
+      "company": "09992_泡泡玛特",
+      "tag": "原文披露·Agent对读",
+      "period": "2025H1",
+      "metric": "中国区同口径期初和期末门店",
+      "value": [
+        431,
+        443
+      ],
+      "unit": "家",
+      "source_id": "S3dfd53d74d23aab4",
+      "source_sha256": "3dfd53d74d23aab4045a5c2fa2f59a4647f9472b0d6465774ba77a7970b01c81",
+      "url": "https://prod-out-res.popmart.com/cms/INTERIM_REPORT_2025_569e88db3c.pdf",
+      "locator": "物理第12页",
+      "disclosed": "2025-09-25",
+      "checked": "2026-11-19",
+      "note": "两期门店数形成简单平均代理。"
+    },
+    {
+      "company": "09992_泡泡玛特",
+      "tag": "原文披露·Agent对读",
+      "period": "2026H1",
+      "metric": "中国区实体门店收入",
+      "value": [
+        6089.686,
+        4405.948
+      ],
+      "unit": "人民币百万元",
+      "source_id": "S01b68f6b1c14e53d",
+      "source_sha256": "01b68f6b1c14e53d235bf8cb476d87db1345f00eeeabc10533c820ae00894d44",
+      "url": "https://prod-out-res.popmart.com/cms/2026_INTERIM_REPORT_3ca5b69bf8.pdf",
+      "locator": "物理第19页；Retail stores",
+      "disclosed": "2026-09-24",
+      "checked": "2026-11-19",
+      "note": "2026H1与2025H1，根据渠道表千元原数。"
+    },
+    {
+      "company": "09992_泡泡玛特",
+      "tag": "原文披露·Agent对读",
+      "period": "2026H1",
+      "metric": "THE MONSTERS 收入",
+      "value": [
+        4454.361,
+        4814.017
+      ],
+      "unit": "人民币百万元",
+      "source_id": "S01b68f6b1c14e53d",
+      "source_sha256": "01b68f6b1c14e53d235bf8cb476d87db1345f00eeeabc10533c820ae00894d44",
+      "url": "https://prod-out-res.popmart.com/cms/2026_INTERIM_REPORT_3ca5b69bf8.pdf",
+      "locator": "物理第26页；分IP",
+      "disclosed": "2026-09-24",
+      "checked": "2026-11-19",
+      "note": "2026H1与2025H1。"
+    },
+    {
+      "company": "09992_泡泡玛特",
+      "tag": "原文披露·Agent对读",
+      "period": "2025FY",
+      "metric": "租赁附注",
+      "value": [
+        592.713,
+        81.887,
+        1338.24,
+        1284.337,
+        608.288
+      ],
+      "unit": "人民币百万元",
+      "source_id": "S47095a39c6425b11",
+      "source_sha256": "47095a39c6425b11e5aaa091f456e178498d20a77d4ff6a969e351e4f5dfaaf7",
+      "url": "https://prod-out-res.popmart.com/cms/ANNUAL_REPORT_2025_bd4e173872.pdf",
+      "locator": "物理第301页，附注16",
+      "disclosed": "2026-04-21",
+      "checked": "2026-11-19",
+      "note": "使用权折旧、利息、短期及可变租赁费用、经营与融资租赁现金。"
+    },
+    {
+      "company": "09992_泡泡玛特",
+      "tag": "原文披露·Agent对读",
+      "period": "2024FY",
+      "metric": "租赁附注",
+      "value": [
+        452.318,
+        42.628,
+        457.906,
+        424.926,
+        505.104
+      ],
+      "unit": "人民币百万元",
+      "source_id": "S47095a39c6425b11",
+      "source_sha256": "47095a39c6425b11e5aaa091f456e178498d20a77d4ff6a969e351e4f5dfaaf7",
+      "url": "https://prod-out-res.popmart.com/cms/ANNUAL_REPORT_2025_bd4e173872.pdf",
+      "locator": "物理第301页，附注16；2024比较栏",
+      "disclosed": "2026-04-21",
+      "checked": "2026-11-19",
+      "note": "同列序。"
+    },
+    {
+      "company": "09992_泡泡玛特",
+      "tag": "原文披露·Agent对读",
+      "period": "2026H1",
+      "metric": "租赁附注",
+      "value": [
+        451.934,
+        81.056,
+        673.12,
+        708.255,
+        502.889
+      ],
+      "unit": "人民币百万元",
+      "source_id": "S01b68f6b1c14e53d",
+      "source_sha256": "01b68f6b1c14e53d235bf8cb476d87db1345f00eeeabc10533c820ae00894d44",
+      "url": "https://prod-out-res.popmart.com/cms/2026_INTERIM_REPORT_3ca5b69bf8.pdf",
+      "locator": "物理第102页，附注15；第71页",
+      "disclosed": "2026-09-24",
+      "checked": "2026-11-19",
+      "note": "同列序。"
+    },
+    {
+      "company": "09992_泡泡玛特",
+      "tag": "原文披露·Agent对读",
+      "period": "2025H1",
+      "metric": "租赁附注",
+      "value": [
+        254.184,
+        28.275,
+        513.331,
+        433.149,
+        263.592
+      ],
+      "unit": "人民币百万元",
+      "source_id": "S01b68f6b1c14e53d",
+      "source_sha256": "01b68f6b1c14e53d235bf8cb476d87db1345f00eeeabc10533c820ae00894d44",
+      "url": "https://prod-out-res.popmart.com/cms/2026_INTERIM_REPORT_3ca5b69bf8.pdf",
+      "locator": "物理第102页，附注15；2025比较栏",
+      "disclosed": "2026-09-24",
+      "checked": "2026-11-19",
+      "note": "同列序。"
+    }
+  ],
+  "current_facts": [
+    {
+      "company": "09992_泡泡玛特",
+      "tag": "Fact",
+      "id": "B07-A01",
+      "kind": "disclosure",
+      "claim": "收入2025",
+      "scope": {
+        "period": "2025年度",
+        "entity": "泡泡玛特",
+        "basis": "集团合并年度财务摘要",
+        "definition": "收入2025；按原表列定位，不把归母/合并净利润混同",
+        "unit": "人民币千元",
+        "currency": "CNY"
+      },
+      "sources": [
+        {
+          "source_id": "S47095a39c6425b11",
+          "location": "PDF物理第7页，财务摘要/经营更新，行“收入2025”"
+        }
+      ],
+      "support_boundary": "机器提取候选，尚无人审核准；不单独证明机制或投资价值。",
+      "value": "37120052",
+      "state": "Unknown",
+      "effective_state": "Fact",
+      "binding": "5879e3c54b2bd719b84b35c0c7a41ab454b0f1bc8b26a3cde7525257cdbb452d",
+      "issues": [],
+      "verifier": "agent",
+      "confirmation_event": "E000024",
+      "human_confirmation": false
+    },
+    {
+      "company": "09992_泡泡玛特",
+      "tag": "Fact",
+      "id": "B07-A02",
+      "kind": "disclosure",
+      "claim": "收入2024",
+      "scope": {
+        "period": "2024年度",
+        "entity": "泡泡玛特",
+        "basis": "集团合并年度财务摘要",
+        "definition": "收入2024；按原表列定位，不把归母/合并净利润混同",
+        "unit": "人民币千元",
+        "currency": "CNY"
+      },
+      "sources": [
+        {
+          "source_id": "S47095a39c6425b11",
+          "location": "PDF物理第7页，财务摘要/经营更新，行“收入2024”"
+        }
+      ],
+      "support_boundary": "机器提取候选，尚无人审核准；不单独证明机制或投资价值。",
+      "value": "13037749",
+      "state": "Unknown",
+      "effective_state": "Fact",
+      "binding": "eb1302b95c18a111b770211ca94ce8ae03360349b512683ff8bb5e7c6f9cd54c",
+      "issues": [],
+      "verifier": "agent",
+      "confirmation_event": "E000025",
+      "human_confirmation": false
+    },
+    {
+      "company": "09992_泡泡玛特",
+      "tag": "Fact",
+      "id": "B07-A03",
+      "kind": "disclosure",
+      "claim": "毛利2025",
+      "scope": {
+        "period": "2025年度",
+        "entity": "泡泡玛特",
+        "basis": "集团合并年度财务摘要",
+        "definition": "毛利2025；按原表列定位，不把归母/合并净利润混同",
+        "unit": "人民币千元",
+        "currency": "CNY"
+      },
+      "sources": [
+        {
+          "source_id": "S47095a39c6425b11",
+          "location": "PDF物理第7页，财务摘要/经营更新，行“毛利2025”"
+        }
+      ],
+      "support_boundary": "机器提取候选，尚无人审核准；不单独证明机制或投资价值。",
+      "value": "26764916",
+      "state": "Unknown",
+      "effective_state": "Fact",
+      "binding": "8dbd7bcd8e4c5d574e963fed92cb139f4517b7eed3d0e71951571f3fbb085ce5",
+      "issues": [],
+      "verifier": "agent",
+      "confirmation_event": "E000026",
+      "human_confirmation": false
+    },
+    {
+      "company": "09992_泡泡玛特",
+      "tag": "Fact",
+      "id": "B07-A04",
+      "kind": "disclosure",
+      "claim": "毛利2024",
+      "scope": {
+        "period": "2024年度",
+        "entity": "泡泡玛特",
+        "basis": "集团合并年度财务摘要",
+        "definition": "毛利2024；按原表列定位，不把归母/合并净利润混同",
+        "unit": "人民币千元",
+        "currency": "CNY"
+      },
+      "sources": [
+        {
+          "source_id": "S47095a39c6425b11",
+          "location": "PDF物理第7页，财务摘要/经营更新，行“毛利2024”"
+        }
+      ],
+      "support_boundary": "机器提取候选，尚无人审核准；不单独证明机制或投资价值。",
+      "value": "8707765",
+      "state": "Unknown",
+      "effective_state": "Fact",
+      "binding": "9260f2573b6ce888033a1421805a5b46bd03a6ee80645500139580ca62f6cf88",
+      "issues": [],
+      "verifier": "agent",
+      "confirmation_event": "E000027",
+      "human_confirmation": false
+    },
+    {
+      "company": "09992_泡泡玛特",
+      "tag": "Fact",
+      "id": "B07-A05",
+      "kind": "disclosure",
+      "claim": "年内溢利2025（含非控股）",
+      "scope": {
+        "period": "2025年度",
+        "entity": "泡泡玛特",
+        "basis": "集团合并年度财务摘要",
+        "definition": "年内溢利2025（含非控股）；按原表列定位，不把归母/合并净利润混同",
+        "unit": "人民币千元",
+        "currency": "CNY"
+      },
+      "sources": [
+        {
+          "source_id": "S47095a39c6425b11",
+          "location": "PDF物理第7页，财务摘要/经营更新，行“年内溢利2025（含非控股）”"
+        }
+      ],
+      "support_boundary": "机器提取候选，尚无人审核准；不单独证明机制或投资价值。",
+      "value": "13012042",
+      "state": "Unknown",
+      "effective_state": "Fact",
+      "binding": "ba6fe17bd055461637fe81d382fb8044d21fdc6cf1f15fcafc645eaefd079ef3",
+      "issues": [],
+      "verifier": "agent",
+      "confirmation_event": "E000028",
+      "human_confirmation": false
+    },
+    {
+      "company": "09992_泡泡玛特",
+      "tag": "Fact",
+      "id": "B07-A06",
+      "kind": "disclosure",
+      "claim": "年内溢利2024（含非控股）",
+      "scope": {
+        "period": "2024年度",
+        "entity": "泡泡玛特",
+        "basis": "集团合并年度财务摘要",
+        "definition": "年内溢利2024（含非控股）；按原表列定位，不把归母/合并净利润混同",
+        "unit": "人民币千元",
+        "currency": "CNY"
+      },
+      "sources": [
+        {
+          "source_id": "S47095a39c6425b11",
+          "location": "PDF物理第7页，财务摘要/经营更新，行“年内溢利2024（含非控股）”"
+        }
+      ],
+      "support_boundary": "机器提取候选，尚无人审核准；不单独证明机制或投资价值。",
+      "value": "3308345",
+      "state": "Unknown",
+      "effective_state": "Fact",
+      "binding": "0286cde2c57053ce613664dd4b7247d7674e4f2db938235ae4d86817cec63276",
+      "issues": [],
+      "verifier": "agent",
+      "confirmation_event": "E000029",
+      "human_confirmation": false
+    },
+    {
+      "company": "09992_泡泡玛特",
+      "tag": "Fact",
+      "id": "B07-Q01",
+      "kind": "disclosure",
+      "claim": "集团整体收入同比减少45%—50%",
+      "scope": {
+        "period": "2026Q3相对2025Q3",
+        "entity": "泡泡玛特",
+        "basis": "集团合并；季度数据未经审计",
+        "definition": "公司自愿业务更新披露的未经审计收入",
+        "unit": "%",
+        "currency": ""
+      },
+      "sources": [
+        {
+          "source_id": "S92234424087f455a",
+          "location": "PDF物理第1页，财务摘要/经营更新，行“集团收入同比”"
+        }
+      ],
+      "support_boundary": "未经审计的公司自愿经营公告，披露同比降幅区间。",
+      "state": "Unknown",
+      "range": {
+        "lower": "-50",
+        "upper": "-45",
+        "unit": "%",
+        "direction": "同比减少",
+        "amountBasis": "公司自愿业务更新披露的未经审计收入"
+      },
+      "value": null,
+      "effective_state": "Fact",
+      "binding": "84a6da27a514c1dcf5cb5f7aa2c5b069244af91cb79de277e654487cb02843ba",
+      "issues": [],
+      "verifier": "agent",
+      "confirmation_event": "E000031",
+      "human_confirmation": false
+    },
+    {
+      "company": "09992_泡泡玛特",
+      "tag": "Fact",
+      "id": "B07-Q02",
+      "kind": "disclosure",
+      "claim": "中国收入同比减少25%—30%",
+      "scope": {
+        "period": "2026Q3相对2025Q3",
+        "entity": "泡泡玛特",
+        "basis": "集团合并；季度数据未经审计",
+        "definition": "公司自愿业务更新披露的未经审计收入",
+        "unit": "%",
+        "currency": ""
+      },
+      "sources": [
+        {
+          "source_id": "S92234424087f455a",
+          "location": "PDF物理第1页，财务摘要/经营更新，行“中国收入同比”"
+        }
+      ],
+      "support_boundary": "未经审计的公司自愿经营公告，披露同比降幅区间。",
+      "state": "Unknown",
+      "range": {
+        "lower": "-30",
+        "upper": "-25",
+        "unit": "%",
+        "direction": "同比减少",
+        "amountBasis": "公司自愿业务更新披露的未经审计收入"
+      },
+      "value": null,
+      "effective_state": "Fact",
+      "binding": "187ad962ad477d0c2de8bb3e3c44346f67b4243c0f2fbb732732441836e3d27c",
+      "issues": [],
+      "verifier": "agent",
+      "confirmation_event": "E000033",
+      "human_confirmation": false
+    },
+    {
+      "company": "09992_泡泡玛特",
+      "tag": "Fact",
+      "id": "B07-Q03",
+      "kind": "disclosure",
+      "claim": "亚太（不含中国）收入同比减少65%—70%",
+      "scope": {
+        "period": "2026Q3相对2025Q3",
+        "entity": "泡泡玛特",
+        "basis": "集团合并；季度数据未经审计",
+        "definition": "公司自愿业务更新披露的未经审计收入",
+        "unit": "%",
+        "currency": ""
+      },
+      "sources": [
+        {
+          "source_id": "S92234424087f455a",
+          "location": "PDF物理第1页，财务摘要/经营更新，行“亚太收入同比”"
+        }
+      ],
+      "support_boundary": "未经审计的公司自愿经营公告，披露同比降幅区间。",
+      "state": "Unknown",
+      "range": {
+        "lower": "-70",
+        "upper": "-65",
+        "unit": "%",
+        "direction": "同比减少",
+        "amountBasis": "公司自愿业务更新披露的未经审计收入"
+      },
+      "value": null,
+      "effective_state": "Fact",
+      "binding": "900fef90ecc7e499420aac799dc559a9b4123211e9a23ac31149341f07a2e930",
+      "issues": [],
+      "verifier": "agent",
+      "confirmation_event": "E000035",
+      "human_confirmation": false
+    },
+    {
+      "company": "09992_泡泡玛特",
+      "tag": "Fact",
+      "id": "B07-Q04",
+      "kind": "disclosure",
+      "claim": "美洲收入同比减少70%—75%",
+      "scope": {
+        "period": "2026Q3相对2025Q3",
+        "entity": "泡泡玛特",
+        "basis": "集团合并；季度数据未经审计",
+        "definition": "公司自愿业务更新披露的未经审计收入",
+        "unit": "%",
+        "currency": ""
+      },
+      "sources": [
+        {
+          "source_id": "S92234424087f455a",
+          "location": "PDF物理第1页，财务摘要/经营更新，行“美洲收入同比”"
+        }
+      ],
+      "support_boundary": "未经审计的公司自愿经营公告，披露同比降幅区间。",
+      "state": "Unknown",
+      "range": {
+        "lower": "-75",
+        "upper": "-70",
+        "unit": "%",
+        "direction": "同比减少",
+        "amountBasis": "公司自愿业务更新披露的未经审计收入"
+      },
+      "value": null,
+      "effective_state": "Fact",
+      "binding": "1466240dfc2df6966af53ded8db42ee0ed3146d945e25165189f22c0b22665ba",
+      "issues": [],
+      "verifier": "agent",
+      "confirmation_event": "E000037",
+      "human_confirmation": false
+    },
+    {
+      "company": "09992_泡泡玛特",
+      "tag": "Fact",
+      "id": "B07-Q05",
+      "kind": "disclosure",
+      "claim": "欧洲及其他收入同比减少50%—55%",
+      "scope": {
+        "period": "2026Q3相对2025Q3",
+        "entity": "泡泡玛特",
+        "basis": "集团合并；季度数据未经审计",
+        "definition": "公司自愿业务更新披露的未经审计收入",
+        "unit": "%",
+        "currency": ""
+      },
+      "sources": [
+        {
+          "source_id": "S92234424087f455a",
+          "location": "PDF物理第1页，财务摘要/经营更新，行“欧洲及其他收入同比”"
+        }
+      ],
+      "support_boundary": "未经审计的公司自愿经营公告，披露同比降幅区间。",
+      "state": "Unknown",
+      "range": {
+        "lower": "-55",
+        "upper": "-50",
+        "unit": "%",
+        "direction": "同比减少",
+        "amountBasis": "公司自愿业务更新披露的未经审计收入"
+      },
+      "value": null,
+      "effective_state": "Fact",
+      "binding": "05b70eddfadb8027c9bfc240b4907859b474d24fb159a8c41f4223e4514471c9",
+      "issues": [],
+      "verifier": "agent",
+      "confirmation_event": "E000039",
+      "human_confirmation": false
+    },
+    {
+      "company": "09992_泡泡玛特",
+      "tag": "Fact",
+      "id": "B07-Q06",
+      "kind": "disclosure",
+      "claim": "中国线下收入同比减少5%—10%",
+      "scope": {
+        "period": "2026Q3相对2025Q3",
+        "entity": "泡泡玛特",
+        "basis": "集团合并；季度数据未经审计",
+        "definition": "公司自愿业务更新披露的未经审计收入",
+        "unit": "%",
+        "currency": ""
+      },
+      "sources": [
+        {
+          "source_id": "S92234424087f455a",
+          "location": "PDF物理第1页，财务摘要/经营更新，行“中国线下收入同比”"
+        }
+      ],
+      "support_boundary": "未经审计的公司自愿经营公告，披露同比降幅区间。",
+      "state": "Unknown",
+      "range": {
+        "lower": "-10",
+        "upper": "-5",
+        "unit": "%",
+        "direction": "同比减少",
+        "amountBasis": "公司自愿业务更新披露的未经审计收入"
+      },
+      "value": null,
+      "effective_state": "Fact",
+      "binding": "993a2aac3133811271f450ff79b5c0dd61715eb1a221610480e9d0ecafc73b0c",
+      "issues": [],
+      "verifier": "agent",
+      "confirmation_event": "E000041",
+      "human_confirmation": false
+    },
+    {
+      "company": "09992_泡泡玛特",
+      "tag": "Fact",
+      "id": "B07-Q07",
+      "kind": "disclosure",
+      "claim": "中国线上收入同比减少45%—50%",
+      "scope": {
+        "period": "2026Q3相对2025Q3",
+        "entity": "泡泡玛特",
+        "basis": "集团合并；季度数据未经审计",
+        "definition": "公司自愿业务更新披露的未经审计收入",
+        "unit": "%",
+        "currency": ""
+      },
+      "sources": [
+        {
+          "source_id": "S92234424087f455a",
+          "location": "PDF物理第1页，财务摘要/经营更新，行“中国线上收入同比”"
+        }
+      ],
+      "support_boundary": "未经审计的公司自愿经营公告，披露同比降幅区间。",
+      "state": "Unknown",
+      "range": {
+        "lower": "-50",
+        "upper": "-45",
+        "unit": "%",
+        "direction": "同比减少",
+        "amountBasis": "公司自愿业务更新披露的未经审计收入"
+      },
+      "value": null,
+      "effective_state": "Fact",
+      "binding": "fd93c9274d103ce79e5e2132570d7a2a4d2184fdda0143043c59e6227b45fa15",
+      "issues": [],
+      "verifier": "agent",
+      "confirmation_event": "E000043",
+      "human_confirmation": false
+    },
+    {
+      "company": "09992_泡泡玛特",
+      "tag": "Fact",
+      "id": "R14-9992-8-01",
+      "kind": "disclosure",
+      "claim": "营业收入",
+      "value": "17172921",
+      "state": "Unknown",
+      "scope": {
+        "period": "2026-01-01至2026-06-30累计",
+        "unit": "人民币千元",
+        "currency": "CNY",
+        "entity": "泡泡玛特",
+        "basis": "綜合損益/財務狀況/現金流量表",
+        "definition": "营业收入"
+      },
+      "sources": [
+        {
+          "source_id": "S01b68f6b1c14e53d",
+          "location": "{\"column\": \"本期\", \"physical_page\": 64, \"table\": \"綜合損益/財務狀況/現金流量表\"}"
+        }
+      ],
+      "support_boundary": "阶段14集中核验裁定所列合并披露。",
+      "effective_state": "Fact",
+      "binding": "b570e2d0f3e2d6e2d18060b7b0fbf725b63a25cf1a64060562c509f071c440e3",
+      "issues": [],
+      "verifier": "agent",
+      "confirmation_event": "E000045",
+      "human_confirmation": false
+    },
+    {
+      "company": "09992_泡泡玛特",
+      "tag": "Fact",
+      "id": "R14-9992-8-02",
+      "kind": "disclosure",
+      "claim": "报告营业利润",
+      "value": "6724746",
+      "state": "Unknown",
+      "scope": {
+        "period": "2026-01-01至2026-06-30累计",
+        "unit": "人民币千元",
+        "currency": "CNY",
+        "entity": "泡泡玛特",
+        "basis": "綜合損益/財務狀況/現金流量表",
+        "definition": "报告营业利润"
+      },
+      "sources": [
+        {
+          "source_id": "S01b68f6b1c14e53d",
+          "location": "{\"column\": \"本期\", \"physical_page\": 64, \"table\": \"綜合損益/財務狀況/現金流量表\"}"
+        }
+      ],
+      "support_boundary": "阶段14集中核验裁定所列合并披露。",
+      "effective_state": "Fact",
+      "binding": "2dd7aae66a6a9c9ba2285fea6c2dde8cbf999945dd29a110f55f691eebfb4f2f",
+      "issues": [],
+      "verifier": "agent",
+      "confirmation_event": "E000047",
+      "human_confirmation": false
+    },
+    {
+      "company": "09992_泡泡玛特",
+      "tag": "Fact",
+      "id": "R14-9992-8-03",
+      "kind": "disclosure",
+      "claim": "经营现金净额",
+      "value": "3637324",
+      "state": "Unknown",
+      "scope": {
+        "period": "2026-01-01至2026-06-30累计",
+        "unit": "人民币千元",
+        "currency": "CNY",
+        "entity": "泡泡玛特",
+        "basis": "綜合損益/財務狀況/現金流量表",
+        "definition": "经营现金净额"
+      },
+      "sources": [
+        {
+          "source_id": "S01b68f6b1c14e53d",
+          "location": "{\"column\": \"本期\", \"physical_page\": 70, \"table\": \"綜合損益/財務狀況/現金流量表\"}"
+        }
+      ],
+      "support_boundary": "阶段14集中核验裁定所列合并披露。",
+      "effective_state": "Fact",
+      "binding": "81ebc20894b735c7dc70f6ac360341c5e9849615b2cc3bfa1cc19bdbd6554e60",
+      "issues": [],
+      "verifier": "agent",
+      "confirmation_event": "E000049",
+      "human_confirmation": false
+    },
+    {
+      "company": "09992_泡泡玛特",
+      "tag": "Fact",
+      "id": "R14-9992-8-04",
+      "kind": "disclosure",
+      "claim": "已付所得税",
+      "value": "-3219674",
+      "state": "Unknown",
+      "scope": {
+        "period": "2026-01-01至2026-06-30累计",
+        "unit": "人民币千元",
+        "currency": "CNY",
+        "entity": "泡泡玛特",
+        "basis": "綜合損益/財務狀況/現金流量表",
+        "definition": "已付所得税为经营现金流出，原表括号。"
+      },
+      "sources": [
+        {
+          "source_id": "S01b68f6b1c14e53d",
+          "location": "{\"column\": \"本期\", \"physical_page\": 70, \"table\": \"綜合損益/財務狀況/現金流量表\"}"
+        }
+      ],
+      "support_boundary": "阶段14集中核验裁定所列合并披露。",
+      "effective_state": "Fact",
+      "binding": "5724901a26fa1e81825bff3e77c7d5616e99cf2887722b67d08fe5c41867d71c",
+      "issues": [],
+      "verifier": "agent",
+      "confirmation_event": "E000051",
+      "human_confirmation": false
+    },
+    {
+      "company": "09992_泡泡玛特",
+      "tag": "Fact",
+      "id": "R14-9992-8-05",
+      "kind": "disclosure",
+      "claim": "租赁负债支付",
+      "value": "-502889",
+      "state": "Unknown",
+      "scope": {
+        "period": "2026-01-01至2026-06-30累计",
+        "unit": "人民币千元",
+        "currency": "CNY",
+        "entity": "泡泡玛特",
+        "basis": "綜合損益/財務狀況/現金流量表",
+        "definition": "支付租赁负债为融资现金流出，原表括号。"
+      },
+      "sources": [
+        {
+          "source_id": "S01b68f6b1c14e53d",
+          "location": "{\"column\": \"本期\", \"physical_page\": 71, \"table\": \"綜合損益/財務狀況/現金流量表\"}"
+        }
+      ],
+      "support_boundary": "阶段14集中核验裁定所列合并披露。",
+      "effective_state": "Fact",
+      "binding": "71e09adf9cd2cc74f48447112d4f0b30db35311da55ff886db2f945d1bea0b0e",
+      "issues": [],
+      "verifier": "agent",
+      "confirmation_event": "E000053",
+      "human_confirmation": false
+    },
+    {
+      "company": "09992_泡泡玛特",
+      "tag": "Fact",
+      "id": "R14-9992-8-06",
+      "kind": "disclosure",
+      "claim": "现金购建支出",
+      "value": "-673560",
+      "state": "Unknown",
+      "scope": {
+        "period": "2026-01-01至2026-06-30累计",
+        "unit": "人民币千元",
+        "currency": "CNY",
+        "entity": "泡泡玛特",
+        "basis": "綜合損益/財務狀況/現金流量表",
+        "definition": "仅购买物业、厂房及设备，原表为投资现金流出；无形资产购买独立。"
+      },
+      "sources": [
+        {
+          "source_id": "S01b68f6b1c14e53d",
+          "location": "{\"column\": \"本期\", \"physical_page\": 70, \"table\": \"綜合損益/財務狀況/現金流量表\"}"
+        }
+      ],
+      "support_boundary": "阶段14集中核验裁定所列合并披露。",
+      "effective_state": "Fact",
+      "binding": "a152c535622710af287086d0cf35c3b39cb7527ada00561bb5769442b43f2ab6",
+      "issues": [],
+      "verifier": "agent",
+      "confirmation_event": "E000055",
+      "human_confirmation": false
+    },
+    {
+      "company": "09992_泡泡玛特",
+      "tag": "Fact",
+      "id": "R14-9992-8-07",
+      "kind": "disclosure",
+      "claim": "归属母公司股东净利",
+      "value": "5038384",
+      "state": "Unknown",
+      "scope": {
+        "period": "2026-01-01至2026-06-30累计",
+        "unit": "人民币千元",
+        "currency": "CNY",
+        "entity": "泡泡玛特",
+        "basis": "綜合損益/財務狀況/現金流量表",
+        "definition": "归属本公司拥有人，非含少数权益的期间溢利。"
+      },
+      "sources": [
+        {
+          "source_id": "S01b68f6b1c14e53d",
+          "location": "{\"column\": \"本期\", \"physical_page\": 64, \"table\": \"綜合損益/財務狀況/現金流量表\"}"
+        }
+      ],
+      "support_boundary": "阶段14集中核验裁定所列合并披露。",
+      "effective_state": "Fact",
+      "binding": "14bed58e5f1a3782470c94ac24332278baf8c22ea8ddc2bf54c5d970e1303c24",
+      "issues": [],
+      "verifier": "agent",
+      "confirmation_event": "E000057",
+      "human_confirmation": false
+    },
+    {
+      "company": "09992_泡泡玛特",
+      "tag": "Fact",
+      "id": "R14-9992-8-08",
+      "kind": "disclosure",
+      "claim": "所得税费用",
+      "value": "-1666548",
+      "state": "Unknown",
+      "scope": {
+        "period": "2026-01-01至2026-06-30累计",
+        "unit": "人民币千元",
+        "currency": "CNY",
+        "entity": "泡泡玛特",
+        "basis": "綜合損益/財務狀況/現金流量表",
+        "definition": "原表括号扣减，正数仅可标作费用金额。"
+      },
+      "sources": [
+        {
+          "source_id": "S01b68f6b1c14e53d",
+          "location": "{\"column\": \"本期\", \"physical_page\": 64, \"table\": \"綜合損益/財務狀況/現金流量表\"}"
+        }
+      ],
+      "support_boundary": "阶段14集中核验裁定所列合并披露。",
+      "effective_state": "Fact",
+      "binding": "58c0f6e0f1c41637de177f08b5439ec25efd46234b2011c1d52e3399a662dae6",
+      "issues": [],
+      "verifier": "agent",
+      "confirmation_event": "E000059",
+      "human_confirmation": false
+    },
+    {
+      "company": "09992_泡泡玛特",
+      "tag": "Fact",
+      "id": "R15-2020-REV",
+      "kind": "disclosure",
+      "state": "Unknown",
+      "value": "2513471",
+      "claim": "年度集团合并收入",
+      "scope": {
+        "period": "2020-FY",
+        "entity": "泡泡玛特",
+        "basis": "年度集团合并收入",
+        "definition": "Revenue",
+        "unit": "人民币千元",
+        "currency": "CNY"
+      },
+      "sources": [
+        {
+          "source_id": "S3a717e3a572b1f30",
+          "location": "PDF物理第137页，IS，Revenue，第1数值列，文本行11"
+        },
+        {
+          "source_id": "Sae0f1e1845c9aa8f",
+          "location": "PDF物理第166页，合并收入比较栏第2数值列，文本行11"
+        }
+      ],
+      "support_boundary": "两份同范围原件的年度收入列核对一致。早期主营业务收入按当时列名保留。",
+      "effective_state": "Fact",
+      "binding": "d7c7e8c378f68ee4a99fca7697e845a0722d7617e7e64b10ca186b6ca8590af6",
+      "issues": [],
+      "verifier": "agent",
+      "confirmation_event": "E000061",
+      "human_confirmation": false
+    },
+    {
+      "company": "09992_泡泡玛特",
+      "tag": "Fact",
+      "id": "R15-2021-REV",
+      "kind": "disclosure",
+      "state": "Unknown",
+      "value": "4490651",
+      "claim": "年度集团合并收入",
+      "scope": {
+        "period": "2021-FY",
+        "entity": "泡泡玛特",
+        "basis": "年度集团合并收入",
+        "definition": "Revenue",
+        "unit": "人民币千元",
+        "currency": "CNY"
+      },
+      "sources": [
+        {
+          "source_id": "Sae0f1e1845c9aa8f",
+          "location": "PDF物理第166页，IS，Revenue，第1数值列，文本行11"
+        },
+        {
+          "source_id": "S113a569cdaac64d5",
+          "location": "PDF物理第179页，合并收入比较栏第2数值列，文本行11"
+        }
+      ],
+      "support_boundary": "两份同范围原件的年度收入列核对一致。早期主营业务收入按当时列名保留。",
+      "effective_state": "Fact",
+      "binding": "7d07d9f2de0505ad79c400da2076a8f7ec6c11956b32cdce272e865622377061",
+      "issues": [],
+      "verifier": "agent",
+      "confirmation_event": "E000063",
+      "human_confirmation": false
+    },
+    {
+      "company": "09992_泡泡玛特",
+      "tag": "Fact",
+      "id": "R15-2022-REV",
+      "kind": "disclosure",
+      "state": "Unknown",
+      "value": "4617324",
+      "claim": "年度集团合并收入",
+      "scope": {
+        "period": "2022-FY",
+        "entity": "泡泡玛特",
+        "basis": "年度集团合并收入",
+        "definition": "Revenue",
+        "unit": "人民币千元",
+        "currency": "CNY"
+      },
+      "sources": [
+        {
+          "source_id": "S113a569cdaac64d5",
+          "location": "PDF物理第179页，IS，Revenue，第1数值列，文本行11"
+        },
+        {
+          "source_id": "S1312bd4fec38932f",
+          "location": "PDF物理第181页，合并收入比较栏第2数值列，文本行11"
+        }
+      ],
+      "support_boundary": "两份同范围原件的年度收入列核对一致。早期主营业务收入按当时列名保留。",
+      "effective_state": "Fact",
+      "binding": "4fed26cf1e1236e4d32e5bec58e86929b34dfd479004256fb61a69d32d987708",
+      "issues": [],
+      "verifier": "agent",
+      "confirmation_event": "E000065",
+      "human_confirmation": false
+    }
+  ],
+  "market_observation": {
+    "ticker": "9992.HK",
+    "exchange": "香港联合交易所",
+    "right": "普通股",
+    "quote": "HKD",
+    "report": "CNY",
+    "shares": 1327969203,
+    "fx": 0.85633,
+    "close": "2026-11-12T16:10:00+08:00",
+    "shares_basis": "11月11日17:02表的登记已发行1,331,779,203，已公告未注销回购3,810,000，估值用扣除后的经济股数。11月12日16:48新增460,000回购公告在收盘之后，未纳入。",
+    "shares_at": "2026-11-11",
+    "as_of": "2026-11-12",
+    "tag": "市场观测"
+  },
+  "decision": {
+    "tag": "实际投资决定",
+    "status": "未记录",
+    "value": null
+  }
+}

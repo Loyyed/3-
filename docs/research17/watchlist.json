@@ -1,0 +1,42 @@
+[
+  {
+    "company": "002507_涪陵榨菜",
+    "tag": "待公开验证",
+    "period": "估值日后",
+    "next_public": "下一期年报/中报分销售模式毛利、销售费用、经营收现与应收，对照募投进度、试产和旧线退出。出货到回款的归因需要渠道级应收及相关费用。",
+    "public_document_date": null,
+    "actual_result": null
+  },
+  {
+    "company": "600298_安琪酵母",
+    "tag": "待公开验证",
+    "period": "估值日后",
+    "next_public": "项目投产公告与年报的在建工程转固、实际投资、产销量、库存及经营收现，按厂和批次核对。",
+    "public_document_date": null,
+    "actual_result": null
+  },
+  {
+    "company": "688188_柏楚电子",
+    "tag": "待公开验证",
+    "period": "估值日后",
+    "next_public": "年报分产品控制系统与智能硬件销量、整套解决方案毛利、售后相关费用及存货周转。公开报告若仅披露系统销量，则继续以增量出货当量约束续购情景。",
+    "public_document_date": null,
+    "actual_result": null
+  },
+  {
+    "company": "09992_泡泡玛特",
+    "tag": "待公开验证",
+    "period": "估值日后",
+    "next_public": "全年业绩公告的H2绝对收入及存货、租赁现金附注。成熟开店批次同店销量仍需同覆盖期披露，中国区总店销售除以平均门店数是独立代理指标。",
+    "public_document_date": null,
+    "actual_result": null
+  },
+  {
+    "company": "US_ISRG_直觉外科",
+    "tag": "待公开验证",
+    "period": "估值日后",
+    "next_public": "下一次10-Q/10-K的两类新装机及在用数、da Vinci和Ion独立术量、耗材收入、固定/可变租赁收入与现金购建补充披露。",
+    "public_document_date": null,
+    "actual_result": null
+  }
+]

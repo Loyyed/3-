@@ -1,0 +1,2698 @@
+{
+  "comparison": {
+    "company": "US_ISRG_直觉外科",
+    "code": "US",
+    "market_close": 439.89,
+    "quote": "USD",
+    "as_of": "2026-11-12",
+    "stage15": 191.19798010524067,
+    "stage16": 178.69260074312152,
+    "delta": -12.505379362119157,
+    "stage15_vs_market": -248.6920198947593,
+    "stage16_vs_market": -261.1973992568785,
+    "stage15_commit": "769e6e443aba87c7a94704f4da5efb876d7ba65f",
+    "stage16_commit": "4bf7bf66dd6722bd0250fb9e7c9264f645606f1f",
+    "stage15_sha256": "a7c0ca72654bff155828c5ee652c121ce0901c16ef43593a045f2e4712f48b55",
+    "stage16_sha256": "aa2aab89d37c169a6eead395370d64dd6ff4bef8e1458988db7332e583d58ac5",
+    "tag": "条件估值与全精度差额"
+  },
+  "judgments": [
+    {
+      "question": "首选判断",
+      "judgment": "术式培训、器械配套和存量设备使用支撑耗材与服务的重复收入。439.89 美元要求业务和资本回报同时明显加速，现有经营证据支持保留 178.69 美元基准。",
+      "tag": "研究判断"
+    },
+    {
+      "question": "最强反方",
+      "judgment": "2026Q3 da Vinci 期末装机 12,094 台、上年同期 10,763 台，前三季 da Vinci 与 Ion 术量约增 15% 和 35%。医院术量密度持续提升可以支持价格。2025 年平均装机对应 da Vinci 每台 300 例、含 Ion 的每例耗材约 1,826 美元。2023–2025 装机、平均装机利用率和含 Ion 每例耗材收入年复合变动依次 13.60%、2.97%、-0.06%。",
+      "tag": "研究判断"
+    },
+    {
+      "question": "现价对应的经营预期",
+      "judgment": "在 8% WACC 与每套租赁制造现金 0.85 百万美元下，两条路径均回代 439.89 美元。路径一为装机增 13%、每台活跃装机术量增 10.62%、每例变现增 1.5%，2031 年平均活跃装机 20,323 台，da Vinci 10.405 百万例，含 Ion 的合并耗材分母 10.739 百万例，每例耗材 2,012 美元，平均装机归一后 da Vinci 每台 492 例。路径二为装机增 16%、每台活跃装机术量增 6.55%、每例变现增 2.0%，2031 年平均活跃装机 22,759 台，da Vinci 9.777 百万例，含 Ion 的合并耗材分母 10.154 百万例，每例耗材 2,058 美元，平均装机归一后 da Vinci 每台 412 例。术量采用 da Vinci 独立分母衡量利用率，耗材变现采用 da Vinci 加 Ion 合并分母。装机 13%／16% 固定后，利用率增速数值反解的范围为 −3% 至 12%，按基准 9.77% WACC 则在该区间搜索无交点。",
+      "tag": "研究判断"
+    },
+    {
+      "question": "翻转条件",
+      "judgment": "每套五年回收、年维护 0.10 百万美元、期末零残值时，需年租金现金 0.313 百万美元。10-Q 年化固定与按量代理为 0.223 和 0.295 百万美元。固定端需更长回收期、支付提升或更低成本；按量路径须验证术量密度和维护现金。2031 年路径一按量每台收入代理约 0.631 百万美元，路径二约 0.542 百万美元。路径二的术量强度较接近历史，但依赖更高的装机增速和制造现金。两路径 2031 年制造设备现金分别约 1,452、1,749 百万美元。单套成本若升至 1.03 百万，条件值降至 435.25／434.41 美元。",
+      "tag": "研究判断"
+    },
+    {
+      "question": "下次可核对的公开指标",
+      "judgment": "下一次10-Q/10-K的两类新装机及在用数、da Vinci和Ion独立术量、耗材收入、固定/可变租赁收入与现金购建补充披露。",
+      "tag": "研究判断"
+    }
+  ],
+  "evidence": [
+    {
+      "company": "US_ISRG_直觉外科",
+      "tag": "原文披露·Agent对读",
+      "period": "2018",
+      "metric": "da Vinci 期末安装基数",
+      "value": 4986,
+      "unit": "台",
+      "source_id": "Sfb795f4a51c45110",
+      "source_sha256": "eb48afbeccd51370102425a896f18704667095385b108e337896fcdc5484513f",
+      "url": "https://www.sec.gov/Archives/edgar/data/1035267/000103526720000032/isrg-20191231.htm",
+      "locator": "HTML MD&A 文本块736",
+      "disclosed": "2020-02-07",
+      "checked": "2026-11-19",
+      "note": "全部安装基数是活跃装机代理，医院实际开机分母缺失。"
+    },
+    {
+      "company": "US_ISRG_直觉外科",
+      "tag": "原文披露·Agent对读",
+      "period": "2019",
+      "metric": "da Vinci 期末安装基数",
+      "value": 5582,
+      "unit": "台",
+      "source_id": "Sfb795f4a51c45110",
+      "source_sha256": "eb48afbeccd51370102425a896f18704667095385b108e337896fcdc5484513f",
+      "url": "https://www.sec.gov/Archives/edgar/data/1035267/000103526720000032/isrg-20191231.htm",
+      "locator": "HTML MD&A 文本块736",
+      "disclosed": "2020-02-07",
+      "checked": "2026-11-19",
+      "note": "全部安装基数是活跃装机代理，医院实际开机分母缺失。"
+    },
+    {
+      "company": "US_ISRG_直觉外科",
+      "tag": "原文披露·Agent对读",
+      "period": "2020",
+      "metric": "da Vinci 期末安装基数",
+      "value": 5989,
+      "unit": "台",
+      "source_id": "Sa49ea83ea3ce7ef2",
+      "source_sha256": "7e479ab73172dfe398a60e2f000fd7946b0026ad34825ef578f4448d73556a5f",
+      "url": "https://www.sec.gov/Archives/edgar/data/1035267/000103526721000028/isrg-20201231.htm",
+      "locator": "HTML MD&A 文本块884",
+      "disclosed": "2021-02-10",
+      "checked": "2026-11-19",
+      "note": "全部安装基数是活跃装机代理，医院实际开机分母缺失。"
+    },
+    {
+      "company": "US_ISRG_直觉外科",
+      "tag": "原文披露·Agent对读",
+      "period": "2021",
+      "metric": "da Vinci 期末安装基数",
+      "value": 6730,
+      "unit": "台",
+      "source_id": "S78f74b10f3f686c7",
+      "source_sha256": "e572d9bbc4dc035d7ffd9b140026f89cd4fdae5314208bcf2bb3102867ca235e",
+      "url": "https://www.sec.gov/Archives/edgar/data/1035267/000103526722000014/isrg-20211231.htm",
+      "locator": "HTML MD&A 文本块932",
+      "disclosed": "2022-02-03",
+      "checked": "2026-11-19",
+      "note": "全部安装基数是活跃装机代理，医院实际开机分母缺失。"
+    },
+    {
+      "company": "US_ISRG_直觉外科",
+      "tag": "原文披露·Agent对读",
+      "period": "2022",
+      "metric": "da Vinci 期末安装基数",
+      "value": 7544,
+      "unit": "台",
+      "source_id": "S665e685caf9f272d",
+      "source_sha256": "f8a005fc1f29d360453e633f2c3248bffd50cf3f58cf327f0d9e09abf67380ab",
+      "url": "https://www.sec.gov/Archives/edgar/data/1035267/000103526723000019/isrg-20221231.htm",
+      "locator": "HTML MD&A 文本块967",
+      "disclosed": "2023-02-10",
+      "checked": "2026-11-19",
+      "note": "全部安装基数是活跃装机代理，医院实际开机分母缺失。"
+    },
+    {
+      "company": "US_ISRG_直觉外科",
+      "tag": "原文披露·Agent对读",
+      "period": "2023",
+      "metric": "da Vinci 期末安装基数",
+      "value": 8606,
+      "unit": "台",
+      "source_id": "Sf92ee8eb3f06a597",
+      "source_sha256": "7c56b83d1df3ed1dceb67f51d4a8239c2a88af559427559124d8c0c55fda5035",
+      "url": "https://www.sec.gov/Archives/edgar/data/1035267/000103526724000021/isrg-20231231.htm",
+      "locator": "HTML MD&A 文本块1020",
+      "disclosed": "2024-01-31",
+      "checked": "2026-11-19",
+      "note": "全部安装基数是活跃装机代理，医院实际开机分母缺失。"
+    },
+    {
+      "company": "US_ISRG_直觉外科",
+      "tag": "原文披露·Agent对读",
+      "period": "2024",
+      "metric": "da Vinci 期末安装基数",
+      "value": 9902,
+      "unit": "台",
+      "source_id": "Se4905bffbdcd3611",
+      "source_sha256": "6fb4278641549fc85285088ff6d83f9886757eef188f727e8d8f6a9c93a9c70b",
+      "url": "https://www.sec.gov/Archives/edgar/data/1035267/000103526725000017/isrg-20241231.htm",
+      "locator": "HTML MD&A 文本块1022",
+      "disclosed": "2025-01-31",
+      "checked": "2026-11-19",
+      "note": "全部安装基数是活跃装机代理，医院实际开机分母缺失。"
+    },
+    {
+      "company": "US_ISRG_直觉外科",
+      "tag": "原文披露·Agent对读",
+      "period": "2025",
+      "metric": "da Vinci 期末安装基数",
+      "value": 11106,
+      "unit": "台",
+      "source_id": "Se7f95d2f97642180",
+      "source_sha256": "bdcd15add5b70b03a8342ffe169b54530d4805c9e4c12796985d3245993ac991",
+      "url": "https://www.sec.gov/Archives/edgar/data/1035267/000103526726000010/isrg-20251231.htm",
+      "locator": "HTML MD&A 文本块938",
+      "disclosed": "2026-02-03",
+      "checked": "2026-11-19",
+      "note": "全部安装基数是活跃装机代理，医院实际开机分母缺失。"
+    },
+    {
+      "company": "US_ISRG_直觉外科",
+      "tag": "原文披露·Agent对读",
+      "period": "2026YTD9",
+      "metric": "耗材、系统、服务、经营租赁、可变租赁、买断",
+      "value": [
+        5218.7,
+        2104.8,
+        1388.3,
+        787,
+        504,
+        153
+      ],
+      "unit": "百万美元",
+      "source_id": "S83c179dfd93521d4",
+      "source_sha256": "df5b434e5ae926551c12632ba637d5d182aa1fdf3eab00b5668983bc86c3ac61",
+      "url": "https://www.sec.gov/Archives/edgar/data/1035267/000103526726000071/isrg-20260930.htm",
+      "locator": "10-Q 附注4，第32表；MD&A 系统收入和经常收入",
+      "disclosed": "2026-10-21",
+      "checked": "2026-11-19",
+      "note": "租赁含Ion，可变主要按手术量。"
+    },
+    {
+      "company": "US_ISRG_直觉外科",
+      "tag": "原文披露·Agent对读",
+      "period": "2025YTD9",
+      "metric": "耗材、系统、服务、经营租赁、可变租赁、买断",
+      "value": [
+        4360.6,
+        1687.8,
+        1150.1,
+        632,
+        380,
+        91
+      ],
+      "unit": "百万美元",
+      "source_id": "S83c179dfd93521d4",
+      "source_sha256": "df5b434e5ae926551c12632ba637d5d182aa1fdf3eab00b5668983bc86c3ac61",
+      "url": "https://www.sec.gov/Archives/edgar/data/1035267/000103526726000071/isrg-20260930.htm",
+      "locator": "10-Q 附注4，第32表及MD&A同比栏",
+      "disclosed": "2026-10-21",
+      "checked": "2026-11-19",
+      "note": "同列序。"
+    },
+    {
+      "company": "US_ISRG_直觉外科",
+      "tag": "原文披露·Agent对读",
+      "period": "2026Q3",
+      "metric": "设备期末安装［da Vinci、Ion、固定租赁、按量租赁］",
+      "value": [
+        12094,
+        1152,
+        1581,
+        1974
+      ],
+      "unit": "台",
+      "source_id": "S83c179dfd93521d4",
+      "source_sha256": "df5b434e5ae926551c12632ba637d5d182aa1fdf3eab00b5668983bc86c3ac61",
+      "url": "https://www.sec.gov/Archives/edgar/data/1035267/000103526726000071/isrg-20260930.htm",
+      "locator": "MD&A Installed Base，第59表",
+      "disclosed": "2026-10-21",
+      "checked": "2026-11-19",
+      "note": "租赁数量只列 da Vinci。收入中含 Ion。"
+    },
+    {
+      "company": "US_ISRG_直觉外科",
+      "tag": "原文披露·Agent对读",
+      "period": "2025Q3",
+      "metric": "设备期末安装［da Vinci、Ion、固定租赁、按量租赁］",
+      "value": [
+        10763,
+        954,
+        1379,
+        1736
+      ],
+      "unit": "台",
+      "source_id": "S83c179dfd93521d4",
+      "source_sha256": "df5b434e5ae926551c12632ba637d5d182aa1fdf3eab00b5668983bc86c3ac61",
+      "url": "https://www.sec.gov/Archives/edgar/data/1035267/000103526726000071/isrg-20260930.htm",
+      "locator": "MD&A Installed Base，第59表比较栏",
+      "disclosed": "2026-10-21",
+      "checked": "2026-11-19",
+      "note": "同列序。"
+    },
+    {
+      "company": "US_ISRG_直觉外科",
+      "tag": "原文披露·Agent对读",
+      "period": "2026YTD9",
+      "metric": "设备与和解现金证据",
+      "value": [
+        670.5,
+        329,
+        450,
+        631.8,
+        822.0,
+        53.2,
+        10.5
+      ],
+      "unit": "百万美元",
+      "source_id": "S83c179dfd93521d4",
+      "source_sha256": "df5b434e5ae926551c12632ba637d5d182aa1fdf3eab00b5668983bc86c3ac61",
+      "url": "https://www.sec.gov/Archives/edgar/data/1035267/000103526726000071/isrg-20260930.htm",
+      "locator": "10-Q 第16–17表，附注7及MD&A",
+      "disclosed": "2026-10-21",
+      "checked": "2026-11-19",
+      "note": "非现金划转、现金购建流出、和解计提、其他负债现金调节、存货现金调节流出、产品及服务关税退款。"
+    },
+    {
+      "company": "US_ISRG_直觉外科",
+      "tag": "原文披露·Agent对读",
+      "period": "2026Q3",
+      "metric": "诉讼程序",
+      "value": "10月达成附法院批准条件的450百万美元协议",
+      "unit": "文本",
+      "source_id": "S83c179dfd93521d4",
+      "source_sha256": "df5b434e5ae926551c12632ba637d5d182aa1fdf3eab00b5668983bc86c3ac61",
+      "url": "https://www.sec.gov/Archives/edgar/data/1035267/000103526726000071/isrg-20260930.htm",
+      "locator": "10-Q 附注7；收入表与现金流分列",
+      "disclosed": "2026-10-21",
+      "checked": "2026-11-19",
+      "note": "现金流表未列450为期内实际支付。"
+    },
+    {
+      "company": "US_ISRG_直觉外科",
+      "tag": "原文披露·Agent对读",
+      "period": "2025FY",
+      "metric": "手术量与服务分母",
+      "value": [
+        3153000,
+        2683000,
+        144100,
+        95500,
+        11106,
+        9902,
+        995,
+        805
+      ],
+      "unit": "例、台",
+      "source_id": "Se7f95d2f97642180",
+      "source_sha256": "bdcd15add5b70b03a8342ffe169b54530d4805c9e4c12796985d3245993ac991",
+      "url": "https://www.sec.gov/Archives/edgar/data/1035267/000103526726000010/isrg-20251231.htm",
+      "locator": "MD&A 经营摘要和 Ion 段，文本933、938、941、977",
+      "disclosed": "2026-02-03",
+      "checked": "2026-11-19",
+      "note": "2025及2024 da Vinci术量、Ion术量、da Vinci安装及Ion安装。"
+    },
+    {
+      "company": "US_ISRG_直觉外科",
+      "tag": "原文披露·Agent对读",
+      "period": "2023–2025FY",
+      "metric": "经营与可变租赁收入",
+      "value": [
+        [
+          501,
+          217
+        ],
+        [
+          654,
+          338
+        ],
+        [
+          874,
+          531
+        ]
+      ],
+      "unit": "百万美元",
+      "source_id": "Se7f95d2f97642180",
+      "source_sha256": "bdcd15add5b70b03a8342ffe169b54530d4805c9e4c12796985d3245993ac991",
+      "url": "https://www.sec.gov/Archives/edgar/data/1035267/000103526726000010/isrg-20251231.htm",
+      "locator": "MD&A文本块1008",
+      "disclosed": "2026-02-03",
+      "checked": "2026-11-19",
+      "note": "当年及前两年比较。"
+    },
+    {
+      "company": "US_ISRG_直觉外科",
+      "tag": "原文披露·Agent对读",
+      "period": "2024FY",
+      "metric": "da Vinci术量",
+      "value": 2683000,
+      "unit": "例",
+      "source_id": "Se4905bffbdcd3611",
+      "source_sha256": "6fb4278641549fc85285088ff6d83f9886757eef188f727e8d8f6a9c93a9c70b",
+      "url": "https://www.sec.gov/Archives/edgar/data/1035267/000103526725000017/isrg-20241231.htm",
+      "locator": "MD&A活跃手术段落，文本1017",
+      "disclosed": "2025-01-31",
+      "checked": "2026-11-19",
+      "note": "当前财年。"
+    },
+    {
+      "company": "US_ISRG_直觉外科",
+      "tag": "原文披露·Agent对读",
+      "period": "2023FY",
+      "metric": "da Vinci术量",
+      "value": 2286000,
+      "unit": "例",
+      "source_id": "Sf92ee8eb3f06a597",
+      "source_sha256": "7c56b83d1df3ed1dceb67f51d4a8239c2a88af559427559124d8c0c55fda5035",
+      "url": "https://www.sec.gov/Archives/edgar/data/1035267/000103526724000021/isrg-20231231.htm",
+      "locator": "MD&A经营摘要，文本1015",
+      "disclosed": "2024-01-31",
+      "checked": "2026-11-19",
+      "note": "当前财年。"
+    },
+    {
+      "company": "US_ISRG_直觉外科",
+      "tag": "原文披露·Agent对读",
+      "period": "2022FY",
+      "metric": "da Vinci术量",
+      "value": 1875000,
+      "unit": "例",
+      "source_id": "S665e685caf9f272d",
+      "source_sha256": "f8a005fc1f29d360453e633f2c3248bffd50cf3f58cf327f0d9e09abf67380ab",
+      "url": "https://www.sec.gov/Archives/edgar/data/1035267/000103526723000019/isrg-20221231.htm",
+      "locator": "MD&A经营摘要，文本962",
+      "disclosed": "2023-02-10",
+      "checked": "2026-11-19",
+      "note": "当前财年。"
+    },
+    {
+      "company": "US_ISRG_直觉外科",
+      "tag": "原文披露·Agent对读",
+      "period": "2021FY",
+      "metric": "da Vinci术量",
+      "value": 1594000,
+      "unit": "例",
+      "source_id": "S78f74b10f3f686c7",
+      "source_sha256": "e572d9bbc4dc035d7ffd9b140026f89cd4fdae5314208bcf2bb3102867ca235e",
+      "url": "https://www.sec.gov/Archives/edgar/data/1035267/000103526722000014/isrg-20211231.htm",
+      "locator": "MD&A经营摘要，文本928",
+      "disclosed": "2022-02-03",
+      "checked": "2026-11-19",
+      "note": "当前财年。"
+    },
+    {
+      "company": "US_ISRG_直觉外科",
+      "tag": "原文披露·Agent对读",
+      "period": "2025FY",
+      "metric": "全年收入构成",
+      "value": [
+        6018.9,
+        2473.7,
+        1572.1
+      ],
+      "unit": "百万美元",
+      "source_id": "Se7f95d2f97642180",
+      "source_sha256": "bdcd15add5b70b03a8342ffe169b54530d4805c9e4c12796985d3245993ac991",
+      "url": "https://www.sec.gov/Archives/edgar/data/1035267/000103526726000010/isrg-20251231.htm",
+      "locator": "MD&A 第20表",
+      "disclosed": "2026-02-03",
+      "checked": "2026-11-19",
+      "note": "耗材、系统、服务。"
+    },
+    {
+      "company": "US_ISRG_直觉外科",
+      "tag": "原文披露·Agent对读",
+      "period": "2026Q3",
+      "metric": "Ion期末经营租赁在用台数［固定、按量］",
+      "value": [
+        109,
+        302
+      ],
+      "unit": "台",
+      "source_id": "S83c179dfd93521d4",
+      "source_sha256": "df5b434e5ae926551c12632ba637d5d182aa1fdf3eab00b5668983bc86c3ac61",
+      "url": "https://www.sec.gov/Archives/edgar/data/1035267/000103526726000071/isrg-20260930.htm",
+      "locator": "10-Q MD&A Results of Operations – Ion System Installed Base under Operating Leasing Arrangements，September 30, 2026列",
+      "disclosed": "2026-10-21",
+      "checked": "2026-11-19",
+      "note": "新增原文定位，披露与复核日期及原件指纹见本行。用于合并租赁单台收入代理的分母。"
+    }
+  ],
+  "current_facts": [
+    {
+      "company": "US_ISRG_直觉外科",
+      "tag": "Fact",
+      "id": "I09-001",
+      "kind": "disclosure",
+      "state": "Unknown",
+      "claim": "AccountsReceivableNetCurrent 2023-12-31",
+      "value": "1130200000.0",
+      "scope": {
+        "period": "2023-12-31",
+        "entity": "Intuitive Surgical, Inc.",
+        "basis": "US GAAP consolidated; dimensionless context",
+        "definition": "AccountsReceivableNetCurrent",
+        "unit": "usd",
+        "currency": "USD"
+      },
+      "sources": [
+        {
+          "source_id": "Sf92ee8eb3f06a597",
+          "location": "官方HTML iXBRL #f-47 contextRef=c-5；context=0001035267    2023-12-31"
+        }
+      ],
+      "support_boundary": "Agent机器提取并按原表定位；未人工核准。归母/集团、时点/加权股数不同，不能混用。",
+      "extraction_actor": "Agent",
+      "extracted_at": "2026-11-12T03:59:06.547658+00:00",
+      "effective_state": "Fact",
+      "binding": "5889565e77bcb99fd8e26335bfaf7e78f10eaecc78da5e295df630aabf9fbc5a",
+      "issues": [],
+      "verifier": "agent",
+      "confirmation_event": "E000057",
+      "human_confirmation": false
+    },
+    {
+      "company": "US_ISRG_直觉外科",
+      "tag": "Fact",
+      "id": "I09-002",
+      "kind": "disclosure",
+      "state": "Unknown",
+      "claim": "InventoryNet 2023-12-31",
+      "value": "1220600000.0",
+      "scope": {
+        "period": "2023-12-31",
+        "entity": "Intuitive Surgical, Inc.",
+        "basis": "US GAAP consolidated; dimensionless context",
+        "definition": "InventoryNet",
+        "unit": "usd",
+        "currency": "USD"
+      },
+      "sources": [
+        {
+          "source_id": "Sf92ee8eb3f06a597",
+          "location": "官方HTML iXBRL #f-49 contextRef=c-5；context=0001035267    2023-12-31"
+        }
+      ],
+      "support_boundary": "Agent机器提取并按原表定位；未人工核准。归母/集团、时点/加权股数不同，不能混用。",
+      "extraction_actor": "Agent",
+      "extracted_at": "2026-11-12T03:59:06.574310+00:00",
+      "effective_state": "Fact",
+      "binding": "901b3406517f1793ab38bde7d3e0f742b2da01bfe0702605846c9a18678d7b5f",
+      "issues": [],
+      "verifier": "agent",
+      "confirmation_event": "E000058",
+      "human_confirmation": false
+    },
+    {
+      "company": "US_ISRG_直觉外科",
+      "tag": "Fact",
+      "id": "I09-003",
+      "kind": "disclosure",
+      "state": "Unknown",
+      "claim": "AccountsPayableCurrent 2023-12-31",
+      "value": "188700000.0",
+      "scope": {
+        "period": "2023-12-31",
+        "entity": "Intuitive Surgical, Inc.",
+        "basis": "US GAAP consolidated; dimensionless context",
+        "definition": "AccountsPayableCurrent",
+        "unit": "usd",
+        "currency": "USD"
+      },
+      "sources": [
+        {
+          "source_id": "Sf92ee8eb3f06a597",
+          "location": "官方HTML iXBRL #f-68 contextRef=c-5；context=0001035267    2023-12-31"
+        }
+      ],
+      "support_boundary": "Agent机器提取并按原表定位；未人工核准。归母/集团、时点/加权股数不同，不能混用。",
+      "extraction_actor": "Agent",
+      "extracted_at": "2026-11-12T03:59:06.595970+00:00",
+      "effective_state": "Fact",
+      "binding": "1d640c844d32eed1cf69368f9fe9ad642524e0ea5bc9b63c7f29efdc5049c152",
+      "issues": [],
+      "verifier": "agent",
+      "confirmation_event": "E000059",
+      "human_confirmation": false
+    },
+    {
+      "company": "US_ISRG_直觉外科",
+      "tag": "Fact",
+      "id": "I09-004",
+      "kind": "disclosure",
+      "state": "Unknown",
+      "claim": "RevenueFromContractWithCustomerExcludingAssessedTax 2023-01-01/2023-12-31",
+      "value": "7124100000.0",
+      "scope": {
+        "period": "2023-01-01/2023-12-31",
+        "entity": "Intuitive Surgical, Inc.",
+        "basis": "US GAAP consolidated; dimensionless context",
+        "definition": "RevenueFromContractWithCustomerExcludingAssessedTax",
+        "unit": "usd",
+        "currency": "USD"
+      },
+      "sources": [
+        {
+          "source_id": "Sf92ee8eb3f06a597",
+          "location": "官方HTML iXBRL #f-124 contextRef=c-1；context=0001035267    2023-01-01  2023-12-31"
+        }
+      ],
+      "support_boundary": "Agent机器提取并按原表定位；未人工核准。归母/集团、时点/加权股数不同，不能混用。",
+      "extraction_actor": "Agent",
+      "extracted_at": "2026-11-12T03:59:06.620036+00:00",
+      "effective_state": "Fact",
+      "binding": "21f66973d5892a1d9e7867dfb2f779bb412523d8dbe53f5eab7da2090ab867b4",
+      "issues": [],
+      "verifier": "agent",
+      "confirmation_event": "E000060",
+      "human_confirmation": false
+    },
+    {
+      "company": "US_ISRG_直觉外科",
+      "tag": "Fact",
+      "id": "I09-005",
+      "kind": "disclosure",
+      "state": "Unknown",
+      "claim": "ResearchAndDevelopmentExpense 2023-01-01/2023-12-31",
+      "value": "998800000.0",
+      "scope": {
+        "period": "2023-01-01/2023-12-31",
+        "entity": "Intuitive Surgical, Inc.",
+        "basis": "US GAAP consolidated; dimensionless context",
+        "definition": "ResearchAndDevelopmentExpense",
+        "unit": "usd",
+        "currency": "USD"
+      },
+      "sources": [
+        {
+          "source_id": "Sf92ee8eb3f06a597",
+          "location": "官方HTML iXBRL #f-142 contextRef=c-1；context=0001035267    2023-01-01  2023-12-31"
+        }
+      ],
+      "support_boundary": "Agent机器提取并按原表定位；未人工核准。归母/集团、时点/加权股数不同，不能混用。",
+      "extraction_actor": "Agent",
+      "extracted_at": "2026-11-12T03:59:06.645612+00:00",
+      "effective_state": "Fact",
+      "binding": "ca991dbec90ae9d533ebf9a63607a81c945f9b1cd462e902f0628a040cbcc528",
+      "issues": [],
+      "verifier": "agent",
+      "confirmation_event": "E000061",
+      "human_confirmation": false
+    },
+    {
+      "company": "US_ISRG_直觉外科",
+      "tag": "Fact",
+      "id": "I09-006",
+      "kind": "disclosure",
+      "state": "Unknown",
+      "claim": "OperatingIncomeLoss 2023-01-01/2023-12-31",
+      "value": "1766800000.0",
+      "scope": {
+        "period": "2023-01-01/2023-12-31",
+        "entity": "Intuitive Surgical, Inc.",
+        "basis": "US GAAP consolidated; dimensionless context",
+        "definition": "OperatingIncomeLoss",
+        "unit": "usd",
+        "currency": "USD"
+      },
+      "sources": [
+        {
+          "source_id": "Sf92ee8eb3f06a597",
+          "location": "官方HTML iXBRL #f-148 contextRef=c-1；context=0001035267    2023-01-01  2023-12-31"
+        }
+      ],
+      "support_boundary": "Agent机器提取并按原表定位；未人工核准。归母/集团、时点/加权股数不同，不能混用。",
+      "extraction_actor": "Agent",
+      "extracted_at": "2026-11-12T03:59:06.669915+00:00",
+      "effective_state": "Fact",
+      "binding": "f31add833878b39ceed4d474b38fb134cafcc4aa0617c8052d1c6f689ae4667f",
+      "issues": [],
+      "verifier": "agent",
+      "confirmation_event": "E000062",
+      "human_confirmation": false
+    },
+    {
+      "company": "US_ISRG_直觉外科",
+      "tag": "Fact",
+      "id": "I09-007",
+      "kind": "disclosure",
+      "state": "Unknown",
+      "claim": "NetIncomeLoss 2023-01-01/2023-12-31",
+      "value": "1798000000.0",
+      "scope": {
+        "period": "2023-01-01/2023-12-31",
+        "entity": "Intuitive Surgical, Inc.",
+        "basis": "US GAAP consolidated; dimensionless context",
+        "definition": "NetIncomeLoss",
+        "unit": "usd",
+        "currency": "USD"
+      },
+      "sources": [
+        {
+          "source_id": "Sf92ee8eb3f06a597",
+          "location": "官方HTML iXBRL #f-166 contextRef=c-1；context=0001035267    2023-01-01  2023-12-31"
+        }
+      ],
+      "support_boundary": "Agent机器提取并按原表定位；未人工核准。归母/集团、时点/加权股数不同，不能混用。",
+      "extraction_actor": "Agent",
+      "extracted_at": "2026-11-12T03:59:06.693927+00:00",
+      "effective_state": "Fact",
+      "binding": "847cbc62b1c0c98f18d6934d42065d3eb714160187c7adb631ea6c51549802c3",
+      "issues": [],
+      "verifier": "agent",
+      "confirmation_event": "E000063",
+      "human_confirmation": false
+    },
+    {
+      "company": "US_ISRG_直觉外科",
+      "tag": "Fact",
+      "id": "I09-008",
+      "kind": "disclosure",
+      "state": "Unknown",
+      "claim": "ShareBasedCompensation 2023-01-01/2023-12-31",
+      "value": "592800000.0",
+      "scope": {
+        "period": "2023-01-01/2023-12-31",
+        "entity": "Intuitive Surgical, Inc.",
+        "basis": "US GAAP consolidated; dimensionless context",
+        "definition": "ShareBasedCompensation",
+        "unit": "usd",
+        "currency": "USD"
+      },
+      "sources": [
+        {
+          "source_id": "Sf92ee8eb3f06a597",
+          "location": "官方HTML iXBRL #f-349 contextRef=c-1；context=0001035267    2023-01-01  2023-12-31"
+        }
+      ],
+      "support_boundary": "Agent机器提取并按原表定位；未人工核准。归母/集团、时点/加权股数不同，不能混用。",
+      "extraction_actor": "Agent",
+      "extracted_at": "2026-11-12T03:59:06.720720+00:00",
+      "effective_state": "Fact",
+      "binding": "2cbd4f2c18953e00789be2d3742c1a943427de9b505e477f56a8a433d7d0179a",
+      "issues": [],
+      "verifier": "agent",
+      "confirmation_event": "E000064",
+      "human_confirmation": false
+    },
+    {
+      "company": "US_ISRG_直觉外科",
+      "tag": "Fact",
+      "id": "I09-009",
+      "kind": "disclosure",
+      "state": "Unknown",
+      "claim": "NetCashProvidedByUsedInOperatingActivities 2023-01-01/2023-12-31",
+      "value": "1813800000.0",
+      "scope": {
+        "period": "2023-01-01/2023-12-31",
+        "entity": "Intuitive Surgical, Inc.",
+        "basis": "US GAAP consolidated; dimensionless context",
+        "definition": "NetCashProvidedByUsedInOperatingActivities",
+        "unit": "usd",
+        "currency": "USD"
+      },
+      "sources": [
+        {
+          "source_id": "Sf92ee8eb3f06a597",
+          "location": "官方HTML iXBRL #f-376 contextRef=c-1；context=0001035267    2023-01-01  2023-12-31"
+        }
+      ],
+      "support_boundary": "Agent机器提取并按原表定位；未人工核准。归母/集团、时点/加权股数不同，不能混用。",
+      "extraction_actor": "Agent",
+      "extracted_at": "2026-11-12T03:59:06.745674+00:00",
+      "effective_state": "Fact",
+      "binding": "e90d62832308389d5a4e62b1d3a481dd39d5a00b614b2da311b3e3c87d208c98",
+      "issues": [],
+      "verifier": "agent",
+      "confirmation_event": "E000065",
+      "human_confirmation": false
+    },
+    {
+      "company": "US_ISRG_直觉外科",
+      "tag": "Fact",
+      "id": "I09-010",
+      "kind": "disclosure",
+      "state": "Unknown",
+      "claim": "AccountsReceivableNetCurrent 2024-12-31",
+      "value": "1225400000.0",
+      "scope": {
+        "period": "2024-12-31",
+        "entity": "Intuitive Surgical, Inc.",
+        "basis": "US GAAP consolidated; dimensionless context",
+        "definition": "AccountsReceivableNetCurrent",
+        "unit": "usd",
+        "currency": "USD"
+      },
+      "sources": [
+        {
+          "source_id": "Se4905bffbdcd3611",
+          "location": "官方HTML iXBRL #f-62 contextRef=c-5；context=0001035267    2024-12-31"
+        }
+      ],
+      "support_boundary": "Agent机器提取并按原表定位；未人工核准。归母/集团、时点/加权股数不同，不能混用。",
+      "extraction_actor": "Agent",
+      "extracted_at": "2026-11-12T03:59:06.784333+00:00",
+      "effective_state": "Fact",
+      "binding": "c44e1b63577b3e87cb24acdb2447b784771fd98b4a19f30c9f831d9a02e7aadb",
+      "issues": [],
+      "verifier": "agent",
+      "confirmation_event": "E000066",
+      "human_confirmation": false
+    },
+    {
+      "company": "US_ISRG_直觉外科",
+      "tag": "Fact",
+      "id": "I09-011",
+      "kind": "disclosure",
+      "state": "Unknown",
+      "claim": "InventoryNet 2024-12-31",
+      "value": "1487200000.0",
+      "scope": {
+        "period": "2024-12-31",
+        "entity": "Intuitive Surgical, Inc.",
+        "basis": "US GAAP consolidated; dimensionless context",
+        "definition": "InventoryNet",
+        "unit": "usd",
+        "currency": "USD"
+      },
+      "sources": [
+        {
+          "source_id": "Se4905bffbdcd3611",
+          "location": "官方HTML iXBRL #f-64 contextRef=c-5；context=0001035267    2024-12-31"
+        }
+      ],
+      "support_boundary": "Agent机器提取并按原表定位；未人工核准。归母/集团、时点/加权股数不同，不能混用。",
+      "extraction_actor": "Agent",
+      "extracted_at": "2026-11-12T03:59:06.812972+00:00",
+      "effective_state": "Fact",
+      "binding": "1c80c8ac5354f03fbaf31df639879850954dca63189a1d295bce545e3b04565a",
+      "issues": [],
+      "verifier": "agent",
+      "confirmation_event": "E000067",
+      "human_confirmation": false
+    },
+    {
+      "company": "US_ISRG_直觉外科",
+      "tag": "Fact",
+      "id": "I09-012",
+      "kind": "disclosure",
+      "state": "Unknown",
+      "claim": "AccountsPayableCurrent 2024-12-31",
+      "value": "193400000.0",
+      "scope": {
+        "period": "2024-12-31",
+        "entity": "Intuitive Surgical, Inc.",
+        "basis": "US GAAP consolidated; dimensionless context",
+        "definition": "AccountsPayableCurrent",
+        "unit": "usd",
+        "currency": "USD"
+      },
+      "sources": [
+        {
+          "source_id": "Se4905bffbdcd3611",
+          "location": "官方HTML iXBRL #f-83 contextRef=c-5；context=0001035267    2024-12-31"
+        }
+      ],
+      "support_boundary": "Agent机器提取并按原表定位；未人工核准。归母/集团、时点/加权股数不同，不能混用。",
+      "extraction_actor": "Agent",
+      "extracted_at": "2026-11-12T03:59:06.843121+00:00",
+      "effective_state": "Fact",
+      "binding": "722c7afefac82fe21c3513aff1a35f9b1c34c1790c80a12fdd259db8d57e19fb",
+      "issues": [],
+      "verifier": "agent",
+      "confirmation_event": "E000068",
+      "human_confirmation": false
+    },
+    {
+      "company": "US_ISRG_直觉外科",
+      "tag": "Fact",
+      "id": "I09-013",
+      "kind": "disclosure",
+      "state": "Unknown",
+      "claim": "CommonStockSharesOutstanding 2023-12-31",
+      "value": "352300000.0",
+      "scope": {
+        "period": "2023-12-31",
+        "entity": "Intuitive Surgical, Inc.",
+        "basis": "US GAAP consolidated; dimensionless context",
+        "definition": "CommonStockSharesOutstanding",
+        "unit": "shares",
+        "currency": ""
+      },
+      "sources": [
+        {
+          "source_id": "Se4905bffbdcd3611",
+          "location": "官方HTML iXBRL #f-115 contextRef=c-6；context=0001035267    2023-12-31"
+        }
+      ],
+      "support_boundary": "Agent机器提取并按原表定位；未人工核准。归母/集团、时点/加权股数不同，不能混用。",
+      "extraction_actor": "Agent",
+      "extracted_at": "2026-11-12T03:59:06.873012+00:00",
+      "effective_state": "Fact",
+      "binding": "757118083dd2efeb83c4befa03cfb51ba5ed37945e4d8501b789e6fa659be247",
+      "issues": [],
+      "verifier": "agent",
+      "confirmation_event": "E000069",
+      "human_confirmation": false
+    },
+    {
+      "company": "US_ISRG_直觉外科",
+      "tag": "Fact",
+      "id": "I09-014",
+      "kind": "disclosure",
+      "state": "Unknown",
+      "claim": "RevenueFromContractWithCustomerExcludingAssessedTax 2024-01-01/2024-12-31",
+      "value": "8352100000.0",
+      "scope": {
+        "period": "2024-01-01/2024-12-31",
+        "entity": "Intuitive Surgical, Inc.",
+        "basis": "US GAAP consolidated; dimensionless context",
+        "definition": "RevenueFromContractWithCustomerExcludingAssessedTax",
+        "unit": "usd",
+        "currency": "USD"
+      },
+      "sources": [
+        {
+          "source_id": "Se4905bffbdcd3611",
+          "location": "官方HTML iXBRL #f-139 contextRef=c-1；context=0001035267    2024-01-01  2024-12-31"
+        }
+      ],
+      "support_boundary": "Agent机器提取并按原表定位；未人工核准。归母/集团、时点/加权股数不同，不能混用。",
+      "extraction_actor": "Agent",
+      "extracted_at": "2026-11-12T03:59:06.907735+00:00",
+      "effective_state": "Fact",
+      "binding": "041c340fbe2204ef42b9ac03071f46b9b3bf6dd49425dcd8fe35e4c5998ba350",
+      "issues": [],
+      "verifier": "agent",
+      "confirmation_event": "E000070",
+      "human_confirmation": false
+    },
+    {
+      "company": "US_ISRG_直觉外科",
+      "tag": "Fact",
+      "id": "I09-015",
+      "kind": "disclosure",
+      "state": "Unknown",
+      "claim": "ResearchAndDevelopmentExpense 2024-01-01/2024-12-31",
+      "value": "1145300000.0",
+      "scope": {
+        "period": "2024-01-01/2024-12-31",
+        "entity": "Intuitive Surgical, Inc.",
+        "basis": "US GAAP consolidated; dimensionless context",
+        "definition": "ResearchAndDevelopmentExpense",
+        "unit": "usd",
+        "currency": "USD"
+      },
+      "sources": [
+        {
+          "source_id": "Se4905bffbdcd3611",
+          "location": "官方HTML iXBRL #f-157 contextRef=c-1；context=0001035267    2024-01-01  2024-12-31"
+        }
+      ],
+      "support_boundary": "Agent机器提取并按原表定位；未人工核准。归母/集团、时点/加权股数不同，不能混用。",
+      "extraction_actor": "Agent",
+      "extracted_at": "2026-11-12T03:59:06.939560+00:00",
+      "effective_state": "Fact",
+      "binding": "4625efbf648748d77075e23b1d6152d2b509d53fe0225cde66e4bfb76e14ecfc",
+      "issues": [],
+      "verifier": "agent",
+      "confirmation_event": "E000071",
+      "human_confirmation": false
+    },
+    {
+      "company": "US_ISRG_直觉外科",
+      "tag": "Fact",
+      "id": "I09-016",
+      "kind": "disclosure",
+      "state": "Unknown",
+      "claim": "OperatingIncomeLoss 2024-01-01/2024-12-31",
+      "value": "2348900000.0",
+      "scope": {
+        "period": "2024-01-01/2024-12-31",
+        "entity": "Intuitive Surgical, Inc.",
+        "basis": "US GAAP consolidated; dimensionless context",
+        "definition": "OperatingIncomeLoss",
+        "unit": "usd",
+        "currency": "USD"
+      },
+      "sources": [
+        {
+          "source_id": "Se4905bffbdcd3611",
+          "location": "官方HTML iXBRL #f-163 contextRef=c-1；context=0001035267    2024-01-01  2024-12-31"
+        }
+      ],
+      "support_boundary": "Agent机器提取并按原表定位；未人工核准。归母/集团、时点/加权股数不同，不能混用。",
+      "extraction_actor": "Agent",
+      "extracted_at": "2026-11-12T03:59:06.970968+00:00",
+      "effective_state": "Fact",
+      "binding": "359febd8b0ce4eb2147ca4aee7d2ba7525fdcd62b14524d4a0fc9bc4689f7250",
+      "issues": [],
+      "verifier": "agent",
+      "confirmation_event": "E000072",
+      "human_confirmation": false
+    },
+    {
+      "company": "US_ISRG_直觉外科",
+      "tag": "Fact",
+      "id": "I09-017",
+      "kind": "disclosure",
+      "state": "Unknown",
+      "claim": "NetIncomeLoss 2024-01-01/2024-12-31",
+      "value": "2322600000.0",
+      "scope": {
+        "period": "2024-01-01/2024-12-31",
+        "entity": "Intuitive Surgical, Inc.",
+        "basis": "US GAAP consolidated; dimensionless context",
+        "definition": "NetIncomeLoss",
+        "unit": "usd",
+        "currency": "USD"
+      },
+      "sources": [
+        {
+          "source_id": "Se4905bffbdcd3611",
+          "location": "官方HTML iXBRL #f-181 contextRef=c-1；context=0001035267    2024-01-01  2024-12-31"
+        }
+      ],
+      "support_boundary": "Agent机器提取并按原表定位；未人工核准。归母/集团、时点/加权股数不同，不能混用。",
+      "extraction_actor": "Agent",
+      "extracted_at": "2026-11-12T03:59:07.007094+00:00",
+      "effective_state": "Fact",
+      "binding": "d6854aa70ce53c4825bda3fb4b743aeecb7f24d06fdf39fc266b37ecaea00fd3",
+      "issues": [],
+      "verifier": "agent",
+      "confirmation_event": "E000073",
+      "human_confirmation": false
+    },
+    {
+      "company": "US_ISRG_直觉外科",
+      "tag": "Fact",
+      "id": "I09-018",
+      "kind": "disclosure",
+      "state": "Unknown",
+      "claim": "ShareBasedCompensation 2024-01-01/2024-12-31",
+      "value": "676800000.0",
+      "scope": {
+        "period": "2024-01-01/2024-12-31",
+        "entity": "Intuitive Surgical, Inc.",
+        "basis": "US GAAP consolidated; dimensionless context",
+        "definition": "ShareBasedCompensation",
+        "unit": "usd",
+        "currency": "USD"
+      },
+      "sources": [
+        {
+          "source_id": "Se4905bffbdcd3611",
+          "location": "官方HTML iXBRL #f-366 contextRef=c-1；context=0001035267    2024-01-01  2024-12-31"
+        }
+      ],
+      "support_boundary": "Agent机器提取并按原表定位；未人工核准。归母/集团、时点/加权股数不同，不能混用。",
+      "extraction_actor": "Agent",
+      "extracted_at": "2026-11-12T03:59:07.039715+00:00",
+      "effective_state": "Fact",
+      "binding": "4662fe1a2ab7554bbff2a19bd453fe9c1c5825628a67ff5e93748b02f54000b9",
+      "issues": [],
+      "verifier": "agent",
+      "confirmation_event": "E000074",
+      "human_confirmation": false
+    },
+    {
+      "company": "US_ISRG_直觉外科",
+      "tag": "Fact",
+      "id": "I09-019",
+      "kind": "disclosure",
+      "state": "Unknown",
+      "claim": "NetCashProvidedByUsedInOperatingActivities 2024-01-01/2024-12-31",
+      "value": "2415000000.0",
+      "scope": {
+        "period": "2024-01-01/2024-12-31",
+        "entity": "Intuitive Surgical, Inc.",
+        "basis": "US GAAP consolidated; dimensionless context",
+        "definition": "NetCashProvidedByUsedInOperatingActivities",
+        "unit": "usd",
+        "currency": "USD"
+      },
+      "sources": [
+        {
+          "source_id": "Se4905bffbdcd3611",
+          "location": "官方HTML iXBRL #f-393 contextRef=c-1；context=0001035267    2024-01-01  2024-12-31"
+        }
+      ],
+      "support_boundary": "Agent机器提取并按原表定位；未人工核准。归母/集团、时点/加权股数不同，不能混用。",
+      "extraction_actor": "Agent",
+      "extracted_at": "2026-11-12T03:59:07.072747+00:00",
+      "effective_state": "Fact",
+      "binding": "3d431a28653b26eb92ce2aaa731f03521cb96019dbfcad39a8938b8a67c43685",
+      "issues": [],
+      "verifier": "agent",
+      "confirmation_event": "E000075",
+      "human_confirmation": false
+    },
+    {
+      "company": "US_ISRG_直觉外科",
+      "tag": "Fact",
+      "id": "I09-020",
+      "kind": "disclosure",
+      "state": "Unknown",
+      "claim": "AccountsReceivableNetCurrent 2025-12-31",
+      "value": "1527300000.0",
+      "scope": {
+        "period": "2025-12-31",
+        "entity": "Intuitive Surgical, Inc.",
+        "basis": "US GAAP consolidated; dimensionless context",
+        "definition": "AccountsReceivableNetCurrent",
+        "unit": "usd",
+        "currency": "USD"
+      },
+      "sources": [
+        {
+          "source_id": "Se7f95d2f97642180",
+          "location": "官方HTML iXBRL #f-62 contextRef=c-5；context=0001035267    2025-12-31"
+        }
+      ],
+      "support_boundary": "Agent机器提取并按原表定位；未人工核准。归母/集团、时点/加权股数不同，不能混用。",
+      "extraction_actor": "Agent",
+      "extracted_at": "2026-11-12T03:59:07.121802+00:00",
+      "effective_state": "Fact",
+      "binding": "ec16b48c7f8d7746e5ba3d153d6932100245e5c2242a69872116dc09d4e7f138",
+      "issues": [],
+      "verifier": "agent",
+      "confirmation_event": "E000076",
+      "human_confirmation": false
+    },
+    {
+      "company": "US_ISRG_直觉外科",
+      "tag": "Fact",
+      "id": "I09-021",
+      "kind": "disclosure",
+      "state": "Unknown",
+      "claim": "InventoryNet 2025-12-31",
+      "value": "1840000000.0",
+      "scope": {
+        "period": "2025-12-31",
+        "entity": "Intuitive Surgical, Inc.",
+        "basis": "US GAAP consolidated; dimensionless context",
+        "definition": "InventoryNet",
+        "unit": "usd",
+        "currency": "USD"
+      },
+      "sources": [
+        {
+          "source_id": "Se7f95d2f97642180",
+          "location": "官方HTML iXBRL #f-64 contextRef=c-5；context=0001035267    2025-12-31"
+        }
+      ],
+      "support_boundary": "Agent机器提取并按原表定位；未人工核准。归母/集团、时点/加权股数不同，不能混用。",
+      "extraction_actor": "Agent",
+      "extracted_at": "2026-11-12T03:59:07.156856+00:00",
+      "effective_state": "Fact",
+      "binding": "3e10349cbb963ba75bf9fb48942684c9594b320223555f0ce0b33057c71c1765",
+      "issues": [],
+      "verifier": "agent",
+      "confirmation_event": "E000077",
+      "human_confirmation": false
+    },
+    {
+      "company": "US_ISRG_直觉外科",
+      "tag": "Fact",
+      "id": "I09-022",
+      "kind": "disclosure",
+      "state": "Unknown",
+      "claim": "AccountsPayableCurrent 2025-12-31",
+      "value": "255100000.0",
+      "scope": {
+        "period": "2025-12-31",
+        "entity": "Intuitive Surgical, Inc.",
+        "basis": "US GAAP consolidated; dimensionless context",
+        "definition": "AccountsPayableCurrent",
+        "unit": "usd",
+        "currency": "USD"
+      },
+      "sources": [
+        {
+          "source_id": "Se7f95d2f97642180",
+          "location": "官方HTML iXBRL #f-83 contextRef=c-5；context=0001035267    2025-12-31"
+        }
+      ],
+      "support_boundary": "Agent机器提取并按原表定位；未人工核准。归母/集团、时点/加权股数不同，不能混用。",
+      "extraction_actor": "Agent",
+      "extracted_at": "2026-11-12T03:59:07.193134+00:00",
+      "effective_state": "Fact",
+      "binding": "f794261a7dd0f0825c143edef73fd4d21d1c025788806a581491702a277bfd3c",
+      "issues": [],
+      "verifier": "agent",
+      "confirmation_event": "E000078",
+      "human_confirmation": false
+    },
+    {
+      "company": "US_ISRG_直觉外科",
+      "tag": "Fact",
+      "id": "I09-023",
+      "kind": "disclosure",
+      "state": "Unknown",
+      "claim": "CommonStockSharesOutstanding 2025-12-31",
+      "value": "355100000.0",
+      "scope": {
+        "period": "2025-12-31",
+        "entity": "Intuitive Surgical, Inc.",
+        "basis": "US GAAP consolidated; dimensionless context",
+        "definition": "CommonStockSharesOutstanding",
+        "unit": "shares",
+        "currency": ""
+      },
+      "sources": [
+        {
+          "source_id": "Se7f95d2f97642180",
+          "location": "官方HTML iXBRL #f-113 contextRef=c-5；context=0001035267    2025-12-31"
+        }
+      ],
+      "support_boundary": "Agent机器提取并按原表定位；未人工核准。归母/集团、时点/加权股数不同，不能混用。",
+      "extraction_actor": "Agent",
+      "extracted_at": "2026-11-12T03:59:07.232714+00:00",
+      "effective_state": "Fact",
+      "binding": "a8878d976d4e45007b9ea93b0165f6f42ee83ba9f8841be4fdecf9867cf6af80",
+      "issues": [],
+      "verifier": "agent",
+      "confirmation_event": "E000079",
+      "human_confirmation": false
+    },
+    {
+      "company": "US_ISRG_直觉外科",
+      "tag": "Fact",
+      "id": "I09-024",
+      "kind": "disclosure",
+      "state": "Unknown",
+      "claim": "CommonStockSharesOutstanding 2024-12-31",
+      "value": "356600000.0",
+      "scope": {
+        "period": "2024-12-31",
+        "entity": "Intuitive Surgical, Inc.",
+        "basis": "US GAAP consolidated; dimensionless context",
+        "definition": "CommonStockSharesOutstanding",
+        "unit": "shares",
+        "currency": ""
+      },
+      "sources": [
+        {
+          "source_id": "Se7f95d2f97642180",
+          "location": "官方HTML iXBRL #f-115 contextRef=c-6；context=0001035267    2024-12-31"
+        }
+      ],
+      "support_boundary": "Agent机器提取并按原表定位；未人工核准。归母/集团、时点/加权股数不同，不能混用。",
+      "extraction_actor": "Agent",
+      "extracted_at": "2026-11-12T03:59:07.271441+00:00",
+      "effective_state": "Fact",
+      "binding": "f38efd2478dcc73694e8f1629780eaa6ebdeb0d9fff5c01a9028e74c10c3adbd",
+      "issues": [],
+      "verifier": "agent",
+      "confirmation_event": "E000080",
+      "human_confirmation": false
+    },
+    {
+      "company": "US_ISRG_直觉外科",
+      "tag": "Fact",
+      "id": "I09-025",
+      "kind": "disclosure",
+      "state": "Unknown",
+      "claim": "RevenueFromContractWithCustomerExcludingAssessedTax 2025-01-01/2025-12-31",
+      "value": "10064700000.0",
+      "scope": {
+        "period": "2025-01-01/2025-12-31",
+        "entity": "Intuitive Surgical, Inc.",
+        "basis": "US GAAP consolidated; dimensionless context",
+        "definition": "RevenueFromContractWithCustomerExcludingAssessedTax",
+        "unit": "usd",
+        "currency": "USD"
+      },
+      "sources": [
+        {
+          "source_id": "Se7f95d2f97642180",
+          "location": "官方HTML iXBRL #f-139 contextRef=c-1；context=0001035267    2025-01-01  2025-12-31"
+        }
+      ],
+      "support_boundary": "Agent机器提取并按原表定位；未人工核准。归母/集团、时点/加权股数不同，不能混用。",
+      "extraction_actor": "Agent",
+      "extracted_at": "2026-11-12T03:59:07.309213+00:00",
+      "effective_state": "Fact",
+      "binding": "055a5ec9f523fa032ff439f89646d19a1a4b80f717066a5b18fc2507c080a7f6",
+      "issues": [],
+      "verifier": "agent",
+      "confirmation_event": "E000081",
+      "human_confirmation": false
+    },
+    {
+      "company": "US_ISRG_直觉外科",
+      "tag": "Fact",
+      "id": "I09-026",
+      "kind": "disclosure",
+      "state": "Unknown",
+      "claim": "ResearchAndDevelopmentExpense 2025-01-01/2025-12-31",
+      "value": "1311800000.0",
+      "scope": {
+        "period": "2025-01-01/2025-12-31",
+        "entity": "Intuitive Surgical, Inc.",
+        "basis": "US GAAP consolidated; dimensionless context",
+        "definition": "ResearchAndDevelopmentExpense",
+        "unit": "usd",
+        "currency": "USD"
+      },
+      "sources": [
+        {
+          "source_id": "Se7f95d2f97642180",
+          "location": "官方HTML iXBRL #f-157 contextRef=c-1；context=0001035267    2025-01-01  2025-12-31"
+        }
+      ],
+      "support_boundary": "Agent机器提取并按原表定位；未人工核准。归母/集团、时点/加权股数不同，不能混用。",
+      "extraction_actor": "Agent",
+      "extracted_at": "2026-11-12T03:59:07.351390+00:00",
+      "effective_state": "Fact",
+      "binding": "69a0d780f68b39bfdc46009203f9ffdd48b4e38cdd93a6c99d75d773c47a7876",
+      "issues": [],
+      "verifier": "agent",
+      "confirmation_event": "E000082",
+      "human_confirmation": false
+    },
+    {
+      "company": "US_ISRG_直觉外科",
+      "tag": "Fact",
+      "id": "I09-027",
+      "kind": "disclosure",
+      "state": "Unknown",
+      "claim": "OperatingIncomeLoss 2025-01-01/2025-12-31",
+      "value": "2945500000.0",
+      "scope": {
+        "period": "2025-01-01/2025-12-31",
+        "entity": "Intuitive Surgical, Inc.",
+        "basis": "US GAAP consolidated; dimensionless context",
+        "definition": "OperatingIncomeLoss",
+        "unit": "usd",
+        "currency": "USD"
+      },
+      "sources": [
+        {
+          "source_id": "Se7f95d2f97642180",
+          "location": "官方HTML iXBRL #f-163 contextRef=c-1；context=0001035267    2025-01-01  2025-12-31"
+        }
+      ],
+      "support_boundary": "Agent机器提取并按原表定位；未人工核准。归母/集团、时点/加权股数不同，不能混用。",
+      "extraction_actor": "Agent",
+      "extracted_at": "2026-11-12T03:59:07.392004+00:00",
+      "effective_state": "Fact",
+      "binding": "32045838c36b760d0b51b3dfcdcd634cedf014c57b27552fbeee234555f97179",
+      "issues": [],
+      "verifier": "agent",
+      "confirmation_event": "E000083",
+      "human_confirmation": false
+    },
+    {
+      "company": "US_ISRG_直觉外科",
+      "tag": "Fact",
+      "id": "I09-028",
+      "kind": "disclosure",
+      "state": "Unknown",
+      "claim": "NetIncomeLoss 2025-01-01/2025-12-31",
+      "value": "2856000000.0",
+      "scope": {
+        "period": "2025-01-01/2025-12-31",
+        "entity": "Intuitive Surgical, Inc.",
+        "basis": "US GAAP consolidated; dimensionless context",
+        "definition": "NetIncomeLoss",
+        "unit": "usd",
+        "currency": "USD"
+      },
+      "sources": [
+        {
+          "source_id": "Se7f95d2f97642180",
+          "location": "官方HTML iXBRL #f-181 contextRef=c-1；context=0001035267    2025-01-01  2025-12-31"
+        }
+      ],
+      "support_boundary": "Agent机器提取并按原表定位；未人工核准。归母/集团、时点/加权股数不同，不能混用。",
+      "extraction_actor": "Agent",
+      "extracted_at": "2026-11-12T03:59:07.432869+00:00",
+      "effective_state": "Fact",
+      "binding": "649d4ed25dc70b12beaec02bf77e9df001e9ded7ee9ce07011c7b1e240d03512",
+      "issues": [],
+      "verifier": "agent",
+      "confirmation_event": "E000084",
+      "human_confirmation": false
+    },
+    {
+      "company": "US_ISRG_直觉外科",
+      "tag": "Fact",
+      "id": "I09-029",
+      "kind": "disclosure",
+      "state": "Unknown",
+      "claim": "ShareBasedCompensation 2025-01-01/2025-12-31",
+      "value": "788200000.0",
+      "scope": {
+        "period": "2025-01-01/2025-12-31",
+        "entity": "Intuitive Surgical, Inc.",
+        "basis": "US GAAP consolidated; dimensionless context",
+        "definition": "ShareBasedCompensation",
+        "unit": "usd",
+        "currency": "USD"
+      },
+      "sources": [
+        {
+          "source_id": "Se7f95d2f97642180",
+          "location": "官方HTML iXBRL #f-371 contextRef=c-1；context=0001035267    2025-01-01  2025-12-31"
+        }
+      ],
+      "support_boundary": "Agent机器提取并按原表定位；未人工核准。归母/集团、时点/加权股数不同，不能混用。",
+      "extraction_actor": "Agent",
+      "extracted_at": "2026-11-12T03:59:07.481231+00:00",
+      "effective_state": "Fact",
+      "binding": "79cfc52a97e53ae2666a4af35fcded89c0c0d8ab197dd73273ef7c619fb75a1a",
+      "issues": [],
+      "verifier": "agent",
+      "confirmation_event": "E000085",
+      "human_confirmation": false
+    },
+    {
+      "company": "US_ISRG_直觉外科",
+      "tag": "Fact",
+      "id": "I09-030",
+      "kind": "disclosure",
+      "state": "Unknown",
+      "claim": "NetCashProvidedByUsedInOperatingActivities 2025-01-01/2025-12-31",
+      "value": "3030500000.0",
+      "scope": {
+        "period": "2025-01-01/2025-12-31",
+        "entity": "Intuitive Surgical, Inc.",
+        "basis": "US GAAP consolidated; dimensionless context",
+        "definition": "NetCashProvidedByUsedInOperatingActivities",
+        "unit": "usd",
+        "currency": "USD"
+      },
+      "sources": [
+        {
+          "source_id": "Se7f95d2f97642180",
+          "location": "官方HTML iXBRL #f-395 contextRef=c-1；context=0001035267    2025-01-01  2025-12-31"
+        }
+      ],
+      "support_boundary": "Agent机器提取并按原表定位；未人工核准。归母/集团、时点/加权股数不同，不能混用。",
+      "extraction_actor": "Agent",
+      "extracted_at": "2026-11-12T03:59:07.526627+00:00",
+      "effective_state": "Fact",
+      "binding": "5e381635e6bf10189e8db28e37ad80a85891afc0122df49de4dac7b6a99a69d4",
+      "issues": [],
+      "verifier": "agent",
+      "confirmation_event": "E000086",
+      "human_confirmation": false
+    },
+    {
+      "company": "US_ISRG_直觉外科",
+      "tag": "Fact",
+      "id": "I09-031",
+      "kind": "disclosure",
+      "state": "Unknown",
+      "claim": "IncomeTaxesPaidNet 2025-01-01/2025-12-31",
+      "value": "537900000.0",
+      "scope": {
+        "period": "2025-01-01/2025-12-31",
+        "entity": "Intuitive Surgical, Inc.",
+        "basis": "US GAAP consolidated; dimensionless context",
+        "definition": "IncomeTaxesPaidNet",
+        "unit": "usd",
+        "currency": "USD"
+      },
+      "sources": [
+        {
+          "source_id": "Se7f95d2f97642180",
+          "location": "官方HTML iXBRL #f-1533 contextRef=c-1；context=0001035267    2025-01-01  2025-12-31"
+        }
+      ],
+      "support_boundary": "Agent机器提取并按原表定位；未人工核准。归母/集团、时点/加权股数不同，不能混用。",
+      "extraction_actor": "Agent",
+      "extracted_at": "2026-11-12T03:59:07.574512+00:00",
+      "effective_state": "Fact",
+      "binding": "bbf74cf752f436f8bb22d75442218a55dc7c72ff7ef796ca01d1abf41018763f",
+      "issues": [],
+      "verifier": "agent",
+      "confirmation_event": "E000087",
+      "human_confirmation": false
+    },
+    {
+      "company": "US_ISRG_直觉外科",
+      "tag": "Fact",
+      "id": "I09-032",
+      "kind": "disclosure",
+      "state": "Unknown",
+      "claim": "AccountsReceivableNetCurrent 2026-09-30",
+      "value": "1721300000.0",
+      "scope": {
+        "period": "2026-09-30",
+        "entity": "Intuitive Surgical, Inc.",
+        "basis": "US GAAP consolidated; dimensionless context",
+        "definition": "AccountsReceivableNetCurrent",
+        "unit": "usd",
+        "currency": "USD"
+      },
+      "sources": [
+        {
+          "source_id": "S83c179dfd93521d4",
+          "location": "官方HTML iXBRL #f-34 contextRef=c-3；context=0001035267    2026-09-30"
+        }
+      ],
+      "support_boundary": "Agent机器提取并按原表定位；未人工核准。归母/集团、时点/加权股数不同，不能混用。",
+      "extraction_actor": "Agent",
+      "extracted_at": "2026-11-12T03:59:07.626331+00:00",
+      "effective_state": "Fact",
+      "binding": "f5997503c927fb1e1e81f64a1fef8aa687c68335104b6f7c42f8a05c2fd5a8a9",
+      "issues": [],
+      "verifier": "agent",
+      "confirmation_event": "E000088",
+      "human_confirmation": false
+    },
+    {
+      "company": "US_ISRG_直觉外科",
+      "tag": "Fact",
+      "id": "I09-033",
+      "kind": "disclosure",
+      "state": "Unknown",
+      "claim": "InventoryNet 2026-09-30",
+      "value": "2128200000.0",
+      "scope": {
+        "period": "2026-09-30",
+        "entity": "Intuitive Surgical, Inc.",
+        "basis": "US GAAP consolidated; dimensionless context",
+        "definition": "InventoryNet",
+        "unit": "usd",
+        "currency": "USD"
+      },
+      "sources": [
+        {
+          "source_id": "S83c179dfd93521d4",
+          "location": "官方HTML iXBRL #f-36 contextRef=c-3；context=0001035267    2026-09-30"
+        }
+      ],
+      "support_boundary": "Agent机器提取并按原表定位；未人工核准。归母/集团、时点/加权股数不同，不能混用。",
+      "extraction_actor": "Agent",
+      "extracted_at": "2026-11-12T03:59:07.676931+00:00",
+      "effective_state": "Fact",
+      "binding": "4eeeef090f045d7a2e5ef3b6751bde9ca401635bea7530fd8101080d1fbbccf9",
+      "issues": [],
+      "verifier": "agent",
+      "confirmation_event": "E000089",
+      "human_confirmation": false
+    },
+    {
+      "company": "US_ISRG_直觉外科",
+      "tag": "Fact",
+      "id": "I09-034",
+      "kind": "disclosure",
+      "state": "Unknown",
+      "claim": "AccountsPayableCurrent 2026-09-30",
+      "value": "279500000.0",
+      "scope": {
+        "period": "2026-09-30",
+        "entity": "Intuitive Surgical, Inc.",
+        "basis": "US GAAP consolidated; dimensionless context",
+        "definition": "AccountsPayableCurrent",
+        "unit": "usd",
+        "currency": "USD"
+      },
+      "sources": [
+        {
+          "source_id": "S83c179dfd93521d4",
+          "location": "官方HTML iXBRL #f-54 contextRef=c-3；context=0001035267    2026-09-30"
+        }
+      ],
+      "support_boundary": "Agent机器提取并按原表定位；未人工核准。归母/集团、时点/加权股数不同，不能混用。",
+      "extraction_actor": "Agent",
+      "extracted_at": "2026-11-12T03:59:07.723846+00:00",
+      "effective_state": "Fact",
+      "binding": "7e1992f120471c905f44ba55d296475ad6a2f1876dda9f8f9f0c8ff947c45b49",
+      "issues": [],
+      "verifier": "agent",
+      "confirmation_event": "E000090",
+      "human_confirmation": false
+    },
+    {
+      "company": "US_ISRG_直觉外科",
+      "tag": "Fact",
+      "id": "I09-035",
+      "kind": "disclosure",
+      "state": "Unknown",
+      "claim": "CommonStockSharesOutstanding 2026-09-30",
+      "value": "346600000.0",
+      "scope": {
+        "period": "2026-09-30",
+        "entity": "Intuitive Surgical, Inc.",
+        "basis": "US GAAP consolidated; dimensionless context",
+        "definition": "CommonStockSharesOutstanding",
+        "unit": "shares",
+        "currency": ""
+      },
+      "sources": [
+        {
+          "source_id": "S83c179dfd93521d4",
+          "location": "官方HTML iXBRL #f-84 contextRef=c-3；context=0001035267    2026-09-30"
+        }
+      ],
+      "support_boundary": "Agent机器提取并按原表定位；未人工核准。归母/集团、时点/加权股数不同，不能混用。",
+      "extraction_actor": "Agent",
+      "extracted_at": "2026-11-12T03:59:07.772760+00:00",
+      "effective_state": "Fact",
+      "binding": "96b412b53eeba087e8315d58e71568b749421a40d823d5a12c32eeb703be01de",
+      "issues": [],
+      "verifier": "agent",
+      "confirmation_event": "E000091",
+      "human_confirmation": false
+    },
+    {
+      "company": "US_ISRG_直觉外科",
+      "tag": "Fact",
+      "id": "I09-036",
+      "kind": "disclosure",
+      "state": "Unknown",
+      "claim": "RevenueFromContractWithCustomerExcludingAssessedTax 2026-07-01/2026-09-30",
+      "value": "3048700000.0",
+      "scope": {
+        "period": "2026-07-01/2026-09-30",
+        "entity": "Intuitive Surgical, Inc.",
+        "basis": "US GAAP consolidated; dimensionless context",
+        "definition": "RevenueFromContractWithCustomerExcludingAssessedTax",
+        "unit": "usd",
+        "currency": "USD"
+      },
+      "sources": [
+        {
+          "source_id": "S83c179dfd93521d4",
+          "location": "官方HTML iXBRL #f-112 contextRef=c-13；context=0001035267    2026-07-01  2026-09-30"
+        }
+      ],
+      "support_boundary": "Agent机器提取并按原表定位；未人工核准。归母/集团、时点/加权股数不同，不能混用。",
+      "extraction_actor": "Agent",
+      "extracted_at": "2026-11-12T03:59:07.819908+00:00",
+      "effective_state": "Fact",
+      "binding": "2380cdf87c36720c8369ac7646180adaa3a45adbc6ccb7ad50ec0128cdb3475d",
+      "issues": [],
+      "verifier": "agent",
+      "confirmation_event": "E000092",
+      "human_confirmation": false
+    },
+    {
+      "company": "US_ISRG_直觉外科",
+      "tag": "Fact",
+      "id": "I09-037",
+      "kind": "disclosure",
+      "state": "Unknown",
+      "claim": "RevenueFromContractWithCustomerExcludingAssessedTax 2025-07-01/2025-09-30",
+      "value": "2505100000.0",
+      "scope": {
+        "period": "2025-07-01/2025-09-30",
+        "entity": "Intuitive Surgical, Inc.",
+        "basis": "US GAAP consolidated; dimensionless context",
+        "definition": "RevenueFromContractWithCustomerExcludingAssessedTax",
+        "unit": "usd",
+        "currency": "USD"
+      },
+      "sources": [
+        {
+          "source_id": "S83c179dfd93521d4",
+          "location": "官方HTML iXBRL #f-113 contextRef=c-14；context=0001035267    2025-07-01  2025-09-30"
+        }
+      ],
+      "support_boundary": "Agent机器提取并按原表定位；未人工核准。归母/集团、时点/加权股数不同，不能混用。",
+      "extraction_actor": "Agent",
+      "extracted_at": "2026-11-12T03:59:07.866892+00:00",
+      "effective_state": "Fact",
+      "binding": "044830908692a320522fed5a7e62b61bea26c3bbc3281557529564c06dece458",
+      "issues": [],
+      "verifier": "agent",
+      "confirmation_event": "E000093",
+      "human_confirmation": false
+    },
+    {
+      "company": "US_ISRG_直觉外科",
+      "tag": "Fact",
+      "id": "I09-038",
+      "kind": "disclosure",
+      "state": "Unknown",
+      "claim": "RevenueFromContractWithCustomerExcludingAssessedTax 2026-01-01/2026-09-30",
+      "value": "8711800000.0",
+      "scope": {
+        "period": "2026-01-01/2026-09-30",
+        "entity": "Intuitive Surgical, Inc.",
+        "basis": "US GAAP consolidated; dimensionless context",
+        "definition": "RevenueFromContractWithCustomerExcludingAssessedTax",
+        "unit": "usd",
+        "currency": "USD"
+      },
+      "sources": [
+        {
+          "source_id": "S83c179dfd93521d4",
+          "location": "官方HTML iXBRL #f-114 contextRef=c-1；context=0001035267    2026-01-01  2026-09-30"
+        }
+      ],
+      "support_boundary": "Agent机器提取并按原表定位；未人工核准。归母/集团、时点/加权股数不同，不能混用。",
+      "extraction_actor": "Agent",
+      "extracted_at": "2026-11-12T03:59:07.916568+00:00",
+      "effective_state": "Fact",
+      "binding": "2c677cb95d6b35690110574d9d98321557bde274a88324f3e78f576509cb7a4b",
+      "issues": [],
+      "verifier": "agent",
+      "confirmation_event": "E000094",
+      "human_confirmation": false
+    },
+    {
+      "company": "US_ISRG_直觉外科",
+      "tag": "Fact",
+      "id": "I09-039",
+      "kind": "disclosure",
+      "state": "Unknown",
+      "claim": "RevenueFromContractWithCustomerExcludingAssessedTax 2025-01-01/2025-09-30",
+      "value": "7198500000.0",
+      "scope": {
+        "period": "2025-01-01/2025-09-30",
+        "entity": "Intuitive Surgical, Inc.",
+        "basis": "US GAAP consolidated; dimensionless context",
+        "definition": "RevenueFromContractWithCustomerExcludingAssessedTax",
+        "unit": "usd",
+        "currency": "USD"
+      },
+      "sources": [
+        {
+          "source_id": "S83c179dfd93521d4",
+          "location": "官方HTML iXBRL #f-115 contextRef=c-15；context=0001035267    2025-01-01  2025-09-30"
+        }
+      ],
+      "support_boundary": "Agent机器提取并按原表定位；未人工核准。归母/集团、时点/加权股数不同，不能混用。",
+      "extraction_actor": "Agent",
+      "extracted_at": "2026-11-12T03:59:07.966613+00:00",
+      "effective_state": "Fact",
+      "binding": "d0226705601160c16d3f72f883f520f5a7665911fda161e4b169602f89e4d43b",
+      "issues": [],
+      "verifier": "agent",
+      "confirmation_event": "E000095",
+      "human_confirmation": false
+    },
+    {
+      "company": "US_ISRG_直觉外科",
+      "tag": "Fact",
+      "id": "I09-040",
+      "kind": "disclosure",
+      "state": "Unknown",
+      "claim": "ResearchAndDevelopmentExpense 2026-07-01/2026-09-30",
+      "value": "408300000.0",
+      "scope": {
+        "period": "2026-07-01/2026-09-30",
+        "entity": "Intuitive Surgical, Inc.",
+        "basis": "US GAAP consolidated; dimensionless context",
+        "definition": "ResearchAndDevelopmentExpense",
+        "unit": "usd",
+        "currency": "USD"
+      },
+      "sources": [
+        {
+          "source_id": "S83c179dfd93521d4",
+          "location": "官方HTML iXBRL #f-140 contextRef=c-13；context=0001035267    2026-07-01  2026-09-30"
+        }
+      ],
+      "support_boundary": "Agent机器提取并按原表定位；未人工核准。归母/集团、时点/加权股数不同，不能混用。",
+      "extraction_actor": "Agent",
+      "extracted_at": "2026-11-12T03:59:08.014517+00:00",
+      "effective_state": "Fact",
+      "binding": "f332cf0c550d695123aa16e8126454130d5ec500bdceb387136e271c446d57a0",
+      "issues": [],
+      "verifier": "agent",
+      "confirmation_event": "E000096",
+      "human_confirmation": false
+    },
+    {
+      "company": "US_ISRG_直觉外科",
+      "tag": "Fact",
+      "id": "I09-041",
+      "kind": "disclosure",
+      "state": "Unknown",
+      "claim": "ResearchAndDevelopmentExpense 2025-07-01/2025-09-30",
+      "value": "329400000.0",
+      "scope": {
+        "period": "2025-07-01/2025-09-30",
+        "entity": "Intuitive Surgical, Inc.",
+        "basis": "US GAAP consolidated; dimensionless context",
+        "definition": "ResearchAndDevelopmentExpense",
+        "unit": "usd",
+        "currency": "USD"
+      },
+      "sources": [
+        {
+          "source_id": "S83c179dfd93521d4",
+          "location": "官方HTML iXBRL #f-141 contextRef=c-14；context=0001035267    2025-07-01  2025-09-30"
+        }
+      ],
+      "support_boundary": "Agent机器提取并按原表定位；未人工核准。归母/集团、时点/加权股数不同，不能混用。",
+      "extraction_actor": "Agent",
+      "extracted_at": "2026-11-12T03:59:08.062300+00:00",
+      "effective_state": "Fact",
+      "binding": "e70b47df2bf4cddbdbfc67173bb4a3e578ddc33eaba208e6948ba6539d6456c4",
+      "issues": [],
+      "verifier": "agent",
+      "confirmation_event": "E000097",
+      "human_confirmation": false
+    },
+    {
+      "company": "US_ISRG_直觉外科",
+      "tag": "Fact",
+      "id": "I09-042",
+      "kind": "disclosure",
+      "state": "Unknown",
+      "claim": "ResearchAndDevelopmentExpense 2026-01-01/2026-09-30",
+      "value": "1140800000.0",
+      "scope": {
+        "period": "2026-01-01/2026-09-30",
+        "entity": "Intuitive Surgical, Inc.",
+        "basis": "US GAAP consolidated; dimensionless context",
+        "definition": "ResearchAndDevelopmentExpense",
+        "unit": "usd",
+        "currency": "USD"
+      },
+      "sources": [
+        {
+          "source_id": "S83c179dfd93521d4",
+          "location": "官方HTML iXBRL #f-142 contextRef=c-1；context=0001035267    2026-01-01  2026-09-30"
+        }
+      ],
+      "support_boundary": "Agent机器提取并按原表定位；未人工核准。归母/集团、时点/加权股数不同，不能混用。",
+      "extraction_actor": "Agent",
+      "extracted_at": "2026-11-12T03:59:08.113359+00:00",
+      "effective_state": "Fact",
+      "binding": "f085e2ba052c901347b43f2e58fd0870f4cf7674aa45928199bb69d0ec27a40d",
+      "issues": [],
+      "verifier": "agent",
+      "confirmation_event": "E000098",
+      "human_confirmation": false
+    },
+    {
+      "company": "US_ISRG_直觉外科",
+      "tag": "Fact",
+      "id": "I09-043",
+      "kind": "disclosure",
+      "state": "Unknown",
+      "claim": "ResearchAndDevelopmentExpense 2025-01-01/2025-09-30",
+      "value": "958900000.0",
+      "scope": {
+        "period": "2025-01-01/2025-09-30",
+        "entity": "Intuitive Surgical, Inc.",
+        "basis": "US GAAP consolidated; dimensionless context",
+        "definition": "ResearchAndDevelopmentExpense",
+        "unit": "usd",
+        "currency": "USD"
+      },
+      "sources": [
+        {
+          "source_id": "S83c179dfd93521d4",
+          "location": "官方HTML iXBRL #f-143 contextRef=c-15；context=0001035267    2025-01-01  2025-09-30"
+        }
+      ],
+      "support_boundary": "Agent机器提取并按原表定位；未人工核准。归母/集团、时点/加权股数不同，不能混用。",
+      "extraction_actor": "Agent",
+      "extracted_at": "2026-11-12T03:59:08.165161+00:00",
+      "effective_state": "Fact",
+      "binding": "fb556dc59ea87969e7251ca93847d646e2fb42f00dcf479e8027dbebefede0cc",
+      "issues": [],
+      "verifier": "agent",
+      "confirmation_event": "E000099",
+      "human_confirmation": false
+    },
+    {
+      "company": "US_ISRG_直觉外科",
+      "tag": "Fact",
+      "id": "I09-044",
+      "kind": "disclosure",
+      "state": "Unknown",
+      "claim": "OperatingIncomeLoss 2026-07-01/2026-09-30",
+      "value": "592600000.0",
+      "scope": {
+        "period": "2026-07-01/2026-09-30",
+        "entity": "Intuitive Surgical, Inc.",
+        "basis": "US GAAP consolidated; dimensionless context",
+        "definition": "OperatingIncomeLoss",
+        "unit": "usd",
+        "currency": "USD"
+      },
+      "sources": [
+        {
+          "source_id": "S83c179dfd93521d4",
+          "location": "官方HTML iXBRL #f-148 contextRef=c-13；context=0001035267    2026-07-01  2026-09-30"
+        }
+      ],
+      "support_boundary": "Agent机器提取并按原表定位；未人工核准。归母/集团、时点/加权股数不同，不能混用。",
+      "extraction_actor": "Agent",
+      "extracted_at": "2026-11-12T03:59:08.215725+00:00",
+      "effective_state": "Fact",
+      "binding": "ef722b46c98627b2bf1dcb474b5bfdda2565d0ab9accc45b65d4420cf0deb6ce",
+      "issues": [],
+      "verifier": "agent",
+      "confirmation_event": "E000100",
+      "human_confirmation": false
+    },
+    {
+      "company": "US_ISRG_直觉外科",
+      "tag": "Fact",
+      "id": "I09-045",
+      "kind": "disclosure",
+      "state": "Unknown",
+      "claim": "OperatingIncomeLoss 2025-07-01/2025-09-30",
+      "value": "759700000.0",
+      "scope": {
+        "period": "2025-07-01/2025-09-30",
+        "entity": "Intuitive Surgical, Inc.",
+        "basis": "US GAAP consolidated; dimensionless context",
+        "definition": "OperatingIncomeLoss",
+        "unit": "usd",
+        "currency": "USD"
+      },
+      "sources": [
+        {
+          "source_id": "S83c179dfd93521d4",
+          "location": "官方HTML iXBRL #f-149 contextRef=c-14；context=0001035267    2025-07-01  2025-09-30"
+        }
+      ],
+      "support_boundary": "Agent机器提取并按原表定位；未人工核准。归母/集团、时点/加权股数不同，不能混用。",
+      "extraction_actor": "Agent",
+      "extracted_at": "2026-11-12T03:59:08.269228+00:00",
+      "effective_state": "Fact",
+      "binding": "59bc96991b4b52af3974c84631970d5749def993f318ba5233e522021ad22c66",
+      "issues": [],
+      "verifier": "agent",
+      "confirmation_event": "E000101",
+      "human_confirmation": false
+    },
+    {
+      "company": "US_ISRG_直觉外科",
+      "tag": "Fact",
+      "id": "I09-046",
+      "kind": "disclosure",
+      "state": "Unknown",
+      "claim": "OperatingIncomeLoss 2026-01-01/2026-09-30",
+      "value": "2419800000.0",
+      "scope": {
+        "period": "2026-01-01/2026-09-30",
+        "entity": "Intuitive Surgical, Inc.",
+        "basis": "US GAAP consolidated; dimensionless context",
+        "definition": "OperatingIncomeLoss",
+        "unit": "usd",
+        "currency": "USD"
+      },
+      "sources": [
+        {
+          "source_id": "S83c179dfd93521d4",
+          "location": "官方HTML iXBRL #f-150 contextRef=c-1；context=0001035267    2026-01-01  2026-09-30"
+        }
+      ],
+      "support_boundary": "Agent机器提取并按原表定位；未人工核准。归母/集团、时点/加权股数不同，不能混用。",
+      "extraction_actor": "Agent",
+      "extracted_at": "2026-11-12T03:59:08.321286+00:00",
+      "effective_state": "Fact",
+      "binding": "448fbe29c1405c9772875e79649fc4901f6413a41298599135722acf9144f659",
+      "issues": [],
+      "verifier": "agent",
+      "confirmation_event": "E000102",
+      "human_confirmation": false
+    },
+    {
+      "company": "US_ISRG_直觉外科",
+      "tag": "Fact",
+      "id": "I09-047",
+      "kind": "disclosure",
+      "state": "Unknown",
+      "claim": "OperatingIncomeLoss 2025-01-01/2025-09-30",
+      "value": "2081200000.0",
+      "scope": {
+        "period": "2025-01-01/2025-09-30",
+        "entity": "Intuitive Surgical, Inc.",
+        "basis": "US GAAP consolidated; dimensionless context",
+        "definition": "OperatingIncomeLoss",
+        "unit": "usd",
+        "currency": "USD"
+      },
+      "sources": [
+        {
+          "source_id": "S83c179dfd93521d4",
+          "location": "官方HTML iXBRL #f-151 contextRef=c-15；context=0001035267    2025-01-01  2025-09-30"
+        }
+      ],
+      "support_boundary": "Agent机器提取并按原表定位；未人工核准。归母/集团、时点/加权股数不同，不能混用。",
+      "extraction_actor": "Agent",
+      "extracted_at": "2026-11-12T03:59:08.373590+00:00",
+      "effective_state": "Fact",
+      "binding": "c941197f7a6be6414b0da4fd6baaaae364e1b390547a89434f50bcf4b85ac2ac",
+      "issues": [],
+      "verifier": "agent",
+      "confirmation_event": "E000103",
+      "human_confirmation": false
+    },
+    {
+      "company": "US_ISRG_直觉外科",
+      "tag": "Fact",
+      "id": "I09-048",
+      "kind": "disclosure",
+      "state": "Unknown",
+      "claim": "NetIncomeLoss 2026-07-01/2026-09-30",
+      "value": "522800000.0",
+      "scope": {
+        "period": "2026-07-01/2026-09-30",
+        "entity": "Intuitive Surgical, Inc.",
+        "basis": "US GAAP consolidated; dimensionless context",
+        "definition": "NetIncomeLoss",
+        "unit": "usd",
+        "currency": "USD"
+      },
+      "sources": [
+        {
+          "source_id": "S83c179dfd93521d4",
+          "location": "官方HTML iXBRL #f-172 contextRef=c-13；context=0001035267    2026-07-01  2026-09-30"
+        }
+      ],
+      "support_boundary": "Agent机器提取并按原表定位；未人工核准。归母/集团、时点/加权股数不同，不能混用。",
+      "extraction_actor": "Agent",
+      "extracted_at": "2026-11-12T03:59:08.425750+00:00",
+      "effective_state": "Fact",
+      "binding": "a375a41f83eba537d45674ff812ac7ea2ff089ad98644a707301b3d3e0b247fe",
+      "issues": [],
+      "verifier": "agent",
+      "confirmation_event": "E000104",
+      "human_confirmation": false
+    },
+    {
+      "company": "US_ISRG_直觉外科",
+      "tag": "Fact",
+      "id": "I09-049",
+      "kind": "disclosure",
+      "state": "Unknown",
+      "claim": "NetIncomeLoss 2025-07-01/2025-09-30",
+      "value": "704400000.0",
+      "scope": {
+        "period": "2025-07-01/2025-09-30",
+        "entity": "Intuitive Surgical, Inc.",
+        "basis": "US GAAP consolidated; dimensionless context",
+        "definition": "NetIncomeLoss",
+        "unit": "usd",
+        "currency": "USD"
+      },
+      "sources": [
+        {
+          "source_id": "S83c179dfd93521d4",
+          "location": "官方HTML iXBRL #f-173 contextRef=c-14；context=0001035267    2025-07-01  2025-09-30"
+        }
+      ],
+      "support_boundary": "Agent机器提取并按原表定位；未人工核准。归母/集团、时点/加权股数不同，不能混用。",
+      "extraction_actor": "Agent",
+      "extracted_at": "2026-11-12T03:59:08.480689+00:00",
+      "effective_state": "Fact",
+      "binding": "b0f332f9b4d1a7effb332b7c30f350d46a3b0d5926e32f0b0d20f2711038c251",
+      "issues": [],
+      "verifier": "agent",
+      "confirmation_event": "E000105",
+      "human_confirmation": false
+    },
+    {
+      "company": "US_ISRG_直觉外科",
+      "tag": "Fact",
+      "id": "I09-050",
+      "kind": "disclosure",
+      "state": "Unknown",
+      "claim": "NetIncomeLoss 2026-01-01/2026-09-30",
+      "value": "2162400000.0",
+      "scope": {
+        "period": "2026-01-01/2026-09-30",
+        "entity": "Intuitive Surgical, Inc.",
+        "basis": "US GAAP consolidated; dimensionless context",
+        "definition": "NetIncomeLoss",
+        "unit": "usd",
+        "currency": "USD"
+      },
+      "sources": [
+        {
+          "source_id": "S83c179dfd93521d4",
+          "location": "官方HTML iXBRL #f-174 contextRef=c-1；context=0001035267    2026-01-01  2026-09-30"
+        }
+      ],
+      "support_boundary": "Agent机器提取并按原表定位；未人工核准。归母/集团、时点/加权股数不同，不能混用。",
+      "extraction_actor": "Agent",
+      "extracted_at": "2026-11-12T03:59:08.534600+00:00",
+      "effective_state": "Fact",
+      "binding": "2678f3f7fcff186bd17ec239873e47f59e0693b574cb39965e062aae132b3c1c",
+      "issues": [],
+      "verifier": "agent",
+      "confirmation_event": "E000106",
+      "human_confirmation": false
+    },
+    {
+      "company": "US_ISRG_直觉外科",
+      "tag": "Fact",
+      "id": "I09-051",
+      "kind": "disclosure",
+      "state": "Unknown",
+      "claim": "NetIncomeLoss 2025-01-01/2025-09-30",
+      "value": "2061200000.0",
+      "scope": {
+        "period": "2025-01-01/2025-09-30",
+        "entity": "Intuitive Surgical, Inc.",
+        "basis": "US GAAP consolidated; dimensionless context",
+        "definition": "NetIncomeLoss",
+        "unit": "usd",
+        "currency": "USD"
+      },
+      "sources": [
+        {
+          "source_id": "S83c179dfd93521d4",
+          "location": "官方HTML iXBRL #f-175 contextRef=c-15；context=0001035267    2025-01-01  2025-09-30"
+        }
+      ],
+      "support_boundary": "Agent机器提取并按原表定位；未人工核准。归母/集团、时点/加权股数不同，不能混用。",
+      "extraction_actor": "Agent",
+      "extracted_at": "2026-11-12T03:59:08.589430+00:00",
+      "effective_state": "Fact",
+      "binding": "1f1048a58ae1a08ad01178c93aea111adfa49f8e5662f4a6f233d4ddf9341679",
+      "issues": [],
+      "verifier": "agent",
+      "confirmation_event": "E000107",
+      "human_confirmation": false
+    },
+    {
+      "company": "US_ISRG_直觉外科",
+      "tag": "Fact",
+      "id": "I09-052",
+      "kind": "disclosure",
+      "state": "Unknown",
+      "claim": "ShareBasedCompensation 2026-01-01/2026-09-30",
+      "value": "632000000.0",
+      "scope": {
+        "period": "2026-01-01/2026-09-30",
+        "entity": "Intuitive Surgical, Inc.",
+        "basis": "US GAAP consolidated; dimensionless context",
+        "definition": "ShareBasedCompensation",
+        "unit": "usd",
+        "currency": "USD"
+      },
+      "sources": [
+        {
+          "source_id": "S83c179dfd93521d4",
+          "location": "官方HTML iXBRL #f-236 contextRef=c-1；context=0001035267    2026-01-01  2026-09-30"
+        }
+      ],
+      "support_boundary": "Agent机器提取并按原表定位；未人工核准。归母/集团、时点/加权股数不同，不能混用。",
+      "extraction_actor": "Agent",
+      "extracted_at": "2026-11-12T03:59:08.645620+00:00",
+      "effective_state": "Fact",
+      "binding": "c4dd9dfa42c9922f90c99132fd800ec08d044f0b0bc807bf0c2c89122fb9a959",
+      "issues": [],
+      "verifier": "agent",
+      "confirmation_event": "E000108",
+      "human_confirmation": false
+    },
+    {
+      "company": "US_ISRG_直觉外科",
+      "tag": "Fact",
+      "id": "I09-053",
+      "kind": "disclosure",
+      "state": "Unknown",
+      "claim": "ShareBasedCompensation 2025-01-01/2025-09-30",
+      "value": "584900000.0",
+      "scope": {
+        "period": "2025-01-01/2025-09-30",
+        "entity": "Intuitive Surgical, Inc.",
+        "basis": "US GAAP consolidated; dimensionless context",
+        "definition": "ShareBasedCompensation",
+        "unit": "usd",
+        "currency": "USD"
+      },
+      "sources": [
+        {
+          "source_id": "S83c179dfd93521d4",
+          "location": "官方HTML iXBRL #f-237 contextRef=c-15；context=0001035267    2025-01-01  2025-09-30"
+        }
+      ],
+      "support_boundary": "Agent机器提取并按原表定位；未人工核准。归母/集团、时点/加权股数不同，不能混用。",
+      "extraction_actor": "Agent",
+      "extracted_at": "2026-11-12T03:59:08.702117+00:00",
+      "effective_state": "Fact",
+      "binding": "a0917ffff2cfbc9ffa2d88e4d8ee0b6978ffd5055d836613a72748750b3005b7",
+      "issues": [],
+      "verifier": "agent",
+      "confirmation_event": "E000109",
+      "human_confirmation": false
+    },
+    {
+      "company": "US_ISRG_直觉外科",
+      "tag": "Fact",
+      "id": "I09-054",
+      "kind": "disclosure",
+      "state": "Unknown",
+      "claim": "NetCashProvidedByUsedInOperatingActivities 2026-01-01/2026-09-30",
+      "value": "3197000000.0",
+      "scope": {
+        "period": "2026-01-01/2026-09-30",
+        "entity": "Intuitive Surgical, Inc.",
+        "basis": "US GAAP consolidated; dimensionless context",
+        "definition": "NetCashProvidedByUsedInOperatingActivities",
+        "unit": "usd",
+        "currency": "USD"
+      },
+      "sources": [
+        {
+          "source_id": "S83c179dfd93521d4",
+          "location": "官方HTML iXBRL #f-252 contextRef=c-1；context=0001035267    2026-01-01  2026-09-30"
+        }
+      ],
+      "support_boundary": "Agent机器提取并按原表定位；未人工核准。归母/集团、时点/加权股数不同，不能混用。",
+      "extraction_actor": "Agent",
+      "extracted_at": "2026-11-12T03:59:08.760494+00:00",
+      "effective_state": "Fact",
+      "binding": "4ade5c141cba16dd62c49a8cccfd24c226bb78fa1acc542ab22695cdb25560a6",
+      "issues": [],
+      "verifier": "agent",
+      "confirmation_event": "E000110",
+      "human_confirmation": false
+    },
+    {
+      "company": "US_ISRG_直觉外科",
+      "tag": "Fact",
+      "id": "I09-055",
+      "kind": "disclosure",
+      "state": "Unknown",
+      "claim": "NetCashProvidedByUsedInOperatingActivities 2025-01-01/2025-09-30",
+      "value": "2138000000.0",
+      "scope": {
+        "period": "2025-01-01/2025-09-30",
+        "entity": "Intuitive Surgical, Inc.",
+        "basis": "US GAAP consolidated; dimensionless context",
+        "definition": "NetCashProvidedByUsedInOperatingActivities",
+        "unit": "usd",
+        "currency": "USD"
+      },
+      "sources": [
+        {
+          "source_id": "S83c179dfd93521d4",
+          "location": "官方HTML iXBRL #f-253 contextRef=c-15；context=0001035267    2025-01-01  2025-09-30"
+        }
+      ],
+      "support_boundary": "Agent机器提取并按原表定位；未人工核准。归母/集团、时点/加权股数不同，不能混用。",
+      "extraction_actor": "Agent",
+      "extracted_at": "2026-11-12T03:59:08.821688+00:00",
+      "effective_state": "Fact",
+      "binding": "a8677f3f8b03fad27362b0127e3cf5e1ead0860ee59c8299f9e68799247a5fa7",
+      "issues": [],
+      "verifier": "agent",
+      "confirmation_event": "E000111",
+      "human_confirmation": false
+    },
+    {
+      "company": "US_ISRG_直觉外科",
+      "tag": "Fact",
+      "id": "R14-ISRG-8-02",
+      "kind": "disclosure",
+      "claim": "所得税费用",
+      "value": "489.8",
+      "state": "Unknown",
+      "scope": {
+        "period": "2026-01-01至2026-09-30累计",
+        "unit": "百万美元",
+        "currency": "USD",
+        "entity": "ISRG_直觉外科",
+        "basis": "合并披露",
+        "definition": "所得税费用"
+      },
+      "sources": [
+        {
+          "source_id": "S83c179dfd93521d4",
+          "location": "{\"column_index_zero_based\": 2, \"html_table\": 16, \"row_label\": \"Income tax expense\"}"
+        }
+      ],
+      "support_boundary": "阶段14集中核验裁定所列合并披露。",
+      "effective_state": "Fact",
+      "binding": "30d1f36c94af28b213c1494da7abb44318c35b48d0456fdd67d0c5280ea9e681",
+      "issues": [],
+      "verifier": "agent",
+      "confirmation_event": "E000113",
+      "human_confirmation": false
+    },
+    {
+      "company": "US_ISRG_直觉外科",
+      "tag": "Fact",
+      "id": "R14-ISRG-8-03",
+      "kind": "disclosure",
+      "claim": "存货现金流调节",
+      "value": "-822.0",
+      "state": "Unknown",
+      "scope": {
+        "period": "2026-01-01至2026-09-30累计",
+        "unit": "百万美元",
+        "currency": "USD",
+        "entity": "ISRG_直觉外科",
+        "basis": "合并披露",
+        "definition": "经营现金调节项，原表括号，-822.0。不可用作库存账面余额或与670.5非现金划转直接相等。"
+      },
+      "sources": [
+        {
+          "source_id": "S83c179dfd93521d4",
+          "location": "{\"column_index_zero_based\": 0, \"html_table\": 17, \"row_label\": \"Inventory\"}"
+        }
+      ],
+      "support_boundary": "阶段14集中核验裁定所列合并披露。",
+      "effective_state": "Fact",
+      "binding": "e4d18923df6c4198271f2a58012e4a679c9c521461ff5bb7b8b513fb062a55fb",
+      "issues": [],
+      "verifier": "agent",
+      "confirmation_event": "E000115",
+      "human_confirmation": false
+    },
+    {
+      "company": "US_ISRG_直觉外科",
+      "tag": "Fact",
+      "id": "R14-ISRG-8-07",
+      "kind": "disclosure",
+      "claim": "流动递延收入",
+      "value": "541.2",
+      "state": "Unknown",
+      "scope": {
+        "period": "截至2026-09-30的合并报表余额",
+        "unit": "百万美元",
+        "currency": "USD",
+        "entity": "ISRG_直觉外科",
+        "basis": "合并披露",
+        "definition": "流动负债内的递延收入，不是全期限合计。"
+      },
+      "sources": [
+        {
+          "source_id": "S83c179dfd93521d4",
+          "location": "{\"column_index_zero_based\": 0, \"html_table\": 15, \"row_label\": \"Deferred revenue\"}"
+        }
+      ],
+      "support_boundary": "阶段14集中核验裁定所列合并披露。",
+      "effective_state": "Fact",
+      "binding": "2c0fbfae72709f8d6dfdccea78039bc8f7ca2d116d7adf0b5287e066c068a600",
+      "issues": [],
+      "verifier": "agent",
+      "confirmation_event": "E000117",
+      "human_confirmation": false
+    },
+    {
+      "company": "US_ISRG_直觉外科",
+      "tag": "Fact",
+      "id": "R12-FIRST-8-03",
+      "kind": "disclosure",
+      "claim": "settlement",
+      "value": "450.0",
+      "state": "Unknown",
+      "scope": {
+        "period": "2026-01-01至2026-09-30累计",
+        "unit": "百万美元",
+        "currency": "USD",
+        "entity": "ISRG_直觉外科",
+        "basis": "合并披露",
+        "definition": "settlement"
+      },
+      "sources": [
+        {
+          "source_id": "S83c179dfd93521d4",
+          "location": "{\"column_index_zero_based\": 2, \"html_table\": 16, \"row_label\": \"Antitrust class action litigation settlement\"}"
+        }
+      ],
+      "support_boundary": "阶段14集中核验裁定所列合并披露。",
+      "effective_state": "Fact",
+      "binding": "9b369a9da3e725c69bcdd015adcc269b859d74e00f56b3dcdbc0011de0e96587",
+      "issues": [],
+      "verifier": "agent",
+      "confirmation_event": "E000119",
+      "human_confirmation": false
+    },
+    {
+      "company": "US_ISRG_直觉外科",
+      "tag": "Fact",
+      "id": "R12-FIRST-8-04",
+      "kind": "disclosure",
+      "claim": "net_income",
+      "value": "2173.6",
+      "state": "Unknown",
+      "scope": {
+        "period": "2026-01-01至2026-09-30累计",
+        "unit": "百万美元",
+        "currency": "USD",
+        "entity": "ISRG_直觉外科",
+        "basis": "合并披露",
+        "definition": "含非控股权益合并净利润，归母同期为2,162.4百万美元（I09-050）。"
+      },
+      "sources": [
+        {
+          "source_id": "S83c179dfd93521d4",
+          "location": "{\"column_index_zero_based\": 2, \"html_table\": 16, \"row_label\": \"Net income\"}"
+        }
+      ],
+      "support_boundary": "阶段14集中核验裁定所列合并披露。",
+      "effective_state": "Fact",
+      "binding": "606df3f2816fd565ae9d1e5790ec60007002995114c26ed523b3091082fe43cf",
+      "issues": [],
+      "verifier": "agent",
+      "confirmation_event": "E000121",
+      "human_confirmation": false
+    },
+    {
+      "company": "US_ISRG_直觉外科",
+      "tag": "Fact",
+      "id": "R12-FIRST-8-06",
+      "kind": "disclosure",
+      "claim": "other_liabilities_change",
+      "value": "631.8",
+      "state": "Unknown",
+      "scope": {
+        "period": "2026-01-01至2026-09-30累计",
+        "unit": "百万美元",
+        "currency": "USD",
+        "entity": "ISRG_直觉外科",
+        "basis": "合并披露",
+        "definition": "其他负债调节+631.8。公司解释主要含诉讼计提及税款支付时点带来的应付变化。"
+      },
+      "sources": [
+        {
+          "source_id": "S83c179dfd93521d4",
+          "location": "{\"column_index_zero_based\": 0, \"html_table\": 17, \"row_label\": \"Other liabilities\"}"
+        }
+      ],
+      "support_boundary": "阶段14集中核验裁定所列合并披露。",
+      "effective_state": "Fact",
+      "binding": "7563259b55019180b72b2f78d7f19f4a029a3b216fe6e62ea2d2ea9d22487550",
+      "issues": [],
+      "verifier": "agent",
+      "confirmation_event": "E000123",
+      "human_confirmation": false
+    },
+    {
+      "company": "US_ISRG_直觉外科",
+      "tag": "Fact",
+      "id": "R12-FIRST-8-07",
+      "kind": "disclosure",
+      "claim": "equipment_transfer",
+      "value": "670.5",
+      "state": "Unknown",
+      "scope": {
+        "period": "2026-01-01至2026-09-30累计",
+        "unit": "百万美元",
+        "currency": "USD",
+        "entity": "ISRG_直觉外科",
+        "basis": "合并披露",
+        "definition": "库存转入设备，含经营租赁资产，非现金补充披露。"
+      },
+      "sources": [
+        {
+          "source_id": "S83c179dfd93521d4",
+          "location": "{\"column_index_zero_based\": 0, \"html_table\": 17, \"row_label\": \"Equipment transfers, including operating lease assets, from inventory to property, plant, and equipment\"}"
+        }
+      ],
+      "support_boundary": "阶段14集中核验裁定所列合并披露。",
+      "effective_state": "Fact",
+      "binding": "05d82fd15d82f415b5359360e65ceae320729ed305ee116bc612c5a21f3ba08d",
+      "issues": [],
+      "verifier": "agent",
+      "confirmation_event": "E000125",
+      "human_confirmation": false
+    },
+    {
+      "company": "US_ISRG_直觉外科",
+      "tag": "Fact",
+      "id": "R12-FIRST-8-08",
+      "kind": "disclosure",
+      "claim": "capex",
+      "value": "-329.0",
+      "state": "Unknown",
+      "scope": {
+        "period": "2026-01-01至2026-09-30累计",
+        "unit": "百万美元",
+        "currency": "USD",
+        "entity": "ISRG_直觉外科",
+        "basis": "合并披露",
+        "definition": "购买物业、厂房及设备，投资现金流出；原表为(329.0)。"
+      },
+      "sources": [
+        {
+          "source_id": "S83c179dfd93521d4",
+          "location": "{\"column_index_zero_based\": 0, \"html_table\": 17, \"row_label\": \"Purchase of property, plant, and equipment\"}"
+        }
+      ],
+      "support_boundary": "阶段14集中核验裁定所列合并披露。",
+      "effective_state": "Fact",
+      "binding": "26cf32acaa5e7291f642450c28cf480212c56b0a8183cc65ae1d3ffc7a310eaa",
+      "issues": [],
+      "verifier": "agent",
+      "confirmation_event": "E000127",
+      "human_confirmation": false
+    },
+    {
+      "company": "US_ISRG_直觉外科",
+      "tag": "Fact",
+      "id": "R15-2015-REV",
+      "kind": "disclosure",
+      "state": "Unknown",
+      "value": "2384.4",
+      "claim": "年度集团合并收入",
+      "scope": {
+        "period": "2015-FY",
+        "entity": "ISRG_直觉外科",
+        "basis": "年度集团合并收入",
+        "definition": "Total revenue",
+        "unit": "百万美元",
+        "currency": "USD"
+      },
+      "sources": [
+        {
+          "source_id": "S5d5c8a958ca612e9",
+          "location": "HTML第148表，IS，Total revenue，第1数值列，文本行8"
+        },
+        {
+          "source_id": "Sf4bd1ac338b40e62",
+          "location": "HTML第151表，合并收入比较栏第2数值列，文本行8"
+        }
+      ],
+      "support_boundary": "两份同范围原件的年度收入列核对一致。早期主营业务收入按当时列名保留。",
+      "effective_state": "Fact",
+      "binding": "5f063c8d32f46a9668ba5d5dbb2cfd37d9c5f79e88b1e6d95eae0cd15e90f817",
+      "issues": [],
+      "verifier": "agent",
+      "confirmation_event": "E000129",
+      "human_confirmation": false
+    },
+    {
+      "company": "US_ISRG_直觉外科",
+      "tag": "Fact",
+      "id": "R15-2016-REV",
+      "kind": "disclosure",
+      "state": "Unknown",
+      "value": "2704.4",
+      "claim": "年度集团合并收入",
+      "scope": {
+        "period": "2016-FY",
+        "entity": "ISRG_直觉外科",
+        "basis": "年度集团合并收入",
+        "definition": "Total revenue",
+        "unit": "百万美元",
+        "currency": "USD"
+      },
+      "sources": [
+        {
+          "source_id": "Sf4bd1ac338b40e62",
+          "location": "HTML第151表，IS，Total revenue，第1数值列，文本行8"
+        },
+        {
+          "source_id": "S2e9349ddf54993e4",
+          "location": "HTML第147表，合并收入比较栏第2数值列，文本行8"
+        }
+      ],
+      "support_boundary": "两份同范围原件的年度收入列核对一致。早期主营业务收入按当时列名保留。",
+      "effective_state": "Fact",
+      "binding": "4dc3f642a64b2af982a8c9ad0f1522729fdf2e692713a7909563c05fc1a76e19",
+      "issues": [],
+      "verifier": "agent",
+      "confirmation_event": "E000131",
+      "human_confirmation": false
+    },
+    {
+      "company": "US_ISRG_直觉外科",
+      "tag": "Fact",
+      "id": "R15-2018-REV",
+      "kind": "disclosure",
+      "state": "Unknown",
+      "value": "3724.2",
+      "claim": "年度集团合并收入",
+      "scope": {
+        "period": "2018-FY",
+        "entity": "ISRG_直觉外科",
+        "basis": "年度集团合并收入",
+        "definition": "Total revenue",
+        "unit": "百万美元",
+        "currency": "USD"
+      },
+      "sources": [
+        {
+          "source_id": "Sb1d9b40f5355aa1a",
+          "location": "HTML第151表，IS，Total revenue，第1数值列，文本行8"
+        },
+        {
+          "source_id": "Sfb795f4a51c45110",
+          "location": "HTML第24表，合并收入比较栏第2数值列，文本行7"
+        }
+      ],
+      "support_boundary": "两份同范围原件的年度收入列核对一致。早期主营业务收入按当时列名保留。",
+      "effective_state": "Fact",
+      "binding": "e7fc5ae2016ac56c13c65639e8bba028dfcebf5c7c4919776e41706a9f50f24f",
+      "issues": [],
+      "verifier": "agent",
+      "confirmation_event": "E000133",
+      "human_confirmation": false
+    },
+    {
+      "company": "US_ISRG_直觉外科",
+      "tag": "Fact",
+      "id": "R15-2019-REV",
+      "kind": "disclosure",
+      "state": "Unknown",
+      "value": "4478.5",
+      "claim": "年度集团合并收入",
+      "scope": {
+        "period": "2019-FY",
+        "entity": "ISRG_直觉外科",
+        "basis": "年度集团合并收入",
+        "definition": "Total revenue",
+        "unit": "百万美元",
+        "currency": "USD"
+      },
+      "sources": [
+        {
+          "source_id": "Sfb795f4a51c45110",
+          "location": "HTML第24表，IS，Total revenue，第1数值列，文本行7"
+        },
+        {
+          "source_id": "Sa49ea83ea3ce7ef2",
+          "location": "HTML第25表，合并收入比较栏第2数值列，文本行7"
+        }
+      ],
+      "support_boundary": "两份同范围原件的年度收入列核对一致。早期主营业务收入按当时列名保留。",
+      "effective_state": "Fact",
+      "binding": "3a122980a4e5a212ca302061e43a994431e72bb3dd65691384348f7af06a641e",
+      "issues": [],
+      "verifier": "agent",
+      "confirmation_event": "E000135",
+      "human_confirmation": false
+    },
+    {
+      "company": "US_ISRG_直觉外科",
+      "tag": "Fact",
+      "id": "R15-2020-REV",
+      "kind": "disclosure",
+      "state": "Unknown",
+      "value": "4358.4",
+      "claim": "年度集团合并收入",
+      "scope": {
+        "period": "2020-FY",
+        "entity": "ISRG_直觉外科",
+        "basis": "年度集团合并收入",
+        "definition": "Total revenue",
+        "unit": "百万美元",
+        "currency": "USD"
+      },
+      "sources": [
+        {
+          "source_id": "Sa49ea83ea3ce7ef2",
+          "location": "HTML第25表，IS，Total revenue，第1数值列，文本行7"
+        },
+        {
+          "source_id": "S78f74b10f3f686c7",
+          "location": "HTML第24表，合并收入比较栏第2数值列，文本行7"
+        }
+      ],
+      "support_boundary": "两份同范围原件的年度收入列核对一致。早期主营业务收入按当时列名保留。",
+      "effective_state": "Fact",
+      "binding": "d0d8f8c2467fe53cc2bb408e344ef0834c4d393a4958870bc752be8c20f18982",
+      "issues": [],
+      "verifier": "agent",
+      "confirmation_event": "E000137",
+      "human_confirmation": false
+    },
+    {
+      "company": "US_ISRG_直觉外科",
+      "tag": "Fact",
+      "id": "R15-2021-REV",
+      "kind": "disclosure",
+      "state": "Unknown",
+      "value": "5710.1",
+      "claim": "年度集团合并收入",
+      "scope": {
+        "period": "2021-FY",
+        "entity": "ISRG_直觉外科",
+        "basis": "年度集团合并收入",
+        "definition": "Total revenue",
+        "unit": "百万美元",
+        "currency": "USD"
+      },
+      "sources": [
+        {
+          "source_id": "S78f74b10f3f686c7",
+          "location": "HTML第24表，IS，Total revenue，第1数值列，文本行7"
+        },
+        {
+          "source_id": "S665e685caf9f272d",
+          "location": "HTML第20表，合并收入比较栏第2数值列，文本行7"
+        }
+      ],
+      "support_boundary": "两份同范围原件的年度收入列核对一致。早期主营业务收入按当时列名保留。",
+      "effective_state": "Fact",
+      "binding": "2867e33e838bf039d31147fa72911900ddaf7f7e127cd7a86a899a061b824533",
+      "issues": [],
+      "verifier": "agent",
+      "confirmation_event": "E000139",
+      "human_confirmation": false
+    },
+    {
+      "company": "US_ISRG_直觉外科",
+      "tag": "Fact",
+      "id": "R15-2022-REV",
+      "kind": "disclosure",
+      "state": "Unknown",
+      "value": "6222.2",
+      "claim": "年度集团合并收入",
+      "scope": {
+        "period": "2022-FY",
+        "entity": "ISRG_直觉外科",
+        "basis": "年度集团合并收入",
+        "definition": "Total revenue",
+        "unit": "百万美元",
+        "currency": "USD"
+      },
+      "sources": [
+        {
+          "source_id": "S665e685caf9f272d",
+          "location": "HTML第20表，IS，Total revenue，第1数值列，文本行7"
+        },
+        {
+          "source_id": "Sf92ee8eb3f06a597",
+          "location": "HTML第25表，合并收入比较栏第2数值列，文本行7"
+        }
+      ],
+      "support_boundary": "两份同范围原件的年度收入列核对一致。早期主营业务收入按当时列名保留。",
+      "effective_state": "Fact",
+      "binding": "83b3b128f06299bd61691cbdbd879c60094a45e73508a11d0712eef6120ad6b3",
+      "issues": [],
+      "verifier": "agent",
+      "confirmation_event": "E000141",
+      "human_confirmation": false
+    }
+  ],
+  "market_observation": {
+    "ticker": "ISRG",
+    "exchange": "NASDAQ Global Select Market",
+    "right": "普通股，每股面值0.001美元",
+    "quote": "USD",
+    "report": "USD",
+    "shares": 346643718,
+    "fx": 1,
+    "close": "2026-11-12T16:00:00-05:00",
+    "shares_basis": "10-Q封面2026-10-15流通在外346,643,718，收盘日前可用股数代理；期间回购可能改变实际。9月季稀释加权EPS股数不作估值分母。",
+    "shares_at": "2026-10-15",
+    "as_of": "2026-11-12",
+    "tag": "市场观测"
+  },
+  "decision": {
+    "tag": "实际投资决定",
+    "status": "未记录",
+    "value": null
+  }
+}

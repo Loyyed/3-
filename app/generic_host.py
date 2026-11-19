@@ -20,7 +20,7 @@ def start(root,kit,port):
  class Handler(Base):
   def send(self,data,*args,**kwargs):
    if self.path.split('?')[0]=='/' and isinstance(data,str):
-    data=data.replace('最终展示图册</a></nav>','最终展示图册</a><a href="/preparation/">完整证券分析准备</a><a href="/security-analysis/">五家公司证券分析（阶段14）</a><a href="/stage15/">五家公司证券分析（阶段15）</a><a href="/stage16/">五家公司证券分析（阶段16）</a></nav>')
+    data=data.replace('最终展示图册</a></nav>','最终展示图册</a><a href="/preparation/">完整证券分析准备</a><a href="/security-analysis/">五家公司证券分析（阶段14）</a><a href="/stage15/">五家公司证券分析（阶段15）</a><a href="/stage16/">五家公司证券分析（阶段16）</a><a href="/stage17/">五家公司证券研究定稿</a></nav>')
     data=data.replace('</body>','<script nonce="'+server.workbench_token+'" src="/assets/project-adapter.js"></script></body>')
    return super().send(data,*args,**kwargs)
   def do_GET(self):
@@ -32,7 +32,7 @@ def start(root,kit,port):
    if route.path.startswith('/preparation/'):
     from preparation import serve
     return serve(self,root,route.path,mapping,server.workbench_token)
-   if route.path.startswith(('/stage15/','/stage16/')):
+   if route.path.startswith(('/stage15/','/stage16/','/stage17/')):
     from urllib.parse import unquote
     _,stage,suffix=route.path.split('/',2)
     suffix=unquote(suffix) or 'index.html'
@@ -45,6 +45,10 @@ def start(root,kit,port):
     if target.suffix not in types:return self.send({'error':'未发布文件类型'},404)
     if target.suffix=='.html':
      body=target.read_text(encoding='utf-8').replace('<script>', '<script nonce="'+server.workbench_token+'">')
+     if stage=='stage17':
+      for prior in ('15','16'):
+       body=body.replace(f'href="../../research{prior}/',f'href="/stage{prior}/')
+       body=body.replace(f'href="../research{prior}/',f'href="/stage{prior}/')
      return self.send(body,content=types['.html'],interactive=True,downloadable=True)
     return self.send(target.read_bytes(),content=types[target.suffix],
                      disposition='attachment; filename="'+target.name+'"')

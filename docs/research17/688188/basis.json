@@ -1,0 +1,902 @@
+{
+  "comparison": {
+    "company": "688188_柏楚电子",
+    "code": "688188",
+    "market_close": 96.2,
+    "quote": "CNY",
+    "as_of": "2026-11-12",
+    "stage15": 98.66494261153089,
+    "stage16": 92.75774737785618,
+    "delta": -5.907195233674713,
+    "stage15_vs_market": 2.464942611530887,
+    "stage16_vs_market": -3.442252622143826,
+    "stage15_commit": "769e6e443aba87c7a94704f4da5efb876d7ba65f",
+    "stage16_commit": "4bf7bf66dd6722bd0250fb9e7c9264f645606f1f",
+    "stage15_sha256": "a7c0ca72654bff155828c5ee652c121ce0901c16ef43593a045f2e4712f48b55",
+    "stage16_sha256": "aa2aab89d37c169a6eead395370d64dd6ff4bef8e1458988db7332e583d58ac5",
+    "tag": "条件估值与全精度差额"
+  },
+  "judgments": [
+    {
+      "question": "首选判断",
+      "judgment": "控制软件的既有设备、工艺适配和售后可带来持续复购，但现价已要求更强的兑现。经营基准 92.76 元低于 96.20 元，等控制系统续购或软硬配套毛利得到验证。",
+      "tag": "研究判断"
+    },
+    {
+      "question": "最强反方",
+      "judgment": "设备厂商景气上行也能解释销量；硬件和整套方案放量若压低毛利并拉长备货，增长很难等比变为现金。三季报将利息、投资、公允价值收益与核心经营利润分开后，前三季报表营业利润 1,226.03 百万元，按收入减成本、销售、管理、研发和税附后的核心利润 938.19 百万元。利息、投资和公允价值净收益分别为 91.06、17.06 和 46.97 百万元。库存由上年 9 月的 216.23 增至 403.39 百万元，期末成本周转代理约从 166 天延长至 216 天。最强反方是硬件附着率、大客户续购和规模毛利一起改善。",
+      "tag": "研究判断"
+    },
+    {
+      "question": "现价对应的经营预期",
+      "judgment": "阶段 15 的 98.66 元高于收盘。去掉把总收入误差回填到单一驱动的校正后为 96.06 元，再按控制销量证据校正后为 92.76 元。按原基准其他输入，96.20 元要求 2027 控制销量增速由 6.675% 升至 7.533%，或稳定核心营业利润率由 46.96% 升至 49.80%。",
+      "tag": "研究判断"
+    },
+    {
+      "question": "翻转条件",
+      "judgment": "销量缺口约为 559 套 2025 年销量当量。若全部来自续购且可续购机会池占年销量 60%–100%，需多兑现 0.86–1.43 个百分点。若全由占收入 25% 的软硬配套贡献，配套毛利率需提高 11.37 个百分点。若全靠售后，稳定期需年化节约税前约 148.58 百万元。库存单独压缩 30 或 60 天仅到 92.94／93.14 元，配合控制销量分别达到 7.486%／7.436% 才跨线。",
+      "tag": "研究判断"
+    },
+    {
+      "question": "下次可核对的公开指标",
+      "judgment": "年报分产品控制系统与智能硬件销量、整套解决方案毛利、售后相关费用及存货周转。公开报告若仅披露系统销量，则继续以增量出货当量约束续购情景。",
+      "tag": "研究判断"
+    }
+  ],
+  "evidence": [
+    {
+      "company": "688188_柏楚电子",
+      "tag": "原文披露·Agent对读",
+      "period": "2024",
+      "metric": "控制系统销量",
+      "value": 60993,
+      "unit": "套",
+      "source_id": "688188-4daf701c6095d460",
+      "source_sha256": "fdba15e44169cf958098ed9e88faf42452ebd3eb190a52c61caa69ee0609e629",
+      "url": "https://static.cninfo.com.cn/finalpage/2025-04-03/1222993275.PDF",
+      "locator": "PDF物理第26页",
+      "disclosed": "2025-04-03",
+      "checked": "2026-11-19",
+      "note": "2024为新分类起点。随动功能集成改变单套定义。"
+    },
+    {
+      "company": "688188_柏楚电子",
+      "tag": "原文披露·Agent对读",
+      "period": "2025",
+      "metric": "控制系统销量",
+      "value": 65064,
+      "unit": "套",
+      "source_id": "688188-a343f0dc3c27d114",
+      "source_sha256": "e12688b3c2e80e63fae0008983426c644a0ca5bc0da6bed30f9b45f635ecfed2",
+      "url": "https://static.cninfo.com.cn/finalpage/2026-04-10/1225091045.PDF",
+      "locator": "PDF物理第29页",
+      "disclosed": "2026-04-10",
+      "checked": "2026-11-19",
+      "note": "2024为新分类起点。随动功能集成改变单套定义。"
+    },
+    {
+      "company": "688188_柏楚电子",
+      "tag": "原文披露·Agent对读",
+      "period": "2025FY",
+      "metric": "控制系统与智能硬件销量、库存",
+      "value": [
+        [
+          65064,
+          7340
+        ],
+        [
+          56824,
+          7963
+        ]
+      ],
+      "unit": "套",
+      "source_id": "688188-a343f0dc3c27d114",
+      "source_sha256": "e12688b3c2e80e63fae0008983426c644a0ca5bc0da6bed30f9b45f635ecfed2",
+      "url": "https://static.cninfo.com.cn/finalpage/2026-04-10/1225091045.PDF",
+      "locator": "物理第29页，产销量情况",
+      "disclosed": "2026-04-10",
+      "checked": "2026-11-19",
+      "note": "硬件是年报分类，单件毛利、配套率和客户续购缺分拆。"
+    },
+    {
+      "company": "688188_柏楚电子",
+      "tag": "原文披露·Agent对读",
+      "period": "2024FY",
+      "metric": "控制系统与智能硬件销量、库存",
+      "value": [
+        [
+          60993,
+          5226
+        ],
+        [
+          35118,
+          3127
+        ]
+      ],
+      "unit": "套",
+      "source_id": "688188-4daf701c6095d460",
+      "source_sha256": "fdba15e44169cf958098ed9e88faf42452ebd3eb190a52c61caa69ee0609e629",
+      "url": "https://static.cninfo.com.cn/finalpage/2025-04-03/1222993275.PDF",
+      "locator": "物理第26页，产销量情况",
+      "disclosed": "2025-04-03",
+      "checked": "2026-11-19",
+      "note": "按2024调整后的分类。"
+    },
+    {
+      "company": "688188_柏楚电子",
+      "tag": "原文披露·Agent对读",
+      "period": "2025FY",
+      "metric": "分解决方案与主营毛利率",
+      "value": [
+        77.92,
+        80.53,
+        52.64
+      ],
+      "unit": "百分数",
+      "source_id": "688188-a343f0dc3c27d114",
+      "source_sha256": "e12688b3c2e80e63fae0008983426c644a0ca5bc0da6bed30f9b45f635ecfed2",
+      "url": "https://static.cninfo.com.cn/finalpage/2026-04-10/1225091045.PDF",
+      "locator": "物理第27–28页；主营、其他解决方案",
+      "disclosed": "2026-04-10",
+      "checked": "2026-11-19",
+      "note": "2025/2024主营及2025其他解决方案。其他包含多项业务。"
+    }
+  ],
+  "current_facts": [
+    {
+      "company": "688188_柏楚电子",
+      "tag": "Fact",
+      "id": "B07-A01",
+      "kind": "disclosure",
+      "claim": "营业收入2025",
+      "scope": {
+        "period": "2025年度",
+        "entity": "柏楚电子",
+        "basis": "集团合并年度财务摘要",
+        "definition": "营业收入2025；按原表列定位，不把归母/合并净利润混同",
+        "unit": "元",
+        "currency": "CNY"
+      },
+      "sources": [
+        {
+          "source_id": "688188-a343f0dc3c27d114",
+          "location": "PDF物理第8页，财务摘要/经营更新，行“营业收入2025”"
+        }
+      ],
+      "support_boundary": "机器提取候选，尚无人审核准；不单独证明机制或投资价值。",
+      "value": "2195632312.92",
+      "state": "Unknown",
+      "effective_state": "Fact",
+      "binding": "f97938a604e88689803ff948275314454e6ea905762bdcbda8595049501cc65c",
+      "issues": [],
+      "verifier": "agent",
+      "confirmation_event": "E000026",
+      "human_confirmation": false
+    },
+    {
+      "company": "688188_柏楚电子",
+      "tag": "Fact",
+      "id": "B07-A02",
+      "kind": "disclosure",
+      "claim": "营业收入2024",
+      "scope": {
+        "period": "2024年度",
+        "entity": "柏楚电子",
+        "basis": "集团合并年度财务摘要",
+        "definition": "营业收入2024；按原表列定位，不把归母/合并净利润混同",
+        "unit": "元",
+        "currency": "CNY"
+      },
+      "sources": [
+        {
+          "source_id": "688188-a343f0dc3c27d114",
+          "location": "PDF物理第8页，财务摘要/经营更新，行“营业收入2024”"
+        }
+      ],
+      "support_boundary": "机器提取候选，尚无人审核准；不单独证明机制或投资价值。",
+      "value": "1735455070.67",
+      "state": "Unknown",
+      "effective_state": "Fact",
+      "binding": "3d8c21c76554467dbe0da73a46a475dd64af0cd6ba03099b0fbf1b7cc68ddced",
+      "issues": [],
+      "verifier": "agent",
+      "confirmation_event": "E000027",
+      "human_confirmation": false
+    },
+    {
+      "company": "688188_柏楚电子",
+      "tag": "Fact",
+      "id": "B07-A03",
+      "kind": "disclosure",
+      "claim": "归母净利润2025",
+      "scope": {
+        "period": "2025年度",
+        "entity": "柏楚电子",
+        "basis": "集团合并年度财务摘要",
+        "definition": "归母净利润2025；按原表列定位，不把归母/合并净利润混同",
+        "unit": "元",
+        "currency": "CNY"
+      },
+      "sources": [
+        {
+          "source_id": "688188-a343f0dc3c27d114",
+          "location": "PDF物理第8页，财务摘要/经营更新，行“归母净利润2025”"
+        }
+      ],
+      "support_boundary": "机器提取候选，尚无人审核准；不单独证明机制或投资价值。",
+      "value": "1112547607.75",
+      "state": "Unknown",
+      "effective_state": "Fact",
+      "binding": "b4cf1bfb35cadddc1cc27b82f020b4d428d25c6b1546c7caa63f0fc9794cf93f",
+      "issues": [],
+      "verifier": "agent",
+      "confirmation_event": "E000028",
+      "human_confirmation": false
+    },
+    {
+      "company": "688188_柏楚电子",
+      "tag": "Fact",
+      "id": "B07-A04",
+      "kind": "disclosure",
+      "claim": "归母净利润2024",
+      "scope": {
+        "period": "2024年度",
+        "entity": "柏楚电子",
+        "basis": "集团合并年度财务摘要",
+        "definition": "归母净利润2024；按原表列定位，不把归母/合并净利润混同",
+        "unit": "元",
+        "currency": "CNY"
+      },
+      "sources": [
+        {
+          "source_id": "688188-a343f0dc3c27d114",
+          "location": "PDF物理第8页，财务摘要/经营更新，行“归母净利润2024”"
+        }
+      ],
+      "support_boundary": "机器提取候选，尚无人审核准；不单独证明机制或投资价值。",
+      "value": "882710217.15",
+      "state": "Unknown",
+      "effective_state": "Fact",
+      "binding": "cb5d3dd440ea084d77c6df1c7ee3a4c29391ff847c48eb8c578bcd41b11764d6",
+      "issues": [],
+      "verifier": "agent",
+      "confirmation_event": "E000029",
+      "human_confirmation": false
+    },
+    {
+      "company": "688188_柏楚电子",
+      "tag": "Fact",
+      "id": "B07-A05",
+      "kind": "disclosure",
+      "claim": "CFO2025",
+      "scope": {
+        "period": "2025年度",
+        "entity": "柏楚电子",
+        "basis": "集团合并年度财务摘要",
+        "definition": "CFO2025；按原表列定位，不把归母/合并净利润混同",
+        "unit": "元",
+        "currency": "CNY"
+      },
+      "sources": [
+        {
+          "source_id": "688188-a343f0dc3c27d114",
+          "location": "PDF物理第8页，财务摘要/经营更新，行“CFO2025”"
+        }
+      ],
+      "support_boundary": "机器提取候选，尚无人审核准；不单独证明机制或投资价值。",
+      "value": "1104320726.22",
+      "state": "Unknown",
+      "effective_state": "Fact",
+      "binding": "09b7c461441f344b0bffa44a3e8d6098b370ba3c9e66fe5d3a31cbb0559faa86",
+      "issues": [],
+      "verifier": "agent",
+      "confirmation_event": "E000030",
+      "human_confirmation": false
+    },
+    {
+      "company": "688188_柏楚电子",
+      "tag": "Fact",
+      "id": "B07-A06",
+      "kind": "disclosure",
+      "claim": "CFO2024",
+      "scope": {
+        "period": "2024年度",
+        "entity": "柏楚电子",
+        "basis": "集团合并年度财务摘要",
+        "definition": "CFO2024；按原表列定位，不把归母/合并净利润混同",
+        "unit": "元",
+        "currency": "CNY"
+      },
+      "sources": [
+        {
+          "source_id": "688188-a343f0dc3c27d114",
+          "location": "PDF物理第8页，财务摘要/经营更新，行“CFO2024”"
+        }
+      ],
+      "support_boundary": "机器提取候选，尚无人审核准；不单独证明机制或投资价值。",
+      "value": "952442961.66",
+      "state": "Unknown",
+      "effective_state": "Fact",
+      "binding": "d93a570d49d5bfe52213d50d148becb558294c10261a14ea2ab1dca0c3516b0a",
+      "issues": [],
+      "verifier": "agent",
+      "confirmation_event": "E000031",
+      "human_confirmation": false
+    },
+    {
+      "company": "688188_柏楚电子",
+      "tag": "Fact",
+      "id": "B07-Q01",
+      "kind": "disclosure",
+      "claim": "本季度营业收入",
+      "scope": {
+        "period": "2026Q3单季",
+        "entity": "柏楚电子",
+        "basis": "集团合并；季度数据未经审计",
+        "definition": "本季度营业收入；按原表列定位，不把归母/合并净利润混同",
+        "unit": "元",
+        "currency": "CNY"
+      },
+      "sources": [
+        {
+          "source_id": "688188-fed67b607fa475a7",
+          "location": "PDF物理第1页，财务摘要/经营更新，行“本季度营业收入”"
+        }
+      ],
+      "support_boundary": "机器提取候选，尚无人审核准；不单独证明机制或投资价值。",
+      "value": "601316609.49",
+      "state": "Unknown",
+      "effective_state": "Fact",
+      "binding": "998654384875b7b66295e99596e7159b5829dd0ca03bf99f00d83ef2091ae663",
+      "issues": [],
+      "verifier": "agent",
+      "confirmation_event": "E000032",
+      "human_confirmation": false
+    },
+    {
+      "company": "688188_柏楚电子",
+      "tag": "Fact",
+      "id": "B07-Q02",
+      "kind": "disclosure",
+      "claim": "前九个月营业收入",
+      "scope": {
+        "period": "2026年1—9月",
+        "entity": "柏楚电子",
+        "basis": "集团合并；季度数据未经审计",
+        "definition": "前九个月营业收入；按原表列定位，不把归母/合并净利润混同",
+        "unit": "元",
+        "currency": "CNY"
+      },
+      "sources": [
+        {
+          "source_id": "688188-fed67b607fa475a7",
+          "location": "PDF物理第1页，财务摘要/经营更新，行“前九个月营业收入”"
+        }
+      ],
+      "support_boundary": "机器提取候选，尚无人审核准；不单独证明机制或投资价值。",
+      "value": "1879566682.64",
+      "state": "Unknown",
+      "effective_state": "Fact",
+      "binding": "1159c50260575c36051083a9947aae5d6f96da3f7d2ebed018474f2b2cf27c13",
+      "issues": [],
+      "verifier": "agent",
+      "confirmation_event": "E000033",
+      "human_confirmation": false
+    },
+    {
+      "company": "688188_柏楚电子",
+      "tag": "Fact",
+      "id": "B07-Q03",
+      "kind": "disclosure",
+      "claim": "本季度归母净利润",
+      "scope": {
+        "period": "2026Q3单季",
+        "entity": "柏楚电子",
+        "basis": "集团合并；季度数据未经审计",
+        "definition": "本季度归母净利润；按原表列定位，不把归母/合并净利润混同",
+        "unit": "元",
+        "currency": "CNY"
+      },
+      "sources": [
+        {
+          "source_id": "688188-fed67b607fa475a7",
+          "location": "PDF物理第1页，财务摘要/经营更新，行“本季度归母净利润”"
+        }
+      ],
+      "support_boundary": "机器提取候选，尚无人审核准；不单独证明机制或投资价值。",
+      "value": "313314237.58",
+      "state": "Unknown",
+      "effective_state": "Fact",
+      "binding": "fe903cf5b41e3fe356e1060b92ad2ba6ec9a5d948eccaf8a91e8a9c13d1abc40",
+      "issues": [],
+      "verifier": "agent",
+      "confirmation_event": "E000034",
+      "human_confirmation": false
+    },
+    {
+      "company": "688188_柏楚电子",
+      "tag": "Fact",
+      "id": "B07-Q04",
+      "kind": "disclosure",
+      "claim": "前九个月归母净利润",
+      "scope": {
+        "period": "2026年1—9月",
+        "entity": "柏楚电子",
+        "basis": "集团合并；季度数据未经审计",
+        "definition": "前九个月归母净利润；按原表列定位，不把归母/合并净利润混同",
+        "unit": "元",
+        "currency": "CNY"
+      },
+      "sources": [
+        {
+          "source_id": "688188-fed67b607fa475a7",
+          "location": "PDF物理第1页，财务摘要/经营更新，行“前九个月归母净利润”"
+        }
+      ],
+      "support_boundary": "机器提取候选，尚无人审核准；不单独证明机制或投资价值。",
+      "value": "1100464521.48",
+      "state": "Unknown",
+      "effective_state": "Fact",
+      "binding": "322232b0b348242f7d89f28fff457c611f282feb98fecbc97c7a4c79be05193b",
+      "issues": [],
+      "verifier": "agent",
+      "confirmation_event": "E000035",
+      "human_confirmation": false
+    },
+    {
+      "company": "688188_柏楚电子",
+      "tag": "Fact",
+      "id": "B07-Q05",
+      "kind": "disclosure",
+      "claim": "前九个月CFO",
+      "scope": {
+        "period": "2026年1—9月",
+        "entity": "柏楚电子",
+        "basis": "集团合并；季度数据未经审计",
+        "definition": "前九个月CFO；按原表列定位，不把归母/合并净利润混同",
+        "unit": "元",
+        "currency": "CNY"
+      },
+      "sources": [
+        {
+          "source_id": "688188-fed67b607fa475a7",
+          "location": "PDF物理第1页，财务摘要/经营更新，行“前九个月CFO”"
+        }
+      ],
+      "support_boundary": "机器提取候选，尚无人审核准；不单独证明机制或投资价值。",
+      "value": "843409700.06",
+      "state": "Unknown",
+      "effective_state": "Fact",
+      "binding": "78b0d04c790f707aa932d8d799bb9fda04ccb93703a8155996f5dbe11c6d46e3",
+      "issues": [],
+      "verifier": "agent",
+      "confirmation_event": "E000036",
+      "human_confirmation": false
+    },
+    {
+      "company": "688188_柏楚电子",
+      "tag": "Fact",
+      "id": "B07-Q06",
+      "kind": "disclosure",
+      "claim": "前九个月营业收入同比",
+      "scope": {
+        "period": "2026年1—9月",
+        "entity": "柏楚电子",
+        "basis": "集团合并；季度数据未经审计",
+        "definition": "前九个月营业收入同比；按原表列定位，不把归母/合并净利润混同",
+        "unit": "%",
+        "currency": "CNY"
+      },
+      "sources": [
+        {
+          "source_id": "688188-fed67b607fa475a7",
+          "location": "PDF物理第1页，财务摘要/经营更新，行“前九个月营业收入同比”"
+        }
+      ],
+      "support_boundary": "机器提取候选，尚无人审核准；不单独证明机制或投资价值。",
+      "value": "16.05",
+      "state": "Unknown",
+      "effective_state": "Fact",
+      "binding": "57b5da437777e58856294d5566d60aec7dfa9a4f68257ff3953b151afbd985b9",
+      "issues": [],
+      "verifier": "agent",
+      "confirmation_event": "E000037",
+      "human_confirmation": false
+    },
+    {
+      "company": "688188_柏楚电子",
+      "tag": "Fact",
+      "id": "R14-688188-8-01",
+      "kind": "disclosure",
+      "claim": "报告营业利润",
+      "value": "1226031039.42",
+      "state": "Unknown",
+      "scope": {
+        "period": "2026-01-01至2026-09-30累计",
+        "unit": "人民币元",
+        "currency": "CNY",
+        "entity": "柏楚电子",
+        "basis": "合并报表/附注",
+        "definition": "报告营业利润"
+      },
+      "sources": [
+        {
+          "source_id": "688188-fed67b607fa475a7",
+          "location": "{\"column\": \"本期/期末\", \"physical_page\": 9, \"table\": \"合并报表/附注\"}"
+        }
+      ],
+      "support_boundary": "阶段14集中核验裁定所列合并披露。",
+      "effective_state": "Fact",
+      "binding": "57677106010a287dd212b0800400b002b9e620cfc5458365d1811fb41da85947",
+      "issues": [],
+      "verifier": "agent",
+      "confirmation_event": "E000039",
+      "human_confirmation": false
+    },
+    {
+      "company": "688188_柏楚电子",
+      "tag": "Fact",
+      "id": "R14-688188-8-02",
+      "kind": "disclosure",
+      "claim": "利息收入",
+      "value": "91061141.44",
+      "state": "Unknown",
+      "scope": {
+        "period": "2026-01-01至2026-09-30累计",
+        "unit": "人民币元",
+        "currency": "CNY",
+        "entity": "柏楚电子",
+        "basis": "合并报表/附注",
+        "definition": "利息收入"
+      },
+      "sources": [
+        {
+          "source_id": "688188-fed67b607fa475a7",
+          "location": "{\"column\": \"本期/期末\", \"physical_page\": 9, \"table\": \"合并报表/附注\"}"
+        }
+      ],
+      "support_boundary": "阶段14集中核验裁定所列合并披露。",
+      "effective_state": "Fact",
+      "binding": "3481aa5adc98e22bdaa5688ba1d8353b80b3cd7193807103bf7fae5e0a568350",
+      "issues": [],
+      "verifier": "agent",
+      "confirmation_event": "E000041",
+      "human_confirmation": false
+    },
+    {
+      "company": "688188_柏楚电子",
+      "tag": "Fact",
+      "id": "R14-688188-8-03",
+      "kind": "disclosure",
+      "claim": "投资收益",
+      "value": "17064136.21",
+      "state": "Unknown",
+      "scope": {
+        "period": "2026-01-01至2026-09-30累计",
+        "unit": "人民币元",
+        "currency": "CNY",
+        "entity": "柏楚电子",
+        "basis": "合并报表/附注",
+        "definition": "投资收益"
+      },
+      "sources": [
+        {
+          "source_id": "688188-fed67b607fa475a7",
+          "location": "{\"column\": \"本期/期末\", \"physical_page\": 9, \"table\": \"合并报表/附注\"}"
+        }
+      ],
+      "support_boundary": "阶段14集中核验裁定所列合并披露。",
+      "effective_state": "Fact",
+      "binding": "2ef14430112cbbfdc505b0791d309ca907b48bb087fbd54f08b146dec205a707",
+      "issues": [],
+      "verifier": "agent",
+      "confirmation_event": "E000043",
+      "human_confirmation": false
+    },
+    {
+      "company": "688188_柏楚电子",
+      "tag": "Fact",
+      "id": "R14-688188-8-04",
+      "kind": "disclosure",
+      "claim": "公允价值变动收益",
+      "value": "46965355.93",
+      "state": "Unknown",
+      "scope": {
+        "period": "2026-01-01至2026-09-30累计",
+        "unit": "人民币元",
+        "currency": "CNY",
+        "entity": "柏楚电子",
+        "basis": "合并报表/附注",
+        "definition": "公允价值变动收益"
+      },
+      "sources": [
+        {
+          "source_id": "688188-fed67b607fa475a7",
+          "location": "{\"column\": \"本期/期末\", \"physical_page\": 9, \"table\": \"合并报表/附注\"}"
+        }
+      ],
+      "support_boundary": "阶段14集中核验裁定所列合并披露。",
+      "effective_state": "Fact",
+      "binding": "908e12b49564246586dacda9c5d9c237d738c3896d44c54d6473a7bb402cae17",
+      "issues": [],
+      "verifier": "agent",
+      "confirmation_event": "E000045",
+      "human_confirmation": false
+    },
+    {
+      "company": "688188_柏楚电子",
+      "tag": "Fact",
+      "id": "R14-688188-8-05",
+      "kind": "disclosure",
+      "claim": "交易性金融资产",
+      "value": "3596031132.18",
+      "state": "Unknown",
+      "scope": {
+        "period": "截至2026-09-30的合并报表余额",
+        "unit": "人民币元",
+        "currency": "CNY",
+        "entity": "柏楚电子",
+        "basis": "合并资产负债表",
+        "definition": "交易性金融资产"
+      },
+      "sources": [
+        {
+          "source_id": "688188-fed67b607fa475a7",
+          "location": "{\"column\": \"本期/期末\", \"physical_page\": 5, \"table\": \"合并资产负债表\"}"
+        }
+      ],
+      "support_boundary": "阶段14集中核验裁定所列合并披露。",
+      "effective_state": "Fact",
+      "binding": "173308055af5e6d6f10b447ef59f49df83cf2ea363b7bfbbbfe064e19c4a06d7",
+      "issues": [],
+      "verifier": "agent",
+      "confirmation_event": "E000047",
+      "human_confirmation": false
+    },
+    {
+      "company": "688188_柏楚电子",
+      "tag": "Fact",
+      "id": "R14-688188-8-06",
+      "kind": "disclosure",
+      "claim": "存货",
+      "value": "403390554.78",
+      "state": "Unknown",
+      "scope": {
+        "period": "截至2026-09-30的合并报表余额",
+        "unit": "人民币元",
+        "currency": "CNY",
+        "entity": "柏楚电子",
+        "basis": "合并报表/附注",
+        "definition": "存货"
+      },
+      "sources": [
+        {
+          "source_id": "688188-fed67b607fa475a7",
+          "location": "{\"column\": \"本期/期末\", \"physical_page\": 6, \"table\": \"合并报表/附注\"}"
+        }
+      ],
+      "support_boundary": "阶段14集中核验裁定所列合并披露。",
+      "effective_state": "Fact",
+      "binding": "25964a8daa930fb0046bd95718cbfb1c529a3349bcd58ff0b62f107bfd2fc2be",
+      "issues": [],
+      "verifier": "agent",
+      "confirmation_event": "E000049",
+      "human_confirmation": false
+    },
+    {
+      "company": "688188_柏楚电子",
+      "tag": "Fact",
+      "id": "R14-688188-8-07",
+      "kind": "disclosure",
+      "claim": "研发费用",
+      "value": "203881478.84",
+      "state": "Unknown",
+      "scope": {
+        "period": "2026-01-01至2026-09-30累计",
+        "unit": "人民币元",
+        "currency": "CNY",
+        "entity": "柏楚电子",
+        "basis": "合并报表/附注",
+        "definition": "研发费用"
+      },
+      "sources": [
+        {
+          "source_id": "688188-fed67b607fa475a7",
+          "location": "{\"column\": \"本期/期末\", \"physical_page\": 8, \"table\": \"合并报表/附注\"}"
+        }
+      ],
+      "support_boundary": "阶段14集中核验裁定所列合并披露。",
+      "effective_state": "Fact",
+      "binding": "74641ea57e056cea6f89cbeaa64abea5efca0d50a770e196a7704c8692926833",
+      "issues": [],
+      "verifier": "agent",
+      "confirmation_event": "E000051",
+      "human_confirmation": false
+    },
+    {
+      "company": "688188_柏楚电子",
+      "tag": "Fact",
+      "id": "R14-688188-8-08",
+      "kind": "disclosure",
+      "claim": "股本",
+      "value": "405984426.00",
+      "state": "Unknown",
+      "scope": {
+        "period": "截至2026-09-30的合并报表余额",
+        "unit": "人民币元",
+        "currency": "CNY",
+        "entity": "柏楚电子",
+        "basis": "合并报表/附注",
+        "definition": "资产负债表实收资本（或股本），原表人民币元。估值普通股股数另引股权登记公告。"
+      },
+      "sources": [
+        {
+          "source_id": "688188-fed67b607fa475a7",
+          "location": "{\"column\": \"本期/期末\", \"physical_page\": 7, \"table\": \"合并报表/附注\"}"
+        }
+      ],
+      "support_boundary": "阶段14集中核验裁定所列合并披露。",
+      "effective_state": "Fact",
+      "binding": "92baead18f5bbd8165eeb5d2c6c93ed3462a2130e2e5a65d602b169f2a9193ac",
+      "issues": [],
+      "verifier": "agent",
+      "confirmation_event": "E000053",
+      "human_confirmation": false
+    },
+    {
+      "company": "688188_柏楚电子",
+      "tag": "Fact",
+      "id": "R15-2019-REV",
+      "kind": "disclosure",
+      "state": "Unknown",
+      "value": "376070956.02",
+      "claim": "年度集团合并收入",
+      "scope": {
+        "period": "2019-FY",
+        "entity": "柏楚电子",
+        "basis": "年度集团合并收入",
+        "definition": "营业总收入",
+        "unit": "人民币元",
+        "currency": "CNY"
+      },
+      "sources": [
+        {
+          "source_id": "688188-6280a199ff0f4384",
+          "location": "PDF物理第87页，IS，营业总收入，第1数值列，文本行45"
+        },
+        {
+          "source_id": "688188-7ccffae9be109cca",
+          "location": "PDF物理第98页，合并收入比较栏第2数值列，文本行17"
+        }
+      ],
+      "support_boundary": "两份同范围原件的年度收入列核对一致。早期主营业务收入按当时列名保留。",
+      "effective_state": "Fact",
+      "binding": "32d43607374861dd3b73b665e19ada686fd79fe293cf1c6dfb95b55a9bbb7549",
+      "issues": [],
+      "verifier": "agent",
+      "confirmation_event": "E000055",
+      "human_confirmation": false
+    },
+    {
+      "company": "688188_柏楚电子",
+      "tag": "Fact",
+      "id": "R15-2020-REV",
+      "kind": "disclosure",
+      "state": "Unknown",
+      "value": "570829250.31",
+      "claim": "年度集团合并收入",
+      "scope": {
+        "period": "2020-FY",
+        "entity": "柏楚电子",
+        "basis": "年度集团合并收入",
+        "definition": "营业总收入",
+        "unit": "人民币元",
+        "currency": "CNY"
+      },
+      "sources": [
+        {
+          "source_id": "688188-7ccffae9be109cca",
+          "location": "PDF物理第98页，IS，营业总收入，第1数值列，文本行17"
+        },
+        {
+          "source_id": "688188-bf8b8265bc605711",
+          "location": "PDF物理第109页，合并收入比较栏第2数值列，文本行41"
+        }
+      ],
+      "support_boundary": "两份同范围原件的年度收入列核对一致。早期主营业务收入按当时列名保留。",
+      "effective_state": "Fact",
+      "binding": "0d9c56b9fdba7f2aff2706a9c24012b546583cf703832fa61523e0dfceedd7ee",
+      "issues": [],
+      "verifier": "agent",
+      "confirmation_event": "E000057",
+      "human_confirmation": false
+    },
+    {
+      "company": "688188_柏楚电子",
+      "tag": "Fact",
+      "id": "R15-2021-REV",
+      "kind": "disclosure",
+      "state": "Unknown",
+      "value": "913439700.70",
+      "claim": "年度集团合并收入",
+      "scope": {
+        "period": "2021-FY",
+        "entity": "柏楚电子",
+        "basis": "年度集团合并收入",
+        "definition": "营业总收入",
+        "unit": "人民币元",
+        "currency": "CNY"
+      },
+      "sources": [
+        {
+          "source_id": "688188-bf8b8265bc605711",
+          "location": "PDF物理第109页，IS，营业总收入，第1数值列，文本行41"
+        },
+        {
+          "source_id": "688188-be6a5c9bc7b468ca",
+          "location": "PDF物理第102页，合并收入比较栏第2数值列，文本行41"
+        }
+      ],
+      "support_boundary": "两份同范围原件的年度收入列核对一致。早期主营业务收入按当时列名保留。",
+      "effective_state": "Fact",
+      "binding": "316cf4864404e2ccfff36449462168593071d2b25e7bdaaf04ed8867e1661061",
+      "issues": [],
+      "verifier": "agent",
+      "confirmation_event": "E000059",
+      "human_confirmation": false
+    },
+    {
+      "company": "688188_柏楚电子",
+      "tag": "Fact",
+      "id": "R15-2022-REV",
+      "kind": "disclosure",
+      "state": "Unknown",
+      "value": "898491949.44",
+      "claim": "年度集团合并收入",
+      "scope": {
+        "period": "2022-FY",
+        "entity": "柏楚电子",
+        "basis": "年度集团合并收入",
+        "definition": "营业总收入",
+        "unit": "人民币元",
+        "currency": "CNY"
+      },
+      "sources": [
+        {
+          "source_id": "688188-be6a5c9bc7b468ca",
+          "location": "PDF物理第102页，IS，营业总收入，第1数值列，文本行41"
+        },
+        {
+          "source_id": "688188-d931e02dd1c67f13",
+          "location": "PDF物理第105页，合并收入比较栏第2数值列，文本行23"
+        }
+      ],
+      "support_boundary": "两份同范围原件的年度收入列核对一致。早期主营业务收入按当时列名保留。",
+      "effective_state": "Fact",
+      "binding": "523977ae8bf0e1c1b8b943ee41ae4da2d38bba96786acbb45ae59f169d3b41e8",
+      "issues": [],
+      "verifier": "agent",
+      "confirmation_event": "E000061",
+      "human_confirmation": false
+    }
+  ],
+  "market_observation": {
+    "ticker": "688188.SH",
+    "exchange": "上海证券交易所科创板",
+    "right": "人民币普通股 A股",
+    "quote": "CNY",
+    "report": "CNY",
+    "shares": 405984426,
+    "fx": 1,
+    "close": "2026-11-12T15:00:00+08:00",
+    "shares_basis": "6月股本基数405,557,343，10月28日完成归属登记增加427,083股。用登记后的同日证券权利。",
+    "shares_at": "2026-10-28",
+    "as_of": "2026-11-12",
+    "tag": "市场观测"
+  },
+  "decision": {
+    "tag": "实际投资决定",
+    "status": "未记录",
+    "value": null
+  }
+}
